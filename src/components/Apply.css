@@ -1,0 +1,8 @@
+.apply-h1{
+    margin-top: 90px;
+}
+@media(max-width:991px){
+    .apply-h1{
+        margin-top: 70px;
+    }
+}
