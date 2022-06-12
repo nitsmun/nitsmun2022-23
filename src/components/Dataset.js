@@ -43,10 +43,6 @@ export const Articledata = [
         Content:"JANUARY:                                                                                                                                                                                                    The Year began with COVID-19 cases worldwide surpassing the mark of 100 million, and the WHO urging effective and fair use of covid vaccines. Developments in space included the USA’s plan to set up the first nuclear reactor on the moon by the end of 2026. On January 20, 2021, Biden was sworn in by U.S. Chief Justice John Roberts as the 46th president of the United States. The United States, before the formal transition of the President’s office from Trump to Biden, designated the Kingdom of Bahrain and the United Arab Emirates (UAE) as the major strategic partners of the country.",
     },
 ];
-
-
-
-
 export const Secretariat = [
         {
             id: 1,
@@ -136,15 +132,229 @@ export const Secretariat = [
             name: "Sunil Kumar Mulkala",
             post: "Director Logistics",
         },
-        {
-            id: 12,
+        
+];
+export const Secretariatjr = [
+    {
+            id: 1,
             cName: "team-sec",
             imgsrc: "./Images/eishaHalder.jpeg",
             alt:"Eisha Halder",
             name: "Eisha Halder",
             post: "Deputy Director General",
-        }
-
+    },
+    {
+            id: 2,
+            cName: "team-sec",
+            imgsrc: "./Images/marufPadaya.jpg",
+            alt:"Maruf Padaya",
+            name: "Maruf Padaya",
+            post: "Deputy Director General",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/pranjalKumarSingh.jpg",
+        alt:"Pranjal Kumar Singh",
+        name: "Pranjal Kumar Singh",
+        post: "Deputy Director General",
+    },
+    {
+        id: 4,
+        cName: "team-sec",
+        imgsrc: "./Images/ritupornaDas.jpg",
+        alt:"Rituporna Das",
+        name: "Rituporna Das",
+        post: "Deputy Director General",
+    },
+    {
+        id: 5,
+        cName: "team-sec",
+        imgsrc: "./Images/reetomRanaDutta.jpg",
+        alt:"Reetom Rana Dutta",
+        name: "Reetom Rana Dutta",
+        post: "Deputy Director Media & Design",
+    },
+    {
+        id: 6,
+        cName: "team-sec",
+        imgsrc: "./Images/sauravChanda.jpg",
+        alt:"Saurav Chanda",
+        name: "Saurav Chanda",
+        post: "Deputy Director Media & Design",
+    },
+    {
+        id: 7,
+        cName: "team-sec",
+        imgsrc: "./Images/mrigangaJyotiChutia.jpg",
+        alt:"Mriganga Jyoti Chutia",
+        name: "Mriganga Jyoti Chutia",
+        post: "Deputy Director Media & Design",
+    },
+    {
+        id: 8,
+        cName: "team-sec",
+        imgsrc: "./Images/bishalKarmakar.jpg",
+        alt:"Bishal Karmakar",
+        name: "Bishal Karmakar",
+        post: "Deputy Director Public Relations & Outreach",
+    },
+    {
+        id: 9,
+        cName: "team-sec",
+        imgsrc: "./Images/somadritaHalder.jpg",
+        alt:"Somadrita Halder",
+        name: "Somadrita Halder",
+        post: "Deputy Director Public Relations & Outreach",
+    },
+    {
+        id: 10,
+        cName: "team-sec",
+        imgsrc: "./Images/dhirazitHazarika.png",
+        alt:"Dhirazit Hazarika",
+        name: "Dhirazit Hazarika",
+        post: "Deputy Director Liaison & Delegate Affairs",
+    },
+    {
+        id: 11,
+        cName: "team-sec",
+        imgsrc: "./Images/tanmayTripathy.jpg",
+        alt:"Tanmay Tripathy",
+        name: "Tanmay Tripathy",
+        post: "Deputy Director Liaison & Delegate Affairs",
+    },
+    {
+        id: 12,
+        cName: "team-sec",
+        imgsrc: "./Images/sauravPal.jpg",
+        alt:"Saurav Pal",
+        name: "Saurav Pal",
+        post: "Deputy Director Technical Operations",
+    },
+    {
+        id: 13,
+        cName: "team-sec",
+        imgsrc: "./Images/bijuBorah.jpg",
+        alt:"Biju Borah",
+        name: "Biju Borah",
+        post: "Deputy Director Technical Operations",
+    },
+    {
+        id: 14,
+        cName: "team-sec",
+        imgsrc: "./Images/devendarSainadhGorla.JPG",
+        alt:"Devendar Sainadh Gorla",
+        name: "Devendar Sainadh Gorla",
+        post: "Deputy Director Logistics",
+    },
+    {
+        id: 15,
+        cName: "team-sec",
+        imgsrc: "./Images/sauravSuman.jpg",
+        alt:"Saurav Suman",
+        name: "Saurav Suman",
+        post: "Deputy Director Logistics",
+    },
+];
+export const Secretariatmediajr = [
+    {
+        id: 1,
+        cName: "team-sec",
+        imgsrc: "./Images/rimleeGhosh.jpg",
+        alt:"Rimlee Ghosh",
+        name: "Rimlee Ghosh",
+        post: "Media & Design Team",
+    },
+    {
+        id: 2,
+        cName: "team-sec",
+        imgsrc: "./Images/Akshita.jpg",
+        alt:"Akshita Hazarika",
+        name: "Akshita Hazarika",
+        post: "Media & Design Team",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/masoomSahu.png",
+        alt:"Masoom Sahu",
+        name: "Masoom Sahu",
+        post: "Media & Design Team",
+    },
+    {
+        id: 4,
+        cName: "team-sec",
+        imgsrc: "./Images/ranjanKapar.jpg",
+        alt:"Ranjan Kr Kapar",
+        name: "Ranjan Kr Kapar",
+        post: "Media & Design Team",
+    },
+];
+export const Secretariatresearchjr = [
+    {
+        id: 1,
+        cName: "team-sec",
+        imgsrc: "./Images/vishesh.jpg",
+        alt:"Vishesh",
+        name: "Vishesh",
+        post: "Research and Development Team",
+    },
+    {
+        id: 2,
+        cName: "team-sec",
+        imgsrc: "./Images/shretimaGarg.jpg",
+        alt:"Shretima Garg",
+        name: "Shretima Garg",
+        post: "Research and Development Team",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/chimronSaikia.jpg",
+        alt:"Chimron Saikia",
+        name: "Chimron Saikia",
+        post: "Research and Development Team",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/aditiArchita.jpg",
+        alt:"Aditi Archita Khataniar",
+        name: "Aditi Archita Khataniar",
+        post: "Research and Development Team",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/aditiArchita.jpg",
+        alt:"Aditi Archita Khataniar",
+        name: "Aditi Archita Khataniar",
+        post: "Research and Development Team",
+    },
+    {
+        id: 4,
+        cName: "team-sec",
+        imgsrc: "./Images/ronakJain.jpg",
+        alt:"Ronak Jain",
+        name: "Ronak Jain",
+        post: "Research and Development Team",
+    },
+    {
+        id: 5,
+        cName: "team-sec",
+        imgsrc: "./Images/surajKumar.jpg",
+        alt:"Suraj Kumar Pampana",
+        name: "Suraj Kumar Pampana",
+        post: "Research and Development Team",
+    },
+    {
+        id: 6,
+        cName: "team-sec",
+        imgsrc: "./Images/hrishikeshBorah.jpg",
+        alt:"Hrishikesh Borah",
+        name: "Hrishikesh Borah",
+        post: "Research and Development Team",
+    },
 ];
 
 
