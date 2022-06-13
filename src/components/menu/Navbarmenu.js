@@ -30,12 +30,10 @@ const Navbarmenu = () => {
     <header className="header__middle">
         <div className="container">
             <div className="row">
-                {/* Add Logo  */}
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
-                    {/* <span><img className='img-addn'src="./Images/logo-nitsmun.png" alt="" /></span> */}
-                        <img className="img-left0" src="./Images/nitsmun.png" alt="logo" />
-                        <img className="img-left" src="https://nitsmun.in/img/logo.svg" alt="logo" />
+                        <img className="img-left0" src="./Images/nitsmun.png" alt="Nitsmun-logo" />
+                        <img className="img-left" src="https://nitsmun.in/img/logo.svg" alt="Nitsmun-logo" />
                     </NavLink>
                 </div>
                 <div className="header__middle__menus">
@@ -68,5 +66,4 @@ const Navbarmenu = () => {
     </header>
     )
 }
-
 export default Navbarmenu
