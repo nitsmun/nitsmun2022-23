@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.not-found{
+    width: 60%;
+    margin: 15vh auto 2vh;
+}
+.no-exist{
+    font-family: 'Pacifico', cursive;
+    margin-top:5vh;
+    color: #161c2f;
+    font-size: 8vh;
+}

@@ -1,0 +1,28 @@
+.event-pic img{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.event-pic {
+    margin-bottom: 25px;
+}
+.event-title h1{
+    color: #1994a5;
+    font-weight: bolder;
+    font-size: 5vh;
+}
+.event-title{
+    border-bottom: 0.2vh solid #1994a5;
+    width: 60%;
+    text-align: center;
+    margin: 5vh auto 2vh;
+}
+.event-details{
+    margin: 35.448px 112.975px 0;
+    color: #161c2f;
+    font-size: 2.3vh;
+}

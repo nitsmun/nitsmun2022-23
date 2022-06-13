@@ -9,6 +9,7 @@ import Workshop from './components/Workshop';
 import Team from './components/Team';
 import Articles from './components/Articles';
 import Apply from './components/Apply';
+import Notfound from './components/Notfound';
 
 import Navbarmenu from './components/menu/Navbarmenu';
 
@@ -28,8 +29,7 @@ function App() {
           <Route path="/Team" component={Team} />
           <Route path="/Articles" component={Articles} />
           <Route path="/Apply" component={Apply} />
-
-          
+          <Route path="*"> <Notfound /></Route>
         </Switch>
       </Router>
 
