@@ -38,11 +38,16 @@
 .img-left{
   float: left;
   max-height: 120px;
-}
-.img-left{
   max-width: 100%;
   height: 50px;
 }
+.img-left0{
+  float: left;
+  max-height: 120px;
+  max-width: 100%;
+  height: 50px;
+}
+
 .is-active {
   color: #f44336!important;
 }
@@ -177,12 +182,17 @@ li {
   max-width: 207px;
   margin-top:5px;
 }
+.img-left0{
+  max-width: 207px;
+  margin-top:5px;
+}
 
 @media(max-width:991px){
 .header__middle__logo {
       width: 77%; }
 .header__middle__menus {width: 20%;}
 .img-left {max-width: 197px;margin: 3px 0 0 0;}
+.img-left0 {max-width: 197px;margin: 3px 0 0 0;}
 .main-nav .menubar__button:hover {background-color: #1994a5;}                    
 .main-nav .menu-item:hover > a {color: #07a8ff !important}
 .main-nav .menubar__button {
