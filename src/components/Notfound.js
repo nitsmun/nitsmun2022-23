@@ -5,10 +5,18 @@ export default function(){
     return(
         <>
         <div className="not-found">
-            <h2>Sorry</h2>
-            <p className="no-exist">Sorry – we haven’t been able to serve the page you asked for.</p>
-            <p>You may have followed an outdated link, or have mistyped a URL.</p>
-            <Link to="/">Back to the Homepage...</Link>
+            <div className="no-existence">
+            <h1 className="no-existence1"> 404
+            </h1>
+            </div>
+            <div className="not-found-text">
+            <h1>Whoops, page not found</h1>
+            <h2>We can’t seem to find the page you’re looking for</h2>
+            </div>
+            <div className="notfound-tohome">
+                <Link className="tohome" to="/">Go To Homepage</Link>
+            </div>
+            
         </div>
         </>
     )

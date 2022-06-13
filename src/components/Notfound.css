@@ -1,11 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .not-found{
-    width: 60%;
-    margin: 15vh auto 2vh;
+    width: 100%;
+    background-color: rgb(4,4,4);
+    margin-top: 50px;
+    padding-top: 130px;
+    height: 100%;
 }
-.no-exist{
-    font-family: 'Pacifico', cursive;
-    margin-top:5vh;
-    color: #161c2f;
-    font-size: 8vh;
+.no-existence{
+    text-align: center;
+}
+.no-existence1{
+    color: whitesmoke;
+    font-size: 200px;
+}
+.not-found-text h1{
+    color: whitesmoke;
+    font-size: 4.5vh;
+}
+.not-found-text h2{
+    color: whitesmoke;
+    font-size: 4vh;
+    padding-top: 4vh;
+}
+.not-found-text{
+    text-align: center;
+    margin-top: 5vh;
+}
+.notfound-tohome{
+    text-align: center;
+    margin-top: 4vh;
+}
+.tohome{
+    color: #1887f2;
+}
+.tohome:hover{
+        color: blueviolet;
+}
+@media (min-width:992px){
+    .not-found-text h1{
+        padding: 0 30px;
+        font-size: 3vh;
+    }
 }
