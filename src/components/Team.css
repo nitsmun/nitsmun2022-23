@@ -17,7 +17,7 @@
 
 .team-img{
     width: 200px;
-    border-radius: 50%;
+    /* border-radius: 25px; */
     padding: 20px ;
     overflow: hidden;
 }

@@ -33,8 +33,8 @@ const Navbarmenu = () => {
                 {/* Add Logo  */}
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
-                    <span><img className='img-addn'src="./Images/logo-nitsmun.png" alt="" /></span>
-                        <span><img src="https://nitsmun.in/img/logo.svg" alt="logo" /></span>
+                    {/* <span><img className='img-addn'src="./Images/logo-nitsmun.png" alt="" /></span> */}
+                        <img className="img-left" src="https://nitsmun.in/img/logo.svg" alt="logo" />
                     </NavLink>
                 </div>
                 <div className="header__middle__menus">

@@ -9,13 +9,11 @@
    background-color: #161c2f;
    position: fixed;
    z-index: 1;
-   /* position: sticky; */
+   box-shadow: 0 0 2vh 0 #161c2f;
+   
 
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 .img-addn{
   width: 90px;
 }
@@ -33,9 +31,17 @@ img {
   color: #161c2f;
   font-family: 'Inter', sans-serif;
 }
-.navBar .logo img {
+.navBar .logo{
   float: left;
   max-height: 120px;
+}
+.img-left{
+  float: left;
+  max-height: 120px;
+}
+.img-left{
+  max-width: 100%;
+  height: 50px;
 }
 .is-active {
   color: #f44336!important;
@@ -69,7 +75,7 @@ li {
   position: relative;
   display: block;
   color: white;
-  margin: 27px 17px;
+  margin: 10px 23px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -77,11 +83,13 @@ li {
   width: 20%;
   display: inline-block;
   float: left;
+  padding-top: 0rem;
 }
 .header__middle__menus {
   width: 70%;
   display: inline-block;
   float: left;
+  
 }
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
@@ -122,7 +130,7 @@ li {
 .sub__menus__arrows svg, .sub__menus__arrows__full svg{
   padding-top: 0px;
   position: absolute;
-  top: 13px;
+  top: 10px;
 }
 .sub__menus {
   position: absolute;
@@ -130,7 +138,7 @@ li {
   background: #161c2f;
   border: 2px solid lavender;
   border-radius: 20px;
-  top: 80px;
+  top: 50px;
   width: 227px;
   left: -17px;
   padding: 2px 0 0 0;
@@ -165,16 +173,17 @@ li {
   color: #1994ab !important;
 }
 
-.header__middle__logo img{
+.img-left{
   max-width: 207px;
-  margin: 17px 0 0 0;
+  margin-top:5px;
 }
 
 @media(max-width:991px){
-.header__middle__logo {width: 77%;}
+.header__middle__logo {
+      width: 77%; }
 .header__middle__menus {width: 20%;}
-.header__middle__logo img {max-width: 197px;margin: 10px 0 0 0;}
-.main-nav .menubar__button:hover {background-color: #f44336;}                    
+.img-left {max-width: 197px;margin: 3px 0 0 0;}
+.main-nav .menubar__button:hover {background-color: #1994a5;}                    
 .main-nav .menu-item:hover > a {color: #07a8ff !important}
 .main-nav .menubar__button {
   display: block!important;
@@ -183,7 +192,7 @@ li {
   color: #fff;
   padding: 6px 7px;
   border-radius: 5px;
-  margin: 17px auto 0;
+  margin-top: 5px;
   cursor: pointer;
   position: relative;
   z-index: 10037;
@@ -195,7 +204,7 @@ li {
   left: 0;
   z-index: 10007;
   background-color: #161c2f;
-  border-bottom: 3px solid #ff3d00;
+  border-bottom: 3px solid #1994a5;
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;

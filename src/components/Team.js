@@ -18,11 +18,11 @@ export default function Team(){
                        <div key={item.id} className="team-stats">
                        <div className="img-hold">
                            <center><img className="team-img" src={item.imgsrc} alt="" /></center>
-                           </div>
+                        </div>
                        <h1>{item.name}</h1>
                        <h2 className="team-posting-sec">{item.post}</h2>
                        {/* <br /> <br /> <hr /> */}
-        </div>
+                    </div>
                )
            })}
            </div>
