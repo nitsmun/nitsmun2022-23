@@ -1,7 +1,6 @@
 import React from "react";
 import './Teamresearchjr.css';
 import { Secretariatresearchjr } from './Dataset';
-import Teamjr from "./Teamjr";
 import Teammediajr from "./Teammediajr";
 
 export default function Team(){

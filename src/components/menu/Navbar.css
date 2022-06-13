@@ -16,6 +16,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-addn{
+  width: 90px;
+}
 
 .sec__one {
     position: relative;
