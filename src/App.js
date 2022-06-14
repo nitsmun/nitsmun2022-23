@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import './App.css';
-
 import Home from './components/Home';
 import About from './components/About';
 import Juniormun from './components/Juniormun';
@@ -10,17 +9,14 @@ import Team from './components/Team';
 import Articles from './components/Articles';
 import Apply from './components/Apply';
 import Notfound from './components/Notfound';
-
 import Navbarmenu from './components/menu/Navbarmenu';
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div>
       <Router basename="/">
-
         {/* Add Menu Component */}
         <Navbarmenu />
-        
         <Switch> 
           <Route exact path="/" component={Home}/>
           <Route path="/About" component={About}/>
@@ -31,10 +27,9 @@ function App() {
           <Route path="/Apply" component={Apply} />
           <Route path="*"> <Notfound /></Route>
         </Switch>
+        <ScrollToTop />
       </Router>
-
     </div>
   );
 }
-
 export default App;

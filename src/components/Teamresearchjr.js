@@ -1,30 +1,25 @@
 import React from "react";
 import './Teamresearchjr.css';
 import { Secretariatresearchjr } from './Dataset';
-import Teammediajr from "./Teammediajr";
-
-export default function Team(){
+export default function(){
     return(
            <>
-           <div className="team-head">
-           <h1>Research & Development Team</h1> <hr />
+           <div className="team-head3">
+           <h1 className="team-head-h1">Research & Development Team</h1>
            </div>
-           <row>
-        <div className="team-stats-card">
+        <div className="team-stats-card3">
            {Secretariatresearchjr.map((item) => {
                return(
-                       <div key={item.id} className="team-stats">
-                       <div className="img-hold">
-                           <center><img className="team-img" src={item.imgsrc} alt="" /></center>
-                           </div>
+                       <div key={item.id} className="team-stats3">
+                       <div>
+                           <center><img className="team-img3" src={item.imgsrc} alt="" /></center>
+                        </div>
                        <h1>{item.name}</h1>
                        <h2 className="team-posting-sec">{item.post}</h2>
-                       {/* <br /> <br /> <hr /> */}
-        </div>
+                    </div>
                )
            })}
            </div>
-           </row>
            </>
     )
 }

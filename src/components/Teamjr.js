@@ -1,28 +1,22 @@
 import React from "react";
 import './Teamjr.css';
 import { Secretariatjr } from './Dataset';
-export default function Team(){
+export default function(){
     return(
            <>
-           {/* <div className="team-head">
-           <h1>Secretariat</h1> <hr />
-           </div> */}
-           <row>
-        <div className="team-stats-card">
+        <div className="team-stats-card1">
            {Secretariatjr.map((item) => {
                return(
-                       <div key={item.id} className="team-stats">
-                       <div className="img-hold">
-                           <center><img className="team-img" src={item.imgsrc} alt="" /></center>
-                           </div>
+                       <div key={item.id} className="team-stats1">
+                       <div className="img-hold1">
+                           <center><img className="team-img1" src={item.imgsrc} alt="" /></center>
+                        </div>
                        <h1>{item.name}</h1>
-                       <h2 className="team-posting-sec">{item.post}</h2>
-                       {/* <br /> <br /> <hr /> */}
-        </div>
+                       <h2 className="team-posting-sec1">{item.post}</h2>
+                    </div>
                )
            })}
            </div>
-           </row>
            </>
     )
 }

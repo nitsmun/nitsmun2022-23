@@ -1,0 +1,28 @@
+import React, { useEffect, useState } from 'react';
+import './index.css';
+import {useWindowScroll } from "react-use";
+
+
+
+const ScrollToTop = () => {
+    const {y: pageYOffset } =useWindowScroll();
+    const [visible, setVisibility] = useState(false);
+    useEffect(() => {
+        if (pageYOffset > 400){
+            setVisibility(true);
+        } else {
+            setVisibility(false);
+        }
+    }, [pageYOffset]);
+    const ScrollToTop = () => window.scrollTo({ top:0, behavior: "smooth"});
+    if (!visible) {
+        return false;
+    }
+  return (
+    <div className="scroll-to-top cursor-pointer text-center" onClick={ScrollToTop}>
+        <i className="icon fas fa-chevron-up"></i>
+        {/* <FontAwesomeIcon icon="fa-solid fa-chevron-up" /> */}
+    </div>
+  )
+}
+export default ScrollToTop

@@ -1,32 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-.team-head{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.team-head2{
+    width: 89%;
+    border-bottom: 3px solid #1994a5;
     text-align: center;
-    padding: 50px 0 10px 0;
-    
+    margin: 13vh auto 2vh auto;
+    border-radius: 4px;
 }
-.team-head h1{
+.team-head2 h1{
     font-size: 50px;
     font-weight: 900;
     font-style: italic;
     color: #1994ab;
-    text-decoration: underline;
-    font-family: 'Permanent Marker', cursive;
-    /* text-decoration: solid 10px;
-    text-decoration-color: #1994ab; */
+    font-family: 'Pacifico', cursive;
 }
-
-.team-img{
+.team-img2{
     width: 200px;
     border-radius: 50%;
-    padding: 20px ;
+    padding: 20px;
     overflow: hidden;
 }
-/* .team-img:hover{
-    transform: scale(1.2);
-} */
-.team-stats-card{
+.team-stats-card2{
     display: flex;
-    /* width: 100%; */
     width: 97.5%;
     position: relative;
     justify-content: center;
@@ -34,70 +28,67 @@
     flex-wrap: wrap;
     padding: 20px 50px 30px 50px;
 }
-.team-stats{
+.team-stats2{
     background-color: #161c2f;
     margin: 20px;
     border-radius: 20px;
     transition: 1s ease-out;
     box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f;
-    aspect-ratio: 2/3;
+    /* aspect-ratio: 2/3; */
     width: 19.5%;
     position: relative;
 }
-.team-stats:hover{
+.team-stats2:hover{
     transform: scale(1.05);
     box-shadow: 0px 4px 8px 0 #1994ab, 0 6px 20px 0 #1994ab;
 }
-.team-stats h1{
+.team-stats2 h1{
     padding: 40px 0;
     text-align: center;
     color: #1994ab;
     font-size: 1.1rem;
 }
-.team-stats h2{
+.team-stats2 h2{
     color: white;
     font-size: 1.0rem;
     text-align: center;
     padding: 10px 10px;
 }
 @media screen and (max-width: 992px){
-    .team-stats{
-        width: 43%;
-    margin: 2vw;
-    border-radius: 45px;
-    border-radius: 1.5vw;
-    /* border: 0.1vw solid var(--theme7-100); */
-    padding: 2.5vw 2vw;
-    }
-    .team-stats-card{
+    .team-head2{
+        margin:7vh auto 2vh auto;
+        font-size: 6vw;
+        width: 95%;
+        }
+        .team-head2 h1{
+            font-size: 40px;
+            font-weight: 1000;
+            font-style: oblique;
+            margin-top: 50px;
+        }
+    .team-stats-card2{
         padding: 1vw 0;
     }
-    .team-head{
-        margin:70px auto 8vw auto;
-    font-size: 6vw;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    .team-stats2{
+    width: 43%;
+    margin: 2vw;
+    border-radius: 10vw;
+    padding: 2.5vw 2vw;
     }
-    .team-head h1{
-        font-size: 40px;
-        font-weight: 1000;
-        font-style: oblique;
-        margin-top: 50px;
-    }
-    .team-img{
+    .team-img2{
         width: 95%;
     aspect-ratio: 1/1;
     border-radius: 50%;
+    padding: 10px;
     }
-    .team-stats h1{
-        margin-top: 4vw;
-    font-size: 3.5vw;
+    .team-stats2 h1{
+    font-size: 3vw;
+    padding: 10px 0;
     }
-    .team-posting-sec{
-        margin-top: 2.5vw;
-    font-size: 2.8vw;
+    /* .team-posting-sec{
+    margin-top: 1vw;
+    font-size: 1000px;
     padding: 0 1.5vw;
-    }
+    } */
 }
 

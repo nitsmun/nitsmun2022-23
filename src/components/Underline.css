@@ -1,0 +1,8 @@
+.line{
+    width: 94%;
+    border-top: 3px solid #1994a5;
+    height: 6px;
+    text-align: center;
+    margin: 1vh auto 1vh;
+    border-radius: 4px;
+}

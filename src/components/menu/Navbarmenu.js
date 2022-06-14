@@ -3,6 +3,17 @@ import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import './Navbar.css';
 const Navbarmenu = () => {
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 93){
+            setColor(true)
+        } else{
+            setColor(false)
+        }
+    }
+    window.addEventListener('scroll', changeColor)
+
+
     const [isMenu, setisMenu] = useState(false);
     const [isResponsiveclose, setResponsiveclose] = useState(false);
     const toggleClass = () => {
@@ -28,7 +39,7 @@ const Navbarmenu = () => {
     }
     return (
     <header className="header__middle">
-        <div className="container">
+        <div className={color ? 'container container-bg' : 'container'}>
             <div className="row">
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">

@@ -1,32 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-.team-head{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.team-head0{
+    width: 89%;
+    border-bottom: 3px solid #1994a5;
     text-align: center;
-    padding: 110px 0 40px 0;
-    
+    margin: 13vh auto 2vh auto;
+    border-radius: 4px;
 }
-.team-head h1{
+.team-head0 h1{
     font-size: 50px;
     font-weight: 900;
     font-style: italic;
     color: #1994ab;
-    text-decoration: underline;
-    font-family: 'Permanent Marker', cursive;
-    /* text-decoration: solid 10px;
-    text-decoration-color: #1994ab; */
+    font-family: 'Pacifico', cursive;
 }
-
 .team-img{
     width: 200px;
-    /* border-radius: 25px; */
-    padding: 20px ;
+    border-radius: 50%;
+    padding: 20px;
     overflow: hidden;
 }
-/* .team-img:hover{
-    transform: scale(1.2);
-} */
 .team-stats-card{
     display: flex;
-    /* width: 100%; */
     width: 97.5%;
     position: relative;
     justify-content: center;
@@ -40,7 +34,7 @@
     border-radius: 20px;
     transition: 1s ease-out;
     box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f;
-    aspect-ratio: 2/3;
+    /* aspect-ratio: 2/3; */
     width: 19.5%;
     position: relative;
 }
@@ -61,43 +55,40 @@
     padding: 10px 10px;
 }
 @media screen and (max-width: 992px){
-    .team-stats{
-        width: 43%;
-    margin: 2vw;
-    border-radius: 45px;
-    border-radius: 1.5vw;
-    /* border: 0.1vw solid var(--theme7-100); */
-    padding: 2.5vw 2vw;
-    }
+    .team-head0{
+        margin:7vh auto 2vh auto;
+        font-size: 6vw;
+        width: 95%;
+        }
+        .team-head0 h1{
+            font-size: 40px;
+            font-weight: 1000;
+            font-style: oblique;
+            margin-top: 50px;
+        }
     .team-stats-card{
         padding: 1vw 0;
     }
-    .team-head{
-        margin:70px auto 8vw auto;
-    font-size: 6vw;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    }
-    .team-head h1{
-        font-size: 40px;
-        font-weight: 1000;
-        font-style: oblique;
-        margin-top: 50px;
+    .team-stats{
+    width: 43%;
+    margin: 2vw;
+    border-radius: 10vw;
+    padding: 2.5vw 2vw;
     }
     .team-img{
         width: 95%;
     aspect-ratio: 1/1;
     border-radius: 50%;
+    padding: 10px;
     }
     .team-stats h1{
-        margin-top: 4vw;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    padding: 10px 0;
     }
-    .team-posting-sec{
-        margin-top: 2.5vw;
-    font-size: 2.8vw;
+    /* .team-posting-sec{
+    margin-top: 1vw;
+    font-size: 1000px;
     padding: 0 1.5vw;
-    }
+    } */
 }
 

@@ -5,10 +5,13 @@
     top: 0;
 	margin-right:auto;
 	margin-left:auto;
-   background-color: #161c2f;
+   background-color: #000000;
    position: fixed;
    z-index: 1;
    box-shadow: 0 0 2vh 0 #161c2f;
+}
+.container-bg{
+background-color: #161c2f;
 }
 .sec__one {
     position: relative;

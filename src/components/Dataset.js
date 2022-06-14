@@ -268,7 +268,7 @@ export const Secretariatmediajr = [
     {
         id: 2,
         cName: "team-sec",
-        imgsrc: "./Images/Akshita.jpg",
+        imgsrc: "./Images/Akshita1.jpg",
         alt:"Akshita Hazarika",
         name: "Akshita Hazarika",
         post: "Media & Design Team",
@@ -294,7 +294,7 @@ export const Secretariatresearchjr = [
     {
         id: 1,
         cName: "team-sec",
-        imgsrc: "./Images/vishesh.jpg",
+        imgsrc: "./Images/vishesh1.jpg",
         alt:"Vishesh",
         name: "Vishesh",
         post: "Research and Development Team",
@@ -302,7 +302,7 @@ export const Secretariatresearchjr = [
     {
         id: 2,
         cName: "team-sec",
-        imgsrc: "./Images/shretimaGarg.jpg",
+        imgsrc: "./Images/shretimaGarg1.jpg",
         alt:"Shretima Garg",
         name: "Shretima Garg",
         post: "Research and Development Team",
@@ -310,7 +310,7 @@ export const Secretariatresearchjr = [
     {
         id: 3,
         cName: "team-sec",
-        imgsrc: "./Images/chimronSaikia.jpg",
+        imgsrc: "./Images/chimronSaikia1.jpg",
         alt:"Chimron Saikia",
         name: "Chimron Saikia",
         post: "Research and Development Team",
@@ -318,7 +318,7 @@ export const Secretariatresearchjr = [
     {
         id: 4,
         cName: "team-sec",
-        imgsrc: "./Images/aditiArchita.jpg",
+        imgsrc: "./Images/aditiArchita2.jpg",
         alt:"Aditi Archita Khataniar",
         name: "Aditi Archita Khataniar",
         post: "Research and Development Team",
@@ -346,6 +346,56 @@ export const Secretariatresearchjr = [
         alt:"Hrishikesh Borah",
         name: "Hrishikesh Borah",
         post: "Research and Development Team",
+    },
+];
+export const Secretariatprjr = [
+    {
+        id: 1,
+        cName: "team-sec",
+        imgsrc: "./Images/Nihal singh2.jpeg",
+        alt:"Nihal Singh",
+        name: "Nihal singh",
+        post: "Public Relations & Outreach Team",
+    },
+    {
+        id: 2,
+        cName: "team-sec",
+        imgsrc: "./Images/sayantanDas.jpeg",
+        alt:"Sayan Kangsa Banik",
+        name: "Sayan Kangsa Banik",
+        post: "Public Relations & Outreach Team",
+    },
+    {
+        id: 3,
+        cName: "team-sec",
+        imgsrc: "./Images/sayantanDas.jpeg",
+        alt:"Chayan Gulgulia",
+        name: "Chayan Gulgulia",
+        post: "Public Relations & Outreach Team",
+    },
+    {
+        id: 4,
+        cName: "team-sec",
+        imgsrc: "./Images/rohit1.png",
+        alt:"Rohit Choudhary",
+        name: "Rohit Choudhary",
+        post: "Public Relations & Outreach Team",
+    },
+    {
+        id: 5,
+        cName: "team-sec",
+        imgsrc: "./Images/priyanshuJayant.jpeg",
+        alt:"Priyanshu Jayant",
+        name: "Priyanshu Jayant",
+        post: "Public Relations & Outreach Team",
+    },
+    {
+        id: 6,
+        cName: "team-sec",
+        imgsrc: "./Images/mayukhBhattacharya1.jpg",
+        alt:"Mayukh Bhattacharya",
+        name: "Mayukh Bhattacharya",
+        post: "Public Relations & Outreach Team",
     },
 ];
 
