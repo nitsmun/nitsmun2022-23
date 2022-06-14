@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './index.css';
 import {useWindowScroll } from "react-use";
-
-
-
 const ScrollToTop = () => {
     const {y: pageYOffset } =useWindowScroll();
     const [visible, setVisibility] = useState(false);
@@ -21,7 +18,6 @@ const ScrollToTop = () => {
   return (
     <div className="scroll-to-top cursor-pointer text-center" onClick={ScrollToTop}>
         <i className="icon fas fa-chevron-up"></i>
-        {/* <FontAwesomeIcon icon="fa-solid fa-chevron-up" /> */}
     </div>
   )
 }

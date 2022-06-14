@@ -2,7 +2,8 @@
 
 .not-found{
     width: 100%;
-    background-color: rgb(4,4,4);
+    /* background-color: rgb(4,4,4); */
+    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
     /* margin-top: 3vh; */
     padding-top: 130px;
     height:100vh;
@@ -33,7 +34,7 @@
     margin-top: 4vh;
 }
 .tohome{
-    color: #1887f2;
+    color: #161c2f;
 }
 .tohome:hover{
         color: blueviolet;

@@ -5,13 +5,13 @@
     top: 0;
 	margin-right:auto;
 	margin-left:auto;
-   background-color: #000000;
+   background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
    position: fixed;
    z-index: 1;
-   box-shadow: 0 0 2vh 0 #161c2f;
+   box-shadow: 0 0 2vh 0 #360940;
 }
 .container-bg{
-background-color: #161c2f;
+background: #430c4f;
 }
 .sec__one {
     position: relative;
@@ -75,7 +75,7 @@ li {
   position: relative;
   display: block;
   color: white;
-  margin: 10px 23px;
+  margin: 10px 19px;
   text-decoration: none;
   cursor: pointer;
 }

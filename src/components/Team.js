@@ -6,6 +6,7 @@ import Underline from "./Underline";
 import Teammediajr from "./Teammediajr";
 import Teamresearchjr from "./Teamresearchjr";
 import Teampr from "./Teampr";
+import Teamweb from "./Teamweb";
 export default function(){
     return(
            <>
@@ -30,6 +31,7 @@ export default function(){
            <Teammediajr />
            <Teamresearchjr />
            <Teampr />
+           <Teamweb />
            </>
     )
 }
