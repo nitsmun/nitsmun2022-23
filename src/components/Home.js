@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 const Home = () => {
 	return (
-        <div className="sec__one">
-			<h1> Home </h1>
-        </div>
+       <>
+       <div className="home1">
+        <img src="./Images/homebg.jpeg" alt="" />
+       </div>
+       </>
        )
 }
 export default Home

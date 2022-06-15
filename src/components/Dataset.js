@@ -376,7 +376,7 @@ export const Secretariatmediajr = [
     {
         id: 5,
         cName: "team-sec",
-        imgsrc: "",
+        imgsrc: "./Images/Amrita kashyap.jpeg",
         alt:"Amrita Kashyap",
         name: "Amrita Kashyap",
         post: "Media & Design Team",
