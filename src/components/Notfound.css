@@ -6,7 +6,7 @@
     background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
     /* margin-top: 3vh; */
     padding-top: 130px;
-    height:100vh;
+    height:95vh;
     overflow: hidden;
 }
 .no-existence{
@@ -36,8 +36,11 @@
 .tohome{
     color: #161c2f;
 }
+.to-home{
+    font-size: 25px;
+}
 .tohome:hover{
-        color: blueviolet;
+        color: whitesmoke;
 }
 @media (max-width:992px){
     .not-found-text h1{

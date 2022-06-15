@@ -14,7 +14,7 @@ export default function(){
             <h2>We can’t seem to find the page you’re looking for</h2>
             </div>
             <div className="notfound-tohome">
-                <Link className="tohome" to="/">Go To Homepage</Link>
+                <Link className="tohome" to="/"><hi className="to-home">Go to Homepage.</hi></Link>
             </div>
             
         </div>

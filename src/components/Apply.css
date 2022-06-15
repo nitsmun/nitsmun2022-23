@@ -1,8 +1,39 @@
-.apply-h1{
-    margin-top: 90px;
+.apply-container{
+    height: 95vh;
+    width: 100%;
+    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
 }
-@media(max-width:991px){
-    .apply-h1{
-        margin-top: 70px;
+.img-apply img{
+    margin: 15vh 0 1vh 0;
+}
+.link-apply{
+    text-align: center;
+}
+button{
+    width: 70%;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    font-size: 18px;
+    color: aquamarine;
+}
+.link-apply a {
+    font-weight: bolder;
+}
+.link-apply a:hover{
+    color: whitesmoke;
+}
+button:hover{
+    background-color: #161c2f;
+}
+@media only screen and (max-width: 800px){
+    .img-apply img{
+        width: 250px;
+    }
+    .apply-container{
+        height: 75vh;
     }
 }

@@ -22,7 +22,8 @@ const Footer = () => {
                 <a className="footer-anchor" href="https://www.facebook.com/NITSMUN/"target='_#blank'><FaFacebookF className="icon-color2" size={20} /></a>
                 <a className="footer-anchor" href="https://www.instagram.com/nitsmun/?hl=en"target='_#blank'><AiOutlineInstagram className="icon-color9" size={20}/></a>
                 <a className="footer-anchor" href="https://www.youtube.com/channel/UC1bJi0c0FcHkoIsUUJRf96A" target='_#blank'><FaYoutube className="icon-color8" size={20}/></a>
-                <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a>
+                {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
+                <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com" ><HiOutlineMail className="icon-color" size={20}/></a>
             </div>
            
 

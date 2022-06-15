@@ -62,7 +62,7 @@ export default function(){
                return(
                        <div key={item.id} className="team-stats">
                        <div>
-                           <center><img className="team-img" src={item.imgsrc} alt="" /></center>
+                           <center><img className="team-img" src={item.imgsrc} alt="" onContextMenu="return flase;" /></center>
                         </div>
 
 
