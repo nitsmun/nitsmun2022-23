@@ -59,6 +59,23 @@
     /* color: pink; */
     color: #f09433;
 }
+
+
+/* Additional css */
+.light-address{
+    color: #98a2ad !important;
+}
+.footer-phone:hover{
+    color: darkgreen !important;
+}
+.footer-location:hover{
+    color: #161c2f !important;
+}
+.footer-heading:hover{
+    color:#28334AFF !important;
+}
+
+
 /* {
     
 }.footer-heading */

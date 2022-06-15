@@ -42,19 +42,19 @@ const Footer = () => {
                 <div className="footer-below1">
                     <IconContext.Provider value={{ className: "shared-class", size: 55,color:'white',  }}>
                         <div>
-                            <GoLocation />
+                            <GoLocation className="footer-location" />
                         </div>
                     </IconContext.Provider>
                     <div className="address">
                         <ul>Model United Nations</ul>
-                        <ul>NIT, Silchar</ul>
-                        <ul>Silchar, Assam</ul>
+                        <ul>NIT Silchar</ul>
+                        <ul className="light-address">Silchar, Assam</ul>
                     </div>
                 </div>
                 <div className="footer-below2">
                     <IconContext.Provider value={{ className: "shared-class", size: 40,color:'white' }}>
                         <div>
-                            <BsTelephone />
+                            <BsTelephone className="footer-phone"/>
                         </div>
                     </IconContext.Provider>
                     <div className="phonenum">
