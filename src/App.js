@@ -11,6 +11,7 @@ import Apply from './components/Apply';
 import Notfound from './components/Notfound';
 import Navbarmenu from './components/menu/Navbarmenu';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -29,6 +30,7 @@ function App() {
         </Switch>
         <ScrollToTop />
       </Router>
+      <Footer />
     </div>
   );
 }
