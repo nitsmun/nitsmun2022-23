@@ -373,6 +373,17 @@ export const Secretariatmediajr = [
         fb:"https://www.facebook.com/ranjan.kapar.9",
         mail:"mailto:ranjan21_ug@mech.nits.ac.in",
     },
+    {
+        id: 5,
+        cName: "team-sec",
+        imgsrc: "",
+        alt:"Amrita Kashyap",
+        name: "Amrita Kashyap",
+        post: "Media & Design Team",
+        linkedin:"https://www.linkedin.com/in/amrita-kashyap-a33069230",
+        fb:"https://www.facebook.com/profile.php?id=100076495782914",
+        mail:"mailto:amrita7734kashyap@gmail.com"
+    }
 ];
 export const Secretariatresearchjr = [
     {
@@ -462,6 +473,17 @@ export const Secretariatresearchjr = [
         linkedin:"https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
         fb:"https://www.facebook.com/bhargavi.nath",
         mail:"mailto:bhargavinath.24@gmail.com",
+    },
+    {
+        id: 9,
+        cName: "team-sec",
+        imgsrc: "./Images/Trilasha Mazumder.jpeg",
+        alt:"Trilasha Mazumder",
+        name: "Trilasha Mazumder",
+        post: "Research and Development Team",
+        linkedin:"https://www.linkedin.com/in/trilasha-mazumder-51b234224",
+        fb:"https://www.facebook.com/profile.php?id=100076379690326",
+        mail:"mailto:trilasha21_ug@cse.nits.ac.in",
     }
 ];
 export const Secretariatprjr = [
