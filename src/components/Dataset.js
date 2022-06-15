@@ -383,6 +383,17 @@ export const Secretariatmediajr = [
         linkedin:"https://www.linkedin.com/in/amrita-kashyap-a33069230",
         fb:"https://www.facebook.com/profile.php?id=100076495782914",
         mail:"mailto:amrita7734kashyap@gmail.com"
+    },
+    {
+        id: 6,
+        cName: "team-sec",
+        imgsrc: "",
+        alt:"Rishi Raj Kumar Shah",
+        name: "Rishi Raj Kumar Shah",
+        post: "Media & Design Team",
+        linkedin:"",
+        fb:"",
+        mail:""
     }
 ];
 export const Secretariatresearchjr = [
