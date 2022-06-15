@@ -96,7 +96,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  .team-head3{
      width: 89%;
-     border-bottom: 3px solid #1994a5;
+     border-bottom: 3px solid #732445;
      text-align: center;
      margin: 0vh auto 2vh auto;
      border-radius: 4px;
@@ -104,7 +104,7 @@
  .team-head3 h1{
      font-size: 50px;
      font-weight: 600;
-     color: #1994ab;
+     color: #a63b49;
      font-family: 'Poppins', sans-serif;
  }
  .team-img3{

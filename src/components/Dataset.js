@@ -51,6 +51,9 @@ export const Secretariat = [
             name: "Shreyashi Roymedhi",
             post: "Secretary General",
             alt:"Shreyashi Roymedhi",
+            linkedin:"https://www.linkedin.com/in/shreyashi-roymedhi-5046451a0",
+            fb:"https://www.facebook.com/profile.php?id=100009709412767",
+            mail:"mailto:shreyashi_ug@mech.nits.ac.in",
         },
         {
             id: 2,
@@ -58,8 +61,10 @@ export const Secretariat = [
             imgsrc:"./Images/saiLahariJayareddygari.jpg",
             name:"Sai Lahari Jayareddygari",
             post:"Director General",
-            para:"kaka nmsd",
             alt:"Sai Lahari Jayareddygari",
+            linkedin:"https://www.linkedin.com/in/sai-lahari-jayareddygari-57681a196",
+            fb:"https://www.facebook.com/profile.php?id=100006209748653",
+            mail:"mailto:sailahari410@gmail.com",
         },
         {
             id: 3,
@@ -68,6 +73,9 @@ export const Secretariat = [
             name: "Mehul Dewangan",
             alt:"Mehul Dewangan",
             post: "Director General",
+            linkedin:"https://www.linkedin.com/in/mehul-dewangan-6bb73a1a0",
+            fb:"https://www.facebook.com/mehul.dewangan.1",
+            mail:"mailto:mehul_ug@cse.nits.ac.in",
         },
         {   id: 4,
             cName: "team-sec",
@@ -75,6 +83,9 @@ export const Secretariat = [
             alt:"Mondeep Prakash",
             name: "Mondeep Prakash",
             post: "General Secretary",
+            linkedin:"https://www.linkedin.com/in/mondeepprakash/",
+            fb:"https://www.facebook.com/mondeep.prakash/",
+            mail:"mailto:mondeepprakash_ug@cse.nits.ac.in",
         },
         {
             id: 5,
@@ -82,7 +93,10 @@ export const Secretariat = [
             imgsrc: "./Images/niharJyotiBasisth.jpg",
             alt:"Nihar Jyoti Basisth",
             name: "Nihar Jyoti Basisth",
-            post: "Director Media & Design",},
+            post: "Director Media & Design",
+            linkedin:"https://www.linkedin.com/in/nihar-jyoti-basisth-121b2319b/",
+            fb:"https://www.facebook.com/nihar.basisth.7",
+        },
         {
             id: 6,
             cName: "team-sec",
@@ -90,6 +104,9 @@ export const Secretariat = [
             alt:"Sohan Paul",
             name: "Sohan Paul",
             post: "Director Media & Design",
+            linkedin:"http://www.linkedin.com/in/sohan-paul",
+            fb:"https://www.facebook.com/paulsohan2",
+            mail:"mailto:sohan_ug@mech.nits.ac.in",
         },
         {
             id: 7,
@@ -98,6 +115,9 @@ export const Secretariat = [
             alt:"Sanchayita Purkayastha",
             name: "Sanchayita Purkayastha",
             post: "Director Public Relations and Outreach",
+            linkedin:"https://www.linkedin.com/in/sanchayita-purkayastha-68b62b1a0/",
+            fb:"https://www.facebook.com/sanchayita.purkayastha",
+            mail:"mailto:sanchayita_ug@cse.nits.ac.in",
         },
         {
             id: 8,
@@ -106,6 +126,9 @@ export const Secretariat = [
             alt:"Rahul Chourasia",
             name: "Rahul Chourasia",
             post: "Director Liaison & Delegate Affairs",
+            linkedin:"https://www.facebook.com/profile.php?id=100008137332638",
+            fb:"https://www.facebook.com/profile.php?id=100008137332638",
+            mail:"mailto:rahulchourasia_ug@civil.nits.ac.in",
         },
         {
             id: 9,
@@ -114,6 +137,8 @@ export const Secretariat = [
             alt:"Aditya Kotari",
             name: "Aditya Kotari",
             post: "Director Technical Operations",
+            linkedin:"https://www.linkedin.com/in/aditya-kotari-499933195/",
+            mail:"mailto:aditya.kotari@gmail.com",
         },
         {
             id: 10,
@@ -122,6 +147,8 @@ export const Secretariat = [
             alt:"Tasneem Koushar",
             name: "Tasneem Koushar",
             post: "Director Technical Operations",
+            linkedin:"https://www.linkedin.com/in/tasneemkoushar/",
+            mail:"mailto:imatasneemkoushar@gmail.com",
         },
         {
             id: 11,
@@ -130,6 +157,9 @@ export const Secretariat = [
             alt:"Sunil Kumar Mulkala",
             name: "Sunil Kumar Mulkala",
             post: "Director Logistics",
+            linkedin:"https://www.linkedin.com/in/sunil-kumar-mulkala-036360196",
+            fb:"https://www.facebook.com/profile.php?id=100006872709714",
+            mail:"mailto:sunil.mulkala143@gmail.com",
         },
         
 ];
@@ -422,6 +452,17 @@ export const Secretariatresearchjr = [
         fb:"https://www.facebook.com/profile.php?id=100067302155229",
         mail:"mailto:hrishikeshborahofficial@gmail.com",
     },
+    {
+        id: 8,
+        cName: "team-sec",
+        imgsrc: "",
+        alt:"Bhargabi Nath",
+        name: "Bhargabi Nath",
+        post: "Research and Development Team",
+        linkedin:"https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
+        fb:"https://www.facebook.com/bhargavi.nath",
+        mail:"mailto:bhargavinath.24@gmail.com",
+    }
 ];
 export const Secretariatprjr = [
     {
