@@ -11,7 +11,7 @@
    box-shadow: 0 0 2vh 0 #360940;
 }
 .container-bg{
-background: #000000;
+  background-image: linear-gradient(#ee0970, #ff6a00);
 }
 .sec__one {
     position: relative;
@@ -44,7 +44,7 @@ background: #000000;
 }
 
 .is-active {
-  color: #f44336!important;
+  color: #4b0d32!important;
 }
 
 .navBar .col-md-3 {

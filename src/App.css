@@ -5,6 +5,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Varela Round','Caveat', cursive, 'Inter', sans-serif;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(#ee0970, #ff6a00);
 }

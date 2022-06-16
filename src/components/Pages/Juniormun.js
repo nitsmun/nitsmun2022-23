@@ -1,7 +1,9 @@
 import React from "react";
 import "./Juniormun.css";
+import { TabTitle } from "../Utils/Genfn";
 
 const Juniormun = () => {
+  TabTitle("NITSMUN >> NITS Junior MUN");
   return (
     <>
       <div className="event-pic">

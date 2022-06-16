@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
 import Underline from "../Underline";
+import { TabTitle } from "../Utils/Genfn";
 const About = () => {
+  TabTitle("NITSMUN >> About");
   return (
     <div className="about-main">
       <div className="about-header">

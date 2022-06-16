@@ -3,8 +3,10 @@ import "./Home.css";
 import Director from "../Director";
 import Slider from "../Slider/Slider";
 import ArticleHome from "../ArticleHome";
+import { TabTitle } from "../Utils/Genfn";
 
 export default function () {
+  TabTitle('NITSMUN >> Home');
   return (
     <>
       <div className="dummy">

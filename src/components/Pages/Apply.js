@@ -1,6 +1,8 @@
 import React from "react";
 import "./Apply.css";
+import { TabTitle } from "../Utils/Genfn";
 export default function () {
+  TabTitle("NITSMUN >> Link Tree");
   return (
     <>
       <div className="apply-container">

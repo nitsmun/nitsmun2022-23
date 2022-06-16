@@ -11,7 +11,9 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
+import { TabTitle } from "../components/Utils/Genfn";
 export default function () {
+  TabTitle("NITSMUN >> Team");
   return (
     <>
       <div className="team-head0">

@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Notfound.css";
+import { TabTitle } from "../Utils/Genfn";
 export default function () {
+  TabTitle("404 Not Found");
   return (
     <>
       <div className="not-found">
