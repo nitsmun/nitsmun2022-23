@@ -1,1 +1,1 @@
-Nitsmun website 2022-23.
+Nitsmun website 2022-23. To run on local machine do the following: a) open terminal on VS Code and type: npm intall react-scripts b) npm start 
