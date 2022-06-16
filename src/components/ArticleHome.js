@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Article-home.css";
 import { Articleforhome } from "./Dataset";
 import useCollapse from "react-collapsed";
-import Underline3 from '../components/Underline/Underline3';
+import Underline3 from "../components/Underline/Underline3";
 
 export default function () {
   const [isExpanded, setExpanded] = useState(false);
@@ -10,11 +10,11 @@ export default function () {
 
   return (
     <>
-    <Underline3 />
-      <div className="art-home-title"> 
+      <Underline3 />
+      <div className="art-home-title">
         <h1 className="apply-home-h1">
           CHECK OUT{" "}
-          <a href="https://instagram.com/nitsmun" target="blank">
+          <a href="https://instagram.com/nitsmun" target="_blank">
             @nitsmun
           </a>{" "}
           FOR ALL OUR ARTICLES
