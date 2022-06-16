@@ -612,5 +612,31 @@ export const Secretariatwebjr = [
         fb: "https://www.facebook.com/profile.php?id=100076166561248",
     },
 ];
+export const Articleforhome = [
+    {
+        id:1,
+        img:"https://nitsmun.in/img/holocaust_day.png",
+        alt2:"International Holocaust Remembrance Day",
+        heading:"International Holocaust Remembrance Day",
+        para:"Observance of “International Day of Commemoration in memory of the Victims of the Holocaust”, commemorates the six million Jewish victims of the Holocaust and millions of other victims of Nazism. It reaffirms the unwavering commitment of UNESCO to counter antisemitism, racism, and other forms of intolerance which can have a severe threat to world peace.",
+        show:<><br/>"This date also marks the anniversary of the liberation of the Nazi Concentration and Extermination Camp of Auschwitz-Birkenau by Soviet troops on 27 January 1945. Since 2005, 27th January has been designated and observed as International Holocaust Remembrance Day <br /><br/> NITSMUN, wishes and hopes, there shall be no such barbarism in the ages to come which hinders world peace. We at NITSMUN openly call for all countries and all regimes to maintain global peace for a better and healthy world.",</>
+    },
+    {
+        id:2,
+        img:"https://nitsmun.in/img/education_day.png",
+        alt2:"International Day of Education",
+        heading:"International Day of Education",
+        para:"Education plays a vital role in fostering sustainable and resilient societies and is a basic human right. 24th January every year is celebrated as International Day of Education to highlight the most critical changes that must be nourished in order to realize everyone's fundamental right to education and establish a more sustainable, inclusive, and peaceful future.",
+        show:<><br/>"The education sector all across the world faced a huge blow due to the Covid 19 pandemic with more than 1 billion children at the risk of falling behind. Thus, it is essential for all the countries to work towards achieving inclusive and equitable quality education for all.This year we will be celebrating the fourth International Day of Education under the theme “Changing Course, Transforming Education.”",</>
+    },
+    {
+        id:3,
+        img:"https://nitsmun.in/img/braille_day.jpg",
+        alt2:"World Braille Day",
+        heading:"World Braille Day",
+        para:"Literacy is a right, which is, as much fundamental to the specially-abled as it is to the abled. January 4 marks an important day in the history of Human Rights. It celebrates awareness of braille as a means of communication.",
+        show:<><br/>"The Covid-19 pandemic has additionally posed several issues in terms of isolation especially in the lives of those dependant on the use of touch for communication. In concern to this, the UNDP, OHCHR, UNICEF and other bodies of the UN have taken multiple steps in trying to improve the lives of those affected."</>
+    },
+];
 
 
