@@ -44,7 +44,7 @@ const Navbarmenu = () => {
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
                         <img className="img-left0" src="./Images/nitsmun.png" alt="Nitsmun-logo" />
-                        <img className="img-left" src="https://nitsmun.in/img/logo.svg" alt="Nitsmun-logo" />
+                        <img className="img-left" src="./Images/logo-name-nitsmun.svg" alt="Nitsmun-logo" />
                     </NavLink>
                 </div>
                 <div className="header__middle__menus">

@@ -1,17 +1,18 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import './App.css';
-import Home from './components/Home';
-import About from './components/About';
-import Juniormun from './components/Juniormun';
-import Workshop from './components/Workshop';
+import Home from './components/Pages/Home';
+import About from './components/Pages/About';
+import Juniormun from './components/Pages/Juniormun';
+import Workshop from './components/Pages/Workshop';
 import Team from './components/Team';
-import Articles from './components/Articles';
-import Apply from './components/Apply';
-import Notfound from './components/Notfound';
+import Articles from './components/Pages/Articles';
+import Apply from './components/Pages/Apply';
+import Notfound from './components/Pages/Notfound';
 import Navbarmenu from './components/menu/Navbarmenu';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
+
 function App() {
   return (
     <div>

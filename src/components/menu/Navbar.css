@@ -11,7 +11,7 @@
    box-shadow: 0 0 2vh 0 #360940;
 }
 .container-bg{
-background: #eb3349;
+background: #000000;
 }
 .sec__one {
     position: relative;
@@ -108,7 +108,7 @@ li {
   position: relative;
 }
 .header__middle__logo > a > h1 {
-  color: #07a8ff;
+  color: #1994ab;
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 33px;
@@ -131,7 +131,7 @@ li {
 .sub__menus {
   position: absolute;
   display: none;
-  background: #161c2f;
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
   border: 2px solid lavender;
   border-radius: 20px;
   top: 50px;
@@ -158,7 +158,7 @@ li {
   margin: 7px 27px;
 }
 .menu-item:hover > a{
-  color: #1994ab !important;
+  color: #0cd310 !important;
 }
 .menu-item .sub__menus li:hover a{
   color: #1994ab !important;
@@ -178,11 +178,11 @@ li {
 .img-left {max-width: 197px;margin: 3px 0 0 0;}
 .img-left0 {max-width: 197px;margin: 3px 0 0 0;}
 .main-nav .menubar__button:hover {background-color: #1994a5;}                    
-.main-nav .menu-item:hover > a {color: #07a8ff !important}
+.main-nav .menu-item:hover > a {color: #1994a5 !important}
 .main-nav .menubar__button {
   display: block!important;
   float: right;
-  background-color: #161c2f;
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
   color: #fff;
   padding: 6px 7px;
   border-radius: 5px;
@@ -197,8 +197,8 @@ li {
   position: absolute;
   left: 0;
   z-index: 10007;
-  background-color: #161c2f;
-  border-bottom: 3px solid #1994a5;
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    border-bottom: 3px solid #4b0d32;
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;
