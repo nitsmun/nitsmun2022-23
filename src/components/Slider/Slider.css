@@ -1,7 +1,7 @@
 .container-slider {
 max-width: 700px;
 height: 400px;
-margin: 100px auto 0;
+margin: 40px auto 30px;
 position: relative;
 overflow: hidden;
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -9,7 +9,7 @@ border-radius: 30px;
 }
 @media screen and (max-width: 700px){
   .container-slider {
-    margin: 100px 10px 0;
+    margin: 25px 10px 20px;
     height: 250px;
     border-radius: 15px;
   }

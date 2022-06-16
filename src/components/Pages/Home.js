@@ -10,11 +10,16 @@ export default function () {
       <div className="dummy">
         <h1>hello</h1>
       </div>
-      <Slider />
       <br />
       <br />
+      <br />
+      <div className="glimpses-section">
+        <div className="glimpses">
+          <h1>GLIMPSES FROM PAST CONFERENCES</h1>
+        </div>
+        <Slider />
+      </div>
       <ArticleHome />
-      <br />
       <br />
     </>
   );
