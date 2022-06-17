@@ -4,9 +4,10 @@ import Director from "../Director";
 import Slider from "../Slider/Slider";
 import ArticleHome from "../ArticleHome";
 import { TabTitle } from "../Utils/Genfn";
+import Secretary from "../Secretary";
 
 export default function () {
-  TabTitle('NITSMUN >> Home');
+  TabTitle("NITSMUN >> Home");
   return (
     <>
       <div className="dummy">
@@ -14,7 +15,7 @@ export default function () {
       </div>
       <br />
       <br />
-      <br />
+      <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">
           <h1>GLIMPSES FROM PAST CONFERENCES</h1>
