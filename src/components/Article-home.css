@@ -112,6 +112,8 @@ body{
     .team-section-body p{
         font-size: 14px;
         line-height: 21px;
-        letter-spacing: -0.1px;
+        letter-spacing: -0.8px;
+        word-spacing: 1px;
+        
     }
 }
