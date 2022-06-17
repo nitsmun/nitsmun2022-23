@@ -17,7 +17,6 @@ function App() {
   return (
     <div>
       <Router basename="/">
-        {/* Add Menu Component */}
         <Navbarmenu />
         <Switch> 
           <Route exact path="/" component={Home}/>

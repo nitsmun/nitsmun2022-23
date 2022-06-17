@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,18 +47,25 @@ body{
     padding: 10px 20px;
     text-align: justify;
     text-align-last: left;
+    justify-content: center;
+    /* letter-spacing: 5px; */
     /* word-wrap: break-word;
     word-spacing: 2px; */
 }
 .team-section-body p{
-    color: aliceblue;
-    font-size: 16px;
-    color: #212529;
+    color: #222226;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 900;
+    /* color: #212529; */
     margin: 0 0 16px;
-    margin-block-start: 1em;
+    /* line-height: 1.5em; */
+    letter-spacing: -0.25px;
+    line-height: 28px;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px
+    margin-inline-end: 0px; */
 }
 .team-section-body h2{
     color: #212529;
@@ -100,5 +108,10 @@ body{
     }
     .art-home-title{
         padding: 3px auto;
+    }
+    .team-section-body p{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
     }
 }

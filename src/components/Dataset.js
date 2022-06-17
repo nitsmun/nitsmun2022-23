@@ -615,27 +615,28 @@ export const Secretariatwebjr = [
 export const Articleforhome = [
     {
         id:1,
-        img:"https://nitsmun.in/img/holocaust_day.png",
-        alt2:"International Holocaust Remembrance Day",
-        heading:"International Holocaust Remembrance Day",
-        para:"Observance of “International Day of Commemoration in memory of the Victims of the Holocaust”, commemorates the six million Jewish victims of the Holocaust and millions of other victims of Nazism. It reaffirms the unwavering commitment of UNESCO to counter antisemitism, racism, and other forms of intolerance which can have a severe threat to world peace.",
-        show:<><br/>"This date also marks the anniversary of the liberation of the Nazi Concentration and Extermination Camp of Auschwitz-Birkenau by Soviet troops on 27 January 1945. Since 2005, 27th January has been designated and observed as International Holocaust Remembrance Day <br /><br/> NITSMUN, wishes and hopes, there shall be no such barbarism in the ages to come which hinders world peace. We at NITSMUN openly call for all countries and all regimes to maintain global peace for a better and healthy world.",</>
+        img:"./Images/International day for Biological diversity.jpg",
+        alt2:"International Day For Biological Diversity",
+        heading:"International Day For Biological Diversity",
+        para:<>With the aim of increasing awareness and understanding for biodiversity issues, 22nd May is proclaimed as "The International Day for Biodiversity Diversity (IDB)" by the United Nations. Initially 29th December was the date attached with IDB, but in December 2000, the UN General Assembly adopted 22 May as IDB, to commemorate the adoption of the text of the Convention on 22 May 1992 by the Nairobi Final Act of the Conference for the Adoption of the Agreed Text of the Convention on Biological Diversity.</>,
+
+        show:<><br/>IDB has an unique theme for each year and likewise the theme for the year 2022 is "BUILDING A SHARED FUTURE FOR ALL LIFE". This year's theme is decided after taking into consideration the aim of highlighting the importance of biodiversity for many sustainable development issues. When we think about the lifestyle we are leading, the significance of this day comes into light as well. It is BIODIVERSITY that not only provides a home for many of the world's species, but also serves as a source of food, water, and other resources that we rely on to survive. Hence, understanding the value of biodiversity and acknowledging the problems associated with it is the need of the hour. Thus, this day is of utmost importance as well. <br/><br/>To sum up, on this International Biodiversity Day, NITSMUN urges everyone to celebrate the biodiversity our Mother Nature embraces and work each day for giving all species their right to thrive on this planet.</>
     },
     {
         id:2,
-        img:"https://nitsmun.in/img/education_day.png",
-        alt2:"International Day of Education",
-        heading:"International Day of Education",
-        para:"Education plays a vital role in fostering sustainable and resilient societies and is a basic human right. 24th January every year is celebrated as International Day of Education to highlight the most critical changes that must be nourished in order to realize everyone's fundamental right to education and establish a more sustainable, inclusive, and peaceful future.",
-        show:<><br/>"The education sector all across the world faced a huge blow due to the Covid 19 pandemic with more than 1 billion children at the risk of falling behind. Thus, it is essential for all the countries to work towards achieving inclusive and equitable quality education for all.This year we will be celebrating the fourth International Day of Education under the theme “Changing Course, Transforming Education.”",</>
+        img:"./Images/World day for cultural diversity.jpg",
+        alt2:"World Day For Cultural Diversity",
+        heading:"World Day For Cultural Diversity",
+        para:"In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges.",
+        show:<><br/>Keeping these things in mind, the United Nations General Assembly declared this international holiday in 2002 following UNESCO's adoption of the Universal Declaration on Cultural Diversity in 2001 under UN Resolution 57/249. They recognise the need to “enhance the potential of culture as a means of achieving prosperity, sustainable development and global peaceful coexistence.<br/><br/>Since then, this day has been celebrated all over the world to spread awareness about the need to bridge cultures for peace, stability and development. An interesting statistic to put this into perspective - over three fourths of world conflicts is due to lack of cultural harmony. The pandemic also proved the value and importance of the cultural and creative sector in generating social cohesion, educational resources and personal well-being in times of crisis. Cultural diversity contributes to both economic and personal development through exchange of ideas, intellectual values, emotions and morals, which makes it an indispensable part of sustainable development.<br/><br/>Therefore, NITSMUN calls for the people of this world to come together and spread the essence of cultural diversity and hence, indirectly work towards making this world a better place to live in.</>
     },
     {
         id:3,
-        img:"https://nitsmun.in/img/braille_day.jpg",
-        alt2:"World Braille Day",
-        heading:"World Braille Day",
-        para:"Literacy is a right, which is, as much fundamental to the specially-abled as it is to the abled. January 4 marks an important day in the history of Human Rights. It celebrates awareness of braille as a means of communication.",
-        show:<><br/>"The Covid-19 pandemic has additionally posed several issues in terms of isolation especially in the lives of those dependant on the use of touch for communication. In concern to this, the UNDP, OHCHR, UNICEF and other bodies of the UN have taken multiple steps in trying to improve the lives of those affected."</>
+        img:"./Images/International mother earth day.jpg",
+        alt2:"International mother earth day",
+        heading:"International Mother Earth Day",
+        para:<>The original roots of designating a day for Mother earth goes back to the 1970s when environmental protection was not yet a priority of the national political agendas. The UN Conference on the Human Environment 1972 in Stockholm marked the beginning of global awareness of the interdependence among people, other living species and our planet, as well as the establishment of World Environment Day on 5 June and the UN Environment Programme.</>,
+        show:<><br/>Heat waves, cyclones and floods during the dry season- are some of the SOS calls we have come across but have failed to meet the expectation at an institutional level. The past world leaders were reluctant enough to not take any coordinated and well-executed action despite having plans of sustainability against man’s never-ending demand of extracting natural resources. Now, we are running out of time, and climate change is triggering an irreversible chain reaction causing extreme weather events across the globe. Moreover, the average global temperatures are expected to rise by at least 1.5 degrees which could further be increased if timely actions are not put in place. <br/><br/> Despite our advancements in technological and educational fields, we have been quite incapable of catering to Mother Earth which has provided us with all her natural resources. The NITSMUN fraternity requests you all to stop being ignorant and become vocal advocates of sustainable development, by spreading awareness about the same and by becoming the change you seek in society. TOGETHER WE CAN, TOGETHER WE WILL!</>
     },
 ];
 
