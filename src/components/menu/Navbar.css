@@ -163,7 +163,9 @@ li {
   color: #0cd310 !important;
 }
 .menu-item .sub__menus li:hover a{
-  color: #1994ab !important;
+
+  /* to be changed */
+  color: #e64540 !important;
 }
 .img-left{
   max-width: 207px;
@@ -179,8 +181,13 @@ li {
 .header__middle__menus {width: 20%;}
 .img-left {max-width: 197px;margin: 3px 0 0 0;}
 .img-left0 {max-width: 197px;margin: 3px 0 0 0;}
-.main-nav .menubar__button:hover {background-color: #1994a5;}                    
-.main-nav .menu-item:hover > a {color: #1994a5 !important}
+.main-nav .menubar__button:hover {background-color: none;}   
+
+/* to be changed */
+.main-nav .menu-item:hover > a {color: #ff6a00 !important}
+
+
+
 .main-nav .menubar__button {
   display: block!important;
   float: right;
