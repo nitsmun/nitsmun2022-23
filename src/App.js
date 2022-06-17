@@ -4,7 +4,7 @@ import './App.css';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Juniormun from './components/Pages/Juniormun';
-import Workshop from './components/Pages/Workshop';
+import Nitsmun2022 from './components/Pages/Nitsmun2022';
 import Team from './components/Team';
 import Articles from './components/Pages/Articles';
 import Apply from './components/Pages/Apply';
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route path="/About" component={About}/>
           <Route path="/Juniormun" component={Juniormun}/>
-          <Route path="/Workshop" component={Workshop}/>
+          <Route path="/Nitsmun2022" component={Nitsmun2022}/>
           <Route path="/Team" component={Team} />
           <Route path="/Articles" component={Articles} />
           <Route path="/Apply" component={Apply} />
