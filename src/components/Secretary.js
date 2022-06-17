@@ -5,25 +5,35 @@ import Underline from "../components/Underline";
 const Secretary = () => {
   return (
     <div>
+      <div className="msg-secretary">
+        <h2 className="sec-head1">Message from the Secretary-General</h2>
+        <Underline />
+        <br />
+        <br />
+      </div>
+
       <div className="sec-main">
         <div className="sec-padding1"></div>
         <div className="sec-imgcon">
           <div>
             <img
               src="./Images\shreyashiRoymedhi.jpeg"
-              alt=""
+              alt="shreyashi Roymedhi"
               className="sec-img"
             />
+
+            <h2 className="sec-nme">Shreyashi Roymedhi</h2>
           </div>
         </div>
         <div className="sec-padding2"></div>
         <div>
-          <div>
-            <h2 className="sec-head1">Message from the Secretary-General</h2>
+          {/* <div className="msg-secretary">
+            <h2 className="sec-head1">Message from the Secretary-General</h2>   
             <Underline />
             <br />
             <br />
-          </div>
+          </div> */}
+
           <p
             className="sec-text"
             style={{

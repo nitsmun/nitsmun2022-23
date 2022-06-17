@@ -15,6 +15,7 @@ export default function () {
       </div>
       <br />
       <br />
+      <Director />
       <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">
