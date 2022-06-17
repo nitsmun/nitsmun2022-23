@@ -391,9 +391,9 @@ export const Secretariatmediajr = [
         alt:"Rishi Raj Kumar Shah",
         name: "Rishi Raj Kumar Shah",
         post: "Media & Design Team",
-        linkedin:"",
-        fb:"",
-        mail:""
+        // linkedin:"",
+        // fb:"",
+        // mail:""
     }
 ];
 export const Secretariatresearchjr = [
