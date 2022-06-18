@@ -29,8 +29,12 @@ export default function () {
                   <div className="article-cont1">
                     <ReactReadMoreReadLess
                       charLimit={500}
-                      readMoreText={<button className="read-more-btn">Read More</button>}
-                      readLessText={<button className="read-less-btn">Read Less</button>}
+                      readMoreText={
+                        <button className="read-more-btn">Read More</button>
+                      }
+                      readLessText={
+                        <button className="read-less-btn">Read Less</button>
+                      }
                     >
                       {item.Content}
                     </ReactReadMoreReadLess>
@@ -48,7 +52,7 @@ export default function () {
           <a href="https://instagram.com/nitsmun" target="_blank">
             @nitsmun
           </a>{" "}
-          FOR ALL OUR ARTICLES
+          FOR ALL OUR ARTICLES!
         </h1>
       </div>
     </>

@@ -19,6 +19,7 @@
     transition: 0.3s ease-out;
     font-size: 18px;
     color: aquamarine;
+    background-color: #e2564f;
 }
 .link-apply a {
     font-weight: bolder;
@@ -27,7 +28,7 @@
     color: whitesmoke;
 }
 .apply-btn:hover{
-    background-color: #161c2f;
+    background-color: #ee0970;
 }
 @media only screen and (max-width: 800px){
     .img-apply img{

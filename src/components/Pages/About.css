@@ -17,12 +17,14 @@
     justify-content: center;
     padding: 4em 5em;;
     text-align: justify;
+    line-height: 1.6;
+    font-weight: 600;
 }
 .about-content1 ul{
     color: rgb(144, 123, 123);
     font-size: 1rem;
     padding-bottom: 01.5rem;
-    line-height: 1.5em;
+    line-height: 1.6;
 }
 .about-headertxt2{
     display: flex;
@@ -42,7 +44,8 @@
 }
 .content-para3{
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.6;
+    font-weight: 600;
     padding-left: 5em;
     padding-right: 5em;
     text-align: center;
@@ -50,7 +53,8 @@
 }
 .content-para4{
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.6;
+    font-weight: 600;
     padding-left: 5em;
     padding-right: 5em;
     text-align: justify;

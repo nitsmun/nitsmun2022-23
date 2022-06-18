@@ -16,7 +16,7 @@ export default function () {
           <a href="https://instagram.com/nitsmun" target="_blank">
             @nitsmun
           </a>{" "}
-          FOR ALL OUR ARTICLES
+          FOR ALL OUR ARTICLES!
         </h1>
       </div>
 

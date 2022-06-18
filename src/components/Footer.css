@@ -64,6 +64,7 @@
 /* Additional css */
 .light-address{
     color: #98a2ad !important;
+    font-weight: 600 !important;
 }
 .footer-phone:hover{
     color: darkgreen !important;
@@ -72,7 +73,7 @@
     color: #161c2f !important;
 }
 .footer-heading:hover{
-    color:#28334AFF !important;
+    color:#ee0970 !important;
 }
 
 
