@@ -8,10 +8,8 @@ export default function () {
   TabTitle("NITSMUN >> Articles");
   return (
     <>
-      <div className="articles-section">
-        <div className="articles-heading-cont">
-          <h1>ARTICLES</h1>
-        </div>
+      <div className="articles-heading-cont">
+        <h1>ARTICLES</h1>
       </div>
       <div className="article-main-content">
         {Articledata.map((item) => {

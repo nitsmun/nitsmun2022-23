@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 .articles-heading-cont h1{
     color: #f1f1f1;
     font-size: 26px;
@@ -8,19 +9,21 @@
 .articles-heading-cont{
     width: 100%;
     text-align: center;
-    padding: 10px;
+    margin-top: 50px;
+    padding: 21px 0 12px 0;
     background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
 }
 @media screen and (max-width: 700px){
     .articles-heading-cont h1{
         font-size: 15px;
     }
+    .articles-heading-cont{
+        margin-top: 50px;
+        padding-bottom: 15px;
+    }
 }
-.articles-section{
-    margin-top: 6vh;
-    /* padding-top: 20px; */
-    
-}
+
+
 .article-flexing{
     display: flex;
 }
@@ -29,7 +32,7 @@
     color: #212529;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 900;
 
 }
 .article-content{
@@ -72,17 +75,39 @@
 }
 
 /* Button CSS */
-.read-more-btn, .read-less-btn{
+.read-more-btn, .read-less-btn {
+    background-color: whitesmoke;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
     padding: 10px;
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
-    color:white;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
     cursor: pointer;
-    border-radius: 25px;
-    transition: 1s;
-}
-.read-more-btn:hover{
-        background: #161c2f;
-        color: white;
+    text-align: center;
+ }
+ .read-more-btn:hover {
+    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    color: white;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    border: solid linear-gradient(135deg, #e2564f 0%, #360940 100%) 1px;
+    text-decoration: none;
+ }
+ .read-less-btn:hover {
+    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    color: white;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    border: solid linear-gradient(135deg, #e2564f 0%, #360940 100%) 1px;
+    text-decoration: none;
 }
 
 
