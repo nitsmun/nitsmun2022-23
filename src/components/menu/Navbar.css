@@ -5,7 +5,7 @@
     top: 0;
 	margin-right:auto;
 	margin-left:auto;
-   background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
    position: fixed;
    z-index: 1;
    box-shadow: 0 0 2vh 0 #360940;

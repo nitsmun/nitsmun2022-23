@@ -386,7 +386,7 @@ export const Secretariatresearchjr = [
     name: "Shretima Garg",
     post: "Research and Development Team",
     linkedin:
-      "https://nitsmun.in/Check%20out%20https://www.linkedin.com/in/shretimagarg",
+      "https://www.linkedin.com/in/shretimagarg",
     fb: "https://www.facebook.com/profile.php?id=100075802705224",
     mail: "mailto:shretima21_ug@cse.nits.ac.in",
   },

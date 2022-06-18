@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
+import { FiXCircle, FiChevronDown } from "react-icons/fi";
+import { ImCross } from "react-icons/im";
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
 const Navbarmenu = () => {
   const [color, setColor] = useState(false);
@@ -65,7 +67,7 @@ const Navbarmenu = () => {
                     onClick={toggleClass}
                   >
                     {" "}
-                    <FiXCircle />{" "}
+                    <ImCross size={20} />{" "}
                   </span>
                 </>
               ) : (
@@ -76,7 +78,7 @@ const Navbarmenu = () => {
                     onClick={toggleClass}
                   >
                     {" "}
-                    <FiAlignRight />{" "}
+                    <GiHamburgerMenu />{" "}
                   </span>
                 </>
               )}
@@ -92,16 +94,7 @@ const Navbarmenu = () => {
                     Home{" "}
                   </NavLink>
                 </li>
-                <li className="menu-item ">
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/About`}
-                  >
-                    {" "}
-                    About Us{" "}
-                  </NavLink>{" "}
-                </li>
+
                 <li
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"
@@ -134,6 +127,18 @@ const Navbarmenu = () => {
                     </li>
                   </ul>
                 </li>
+
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/About`}
+                  >
+                    {" "}
+                    About Us{" "}
+                  </NavLink>{" "}
+                </li>
+
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
