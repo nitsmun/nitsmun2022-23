@@ -3,12 +3,9 @@ import "./Article-home.css";
 import { Articleforhome } from "./Dataset";
 import useCollapse from "react-collapsed";
 import Underline3 from "../components/Underline/Underline3";
-
 export default function () {
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
-
-
 
   return (
     <>

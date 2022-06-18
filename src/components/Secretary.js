@@ -39,6 +39,8 @@ const Secretary = () => {
             style={{
               textAlign: "justify",
               fontSize: "1.1rem",
+              lineHeight: "1.6",
+              fontWeight: "500",
             }}
           >
             Greetings delegates,
