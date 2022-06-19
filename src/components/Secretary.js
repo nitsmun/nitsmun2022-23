@@ -43,31 +43,20 @@ const Secretary = () => {
               fontWeight: "500",
             }}
           >
-            Greetings delegates,
+            Dear delegates,
             <br />
             <br />
-            On behalf of my secretariat, it is my utmost honour and pride to
-            welcome you all to the NIT Silchar Model United Nations.
+            On behalf of my secretariat, with utmost honour and pride, I welcome you all to the annual NIT Silchar Junior Model United Nations conference to be held on 6th and 7th August, 2022.
             <br />
             <br />
-            Since its inception in 2014, NITSMUN has grown in every aspect,
-            ranging from the number of participants to the scale of our
-            conference. From holding annual conferences, workshops, mock
-            sessions, we have even collaborated with world-class universities to
-            hold conferences for students all around the world.
+            The success of its maiden edition presented us with a challenge to better it this time around and we have tried to it justice - a new venture mainly focused on spreading a culture of healthy and constructive debate among school students and making them aware of world security, economics and politics by acting like delegates from different countries.
             <br />
             <br />
-            NITSMUN offers a platform to shape the participants into an
-            individual with a voice and make the leaders of tomorrow. I can
-            assure, this conference will not only benefit you academically but
-            will help you meet strong individuals like yourself, help you
-            sharpen your debating, presentation, deliberative, and interpersonal
-            skills along the way. Gear up to solve critical and pressing issues
-            of today and indulge yourself in world-changing debates, throughout
-            your experience.
+            Due to the relentless efforts of the team every passing year paired with the enthusiastic participants and stellar executive board  members, NITSMUN has been able to carve its own place in the MUN circuit and now stands out as one of the forerunners amongst the NE India MUNs. Through the simulation of the annual conferences and year-round activity for the MUN enthusiasts, NITSMUN continues to uphold its passion and dedication to engage the youth in MUN culture and bring out the best in them.
             <br />
             <br />
-            Keeping in view the well-being of our participants, we will be
+            This will be a golden opportunity to expand your knowledge and utilize it in engaging debates and simultaneously build your critical thinking as well as writing skills. You will be able to connect with talented people and learn immensely throughout the process, all from the comfort of your home. To achieve the same you need to do extensive research beforehand and our team has put in every effort to make your research experience smoother and hassle-free by making this background guide as comprehensive as we can. From ROPs to references, the background guide has it all. We look forward to welcoming you and hope you will have an enriching experience!
+            {/* Keeping in view the well-being of our participants, we will be
             holding our conferences online. For general assistance and business
             and sponsorship-related queries, you can mail our secretariat
             at&nbsp;
@@ -81,7 +70,7 @@ const Secretary = () => {
             <br />
             <br />
             Wishing you the best of your luck and we look forward to welcoming
-            you to our conference this year!
+            you to our conference this year! */}
             <br />
             <br />
             Best Regards,
