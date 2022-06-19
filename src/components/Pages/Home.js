@@ -18,10 +18,9 @@ export default function () {
       </div>
       <br />
       <br />
-      <br/>
-      <br/>
-      <br/>
       <Director />
+      <br/>
+      <br/>
       <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">

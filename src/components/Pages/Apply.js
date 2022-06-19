@@ -8,7 +8,7 @@ export default function () {
       <div className="apply-container">
         <div className="img-apply">
           <center>
-            <img src="./Images/logo-nitsmun.png" alt="" />
+            <img src="./Images/logo-nitsmun.png" alt="NITSMUN" />
           </center>
         </div>
         <div className="link-apply">

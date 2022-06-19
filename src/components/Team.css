@@ -1,95 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.team-head0{
-    width: 89%;
-    border-bottom: 3px solid #1994a5;
-    text-align: center;
-    margin: 13vh auto 2vh auto;
-    border-radius: 4px;
-}
-.team-head0 h1{
-    font-size: 50px;
-    font-weight: 900;
-    font-style: italic;
-    color: #1994ab;
-    font-family: 'Pacifico', cursive;
-}
-.team-img{
-    width: 200px;
-    border-radius: 30px;
-    padding: 20px;
-    overflow: hidden;
-}
-.team-stats-card{
-    display: flex;
-    width: 97.5%;
-    position: relative;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px 50px 30px 50px;
-}
-.team-stats{
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
-    margin: 20px;
-    border-radius: 20px;
-    transition: 1s ease-out;
-    box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f;
-    width: 19.5%;
-    position: relative;
-}
-.team-stats:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 4px 8px 0 #1994ab, 0 6px 20px 0 #1994ab;
-}
-.team-stats h1{
-    padding: 40px 0;
-    text-align: center;
-    color: #1994ab;
-    font-size: 1.1rem;
-}
-.team-stats h2{
-    color: white;
-    font-size: 1.0rem;
-    text-align: center;
-    padding: 10px 10px;
-}
-@media screen and (max-width: 992px){
-    .team-head0{
-        margin:7vh auto 2vh auto;
-        font-size: 6vw;
-        width: 95%;
-        }
-        .team-head0 h1{
-            font-size: 40px;
-            font-weight: 1000;
-            font-style: oblique;
-            margin-top: 50px;
-        }
-    .team-stats-card{
-        padding: 1vw 0;
-    }
-    .team-stats{
-    width: 43%;
-    margin: 2vw;
-    border-radius: 10vw;
-    padding: 2.5vw 2vw;
-    }
-    .team-img{
-        width: 95%;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    padding: 10px;
-    }
-    .team-stats h1{
-    font-size: 3vw;
-    padding: 10px 0;
-    }
-}
- */
-
-
-
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  .team-head0{
      width: 89%;
      border-bottom: 3px solid #732445;
@@ -122,12 +31,12 @@
      padding: 20px 50px 30px 50px;
  }
  .team-stats{
-     /* background-color: #161c2f; */
      background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+     /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
      margin: 20px;
      border-radius: 20px;
      transition: 1s ease-out;
-     /* box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f; */
+     box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f;
      width: 19.5%;
      position: relative;
  }

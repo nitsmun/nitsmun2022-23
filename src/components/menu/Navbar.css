@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 .container {
   width: 100%;
 	padding-right:15px;
@@ -5,13 +6,13 @@
     top: 0;
 	margin-right:auto;
 	margin-left:auto;
-  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
    position: fixed;
    z-index: 1;
    box-shadow: 0 0 2vh 0 #360940;
 }
 .container-bg{
-  background-image: linear-gradient(#ee0970, #ff6a00);
+  background-image: linear-gradient(#093f15, #085560);
 }
 .sec__one {
     position: relative;
@@ -24,7 +25,8 @@
   display: block;
   margin: 0 auto;
   color: #161c2f;
-  font-family: 'Inter', sans-serif;
+  /* color: #000000; */
+  font-family: 'Montserrat', sans-serif;
 }
 .navBar{
   float: left;
@@ -44,9 +46,9 @@
   /* padding-top:45px; */
   /* previously height: 50px; */
 }
-
+/* on active */
 .is-active {
-  color: #4b0d32!important;
+  color: #fff500!important;
 }
 
 .navBar .col-md-3 {
@@ -133,7 +135,7 @@ li {
 .sub__menus {
   position: absolute;
   display: none;
-  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  background-image: linear-gradient(#093f15, #085560);
   border: 2px solid lavender;
   border-radius: 20px;
   top: 50px;
@@ -144,7 +146,7 @@ li {
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
 @media (max-width:767px) { 
-  .header__middle .active {color: #ff3d00!important;}
+  .header__middle .active {color: #fff500!important;}
 }
 @media (min-width:992px) { 
   .sub__menus__arrows:hover .sub__menus{
@@ -159,13 +161,20 @@ li {
   padding: 0px 0 0px 0; /* 7px 0 0 0 */
   margin: 7px 27px;
 }
+
+/* for hover */
 .menu-item:hover > a{
-  color: #0cd310 !important;
+  color: #1f9b1c !important;
 }
+ /* important HOVER  to be changed*/
+
+
+
 .menu-item .sub__menus li:hover a{
 
   /* to be changed */
-  color: #e64540 !important;
+  /* color: #e64540 !important; */
+  color: #fff500 !important;
 }
 .img-left{
   max-width: 207px;
@@ -183,8 +192,12 @@ li {
 .img-left0 {max-width: 197px;margin: 3px 0 0 0;}
 .main-nav .menubar__button:hover {background-color: none;}   
 
-/* to be changed */
+
+
+
+/* to be changed HOVER */
 .main-nav .menu-item:hover > a {color: #ff6a00 !important}
+/* to be changed */
 
 
 
@@ -207,8 +220,8 @@ li {
   position: absolute;
   left: 0;
   z-index: 10007;
-  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
-    border-bottom: 3px solid #4b0d32;
+  background-image: linear-gradient(#093f15, #085560);
+    border-bottom: 3px solid linear-gradient(135deg, #06553d 0%, #159d9d 100%);
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;

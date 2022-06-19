@@ -6,7 +6,7 @@ const Hometop = () => {
     <div>
       <div className="hometop-main">
         <div className="hometop-img">
-          <img src="./Images\logo-nitsmun.png" alt="NITSMUN" />
+          <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
         </div>
       </div>
       <div className="hometop-apply">
