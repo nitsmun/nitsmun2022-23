@@ -1,11 +1,14 @@
-import React, { useState } from "react";
-import "./Article-home.css";
+import React from "react";
+import "./Articlehome2.css";
+import { Link } from "react-router-dom";
+// import React, { useState } from "react";
+// import "./Article-home.css";
 import { Articleforhome } from "./Dataset";
-import useCollapse from "react-collapsed";
+// import useCollapse from "react-collapsed";
 import Underline3 from "../components/Underline/Underline3";
 export default function () {
-  const [isExpanded, setExpanded] = useState(false);
-  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+  //   const [isExpanded, setExpanded] = useState(false);
+  //   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
   return (
     <>
@@ -28,14 +31,10 @@ export default function () {
               <div className="team-section-body">
                 <h2>{item.heading}</h2>
                 <p>{item.para}</p>
-                <p {...getCollapseProps()}>{item.show}</p>
-                <button
-                  {...getToggleProps({
-                    onClick: () => setExpanded((prevExpanded) => !prevExpanded),
-                  })}
-                >
-                  {isExpanded ? "Show Less" : "Read More"}
-                </button>
+                <Link to={"/Articles"}>
+                  {" "}
+                  <button className="article-home-btn">Read More</button>
+                </Link>
               </div>
             </div>
           );

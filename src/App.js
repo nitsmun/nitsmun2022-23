@@ -12,25 +12,28 @@ import Notfound from "./components/Pages/Notfound";
 import Navbarmenu from "./components/menu/Navbarmenu";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
+import Scrolling from "./components/Scrolling";
 
 function App() {
   return (
     <div>
       <Router basename="/">
         <Navbarmenu />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/About" component={About} />
-          <Route path="/Juniormun" component={Juniormun} />
-          <Route path="/Nitsmun2022" component={Nitsmun2022} />
-          <Route path="/Team" component={Team} />
-          <Route path="/Articles" component={Articles} />
-          <Route path="/Apply" component={Apply} />
-          <Route path="*">
-            {" "}
-            <Notfound />
-          </Route>
-        </Switch>
+        <Scrolling>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/About" component={About} />
+            <Route path="/Juniormun" component={Juniormun} />
+            <Route path="/Nitsmun2022" component={Nitsmun2022} />
+            <Route path="/Team" component={Team} />
+            <Route path="/Articles" component={Articles} />
+            <Route path="/Apply" component={Apply} />
+            <Route path="*">
+              {" "}
+              <Notfound />
+            </Route>
+          </Switch>
+        </Scrolling>
         <ScrollToTop />
       </Router>
       <Footer />

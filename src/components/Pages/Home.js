@@ -2,11 +2,11 @@ import React from "react";
 import "./Home.css";
 import Director from "../Director";
 import Slider from "../Slider/Slider";
-import ArticleHome from "../ArticleHome";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Timer from "../Timer";
 import Hometop from "../Hometop";
+import Articlehome2 from "../Articlehome2";
 
 export default function () {
   TabTitle("NITSMUN >> Home");
@@ -29,7 +29,7 @@ export default function () {
         </div>
         <Slider />
       </div>
-      <ArticleHome />
+      <Articlehome2 />
       <br />
     </>
   );

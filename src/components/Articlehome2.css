@@ -47,25 +47,13 @@ body {
   text-align-last: left;
   justify-content: center;
   line-height: 1.6;
-  /* letter-spacing: 5px; */
-  /* word-wrap: break-word;
-    word-spacing: 2px; */
 }
 .team-section-body p {
   color: #222226;
-  /* font-family: 'Roboto Mono', monospace; */
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  /* color: #212529; */
   margin: 0 0 16px;
-  /* line-height: 1.5em; */
-  /* letter-spacing: -0.25px; */
-  /* line-height: 1.6; */
-  /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
 }
 .team-section-body h2 {
   color: #ee0970;
@@ -74,26 +62,52 @@ body {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
-.team-section-body button {
+.article-home-btn{
   cursor: pointer;
   margin-top: 10px;
   border: 1px solid #212529;
   font-weight: 900;
-  /* transition: 1s; */
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  /* font-weight: 400; */
   line-height: 1.6;
   background-color: transparent;
   text-align: center;
   padding: 12px 12px;
   border-radius: 10px;
-  /* border: 2px solid linear-gradient(135deg, #e2564f 0%, #360940 100%); */
 }
-.team-section-body button:hover {
-  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
-  color: white;
+.article-home-btn:hover {
+  background-color: #e2564f;
+  transition: 0.3s ease-out;
+  color: whitesmoke;
 }
+.article-home-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #e2564f;
+  transition: 0.7s;
+}
+.article-home-btn:active
+        {
+            box-shadow: 1px 1px 1px 1px #e2564f;
+            transform: translateY(2px);
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 991px) {
   .tea0 {
     display: block;
