@@ -90,18 +90,46 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
+    /* transition: background-color 1s ease-in-out, color 11s ease-in-out; */
+    /* position: absolute;
+    top: 100px; */
  }
+ .read-more-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #e2564f;
+    transition: 0.7s;
+}
+.read-less-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #e2564f;
+    transition: 0.7s;
+}
+.read-more-btn:active
+        {
+            box-shadow: 4px 4px 4px 4px #666;
+            transform: translateY(10px);
+        }
+        .read-less-btn:active
+        {
+            background-color: #e91616ce;
+            box-shadow: 4px 4px 4px 4px #666;
+            transform: translateY(10px)
+        }
  .read-more-btn:hover {
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background-color: #e2564f;
     color: white;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
     border: solid linear-gradient(135deg, #e2564f 0%, #360940 100%) 1px;
     text-decoration: none;
+    transition: 0.5s ease-in-out;
  }
  .read-less-btn:hover {
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background-color: #e2564f;
+    transition: 0.5s ease-in-out;
     color: white;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;

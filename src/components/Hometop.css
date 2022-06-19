@@ -1,0 +1,81 @@
+.hometop-main{
+  /* background-color: black; */
+  padding-top: 5em;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  background: url("bgimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(245, 89, 89);
+  padding-bottom: 0;
+  /* height: 85vh; */
+
+  /* height: 140vh; */
+  
+}
+.hometop-img img{
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  width: 35rem;
+  padding-top: 3.8em;
+  padding-bottom: 3em;
+  /* padding-left: 0%; */
+  /* padding-right: 5em; */
+}
+.hometop-apply{
+  
+  width: 100%;
+  padding: 2em 2em;
+  margin-top: 1em;
+  /* background-color:brown; */
+  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  font-size: 2em;
+}
+.hometop-link1btn{
+  width: 50%;
+  padding: 16px 32px;
+ 
+  background-color: rgb(255, 255, 255);
+ 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  font-size: 20px;
+  color: rgb(25, 37, 94);
+}
+.hometop-link1btn:hover{
+  background-color: black;
+  color: white;
+}
+.hometop-reg{
+  font-variant: small-caps;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 565px)  {
+  .hometop-img img{
+      width: 25em;
+  }
+  .hometop-reg{
+      font-size: 0.5em;
+      
+  }
+  .hometop-link1btn{
+      font-size: 0.4em;
+      padding: 5px 10px;
+
+  }
+  .hometop-apply{
+      padding: 1em 1em;
+      margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 410px)  {
+  .hometop-img img{
+      width: 20em;
+
+  }
+}

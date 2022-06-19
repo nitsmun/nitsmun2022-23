@@ -33,7 +33,7 @@ export default function () {
                         <button className="read-more-btn">Read More</button>
                       }
                       readLessText={
-                        <button className="read-less-btn">Read Less</button>
+                        <button className="read-less-btn">Show Less</button>
                       }
                     >
                       {item.Content}

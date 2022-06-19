@@ -5,18 +5,22 @@ import Slider from "../Slider/Slider";
 import ArticleHome from "../ArticleHome";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
-import Timer from '../Timer'
+import Timer from "../Timer";
+import Hometop from "../Hometop";
 
 export default function () {
   TabTitle("NITSMUN >> Home");
   return (
     <>
-      <div className="dummy">
-        <h1>hello</h1>
+      <div>
+        <Hometop />
+        <Timer />
       </div>
       <br />
       <br />
-      <Timer />
+      <br/>
+      <br/>
+      <br/>
       <Director />
       <Secretary />
       <div className="glimpses-section">
