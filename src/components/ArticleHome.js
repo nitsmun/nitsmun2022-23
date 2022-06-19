@@ -34,7 +34,7 @@ export default function () {
                     onClick: () => setExpanded((prevExpanded) => !prevExpanded),
                   })}
                 >
-                  {isExpanded ? "Read Less" : "Read More"}
+                  {isExpanded ? "Show Less" : "Read More"}
                 </button>
               </div>
             </div>

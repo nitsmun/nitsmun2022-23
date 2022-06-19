@@ -141,8 +141,27 @@
 
 
 
+@media only screen and (min-device-width:1001px) and (max-device-width:1420px) {
+    .article-cont1{
+        margin: 0;
+        padding-right: 40px;
+        font-size: 18px;
+        line-height: 1.6;
+        padding-top: 10px;
+    }
+    .img-holder{
+        margin-right: 20px;
+        margin-left: 25px;
+    }
+}
 
-@media only screen and (max-width: 991px){
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
     .article-flexing{
         display: block;
     }

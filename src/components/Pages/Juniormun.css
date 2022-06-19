@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;;
+}
 .event-pic img{
     width: 100%;
     position: relative;
@@ -11,18 +20,60 @@
     margin-bottom: 25px;
 }
 .event-title h1{
-    color: #1994a5;
+    color: #e2564f;
     font-weight: bolder;
     font-size: 5vh;
 }
 .event-title{
-    border-bottom: 0.2vh solid #1994a5;
+    border-bottom: 0.2vh solid #e2564f;
     width: 60%;
     text-align: center;
-    margin: 5vh auto 2vh;
+    margin: 5vh auto 8vh;
 }
 .event-details{
-    margin: 35.448px 112.975px 0;
+    margin: 35.448px 112.975px 5vh;
     color: #161c2f;
     font-size: 2.3vh;
+    line-height: 2.0;
+    text-align: justify;
+    text-align-last: left;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1000px){
+    .event-details{
+        margin: 26.264px 18.7625px 37.52px;
+        line-height: 1.8;
+    }
+    .event pic img{
+        height: 25vh;
+    }
+    .event-title{
+        margin-bottom: 3vh;
+    }
+    .event-title h1{
+        font-size: 22.512px;
+        font-weight: 900;
+    }
+}
+.junmun-partners{
+    margin-bottom: 4vh;
+}
+.junmunpart-heading{
+    text-align: center;
+}
+.junmunpart-heading h1{
+    font-weight: 900;
+    color: #e2564f;
+    font-size: 40px;
+}
+.junmun-flexing, .partner1, .partner2{
+    display: flex;
+}
+.part-indi1 img{
+    border-radius: 50%;
+    width: 100px;
+}
+.part-indi2 img{
+    border-radius: 50%;
+    width: 100px;
 }

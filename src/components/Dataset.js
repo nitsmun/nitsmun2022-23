@@ -459,7 +459,7 @@ export const Secretariatresearchjr = [
   {
     id: 9,
     cName: "team-sec",
-    imgsrc: "./Images/Trilasha Mazumder.jpeg",
+    imgsrc: "./Images/Trilasha Mazumder1.jpeg",
     alt: "Trilasha Mazumder",
     name: "Trilasha Mazumder",
     post: "Research and Development Team",

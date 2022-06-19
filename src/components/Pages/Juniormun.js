@@ -27,6 +27,25 @@ const Juniormun = () => {
         State Boards, we organised our conference from October 16, 2021 to
         October 17, 2021.
       </div>
+      <div className="junmun-partners">
+        <div className="junmunpart-heading">
+          <h1>Our Partners</h1>
+        </div>
+        <div className="junmun-flexing">
+          <div className="partner1">
+            <div className="part-indi1">
+              <img src="./Images/dias_logo.jpg" alt="" />
+            </div>
+            <div className="part-indi2">
+              <img src="./Images/ids_logo.png" alt="" />
+            </div>
+          </div>
+          <div className="partner2">
+          <div className="part-indi3"></div>
+          <div className="part-indi4"></div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
