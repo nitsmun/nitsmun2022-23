@@ -11,7 +11,8 @@
     text-align: center;
     margin-top: 50px;
     padding: 21px 0 12px 0;
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background-color: #208595;
 }
 @media screen and (max-width: 700px){
     .articles-heading-cont h1{
@@ -36,7 +37,8 @@
 }
 .article-content h1{
     font-size: 32px;
-    color: #212529;
+    /* color: #212529; */
+    color: #03989e;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -63,7 +65,8 @@
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     font-size: 17.6px;
-    color: #212529;
+    /* color: #212529; */
+    color: #3ca06a;
 }
 .post-date {
     text-align: center;

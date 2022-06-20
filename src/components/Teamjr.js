@@ -1,7 +1,6 @@
 import React from "react";
 import "./Teamjr.css";
 import { Secretariatjr } from "./Dataset";
-
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";

@@ -4,7 +4,8 @@
 .about-header{
     display: flex;
     justify-content: center;
-    background-color: rgb(193, 104, 96);
+    /* background-color: rgb(193, 104, 96); */
+    background-color: #208595;
     padding:1.5vh 0;
 }
 .about-headertxt{
@@ -33,7 +34,8 @@
 .about-headertxt2 h1 {
     /* font-family:  Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-size: 2.7em;
-    color: rgb(105, 63, 57);
+    /* color: rgb(105, 63, 57); */
+    color: #03989e;
     font-variant: small-caps;
 }
 .about-content2 {

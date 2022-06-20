@@ -20,12 +20,12 @@
     margin-bottom: 25px;
 }
 .event-title h1{
-    color: #e2564f;
+    color: #03989e;
     font-weight: bolder;
     font-size: 5vh;
 }
 .event-title{
-    border-bottom: 0.2vh solid #e2564f;
+    border-bottom: 0.2vh solid #3ca06a;
     width: 60%;
     text-align: center;
     margin: 5vh auto 8vh;
@@ -80,6 +80,7 @@
 } */
 .commitees-heading{
     text-align: center;
+    color: #03989e;
 }
 .junmun-agendas{
     display: flex;
@@ -217,6 +218,7 @@ padding: 0.8em 0;
 .junmun2021{
     text-align: center;
     padding-top: 5vh;
+    color: #03989e;
 }
 
 .images-junmun21 img{

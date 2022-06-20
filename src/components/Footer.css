@@ -4,7 +4,7 @@
 }
 .footer-icon{
 
-    background-color: #4B0D32;
+    background-color: #1da393;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 .footer-below{
     justify-content: center;
     max-width: 100%;
-    background-color: #7D1237;
+    background-color: #0c5160;
     display: flex;
     justify-content: space-around;
     align-items: center;
