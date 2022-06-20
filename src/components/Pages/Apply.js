@@ -11,16 +11,12 @@ export default function () {
             <img src="./Images/logo-nitsmun.png" alt="NITSMUN" />
           </center>
         </div>
-        <div className="link-apply">
-          <button className="apply-btn">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform"
-              target="blank"
-            >
-              Link for Junior MUN 2022
-            </a>
-          </button>
-        </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform"
+          target="_blank"
+        >
+          Link for Early Bird Registrations for NITSMUN Junior MUN 2022
+        </a>
       </div>
     </>
   );

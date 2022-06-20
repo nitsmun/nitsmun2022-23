@@ -22,8 +22,15 @@
         padding-bottom: 15px;
     }
 }
-
-
+/* .article-container{
+    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+} */
+/* .article-main-content{
+    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+} */
+.article-main-content{
+    background-color: rgba(250, 247, 241, 0.619);
+}
 .article-flexing{
     display: flex;
 }

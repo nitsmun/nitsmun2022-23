@@ -12,7 +12,22 @@ export const Slider = [
     image: "https://nitsmun.in/img/Carousel5.jpg",
   },
 ];
-
+export const Junmun = [
+  {
+    Title01:"United Nations High Commissioner for Refugees",
+    imgjunmun:"./Images/Agenda1.jpeg",
+    Agendapara:"Addresing the plight of the refugees due to conflicts around the globe with special emphasis on Europe.",
+  },
+  {Title01:"United Nations Environment Programme",
+  imgjunmun:"./Images/Agenda2.jpeg",
+  Agendapara:"Accentuating the problems caused due to rapid globalization and its influence on the environment.",
+  },
+  {
+    Title01:"United Nations Security Council (UNSC)",
+    imgjunmun:"./Images/Agenda3.jpeg",
+    Agendapara:"Highlighting the problems related to weaponized nuclear technology in the 21st Century.",
+  },
+];
 export const Secretariat = [
   {
     id: 1,
