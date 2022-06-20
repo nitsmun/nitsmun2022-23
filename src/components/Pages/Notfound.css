@@ -3,7 +3,8 @@
 .not-found{
     width: 100%;
     /* background-color: rgb(4,4,4); */
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
     /* margin-top: 3vh; */
     padding-top: 130px;
     height:95vh;
@@ -34,14 +35,15 @@
     margin-top: 4vh;
 }
 .tohome{
-    color: #ee0970;
+    color: #000000;
+    font-weight: 900;
 }
 .to-home{
     font-size: 25px;
 }
-.tohome:hover{
+/* .tohome:hover{
         color: whitesmoke;
-}
+} */
 @media (max-width:992px){
     .not-found-text h1{
         padding: 0 30px;
@@ -54,4 +56,31 @@
     .no-existence1{
         font-size: 130px;
     }
+    .notfound-tohome{
+        width: 70%;
+        padding: 5px;
+    }
+    .to-home{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+.notfound-tohome{
+    width: 50%;
+    padding: 10px;
+    background-color: #9dcb6887;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+}
+.notfound-tohome:hover{
+    background-color: rgba(226, 106, 106, 0.386);
+    transition: 0.3s ease-in;
 }

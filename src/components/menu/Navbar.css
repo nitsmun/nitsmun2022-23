@@ -74,7 +74,7 @@ li {
 }
 .menu-item a {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 900;
   line-height: 40px;
   position: relative;
   display: block;
@@ -164,7 +164,7 @@ li {
 
 /* for hover */
 .menu-item:hover > a{
-  color: #d83ff1 !important;
+  color: #4effbf !important;
 }
  /* important HOVER  to be changed*/
 

@@ -1,7 +1,10 @@
 .apply-container{
     height: 95vh;
     width: 100%;
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    /* background-image: linear-gradient(#093f15, #085560); */
+    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+    /* background-color: #0e423c; */
 }
 .img-apply img{
     margin: 15vh 0 1vh 0vh;

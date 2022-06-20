@@ -19,8 +19,8 @@ export default function () {
       <br />
       <br />
       <Director />
-      <br/>
-      <br/>
+      {/* <br/>
+      <br/> */}
       <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">
