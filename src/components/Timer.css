@@ -4,6 +4,7 @@ div#timer {
     top: 0;
     left: 0;
     margin: 2vh auto 2vh auto;
+    
   
     /**Dimensions**/
     width: 65%;
@@ -20,7 +21,8 @@ div#timer {
     align-items: center;
   
     /**Content**/
-    color: var(--color-8-100);
+    /* color: var(--color-8-100); */
+    /* color: aliceblue; */
     padding: 2vh 5vh;
   
     background: linear-gradient(135deg, #34a080 0%, #049b9b 100%);
@@ -29,28 +31,31 @@ div#timer {
   div#timer div.timer-limit {
     width: 100%;
   
-    color: var(--color-1-100);
+    color: #eef4eb;
     text-align: center;
     margin-bottom: 3vh;
     font-size: 2.9vh;
+    font-weight: bolder;
   }
   
   div#timer div.timer-int {
     padding: 0 5vh;
-    color: var(--color-1-100);
+    color: #fcecec;
+    /* font-size: xx-large; */
   }
   
   div.timer-int div.timer-int-value {
     text-align: center;
     font-size: 6.5vh;
     transition: 0.2s;
-    font-weight: bold;
-    color: var(--color-6-100);
+    font-weight: bolder;
+    color: #212529;
+    /* color: var(--color-6-100); */
   }
   
   div.timer-int div.timer-int-label {
     margin: 2vh 0;
-  
+    
     text-align: center;
     text-transform: uppercase;
     font-size: 3vh;
@@ -58,13 +63,15 @@ div#timer {
   
   div.timer-int-colon {
     font-size: 7vh;
-    color: var(--color-6-100);
+    /* color: var(--color-6-100); */
+    color: #212529;
   }
   
   div.coming-soon {
     margin: 3vh auto;
     font-size: 5vh;
-    color: var(--color-6-100);
+    /* color: var(--color-6-100); */
+    color: #212529;
   }
   
   @media screen and (max-width: 1000px) {
