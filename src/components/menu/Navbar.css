@@ -164,7 +164,7 @@ li {
 
 /* for hover */
 .menu-item:hover > a{
-  color: #92750d !important;
+  color: orangered !important;
 }
  /* important HOVER  to be changed*/
 

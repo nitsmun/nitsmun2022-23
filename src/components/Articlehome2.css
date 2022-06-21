@@ -12,11 +12,14 @@ body {
 .tea0 {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(250, 247, 241, 0.393);
+  /* background-color: #161c2f; */
 }
 .art-home-title {
   padding: 2.5rem 0 2rem 0;
   display: inline-block;
   text-align: center;
+  /* background-color: #ee0970; */
 }
 .apply-home-h1 {
   text-align: center;
