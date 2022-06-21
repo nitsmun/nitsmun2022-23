@@ -85,11 +85,16 @@
 .nm22-exmainhead {
   padding: 1.5em;
   font: bolder;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 @media (max-width: 479px) {
   .nm22-agendaimg2 {
     width: 35em;
+  }
+}
+@media (max-width:410px){
+  .nm22-head,.nm22-exmainhead{
+    font-size: 0.85em;
   }
 }
 @media (max-width: 1260px) {

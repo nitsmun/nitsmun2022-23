@@ -26,6 +26,10 @@ div#timer {
     padding: 2vh 5vh;
   
     background: linear-gradient(135deg, #34a080 0%, #049b9b 100%);
+    /* background-color: #1da393; */
+  }
+  div#timer .bolder{
+    font-weight: 900;
   }
   
   div#timer div.timer-limit {
@@ -49,7 +53,7 @@ div#timer {
     font-size: 6.5vh;
     transition: 0.2s;
     font-weight: bolder;
-    color: #212529;
+    color: #ffffff;
     /* color: var(--color-6-100); */
   }
   
@@ -64,7 +68,7 @@ div#timer {
   div.timer-int-colon {
     font-size: 7vh;
     /* color: var(--color-6-100); */
-    color: #212529;
+    color: #ffffff;
   }
   
   div.coming-soon {

@@ -94,7 +94,7 @@ const Timer = () => {
         )} */}
       </div>
       <div id='timer'>
-        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold" style={{color:"blue"}}> 06/08/2022</span></div>}
+        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bolder" style={{color:"#aeff00"}}> 06/08/2022</span></div>}
         {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
         {display.length === 4 &&
