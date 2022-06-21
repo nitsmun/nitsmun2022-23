@@ -174,7 +174,7 @@ li {
 
   /* to be changed */
   /* color: #e64540 !important; */
-  color: #92750d !important;
+  color: orangered !important;
 }
 .img-left{
   max-width: 207px;
@@ -196,7 +196,7 @@ li {
 
 
 /* to be changed HOVER */
-.main-nav .menu-item:hover > a {color: #92750d !important}
+.main-nav .menu-item:hover > a {color: orangered !important}
 /* to be changed */
 
 
