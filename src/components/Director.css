@@ -14,9 +14,9 @@
   /* width: 90%; */
 }
 
-.sec-main {
+.sec-main1 {
   display: flex;
-  background-color: rgb(171, 118, 118);
+  background-color: rgba(250, 247, 241, 0.438);
   padding-top: 3em;
   padding-bottom: 3em;
   box-shadow: 3px brown;
@@ -56,7 +56,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .sec-main {
+  .sec-main1 {
     padding-top: 2.5em;
   }
   .sec-nme {
@@ -65,7 +65,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .sec-main {
+  .sec-main1 {
     display: flex;
     flex-direction: column;
     justify-content: center;

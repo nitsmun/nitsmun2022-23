@@ -1,15 +1,9 @@
 import React from "react";
 import "./Articlehome2.css";
 import { Link } from "react-router-dom";
-// import React, { useState } from "react";
-// import "./Article-home.css";
 import { Articleforhome } from "./Dataset";
-// import useCollapse from "react-collapsed";
 import Underline3 from "../components/Underline/Underline3";
 export default function () {
-  //   const [isExpanded, setExpanded] = useState(false);
-  //   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
-
   return (
     <>
       <Underline3 />
@@ -22,7 +16,6 @@ export default function () {
           FOR ALL OUR ARTICLES!
         </h1>
       </div>
-
       <div className="tea0">
         {Articleforhome.map((item) => {
           return (

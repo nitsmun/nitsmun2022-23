@@ -32,7 +32,8 @@
 }
 .team-stats2{
     /* background-color: #161c2f; */
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background-color: #00695d;
     margin: 20px;
     border-radius: 20px;
     transition: 1s ease-out;

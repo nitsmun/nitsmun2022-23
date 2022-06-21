@@ -7,7 +7,8 @@
     width: 100%;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
+    background-image: linear-gradient(#093f15, #085560);
 }
 @media screen and (max-width: 700px){
     .glimpses h1{

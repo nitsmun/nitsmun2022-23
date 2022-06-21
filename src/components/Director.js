@@ -11,7 +11,7 @@ const Director = () => {
         </div>
       </div>
 
-      <div className="sec-main">
+      <div className="sec-main1">
         <div className="sec-padding1"></div>
         <div className="dir-imgcon">
           <div>
@@ -31,7 +31,8 @@ const Director = () => {
               textAlign: "justify",
               fontSize: "1.1rem",
               lineHeight: "1.6",
-              fontWeight: "500",
+              fontWeight: "600",
+              
             }}
           >
             <br />

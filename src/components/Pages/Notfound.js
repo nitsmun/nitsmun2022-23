@@ -14,11 +14,12 @@ export default function () {
           <h1>Whoops, page not found</h1>
           <h2>We can’t seem to find the page you’re looking for</h2>
         </div>
-        <div className="notfound-tohome">
+        {/* <div className="notfound-tohome">
           <Link className="tohome" to="/">
             <hi className="to-home">Go to Homepage.</hi>
           </Link>
-        </div>
+        </div> */}
+        <Link className="tohome" to="/"><button className="notfound-tohome">Go to Homepage</button></Link>
       </div>
     </>
   );

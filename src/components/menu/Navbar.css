@@ -164,7 +164,7 @@ li {
 
 /* for hover */
 .menu-item:hover > a{
-  color: #4effbf !important;
+  color: #92750d !important;
 }
  /* important HOVER  to be changed*/
 
@@ -174,7 +174,7 @@ li {
 
   /* to be changed */
   /* color: #e64540 !important; */
-  color: #fff500 !important;
+  color: #92750d !important;
 }
 .img-left{
   max-width: 207px;
@@ -196,7 +196,7 @@ li {
 
 
 /* to be changed HOVER */
-.main-nav .menu-item:hover > a {color: #ff6a00 !important}
+.main-nav .menu-item:hover > a {color: #92750d !important}
 /* to be changed */
 
 

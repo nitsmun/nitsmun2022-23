@@ -26,6 +26,34 @@
     transition: 0.3s ease-out;
 }
 
+.apply-container a:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #e2564f;
+    transition: 0.7s;
+  }
+.apply-container a:active
+          {
+              box-shadow: 1px 1px 1px 1px #e2564f;
+              transform: translateY(2px);
+          } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1000px){
     .img-apply img{
         width: 250px;

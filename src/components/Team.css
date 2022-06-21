@@ -31,8 +31,12 @@
      padding: 20px 50px 30px 50px;
  }
  .team-stats{
-     background: linear-gradient(135deg, #17515e 100%, #11796d 91%);
+     /* background: linear-gradient(135deg, #17515e 100%, #11796d 91%); */
+     
      /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
+     /* background: linear-gradient(135deg, #187b6f 0%, #195f6f 100%); */
+     /* background-color: #0c5160; */
+     background-color: #00695d;
      margin: 20px;
      border-radius: 20px;
      transition: 1s ease-out;
