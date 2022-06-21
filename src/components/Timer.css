@@ -3,7 +3,7 @@ div#timer {
     position: relative;
     top: 0;
     left: 0;
-    margin: 10vh auto 2vh auto;
+    margin: 2vh auto 2vh auto;
   
     /**Dimensions**/
     width: 65%;
@@ -23,7 +23,7 @@ div#timer {
     color: var(--color-8-100);
     padding: 2vh 5vh;
   
-    background-color: brown;
+    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
   }
   
   div#timer div.timer-limit {

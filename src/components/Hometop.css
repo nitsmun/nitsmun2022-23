@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   background: url("bgimage.png");
+  
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,10 +27,10 @@
 .hometop-apply{
   
   width: 100%;
-  padding: 2em 2em;
-  margin-top: 1em;
+  padding: 1em 1em;
+  /* margin-top: 1em; */
   /* background-color:brown; */
-  background: linear-gradient(135deg, #e2564f 0%, #360940 100%);
+  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
   font-size: 2em;
 }
 .hometop-link1btn{
