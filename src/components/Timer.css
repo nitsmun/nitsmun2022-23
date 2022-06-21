@@ -23,7 +23,7 @@ div#timer {
     color: var(--color-8-100);
     padding: 2vh 5vh;
   
-    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+    background: linear-gradient(135deg, #34a080 0%, #049b9b 100%);
   }
   
   div#timer div.timer-limit {
