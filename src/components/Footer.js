@@ -7,7 +7,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { GoLocation } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { IconContext } from "react-icons";
 // import { Link, Route, Switch} from "react-router-dom";
 
