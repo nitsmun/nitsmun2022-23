@@ -1,0 +1,95 @@
+.about-main{
+    padding-top: 60px;
+}
+.about-header{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(193, 104, 96); */
+    background-color: #208595;
+    padding:1.5vh 0;
+}
+.about-headertxt{
+    font-size: 3rem;
+    color: white;
+}
+.about-content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em 5em;;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.about-content1 ul{
+    color: rgb(144, 123, 123);
+    font-size: 1rem;
+    padding-bottom: 01.5rem;
+    line-height: 1.6;
+}
+.about-headertxt2{
+    display: flex;
+    justify-content: center;
+}
+.about-headertxt2 h1 {
+    /* font-family:  Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 2.7em;
+    /* color: rgb(105, 63, 57); */
+    color: #03989e;
+    font-variant: small-caps;
+}
+.about-content2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.content-para3{
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: 600;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+    color: rgb(62, 53, 51);
+}
+.content-para4{
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: 600;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: justify;
+    padding-bottom: 1em;
+    color: rgb(62, 53, 51);
+}
+@media only screen and (max-width : 981px){
+    .about-main{
+        padding-top: 53px;
+    }
+    .about-content1 {
+        padding-left: 2.4em;
+        padding-right: 2.4em;
+    }
+    .content-para3,.content-para4{
+        padding-left: 2.4em;
+        padding-right: 2.4em;
+    }
+}
+@media only screen and (max-width : 650px){
+    .about-content1 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .content-para3,.content-para4{
+        padding-left: 1em;
+        padding-right: 1em;
+        text-align: justify;
+    }
+    .about-headertxt2 h1 {
+        font-size: 2em;
+    }
+    .about-headertxt{
+        font-size: 27.856px;
+    }
+}

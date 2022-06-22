@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.tea0 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(250, 247, 241, 0.393);
+  /* background-color: #161c2f; */
+}
+.art-home-title {
+  padding: 2.5rem 0 2rem 0;
+  display: inline-block;
+  text-align: center;
+  /* background-color: #ee0970; */
+}
+.apply-home-h1 {
+  text-align: center;
+  border-bottom: 2px solid #208595;
+  color: #161c2f;
+  font-weight: bolder;
+  font-size: 30.416px;
+}
+.apply-home-h1 a {
+  color: #1994a5;
+}
+.team-section {
+  margin: 0 40px;
+  background: white;
+  width: 29%;
+  box-shadow: 0 0 15px;
+  border-radius: 10px;
+  height: max-content;
+}
+.team-section img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.team-section-body {
+  padding: 10px 20px;
+  text-align: justify;
+  text-align-last: left;
+  justify-content: center;
+  line-height: 1.6;
+}
+.team-section-body p {
+  color: #222226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.team-section-body h2 {
+  color: #ee0970;
+  margin: 0 0 8px;
+  padding: 5px 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.article-home-btn{
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #212529;
+  font-weight: 900;
+  line-height: 1.6;
+  background-color: transparent;
+  text-align: center;
+  padding: 12px 12px;
+  border-radius: 10px;
+}
+.article-home-btn:hover {
+  background-color: #e2564f;
+  transition: 0.3s ease-out;
+  color: whitesmoke;
+}
+.article-home-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #e2564f;
+  transition: 0.7s;
+}
+.article-home-btn:active
+        {
+            box-shadow: 1px 1px 1px 1px #e2564f;
+            transform: translateY(2px);
+        } 
+
+@media only screen and (max-width: 991px) {
+  .tea0 {
+    display: block;
+    justify-content: space-between;
+  }
+  .team-section {
+    width: 80%;
+    /* margin: 20px; */
+    margin: 20px auto;
+  }
+  .apply-home-h1 {
+    font-size: 18.416px;
+  }
+  .apply-home-h1 a {
+    font-size: 18.416px;
+  }
+  .art-home-title {
+    padding: 3px auto;
+  }
+  .team-section-body p {
+    font-size: 14px;
+    /* line-height: 8.6; */
+    /* word-spacing: 1px; */
+  }
+  .team-section-body{
+    line-height: 1.8;
+  }
+}

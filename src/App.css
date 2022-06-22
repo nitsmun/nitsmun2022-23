@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: 'Montserrat','Varela Round','Caveat', cursive, 'Inter', sans-serif;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: linear-gradient(135deg, #093F15 0%, #137C8A 100%);
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(135deg, #9EAA14 0%, #0bb5cb 100%);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(#0bb5cb, #9EAA14);
+}

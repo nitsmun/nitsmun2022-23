@@ -1,0 +1,9 @@
+.line{
+    width: 94%;
+    /* border-top: 3px solid #732445; */
+    border-top: 3px solid #3ca06a;
+    height: 6px;
+    text-align: center;
+    margin: 1vh auto 1vh;
+    border-radius: 4px;
+}

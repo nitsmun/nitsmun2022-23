@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+.nm22-head h1{
+  color: #03989e !important;
+}
+.nm22-body1 {
+  padding-left: 4em;
+  padding-right: 4em;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.nm22-body1 b {
+  font-weight: 800;
+  color: black;
+}
+.nm22-body2 {
+  padding-left: 4em;
+  padding-right: 4em;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: black;
+  line-height: 1.6;
+}
+.nm22-body2 b {
+  font-weight: 800;
+  color: black;
+}
+
+.nm22-agenda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nm22-agendaimg1 {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-bottom: 0.7em;
+  width: 35em;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.nm22-agendaimg2 {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  width: 30em;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.nm22-exemain {
+  background-color: white;
+
+  max-width: 100%;
+  box-sizing: content-box;
+  left: 1em;
+  right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.nm22-exmianimg {
+  width: 25em;
+  max-width: 100%;
+}
+.grid1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 1.5em;
+    padding-right: 1.5em; */
+}
+.grid1 img {
+  padding: 0.3em;
+  max-width: 100%;
+}
+.nm22-exmainhead {
+  padding: 1.5em;
+  font: bolder;
+  font-size: 1.3em;
+}
+@media (max-width: 479px) {
+  .nm22-agendaimg2 {
+    width: 35em;
+  }
+}
+@media (max-width:410px){
+  .nm22-head,.nm22-exmainhead{
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 1260px) {
+  .nm22-exmianimg {
+    width: 20em;
+  }
+
+
+  .nm22-body2, .nm22-body1{
+    font-size: 0.9849em;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 1035px) {
+  .nm22-exmianimg {
+    width: 15em;
+  }
+}
+@media (max-width: 807px) {
+  .nm22-exmianimg {
+    width: 12em;
+  }
+  .nm22-body2,
+  .nm22-body1 {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media (max-width: 600px) {
+  .grid1 {
+    flex-direction: column;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+  .nm22-exmianimg {
+    width: 25em;
+  }
+  .nm22-exemain {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
