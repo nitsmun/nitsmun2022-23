@@ -4,7 +4,8 @@ import { Secretariatwebjr } from "./Dataset";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
+// import { ImGithub } from "react-icons/im";
 import Underline2 from "./Underline2";
 export default function () {
   return (
@@ -25,17 +26,21 @@ export default function () {
               <div className="social-media">
                 <div className="icon1">
                   <a href={item.mail}>
-                    <HiOutlineMail className="icon-color" size={20} />
+                    <button className="btn-icon1">
+                      <HiOutlineMail className="icon-color" size={25} />
+                    </button>
                   </a>
                 </div>
                 <div className="icon2">
                   <a href={item.linkedin} target="_blank">
-                    <FaLinkedinIn className="icon-color1" size={20} />
+                    <button className="btn-icon1">
+                      <FaLinkedinIn className="icon-color1" size={25} />
+                    </button>
                   </a>
                 </div>
                 <div className="icon3">
                   <a href={item.fb} target="_blank">
-                    <FaFacebookF className="icon-color2" size={20} />
+                    <button className="btn-icon1">{item.icon0}</button>
                   </a>
                 </div>
               </div>

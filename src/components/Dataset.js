@@ -1,3 +1,7 @@
+import { FaFacebookF } from "react-icons/fa";
+import { ImGithub } from "react-icons/im";
+// import { FaGithubSquare } from "react-icons/fa";
+
 export const Slider = [
   {
     image: "https://nitsmun.in/img/Carousel2.jpg",
@@ -39,6 +43,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/shreyashi-roymedhi-5046451a0",
     fb: "https://www.facebook.com/profile.php?id=100009709412767",
     mail: "mailto:shreyashi_ug@mech.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 2,
@@ -50,6 +55,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/sai-lahari-jayareddygari-57681a196",
     fb: "https://www.facebook.com/profile.php?id=100006209748653",
     mail: "mailto:sailahari410@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 3,
@@ -61,6 +67,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/mehul-dewangan-6bb73a1a0",
     fb: "https://www.facebook.com/mehul.dewangan.1",
     mail: "mailto:mehul_ug@cse.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 4,
@@ -72,6 +79,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/mondeepprakash/",
     fb: "https://www.facebook.com/mondeep.prakash/",
     mail: "mailto:mondeepprakash_ug@cse.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 5,
@@ -82,6 +90,7 @@ export const Secretariat = [
     post: "Director Media & Design",
     linkedin: "https://www.linkedin.com/in/nihar-jyoti-basisth-121b2319b/",
     fb: "https://www.facebook.com/nihar.basisth.7",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 6,
@@ -93,6 +102,7 @@ export const Secretariat = [
     linkedin: "http://www.linkedin.com/in/sohan-paul",
     fb: "https://www.facebook.com/paulsohan2",
     mail: "mailto:sohan_ug@mech.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 7,
@@ -104,6 +114,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/sanchayita-purkayastha-68b62b1a0/",
     fb: "https://www.facebook.com/sanchayita.purkayastha",
     mail: "mailto:sanchayita_ug@cse.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 8,
@@ -115,6 +126,7 @@ export const Secretariat = [
     linkedin: "https://www.facebook.com/profile.php?id=100008137332638",
     fb: "https://www.facebook.com/profile.php?id=100008137332638",
     mail: "mailto:rahulchourasia_ug@civil.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 9,
@@ -125,6 +137,8 @@ export const Secretariat = [
     post: "Director Technical Operations",
     linkedin: "https://www.linkedin.com/in/aditya-kotari-499933195/",
     mail: "mailto:aditya.kotari@gmail.com",
+    fb:"https://github.com/AdityaKotari",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 10,
@@ -133,8 +147,10 @@ export const Secretariat = [
     alt: "Tasneem Koushar",
     name: "Tasneem Koushar",
     post: "Director Technical Operations",
+    fb:"https://github.com/tasneemkoushar",
     linkedin: "https://www.linkedin.com/in/tasneemkoushar/",
     mail: "mailto:imatasneemkoushar@gmail.com",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 11,
@@ -146,6 +162,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/sunil-kumar-mulkala-036360196",
     fb: "https://www.facebook.com/profile.php?id=100006872709714",
     mail: "mailto:sunil.mulkala143@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
 ];
 export const Secretariatjr = [
@@ -159,6 +176,7 @@ export const Secretariatjr = [
     linkedin: "https://nitsmun.in/www.linkedin.com/in/eisha-halder-a42367200",
     fb: "https://www.facebook.com/eisha.halder.16",
     mail: "mailto:eisha20_ug@cse.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 2,
@@ -170,6 +188,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/maruf-padaya-a865151bb",
     fb: "https://www.facebook.com/maruf.padaya",
     mail: "mailto:marufpadaya786@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 3,
@@ -181,6 +200,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/pranjal-singh-b17037201",
     fb: "https://www.facebook.com/profile.php?id=100005172197980",
     mail: "mailto:pranjal7802@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 4,
@@ -192,6 +212,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/rituporna-das-a8a71720b",
     fb: "https://www.facebook.com/profile.php?id=100057949881243",
     mail: "mailto:dasrituporna555@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 5,
@@ -203,6 +224,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/reetom-rana-dutta-34156220a",
     fb: "https://www.facebook.com/reetom.ranadutta",
     mail: "mailto:reetom20_ug@ee.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 6,
@@ -214,6 +236,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/saurav-chanda-139356222",
     fb: "https://www.facebook.com/stuarttat120",
     mail: "mailto:chandasaurav120@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 7,
@@ -225,6 +248,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/mriganga-jyoti-chutia-475b53202",
     fb: "https://www.facebook.com/mriganga.jyotichutia",
     mail: "mailto:mrigangajyoti25092001@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 8,
@@ -236,6 +260,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/bishal-karmakar-26942a20b/",
     fb: "https://www.facebook.com/profile.php?id=100011434842985",
     mail: "mailto:bishalkarmakar123456@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 9,
@@ -247,6 +272,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/mwlite/in/somadrita-halder-46156220a",
     fb: "https://m.facebook.com/somadrita.halder?ref=bookmarks",
     mail: "mailto:somadrita20_ug@mech.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 10,
@@ -258,6 +284,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/",
     fb: "https://www.facebook.com/dhirazit.hazarika",
     mail: "mailto:dhirazit20_ug@mech.nits.ac.in",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 11,
@@ -269,6 +296,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/tanmay-tripathy/",
     fb: "https://www.facebook.com/profile.php?id=100009726932773",
     mail: "mailto:ttripathy17@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 12,
@@ -278,7 +306,9 @@ export const Secretariatjr = [
     name: "Saurav Pal",
     post: "Deputy Director Technical Operations",
     linkedin: "https://www.linkedin.com/in/resyfer/",
+    fb:"https://github.com/resyfer",
     mail: "mailto:palsaurav.2020@gmail.com",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 13,
@@ -287,8 +317,10 @@ export const Secretariatjr = [
     alt: "Biju Borah",
     name: "Biju Borah",
     post: "Deputy Director Technical Operations",
+    fb:"https://github.com/biju-borah",
     linkedin: "https://www.linkedin.com/in/biju-borah-1bb78620a",
     mail: "mailto:biju20_ug@ee.nits.ac.in",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 14,
@@ -300,6 +332,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/devendar-sainadh-gorla-9021a91b5",
     fb: "https://www.facebook.com/devendar1729",
     mail: "mailto:devendargorla@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
   {
     id: 15,
@@ -311,6 +344,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/saurav-suman-49a78620a",
     fb: "https://www.facebook.com/saurav.suman.7946281",
     mail: "mailto:sumanism1102@gmail.com",
+    icon0:<> <FaFacebookF className="icon-color2" size={25} /> </>
   },
 ];
 export const Secretariatmediajr = [
@@ -574,7 +608,8 @@ export const Secretariatwebjr = [
     post: "Web Development Team",
     mail: "mailto:ankitupadhaya07@gmail.com",
     linkedin: "https://www.linkedin.com/in/ankit-upadhaya07",
-    fb: "https://www.facebook.com/profile.php?id=100004528696175",
+    fb: "https://github.com/ankit07an",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 2,
@@ -585,7 +620,8 @@ export const Secretariatwebjr = [
     post: "Web Development Team",
     mail: "mailto:hereisadi@pm.me",
     linkedin: "https://www.linkedin.com/in/aditya-ranjan-77a6a522b/",
-    fb: "https://www.facebook.com/profile.php?id=100076402945936",
+    fb: "https://github.com/hereisadi",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
   {
     id: 3,
@@ -596,7 +632,8 @@ export const Secretariatwebjr = [
     post: "Web Development Team",
     mail: "mailto:dorothy21_ug@ee.nits.ac.in",
     linkedin: "https://www.linkedin.com/in/dorothy-phukon-48a066230",
-    fb: "https://www.facebook.com/profile.php?id=100076166561248",
+    fb: "https://github.com/dorothyp12",
+    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
   },
 ];
 export const Articleforhome = [
