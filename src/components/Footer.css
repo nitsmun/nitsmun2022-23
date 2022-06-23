@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2em;
+    height: 2.4em;
 }
 .footer-below{
     justify-content: center;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 13em;
+    height: 12em;
 }
 .address ul{
     padding-bottom: 0.4em;
@@ -39,15 +39,15 @@
     display: flex;
     align-items: center;
 }
-.footer-anchor{
-    padding: 1em;
-}
+/* .footer-anchor{
+    /* padding: 1em; */
 .phonenum .address{
     padding: 0.5rem;
 }
 
 .icon-color8{
     color: white;
+    /* padding: 0%; */
 }
 .icon-color8:hover {
     color: red;
@@ -58,6 +58,62 @@
 .icon-color9:hover {
     /* color: pink; */
     color: #f09433;
+}
+.footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e{
+    background-color: #6ae0f2;
+    margin: 5px;
+    margin-top:5px;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* padding-top: 4px; */
+    border-radius: 5px;
+    width: 35px;
+    height: 32px;
+
+
+}
+.footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e:hover{
+    cursor: pointer;
+}
+
+.icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
+    color: black;
+}
+.footer-btn-a:hover .icon-color-a{
+    color: white;
+}
+.footer-btn-a:hover{
+    background-color: #0072b1;
+}
+.footer-btn-b:hover .icon-color-b{
+    color: white;
+}
+.footer-btn-b:hover{
+    background-color: 	#4267B2;
+}
+.footer-btn-c:hover .icon-color-c{
+    color: white;
+}
+.footer-btn-c:hover{
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.footer-btn-d:hover .icon-color-d{
+    color: rgb(255, 0, 0);
+}
+.footer-btn-d:hover{
+    background-color: 	#ffffff;
+}
+.footer-btn-e:hover .icon-color-e{
+    color: rgb(251, 62, 62)
+}
+.footer-btn-e:hover{
+    background-color: 	#ffffff;
+}
+.footer-heading img{
+    width: 9em;
+}
+.footer-heading-ph{
+    display: none;
 }
 
 
@@ -86,15 +142,27 @@
         padding: 1em;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         height: 20em;
         
 
     }
+    .footer-img{
+        display: none;
+    }
+    .footer-heading-ph{
+        display: block;
+        font-size: 1.3em;
+        font-weight: bolder;
+        }
+    .footer-heading-ph a{
+        color: white;
+    }
     .footer-heading{
         display: block;
     }
-    .footer-img{
+    .footer-pic{
         display: none;
     }
     .footer-below2{

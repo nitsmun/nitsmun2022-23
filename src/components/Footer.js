@@ -17,47 +17,57 @@ const Footer = () => {
   return (
     <div className="Footer-main">
       <div className="footer-icon">
-        <a
+        <button className="footer-btn-a"><a
           className="footer-anchor"
           href="https://www.linkedin.com/company/nit-silchar-model-united-nations/"
           target="_#blank"
         >
-          <FaLinkedinIn className="icon-color1" size={20} />
+          <FaLinkedinIn className="icon-color-a" size={23} />
         </a>
-        <a
+        </button>
+        <button className="footer-btn-b">  <a
           className="footer-anchor"
           href="https://www.facebook.com/NITSMUN/"
           target="_#blank"
         >
-          <FaFacebookF className="icon-color2" size={20} />
+          <FaFacebookF className="icon-color-b" size={22} />
         </a>
-        <a
+        </button>
+        
+        <button className="footer-btn-c"><a
           className="footer-anchor"
           href="https://www.instagram.com/nitsmun/?hl=en"
           target="_#blank"
         >
-          <AiOutlineInstagram className="icon-color9" size={20} />
+          <AiOutlineInstagram className="icon-color-c" size={28} />
         </a>
-        <a
+        </button>
+        <button className="footer-btn-d">  <a
           className="footer-anchor"
           href="https://www.youtube.com/channel/UC1bJi0c0FcHkoIsUUJRf96A"
           target="_#blank"
         >
-          <FaYoutube className="icon-color8" size={20} />
+          <FaYoutube className="icon-color-d" size={26} />
         </a>
+        </button>
         {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
-        <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com">
-          <HiOutlineMail className="icon-color" size={20} />
+
+        <button className="footer-btn-e">   <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com">
+          <HiOutlineMail className="icon-color-e" size={25} />
         </a>
+        </button>
       </div>
 
       <div className="footer-below">
+           <div className="footer-heading-ph">
+           <h1 style={{ color: "white" }}>
+            <a href="/">NITSMUN</a>
+           </h1>
+          </div>
         <div className="footer-pic">
-          <h1 className="footer-heading" style={{ color: "white" }}>
             <a href="/" className="footer-heading" style={{ color: "white" }}>
-              NITSMUN
+              <img src="./Images/nitsmun-logo.svg" alt="" />
             </a>
-          </h1>
 
           {/* <h1 className="footer-heading" style={{color : 'white'}}>
                         <Link className="footer-heading" style={{color:'white'}} to="/">
