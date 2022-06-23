@@ -8,8 +8,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2.5em;
-}
+    /* height: 2.5em; */
+    /* padding-top: 3px;
+    padding-bottom: px;*/
+} 
 .footer-below{
     justify-content: center;
     max-width: 100%;
