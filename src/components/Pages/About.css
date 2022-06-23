@@ -51,7 +51,9 @@
     padding-left: 5em;
     padding-right: 5em;
     text-align: center;
-    color: rgb(62, 53, 51);
+    /* color: rgb(62, 53, 51); */
+    color: rgb(144, 123, 123);
+
 }
 .content-para4{
     font-size: 1.2em;
@@ -61,7 +63,9 @@
     padding-right: 5em;
     text-align: justify;
     padding-bottom: 1em;
-    color: rgb(62, 53, 51);
+    /* color: rgb(62, 53, 51); */
+    color: rgb(144, 123, 123);
+
 }
 @media only screen and (max-width : 981px){
     .about-main{
