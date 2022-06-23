@@ -138,7 +138,7 @@ export const Secretariat = [
     linkedin: "https://www.linkedin.com/in/aditya-kotari-499933195/",
     mail: "mailto:aditya.kotari@gmail.com",
     fb:"https://github.com/AdityaKotari",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 10,
@@ -150,7 +150,7 @@ export const Secretariat = [
     fb:"https://github.com/tasneemkoushar",
     linkedin: "https://www.linkedin.com/in/tasneemkoushar/",
     mail: "mailto:imatasneemkoushar@gmail.com",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 11,
@@ -308,7 +308,7 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/resyfer/",
     fb:"https://github.com/resyfer",
     mail: "mailto:palsaurav.2020@gmail.com",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 13,
@@ -320,7 +320,7 @@ export const Secretariatjr = [
     fb:"https://github.com/biju-borah",
     linkedin: "https://www.linkedin.com/in/biju-borah-1bb78620a",
     mail: "mailto:biju20_ug@ee.nits.ac.in",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 14,
@@ -609,7 +609,7 @@ export const Secretariatwebjr = [
     mail: "mailto:ankitupadhaya07@gmail.com",
     linkedin: "https://www.linkedin.com/in/ankit-upadhaya07",
     fb: "https://github.com/ankit07an",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 2,
@@ -621,7 +621,7 @@ export const Secretariatwebjr = [
     mail: "mailto:hereisadi@pm.me",
     linkedin: "https://www.linkedin.com/in/aditya-ranjan-77a6a522b/",
     fb: "https://github.com/hereisadi",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
   {
     id: 3,
@@ -633,7 +633,7 @@ export const Secretariatwebjr = [
     mail: "mailto:dorothy21_ug@ee.nits.ac.in",
     linkedin: "https://www.linkedin.com/in/dorothy-phukon-48a066230",
     fb: "https://github.com/dorothyp12",
-    icon0:<> <ImGithub className="icon-color2" size={25} /> </>
+    icon0:<> <ImGithub className="icon-color3" size={25} /> </>
   },
 ];
 export const Articleforhome = [

@@ -112,7 +112,7 @@
     margin-left: 60px;
 }
 .btn-icon1{
-    background-color: #1994a5;
+    background-color: #89be5066;
     padding: 4.5px 5px;
     cursor: pointer;
     border-radius: 7px;
@@ -123,47 +123,33 @@
 .icon2, .icon3{
     margin-left: 20px;
 }
-.icon-color,.icon-color1, .icon-color2 {
+.icon-color,.icon-color1, .icon-color2, .icon-color3 {
     color: white;
 }
-/* .icon-color:hover{
-    color: orangered;
-} */
-.icon-color1:hover{
-    color: rgb(10, 102, 194);
+
+/*Important */
+.btn-icon1:hover .icon-color{
+    color: orangered !important;
 }
-.icon-color, .icon-color1, .icon-color2{
+.btn-icon1:hover .icon-color1{
+    color: #1994ab !important;
+}
+.btn-icon1:hover .icon-color2{
+    color: antiquewhite !important;
+}
+.btn-icon1:hover .icon-color3{
+    color: white;
+}
+
+.icon-color, .icon-color1, .icon-color2, .icon-color3{
     color: #161c2f;
 }
-.icon-color2:hover{
-    color: #031946;
-}
-
-/*original */
-
-/* @media screen and (max-width: 992px){
-    .icon1{
-        margin-left: 22px;
-    }
-    .icon2, .icon3{
-        margin-left: 20px;
-    }
-    .social-media{
-        margin-top: 0px;
-    }
-}  */
-
-
-
-
-
-
 @media screen and (max-width: 422px){
     .icon1{
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .icon2, .icon3{
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .social-media{
         margin-top: 0px;
@@ -176,6 +162,9 @@
     }
     .icon-color2{
         width: 10px;
+    }
+    .icon-color3{
+        width: 15px;
     }
     .btn-icon1{
         padding: 0.5px 6px;
@@ -192,10 +181,13 @@
         width: 14px;
     }
     .icon-color1{
-        width: 8px;
+        width: 10px;
     }
     .icon-color2{
         width: 8px;
+    }
+    .icon-color3{
+        width: 13px;
     }
     .btn-icon1{
         padding: 1.3px 5.5px;
@@ -215,38 +207,23 @@
         width: 15px;
     }
     .icon-color2{
-        width: 12px;
+        width: 10px;
+    }
+    .icon-color3{
+        width: 16.5px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-/*original */
-
-
-/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1370px){ 
+@media only screen and (min-device-width: 376px) and (max-device-width: 400px){
+    .icon2, .icon3{
+        margin-left: 10px;
+    }
     .icon1{
         margin-left: 30px;
     }
-    .icon2, .icon3{
-        margin-left: 50px;
+    .icon-color3{
+        width: 14px;
     }
-} */
-
-
-
-
-
-
-
-
+}
 @media only screen and (min-device-width: 422px) and (max-device-width: 460px){ 
     .icon1{
         margin-left: 25px;
@@ -260,7 +237,7 @@
     .icon-color1{
         width: 18px;
     }
-    .icon-color2{
+    .icon-color2, .icon-color3{
         width: 13px;
     }
 
@@ -279,7 +256,7 @@
     .icon-color1{
         width: 23px;
     }
-    .icon-color2{
+    .icon-color2, .icon-color3{
         width: 23px;
     }
 }
@@ -320,7 +297,7 @@
 }
 @media only screen and (min-device-width: 891px) and (max-device-width: 990px){
     .icon1{
-        margin-left: 110px;
+        margin-left: 100px;
     }
 }
 @media only screen and (min-device-width: 991px) and (max-device-width: 992px){
@@ -344,7 +321,7 @@
     .icon-color1{
         width: 18px;
     }
-    .icon-color2{
+    .icon-color2, .icon-color3{
         width: 13px;
     }
 }
