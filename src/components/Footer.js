@@ -4,11 +4,12 @@ import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
+// import { HiOutlineMail } from "react-icons/hi";
 import { GoLocation } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 // import styled from "styled-components";
 import { IconContext } from "react-icons";
+import {SiGmail} from "react-icons/si"
 // import { Link, Route, Switch} from "react-router-dom";
 
 // import { Link } from 'react-router-dom';
@@ -53,7 +54,7 @@ const Footer = () => {
         {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
 
         <button className="footer-btn-e">   <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com">
-          <HiOutlineMail className="icon-color-e" size={27} />
+          <SiGmail className="icon-color-e" size={27} />
         </a>
         </button>
       </div>
