@@ -39,7 +39,7 @@ const Footer = () => {
           href="https://www.instagram.com/nitsmun/?hl=en"
           target="_#blank"
         >
-          <AiOutlineInstagram className="icon-color-c" size={28} />
+          <AiOutlineInstagram className="icon-color-c" size={30} />
         </a>
         </button>
         <button className="footer-btn-d">  <a
@@ -53,7 +53,7 @@ const Footer = () => {
         {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
 
         <button className="footer-btn-e">   <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com">
-          <HiOutlineMail className="icon-color-e" size={25} />
+          <HiOutlineMail className="icon-color-e" size={27} />
         </a>
         </button>
       </div>

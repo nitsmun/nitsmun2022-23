@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2.4em;
+    height: 2.5em;
 }
 .footer-below{
     justify-content: center;
@@ -61,14 +61,15 @@
 }
 .footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e{
     background-color: #6ae0f2;
-    margin: 5px;
+    align-items: center;
+    margin: 7px;
     margin-top:5px;
     padding-left: 0%;
     padding-right: 0%;
     /* padding-top: 4px; */
     border-radius: 5px;
     width: 35px;
-    height: 32px;
+    height: 31px;
 
 
 }
