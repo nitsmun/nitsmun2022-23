@@ -118,6 +118,12 @@
 .footer-heading-ph{
     display: none;
 }
+.address{
+    margin-left: 0.5rem;
+}
+.phonenum{
+    margin-left: 0.5rem;
+}
 
 
 /* Additional css */

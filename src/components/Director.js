@@ -1,7 +1,6 @@
 import React from "react";
 import "./Director.css";
 
-
 const Director = () => {
   return (
     <div>
