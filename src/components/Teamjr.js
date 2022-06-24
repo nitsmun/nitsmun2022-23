@@ -28,14 +28,14 @@ export default function () {
                 </div>
                 <div className="icon2">
                   <a href={item.linkedin} target="_blank">
-                    <button className="btn-icon1">
+                    <button className="btn-icon2">
                       <FaLinkedinIn className="icon-color1" size={25} />
                     </button>
                   </a>
                 </div>
                 <div className="icon3">
                   <a href={item.fb} target="_blank">
-                    <button className="btn-icon1">{item.icon0}</button>
+                    <button className="btn-icon3">{item.icon0}</button>
                   </a>
                 </div>
               </div>

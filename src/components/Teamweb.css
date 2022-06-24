@@ -39,6 +39,7 @@
     border-radius: 20px;
     transition: 1s ease-out;
     /* box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f; */
+    box-shadow: 0px 4px 8px 0 #124243, 0 6px 20px 0 #124243;
     width: 19.5%;
     position: relative;
 }
@@ -111,39 +112,57 @@
 .icon1{
     margin-left: 60px;
 }
-.btn-icon1{
-    background-color: #89be5066;
+
+.btn-icon2, .btn-icon3, .btn-icon1{
+    background-color: #a2d66271;
     padding: 4.5px 5px;
     cursor: pointer;
     border-radius: 7px;
 }
+
+
+
 .btn-icon1:hover{
-    background-color: #00695d;
+    /* background-color: #00695d; */
+    background-color: #ffffff;
 }
+.btn-icon2:hover{
+    background-color: #0072b1;
+}
+.btn-icon3:hover{
+    background-color:#4267B2;
+}
+
+
+
+
 .icon2, .icon3{
     margin-left: 20px;
 }
-.icon-color,.icon-color1, .icon-color2, .icon-color3 {
-    color: white;
+.icon-color, .icon-color1, .icon-color2, .icon-color3 {
+    color: #212529;
+    font-weight: 900;
 }
 
 /*Important */
 .btn-icon1:hover .icon-color{
-    color: orangered !important;
+    color: rgb(251, 62, 62);
+    font-weight: 900;
 }
-.btn-icon1:hover .icon-color1{
-    color: #1994ab !important;
+.btn-icon2:hover .icon-color1{
+    color: white !important;
 }
-.btn-icon1:hover .icon-color2{
-    color: antiquewhite !important;
+.btn-icon3:hover .icon-color2{
+    color: white !important;
 }
-.btn-icon1:hover .icon-color3{
-    color: white;
+.btn-icon3:hover .icon-color3{
+    color: white !important;
 }
 
-.icon-color, .icon-color1, .icon-color2, .icon-color3{
+
+/* .icon-color, .icon-color1, .icon-color2, .icon-color3{
     color: #161c2f;
-}
+} */
 @media screen and (max-width: 422px){
     .icon1{
         margin-left: 25px;
@@ -169,6 +188,12 @@
     .btn-icon1{
         padding: 0.5px 6px;
     }
+    .btn-icon2{
+        padding: 0.5px 6px;
+    }
+    .btn-icon3{
+        padding: 0.5px 6px;
+    }
 } 
 @media screen and (max-width: 280px){
     .icon1{
@@ -192,16 +217,22 @@
     .btn-icon1{
         padding: 1.3px 5.5px;
     }
+    .btn-icon2{
+        padding: 1.3px 5.5px;
+    }
+    .btn-icon3{
+        padding: 1.3px 5.5px;
+    }
 }
 @media only screen and (min-device-width: 281px) and (max-device-width: 375px){
     .icon1{
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .icon2, .icon3{
         margin-left: 10px;
     }
     .icon-color{
-        width: 18px;
+        width: 15px;
     }
     .icon-color1{
         width: 15px;
@@ -210,7 +241,7 @@
         width: 10px;
     }
     .icon-color3{
-        width: 16.5px;
+        width: 15px;
     }
 }
 @media only screen and (min-device-width: 376px) and (max-device-width: 400px){
