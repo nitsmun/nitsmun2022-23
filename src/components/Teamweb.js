@@ -1,24 +1,24 @@
 import React from "react";
-import "./Teammediajr.css";
-import { Secretariatmediajr } from "./Dataset1";
-
+import "./Teamweb.css";
+import { Secretariatwebjr } from "./Dataset1";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import Underline2 from "./Underline21";
-const Teammediajr = () => {
+// import { FaFacebookF } from "react-icons/fa";
+// import { ImGithub } from "react-icons/im";
+import Underline2 from "./Underline2";
+const Teamweb = () => {
   return (
     <>
-      <div className="team-head2">
-        <h1 className="team-head-h1">Media & Design Team</h1>
+      <div className="team-head5">
+        <h1 className="team-head-h1">Web Development Team</h1>
       </div>
-      <div className="team-stats-card2">
-        {Secretariatmediajr.map((item) => {
+      <div className="team-stats-card5">
+        {Secretariatwebjr.map((item) => {
           return (
-            <div key={item.id} className="team-stats2">
+            <div key={item.id} className="team-stats5">
               <div>
                 <center>
-                  <img className="team-img2" src={item.imgsrc} alt="" />
+                  <img className="team-img5" src={item.imgsrc} alt="" />
                 </center>
               </div>
 
@@ -39,9 +39,7 @@ const Teammediajr = () => {
                 </div>
                 <div className="icon3">
                   <a href={item.fb} rel="noreferrer" target="_blank">
-                    <button className="btn-icon3">
-                      <FaFacebookF className="icon-color2" size={25} />
-                    </button>
+                    <button className="btn-icon3">{item.icon0}</button>
                   </a>
                 </div>
               </div>
@@ -56,4 +54,4 @@ const Teammediajr = () => {
     </>
   );
 };
-export default Teammediajr;
+export default Teamweb;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Director from "../Director";
-import Slider from "../Slider1/Slider1";
+import Slider from "../Slider/Slider";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Timer from "../Timer";

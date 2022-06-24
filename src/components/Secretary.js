@@ -1,6 +1,6 @@
 import React from "react";
 import "./Secretary.css";
-import Underline from "./Underline1";
+import Underline from "./Underline";
 
 const Secretary = () => {
   return (
