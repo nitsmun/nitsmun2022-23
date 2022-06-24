@@ -135,7 +135,9 @@ li {
 .sub__menus {
   position: absolute;
   display: none;
-  background-image: linear-gradient(#093f15, #085560);
+  /* background-image: linear-gradient(#093f15, #085560); */
+  /* background-color: #161c2f; */
+  background-color: #147c6a;
   border: 2px solid lavender;
   border-radius: 20px;
   top: 50px;
