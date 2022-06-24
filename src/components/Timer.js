@@ -4,10 +4,10 @@ import React, { useEffect, useState, Suspense } from "react"; //? React for the 
 // *CSS*
 import "./Timer.css";
 // import Loading from "./Loading";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 //! let btnAllow = false;
-let btnAllow = true;
+// let btnAllow = true;
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
 let timeTo = new Date(2022, 7, 6, 0, 0, 0, 0);
@@ -34,7 +34,7 @@ function countdown() {
     timerDisplay = ["Event Coming Soon!"];
     //! btnAllow = false;
   } else {
-    btnAllow = true;
+    // btnAllow = true;
     timeIntervals.forEach((interval, index) => {
       timerDisplay[index] = `${timeDiff % interval}`.padStart(2, "0");
       timeDiff = Math.floor(timeDiff / interval);
