@@ -62,7 +62,8 @@
     color: #f09433;
 }
 .footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e{
-    background-color: #6ae0f2;
+    /* background-color: #6ae0f2; */
+    background-color: #2bdcc4;
     align-items: center;
     margin: 7px;
     margin-top:5px;
@@ -81,6 +82,7 @@
 
 .icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
     color: black;
+    /* color: white; */
 }
 .footer-btn-a:hover .icon-color-a{
     color: white;
