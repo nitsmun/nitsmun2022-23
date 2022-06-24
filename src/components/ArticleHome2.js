@@ -28,7 +28,7 @@ const Articlehome2 = () => {
               <div className="team-section-body">
                 <h2>{item.heading}</h2>
                 <p>{item.para}</p>
-                <Link to={"/Articles"}>
+                <Link to={"/articles"}>
                   {" "}
                   <button className="article-home-btn">Read More</button>
                 </Link>
