@@ -5,6 +5,9 @@
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
+.nm22-head{
+  margin-top: .5rem;
+}
 .nm22-head h1{
   color: #03989e !important;
 }

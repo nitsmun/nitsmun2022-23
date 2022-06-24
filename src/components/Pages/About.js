@@ -9,6 +9,7 @@ const About = () => {
       <div className="about-header">
         <ul className="about-headertxt">ABOUT US</ul>
       </div>
+      <Underline/>
       <div className="about-content1">
         <ul className="contentpara1">
           NITSMUN was founded in 2014 when a group of like-minded people wanted

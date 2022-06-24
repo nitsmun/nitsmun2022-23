@@ -6,12 +6,16 @@
     display: flex;
     justify-content: center;
     /* background-color: rgb(193, 104, 96); */
-    background-color: #208595;
-    padding:1.5vh 0;
+    margin-top: 0.8rem;
+    /* background-color: #208595; */
+    /* padding:1.5vh 0; */
+
 }
 .about-headertxt{
     font-size: 3rem;
-    color: white;
+    font-weight: 900;
+    /* color: white; */
+     color: #03989e;
 }
 .about-content1{
     display: flex;
