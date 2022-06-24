@@ -684,7 +684,7 @@ export const Articleforhome = [
     alt2: "World Day For Cultural Diversity",
     heading: "World Day For Cultural Diversity",
     date: "21st May",
-    para: "In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges.",
+    para: "In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges. UN recognise the need to enhance the potential of culture as a means of achieving prosperity, sustainable development and global peaceful coexistence.",
     show: (
       <>
         <br />
@@ -728,7 +728,8 @@ export const Articleforhome = [
         1972 in Stockholm marked the beginning of global awareness of the
         interdependence among people, other living species and our planet, as
         well as the establishment of World Environment Day on 5 June and the UN
-        Environment Programme.
+        Environment Programme. Heat waves, cyclones during the dry season- are some of the
+        SOS calls we have come across in recent days.
       </>
     ),
     show: (

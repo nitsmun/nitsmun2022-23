@@ -10,7 +10,11 @@ const Articlehome2 = () => {
       <div className="art-home-title">
         <h1 className="apply-home-h1">
           CHECK OUT{" "}
-          <a href="https://instagram.com/nitsmun" rel="noreferrer" target="_blank">
+          <a
+            href="https://instagram.com/nitsmun"
+            rel="noreferrer"
+            target="_blank"
+          >
             @nitsmun
           </a>{" "}
           FOR ALL OUR ARTICLES!

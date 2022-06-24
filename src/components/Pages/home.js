@@ -19,8 +19,6 @@ const home = () => {
       <br />
       <br />
       <Director />
-      {/* <br/>
-      <br/> */}
       <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">
