@@ -1,7 +1,7 @@
 import React from "react";
-import "./Apply.css";
+import "./apply.css";
 import { TabTitle } from "../Utils/Genfn";
-export default function () {
+const apply = () => {
   TabTitle("Link Tree | NITS MUN");
   return (
     <>
@@ -12,12 +12,12 @@ export default function () {
           </center>
         </div>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform"
-          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform" rel="noreferrer" target="_blank"
         >
           Link for Early Bird Registrations for NITSMUN Junior MUN 2022
         </a>
       </div>
     </>
   );
-}
+};
+export default apply;

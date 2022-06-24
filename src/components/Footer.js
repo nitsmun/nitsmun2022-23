@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="footer-icon">
         <button className="footer-btn-a"><a
           className="footer-anchor"
-          href="https://www.linkedin.com/company/nit-silchar-model-united-nations/"
+          href="https://www.linkedin.com/company/nit-silchar-model-united-nations/" rel="noreferrer" 
           target="_#blank"
         >
           <FaLinkedinIn className="icon-color-a" size={23} />
@@ -28,7 +28,7 @@ const Footer = () => {
         </button>
         <button className="footer-btn-b">  <a
           className="footer-anchor"
-          href="https://www.facebook.com/NITSMUN/"
+          href="https://www.facebook.com/NITSMUN/" rel="noreferrer" 
           target="_#blank"
         >
           <FaFacebookF className="icon-color-b" size={22} />
@@ -37,7 +37,7 @@ const Footer = () => {
         
         <button className="footer-btn-c"><a
           className="footer-anchor"
-          href="https://www.instagram.com/nitsmun/?hl=en"
+          href="https://www.instagram.com/nitsmun/?hl=en" rel="noreferrer" 
           target="_#blank"
         >
           <AiOutlineInstagram className="icon-color-c" size={30} />
@@ -45,7 +45,7 @@ const Footer = () => {
         </button>
         <button className="footer-btn-d">  <a
           className="footer-anchor"
-          href="https://www.youtube.com/channel/UC1bJi0c0FcHkoIsUUJRf96A"
+          href="https://www.youtube.com/channel/UC1bJi0c0FcHkoIsUUJRf96A" rel="noreferrer" 
           target="_#blank"
         >
           <FaYoutube className="icon-color-d" size={26} />

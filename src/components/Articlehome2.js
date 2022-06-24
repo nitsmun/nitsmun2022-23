@@ -3,14 +3,14 @@ import "./Articlehome2.css";
 import { Link } from "react-router-dom";
 import { Articleforhome } from "./Dataset";
 import Underline3 from "../components/Underline/Underline3";
-export default function () {
+const Articlehome2 = () => {
   return (
     <>
       <Underline3 />
       <div className="art-home-title">
         <h1 className="apply-home-h1">
           CHECK OUT{" "}
-          <a href="https://instagram.com/nitsmun" target="_blank">
+          <a href="https://instagram.com/nitsmun" rel="noreferrer" target="_blank">
             @nitsmun
           </a>{" "}
           FOR ALL OUR ARTICLES!
@@ -35,4 +35,5 @@ export default function () {
       </div>
     </>
   );
-}
+};
+export default Articlehome2;

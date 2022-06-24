@@ -1,10 +1,10 @@
 import React from "react";
-import "./Nitsmun2022.css";
+import "./nitsmun2022.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline from "../Underline";
 import Slider from "../Slider/Slider";
-import "./Home.css";
-export default function () {
+import "./home.css";
+const nitsmun2022 = () => {
   TabTitle("NITSMUN 2022 | NITSMUN");
 
   return (
@@ -126,4 +126,5 @@ export default function () {
       <Slider />
     </div>
   );
-}
+};
+export default nitsmun2022;

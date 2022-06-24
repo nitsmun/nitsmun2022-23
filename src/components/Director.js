@@ -1,6 +1,6 @@
 import React from "react";
 import "./Director.css";
-import Underline from "../components/Underline";
+
 
 const Director = () => {
   return (

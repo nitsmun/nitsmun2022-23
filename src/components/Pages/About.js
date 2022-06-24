@@ -1,8 +1,8 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 import Underline from "../Underline";
 import { TabTitle } from "../Utils/Genfn";
-const About = () => {
+const about = () => {
   TabTitle("About | NITS MUN");
   return (
     <div className="about-main">
@@ -66,4 +66,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;

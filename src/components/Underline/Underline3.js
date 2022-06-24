@@ -1,9 +1,10 @@
 import React from "react";
 import './Underline3.css';
-export default function(){
+const Underline3 = () => {
     return(
         <>
         <div className="line3"></div>
         </>
     )
-}
+};
+export default Underline3;

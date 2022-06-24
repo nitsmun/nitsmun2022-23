@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Slider.css";
 import BtnSlider from "./BtnSlider";
 import dataSlider from "./dataSlider";
-export default function Slider() {
+const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const nextSlide = () => {
@@ -34,7 +34,7 @@ export default function Slider() {
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
             <img
-              src={process.env.PUBLIC_URL + `/Images/Carousel${index + 1}.jpg`}
+              src={process.env.PUBLIC_URL + `/Images/Carousel${index + 1}.jpg`} alt="carousel-images"
             />
           </div>
         );
@@ -52,4 +52,5 @@ export default function Slider() {
       </div>
     </div>
   );
-}
+};
+export default Slider;

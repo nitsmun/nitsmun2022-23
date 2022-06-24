@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
-import Juniormun from "./components/Pages/Juniormun";
-import Nitsmun2022 from "./components/Pages/Nitsmun2022";
-import Team from "./components/Team";
-import Articles from "./components/Pages/Articles";
-import Apply from "./components/Pages/Apply";
-import Notfound from "./components/Pages/Notfound";
+import home from "./components/Pages/home";
+import about from "./components/Pages/about";
+import junior_mun from "./components/Pages/junior_mun";
+import nitsmun2022 from "./components/Pages/nitsmun2022";
+import team from "./components/team";
+import articles from "./components/Pages/articles";
+import NotFound from "./components/Pages/NotFound";
 import Navbarmenu from "./components/menu/Navbarmenu";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import Scrolling from "./components/Scrolling";
+import apply from "./components/Pages/apply";
 
 function App() {
   return (
@@ -21,16 +21,16 @@ function App() {
         <Navbarmenu />
         <Scrolling>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/About" component={About} />
-            <Route path="/Juniormun" component={Juniormun} />
-            <Route path="/Nitsmun2022" component={Nitsmun2022} />
-            <Route path="/Team" component={Team} />
-            <Route path="/Articles" component={Articles} />
-            <Route path="/Apply" component={Apply} />
+            <Route exact path="/" component={home} />
+            <Route path="/about" component={about} />
+            <Route path="/junior_mun" component={junior_mun} />
+            <Route path="/nitsmun2022" component={nitsmun2022} />
+            <Route path="/team" component={team} />
+            <Route path="/articles" component={articles} />
+            <Route path="/apply" component={apply} />
             <Route path="*">
               {" "}
-              <Notfound />
+              <NotFound />
             </Route>
           </Switch>
         </Scrolling>

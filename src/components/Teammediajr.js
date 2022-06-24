@@ -6,7 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
-export default function () {
+const Teammediajr = () => {
   return (
     <>
       <div className="team-head2">
@@ -31,14 +31,14 @@ export default function () {
                   </a>
                 </div>
                 <div className="icon2">
-                  <a href={item.linkedin} target="_blank">
+                  <a href={item.linkedin} rel="noreferrer" target="_blank">
                     <button className="btn-icon2">
                       <FaLinkedinIn className="icon-color1" size={25} />
                     </button>
                   </a>
                 </div>
                 <div className="icon3">
-                  <a href={item.fb} target="_blank">
+                  <a href={item.fb} rel="noreferrer" target="_blank">
                     <button className="btn-icon3">
                       <FaFacebookF className="icon-color2" size={25} />
                     </button>
@@ -55,4 +55,5 @@ export default function () {
       </div>
     </>
   );
-}
+};
+export default Teammediajr;

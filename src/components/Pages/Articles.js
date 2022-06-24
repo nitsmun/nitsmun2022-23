@@ -1,10 +1,10 @@
 import React from "react";
-import "./Articles.css";
+import "./articles.css";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { TabTitle } from "../Utils/Genfn";
 import { Articledata } from "../Dataset";
 import Underline3 from "../Underline/Underline3";
-export default function () {
+const articles = () => {
   TabTitle("Articles | NITS MUN");
   return (
     <>
@@ -49,7 +49,7 @@ export default function () {
       <div className="art-home-title">
         <h1 className="apply-home-h1">
           CHECK OUT{" "}
-          <a href="https://instagram.com/nitsmun" target="_blank">
+          <a href="https://instagram.com/nitsmun" rel="noreferrer" target="_blank">
             @nitsmun
           </a>{" "}
           FOR ALL OUR ARTICLES!
@@ -57,4 +57,5 @@ export default function () {
       </div>
     </>
   );
-}
+};
+export default articles;

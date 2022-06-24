@@ -1,5 +1,5 @@
 import React from "react";
-import "./Team.css";
+import "./team.css";
 import { Secretariat } from "./Dataset";
 import Teamjr from "./Teamjr";
 import Underline from "./Underline";
@@ -9,10 +9,10 @@ import Teampr from "./Teampr";
 import Teamweb from "./Teamweb";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
-import { TabTitle } from "../components/Utils/Genfn";
-export default function () {
+import { TabTitle } from "./Utils/Genfn";
+const team = () => {
   TabTitle("NITSMUN Team | NITS MUN");
   return (
     <>
@@ -43,14 +43,14 @@ export default function () {
                   </a>
                 </div>
                 <div className="icon2">
-                  <a href={item.linkedin} target="_blank">
+                  <a href={item.linkedin} rel="noreferrer" target="_blank">
                     <button className="btn-icon2">
                       <FaLinkedinIn className="icon-color1" size={25} />
                     </button>
                   </a>
                 </div>
                 <div className="icon3">
-                  <a href={item.fb} target="_blank">
+                  <a href={item.fb} rel="noreferrer" target="_blank">
                     <button className="btn-icon3">{item.icon0}</button>
                   </a>
                 </div>
@@ -71,4 +71,5 @@ export default function () {
       <Teamweb />
     </>
   );
-}
+};
+export default team;

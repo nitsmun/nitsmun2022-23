@@ -1,9 +1,9 @@
 import React from "react";
-import "./Juniormun.css";
+import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
 import { Junmun } from "../Dataset";
-const Juniormun = () => {
+const juniormun = () => {
   TabTitle("NITS Junior MUN | NITSMUN");
   return (
     <>
@@ -92,4 +92,4 @@ const Juniormun = () => {
   );
 };
 
-export default Juniormun;
+export default juniormun;

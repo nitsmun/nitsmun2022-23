@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Dark.css";
 import { BsSunFill } from "react-icons/bs";
 import { BsFillMoonFill } from "react-icons/bs";
-export default function () {
+const Dark = () => {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <>
@@ -22,4 +22,5 @@ export default function () {
       </div>
     </>
   );
-}
+};
+export default Dark;

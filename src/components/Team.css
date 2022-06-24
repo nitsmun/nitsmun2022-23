@@ -39,7 +39,7 @@
      background-color: #00695d;
      margin: 20px;
      border-radius: 20px;
-     transition: 1s ease-out;
+     transition: 0.3s ease-out;
      /* box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f; */
      box-shadow: 0px 4px 8px 0 #124243, 0 6px 20px 0 #124243;
      width: 19.5%;

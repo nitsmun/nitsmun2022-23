@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./home.css";
 import Director from "../Director";
 import Slider from "../Slider/Slider";
 import { TabTitle } from "../Utils/Genfn";
@@ -8,7 +8,7 @@ import Timer from "../Timer";
 import Hometop from "../Hometop";
 import Articlehome2 from "../Articlehome2";
 
-export default function () {
+const home = () => {
   TabTitle("NITS MUN");
   return (
     <>
@@ -32,4 +32,5 @@ export default function () {
       <br />
     </>
   );
-}
+};
+export default home;

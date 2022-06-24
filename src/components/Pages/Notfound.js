@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Notfound.css";
+import "./NotFound.css";
 import { TabTitle } from "../Utils/Genfn";
-export default function () {
+const NotFound = () => {
   TabTitle("404 Not Found");
   return (
     <>
@@ -23,4 +23,5 @@ export default function () {
       </div>
     </>
   );
-}
+};
+export default NotFound;

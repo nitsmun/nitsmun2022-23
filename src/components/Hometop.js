@@ -18,7 +18,7 @@ const Hometop = () => {
           </ul>
         </div>
         <div className="hometop-link1">
-          <Link to={"/Apply"}>
+          <Link to={"/apply"}>
             <button className="hometop-link1btn">Register Now</button>
           </Link>
         </div>

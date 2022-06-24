@@ -4,7 +4,7 @@ import React, { useEffect, useState, Suspense } from "react"; //? React for the 
 // *CSS*
 import "./Timer.css";
 // import Loading from "./Loading";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 //! let btnAllow = false;
 let btnAllow = true;

@@ -110,7 +110,7 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
-                        to={`/Nitsmun2022`}
+                        to={`/nitsmun2022`}
                       >
                         {" "}
                         NITSMUN 2022{" "}
@@ -120,7 +120,7 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
-                        to={`/Juniormun`}
+                        to={`/junior_mun`}
                       >
                         Junior MUN{" "}
                       </NavLink>{" "}
@@ -132,7 +132,7 @@ const Navbarmenu = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/About`}
+                    to={`/about`}
                   >
                     {" "}
                     About Us{" "}
@@ -143,7 +143,7 @@ const Navbarmenu = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/Team`}
+                    to={`/team`}
                   >
                     {" "}
                     Our Team{" "}
@@ -153,7 +153,7 @@ const Navbarmenu = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/Articles`}
+                    to={`/articles`}
                   >
                     {" "}
                     Articles{" "}
@@ -163,7 +163,7 @@ const Navbarmenu = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/Apply`}
+                    to={`/apply`}
                   >
                     {" "}
                     Apply Now!{" "}
