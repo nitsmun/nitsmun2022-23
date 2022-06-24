@@ -1,24 +1,24 @@
 import React from "react";
-import "./Teamresearchjr.css";
-import { Secretariatresearchjr } from "./Dataset";
+import "./Teammediajr.css";
+import { Secretariatmediajr } from "./Dataset1";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import Underline2 from "./Underline2";
-const Teamresearchjr = () => {
+import Underline2 from "./Underline21";
+const Teammediajr = () => {
   return (
     <>
-      <div className="team-head3">
-        <h1 className="team-head-h1">Research & Development Team</h1>
+      <div className="team-head2">
+        <h1 className="team-head-h1">Media & Design Team</h1>
       </div>
-      <div className="team-stats-card3">
-        {Secretariatresearchjr.map((item) => {
+      <div className="team-stats-card2">
+        {Secretariatmediajr.map((item) => {
           return (
-            <div key={item.id} className="team-stats3">
+            <div key={item.id} className="team-stats2">
               <div>
                 <center>
-                  <img className="team-img3" src={item.imgsrc} alt="" />
+                  <img className="team-img2" src={item.imgsrc} alt="" />
                 </center>
               </div>
 
@@ -56,4 +56,4 @@ const Teamresearchjr = () => {
     </>
   );
 };
-export default Teamresearchjr;
+export default Teammediajr;

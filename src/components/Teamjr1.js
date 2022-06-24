@@ -1,9 +1,9 @@
 import React from "react";
 import "./Teamjr.css";
-import { Secretariatjr } from "./Dataset";
+import { Secretariatjr } from "./Dataset1";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import Underline2 from "./Underline2";
+import Underline2 from "./Underline21";
 const Teamjr = () => {
   return (
     <>

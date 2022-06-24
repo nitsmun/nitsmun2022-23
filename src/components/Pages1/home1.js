@@ -1,12 +1,12 @@
 import React from "react";
 import "./home.css";
 import Director from "../Director";
-import Slider from "../Slider/Slider";
+import Slider from "../Slider1/Slider1";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Timer from "../Timer";
 import Hometop from "../Hometop";
-import ArticleHome2 from "../ArticleHome2";
+import ArticleHome2 from "../ArticleHome21";
 
 const home = () => {
   TabTitle("NITS MUN");

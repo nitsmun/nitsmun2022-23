@@ -1,24 +1,36 @@
 import React from "react";
-import "./Teampr.css";
-import { Secretariatprjr } from "./Dataset";
-
+import "./team.css";
+import { Secretariat } from "./Dataset";
+import Teamjr from "./Teamjr1";
+import Underline from "./Underline1";
+import Teammediajr from "./Teammediajr1";
+import Teamresearchjr from "./Teamresearchjr1";
+import Teampr from "./Teampr1";
+import Teamweb from "./Teamweb1";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import Underline2 from "./Underline2";
-const Teampr = () => {
+// import { FaFacebookF } from "react-icons/fa";
+import Underline2 from "./Underline21";
+import { TabTitle } from "./Utils/Genfn";
+const team = () => {
+  TabTitle("NITSMUN Team | NITS MUN");
   return (
     <>
-      <div className="team-head4">
-        <h1 className="team-head-h1">Public Relations & Outreach Team</h1>
+      <div className="team-head0">
+        <h1 className="team-head-h1">Secretariat</h1>
       </div>
-      <div className="team-stats-card4">
-        {Secretariatprjr.map((item) => {
+      <div className="team-stats-card">
+        {Secretariat.map((item) => {
           return (
-            <div key={item.id} className="team-stats4">
+            <div key={item.id} className="team-stats">
               <div>
                 <center>
-                  <img className="team-img4" src={item.imgsrc} alt="" />
+                  <img
+                    className="team-img"
+                    src={item.imgsrc}
+                    alt=""
+                    onContextMenu="return flase;"
+                  />
                 </center>
               </div>
 
@@ -39,9 +51,7 @@ const Teampr = () => {
                 </div>
                 <div className="icon3">
                   <a href={item.fb} rel="noreferrer" target="_blank">
-                    <button className="btn-icon3">
-                      <FaFacebookF className="icon-color2" size={25} />
-                    </button>
+                    <button className="btn-icon3">{item.icon0}</button>
                   </a>
                 </div>
               </div>
@@ -53,7 +63,13 @@ const Teampr = () => {
           );
         })}
       </div>
+      <Underline />
+      <Teamjr />
+      <Teammediajr />
+      <Teamresearchjr />
+      <Teampr />
+      <Teamweb />
     </>
   );
 };
-export default Teampr;
+export default team;

@@ -1,36 +1,24 @@
 import React from "react";
-import "./team.css";
-import { Secretariat } from "./Dataset";
-import Teamjr from "./Teamjr";
-import Underline from "./Underline";
-import Teammediajr from "./Teammediajr";
-import Teamresearchjr from "./Teamresearchjr";
-import Teampr from "./Teampr";
-import Teamweb from "./Teamweb";
+import "./Teamweb.css";
+import { Secretariatwebjr } from "./Dataset1";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 // import { FaFacebookF } from "react-icons/fa";
-import Underline2 from "./Underline2";
-import { TabTitle } from "./Utils/Genfn";
-const team = () => {
-  TabTitle("NITSMUN Team | NITS MUN");
+// import { ImGithub } from "react-icons/im";
+import Underline2 from "./Underline21";
+const Teamweb = () => {
   return (
     <>
-      <div className="team-head0">
-        <h1 className="team-head-h1">Secretariat</h1>
+      <div className="team-head5">
+        <h1 className="team-head-h1">Web Development Team</h1>
       </div>
-      <div className="team-stats-card">
-        {Secretariat.map((item) => {
+      <div className="team-stats-card5">
+        {Secretariatwebjr.map((item) => {
           return (
-            <div key={item.id} className="team-stats">
+            <div key={item.id} className="team-stats5">
               <div>
                 <center>
-                  <img
-                    className="team-img"
-                    src={item.imgsrc}
-                    alt=""
-                    onContextMenu="return flase;"
-                  />
+                  <img className="team-img5" src={item.imgsrc} alt="" />
                 </center>
               </div>
 
@@ -63,13 +51,7 @@ const team = () => {
           );
         })}
       </div>
-      <Underline />
-      <Teamjr />
-      <Teammediajr />
-      <Teamresearchjr />
-      <Teampr />
-      <Teamweb />
     </>
   );
 };
-export default team;
+export default Teamweb;
