@@ -6,7 +6,7 @@ import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Timer from "../Timer";
 import Hometop from "../Hometop";
-import Articlehome2 from "../Articlehome2";
+import ArticleHome2 from "../ArticleHome2";
 
 const home = () => {
   TabTitle("NITS MUN");
@@ -28,7 +28,7 @@ const home = () => {
         </div>
         <Slider />
       </div>
-      <Articlehome2 />
+      <ArticleHome2 />
       <br />
     </>
   );

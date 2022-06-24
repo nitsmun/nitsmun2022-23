@@ -602,7 +602,7 @@ export const Secretariatwebjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/ankit3.jpeg",
+    imgsrc: "./Images/Ankit3.jpeg",
     alt: "Ankit Upadhaya",
     name: "Ankit Upadhaya",
     post: "Web Development Team",

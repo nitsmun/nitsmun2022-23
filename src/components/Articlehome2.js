@@ -2,7 +2,7 @@ import React from "react";
 import "./Articlehome2.css";
 import { Link } from "react-router-dom";
 import { Articleforhome } from "./Dataset";
-import Underline3 from "../components/Underline/Underline3";
+import Underline3 from "./Underline/Underline3";
 const Articlehome2 = () => {
   return (
     <>

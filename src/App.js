@@ -8,7 +8,7 @@ import nitsmun2022 from "./components/Pages/nitsmun2022";
 import team from "./components/team";
 import articles from "./components/Pages/articles";
 import NotFound from "./components/Pages/NotFound";
-import Navbarmenu from "./components/menu/Navbarmenu";
+import Navbarmenu from "./components/Menu/Navbarmenu";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import Scrolling from "./components/Scrolling";
