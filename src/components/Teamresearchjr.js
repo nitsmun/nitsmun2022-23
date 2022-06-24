@@ -1,6 +1,6 @@
 import React from "react";
 import "./Teamresearchjr.css";
-import { Secretariatresearchjr } from "./Dataset1";
+import { Secretariatresearchjr } from "./Dataset";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";

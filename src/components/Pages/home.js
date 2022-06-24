@@ -6,7 +6,7 @@ import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Timer from "../Timer";
 import Hometop from "../Hometop";
-import ArticleHome2 from "../ArticleHome21";
+import ArticleHome2 from "../ArticleHome2";
 
 const home = () => {
   TabTitle("NITS MUN");
