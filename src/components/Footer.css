@@ -46,6 +46,22 @@
 .phonenum .address{
     padding: 0.5rem;
 }
+.phonenum2{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+
+}
+.phonenum2 a{
+ text-decoration: none;
+ color: white;
+ padding-bottom: .4rem;
+
+}
+.phonenum2 a:hover{
+    cursor: pointer;
+    
+}
 
 .icon-color8{
     color: white;
@@ -63,16 +79,18 @@
 }
 .footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e{
     /* background-color: #6ae0f2; */
+    display: flex;
+    justify-content: center;
     background-color: #2bdcc4;
     align-items: center;
     margin: 7px;
-    margin-top:5px;
+    /* margin-top:5px; */
     padding-left: 0%;
     padding-right: 0%;
     /* padding-top: 4px; */
-    border-radius: 5px;
+    border-radius: 4px;
     width: 35px;
-    height: 31px;
+    height: 35px;
 
 
 }
@@ -81,6 +99,7 @@
 }
 
 .icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
+    padding-top: 2px;
     color: black;
     /* color: white; */
 }
@@ -134,10 +153,10 @@
     font-weight: 600 !important;
 }
 .footer-phone:hover{
-    color: darkgreen !important;
+    color: rgb(0, 0, 0) !important;
 }
 .footer-location:hover{
-    color: #161c2f !important;
+    color: #000000 !important;
 }
 .footer-heading:hover{
     color:#ee0970 !important;
@@ -182,4 +201,6 @@
     .shared-class{
         size: 60;
     }
+    
+    
 }

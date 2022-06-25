@@ -6,7 +6,12 @@
   font-family: "Montserrat", sans-serif;
 }
 .nm22-head{
-  margin-top: .5rem;
+  /* margin-top: 5rem; */
+  margin-bottom: 3rem;
+  padding-top: 5.5rem;
+  padding-bottom: 0%;
+  box-sizing: border-box;
+  bottom: 0%;
 }
 .nm22-head h1{
   color: #03989e !important;
