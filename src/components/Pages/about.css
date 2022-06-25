@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     /* background-color: rgb(193, 104, 96); */
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
     /* background-color: #208595; */
     /* padding:1.5vh 0; */
 
@@ -27,7 +27,7 @@
     font-weight: 600;
 }
 .about-content1 ul{
-    color: rgb(144, 123, 123);
+    color: black;
     font-size: 1.2rem;
     padding-bottom: 01.5rem;
     line-height: 1.6;
@@ -57,7 +57,9 @@
     padding-right: 5em;
     text-align: center;
     /* color: rgb(62, 53, 51); */
-    color: rgb(144, 123, 123);
+    /* color: rgb(144, 123, 123);
+     */
+     color: black;
 
 }
 .content-para4{
@@ -69,7 +71,8 @@
     text-align: justify;
     padding-bottom: 1em;
     /* color: rgb(62, 53, 51); */
-    color: rgb(144, 123, 123);
+    /* color: rgb(144, 123, 123); */
+    color: black;
 
 }
 @media only screen and (max-width : 981px){
