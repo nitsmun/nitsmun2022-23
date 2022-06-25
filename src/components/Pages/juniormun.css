@@ -122,16 +122,11 @@
       justify-content: space-between;
     }
     .agenda {
-      width: 80%;
+      width: 90%;
       /* margin: 20px; */
       margin: 1.25em auto;
     }
-    /* .title01-container {
-        height: 2.5em;
-    } */
-    /* .agenda img{
-        width: 18.75em;
-    } */
+
     .title01-container h2{
         font-size: 0.9em;
     }

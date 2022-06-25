@@ -128,9 +128,9 @@
 
 @media screen and (max-width:676px){
     .btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
-        margin: 4px;
-        height: 28px;
-        width: 28px;
+        margin: 0.25rem;
+        height: 1.75rem;
+        width: 1.75rem;
     }
 }
 
