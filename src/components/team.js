@@ -9,7 +9,6 @@ import Teampr from "./Teampr";
 import Teamweb from "./Teamweb";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-// import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
 import { TabTitle } from "./Utils/Genfn";
 const team = () => {

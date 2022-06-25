@@ -31,23 +31,18 @@
      padding: 20px 50px 30px 50px;
  }
  .team-stats{
-     /* background: linear-gradient(135deg, #17515e 100%, #11796d 91%); */
-     
-     /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
-     /* background: linear-gradient(135deg, #187b6f 0%, #195f6f 100%); */
-     /* background-color: #0c5160; */
      background-color: #00695d;
      margin: 20px;
      border-radius: 20px;
      transition: 0.3s ease-out;
-     /* box-shadow: 0px 4px 8px 0 #161c2f, 0 6px 20px 0 #161c2f; */
-     box-shadow: 0px 4px 8px 0 #50907d, 0 6px 20px 0 #50907d;
+     box-shadow: 0px, 4px, 6px #1da393, 0px, 4px, 6px #0a4e46;
      width: 19.5%;
      position: relative;
  }
  .team-stats:hover{
      transform: scale(1.05);
-     box-shadow: 0px 4px 8px 0 #1994ab, 0 6px 20px 0 #000000;
+     /* box-shadow: 0px 4px 8px 0 #1994ab, 0 6px 20px 0 #000000; */
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
  }
  .team-stats h1{
      padding: 17px 0;
