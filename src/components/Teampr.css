@@ -21,6 +21,7 @@
   /* border-radius: 50%; */
   padding: 20px;
   overflow: hidden;
+  aspect-ratio: 1/1;
 }
 .team-stats-card4 {
   display: flex;
@@ -82,13 +83,16 @@
     padding: 2.5vw 2vw;
   }
   .team-img4 {
-    width: 80%;
-    height: 80%;
+    /* width: 80%;
+    height: 80%; */
+    height: 7.5rem;
+    width: 7.5rem;
     /* width: 150px; */
     /* height: 190px; */
     aspect-ratio: 1/1;
     /* border-radius: 50%; */
     padding: 10px;
+    overflow: hidden;
   }
   .team-stats4 h1 {
     font-size: 3.5vw;

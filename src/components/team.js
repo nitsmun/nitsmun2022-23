@@ -47,7 +47,7 @@ const team = () => {
                 </a>
 
                 <a href={item.fb} rel="noreferrer" target="_blank">
-                  <button className="btn-icon3">{item.icon0}</button>
+                  {item.icon0}
                 </a>
               </div>
 

@@ -23,29 +23,22 @@ const Teamweb = () => {
                 </center>
               </div>
 
-
-                  
-
               <div className="social-media">
-                
-                  <a href={item.mail}>
-                    <button className="btn-icon1">
-                      <HiOutlineMail className="icon-color" size={30} />
-                    </button>
-                  </a>
-                
-                
-                  <a href={item.linkedin} rel="noreferrer" target="_blank">
-                    <button className="btn-icon2">
-                      <FaLinkedinIn className="icon-color1" size={25} />
-                    </button>
-                  </a>
-                
-                
-                  <a href={item.fb} rel="noreferrer" target="_blank">
-                    <button className="btn-icon3">{item.icon0}</button>
-                  </a>
-               
+                <a href={item.mail}>
+                  <button className="btn-icon1">
+                    <HiOutlineMail className="icon-color" size={30} />
+                  </button>
+                </a>
+
+                <a href={item.linkedin} rel="noreferrer" target="_blank">
+                  <button className="btn-icon2">
+                    <FaLinkedinIn className="icon-color1" size={25} />
+                  </button>
+                </a>
+
+                <a href={item.fb} rel="noreferrer" target="_blank">
+                  {item.icon0}
+                </a>
               </div>
 
               <h1>{item.name}</h1>
