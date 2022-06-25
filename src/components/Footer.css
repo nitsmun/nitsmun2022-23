@@ -91,7 +91,7 @@
     border-radius: 4px;
     width: 35px;
     height: 35px;
-
+    transition: all 0.3s ease 0s;
 
 }
 .footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e:hover{
@@ -105,33 +105,43 @@
 }
 .footer-btn-a:hover .icon-color-a{
     color: white;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-a:hover{
     background-color: #0072b1;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-b:hover .icon-color-b{
     color: white;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-b:hover{
     background-color: 	#4267B2;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-c:hover .icon-color-c{
     color: white;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-c:hover{
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-d:hover .icon-color-d{
     color: rgb(255, 0, 0);
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-d:hover{
     background-color: 	#ffffff;
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-e:hover .icon-color-e{
-    color: rgb(251, 62, 62)
+    color: rgb(251, 62, 62);
+    transition: all 0.3s ease 0s;
 }
 .footer-btn-e:hover{
     background-color: 	#ffffff;
+    transition: all 0.3s ease 0s;
 }
 .footer-heading img{
     width: 9em;
