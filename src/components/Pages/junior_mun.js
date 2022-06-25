@@ -47,7 +47,7 @@ const juniormun = () => {
         </div>
       </div> */}
       <div className="commitees-heading">
-        <h1>COMMITEES</h1>
+        <h1>COMMITTEES</h1>
       </div>
       <Underline2 />
       <div className="junmun-agendas">
