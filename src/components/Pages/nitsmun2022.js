@@ -12,7 +12,7 @@ const nitsmun2022 = () => {
       {/* <div className="nm22-bgpic">
         <img src="./Images/annualConf.jpeg" alt="NITS MUN 2022" />
       </div> */}
-      <div className="nm22-head" style={{ padding: "4.5em" }}>
+      <div className="nm22-head">
         <h1>NITSMUN 2022</h1>
         <Underline />
       </div>
