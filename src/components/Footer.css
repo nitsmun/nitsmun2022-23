@@ -46,6 +46,22 @@
 .phonenum .address{
     padding: 0.5rem;
 }
+.phonenum2{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+
+}
+.phonenum2 a{
+ text-decoration: none;
+ color: white;
+ padding-bottom: .4rem;
+
+}
+.phonenum2 a:hover{
+    cursor: pointer;
+    
+}
 
 .icon-color8{
     color: white;
@@ -137,10 +153,10 @@
     font-weight: 600 !important;
 }
 .footer-phone:hover{
-    color: darkgreen !important;
+    color: rgb(0, 0, 0) !important;
 }
 .footer-location:hover{
-    color: #161c2f !important;
+    color: #000000 !important;
 }
 .footer-heading:hover{
     color:#ee0970 !important;
@@ -185,4 +201,6 @@
     .shared-class{
         size: 60;
     }
+    
+    
 }

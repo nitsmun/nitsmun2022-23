@@ -81,7 +81,7 @@ const Footer = () => {
             value={{ className: "shared-class", size: 55, color: "white" }}
           >
             <div>
-              <GoLocation className="footer-location" />
+             <a href="https://www.google.com/maps/place/National+Institute+Of+Technology,+Silchar/@24.7577144,92.7901042,17z/data=!3m1!4b1!4m5!3m4!1s0x374e49dcb63bae9b:0x81efa836714a289b!8m2!3d24.7577144!4d92.7922929" target="_#blank" rel="norefferer"> <GoLocation className="footer-location" /></a>
             </div>
           </IconContext.Provider>
           <div className="address">
@@ -99,14 +99,11 @@ const Footer = () => {
             </div>
           </IconContext.Provider>
           <div className="phonenum">
-           <div className="phonenum1">
-            <ul>9634077495</ul>
-            <ul>9707091602</ul>
-           </div>
-            {/* <div className="phonenum2">
-            <a href="+919634077495">9634077495</a>
-            <a href="+919707091602">9707091602</a>
-            </div> */}
+
+            <div className="phonenum2">
+            <a href="tel:+919634077495">9634077495</a>
+            <a href="tel:+919707091602">9707091602</a>
+            </div>
           </div>
         </div>
       </div>
