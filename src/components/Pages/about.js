@@ -33,7 +33,7 @@ const about = () => {
           polishing the interpersonal, debating, and deliberating skills of the
           participants and mold them into a leader of tomorrow.
         </ul>
-      </div>
+      </div> 
       <div className="about-headertxt2">
         <h1>Our Vision</h1>
       </div>
