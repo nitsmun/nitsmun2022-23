@@ -95,14 +95,15 @@ const Footer = () => {
             value={{ className: "shared-class", size: 40, color: "white" }}
           >
             <div>
-              <BsTelephone className="footer-phone" />
+            <a href="tel:+919101393607"><BsTelephone className="footer-phone" /></a>
+              
             </div>
           </IconContext.Provider>
           <div className="phonenum">
 
             <div className="phonenum2">
-            <a href="tel:+919634077495">9634077495</a>
-            <a href="tel:+919707091602">9707091602</a>
+            <a href="tel:+919101393607">+919101393607</a>
+            {/* <a href="tel:+919707091602">9707091602</a> */}
             </div>
           </div>
         </div>
