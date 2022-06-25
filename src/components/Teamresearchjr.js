@@ -23,27 +23,23 @@ const Teamresearchjr = () => {
               </div>
 
               <div className="social-media">
-                <div className="icon1">
-                  <a href={item.mail}>
-                    <button className="btn-icon1">
-                      <HiOutlineMail className="icon-color" size={25} />
-                    </button>
-                  </a>
-                </div>
-                <div className="icon2">
-                  <a href={item.linkedin} rel="noreferrer" target="_blank">
-                    <button className="btn-icon2">
-                      <FaLinkedinIn className="icon-color1" size={25} />
-                    </button>
-                  </a>
-                </div>
-                <div className="icon3">
-                  <a href={item.fb} rel="noreferrer" target="_blank">
-                    <button className="btn-icon3">
-                      <FaFacebookF className="icon-color2" size={25} />
-                    </button>
-                  </a>
-                </div>
+                <a href={item.mail}>
+                  <button className="btn-icon1">
+                    <HiOutlineMail className="icon-color" size={30} />
+                  </button>
+                </a>
+
+                <a href={item.linkedin} rel="noreferrer" target="_blank">
+                  <button className="btn-icon2">
+                    <FaLinkedinIn className="icon-color1" size={25} />
+                  </button>
+                </a>
+
+                <a href={item.fb} rel="noreferrer" target="_blank">
+                  <button className="btn-icon3">
+                    <FaFacebookF className="icon-color2" size={25} />
+                  </button>
+                </a>
               </div>
 
               <h1>{item.name}</h1>

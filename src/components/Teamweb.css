@@ -87,7 +87,7 @@
         /* width: 150px; */
         /* height: 190px; */
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     padding: 10px;
     }
     .team-stats5 h1{
@@ -103,23 +103,34 @@
 }
 
 
-
-
+/* Social media icon css */
 .social-media{
     display: flex;
-    margin-top: 1.6vh;
-}
-.icon1{
-    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-icon2, .btn-icon3, .btn-icon1{
+    display: flex;
+    justify-content: center;
     background-color: #a2d66271;
-    padding: 4.5px 5px;
+    align-items: center;
+    margin: 3px 7px;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 4px;
     cursor: pointer;
-    border-radius: 7px;
+    width: 33px;
+    height: 33px;
 }
 
+@media screen and (max-width:676px){
+    .btn-icon2, .btn-icon3, .btn-icon1{
+        margin: 4px;
+        height: 28px;
+        width: 28px;
+    }
+}
 
 
 .btn-icon1:hover{
@@ -134,14 +145,10 @@
 }
 
 
-
-
-.icon2, .icon3{
-    margin-left: 20px;
-}
 .icon-color, .icon-color1, .icon-color2, .icon-color3 {
     color: #212529;
     font-weight: 900;
+    padding: 2px !important;
 }
 
 /*Important */
@@ -158,221 +165,3 @@
 .btn-icon3:hover .icon-color3{
     color: white !important;
 }
-
-
-/* .icon-color, .icon-color1, .icon-color2, .icon-color3{
-    color: #161c2f;
-} */
-@media screen and (max-width: 422px){
-    .icon1{
-        margin-left: 25px;
-    }
-    .icon2, .icon3{
-        margin-left: 15px;
-    }
-    .social-media{
-        margin-top: 0px;
-    }
-    .icon-color{
-        width: 14px;
-    }
-    .icon-color1{
-        width: 11px;
-    }
-    .icon-color2{
-        width: 10px;
-    }
-    .icon-color3{
-        width: 15px;
-    }
-    .btn-icon1{
-        padding: 0.5px 6px;
-    }
-    .btn-icon2{
-        padding: 0.5px 6px;
-    }
-    .btn-icon3{
-        padding: 0.5px 6px;
-    }
-} 
-@media screen and (max-width: 280px){
-    .icon1{
-        margin-left: 10px;
-    }
-    .icon2, .icon3{
-        margin-left: 10px;
-    }
-    .icon-color{
-        width: 14px;
-    }
-    .icon-color1{
-        width: 10px;
-    }
-    .icon-color2{
-        width: 8px;
-    }
-    .icon-color3{
-        width: 13px;
-    }
-    .btn-icon1{
-        padding: 1.3px 5.5px;
-    }
-    .btn-icon2{
-        padding: 1.3px 5.5px;
-    }
-    .btn-icon3{
-        padding: 1.3px 5.5px;
-    }
-}
-@media only screen and (min-device-width: 281px) and (max-device-width: 375px){
-    .icon1{
-        margin-left: 25px;
-    }
-    .icon2, .icon3{
-        margin-left: 10px;
-    }
-    .icon-color{
-        width: 15px;
-    }
-    .icon-color1{
-        width: 15px;
-    }
-    .icon-color2{
-        width: 10px;
-    }
-    .icon-color3{
-        width: 15px;
-    }
-}
-@media only screen and (min-device-width: 376px) and (max-device-width: 400px){
-    .icon2, .icon3{
-        margin-left: 10px;
-    }
-    .icon1{
-        margin-left: 30px;
-    }
-    .icon-color3{
-        width: 14px;
-    }
-}
-@media only screen and (min-device-width: 422px) and (max-device-width: 460px){ 
-    .icon1{
-        margin-left: 25px;
-    }
-    .icon2, .icon3{
-        margin-left: 15px;
-    }
-    .icon-color{
-        width: 25px;
-    }
-    .icon-color1{
-        width: 18px;
-    }
-    .icon-color2, .icon-color3{
-        width: 13px;
-    }
-
-
-}
-@media only screen and (min-device-width: 461px) and (max-device-width: 509px){
-    .icon1{
-        margin-left: 28px;
-    }
-    .icon2, .icon3{
-        margin-left: 17px;
-    }
-    .icon-color{
-        width: 25px;
-    }
-    .icon-color1{
-        width: 23px;
-    }
-    .icon-color2, .icon-color3{
-        width: 23px;
-    }
-}
-@media only screen and (min-device-width: 510px) and (max-device-width: 549px){
-    .icon1{
-        margin-left: 35px;
-    }
-}
-@media only screen and (min-device-width: 550px) and (max-device-width: 590px){
-    .icon1{
-        margin-left: 35px;
-    }
-}
-@media only screen and (min-device-width: 591px) and (max-device-width: 630px){
-    .icon1{
-        margin-left: 40px;
-    }
-}
-@media only screen and (min-device-width: 631px) and (max-device-width: 700px){
-    .icon1{
-        margin-left: 50px;
-    }
-}
-@media only screen and (min-device-width: 701px) and (max-device-width: 770px){
-    .icon1{
-        margin-left: 65px;
-    }
-}
-@media only screen and (min-device-width: 771px) and (max-device-width: 840px){
-    .icon1{
-        margin-left: 85px;
-    }
-}
-@media only screen and (min-device-width: 841px) and (max-device-width: 890px){
-    .icon1{
-        margin-left: 95px;
-    }
-}
-@media only screen and (min-device-width: 891px) and (max-device-width: 990px){
-    .icon1{
-        margin-left: 100px;
-    }
-}
-@media only screen and (min-device-width: 991px) and (max-device-width: 992px){
-    .icon1{
-        margin-left: 80px;
-    }
-    .icon2, .icon3{
-        margin-left: 50px;
-    }
-}
-@media only screen and (min-device-width: 993px) and (max-device-width: 1100px){
-    .icon1{
-        margin-left:23px;
-    }
-    .icon2, .icon3{
-        margin-left: 15px;
-    }
-    .icon-color{
-        width: 21px;
-    }
-    .icon-color1{
-        width: 18px;
-    }
-    .icon-color2, .icon-color3{
-        width: 13px;
-    }
-}
-@media only screen and (min-device-width: 1101px) and (max-device-width: 1200px){
-.icon1{
-    margin-left: 40px;
-}
-.icon2, .icon3{
-    margin-left: 15px;
-}
-}
-@media only screen and (min-device-width: 1201px) and (max-device-width: 1400px){
-.icon1{
-    margin-left: 50px;
-}
-.icon2, .icon3{
-    margin-left: 15px;
-}
-}
-
-
-
-
