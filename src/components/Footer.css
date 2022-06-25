@@ -63,16 +63,18 @@
 }
 .footer-btn-a,.footer-btn-b,.footer-btn-c,.footer-btn-d,.footer-btn-e{
     /* background-color: #6ae0f2; */
+    display: flex;
+    justify-content: center;
     background-color: #2bdcc4;
     align-items: center;
     margin: 7px;
-    margin-top:5px;
+    /* margin-top:5px; */
     padding-left: 0%;
     padding-right: 0%;
     /* padding-top: 4px; */
-    border-radius: 5px;
+    border-radius: 4px;
     width: 35px;
-    height: 31px;
+    height: 35px;
 
 
 }
@@ -81,6 +83,7 @@
 }
 
 .icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
+    padding-top: 2px;
     color: black;
     /* color: white; */
 }

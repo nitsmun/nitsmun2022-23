@@ -99,8 +99,14 @@ const Footer = () => {
             </div>
           </IconContext.Provider>
           <div className="phonenum">
+           <div className="phonenum1">
             <ul>9634077495</ul>
             <ul>9707091602</ul>
+           </div>
+            {/* <div className="phonenum2">
+            <a href="+919634077495">9634077495</a>
+            <a href="+919707091602">9707091602</a>
+            </div> */}
           </div>
         </div>
       </div>
