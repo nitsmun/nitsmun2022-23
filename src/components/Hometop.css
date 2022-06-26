@@ -65,7 +65,7 @@
 }
 .hometop-reg{
   font-variant: small-caps;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 @media screen and (max-width: 565px)  {
   .hometop-img img{
@@ -84,11 +84,16 @@
       padding: 1em 1em;
       margin-bottom: 0;
   }
+  .hometop-reg {
+    padding-bottom: 10px;
+  }
 }
 @media screen and (max-width: 410px)  {
   .hometop-img img{
       width: 18em;
-
+  }
+  .hometop-reg {
+    padding-bottom: 10px;
   }
 }
 .hometop-reg ul{

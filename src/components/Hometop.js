@@ -9,11 +9,18 @@ const Hometop = () => {
           <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
         </div>
       </div>
+
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
             Early Bird registrations for{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>Junior MUN 2022</strong>{" "}
+            <strong style={{ color: "rgb(45, 210, 255)" }}>
+              Junior MUN 2022
+            </strong>{" "}
+            and Application for{" "}
+            <strong style={{ color: "rgb(45, 210, 255)" }}>
+              EXECUTIVE BOARD
+            </strong>{" "}
             is now open!
           </ul>
         </div>
@@ -23,6 +30,8 @@ const Hometop = () => {
           </Link>
         </div>
       </div>
+
+
     </div>
   );
 };

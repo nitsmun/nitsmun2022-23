@@ -28,12 +28,17 @@ const juniormun = () => {
         announce the second edition of NITS Junior MUN exclusively for school
         students from 6th August to 7th August 2022.
       </div>
+      
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
             Early Bird registrations for{" "}
             <strong style={{ color: "rgb(45, 210, 255)" }}>
               Junior MUN 2022
+            </strong>{" "}
+            and Application for{" "}
+            <strong style={{ color: "rgb(45, 210, 255)" }}>
+              EXECUTIVE BOARD
             </strong>{" "}
             is now open!
           </ul>
@@ -44,6 +49,7 @@ const juniormun = () => {
           </Link>
         </div>
       </div>
+
       <div className="commitees-heading">
         <h1>COMMITTEES</h1>
       </div>
