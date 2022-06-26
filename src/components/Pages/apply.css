@@ -1,15 +1,15 @@
 .apply-container{
     height: 95vh;
     width: 100%;
-    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
-    /* background-image: linear-gradient(#093f15, #085560); */
     background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
-    /* background-color: #0e423c; */
+    
 }
 .img-apply img{
-    margin: 15vh 0 1vh 0vh;
+    margin: 14vh 0 1vh 0vh;
+    width: 300px;
 }
 .apply-container a{
+    margin-top: 5vh;
     padding: 20px;
     width: 70%;
     display: inline-block;
@@ -18,10 +18,11 @@
     font-weight: 900;
     line-height: 1.6;
     border-radius: 30px;
-    font-size: 16px;
+    font-size:19px;
 }
 .apply-container a:hover{
-    color: rgb(20, 23, 204);
+    /* color: rgb(20, 23, 204); */
+    color: #161c2f;
     background-color: #4EFFBF;
     transition: 0.3s ease-out;
 }
@@ -29,34 +30,16 @@
 .apply-container a:focus {
     outline: none;
     box-shadow: 0 0 0 4px #e2564f;
-    transition: 0.7s;
+    transition: 0.5s;
   }
 .apply-container a:active
           {
               box-shadow: 1px 1px 1px 1px #e2564f;
               transform: translateY(2px);
           } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1000px){
     .img-apply img{
-        width: 250px;
+        width: 160px;
     }
     .apply-container{
         height: 75vh;
@@ -70,8 +53,36 @@
 }
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1025px){
             .img-apply img{
-                width: 300px;
-                padding-top: 20px;
+                width: 200px;
+                padding-top: 40px;
             }
-
+            .apply-container a{
+                font-size: 14px;
+            }
+}
+@media only screen and (max-width:280px){
+    .img-apply img{
+        width: 150px;
+        margin-top: 20vh;
+        margin-bottom: 0;
+    }
+    .apply-container a{
+        width: 90%;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
+    .apply-container{
+        height: 95vh;
+    }
+    .img-apply img{
+        width: 400px;
+        margin: 7vh 0 1vh 0vh;
+        padding-top: 10px;
+    }
+    .apply-container a{
+        font-size: 18px;
+    }
 }
