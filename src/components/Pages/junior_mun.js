@@ -23,10 +23,10 @@ const juniormun = () => {
         bring together students from elementary to college levels and provide a
         platform to discuss global issues through a formal procedure.
         <br /> <br />
-        With great pride and honour, we announced the first edition of NITS
-        Junior MUN exclusively for school students last year and after its great
-        success , NITSMUN will be hosting the second edition of Junior MUN
-        exclusively for school students from 6th August to 7th August 2022.
+        After successfully conducting NITS Junior MUN exclusively for school students last year
+        and with its great success , NITSMUN is proud to announce the second edition of Junior MUN
+        exclusively for school students which is to be held from 6th August to 7th August 2022.
+        <br /> <br />
       </div>
       <div className="hometop-apply">
         <div className="hometop-reg">
