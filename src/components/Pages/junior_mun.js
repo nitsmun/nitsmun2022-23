@@ -3,6 +3,7 @@ import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
 import { Junmun } from "../Dataset";
+import { Link } from "react-router-dom";
 const juniormun = () => {
   TabTitle("NITS Junior MUN | NITSMUN");
   return (
@@ -27,25 +28,22 @@ const juniormun = () => {
         success , NITSMUN will be hosting the second edition of Junior MUN
         exclusively for school students from 6th August to 7th August 2022.
       </div>
-      {/* <div className="junmun-partners">
-        <div className="junmunpart-heading">
-          <h1>Our Partners</h1>
+      <div className="hometop-apply">
+        <div className="hometop-reg">
+          <ul style={{ color: "white" }}>
+            Early Bird registrations for{" "}
+            <strong style={{ color: "rgb(45, 210, 255)" }}>
+              Junior MUN 2022
+            </strong>{" "}
+            is now open!
+          </ul>
         </div>
-        <div className="junmun-flexing">
-          <div className="partner1">
-            <div className="part-indi1">
-              <img src="./Images/dias_logo.jpg" alt="" />
-            </div>
-            <div className="part-indi2">
-              <img src="./Images/ids_logo.png" alt="" />
-            </div>
-          </div>
-          <div className="partner2">
-          <div className="part-indi3"></div>
-          <div className="part-indi4"></div>
-          </div>
+        <div className="hometop-link1">
+          <Link to={"/apply"}>
+            <button className="hometop-link1btn">Register Now</button>
+          </Link>
         </div>
-      </div> */}
+      </div>
       <div className="commitees-heading">
         <h1>COMMITTEES</h1>
       </div>

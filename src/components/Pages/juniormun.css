@@ -56,36 +56,16 @@
         font-weight: 900;
     }
 }
-/* .junmun-partners{
-    margin-bottom: 4vh;
-}
-.junmunpart-heading{
-    text-align: center;
-}
-.junmunpart-heading h1{
-    font-weight: 900;
-    color: #e2564f;
-    font-size: 40px;
-}
-.junmun-flexing, .partner1, .partner2{
-    display: flex;
-}
-.part-indi1 img{
-    border-radius: 50%;
-    width: 100px;
-}
-.part-indi2 img{
-    border-radius: 50%;
-    width: 100px;
-} */
+
 .commitees-heading{
     text-align: center;
     color: #03989e;
+    margin-top: 5vh;
 }
 .junmun-agendas{
     display: flex;
     justify-content: space-between;
-    margin-top: 5vh;
+    margin-top: 6.9vh;
     /* background-color: rgba(78, 48, 9, 0.484); */
     background-color: #0c5160;
     padding: 2.5em 0;
@@ -115,8 +95,10 @@
 }
 
 @media only screen and (max-width: 540px)
-/* @media (min-width: 481px) and (max-width: 767px)  */
 {
+    .commitees-heading{
+        margin-top: 4vh;
+    }
     .junmun-agendas {
       display: block;
       justify-content: space-between;

@@ -12,8 +12,8 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            Early registrations for{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>Junior MUN</strong>{" "}
+            Early Bird registrations for{" "}
+            <strong style={{ color: "rgb(45, 210, 255)" }}>Junior MUN 2022</strong>{" "}
             is now open!
           </ul>
         </div>
