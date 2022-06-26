@@ -36,14 +36,13 @@
      margin: 20px;
      border-radius: 20px;
      transition: 0.3s ease-out;
-     box-shadow: 0px, 4px, 6px #1da393, 0px, 4px, 6px #0a4e46;
+     box-shadow: 0px 5px 3px 0 #0d322a, 0 6px 1px 0 #024733;
      width: 19.5%;
      position: relative;
  }
  .team-stats:hover{
      transform: scale(1.05);
-     /* box-shadow: 0px 4px 8px 0 #1994ab, 0 6px 20px 0 #000000; */
-     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 #094945;
  }
  .team-stats h1{
      padding: 17px 0;

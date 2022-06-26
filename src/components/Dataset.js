@@ -506,7 +506,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:bhargavinath.24@gmail.com",
   },
   {
-    id: 8,
+    id: 9,
     cName: "team-sec",
     imgsrc: "./Images/Trilasha Mazumder1.jpeg",
     alt: "Trilasha Mazumder",
@@ -560,7 +560,7 @@ export const Secretariatprjr = [
     post: "Public Relations & Outreach Team",
     mail: "mailto:chayanjn24@gmail.com",
     linkedin: "https://www.linkedin.com/in/chayan-gulgulia/",
-    fb: "https://www.facebook.com/",
+    fb: "https://www.facebook.com/karya.jain.3",
   },
   {
     id: 5,
