@@ -239,3 +239,8 @@ li {
 .menu-item .sub__menus__full a {text-align: left;}
 }
 
+@media only screen and (max-width:320px){
+  .img-left0{
+    display: none;
+  }
+}

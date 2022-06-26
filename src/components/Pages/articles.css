@@ -104,9 +104,6 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    /* transition: background-color 1s ease-in-out, color 11s ease-in-out; */
-    /* position: absolute;
-    top: 100px; */
  }
  .read-more-btn:focus {
     outline: none;
@@ -140,6 +137,7 @@
     text-decoration: none;
     transition: 0.5s ease-in-out;
  }
+
  .read-less-btn:hover {
     /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
     background-color: #e2564f;
@@ -151,9 +149,6 @@
     border: solid linear-gradient(135deg, #e2564f 0%, #360940 100%) 1px;
     text-decoration: none;
 }
-
-
-
 
 @media only screen and (min-device-width:1001px) and (max-device-width:1420px) {
     .article-cont1{
@@ -168,12 +163,6 @@
         margin-left: 25px;
     }
 }
-
-
-
-
-
-
 
 @media only screen and (max-width: 1000px){
     .article-flexing{
@@ -210,6 +199,27 @@
         background-color: #3ca06be0;
         color: whitesmoke;
         transition: all 0.3s ease-in ;
+    }
+}
+
+/* for galaxy fold devices*/
+@media only screen and (max-width:320px){
+    .img-holder img{
+        height: 230px;
+    }
+    .img-holder{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .article-cont1{
+        font-size: 13px;
+    }
+    .article-content h1{
+        font-size: 16px;
+    }
+    .read-more-btn, .read-less-btn{
+        font-size: 12px;
+        padding: 8px;
     }
 }
 
