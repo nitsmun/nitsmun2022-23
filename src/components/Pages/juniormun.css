@@ -1,221 +1,285 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
-.event-pic img{
-    width: 100%;
-    position: relative;
-    height: 50vh;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    background-color: rgba(0,0,0,0.2);
+.event-pic img {
+  width: 100%;
+  position: relative;
+  height: 50vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .event-pic {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
-.event-title h1{
-    color: #03989e;
-    font-weight: bolder;
-    font-size: 5vh;
+.event-title h1 {
+  color: #03989e;
+  font-weight: 900;
+  font-size: 6vh;
 }
-.event-title{
-    border-bottom: 0.2vh solid #3ca06a;
-    width: 60%;
-    text-align: center;
-    margin: 5vh auto 8vh;
+.event-title {
+  border-bottom: 0.2vh solid #3ca06a;
+  width: 60%;
+  text-align: center;
+  margin: 5vh auto 8vh;
 }
-.event-details{
-    margin: 35.448px 112.975px 5vh;
-    color: #161c2f;
-    font-size: 2.3vh;
-    line-height: 2.0;
-    text-align: justify;
-    text-align-last: left;
-    font-weight: 600;
+.event-details {
+  margin: 35.448px 112.975px 5vh;
+  color: #161c2f;
+  font-size: 2.3vh;
+  line-height: 2;
+  text-align: justify;
+  text-align-last: left;
+  font-weight: 600;
 }
-@media only screen and (max-width: 1000px){
-    .event-details{
-        margin: 26.264px 18.7625px 37.52px;
-        line-height: 1.8;
-        font-size: 17.712px;
-    }
-    .event pic{
-        height: 10vw;
-    }
-    .event-title{
-        margin-bottom: 3vh;
-    }
-    .event-title h1{
-        font-size: 22.512px;
-        font-weight: 900;
-    }
+@media only screen and (max-width: 1000px) {
+  .event-details {
+    margin: 26.264px 18.7625px 37.52px;
+    line-height: 1.8;
+    font-size: 17.712px;
+  }
+  .event pic {
+    height: 10vw;
+  }
+  .event-title {
+    margin-bottom: 3vh;
+  }
+  .event-title h1 {
+    font-size: 22.512px;
+    font-weight: 900;
+  }
 }
 
-.commitees-heading{
-    text-align: center;
-    color: #03989e;
-    margin-top: 5vh;
+.commitees-heading {
+  text-align: center;
+  color: #03989e;
+  margin-top: 5vh;
+  font-variant: small-caps;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
 }
-.junmun-agendas{
-    display: flex;
+.junmun-agendas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.9vh;
+  background-color: #0c5160;
+  padding: 2.5rem 0;
+}
+
+.agenda {
+  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+  width: 30%;
+  border-radius: 1.5625em;
+  margin: 0 2.5em;
+  border: 4px solid #0b162e;
+}
+.title01-container {
+  text-align: center;
+  padding: 0 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin: 1rem 0;
+  font-variant: small-caps;
+}
+.title01-container h2 {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.agenda-only {
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.agendapara-container {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+  text-align-last: left;
+  padding: 0 3.125em;
+  margin-bottom: 0.9em;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 540px) {
+  .commitees-heading {
+    margin-top: 4vh;
+    font-size: 1.2rem;
+  }
+  .junmun-agendas {
+    display: block;
     justify-content: space-between;
-    margin-top: 6.9vh;
-    /* background-color: rgba(78, 48, 9, 0.484); */
-    background-color: #0c5160;
-    padding: 2.5em 0;
+    margin-top: 2vh;
+    padding:0.8rem 0 0.2rem 0;
+  }
+  .agenda {
+    width: 90%;
+    margin: 1.25em auto 0 auto;
+  }
+
+  .title01-container h2 {
+    font-size: 1.2rem;
+  }
+  .title01-container {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .agendapara-container {
+    padding: 0 20px 20px 20px;
+  }
+  .agendapara-container p {
+    font-size: 0.8em;
+  }
+  .agenda-only {
+    font-size: 0.7em;
+    margin: 0em 0;
+  }
+  .junmun2021 {
+    font-size: 0.6em;
+    padding: 0 10px;
+  }
+}
+.agenda-only {
+  text-align: center;
+  margin: 0.625em 0;
+  color: white;
 }
 
-.agenda{
-    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
-    width: 30%;
-    border-radius: 1.5625em;
-    margin: 0 2.5em;
-}
-.title01-container{
-    text-align: center;
-    padding: 0 3.125em;
-    text-align: center;
-    /* text-align-last: left; */
-    line-height: 1.6;
-    margin: 1.8em 0;
-    height: 2em;
-}
-.title01-container h2{
-    font-size: 1.05em;
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-    /* line-height: 1.4; */
-    /* letter-spacing: 0.2px; */
-}
-
-@media only screen and (max-width: 540px)
-{
-    .commitees-heading{
-        margin-top: 4vh;
-    }
-    .junmun-agendas {
-      display: block;
-      justify-content: space-between;
-    }
-    .agenda {
-      width: 90%;
-      /* margin: 20px; */
-      margin: 1.25em auto;
-    }
-
-    .title01-container h2{
-        font-size: 0.9em;
-    }
-    .title01-container{
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    .agendapara-container p{
-        font-size: 0.8em;
-    }
-    .agenda-only{
-        font-size: 0.7em;
-        margin: 0em 0;
-    }
-    .junmun2021{
-        font-size: 0.6em;
-        padding: 0 10px;
-    }
-}
-.agenda-only{
-    text-align: center;
-    margin: 0.625em 0;
-    color: white;
-}
-.agendapara-container{
-    color: white;
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: justify;
-    text-align-last: left;
-    padding: 0 3.125em;
-    margin-bottom: 0.9em;
-    font-weight: 600;
-}
-.agenda img{
-    /* width: 21.875em; */
-    width: 100%;
+.agenda img {
+  width: 100%;
   max-width: 100%;
   padding: 0 30px;
 }
-@media only screen and (max-width:540px)
-/* @media (min-width: 481px) and (max-width: 767px)  */
-{
-    .agendapara-container{
-        padding:0 20px 20px 20px;
-    }
-    .junmun-agendas{
-margin-top: 2vh;
-padding: 0.8em 0;
-    }
+
+@media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
+  .event-title h1 {
+    font-size: 3rem;
+  }
+  .commitees-heading h1 {
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  .junmun-agendas {
+    display: block;
+  }
+  .agenda {
+    width: 80%;
+    margin: 2rem auto;
+    margin-bottom: 0 !important;
+  }
+  .junmun-agendas {
+    margin-top: 2vh;
+    padding: 1.2rem 0;
+    padding-bottom: 1.8rem !important;
+    
+  }
+  .title01-container h2 {
+    font-size: 2.1rem;
+  }
+  .title01-container {
+    padding: 10px 2rem;
+  }
+  .agenda-only {
+    font-size: 0.9em;
+    margin: 0.5em 0;
+  }
+  .agendapara-container p {
+    font-size: 1.4em;
+  }
+  .agendapara-container {
+    padding: 0 50px 20px 50px;
+  }
 }
-@media only screen and (min-device-width: 541px) and (max-device-width: 1279px){
-       .junmun-agendas{
-        display: block;
-       }
-       .agenda{
-        width: 80%;
-        margin: 1.25em auto;
-       }
-       .junmun-agendas{
-        margin-top: 2vh;
-        padding: 1.2em 0;
-            }
-            .title01-container h2{
-                font-size: 0.9em;
-            }
-            .title01-container{
-                padding-top: 15px;
-                padding-bottom:0px;
-            }
-            .agenda-only{
-                font-size: 0.9em;
-                margin: 0.5em 0;
-            }
-            .agendapara-container p{
-                font-size: 1.2em;
-            }
-            .agendapara-container{
-                padding:0 20px 20px 15px;
-            }
+.container-junmun2021 {
+  padding-bottom: 10px;
 }
-.container-junmun2021{
-    padding-bottom: 10px;
-}
-.junmun2021{
-    text-align: center;
-    padding-top: 5vh;
-    color: #03989e;
+.junmun2021 {
+  text-align: center;
+  padding-top: 5vh;
+  color: #03989e;
 }
 
-.images-junmun21 img{
-    width: 350px;
-    margin: 10px 10px;
-    border-radius: 10px;
+.images-junmun21 img {
+  width: 350px;
+  margin: 10px 10px;
+  border-radius: 10px;
 }
-.images-junmun21{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap
+.images-junmun21 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-@media screen and (max-width:600px){
-    .images-junmun21 img{
-        margin: 10px auto;
-        width: 90%;
+@media screen and (max-width: 600px) {
+  .images-junmun21 img {
+    margin: 10px auto;
+    width: 90%;
+  }
+  .junmun2021 {
+    font-size: 0.8em;
+  }
+}
+
+.ipc-comt-cont {
+  background-color: #0c5160;
+  padding: 0rem 0 2.5rem 0;
+}
+.ipc-comt {
+  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+  width: 28%;
+  border-radius: 1.5625em;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+  border: 4px solid #0b162e;
+}
+.ipc-comt img {
+  width: 84%;
+  max-width: 84%;
+}
+.title01-ipc {
+  text-align: center;
+  line-height: 1.6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.title01-ipc h2 {
+  font-size: 1.4em;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+}
+@media only screen and (max-width: 540px) {
+    .ipc-comt-cont{
+        padding-bottom: 2rem;
+        padding-top: 1.3rem;
     }
-    .junmun2021{
-        font-size: 0.8em;
-    }
+  .title01-ipc h2 {
+    font-size: 1.2rem;
+  }
+  .ipc-comt {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
+  .ipc-comt {
+    width: 80%;
+    margin: 1.2rem auto;
+    margin-top: 0rem !important;
+  }
+  .title01-ipc {
+    padding: 10px 2rem;
+  }
+  .title01-ipc h2 {
+    font-size: 2.1rem;
+  }
 }

@@ -12,7 +12,9 @@ const juniormun = () => {
         <img src="https://nitsmun.in/img/munu18.jpg" alt="NITS Junior MUN" />
       </div>
       <div className="event-title">
-        <h1>NITS Junior MUN</h1>
+        <strong>
+          <h1>NITS Junior MUN</h1>
+        </strong>
       </div>
       <div className="event-details">
         Model United Nations (MUN) is an educational simulation in which
@@ -28,7 +30,6 @@ const juniormun = () => {
         announce the second edition of NITS Junior MUN exclusively for school
         students from 6th August to 7th August 2022.
       </div>
-      
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
@@ -49,9 +50,8 @@ const juniormun = () => {
           </Link>
         </div>
       </div>
-
       <div className="commitees-heading">
-        <h1>COMMITTEES</h1>
+        <h1>Committees</h1>
       </div>
       <Underline2 />
       <div className="junmun-agendas">
@@ -71,6 +71,17 @@ const juniormun = () => {
             </div>
           );
         })}
+      </div>
+      <div className="ipc-comt-cont">
+        <div className="ipc-comt">
+          <div className="title01-ipc">
+            <h2>International Press Corps</h2>
+          </div>
+          <img
+            src="./Images/International Press Corps.png"
+            alt="International Press Corps"
+          />
+        </div>
       </div>
       <div className="junmun2021">
         <h1>Reminiscence of Junior MUN 2021</h1>

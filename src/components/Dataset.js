@@ -18,7 +18,7 @@ export const Slider = [
 ];
 export const Junmun = [
   {
-    Title01:"United Nations High Commissioner for Refugees",
+    Title01:"United Nations High Commissioner For Refugees",
     imgjunmun:"./Images/Agenda1.jpeg",
     Agendapara:"Addresing the plight of the refugees due to conflicts around the globe with special emphasis on Europe.",
   },
@@ -27,7 +27,7 @@ export const Junmun = [
   Agendapara:"Accentuating the problems caused due to rapid globalization and its influence on the environment.",
   },
   {
-    Title01:"United Nations Security Council (UNSC)",
+    Title01:"United Nations Security Council (Unsc)",
     imgjunmun:"./Images/Agenda3.jpeg",
     Agendapara:"Highlighting the problems related to weaponized nuclear technology in the 21st Century.",
   },
