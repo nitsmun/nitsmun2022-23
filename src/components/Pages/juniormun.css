@@ -22,7 +22,7 @@
 .event-title h1 {
   color: #03989e;
   font-weight: 900;
-  font-size: 6vh;
+  font-size: 5.5vh;
 }
 .event-title {
   border-bottom: 0.2vh solid #3ca06a;
@@ -204,8 +204,11 @@
 }
 .junmun2021 {
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 4vh;
   color: #03989e;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 .images-junmun21 img {

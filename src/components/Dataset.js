@@ -768,7 +768,7 @@ export const Articledata = [
   {
     id: 2,
     Artimg: "./Images/World day for cultural diversity.jpg",
-    Title: "World day for cultural diversity",
+    Title: "World Day For Cultural Diversity",
     Alt: "World day for cultural diversity",
     Date: "Posted on: 21st May, 2022",
     Content:
@@ -777,7 +777,7 @@ export const Articledata = [
   {
     id: 3,
     Artimg: "./Images/World telecommunication and information society day may 17.jpg",
-    Title: "World telecommunication and information society day",
+    Title: "World Telecommunication And Information Society Day",
     Alt: "World telecommunication and information society day",
     Date: "Posted on: 17th May 2022",
     Content:
@@ -786,7 +786,7 @@ export const Articledata = [
   {
     id: 4,
     Artimg: "./Images/World press freedom day may 3.jpg",
-    Title: "World press freedom day",
+    Title: "World Press Freedom Day",
     Alt: "World press freedom day",
     Date: "Posted on: 3rd May 2022",
     Content: "World Press Freedom Day was declared by the UN General Assembly in December 1993, following the recommendation of the UNESCO General Conference. Since then, May 3, the anniversary of the Declaration of Windhoek has been celebrated worldwide as World Press Freedom Day. May 3 acts as a reminder to governments of the need to respect their commitment to press freedom and is also a day of reflection among media professionals about issues of press freedom and professional ethics. This year on 2-5 May 2022, UNESCO and the Republic of Uruguay will host the annual World Press Freedom Day Global Conference in a hybrid format in Punta Del Este, Uruguay. Under the theme “Journalism under Digital Siege”, the digital era’s impact on freedom of expression, the safety of journalists, access to information and privacy will be discussed. Journalists and media workers are increasingly facing physical and verbal abuse, threats and intimidation, lawsuits and imprisonment to silence them. Online sexual harassment of female journalists has increased exponentially. Anti-media rhetoric, repeatedly used by some politicians and government leaders, undermines freedom of speech and puts individual journalists at risk. This year NITSMUN takes this chance and opportunity to raise awareness of the fact that for humanity’s well-being, accurate information is a public good and to fully honour the courage of journalists to inform the public, we must ensure that their rights are respected, protected and met.",
@@ -794,7 +794,7 @@ export const Articledata = [
   {
     id:5,
     Artimg:"./Images/International day of Multilateralism and diplomacy for peace april 24.jpg",
-    Title:"International day of Multilateralism and diplomacy",
+    Title:"International Day Of Multilateralism And Diplomacy",
     Alt:"International day of Multilateralism and diplomacy",
     Date:"Posted on: 24th April 2022",
     Content:"Following the dreads of the Second World War, the United Nations came into existence. Gradually the world alongside the UN understood the importance of diplomacy for peace and truce. In the 'General debate of September, 201', World Leaders united and declared 'International Day of Multilateralism and Diplomacy for Peace' to be marked each year on 24th April. Multilateralism has its own essence. It embraces the philosophy of acceptance and international cooperation. It is also an essential commodity for the 2030 agenda for Sustainable Development. We are in a dreadful period where revolts occur capriciously. The dreads of Afghanistan, Israel-Palestine, Russia-Ukraine show us the essential need of truce through talks. The increasing vigour in nuclear and destructive weapons should also be monitored and controlled by the member states. NITSMUN alongside all the solicitous organisations urge the council of states to implement the promises signed on paper. As they say, one piece of paper is sharper than a sword. And one action of accord is powerful than an army!",
@@ -802,7 +802,7 @@ export const Articledata = [
   {
     id:6,
     Artimg:"./Images/International mother earth day.jpg",
-    Title:"International mother earth day",
+    Title:"International Mother Earth Day",
     Alt:"International mother earth day",
     Date:"Posted on: 22nd April 2022",
     Content:"The original roots of designating a day for Mother earth goes back to the 1970s when environmental protection was not yet a priority of the national political agendas. The UN Conference on the Human Environment 1972 in Stockholm marked the beginning of global awareness of the interdependence among people, other living species and our planet, as well as the establishment of World Environment Day on 5 June and the UN Environment Programme. Heat waves, cyclones and floods during the dry season- are some of the SOS calls we have come across but have failed to meet the expectation at an institutional level. The past world leaders were reluctant enough to not take any coordinated and well-executed action despite having plans of sustainability against man’s never-ending demand of extracting natural resources. Now, we are running out of time, and climate change is triggering an irreversible chain reaction causing extreme weather events across the globe. Moreover, the average global temperatures are expected to rise by at least 1.5 degrees which could further be increased if timely actions are not put in place. Despite our advancements in technological and educational fields, we have been quite incapable of catering to Mother Earth which has provided us with all her natural resources. The NITSMUN fraternity requests you all to stop being ignorant and become vocal advocates of sustainable development, by spreading awareness about the same and by becoming the change you seek in society. TOGETHER WE CAN, TOGETHER WE WILL!",

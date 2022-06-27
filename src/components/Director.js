@@ -6,7 +6,7 @@ const Director = () => {
     <div>
       <div className="glimpses-section">
         <div className="glimpses">
-          <h1>MESSAGE FROM THE DIRECTOR</h1>
+          <h1>Message From The Director</h1>
         </div>
       </div>
 

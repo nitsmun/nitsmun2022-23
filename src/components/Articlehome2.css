@@ -16,7 +16,7 @@ body {
   /* background-color: #161c2f; */
 }
 .art-home-title {
-  padding: 2.5rem 0 2rem 0;
+  padding: 1.5rem 0 2rem 0;
   display: inline-block;
   text-align: center;
   /* background-color: #ee0970; */
@@ -24,9 +24,10 @@ body {
 .apply-home-h1 {
   text-align: center;
   border-bottom: 2px solid #208595;
-  color: #161c2f;
-  font-weight: bolder;
+  color: #000000;
+  font-weight: 900;
   font-size: 30.416px;
+  font-variant: small-caps;
 }
 .apply-home-h1 a {
   color: #1994a5;
@@ -62,8 +63,10 @@ body {
   color: #ee0970;
   margin: 0 0 8px;
   padding: 5px 0;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 9000;
   font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
 }
 .article-home-btn{
   cursor: pointer;
@@ -110,6 +113,8 @@ body {
   }
   .art-home-title {
     padding: 3px auto;
+    padding-top: 1.5rem !important;
+    padding-bottom: 0.6rem !important;
   }
   .team-section-body p {
     font-size: 14px;

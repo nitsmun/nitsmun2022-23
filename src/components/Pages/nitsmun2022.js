@@ -120,7 +120,7 @@ const nitsmun2022 = () => {
         </div>
       </div>
       <div className="glimpses">
-        <h1>GLIMPSES FROM PAST CONFERENCES</h1>
+        <h1>Glimpses From Past Conferences</h1>
       </div>
 
       <Slider />

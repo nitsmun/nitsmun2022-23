@@ -9,7 +9,7 @@ const Articlehome2 = () => {
       <Underline3 />
       <div className="art-home-title">
         <h1 className="apply-home-h1">
-          CHECK OUT{" "}
+          Check Out{" "}
           <a
             href="https://instagram.com/nitsmun"
             rel="noreferrer"
@@ -17,7 +17,7 @@ const Articlehome2 = () => {
           >
             @nitsmun
           </a>{" "}
-          FOR ALL OUR ARTICLES!
+          For All Our Articles!
         </h1>
       </div>
       <div className="tea0">

@@ -9,7 +9,7 @@ const articles = () => {
   return (
     <>
       <div className="articles-heading-cont">
-        <h1>ARTICLES</h1>
+        <h1>Articles</h1>
       </div>
       <div className="article-main-content">
         {Articledata.map((item) => {
@@ -46,13 +46,17 @@ const articles = () => {
           );
         })}
       </div>
-      <div className="art-home-title">
-        <h1 className="apply-home-h1">
-          CHECK OUT{" "}
-          <a href="https://instagram.com/nitsmun" rel="noreferrer" target="_blank">
+      <div className="art-art-title">
+        <h1 className="apply-art-h1">
+          Check Out{" "}
+          <a
+            href="https://instagram.com/nitsmun"
+            rel="noreferrer"
+            target="_blank"
+          >
             @nitsmun
           </a>{" "}
-          FOR ALL OUR ARTICLES!
+          For All Our Articles!
         </h1>
       </div>
     </>

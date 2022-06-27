@@ -6,7 +6,7 @@ const Secretary = () => {
   return (
     <div>
       <div className="msg-secretary">
-        <h2 className="sec-head1">Message from the Secretary-General</h2>
+        <h2 className="sec-head1">Message From The Secretary-General</h2>
         <Underline />
         <br />
         <br />

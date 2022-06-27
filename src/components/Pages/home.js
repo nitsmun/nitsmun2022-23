@@ -22,7 +22,7 @@ const home = () => {
       <Secretary />
       <div className="glimpses-section">
         <div className="glimpses">
-          <h1>GLIMPSES FROM PAST CONFERENCES</h1>
+          <h1>Glimpses From Past Conferences</h1>
         </div>
         <Slider />
       </div>

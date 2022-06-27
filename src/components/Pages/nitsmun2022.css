@@ -12,9 +12,11 @@
   padding-bottom: 0%;
   box-sizing: border-box;
   bottom: 0%;
+  
 }
 .nm22-head h1{
   color: #03989e !important;
+  font-size: 40px;
 }
 .nm22-body1 {
   padding-left: 4em;
@@ -95,7 +97,8 @@
 .nm22-exmainhead {
   padding: 1.5em;
   font: bolder;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  font-variant: small-caps;
 }
 @media (max-width: 479px) {
   .nm22-agendaimg2 {
@@ -103,8 +106,11 @@
   }
 }
 @media (max-width:410px){
-  .nm22-head,.nm22-exmainhead{
-    font-size: 0.85em;
+  .nm22-exmainhead{
+    font-size: 0.85rem;
+  }
+  .nm22-head h1{
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 1260px) {
