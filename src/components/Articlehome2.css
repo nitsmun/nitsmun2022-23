@@ -19,11 +19,10 @@ body {
   padding: 1.5rem 0 2rem 0;
   display: inline-block;
   text-align: center;
-  /* background-color: #ee0970; */
 }
 .apply-home-h1 {
   text-align: center;
-  border-bottom: 2px solid #208595;
+  /* border-bottom: 2px solid #208595; */
   color: #000000;
   font-weight: 900;
   font-size: 30.416px;
@@ -107,6 +106,7 @@ body {
   }
   .apply-home-h1 {
     font-size: 18.416px;
+    padding: 0 0.9rem;
   }
   .apply-home-h1 a {
     font-size: 18.416px;

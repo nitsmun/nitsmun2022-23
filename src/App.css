@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* font-family: 'Inter', sans-serif; */
+  -webkit-tap-highlight-color: transparent;
   font-family: 'Montserrat','Varela Round','Caveat', cursive, 'Inter', sans-serif;
 }
 ::-webkit-scrollbar{
