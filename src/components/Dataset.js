@@ -820,3 +820,17 @@ export const Articledata = [
     Content:"The original roots of designating a day for Mother earth goes back to the 1970s when environmental protection was not yet a priority of the national political agendas. The UN Conference on the Human Environment 1972 in Stockholm marked the beginning of global awareness of the interdependence among people, other living species and our planet, as well as the establishment of World Environment Day on 5 June and the UN Environment Programme. Heat waves, cyclones and floods during the dry season- are some of the SOS calls we have come across but have failed to meet the expectation at an institutional level. The past world leaders were reluctant enough to not take any coordinated and well-executed action despite having plans of sustainability against man’s never-ending demand of extracting natural resources. Now, we are running out of time, and climate change is triggering an irreversible chain reaction causing extreme weather events across the globe. Moreover, the average global temperatures are expected to rise by at least 1.5 degrees which could further be increased if timely actions are not put in place. Despite our advancements in technological and educational fields, we have been quite incapable of catering to Mother Earth which has provided us with all her natural resources. The NITSMUN fraternity requests you all to stop being ignorant and become vocal advocates of sustainable development, by spreading awareness about the same and by becoming the change you seek in society. TOGETHER WE CAN, TOGETHER WE WILL!",
   },
 ];
+export const FaqData = [
+  {
+    question: 'What is MUN?',
+    answer: 'In Model United Nations (MUN), students play the role of delegates from different countries and attempt to solve real world issues with the policies and perspectives of their assigned country, mainly to learn about diplomacy, international relations, and the United Nations.',
+  },
+  {
+    question: 'Where it would be held?',
+    answer: "It'll be held via an online mode and the platform will be notified through mail to the participants later on.",
+  },
+  {
+    question: 'What are the dates for NITS Junior MUN 2022?',
+    answer: "NITS Junior MUN will be a two day event commencing from 6th of August to 7th of August 2022.",
+  }
+];

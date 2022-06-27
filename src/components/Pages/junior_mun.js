@@ -4,6 +4,8 @@ import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
 import { Junmun } from "../Dataset";
 import { Link } from "react-router-dom";
+import Faqs from "../Faq";
+
 const juniormun = () => {
   TabTitle("NITS Junior MUN | NITSMUN");
   return (
@@ -75,6 +77,10 @@ const juniormun = () => {
         })}
       </div>
       
+
+      <Faqs />
+
+
       <div className="junmun2021">
         <h1>Reminiscence Of Junior Mun 2021</h1>
       </div>{" "}
