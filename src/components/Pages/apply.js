@@ -16,7 +16,7 @@ const apply = () => {
           rel="noreferrer"
           target="_blank"
         >
-          Link for Early Bird Registrations for NITSMUN Junior MUN 2022!
+          Link for Round 1 Registrations for NITSMUN Junior MUN 2022!
         </a>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfdZRZcI0T4z9SrjLjZNk59s4wi-35lOVqeXJkE34mIbyqsbA/viewform?pli=1"
