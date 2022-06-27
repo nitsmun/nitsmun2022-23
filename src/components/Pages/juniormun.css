@@ -67,24 +67,34 @@
 }
 .junmun-agendas {
   display: flex;
-  justify-content: space-between;
   margin-top: 6.9vh;
   background-color: #0c5160;
   padding: 2.5rem 0;
+  padding-top: 1rem !important;
+  width: 100%;
+     position: relative;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
 }
 
 .agenda {
   background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
-  width: 30%;
   border-radius: 1.5625em;
-  margin: 0 2.5em;
+  margin: 2rem 3.5rem;
   border: 4px solid #0b162e;
+    width: 40%;
+
+}
+.agenda img {
+  width: 25rem;
+  max-width: 25rem;
+  padding: 0 30px;
 }
 .title01-container {
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 0 0rem;
   text-align: center;
-  letter-spacing: 1px;
   line-height: 1.6;
   margin: 1rem 0;
   font-variant: small-caps;
@@ -96,17 +106,18 @@
 }
 .agenda-only {
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 900 !important;
 }
 .agendapara-container {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: justify;
   text-align-last: left;
-  padding: 0 3.125em;
-  margin-bottom: 0.9em;
+  padding: 0 3.125rem;
+  margin-bottom: 2rem;
   font-weight: 600;
 }
 
@@ -119,22 +130,26 @@
     display: block;
     justify-content: space-between;
     margin-top: 2vh;
-    padding:0.8rem 0 0.2rem 0;
+    padding:0.8rem 0 2.5rem 0;
   }
   .agenda {
     width: 90%;
     margin: 1.25em auto 0 auto;
+  }
+  .agenda img{
+    width: 20rem;
+    max-width: 20rem;
   }
 
   .title01-container h2 {
     font-size: 1.2rem;
   }
   .title01-container {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px 1.4rem;
   }
   .agendapara-container {
-    padding: 0 20px 20px 20px;
+    padding: 0 30px 20px 30px;
+    margin-bottom: 0.5rem;
   }
   .agendapara-container p {
     font-size: 0.8em;
@@ -154,13 +169,9 @@
   color: white;
 }
 
-.agenda img {
-  width: 100%;
-  max-width: 100%;
-  padding: 0 30px;
-}
 
-@media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
+
+/* @media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
   .event-title h1 {
     font-size: 3rem;
   }
@@ -176,6 +187,10 @@
     margin: 2rem auto;
     margin-bottom: 0 !important;
   }
+  .agenda img{
+    width: 30rem;
+    max-width: 30rem;
+  }
   .junmun-agendas {
     margin-top: 2vh;
     padding: 1.2rem 0;
@@ -189,16 +204,45 @@
     padding: 10px 2rem;
   }
   .agenda-only {
-    font-size: 0.9em;
+    font-size: 1.5em;
     margin: 0.5em 0;
   }
   .agendapara-container p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .agendapara-container {
     padding: 0 50px 20px 50px;
   }
+} */
+
+@media only screen and (min-device-width: 541px) and (max-device-width: 1279px){
+  .junmun-agendas{
+    margin-top: 3rem !important;
+  }
+  .agenda{
+    width: 43%;
+    /* margin: 0 !important; */
+    margin: 2rem 1rem !important;
+  }
+  .agenda img{
+    width: 20rem;
+    max-width: 20rem;
+  }
+  .title01-container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .agendapara-container{
+    font-size: 1rem;
+    line-height: 1.6 !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 }
+
+
+
+
 .container-junmun2021 {
   padding-bottom: 10px;
 }
@@ -231,58 +275,9 @@
     font-size: 0.8em;
   }
 }
-
-.ipc-comt-cont {
-  background-color: #0c5160;
-  padding: 0rem 0 2.5rem 0;
-}
-.ipc-comt {
-  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
-  width: 28%;
-  border-radius: 1.5625em;
-  margin: 0 auto;
-  padding-bottom: 2.5rem;
-  border: 4px solid #0b162e;
-}
-.ipc-comt img {
-  width: 84%;
-  max-width: 84%;
-}
-.title01-ipc {
-  text-align: center;
-  line-height: 1.6;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.title01-ipc h2 {
-  font-size: 1.4em;
-  color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
-  font-variant: small-caps;
-}
-@media only screen and (max-width: 540px) {
-    .ipc-comt-cont{
-        padding-bottom: 2rem;
-        padding-top: 1.3rem;
-    }
-  .title01-ipc h2 {
-    font-size: 1.2rem;
-  }
-  .ipc-comt {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
-  .ipc-comt {
-    width: 80%;
-    margin: 1.2rem auto;
-    margin-top: 0rem !important;
-  }
-  .title01-ipc {
-    padding: 10px 2rem;
-  }
-  .title01-ipc h2 {
-    font-size: 2.1rem;
+@media only screen and (max-width:356px){
+  .agenda img{
+    width: 15rem;
+    max-width: 15rem;
   }
 }

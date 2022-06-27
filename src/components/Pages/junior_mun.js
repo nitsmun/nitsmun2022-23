@@ -54,6 +54,8 @@ const juniormun = () => {
         <h1>Committees</h1>
       </div>
       <Underline2 />
+
+
       <div className="junmun-agendas">
         {Junmun.map((item) => {
           return (
@@ -63,7 +65,7 @@ const juniormun = () => {
               </div>
               <img src={item.imgjunmun} alt={item.Title01} />
               <div className="agenda-only">
-                <h3>Agenda:</h3>
+                <h3>{item.agenda0}</h3>
               </div>
               <div className="agendapara-container">
                 <p>{item.Agendapara}</p>
@@ -72,17 +74,7 @@ const juniormun = () => {
           );
         })}
       </div>
-      <div className="ipc-comt-cont">
-        <div className="ipc-comt">
-          <div className="title01-ipc">
-            <h2>International Press Corps</h2>
-          </div>
-          <img
-            src="./Images/International Press Corps.png"
-            alt="International Press Corps"
-          />
-        </div>
-      </div>
+      
       <div className="junmun2021">
         <h1>Reminiscence Of Junior Mun 2021</h1>
       </div>{" "}

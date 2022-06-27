@@ -18,18 +18,30 @@ export const Slider = [
 ];
 export const Junmun = [
   {
+    id:1,
     Title01:"United Nations High Commissioner For Refugees",
     imgjunmun:"./Images/Agenda1.jpeg",
+    agenda0:"Agenda:",
     Agendapara:"Addresing the plight of the refugees due to conflicts around the globe with special emphasis on Europe.",
   },
-  {Title01:"United Nations Environment Programme",
+  {
+    id:2,
+  Title01:"United Nations Environment Programme",
+  agenda0:"Agenda:",
   imgjunmun:"./Images/Agenda2.jpeg",
   Agendapara:"Accentuating the problems caused due to rapid globalization and its influence on the environment.",
   },
   {
+    id:3,
     Title01:"United Nations Security Council (Unsc)",
+    agenda0:"Agenda:",
     imgjunmun:"./Images/Agenda3.jpeg",
     Agendapara:"Highlighting the problems related to weaponized nuclear technology in the 21st Century.",
+  },
+  {
+    id:4,
+    Title01:"International Press Corps (Ipc)",
+    imgjunmun:"./Images/International Press Corps.png",
   },
 ];
 export const Secretariat = [
