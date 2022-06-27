@@ -19,6 +19,7 @@
     line-height: 1.6;
     border-radius: 30px;
     font-size:19px;
+    font-variant: small-caps;
 }
 .apply-container a:hover{
     /* color: rgb(20, 23, 204); */
