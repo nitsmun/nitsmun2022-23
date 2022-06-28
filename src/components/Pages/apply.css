@@ -6,10 +6,10 @@
 }
 .img-apply img{
     margin: 14vh 0 1vh 0vh;
-    width: 300px;
+    width: 250px;
 }
 .apply-container a{
-    margin-top: 5vh;
+    margin-top: 3vh;
     padding: 20px;
     width: 70%;
     display: inline-block;
@@ -38,9 +38,12 @@
               box-shadow: 1px 1px 1px 1px #e2564f;
               transform: translateY(2px);
           } 
+
+
 @media only screen and (max-width: 1000px){
     .img-apply img{
-        width: 160px;
+        width: 140px;
+        margin-top: 13vh !important;
     }
     .apply-container{
         height: 75vh;
@@ -50,30 +53,22 @@
         font-size: 14px;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-top: 2vh !important;
     }
 }
+
+
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1025px){
             .img-apply img{
-                width: 200px;
+                width: 150px;
                 padding-top: 40px;
             }
             .apply-container a{
                 font-size: 14px;
             }
 }
-@media only screen and (max-width:280px){
-    .img-apply img{
-        width: 150px;
-        margin-top: 20vh;
-        margin-bottom: 0;
-    }
-    .apply-container a{
-        width: 90%;
-        font-size: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
+
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
     .apply-container{
         height: 95vh;
@@ -85,5 +80,22 @@
     }
     .apply-container a{
         font-size: 18px;
+        margin-top: 4vh !important;
+    }
+}
+
+
+/* For extra small devices */
+@media only screen and (max-width:280px){
+    .img-apply img{
+        width: 150px;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+    .apply-container a{
+        width: 90%;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }

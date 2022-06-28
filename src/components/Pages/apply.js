@@ -6,25 +6,40 @@ const apply = () => {
   return (
     <>
       <div className="apply-container">
+
         <div className="img-apply">
           <center>
             <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
           </center>
         </div>
+
+
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform"
           rel="noreferrer"
           target="_blank"
         >
-          Link for Round 1 Registrations for NITSMUN Junior MUN 2022!
+          Link For Round 1 Registrations For NITSMUN Junior MUN 2022!
         </a>
+
+
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfdZRZcI0T4z9SrjLjZNk59s4wi-35lOVqeXJkE34mIbyqsbA/viewform?pli=1"
           rel="noreferrer"
           target="_blank"
         >
-          Applications Open for EXECUTIVE BOARD!
+          Link For Executive Board For NITSMUN Junior Mun 2022!
         </a>
+
+        <a
+          href="https://forms.gle/tGVReDKBLACxzayY6"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Link For Free Workshop And Mock Mun For NITSMUN Junior MUN 2022!
+        </a>
+
+
       </div>
     </>
   );
