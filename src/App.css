@@ -25,18 +25,23 @@
 }
 :root {
 
-  --color-1-100: #f1f1f1;
-  --color-1-080: rgba(241, 241, 241, 0.8);
-  --color-2-100: #c9d1d7;
-  --color-3-100: #b1b8c1;
-  --color-4-100: #98a2ad;
-  --color-5-100: #7eb7c9;
-  --color-6-100: #1994a5;
-  --color-6-080: rgba(25, 149, 165, 0.8);
-  --color-6-070: rgba(25, 149, 165, 0.7);
-  --color-6-060: rgba(25, 149, 165, 0.6);
-  --color-7-100: #4a5e72;
-  /* --color-8-100: #2c344b; */
-  --color-8-080: rgba(22, 28, 47, 0.8);
-  --color-8-100: #161c2f;
+  --color-1-100: #0F265A /navbar/;
+  --color-1-080: #35627B /navscroll/;
+  --color-2-100: #2D7D88 /register now bg and timer bg/;
+  --color-3-100: #ffffff /words on the timer/;
+  --color-4-100: #000000 /date of junior mun only 06-08-2022 and other numbers on timer/;
+  --color-5-100: #2D7D88 /all other headings with rectangular shape bg/;
+  --color-6-100: #ffffff /all other words on rectangular shape bg/;
+  --color-7-100: #1A1961 /lower footer/;
+  --color-7-100: #2D7D88 /upper footer/;
+  --color-7-100: #ffffff /media icons bg footer/;
+  --color-8-100: #D8F0F8 /bg of secretary general/;
+  --color-9-100: #1F1E66 /all other headings underlined/;
+  --color-10-100: #1A1961 /team cards/;
+  --color-10-100: #35627B /team card media icon bg/;
+  --color-11-100: #1994A5 /commitee page agenda main bg/;
+  --color-11-100: linear-gradient( #1A1961 , #0C78A7) /agenda bg/;
+  --color-12-100: #ffffff /FAQs bg/;
+  --color-12-100: #175968 /FAQs question and answer bars/;
+  --color-12-038: #175968 /FAQs question bar when hover with 38% opacity/;
 }
