@@ -5,7 +5,7 @@
 .footer-icon{
 
     /* background-color: #1da393; */
-    background-color: var(--color-7-80);
+    background-color: var(--color-9-100);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
 .footer-below{
     justify-content: center;
     max-width: 100%;
-    background-color: var(--color-7-100);
+    background-color: var(--color-8-100);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,7 +82,7 @@
     /* background-color: #6ae0f2; */
     display: flex;
     justify-content: center;
-    background-color: var(--color-7-60);
+    background-color: var(--color-10-100);
     align-items: center;
     margin: 7px;
     /* margin-top:5px; */
