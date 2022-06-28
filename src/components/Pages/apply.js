@@ -19,7 +19,7 @@ const apply = () => {
           rel="noreferrer"
           target="_blank"
         >
-          Link For Round 1 Registrations For NITSMUN Junior MUN 2022!
+          Link For Round 1 Registrations For NITSMUN Junior Mun 2022!
         </a>
 
 
@@ -36,7 +36,7 @@ const apply = () => {
           rel="noreferrer"
           target="_blank"
         >
-          Link For Free Workshop And Mock Mun For NITSMUN Junior MUN 2022!
+          Link For Free Workshop And Mock Mun For NITSMUN Junior Mun 2022!
         </a>
 
 

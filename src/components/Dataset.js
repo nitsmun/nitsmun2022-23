@@ -826,11 +826,23 @@ export const FaqData = [
     answer: 'In Model United Nations (MUN), students play the role of delegates from different countries and attempt to solve real world issues with the policies and perspectives of their assigned country, mainly to learn about diplomacy, international relations, and the United Nations.',
   },
   {
-    question: 'Where it would be held?',
-    answer: "It'll be held via an online mode and the platform will be notified through mail to the participants later on.",
+    question: 'Why participate in NITSMUN?',
+    answer: "Since it's inception in 2014, NITSMUN is one of the greatest MUN circuits in NE. NITSMUN has played a commendable role in bringing together students and engaged them in formal debates that help them inculcate qualities like leadership, social skills, decision making prowess etc.",
   },
   {
-    question: 'What are the dates for NITS Junior MUN 2022?',
+    question: 'When NITSMUN Junior MUN 2022 will take place?',
     answer: "NITS Junior MUN will be a two day event commencing from 6th of August to 7th of August 2022.",
-  }
+  },
+  {
+    question:"Where it would be held?",
+    answer:"It'll be held via an online mode and the platform will be notified through mail to the participants later on.",
+  },
+  {
+    question:"Who can take part in Junior MUN?",
+    answer:"Any student in between standard 6-12 can participate in NITS Junior MUN and no other criteria is required.",
+  },
+  {
+    question:"Do I need mun experience to participate in Junior MUN '22?",
+    answer:"No, you don't need any mun experiences to participate. We, as part of NITS JUNIOR MUN 2022, will be conducting a workshop and a mock mun session before the main MUN to introduce to the students, mainly first-timers, to what a Model UN is and more importantly how it functions.",
+  },
 ];
