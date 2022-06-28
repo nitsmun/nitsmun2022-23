@@ -7,7 +7,8 @@
   align-items: center;
   /* background: url("bgimage.png"); */
   background-image: url("img-imp3.jpg");
-  box-shadow: inset 0 0 0 1000px rgba(46, 154, 125, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(45, 125, 136,0.59);
+  /* box-shadow: inset 0 0 0 1000px var(--color-2-100)1; */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +43,8 @@
   padding: 1em 1em;
   /* margin-top: 1em; */
   /* background-color:brown; */
-  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+  /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
+  background-color: var(--color-2-100);
   font-size: 2em;
 }
 .hometop-link1btn{

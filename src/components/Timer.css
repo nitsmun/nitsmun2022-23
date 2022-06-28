@@ -4,7 +4,7 @@ div#timer {
     top: 0;
     left: 0;
     margin: 2vh auto 2vh auto;
-    
+    margin-top: 3.5rem;
   
     /**Dimensions**/
     width: 65%;
@@ -24,8 +24,8 @@ div#timer {
     /* color: var(--color-8-100); */
     /* color: aliceblue; */
     padding: 2vh 5vh;
-  
-    background: linear-gradient(135deg, #34a080 0%, #049b9b 100%);
+  background-color: var(--color-2-100);
+    /* background: linear-gradient(135deg, #34a080 0%, #049b9b 100%); */
     /* background-color: #1da393; */
   }
   div#timer .bolder{
@@ -54,7 +54,7 @@ div#timer {
     transition: 0.2s;
     font-weight: bolder;
     color: #ffffff;
-    /* color: var(--color-6-100); */
+    color: var(--color-4-100);
   }
   
   div.timer-int div.timer-int-label {
@@ -67,8 +67,8 @@ div#timer {
   
   div.timer-int-colon {
     font-size: 7vh;
-    /* color: var(--color-6-100); */
-    color: #ffffff;
+    color: var(--color-4-100);
+    /* color: #ffffff; */
   }
   
   div.coming-soon {

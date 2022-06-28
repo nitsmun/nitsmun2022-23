@@ -64,16 +64,16 @@ const Timer = () => {
 
   return (
     <Suspense>
-      <div
+      {/* <div
         style={{
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
           width: "100%",
-          backgroundColor: "var(--color-8-100)",
-          // height: '70px',
-        }}
+          backgroundColor: "var(--color-8-100)", */}
+          {/* // height: '70px', */}
+        {/* }}
       >
         <h2
           style={{
@@ -86,15 +86,15 @@ const Timer = () => {
           }}
         >
           NITSMUN Junior MUN 2022
-        </h2>
+        </h2> */}
         {/* {btnAllow && (
           <Link to="/linktree" className="applyNowBtn">
             Apply now
           </Link>
         )} */}
-      </div>
+      {/* </div> */}
       <div id='timer'>
-        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bolder" style={{color:"#aeff00"}}> 06/08/2022</span></div>}
+        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bolder" style={{color : "black"}}> 06/08/2022</span></div>}
         {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
         {display.length === 4 &&
