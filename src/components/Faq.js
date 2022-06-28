@@ -30,7 +30,8 @@ const Faqmain = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  text-align: center;
+  text-align: justify;
+  text-align-last: left;
   cursor: pointer;
   margin:1rem 0;
   border-radius: 15px;
