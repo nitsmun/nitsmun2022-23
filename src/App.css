@@ -25,23 +25,20 @@
 }
 :root {
 
-  --color-1-100: #0F265A /*navbar*/;
-  --color-1-080: #35627B /*navscroll*/;
-  --color-2-100: #2D7D88 /*register now bg and timer bg*/;
-  --color-3-100: #ffffff /*words on the timer*/;
-  --color-4-100: #000000 /*date of junior mun only 06-08-2022 and other numbers on timer*/;
-  --color-5-100: #2D7D88 /*all other headings with rectangular shape bg*/;
-  --color-6-100: #ffffff /*all other words on rectangular shape bg*/;
-  --color-7-100: #1A1961 /*lower footer*/;
-  --color-7-80: #2D7D88 /*upper footer*/;
-  --color-7-60: #ffffff /*media icons bg footer*/;
-  --color-8-100: #D8F0F8 /*g of secretary general*/;
-  --color-9-100: #1F1E66 /*all other headings underlined*/;
-  --color-10-100: #1A1961 /*team cards*/;
-  --color-10-100: #35627B /*team card media icon bg*/;
-  --color-11-100: #1994A5 /*commitee page agenda main bg*/;
-  --color-11-80: linear-gradient( #1A1961 , #0C78A7) /*agenda bg*/;
-  --color-12-100: #ffffff /*FAQs bg*/;
-  --color-12-80: #175968 /*FAQs question and answer bars*/;
-  --color-12-038: #175968 /*FAQs question bar when hover with 38% opacity*/;
+  --color-1-100: #01335B /*navbar,agenda stroke, all other headings unlined*/;
+  --color-1-080: #35627B /*nav scroll, nav drop down bg*/;
+  --color-2-100: #FF9900 /*nav hover*/;
+  --color-3-100: #FFF500 /*nav button onactive*/;
+  --color-4-100: #2D7D88 /*register now bg, timer bg, all other headings with rectangular shape bg*/;
+  --color-5-100: #ffffff /*words on the timer, register button,all other words on rectangular shape bg, body*/;
+  --color-6-100: #A1BBC0 /*register now hover*/;
+  --color-7-100: #000000 /*date of junior mun only 06-08-2022 and other numbers on timer*/;
+  --color-8-100: #01335B /*lower footer*/;
+  --color-9-100: #2D7D88 /*upper footer, scroll up*/;
+  --color-10-100: #ffffff /*media icons bg footer, FAQs bg*/;
+  --color-11-100: #D8F0F8 /*bg of secretary general*/;
+  --color-12-100: #135D78 /*commitee bg*/;
+  --color-13-100: #1994A5 /*agenda bg*/;
+  --color-14-100: #145E79 /*FAQs question and answer bars*/;
+  --color-14-038: #A1BBC0 /*FAQs question bar when hovered*/;
 }
