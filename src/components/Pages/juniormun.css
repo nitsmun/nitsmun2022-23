@@ -7,29 +7,37 @@
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
-.event-pic img {
-  width: 100%;
+.event-pic{
   position: relative;
-  height: 50vh;
-  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 60vh;
   overflow: hidden;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
-.event-pic {
-  margin-bottom: 25px;
+.event-pic img{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  z-index: -10;
+  min-height: 100%;
 }
+
 .event-title h1 {
   color: #03989e;
   font-weight: 900;
   font-size: 5.5vh;
 }
+
 .event-title {
   border-bottom: 0.2vh solid #3ca06a;
   width: 60%;
   text-align: center;
   margin: 5vh auto 8vh;
 }
+
 .event-details {
   margin: 35.448px 112.975px 5vh;
   color: #161c2f;
@@ -39,24 +47,46 @@
   text-align-last: left;
   font-weight: 600;
 }
+
 @media only screen and (max-width: 1000px) {
   .event-details {
     margin: 26.264px 18.7625px 37.52px;
     line-height: 1.8;
     font-size: 17.712px;
   }
-  .event pic {
-    height: 10vw;
+
+  .event-pic{
+    height: 50vw;
   }
+  .event-pic img{
+  max-height: 100%;
+  width: 100%;
+  top: 60%;
+  }
+
   .event-title {
     margin-bottom: 3vh;
   }
+
   .event-title h1 {
     font-size: 22.512px;
     font-weight: 900;
   }
 }
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1024px){
+  .event-pic{
+    height: 40vw;
+  }
+}
+@media only screen and (max-width:320px){
+  .event-pic{
+    height: 55vw;
+  }
+  .event-pic img{
+    top: 65%;
+  }
+}
 .commitees-heading {
   text-align: center;
   color: #03989e;
@@ -68,7 +98,8 @@
 .junmun-agendas {
   display: flex;
   margin-top: 6.9vh;
-  background-color: #0c5160;
+  /* background-color: #0c5160; */
+  background-color: var(--color-11-100);
   padding: 2.5rem 0;
   padding-top: 1rem !important;
   width: 100%;
@@ -79,7 +110,8 @@
 }
 
 .agenda {
-  background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
+  /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
+  background-color: var(--color-11-80);
   border-radius: 1.5625em;
   margin: 2rem 3.5rem;
   border: 4px solid #0b162e;

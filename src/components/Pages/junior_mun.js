@@ -11,7 +11,8 @@ const juniormun = () => {
   return (
     <>
       <div className="event-pic">
-        <img src="https://nitsmun.in/img/munu18.jpg" alt="NITS Junior MUN" />
+        {/* <img src="https://nitsmun.in/img/munu18.jpg" alt="NITS Junior MUN" /> */}
+        <img src="./Images/NITS Junior MUN official poster.png" alt="NITS Junior MUN" />
       </div>
       <div className="event-title">
         <strong>
