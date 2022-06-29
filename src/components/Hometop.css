@@ -34,7 +34,8 @@
   
   width: 100%;
   padding: 1em 1em;
-  background-color: var(--color-4-100);
+  /* background-color: var(--color-4-100); */
+  background-color: var(--color-1-100);
   font-size: 2em;
 }
 
