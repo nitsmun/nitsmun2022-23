@@ -13,37 +13,42 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgba(250, 247, 241, 0.393);
-  /* background-color: #161c2f; */
 }
+
 .art-home-title {
   padding: 1.5rem 0 2rem 0;
   display: inline-block;
   text-align: center;
 }
+
 .apply-home-h1 {
   text-align: center;
-  color: #000000;
+  color: var(--color-1-100) !important;
   font-weight: 900;
   font-size: 1.901rem;
   font-variant: small-caps;
 }
+
 .apply-home-h1 a {
   color: #1994a5;
 }
+
+
 .team-section {
   margin: 0 2.5rem;
   background: white;
   width: 29%;
   box-shadow: 0 0 0.9375rem;
   border-radius: 0.625rem;
-  /* height: max-content; */
   height: auto;
 }
+
 .team-section img {
   width: 100%;
   max-width: 100%;
   border-radius: 0.625rem 0.625rem 0 0;
 }
+
 .team-section-body {
   padding: 0.625rem 1.25rem;
   text-align: justify;
