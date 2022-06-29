@@ -26,13 +26,13 @@
 }
 
 .event-title h1 {
-  color: #03989e;
+  color: var(--color-1-100);
   font-weight: 900;
   font-size: 5.5vh;
 }
 
 .event-title {
-  border-bottom: 0.2vh solid #3ca06a;
+  border-bottom: 0.2vh solid var(--color-1-100);
   width: 60%;
   text-align: center;
   margin: 5vh auto 8vh;
@@ -90,7 +90,7 @@
 
 .commitees-heading {
   text-align: center;
-  color: #03989e;
+  color: var(--color-1-100);
   margin-top: 5vh;
   font-variant: small-caps;
   font-size: 1.8rem;
@@ -114,7 +114,7 @@
   background-color: var(--color-13-100);
   border-radius: 1.5625em;
   margin: 2rem 3.5rem;
-  border: 4px solid #0b162e;
+  border: 4px solid #161c2f;
     width: 40%;
 }
 
@@ -203,49 +203,8 @@
 
 
 
-/* @media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
-  .event-title h1 {
-    font-size: 3rem;
-  }
-  .commitees-heading h1 {
-    font-size: 5rem;
-    font-weight: 900;
-  }
-  .junmun-agendas {
-    display: block;
-  }
-  .agenda {
-    width: 80%;
-    margin: 2rem auto;
-    margin-bottom: 0 !important;
-  }
-  .agenda img{
-    width: 30rem;
-    max-width: 30rem;
-  }
-  .junmun-agendas {
-    margin-top: 2vh;
-    padding: 1.2rem 0;
-    padding-bottom: 1.8rem !important;
-    
-  }
-  .title01-container h2 {
-    font-size: 2.1rem;
-  }
-  .title01-container {
-    padding: 10px 2rem;
-  }
-  .agenda-only {
-    font-size: 1.5em;
-    margin: 0.5em 0;
-  }
-  .agendapara-container p {
-    font-size: 1.2em;
-  }
-  .agendapara-container {
-    padding: 0 50px 20px 50px;
-  }
-} */
+
+
 
 @media only screen and (min-device-width: 541px) and (max-device-width: 1279px){
   .junmun-agendas{
@@ -281,7 +240,7 @@
 .junmun2021 {
   text-align: center;
   padding-top: 4vh;
-  color: #03989e;
+  color: var(--color-1-100);
   font-variant: small-caps;
   font-weight: bolder;
   font-size: 1.3rem;

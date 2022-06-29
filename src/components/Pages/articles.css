@@ -15,7 +15,7 @@
     text-align: center;
     margin-top: 50px;
     padding: 21px 0 12px 0;
-    background-color: var(--color-4-100);
+    background-color: var( --color-1-100);
 }
 @media screen and (max-width: 700px){
     .articles-heading-cont h1{
@@ -41,7 +41,7 @@
 }
 .article-content h1{
     font-size: 32px;
-    color: #03989e;
+    color: var(--color-1-100);
     font-variant: small-caps;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -69,7 +69,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 17.6px;
     /* color: #212529; */
-    color: #3ca06a;
+    color: var(--color-1-100);
 }
 .post-date {
     text-align: center;
@@ -90,15 +90,15 @@
 /* Button CSS */
 .read-more-btn, .read-less-btn {
     /* background-color: whitesmoke; */
-    background-color: var(--color-4-100);
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
+    background-color: var(--color-1-100);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     color: white;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
-    padding: 10px;
+    padding: 8px 20px;
     border: solid #000000 1px;
     text-decoration: none;
     display: inline-block;
@@ -127,8 +127,8 @@
             transform: translateY(10px)
         }
  .read-more-btn:hover {
-    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
-    background-color: #e2564f;
+    
+    background-color: var(--color-4-100);
     color: white;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
@@ -139,8 +139,8 @@
  }
 
  .read-less-btn:hover {
-    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
-    background-color: #e2564f;
+    
+    background-color: var(--color-4-100);
     transition: 0.5s ease-in-out;
     color: white;
     -webkit-border-radius: 9px;
@@ -196,9 +196,12 @@
         font-family: 'Montserrat', sans-serif;
     }
     .read-more-btn, .read-less-btn{
-        background-color: #3ca06be0;
+        background-color: var(--color-1-100);
         color: whitesmoke;
-        transition: all 0.3s ease-in ;
+        transition: all 0.3s ease-in;
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 8px 18px;
     }
 }
 
@@ -218,8 +221,9 @@
         font-size: 16px;
     }
     .read-more-btn, .read-less-btn{
-        font-size: 12px;
-        padding: 8px;
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 6px 15px;
     }
 }
 .art-art-title {

@@ -2,7 +2,7 @@
 .team-head4 {
   width: 89%;
   /* border-bottom: 3px solid #732445; */
-  border-bottom: 3px solid #3ca06a;
+  border-bottom: 3px solid var(--color-1-100);
   text-align: center;
   margin: 0vh auto 2vh auto;
   border-radius: 4px;
@@ -11,7 +11,7 @@
   font-size: 50px;
   font-weight: 600;
   /* color: #a63b49; */
-  color: #03989e;
+  color: var(--color-1-100);
   font-family: "Poppins", sans-serif;
 }
 .team-img4 {
@@ -33,17 +33,17 @@
   padding: 20px 50px 30px 50px;
 }
 .team-stats4 {
-  background-color: #00695d;
+  background-color: var(--color-15-100);
   margin: 20px;
   border-radius: 20px;
   transition: 0.3s ease-out;
-  box-shadow: 0px 5px 3px 0 #0d322a, 0 6px 1px 0 #024733;
+  box-shadow: 0px 5px 3px 0 var(--color-1-100), 0 6px 1px 0 var(--color-1-100);
   width: 19.5%;
   position: relative;
 }
 .team-stats4:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 #094945;
+  box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
 }
 .team-stats4 h1 {
   padding: 17px 10px;

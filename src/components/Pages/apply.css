@@ -22,8 +22,8 @@
 }
 .apply-container a:hover{
     
-    color: #161c2f;
-    
+    color: black;
+    font-weight: 900;
     background-color: var(--color-6-100);
     transition: 0.3s ease-out;
 }
