@@ -14,14 +14,14 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track{
-  background: linear-gradient(135deg, #093F15 0%, #137C8A 100%);
+  background: var(--color-16-100);
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(135deg, #9EAA14 0%, #0bb5cb 100%);
+  background: var(--color-16-080);
   border-radius: 25px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-image: linear-gradient(#0bb5cb, #9EAA14);
+  background-image: var(--color-16-060);
 }
 :root {
 
@@ -42,4 +42,7 @@
   --color-14-100: #145E79 /*FAQs question and answer bars*/;
   --color-14-038: #A1BBC0 /*FAQs question bar when hovered*/;
   --color-15-100: #35627b; /* Team card*/
+  --color-16-100: linear-gradient(135deg, #000004 86%, #1E6397 100%) /*scrollbar track*/;
+  --color-16-080: linear-gradient(135deg, #35627B 0%, #CEEDF1 100%); /*scrollbar thumb*/;
+  --color-16-060: linear-gradient(135deg, #CEEDF1 0%, #35627B 100%); /*scrollbar hover*/;
 }
