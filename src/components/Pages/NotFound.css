@@ -2,7 +2,7 @@
 .not-found{
     width: 100%;
     background-color: var(--color-1-100);
-    padding-top: 130px;
+    padding-top: 8.125rem;
     height:95vh;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
 }
 .no-existence1{
     color: whitesmoke;
-    font-size: 180px;
+    font-size: 11.25rem;
 }
 .not-found-text h1{
     color: whitesmoke;
@@ -42,35 +42,35 @@
 } */
 @media (max-width:992px){
     .not-found-text h1{
-        padding: 0 30px;
+        padding: 0 1.875rem;
         font-size: 3vh;
     }
     .not-found-text h2{
         font-size: 2.5vh;
-        padding: 30px 50px;
+        padding: 1.875rem 3.125rem;
     }
     .no-existence1{
-        font-size: 130px;
+        font-size: 8.125rem;
     }
     .notfound-tohome{
         width: 70%;
-        padding: 5px;
+        padding: 0.3125rem;
     }
     .to-home{
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
 
 .notfound-tohome{
     width: 50%;
-    padding: 10px;
+    padding: 0.625rem;
     background-color: var(--color-4-100);
     text-align: center;
     display: inline-block;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     cursor: pointer;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .notfound-tohome:hover{
     background-color: rgba(112, 183, 213, 0.386);
@@ -79,7 +79,7 @@
 }
 .notfound-tohome:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #e2564f;
+    box-shadow: 0 0 0 0.25rem #e2564f;
     transition: 0.7s;
   }
 .notfound-tohome:active

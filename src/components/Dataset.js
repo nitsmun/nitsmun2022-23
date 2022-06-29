@@ -241,7 +241,7 @@ export const Secretariatjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/sauravChanda.jpg",
+    imgsrc: "./Images/Saurav Chanda.jpg",
     alt: "Saurav Chanda",
     name: "Saurav Chanda",
     post: "Deputy Director Media & Design",
@@ -363,7 +363,7 @@ export const Secretariatmediajr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/rimleeGhosh1.jpg",
+    imgsrc: "./Images/Rimlee Ghosh.jpg",
     alt: "Rimlee Ghosh",
     name: "Rimlee Ghosh",
     post: "Media & Design Team",
@@ -374,7 +374,7 @@ export const Secretariatmediajr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/Akshita1.jpg",
+    imgsrc: "./Images/akshita hazarika.jpg",
     alt: "Akshita Hazarika",
     name: "Akshita Hazarika",
     post: "Media & Design Team",
@@ -465,7 +465,7 @@ export const Secretariatresearchjr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/aditiArchita2.jpg",
+    imgsrc: "./Images/Aditi Archita Khataniar.jpg",
     alt: "Aditi Archita Khataniar",
     name: "Aditi Archita Khataniar",
     post: "Research and Development Team",
@@ -476,7 +476,7 @@ export const Secretariatresearchjr = [
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "./Images/ronakJain.jpg",
+    imgsrc: "./Images/Ronak Jain.jpg",
     alt: "Ronak Jain",
     name: "Ronak Jain",
     post: "Research and Development Team",
@@ -487,7 +487,7 @@ export const Secretariatresearchjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/surajKumar.jpg",
+    imgsrc: "./Images/Suraj Kumar Pampana.jpg",
     alt: "Suraj Kumar Pampana",
     name: "Suraj Kumar Pampana",
     post: "Research and Development Team",
@@ -544,7 +544,7 @@ export const Secretariatprjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/sayanKangsa.jpg",
+    imgsrc: "./Images/Sayan Kangsa Banik.jpg",
     alt: "Sayan Kangsa Banik",
     name: "Sayan Kangsa Banik",
     post: "Public Relations & Outreach Team",
@@ -601,7 +601,7 @@ export const Secretariatprjr = [
   {
     id: 7,
     cName: "team-sec",
-    imgsrc: "./Images/mayukhBhattacharya1.jpg",
+    imgsrc: "./Images/Mayukh Bhattacharya.jpg",
     alt: "Mayukh Bhattacharya",
     name: "Mayukh Bhattacharya",
     post: "Public Relations & Outreach Team",

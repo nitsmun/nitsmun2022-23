@@ -36,7 +36,7 @@ const Faqmain = styled.div`
   text-align-last: left;
   cursor: pointer;
   margin:1rem 0;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
     /* background-color: lightblue; */
@@ -68,10 +68,10 @@ const Dropdown = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
-  margin-bottom: 2vh;
+  border-radius: 0.9375rem;
+  margin-bottom: 6vh;
   font-weight: 600;
-  padding:  15px 20px;
+  padding:  0.9375rem 1.25rem;
   text-align: justify;
   text-align-last: left;
   line-height: 1.4;

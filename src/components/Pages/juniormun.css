@@ -39,7 +39,7 @@
 }
 
 .event-details {
-  margin: 35.448px 112.975px 5vh;
+  margin: 2.2155rem 7.0609375rem 5vh;
   color: #161c2f;
   font-size: 2.3vh;
   line-height: 2;
@@ -50,9 +50,9 @@
 
 @media only screen and (max-width: 1000px) {
   .event-details {
-    margin: 26.264px 18.7625px 37.52px;
+    margin: 1.6415rem 1.17265625rem 2.345rem;
     line-height: 1.8;
-    font-size: 17.712px;
+    font-size: 1.107rem;
   }
 
   .event-pic{
@@ -69,7 +69,7 @@
   }
 
   .event-title h1 {
-    font-size: 22.512px;
+    font-size: 1.407rem;
     font-weight: 900;
   }
 }
@@ -121,7 +121,7 @@
 .agenda img {
   width: 25rem;
   max-width: 25rem;
-  padding: 0 30px;
+  padding: 0 1.875rem;
 }
 .title01-container {
   text-align: center;
@@ -177,10 +177,10 @@
     font-size: 1.2rem;
   }
   .title01-container {
-    padding: 3px 1.4rem;
+    padding: 0.1875rem 1.4rem;
   }
   .agendapara-container {
-    padding: 0 30px 20px 30px;
+    padding: 0 1.875rem 1.25rem 1.875rem;
     margin-bottom: 0.5rem;
   }
   .agendapara-container p {
@@ -192,7 +192,7 @@
   }
   .junmun2021 {
     font-size: 0.6em;
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 }
 .agenda-only {

@@ -2,14 +2,14 @@
 .dir-img {
   width: 18em;
   height: auto;
-  border: 3px solid white;
+  border: 0.1875rem solid white;
   border-radius: 20%;
   /* padding-top: 5%; */
 }
 
 .msg-secretary {
   margin-bottom: -50px;
-  padding-top: 40px;
+  padding-top: 2.5rem;
   background-color: rgb(171, 118, 118);
   /* width: 90%; */
 }
@@ -19,14 +19,14 @@
   background-color: rgba(250, 247, 241, 0.438);
   padding-top: 3em;
   padding-bottom: 3em;
-  box-shadow: 3px brown;
+  box-shadow: 0.1875rem brown;
 }
 .sec-text {
   text-align: justify;
   color: #f1f1f1;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.1px;
-  font-weight: 300px;
+  font-weight: 18.75rem;
 }
 .sec-padding1 {
   padding-left: 5%;
@@ -87,14 +87,14 @@
       top: 120px;
     } */
   .sec-img {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
 .sec-nme {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #212529;
-  padding-top: 15px;
+  padding-top: 0.9375rem;
   font-weight: 700;
   font-family: "Roboto Mono", monospace;
 }

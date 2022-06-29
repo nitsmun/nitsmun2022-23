@@ -74,7 +74,7 @@
 }
 @media only screen and (max-width : 981px){
     .about-main{
-        padding-top: 53px;
+        padding-top: 3.3125rem;
     }
     .about-content1 {
         padding-left: 2.4em;
@@ -101,6 +101,6 @@
         font-size: 2em;
     }
     .about-headertxt{
-        font-size: 27.856px;
+        font-size: 1.741rem;
     }
 }
