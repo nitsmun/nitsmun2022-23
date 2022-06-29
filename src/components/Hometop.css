@@ -1,5 +1,6 @@
 .hometop-main{
   position: relative;
+  margin-top: 1.25rem;
   /* background-color: black; */
   padding-top: 5rem;
   /* display: flex; */
@@ -23,10 +24,10 @@
   top: 50%;
   left:  50%;
   transform: translate(-50%,-50%);
-  max-width: fit-content;
-  max-height: fit-content;
   height: 28rem;
   width: 28rem;
+  max-width: 100%;
+  /* max-height: fit-content; */
   aspect-ratio: 1/1;
 }
 
