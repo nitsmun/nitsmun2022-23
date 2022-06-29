@@ -2,7 +2,7 @@
 .team-head5{
     width: 89%;
     /* border-bottom: 3px solid #732445; */
-    border-bottom: 3px solid #3ca06a;
+    border-bottom: 3px solid var(--color-1-100);
     text-align: center;
     margin: 0vh auto 2vh auto;
     border-radius: 4px;
@@ -10,8 +10,7 @@
 .team-head5 h1{
     font-size: 50px;
     font-weight: 600;
-    /* color: #a63b49; */
-    color: #03989e;
+    color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
 }
 .team-img5{
@@ -33,7 +32,7 @@
     padding: 20px 50px 30px 50px;
 }
 .team-stats5{
-    background-color: #00695d;
+    background-color: var(--color-15-100);
     margin: 20px;
     border-radius: 20px;
     transition: 0.3s ease-out;
@@ -112,7 +111,8 @@
 .btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
     display: flex;
     justify-content: center;
-    background-color: #a2d66271;
+    /* background-color: #a2d66271; */
+    background-color: white;
     align-items: center;
     margin: 3px 7px;
     padding-left: 0%;
@@ -148,7 +148,7 @@
 
 
 .icon-color, .icon-color1, .icon-color2, .icon-color3 {
-    color: #212529;
+    color: var(--color-15-100);
     font-weight: 900;
     padding: 2px !important;
 }
@@ -157,19 +157,19 @@
 .btn-icon1:hover .icon-color{
     color: rgb(251, 62, 62);
     font-weight: 900;
-    transition: 0.1s ease-out;
+    transition: 0.15s ease-in-out;
 }
 .btn-icon2:hover .icon-color1{
     color: white !important;
-    transition: 0.1s ease-out;
+    transition: 0.15s ease-in-out;
 }
 .btn-icon3:hover .icon-color2{
     color: white !important;
-    transition: 0.1s ease-out;
+    transition: 0.15s ease-in-out;
 }
 .btn-icon4:hover .icon-color3{
     color: white !important;
-    transition: 0.2s ease-out;
+    transition: 0.15s ease-in-out;
 }
 
 @media only screen and (max-width:320px){

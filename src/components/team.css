@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  .team-head0{
      width: 89%;
-     border-bottom: 3px solid #3ca06a;
+     border-bottom: 3px solid var(--color-1-100);
      text-align: center;
      margin: 7vh auto 2vh auto;
      border-radius: 4px;
@@ -10,7 +10,7 @@
  .team-head0 h1{
      font-size: 50px;
      font-weight: 600;
-     color: #03989e;
+     color: var(--color-1-100);
      font-family: 'Poppins', sans-serif;
  }
  .team-img{

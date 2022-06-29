@@ -41,7 +41,7 @@ const Faqmain = styled.div`
   &:hover {
     /* background-color: lightblue; */
     background-color: var(--color-14-038);
-    color: black;
+    color: var(--color-1-100);
   }
   h1 {
     padding: 1rem;

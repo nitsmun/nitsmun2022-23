@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .team-head2{
     width: 89%;
-    border-bottom: 3px solid #3ca06a;
+    border-bottom: 3px solid var(--color-1-100);
     text-align: center;
     margin: 0vh auto 2vh auto;
     border-radius: 4px;
@@ -10,7 +10,7 @@
     font-size: 50px;
     font-weight: 600;
     /* color: #a63b49; */
-    color: #03989e;
+    color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
 }
 .team-img2{
@@ -32,7 +32,7 @@
     padding: 20px 50px 30px 50px;
 }
 .team-stats2{
-    background-color: #00695d;
+    background-color: var(--color-15-100);
     margin: 20px;
     border-radius: 20px;
     transition: 0.3s ease-out;

@@ -59,7 +59,7 @@ body {
   margin: 0 0 16px;
 }
 .team-section-body h2 {
-  color: #ee0970;
+  color: var(--color-1-100);
   margin: 0 0 8px;
   padding: 5px 0;
   font-size: 24px;
@@ -75,11 +75,11 @@ body {
   line-height: 1.6;
   background-color: transparent;
   text-align: center;
-  padding: 12px 12px;
-  border-radius: 10px;
+  padding: 7px 15px;
+  border-radius: 5px;
 }
 .article-home-btn:hover {
-  background-color: #e2564f;
+  background-color: var(--color-1-100);
   transition: 0.3s ease-out;
   color: whitesmoke;
 }
