@@ -1,17 +1,17 @@
 .container-slider {
-max-width: 700px;
-height: 400px;
-margin: 40px auto 30px;
+max-width: 43.75rem;
+height: 25rem;
+margin: 2.5rem auto 1.875rem;
 position: relative;
 overflow: hidden;
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
 border-radius: 30px;
 }
 @media screen and (max-width: 700px){
   .container-slider {
-    margin: 25px 10px 20px;
-    height: 250px;
-    border-radius: 15px;
+    margin: 1.5625rem 0.625rem 1.25rem;
+    height: 15.625rem;
+    border-radius: 0.9375rem;
   }
 }
 .slide {
@@ -30,8 +30,8 @@ border-radius: 30px;
   opacity: 1;
 }
 .btn-slide {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
   border-radius: 50%;
   background: #f1f1f1;
   border: 1px solid rgba(34, 34, 34, 0.287);
@@ -42,32 +42,32 @@ border-radius: 30px;
   cursor: pointer;
 }
 .btn-slide img {
-  width: 25px;
-  height: 25px;
-width: 15px;
-  height: 15px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+width: 0.9375rem;
+  height: 0.9375rem;
   pointer-events: none;
 }
 .prev {
   top: 50%;
-  left: 20px;
+  left: 1.25rem;
   transform: translateY(-60%);
 }
 .next {
   top: 50%;
-  right: 20px;
+  right: 1.25rem;
   transform: translateY(-60%);
 }
 .container-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 0.625rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
 }
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   border-radius: 50%;
   border: 3px solid #f1f1f1;
   margin: 0 5px;

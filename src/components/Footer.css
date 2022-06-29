@@ -84,14 +84,14 @@
     justify-content: center;
     background-color: var(--color-10-100);
     align-items: center;
-    margin: 7px;
+    margin: 0.4375rem;
     /* margin-top:5px; */
     padding-left: 0%;
     padding-right: 0%;
     /* padding-top: 4px; */
-    border-radius: 4px;
-    width: 35px;
-    height: 35px;
+    border-radius: 0.25rem;
+    width: 2.1875rem;
+    height: 2.1875rem;
     transition: all 0.3s ease 0s;
 
 }
@@ -100,7 +100,7 @@
 }
 
 .icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
-    padding-top: 2px;
+    padding-top: 0.125rem;
     color: black;
     /* color: white; */
 }
