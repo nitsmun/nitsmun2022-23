@@ -1,6 +1,6 @@
 .line{
     width: 94%;
-    border-top: 3px solid #3ca06a;
+    border-top: 3px solid var(--color-1-100);
     height: 6px;
     text-align: center;
     margin: 1vh auto 1vh;

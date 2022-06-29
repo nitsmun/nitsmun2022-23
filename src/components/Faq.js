@@ -11,7 +11,8 @@ const FaqSection = styled.div`
   align-items: center;
   justify-content: center;
   padding-bottom:15vh;
-  background: #06553d;
+  /* background: #06553d; */
+  background-color: var(--color-10-100);
   @media only screen and (max-width:991px){
     padding-bottom: 10vh;
   }
@@ -23,8 +24,9 @@ const Container = styled.div`
 `;
 
 const Faqmain = styled.div`
-  background: #3ca06a;
-  color: #161c2f;
+  /* background: #3ca06a; */
+  background-color: var(--color-14-100);
+  color: black;
   font-weight: bolder;
   display: flex;
   justify-content: space-between;
@@ -37,7 +39,8 @@ const Faqmain = styled.div`
   border-radius: 15px;
   transition: all 0.2s ease-in;
   &:hover {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-color: var(--color-14-038);
     color: black;
   }
   h1 {
@@ -60,7 +63,7 @@ const Faqmain = styled.div`
 `;
 
 const Dropdown = styled.div`
-  background: #3ca06a;
+  background-color: var(--color-14-100);
   color: white;
   width: 100%;
   justify-content: center;

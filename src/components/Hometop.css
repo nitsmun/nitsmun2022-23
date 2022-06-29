@@ -29,46 +29,39 @@
   height: 28rem;
   width: 28rem;
   aspect-ratio: 1/1;
-  /* top: 50%;
-  left: 50%; */
-  /* width: 25rem;
-  padding-top: 14vh; */
-  /* padding-bottom: 3em; */
-  /* padding-left: 0%; */
-  /* padding-right: 5em; */
 }
 .hometop-apply{
   
   width: 100%;
   padding: 1em 1em;
-  /* margin-top: 1em; */
-  /* background-color:brown; */
-  /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
   background-color: var(--color-4-100);
   font-size: 2em;
 }
+
 .hometop-link1btn{
   width: 50%;
   padding: 16px 32px;
  font-weight: 900;
-  background-color: rgb(255, 255, 255);
- 
   text-align: center;
   text-decoration: none;
   border-radius: 50px;
   cursor: pointer;
   transition: 0.3s ease-out;
   font-size: 20px;
-  color: rgb(25, 37, 94);
+  /* color: rgb(25, 37, 94); */
+  color: black;
 }
+
 .hometop-link1btn:hover{
-  background-color: #4EFFBF;
+  background-color: var(--color-6-100);
   color: rgb(20, 23, 204);
 }
+
 .hometop-reg{
   font-variant: small-caps;
   padding-bottom: 30px;
 }
+
 @media screen and (max-width: 565px)  {
   .hometop-img img{
       width: 22em;
@@ -100,4 +93,10 @@
 }
 .hometop-reg ul{
   font-weight: bolder !important;
+}
+
+@media only screen and (max-width:320px){
+  .hometop-img img{
+    width: 15rem;
+  }
 }

@@ -1,4 +1,4 @@
 .line3{
-    height: 3px;
-    border-top: 1.5px solid #3ca06a;
+    height: 1px;
+    border-top: 0.1px solid var(--color-1-100);
 }

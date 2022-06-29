@@ -87,6 +87,7 @@
     top: 65%;
   }
 }
+
 .commitees-heading {
   text-align: center;
   color: #03989e;
@@ -95,11 +96,11 @@
   font-size: 1.8rem;
   letter-spacing: 1px;
 }
+
 .junmun-agendas {
   display: flex;
   margin-top: 6.9vh;
-  /* background-color: #0c5160; */
-  background-color: var(--color-11-100);
+  background-color: var(--color-12-100);
   padding: 2.5rem 0;
   padding-top: 1rem !important;
   width: 100%;
@@ -110,14 +111,13 @@
 }
 
 .agenda {
-  /* background: linear-gradient(135deg, #06553d 0%, #159d9d 100%); */
-  background-color: var(--color-11-80);
+  background-color: var(--color-13-100);
   border-radius: 1.5625em;
   margin: 2rem 3.5rem;
   border: 4px solid #0b162e;
     width: 40%;
-
 }
+
 .agenda img {
   width: 25rem;
   max-width: 25rem;
@@ -320,6 +320,10 @@
   padding: 2rem 0;
   text-align: center;
   color: white;
+}
+
+.faq-section h1{
+  color: var(--color-1-100);
 }
 @media only screen and (max-width:991px){
   .faq-section{

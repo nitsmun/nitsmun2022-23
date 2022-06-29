@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .not-found{
     width: 100%;
-    /* background-color: rgb(4,4,4); */
-    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
-    background: linear-gradient(135deg, #06553d 0%, #159d9d 100%);
-    /* margin-top: 3vh; */
+    background-color: var(--color-1-100);
     padding-top: 130px;
     height:95vh;
     overflow: hidden;
@@ -67,7 +64,7 @@
 .notfound-tohome{
     width: 50%;
     padding: 10px;
-    background-color: #9dcb6887;
+    background-color: var(--color-4-100);
     text-align: center;
     display: inline-block;
     border-radius: 30px;

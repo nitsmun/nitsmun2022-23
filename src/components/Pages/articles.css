@@ -5,7 +5,7 @@
     font-weight: 600;
 }
 .articles-heading-cont h1{
-    color: #f1f1f1;
+    color: var(--color-5-100);
     font-size: 30px;
     font-weight: bolder;
     font-variant: small-caps;
@@ -15,8 +15,7 @@
     text-align: center;
     margin-top: 50px;
     padding: 21px 0 12px 0;
-    /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
-    background-color: #208595;
+    background-color: var(--color-4-100);
 }
 @media screen and (max-width: 700px){
     .articles-heading-cont h1{
@@ -90,11 +89,12 @@
 
 /* Button CSS */
 .read-more-btn, .read-less-btn {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: var(--color-4-100);
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
-    color: #212529;
+    color: white;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;

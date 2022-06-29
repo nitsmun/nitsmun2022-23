@@ -25,6 +25,7 @@ const Secretary = () => {
             <h2 className="sec-nme">Shreyashi Roymedhi</h2>
           </div>
         </div>
+        
         <div className="sec-padding2"></div>
         <div>
           {/* <div className="msg-secretary">
