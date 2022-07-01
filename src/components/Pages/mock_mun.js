@@ -46,10 +46,10 @@ const MockMun = () => {
         <div className="slider">
             <div className="slide-track">
                     <div className="slide2">
-                    <img src="./Images/Mock mun 1.jpeg" alt="" />
+                    <img src="./Images/Mock mun 2.jpeg" alt="" />
                     </div>
                     <div className="slide2">
-                    <img src="./Images/Mock mun 2.jpeg" alt="" />
+                    <img src="./Images/Mock mun 1.jpeg" alt="" />
                     </div>
                     <div className="slide2">
                     <img src="./Images/Mock mun 3.jpeg" alt="" />
@@ -68,10 +68,10 @@ const MockMun = () => {
                     </div>
 
                     <div className="slide2">
-                    <img src="./Images/Mock mun 1.jpeg" alt="" />
+                    <img src="./Images/Mock mun 2.jpeg" alt="" />
                     </div>
                     <div className="slide2">
-                    <img src="./Images/Mock mun 2.jpeg" alt="" />
+                    <img src="./Images/Mock mun 1.jpeg" alt="" />
                     </div>
                     <div className="slide2">
                     <img src="./Images/Mock mun 3.jpeg" alt="" />
