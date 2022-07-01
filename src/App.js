@@ -4,6 +4,7 @@ import "./App.css";
 import home from "./components/Pages/home";
 import about from "./components/Pages/about";
 import junior_mun from "./components/Pages/junior_mun";
+import mock_mun from "./components/Pages/mock_mun";
 import nitsmun2022 from "./components/Pages/nitsmun2022";
 import team from "./components/team";
 import articles from "./components/Pages/articles";
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/" component={home} />
             <Route path="/about" component={about} />
             <Route path="/junior_mun" component={junior_mun} />
+            <Route path="/mock_mun" component={mock_mun} />
             <Route path="/nitsmun2022" component={nitsmun2022} />
             <Route path="/team" component={team} />
             <Route path="/articles" component={articles} />

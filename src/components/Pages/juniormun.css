@@ -210,24 +210,34 @@
   .junmun-agendas{
     margin-top: 3rem !important;
   }
+
   .agenda{
     width: 43%;
     /* margin: 0 !important; */
     margin: 2rem 1rem !important;
   }
+
   .agenda img{
     width: 20rem;
     max-width: 20rem;
   }
+
   .title01-container{
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
   .agendapara-container{
     font-size: 1rem;
     line-height: 1.6 !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+  }
+
+  .agenda a{
+    font-size: 0.8rem;
+    width: 80%;
+    padding: 0.8rem 1.2rem;
   }
 }
 
@@ -288,5 +298,51 @@
   .faq-section{
       font-size: 1.2rem;
       padding: 1.6rem 0 1rem 0;
+  }
+}
+
+.agenda a{
+  color: white;
+  font-size: 1.2rem;
+  background-color: var(--color-1-100);
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.agenda a:hover{
+  background-color: var(--color-6-100);
+  color: var(--color-1-100);
+  font-weight: bolder;
+}
+
+.agenda a:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem #e2564f;
+  transition: 0.5s;
+}
+.agenda a:active
+        {
+            box-shadow: 1px 1px 1px 1px #e2564f;
+            transform: translateY(2px);
+        } 
+
+@media only screen and (max-width:991px){
+  .agenda a{
+    font-size: 1rem;
+    width: 60%;
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+@media only screen and (max-width:356px){
+  .agenda a{
+    font-size: 0.7rem;
+    width: 70%;
+    padding: 0.8rem 1.0rem;
   }
 }
