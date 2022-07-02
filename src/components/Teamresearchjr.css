@@ -7,6 +7,7 @@
      margin: 0vh auto 2vh auto;
      border-radius: 4px;
  }
+
  .team-head3 h1{
      font-size: 3.125rem;
      font-weight: 600;
@@ -14,15 +15,17 @@
      color: var(--color-1-100);
      font-family: 'Poppins', sans-serif;
  }
+
  .team-img3{
      width: 10.625rem;
      height: 10.625rem;
      border-radius: 1.875rem;
-     /* border-radius: 50%; */
+    opacity: 0.85;
      padding: 1.25rem;
      overflow: hidden;
      aspect-ratio: 1/1;
  }
+
  .team-stats-card3{
      display: flex;
      width: 97.5%;
@@ -32,19 +35,26 @@
      flex-wrap: wrap;
      padding: 1.25rem 3.125rem 1.875rem 3.125rem;
  }
+
  .team-stats3{
     background-color: var(--color-15-100);
      margin: 1.25rem;
      border-radius: 1.25rem;
-     transition: 0.3s ease-out;
+     transition: all 0.4s ease-out;
      box-shadow: 0px 5px 3px 0 var(--color-1-100), 0 6px 1px 0 var(--color-1-100);
      width: 19.5%;
      position: relative;
  }
+
  .team-stats3:hover{
      transform: scale(1.05);
      box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
  }
+
+.team-stats3:hover .team-img3{
+    opacity: 1;
+}
+
  .team-stats3 h1{
      padding: 1.0625rem 0.625rem;
      text-align: center;
@@ -53,6 +63,7 @@
      font-size: 1.1rem;
      letter-spacing: 0.5px;
  }
+
  .team-stats3 h2{
      color: white;
      font-size: 1.0rem;
@@ -61,24 +72,29 @@
      font-family: 'Poppins', sans-serif;
      letter-spacing: 0.5px;
  }
+
  @media screen and (max-width: 992px){
      .team-head3{
          margin:7vh auto 2vh auto;
          width: 95%;
          }
+
          .team-head3 h1{
              font-size: 6vw;
              font-weight: 600;
          }
+
      .team-stats-card3{
          padding: 1vw 0;
      }
+
      .team-stats3{
      width: 43%;
      margin: 2vw;
      border-radius: 1.875rem;
      padding: 2.5vw 2vw;
      }
+
      .team-img3{
          /* width: 80%;
          height: 80%; */
@@ -91,11 +107,13 @@
      padding: 0.625rem;
      overflow: hidden;
      }
+
      .team-stats3 h1{
      font-size: 3.5vw;
      padding: 0.625rem 0.625rem;
      letter-spacing: 0.3px;
      }
+
      .team-stats3 h2{
          font-size: 0.5rem;
          letter-spacing: 0.4px;

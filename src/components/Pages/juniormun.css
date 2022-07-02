@@ -83,15 +83,20 @@
   .event-pic{
     height: 55vw;
   }
+
   .event-pic img{
     top: 65%;
+  }
+
+  .event-details{
+    font-size: 0.8rem;
   }
 }
 
 .commitees-heading {
   text-align: center;
   color: var(--color-1-100);
-  margin-top: 5vh;
+  margin-top: 2vh; /* previously 5vh*/
   font-variant: small-caps;
   font-size: 1.8rem;
   letter-spacing: 1px;
@@ -249,7 +254,7 @@
 }
 .junmun2021 {
   text-align: center;
-  padding-top: 4vh;
+  padding-top: 0vh; /*4vh */
   color: var(--color-1-100);
   font-variant: small-caps;
   font-weight: bolder;
