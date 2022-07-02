@@ -849,3 +849,41 @@ export const FaqData = [
     answer:"No, you don't need any mun experiences to participate. We, as part of NITS JUNIOR MUN 2022, will be conducting a workshop and a mock mun session before the main MUN to introduce to the students, mainly first-timers, to what a Model UN is and more importantly how it functions.",
   },
 ];
+
+export const mockData = [
+  {
+    id:1,
+    mockimage:"./Images/Mock mun 2.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:2,
+    mockimage:"./Images/Mock mun 1.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:3,
+    mockimage:"./Images/Mock mun 3.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:4,
+    mockimage:"./Images/Agenda1.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:5,
+    mockimage:"./Images/Agenda2.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:6,
+    mockimage:"./Images/Agenda3.jpeg",
+    mockalt:"Mock MUN",
+  },
+  {
+    id:7,
+    mockimage:"./Images/International Press Corps.png",
+    mockalt:"Mock MUN",
+  },
+];

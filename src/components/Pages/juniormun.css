@@ -83,8 +83,13 @@
   .event-pic{
     height: 55vw;
   }
+
   .event-pic img{
     top: 65%;
+  }
+
+  .event-details{
+    font-size: 0.8rem;
   }
 }
 

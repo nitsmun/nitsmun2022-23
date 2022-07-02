@@ -2,6 +2,7 @@ import React from "react";
 import './mockmun.css';
 import { TabTitle } from "../Utils/Genfn";
 import { Link } from "react-router-dom";
+import {mockData} from '../Dataset';
 
 const MockMun = () => {
     TabTitle("Mock MUNs | NITSMUN");
@@ -47,49 +48,24 @@ const MockMun = () => {
 
         <div className="slider">
             <div className="slide-track">
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 2.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 1.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 3.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda1.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda2.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda3.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/International Press Corps.png" alt="" />
-                    </div>
 
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 2.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 1.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Mock mun 3.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda1.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda2.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/Agenda3.jpeg" alt="" />
-                    </div>
-                    <div className="slide2">
-                    <img src="./Images/International Press Corps.png" alt="" />
-                    </div>
+            {mockData.map((item) => {
+              return(
+                <div className="slide2" key={item.id}>
+                  <img src={item.mockimage} alt={item.mockalt} />
+                </div>
+              )
+            })}
+
+
+            {mockData.map((item) => {
+              return(
+                <div className="slide2" key={item.id}>
+                  <img src={item.mockimage} alt={item.mockalt} />
+                </div>
+              )
+            })}
+
             </div>
         </div>
                 
