@@ -6,12 +6,14 @@
     margin: 0vh auto 2vh auto;
     border-radius: 4px;
 }
+
 .team-head2 h1{
     font-size: 3.125rem;
     font-weight: 600;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
 }
+
 .team-img2{
     width: 10.625rem;
     height: 10.625rem;
@@ -19,7 +21,9 @@
     padding: 1.25rem;
     overflow: hidden;
     aspect-ratio: 1/1;
+    opacity: 0.85;
 }
+
 .team-stats-card2{
     display: flex;
     width: 97.5%;
@@ -29,19 +33,26 @@
     flex-wrap: wrap;
     padding: 1.25rem 3.125rem 1.875rem 3.125rem;
 }
+
 .team-stats2{
     background-color: var(--color-15-100);
     margin: 1.25rem;
     border-radius: 1.25rem;
-    transition: 0.3s ease-out;
+    transition: all 0.4s ease-out;
     box-shadow: 0px 5px 3px 0 var(--color-1-100), 0 6px 1px 0 var(--color-1-100);
     width: 19.5%;
     position: relative;
 }
+
 .team-stats2:hover{
     transform: scale(1.05);
     box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
 }
+
+.team-stats2:hover .team-img2{
+    opacity: 1;
+}
+
 .team-stats2 h1{
     padding: 1.0625rem 0.625rem;
     text-align: center;
@@ -50,6 +61,7 @@
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
+
 .team-stats2 h2{
     color: white;
     font-size: 1.0rem;
@@ -58,6 +70,7 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
 }
+
 @media screen and (max-width: 992px){
     .team-head2{
         margin:7vh auto 2vh auto;
@@ -67,15 +80,18 @@
             font-size: 6vw;
             font-weight: 600;
         }
+
     .team-stats-card2{
         padding: 1vw 0;
     }
+
     .team-stats2{
     width: 43%;
     margin: 2vw;
     border-radius: 30px;
     padding: 2.5vw 2vw;
     }
+
     .team-img2{
         /* width: 80%;
         height: 80%; */
@@ -91,14 +107,12 @@
     }
 
 
-
-
-
     .team-stats2 h1{
     font-size: 3.5vw;
     padding: 0.625rem 0.625rem;
     letter-spacing: 0.3px;
     }
+    
     .team-stats2 h2{
         font-size: 0.5rem;
         letter-spacing: 0.4px;

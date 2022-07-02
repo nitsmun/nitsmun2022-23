@@ -5,13 +5,13 @@ import Underline2 from "../Underline";
 import { Junmun } from "../Dataset";
 import { Link } from "react-router-dom";
 import Faqs from "../Faq";
+import MockMun from "./mock_mun";
 
 const juniormun = () => {
   TabTitle("NITS Junior MUN | NITSMUN");
   return (
     <>
       <div className="event-pic">
-        {/* <img src="https://nitsmun.in/img/munu18.jpg" alt="NITS Junior MUN" /> */}
         <img src="./Images/NITS Junior MUN official poster.png" alt="NITS Junior MUN" />
       </div>
       <div className="event-title">
@@ -54,6 +54,8 @@ const juniormun = () => {
           </Link>
         </div>
       </div>
+
+        <MockMun />
 
       <div className="commitees-heading">
         <h1>Committees</h1>

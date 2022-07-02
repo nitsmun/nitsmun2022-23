@@ -126,6 +126,7 @@
     min-height: 25rem;
     display: grid;
     place-items: center;
+    z-index: 0;
 }
 
 .slide-track{
@@ -159,13 +160,14 @@
 
 .slide2 img{
     width: 100%;
-    transition: transform 0.5s;
+    transition: all 0.5s ease-out;
+    opacity: 0.82;
     border-radius: 0.625rem;
 }
 
 .slide2 img:hover{
-    transform: translateZ(0.625rem);
-    border-radius: 0.625rem;
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .slider::before, .slider::after{

@@ -126,7 +126,7 @@ const Navbarmenu = () => {
                       </NavLink>{" "}
                     </li>
 
-                    <li>
+                    {/* <li>
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
@@ -134,7 +134,7 @@ const Navbarmenu = () => {
                       >
                         Mock MUNs{" "}
                       </NavLink>{" "}
-                    </li>
+                    </li> */}
 
                   </ul>
                 </li>
