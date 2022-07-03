@@ -774,7 +774,7 @@ export const Articleforhome = [
 export const Articledata = [
   {
     id:1,
-    Artimg:"./Images/World Menstrual Hygiene Day.jpeg",
+    Artimg:"./Images/World Menstrual Hygiene day.jpeg",
     Title:"World Menstrual Hygiene Day",
     Alt:"World Menstrual Hygiene Day",
     Date:"Posted on: 28th May, 2022",
