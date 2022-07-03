@@ -66,7 +66,6 @@
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
-    /* color: #212529; */
     color: var(--color-1-100);
 }
 
@@ -93,9 +92,9 @@
     border-radius: 5px;
     color: white;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    padding: 8px 20px;
+    padding: 0.5rem 1.25rem;
     border: solid #000000 1px;
     text-decoration: none;
     display: inline-block;
@@ -149,15 +148,19 @@
 @media only screen and (min-device-width:1001px) and (max-device-width:1420px) {
     .article-cont1{
         margin: 0;
-        padding-right: 40px;
-        font-size: 18px;
+        padding-right: 2.5rem;
+        font-size: 1.125rem;
         line-height: 1.6;
-        padding-top: 10px;
+        padding-top: 0.625rem;
     }
 
     .img-holder{
-        margin-right: 20px;
-        margin-left: 25px;
+        margin-right: 1.25rem;
+        margin-left: 1.5625rem;
+    }
+
+    .post-date{
+        padding-bottom: 0.625rem;
     }
 }
 
@@ -169,32 +172,37 @@
     .article-content{
         margin: 0 0 10px 0;
         letter-spacing: 0.5px;
-        padding: 15px 5px;
+        padding: 0.9375rem 0.3125rem;
+    }
+
+    .post-date{
+        padding-bottom: 0.625rem;
     }
 
     .article-content h1{
-        font-size: 18.5768px;
+        font-size: 1.16105rem;
         font-weight: 700;
     }
 
     .img-holder img{
-        height: 270px;
+        height: 16.875rem;
         /* border-radius: 5%; */
     }
 
     .img-holder{
-        padding: 25px;
-        margin: -30px 10px 0px 10px;
+        padding: 1.5625rem;
+        margin: -30px 0.625rem 0px 0.625rem;
         text-align: center;
-        min-height: 200px;
+        min-height: 12.5rem;
     }
 
     .article-cont1{
         margin: 0;
-        font-size: 16.6px;
+        font-size: 1.107rem;
         word-spacing: 1px;
-        /* line-height: 1px; */
-        padding-top: 10px;
+        padding-left: 1.17265625rem;
+        padding-right: 1.17265625rem;
+        padding-top: 0.625rem;
         font-family: 'Montserrat', sans-serif;
     }
 
@@ -202,16 +210,16 @@
         background-color: var(--color-1-100);
         color: whitesmoke;
         transition: all 0.3s ease-in;
-        font-size: 10px;
-        border-radius: 5px;
-        padding: 8px 18px;
+        font-size: 0.625rem;
+        border-radius: 0.3125rem;
+        padding: 0.5rem 1.125rem;
     }
 }
 
 /* for galaxy fold devices*/
 @media only screen and (max-width:320px){
     .img-holder img{
-        height: 230px;
+        height: 14.375rem;
     }
     
     .img-holder{
@@ -219,18 +227,28 @@
         margin-right: 0;
     }
 
+    .post-date{
+        padding-bottom: 0.625rem;
+    }
+    
     .article-cont1{
-        font-size: 13px;
+        font-size: 0.8rem;
+        padding-left: 1.17265625rem;
+        padding-right: 1.17265625rem;
     }
 
     .article-content h1{
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .read-more-btn, .read-less-btn{
-        font-size: 10px;
-        border-radius: 5px;
-        padding: 6px 15px;
+        font-size: 0.625rem;
+        border-radius: 0.3125rem;
+        padding: 0.375rem 0.9375rem;
+    }
+
+    .post-date h3{
+        font-size: 0.88rem;
     }
 }
 
@@ -244,7 +262,7 @@
     text-align: center;
     color: var(--color-1-100);
     font-weight: 900;
-    font-size: 30.416px;
+    font-size: 1.901rem;
     font-variant: small-caps;
 }
 
@@ -254,18 +272,18 @@
 
 @media only screen and (max-width:991px){
     .art-art-title {
-        padding: 3px auto;
+        padding: 0.1875rem auto;
         padding-top: 0.6rem !important;
         padding-bottom: 0.8rem !important;
     }
 
     .apply-art-h1 {
-        font-size: 18.416px;
+        font-size: 1.151rem;
         padding: 0 0.9rem;
       }
 
       .apply-art-h1 a {
-        font-size: 18.416px;
+        font-size: 1.151rem;
       }
 }
 
