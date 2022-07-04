@@ -36,7 +36,7 @@
 }
 
 .article-content h1{
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: var(--color-1-100);
     font-variant: small-caps;
     font-family: 'Montserrat', sans-serif;
@@ -56,7 +56,7 @@
 
 .img-holder{
     padding: 1.5625rem;
-    margin: -30px 2.5rem 1.25rem 6.25rem;
+    margin: -15px 2.5rem 1.25rem 6.25rem;
     text-align: center;
     min-height: 12.5rem;
 }
@@ -65,7 +65,7 @@
     font-style: italic;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--color-1-100);
 }
 
@@ -81,6 +81,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding: 1.875rem;
+    padding-top: 0.8rem !important;
     margin-right: 6.875rem;
     line-height: 1.6;
     letter-spacing: 0.5px;
@@ -160,7 +161,11 @@
     }
 
     .post-date{
-        padding-bottom: 0.625rem;
+        padding-bottom: 0rem;
+    }
+
+    .article-content h1{
+        font-size: 2.5rem;
     }
 }
 
@@ -176,12 +181,22 @@
     }
 
     .post-date{
-        padding-bottom: 0.625rem;
+        /* padding-bottom: 0.625rem; */
+        padding-bottom: 0rem !important;
     }
 
+    .post-date h3{
+        font-size: 1.2rem;
+    }
+
+    .article-content{
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
     .article-content h1{
-        font-size: 1.16105rem;
-        font-weight: 700;
+        /* font-size: 1.16105rem; */
+        font-size: 1.7rem;
+        font-weight: 900;
     }
 
     .img-holder img{
@@ -227,18 +242,28 @@
         margin-right: 0;
     }
 
-    .post-date{
-        padding-bottom: 0.625rem;
+    .post-date h3{
+        font-size: 1.0rem;
     }
-    
+
+
+    .post-date{
+        padding-bottom: 0rem;
+    }
+
     .article-cont1{
         font-size: 0.8rem;
         padding-left: 1.17265625rem;
         padding-right: 1.17265625rem;
     }
 
+    .article-content{
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+    }
     .article-content h1{
-        font-size: 1rem;
+        font-size: 1.4rem;
+        font-weight: 900;
     }
 
     .read-more-btn, .read-less-btn{
@@ -247,9 +272,7 @@
         padding: 0.375rem 0.9375rem;
     }
 
-    .post-date h3{
-        font-size: 0.88rem;
-    }
+    
 }
 
 .art-art-title {
@@ -287,6 +310,11 @@
       }
 }
 
+.article-cont1::first-letter{
+    color: var(--color-1-100);
+    font-size: 200%;
+    font-weight: 700;
+}
 
 
 

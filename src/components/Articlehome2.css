@@ -56,6 +56,7 @@ body {
   justify-content: center;
   line-height: 1.6;
 }
+
 .team-section-body p {
   color: #222226;
   font-family: "Montserrat", sans-serif;
@@ -63,15 +64,22 @@ body {
   font-weight: 600;
   margin: 0 0 1rem;
 }
+
 .team-section-body h2 {
   color: var(--color-1-100);
   margin: 0 0 0.5rem;
   padding: 0.3125rem 0;
-  font-size: 1.5rem;
+  font-size: 1.68rem;
   font-weight: 9000;
   font-family: "Montserrat", sans-serif;
   font-variant: small-caps;
 }
+
+.team-section-body p::first-letter{
+  color: var(--color-1-100);
+  font-size: 200%;
+}
+
 .article-home-btn{
   cursor: pointer;
   margin-top: 0.625rem;
@@ -83,6 +91,7 @@ body {
   padding: 0.4375rem 0.9375rem;
   border-radius: 0.3125rem;
 }
+
 .article-home-btn:hover {
   background-color: var(--color-1-100);
   transition: 0.3s ease-out;
@@ -104,29 +113,38 @@ body {
     display: block;
     justify-content: space-between;
   }
+
   .team-section {
     width: 90%;
     /* margin: 20px; */
     margin: 1.25rem auto;
   }
+
   .apply-home-h1 {
     font-size: 1.151rem;
     padding: 0 0.9rem;
   }
+
   .apply-home-h1 a {
     font-size: 1.151rem;
   }
+
   .art-home-title {
     padding: 0.1875rem auto;
     padding-top: 1.5rem !important;
     padding-bottom: 0.6rem !important;
   }
+
   .team-section-body p {
     font-size: 0.875rem;
-    /* line-height: 8.6; */
-    /* word-spacing: 1px; */
+    /* padding-top: 0 !important; */
   }
+
   .team-section-body{
     line-height: 1.8;
+  }
+
+  .team-section-body h2{
+    font-size: 1.3rem;
   }
 }
