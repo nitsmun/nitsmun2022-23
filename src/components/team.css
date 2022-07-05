@@ -7,12 +7,14 @@
      border-radius: 4px;
      padding-top: 10vh;
  }
+
  .team-head0 h1{
      font-size: 3.125rem;
      font-weight: 600;
      color: var(--color-1-100);
      font-family: 'Poppins', sans-serif;
  }
+
  .team-img{
      width: 10.625rem;
      height: 10.625rem;
@@ -22,6 +24,7 @@
      aspect-ratio: 1/1;
      opacity: 0.85;
  }
+
  .team-stats-card{
      display: flex;
      width: 97.5%;
@@ -31,6 +34,7 @@
      flex-wrap: wrap;
      padding: 1.25rem 3.125rem 1.875rem 3.125rem;
  }
+
  .team-stats{
     background-color: var(--color-15-100);
      margin: 1.25rem;
@@ -40,6 +44,7 @@
      width: 19.5%;
      position: relative;
  }
+
  .team-stats:hover{
      transform: scale(1.05);
      box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
@@ -58,6 +63,7 @@
      font-size: 1.1rem;
      letter-spacing: 0.5px;
  }
+
  .team-stats h2{
      color: white;
      font-size: 1.0rem;
@@ -66,43 +72,45 @@
      font-family: 'Poppins', sans-serif;
      letter-spacing: 0.5px;
  }
+
  @media screen and (max-width: 992px){
      .team-head0{
          margin:1vh auto 2vh auto;
          width: 95%;
          }
+
          .team-head0 h1{
              font-size: 6vw;
              font-weight: 600;
          }
+
      .team-stats-card{
          padding: 1vw 0;
      }
+
      .team-stats{
      width: 43%;
      margin: 2vw;
      border-radius: 30px;
      padding: 2.5vw 2vw;
      }
+
      .team-img{
-         /* width: 80%;
-         height: 80%; */
-         height: 7.5rem;
-         width: 7.5rem;
-         /* width: 150px; */
-         /* height: 190px; */
+         height: auto;
+         max-width: 17.5rem;
      aspect-ratio: 1/1;
-     /* border-radius: 50%; */
      padding: 0.625rem;
      overflow: hidden;
      }
+
      .team-stats h1{
      font-size: 3.5vw;
      padding: 0.625rem 0.625rem;
      letter-spacing: 0.3px;
      }
+
      .team-stats h2{
-         font-size: 0.5rem;
+         font-size: 2.2vw;
          letter-spacing: 0.4px;
          padding: 0.125rem 0.625rem 0.9375rem 0.625rem;
      }
@@ -158,8 +166,17 @@
 
  @media only screen and (max-width:320px){
     .team-img{
-        height: 6.5rem;
-        width: 6.5rem;
+        height: 6.5rem !important;
+        width: 6.5rem !important;
     }
  }
  
+
+/* Additional */
+@media only screen and (max-width:660px){
+    .team-img{
+        height: 7.5rem;
+         width: 7.5rem;
+    }
+}
+

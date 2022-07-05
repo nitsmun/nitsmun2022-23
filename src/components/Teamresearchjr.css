@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  .team-head3{
      width: 89%;
-     /* border-bottom: 3px solid #732445; */
      border-bottom: 3px solid var(--color-1-100);
      text-align: center;
      margin: 0vh auto 2vh auto;
@@ -96,14 +95,9 @@
      }
 
      .team-img3{
-         /* width: 80%;
-         height: 80%; */
-         height: 7.5rem;
-         width: 7.5rem;
-         /* width: 150px; */
-         /* height: 190px; */
+    height: auto;
+    max-width: 17.5rem;
      aspect-ratio: 1/1;
-     /* border-radius: 50%; */
      padding: 0.625rem;
      overflow: hidden;
      }
@@ -115,7 +109,7 @@
      }
 
      .team-stats3 h2{
-         font-size: 0.5rem;
+        font-size: 2.2vw;
          letter-spacing: 0.4px;
          padding: 0.125rem 0.625rem 0.9375rem 0.625rem;
      }
@@ -170,8 +164,15 @@
  
  @media only screen and (max-width:320px){
     .team-img3{
-        height: 6.5rem;
-        width: 6.5rem;
+        height: 6.5rem !important;
+        width: 6.5rem !important;
     }
  }
  
+
+ @media only screen and (max-width:660px){
+    .team-img3{
+        height: 7.5rem;
+         width: 7.5rem;
+    }
+}
