@@ -115,53 +115,6 @@
   }
 }
 
-.social-media {
-  display: flex;
-  margin-top: 1.6vh;
-}
-.icon1 {
-  margin-left: 75px;
-}
-.icon2,
-.icon3 {
-  margin-left: 30px;
-}
-.icon-color,
-.icon-color1,
-.icon-color2 {
-  color: white;
-}
-.icon-color:hover {
-  color: orangered;
-}
-.icon-color1:hover {
-  color: rgb(10, 102, 194);
-}
-.icon-color2:hover {
-  color: #4267b2;
-}
-
-@media screen and (max-width: 992px) {
-  .icon1 {
-    margin-left: 22px;
-  }
-  .icon2,
-  .icon3 {
-    margin-left: 20px;
-  }
-  .social-media {
-    margin-top: 0px;
-  }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1370px) {
-  .icon1 {
-    margin-left: 30px;
-  }
-  .icon2,
-  .icon3 {
-    margin-left: 50px;
-  }
-}
 
 @media only screen and (max-width:320px){
   .team-img4{

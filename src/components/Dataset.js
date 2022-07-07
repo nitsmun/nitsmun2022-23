@@ -919,3 +919,41 @@ export const mockData = [
     mockalt:"Mock MUN",
   },
 ];
+
+export const carouselData = [
+  {
+    id:1,
+    mockimage1:"./Images/Carousel1.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:2,
+    mockimage1:"./Images/Carousel2.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:3,
+    mockimage1:"./Images/Carousel3.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:4,
+    mockimage1:"./Images/Carousel4.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:5,
+    mockimage1:"./Images/Carousel5.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:6,
+    mockimage1:"./Images/Carousel6.jpg",
+    mockalt1:"Carousel",
+  },
+  {
+    id:7,
+    mockimage1:"./Images/Carousel7.jpg",
+    mockalt1:"Carousel",
+  },
+];

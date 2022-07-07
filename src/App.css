@@ -42,6 +42,7 @@
   --color-14-100: #145E79 /*FAQs question and answer bars*/;
   --color-14-038: #A1BBC0 /*FAQs question bar when hovered*/;
   --color-15-100: #35627b; /* Team card*/
+  --color-17-100: rgba(250, 247, 241, 0.619);
   --color-16-100: linear-gradient(135deg, #000004 86%, #1E6397 100%) /*scrollbar track*/;
   --color-16-080: linear-gradient(135deg, #35627B 0%, #CEEDF1 100%); /*scrollbar thumb*/;
   --color-16-060: linear-gradient(135deg, #CEEDF1 0%, #35627B 100%); /*scrollbar hover*/;

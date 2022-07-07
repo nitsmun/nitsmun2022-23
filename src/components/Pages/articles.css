@@ -28,7 +28,7 @@
 }
 
 .article-main-content{
-    background-color: rgba(250, 247, 241, 0.619);
+    background-color: var(--color-17-100);
 }
 
 .article-flexing{

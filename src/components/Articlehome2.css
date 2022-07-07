@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 .tea0 {
   display: flex;
   justify-content: space-between;
@@ -97,11 +99,13 @@ body {
   transition: 0.3s ease-out;
   color: whitesmoke;
 }
+
 .article-home-btn:focus {
   outline: none;
   box-shadow: 0 0 0 0.25rem #e2564f;
   transition: 0.7s;
 }
+
 .article-home-btn:active
         {
             box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem #e2564f;

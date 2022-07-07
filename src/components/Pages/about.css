@@ -1,14 +1,13 @@
 .about-main{
     padding-top: 60px;
-    background-color: rgb(250, 253, 252);
+    background-color: var(--color-17-100);
 }
 .about-header{
     display: flex;
     justify-content: center;
     /* background-color: rgb(193, 104, 96); */
     margin-top: 1.5rem;
-    /* background-color: #208595; */
-    /* padding:1.5vh 0; */
+   
 
 }
 .about-headertxt{
