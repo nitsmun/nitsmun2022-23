@@ -210,13 +210,13 @@
 .slide2-m img{
   width: 100%;
   transition: all 0.3s ease-out;
-  filter: grayscale(100%);
+  opacity: 0.9;
   border-radius: 0.325rem;
 }
 
 .slide2-m img:hover{
   transform: scale(1.1);
-  filter: grayscale(0%);
+  opacity: 1;
 }
 
 
