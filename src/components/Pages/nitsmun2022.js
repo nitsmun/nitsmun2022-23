@@ -2,16 +2,14 @@ import React from "react";
 import "./nitsmun2022.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline from "../Underline";
-import Slider from "../Slider/Slider";
+import {carouselData} from '../Dataset';
 import "./home.css";
 const nitsmun2022 = () => {
   TabTitle("NITSMUN 2022 | NITSMUN");
 
   return (
-    <div style={{ background: "rgba(137, 255, 230, 0.2)" }}>
-      {/* <div className="nm22-bgpic">
-        <img src="./Images/annualConf.jpeg" alt="NITS MUN 2022" />
-      </div> */}
+    <div className="nitsmun22-main">
+      
       <div className="nm22-head">
         <h1>NITSMUN 2022</h1>
         <Underline />
@@ -123,7 +121,31 @@ const nitsmun2022 = () => {
         <h1>Glimpses From Past Conferences</h1>
       </div>
 
-      <Slider />
+      
+
+
+      <div className="slider-m">
+            <div className="slide-track-m">
+
+            {carouselData.map((item) => {
+              return(
+                <div className="slide2-m" key={item.id}>
+                  <img src={item.mockimage1} alt={item.mockalt1} />
+                </div>
+              )
+            })}
+
+
+            {carouselData.map((item) => {
+              return(
+                <div className="slide2-m" key={item.id}>
+                  <img src={item.mockimage1} alt={item.mockalt1} />
+                </div>
+              )
+            })}
+
+            </div>
+        </div>
     </div>
   );
 };

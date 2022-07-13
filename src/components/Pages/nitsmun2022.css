@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
+
+.nitsmun22-main{
+  background-color: var(--color-17-100);
+}
 .nm22-head{
   /* margin-top: 5rem; */
   margin-bottom: 3rem;
@@ -50,6 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: var(--color-17-100);
 }
 
 .nm22-agendaimg1 {
@@ -68,7 +73,7 @@
   vertical-align: middle;
 }
 .nm22-exemain {
-  background-color: white;
+  background-color: var(--color-17-100);
 
   max-width: 100%;
   box-sizing: content-box;
@@ -78,6 +83,7 @@
   padding-right: 2em;
   margin-left: 0%;
   margin-right: 0%;
+  padding-bottom: 3rem;
 }
 .nm22-exmianimg {
   width: 25em;
@@ -154,3 +160,132 @@
     padding-right: 0.5em;
   }
 }
+
+
+
+
+.slider-m{
+  margin: auto;
+  width: 90%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+  background-color: var(--color-17-100);
+}
+
+.slide-track-m{
+  display: flex;
+  width: calc(30rem * 14);
+  animation: scroll1 50s linear infinite 2s;
+}
+
+ .slide-track-m:hover{
+  animation-play-state: paused;
+}
+
+
+
+@keyframes scroll1 {
+  0% {
+      transform: translateX(0)
+  }
+  100%{
+      transform: translateX(calc(-30rem * 14))
+  }
+}
+
+.slide2-m{
+  height: 22rem;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  padding:  0 0.9375rem;
+  perspective: 6.25rem;
+}
+
+.slide2-m img{
+  width: 100%;
+  transition: all 0.3s ease-out;
+  opacity: 0.9;
+  border-radius: 0.325rem;
+}
+
+.slide2-m img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+
+.slider-m::before, .slider-m::after{
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 10%);
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  width: 15%;
+  content: '';
+}
+
+.slider-m::before{
+  left: 0;
+  top: 0;
+}
+
+.slider-m::after{
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+@media only screen and (max-width:660px){
+
+  .slider-m{
+    height: 15rem;
+  }
+  
+  .slide2-m{
+    width: 20rem;
+    height: 100%;
+}
+
+.slide-track-m{
+  animation: scroll1 70s linear infinite 2s;
+}
+
+.slide2-m img{
+  border-radius: 0.325rem;
+}
+.slide-track{
+  width: calc(20rem * 14);
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0)
+  }
+  100%{
+      transform: translateX(calc(-20rem * 14))
+  }
+}
+}
+
+@media only screen and (max-width:320px){
+  
+  
+  .slide2-m{
+    width: 15rem;
+    height: 15rem;
+    
+}
+.slide2-m img{
+  border-radius: 0rem;
+}
+
+  .slide-track-m{
+  animation: scroll1 90s linear infinite 2s;
+}
+} 
