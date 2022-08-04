@@ -445,18 +445,6 @@ export const Secretariatresearchjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/shretimaGarg1.jpg",
-    alt: "Shretima Garg",
-    name: "Shretima Garg",
-    post: "Research and Development Team",
-    linkedin:
-      "https://www.linkedin.com/in/shretimagarg",
-    fb: "https://www.facebook.com/profile.php?id=100075802705224",
-    mail: "mailto:shretima21_ug@cse.nits.ac.in",
-  },
-  {
-    id: 3,
-    cName: "team-sec",
     imgsrc: "./Images/chimronSaikia1.jpg",
     alt: "Chimron Saikia",
     name: "Chimron Saikia",
@@ -466,7 +454,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:saikiachimron@gmail.com",
   },
   {
-    id: 4,
+    id: 3,
     cName: "team-sec",
     imgsrc: "./Images/Aditi Archita Khataniar.jpg",
     alt: "Aditi Archita Khataniar",
@@ -477,7 +465,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:aditi.khataniar@gmail.com",
   },
   {
-    id: 5,
+    id: 4,
     cName: "team-sec",
     imgsrc: "./Images/Ronak Jain.jpg",
     alt: "Ronak Jain",
@@ -488,7 +476,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:4195rj@gmail.com",
   },
   {
-    id: 6,
+    id: 5,
     cName: "team-sec",
     imgsrc: "./Images/Suraj Kumar Pampana.jpg",
     alt: "Suraj Kumar Pampana",
@@ -499,7 +487,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:suraj.pampana@gmail.com",
   },
   {
-    id: 7,
+    id: 6,
     cName: "team-sec",
     imgsrc: "./Images/hrishikeshBorah.jpg",
     alt: "Hrishikesh Borah",
@@ -510,7 +498,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:hrishikeshborahofficial@gmail.com",
   },
   {
-    id: 8,
+    id: 7,
     cName: "team-sec",
     imgsrc: "./Images/Bhargabi Nath.jpg",
     alt: "Bhargabi Nath",
@@ -521,7 +509,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:bhargavinath.24@gmail.com",
   },
   {
-    id: 9,
+    id: 8,
     cName: "team-sec",
     imgsrc: "./Images/Trilasha Mazumder1.jpeg",
     alt: "Trilasha Mazumder",
@@ -651,13 +639,25 @@ export const Secretariatwebjr = [
     icon0:<> <button className="btn-icon4"><ImGithub className="icon-color3" size={26} /></button> </>
   },
 ];
+
 export const Articleforhome = [
   {
     id: 1,
+    img: "./Images/World Menstrual Hygiene day.jpeg",
+    alt2: "World Menstrual Hygiene Day",
+    heading: "World Menstrual Hygiene Day",
+    para: (
+      <>
+       “Don’t go near the temple”, “Don’t cook or touch anything in the kitchen” and similar others are some common phrases every Indian woman gets to hear during her “that time of the month” when she is often considered “unclean”. Even in 2022, menstruation is considered a taboo, not only in India but in fact all over the world. Still today, menstruation is a period that is a reason for discrimination and exclusion for millions of girls and women. Fun fact, 28th Of May is celebrated as World Menstrual Hygiene Day as each menstrual cycle is of approximately 28 days and 5 days is the average period of menstruation.
+      </>
+    ),
+  },
+
+  {
+    id: 2,
     img: "./Images/International day for Biological diversity.jpg",
     alt2: "International Day For Biological Diversity",
     heading: "International Day For Biological Diversity",
-    date: "22nd May",
     para: (
       <>
         With the aim of increasing awareness and understanding for biodiversity
@@ -670,107 +670,20 @@ export const Articleforhome = [
         Biological Diversity.
       </>
     ),
-
-    show: (
-      <>
-        <br />
-        IDB has an unique theme for each year and likewise the theme for the
-        year 2022 is "BUILDING A SHARED FUTURE FOR ALL LIFE". This year's theme
-        is decided after taking into consideration the aim of highlighting the
-        importance of biodiversity for many sustainable development issues. When
-        we think about the lifestyle we are leading, the significance of this
-        day comes into light as well. It is BIODIVERSITY that not only provides
-        a home for many of the world's species, but also serves as a source of
-        food, water, and other resources that we rely on to survive. Hence,
-        understanding the value of biodiversity and acknowledging the problems
-        associated with it is the need of the hour. Thus, this day is of utmost
-        importance as well. <br />
-        <br />
-        To sum up, on this International Biodiversity Day, NITSMUN urges
-        everyone to celebrate the biodiversity our Mother Nature embraces and
-        work each day for giving all species their right to thrive on this
-        planet.
-      </>
-    ),
   },
+
   {
-    id: 2,
+    id: 3,
     img: "./Images/World day for cultural diversity.jpg",
     alt2: "World Day For Cultural Diversity",
     heading: "World Day For Cultural Diversity",
     date: "21st May",
     para: "In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges. UN recognise the need to enhance the potential of culture as a means of achieving prosperity, sustainable development and global peaceful coexistence.",
-    show: (
-      <>
-        <br />
-        Keeping these things in mind, the United Nations General Assembly
-        declared this international holiday in 2002 following UNESCO's adoption
-        of the Universal Declaration on Cultural Diversity in 2001 under UN
-        Resolution 57/249. They recognise the need to “enhance the potential of
-        culture as a means of achieving prosperity, sustainable development and
-        global peaceful coexistence.
-        <br />
-        <br />
-        Since then, this day has been celebrated all over the world to spread
-        awareness about the need to bridge cultures for peace, stability and
-        development. An interesting statistic to put this into perspective -
-        over three fourths of world conflicts is due to lack of cultural
-        harmony. The pandemic also proved the value and importance of the
-        cultural and creative sector in generating social cohesion, educational
-        resources and personal well-being in times of crisis. Cultural diversity
-        contributes to both economic and personal development through exchange
-        of ideas, intellectual values, emotions and morals, which makes it an
-        indispensable part of sustainable development.
-        <br />
-        <br />
-        Therefore, NITSMUN calls for the people of this world to come together
-        and spread the essence of cultural diversity and hence, indirectly work
-        towards making this world a better place to live in.
-      </>
-    ),
   },
-  {
-    id: 3,
-    img: "./Images/International mother earth day.jpg",
-    alt2: "International mother earth day",
-    heading: "International Mother Earth Day",
-    date: "22nd April",
-    para: (
-      <>
-        The original roots of designating a day for Mother earth goes back to
-        the 1970s when environmental protection was not yet a priority of the
-        national political agendas. The UN Conference on the Human Environment
-        1972 in Stockholm marked the beginning of global awareness of the
-        interdependence among people, other living species and our planet, as
-        well as the establishment of World Environment Day on 5 June and the UN
-        Environment Programme. Heat waves, cyclones during the dry season- are some of the
-        SOS calls we have come across in recent days.
-      </>
-    ),
-    show: (
-      <>
-        <br />
-        Heat waves, cyclones and floods during the dry season- are some of the
-        SOS calls we have come across but have failed to meet the expectation at
-        an institutional level. The past world leaders were reluctant enough to
-        not take any coordinated and well-executed action despite having plans
-        of sustainability against man’s never-ending demand of extracting
-        natural resources. Now, we are running out of time, and climate change
-        is triggering an irreversible chain reaction causing extreme weather
-        events across the globe. Moreover, the average global temperatures are
-        expected to rise by at least 1.5 degrees which could further be
-        increased if timely actions are not put in place. <br />
-        <br /> Despite our advancements in technological and educational fields,
-        we have been quite incapable of catering to Mother Earth which has
-        provided us with all her natural resources. The NITSMUN fraternity
-        requests you all to stop being ignorant and become vocal advocates of
-        sustainable development, by spreading awareness about the same and by
-        becoming the change you seek in society. TOGETHER WE CAN, TOGETHER WE
-        WILL!
-      </>
-    ),
-  },
+
+
 ];
+
 export const Articledata = [
   {
     id:1,

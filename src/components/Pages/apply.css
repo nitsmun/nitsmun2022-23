@@ -3,10 +3,12 @@
     width: 100%;
     background-color: var(--color-1-100);
 }
+
 .img-apply img{
-    margin: 14vh 0 1vh 0vh;
-    width: 15.625rem;
+    margin: 14vh 0 5vh 0vh;
+    width: 18rem;
 }
+
 .apply-container a{
     margin-top: 3vh;
     padding: 0.9375rem 1.25rem;
@@ -19,13 +21,14 @@
     border-radius: 1.875rem;
     font-size:1.1875rem;
     font-variant: small-caps;
+    transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 }
+
 .apply-container a:hover{
-    
+    transform: scale(1.02);
     color: black;
     font-weight: 900;
     background-color: var(--color-6-100);
-    transition: 0.3s ease-out;
 }
 
 .apply-container a:focus {
@@ -33,6 +36,7 @@
     box-shadow: 0 0 0 0.25rem #e2564f;
     transition: 0.5s;
   }
+
 .apply-container a:active
           {
               box-shadow: 1px 1px 1px 1px #e2564f;
@@ -42,12 +46,15 @@
 
 @media only screen and (max-width: 1000px){
     .img-apply img{
-        width: 8.75rem;
+        /* width: 8.75rem; */
+        width: 11rem;
         margin-top: 13vh !important;
     }
+
     .apply-container{
         height: 75vh;
     }
+
     .apply-container a{
         width: 90%;
         font-size: 0.875rem;
@@ -63,6 +70,7 @@
                 width: 9.375rem;
                 padding-top: 2.5rem;
             }
+
             .apply-container a{
                 font-size: 0.875rem;
             }
@@ -73,11 +81,13 @@
     .apply-container{
         height: 95vh;
     }
+
     .img-apply img{
         width: 25rem;
         margin: 7vh 0 1vh 0vh;
         padding-top: 0.625rem;
     }
+
     .apply-container a{
         font-size: 1.125rem;
         margin-top: 4vh !important;
@@ -92,6 +102,7 @@
         margin-top: 10vh;
         margin-bottom: 0;
     }
+
     .apply-container a{
         width: 90%;
         font-size: 0.625rem;

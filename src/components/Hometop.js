@@ -13,13 +13,9 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            Round 1 Registrations for{" "}
+            Round 2 Registrations for{" "}
             <strong style={{ color: "rgb(45, 210, 255)" }}>
               Junior Mun 2022
-            </strong>{" "}
-            and Application for{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>
-              Executive Board
             </strong>{" "}
             is now open!
           </ul>

@@ -19,7 +19,7 @@ const apply = () => {
           rel="noreferrer"
           target="_blank"
         >
-          Link For Round 1 Registrations For NITSMUN Junior Mun 2022!
+          Link For Round 2 Registrations For NITSMUN Junior Mun 2022!
         </a>
 
 
