@@ -14,6 +14,7 @@ const Teamjr = () => {
               <div>
                 <center>
                   <img className="team-img1" src={item.imgsrc} alt="" />
+                  
                 </center>
               </div>
 

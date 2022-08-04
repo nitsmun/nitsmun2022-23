@@ -35,7 +35,7 @@ const Faqmain = styled.div`
   text-align: justify;
   text-align-last: left;
   cursor: pointer;
-  margin:1rem 0;
+  margin: 1rem 0;
   border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
@@ -50,16 +50,17 @@ const Faqmain = styled.div`
   span {
     margin-right: 1.5rem;
   }
-  
-  @media only screen and (max-width:993px){
-    h1{
-        font-size: 0.8rem;
-    }}
-    @media only screen and (max-width:289px){
-      h1{
-        font-size: 0.6rem;
-      }
+
+  @media only screen and (max-width: 993px) {
+    h1 {
+      font-size: 0.8rem;
     }
+  }
+  @media only screen and (max-width: 289px) {
+    h1 {
+      font-size: 0.6rem;
+    }
+  }
 `;
 
 const Dropdown = styled.div`
@@ -71,7 +72,7 @@ const Dropdown = styled.div`
   border-radius: 0.9375rem;
   margin-bottom: 6vh;
   font-weight: 600;
-  padding:  0.9375rem 1.25rem;
+  padding: 0.9375rem 1.25rem;
   text-align: justify;
   text-align-last: left;
   line-height: 1.4;
@@ -79,23 +80,23 @@ const Dropdown = styled.div`
   p {
     font-size: 1rem;
   }
-  @media only screen and (max-width:993px){
-    p{
-        font-size: 0.8rem;
+  @media only screen and (max-width: 993px) {
+    p {
+      font-size: 0.8rem;
     }
-}
-@media only screen and (max-width:289px){
-      p{
-        font-size: 0.6rem;
-      }}
+  }
+  @media only screen and (max-width: 289px) {
+    p {
+      font-size: 0.6rem;
+    }
+  }
 `;
 
 const Faqs = () => {
   const [clicked, setClicked] = useState(false);
 
-  const toggle = index => {
+  const toggle = (index) => {
     if (clicked === index) {
-      
       return setClicked(null);
     }
 
@@ -103,18 +104,17 @@ const Faqs = () => {
   };
 
   return (
-    <IconContext.Provider value={{ color: '#212529', size: '1.25rem' }}>
+    <IconContext.Provider value={{ color: "#212529", size: "1.25rem" }}>
       <FaqSection>
-
-      <div className="faq-section">
+        <div className="faq-section">
           <h1>FAQ</h1>
         </div>
 
         <Container>
           {FaqData.map((item, index) => {
             return (
-              <>
-                <Faqmain onClick={() => toggle(index)} key={index}>
+              <React.Fragment key={index}>
+                <Faqmain onClick={() => toggle(index)}>
                   <h1>{item.question}</h1>
                   <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                 </Faqmain>
@@ -123,7 +123,7 @@ const Faqs = () => {
                     <p>{item.answer}</p>
                   </Dropdown>
                 ) : null}
-              </>
+              </React.Fragment>
             );
           })}
         </Container>
