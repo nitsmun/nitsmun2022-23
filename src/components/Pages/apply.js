@@ -23,13 +23,13 @@ const apply = () => {
         </a>
 
 
-        <a
+        {/* <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfdZRZcI0T4z9SrjLjZNk59s4wi-35lOVqeXJkE34mIbyqsbA/viewform?pli=1"
           rel="noreferrer"
           target="_blank"
         >
           Link For Executive Board For NITSMUN Junior Mun 2022!
-        </a>
+        </a> */}
 
         <a
           href="https://forms.gle/tGVReDKBLACxzayY6"
