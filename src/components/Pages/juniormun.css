@@ -351,3 +351,226 @@
     padding: 0.8rem 1.0rem;
   }
 }
+
+.btn-junior{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem !important;
+  background-color: var(--color-12-100);
+  width: 50%;
+  border-radius: 7px;
+  box-shadow: 0.1rem 0px 0.2rem 0.2rem grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+  color: rgb(82, 80, 80);
+}
+
+.btn-junior button{
+  margin: 0 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-family: var(--font5);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.active, .btn:hover {
+background-color: var(--color-6-100);
+transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+color: var(--color-1-100);
+font-weight: bolder;
+border-radius: 5px;
+cursor: pointer;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+@media only screen and (max-width:660px){
+  .btn-junior{
+    width: 85%;
+    padding: 0.8rem 0;
+}
+
+.btn-junior button{
+  margin: 0 0.1rem;
+  font-size: 0.9rem;
+}
+
+.active .btn:hover{
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+
+}
+
+@media only screen and (max-width:320px){
+  .btn-junior button{
+    font-size: .5rem;
+}
+}
+
+.exe-cont{
+  display: block;
+  flex-wrap: wrap;
+  scroll-behavior: smooth;
+  width: 100%;
+  margin-top: -1rem;
+}
+
+@media only screen and (max-width:660px){
+  .exe-cont{
+    margin-top: 2rem;
+  }
+}
+
+
+@media only screen and (max-width:320px){
+  .exe-cont{
+    margin-top: 1.5rem;
+}
+}
+
+.exe-all {
+  position: relative;
+  column-count: 3;
+  margin: 4%;
+  gap: 1%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .exe-all {
+      column-count: 2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .exe-all {
+      column-count: 1;
+  }
+}
+
+.image-all {
+  display: inline-block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.image-all img {
+  width: 100%;
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  opacity: 0.89;
+}
+
+.image-all img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.partner-head, .jdv-head{
+  display: inline-block;
+  width: 40%;
+  margin: 2.5rem auto;
+  padding: 1rem 0;
+}
+
+.jdv-head{
+  margin-top: 6rem !important;
+}
+
+@media only screen and (max-width:660px){
+  .jdv-head{
+    margin-top: 3rem !important;
+  }
+
+}
+
+.partner-head h1, .jdv-head h1{
+  border-bottom: 1px dashed var(--color-1-100);
+  color: var(--color-1-100);
+  font-size: 1.66rem;
+  font-weight: 900;
+}
+
+.partner-list{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+  margin-top: 10vh;
+}
+
+.partner-img{
+ display: inline-block;
+ overflow: hidden;
+}
+
+.partner-img img{
+  width: 50%;
+}
+
+.jdv-list{
+  margin-bottom: 10vh !important;
+}
+.jdv-list img{
+  width: 15rem;
+}
+
+@media only screen and (max-width:660px){
+  .jdv-list img{
+    width: 12rem;
+  }
+}
+.partner-about, .jdv-about{
+  margin-top: 3vh;
+}
+.partner-indi h2, .jdv-about h2{
+  color: var(--color-8-100);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width:660px){
+
+.partner-head, .jdv-head{
+  width: 70%;
+  margin-bottom: 0 !important;
+}
+
+  .partner-head h1, .jdv-head h1{
+    font-size: 1.2rem;
+  }
+
+  .partner-list{
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .partner-indi{
+    margin: 2rem 0;
+  }
+
+  .partner-about, .jdv-about{
+    margin-top: 1rem;
+  }
+
+  .partner-about h2, .jdv-about h2{
+    font-size: 1rem;
+  }
+}
+
+.juv{
+  margin-top: 15vh;
+}
+
+@media only screen and (max-width:660px){
+  .juv{
+    margin-top: 8vh;
+  }
+}

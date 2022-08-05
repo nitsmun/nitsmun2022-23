@@ -870,3 +870,84 @@ export const carouselData = [
     mockalt1:"Carousel",
   },
 ];
+
+export const allexecutive = [
+  {
+    id:1,
+    img:"./Images/Eshan Bajaj.jpg",
+    alt:"Eshan Bajaj",
+  },
+  {
+    id:2,
+    img:"./Images/Kashish Gumber.jpg",
+    alt:"Kashish Gumber",
+  },
+  {
+    id:3,
+    img:"./Images/Rupaz Bhadra.jpg",
+    alt:"Rupaz Bhadra",
+    
+  },
+  {
+    id:4,
+    img:"./Images/Vidhi Singh.jpg",
+    alt:"Vidhi Singh",
+  },
+  {
+    id:5,
+    img:"./Images/UNHCR Executive board.jpg",
+    alt:"UNHCR Executive Board",
+  },
+  {
+    id:6,
+    img:"./Images/UNEP Executive Board.jpg",
+    alt:"UNEP Executive Board",
+  },
+  {
+    id:7,
+    img:"./Images/UNSC Executive Board.jpg",
+    alt:"UNSC Executive Board",
+  },
+  {
+    id:8,
+    img:"./Images/IPC Executive Board.jpg",
+    alt:"IPC Executive Board",
+  },
+  {
+    id:9,
+    img:"./Images/Dheeraj narayan.jpg",
+    alt:"Dheeraj Narayan",
+  },
+  {
+    id:10,
+    img:"./Images/Ankit Kumar.jpg",
+    alt:"Ankit Kumar",
+    
+  },
+  {
+    id:11,
+    img:"./Images/Abhinav Borgohain.jpg",
+    alt:"Abhinav Borgohain",
+   
+  },
+  {
+    id:12,
+    img:"./Images/Devam Nath.jpg",
+    alt:"Devam Nath",
+  },
+];
+
+export const partnerall = [
+  {
+    id:1,
+    img:"./Images/Learn while travelling.png",
+    alt:"Learn while travelling",
+    about:"Learning While Travelling",
+  },
+  {
+    id:2,
+    img:"./Images/Anterprerna.png",
+    alt:"Anterprerna",
+    about:"AnterPrerna"
+  },
+];

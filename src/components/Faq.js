@@ -39,7 +39,6 @@ const Faqmain = styled.div`
   border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
-    /* background-color: lightblue; */
     background-color: var(--color-14-038);
     color: var(--color-1-100);
   }

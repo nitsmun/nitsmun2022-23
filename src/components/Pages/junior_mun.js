@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
@@ -6,13 +6,19 @@ import { Junmun } from "../Dataset";
 import { Link } from "react-router-dom";
 import Faqs from "../Faq";
 import MockMun from "./mock_mun";
+import Sponsor from "../Sponsor";
+import Executive from "../Executive";
 
-const juniormun = () => {
+const Juniormun = () => {
+  const [active, setActive] = useState("Executive Board");
   TabTitle("NITS Junior MUN | NITSMUN");
   return (
     <>
       <div className="event-pic">
-        <img src="./Images/NITS Junior MUN official poster.png" alt="NITS Junior MUN" />
+        <img
+          src="./Images/NITS Junior MUN official poster.png"
+          alt="NITS Junior MUN"
+        />
       </div>
       <div className="event-title">
         <strong>
@@ -33,7 +39,6 @@ const juniormun = () => {
         announce the second edition of NITS Junior MUN exclusively for school
         students from 6th August to 7th August 2022.
       </div>
-      
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
@@ -50,15 +55,11 @@ const juniormun = () => {
           </Link>
         </div>
       </div>
-
-        <MockMun />
-
+      <MockMun />
       <div className="commitees-heading">
         <h1>Committees</h1>
       </div>
       <Underline2 />
-
-
       <div className="junmun-agendas">
         {Junmun.map((item) => {
           return (
@@ -73,19 +74,28 @@ const juniormun = () => {
               <div className="agendapara-container">
                 <p>{item.Agendapara}</p>
               </div>
-              
-              
+
               {item.linkbg1}
-              
             </div>
           );
         })}
       </div>
-      
+
+      <div className="btn-junior">
+        <button
+          className="active btn"
+          onClick={() => setActive("Executive Board")}
+        >
+          Executive Board
+        </button>
+        <button className="active btn" onClick={() => setActive("Partners")}>
+          Partners
+        </button>
+      </div>
+      {active === "Executive Board" && <Executive />}
+      {active === "Partners" && <Sponsor />}
 
       <Faqs />
-
-
       <div className="junmun2021">
         <h1>Reminiscence Of Junior Mun 2021</h1>
       </div>{" "}
@@ -110,4 +120,4 @@ const juniormun = () => {
   );
 };
 
-export default juniormun;
+export default Juniormun;
