@@ -15,6 +15,12 @@ const team = () => {
   TabTitle("NITSMUN Team | NITS MUN");
   return (
     <>
+      <div className="secre-pic">
+        <img
+          src="./Images/NITSMUN Secretariat final(2).jpg"
+          alt="NITS Junior MUN"
+        />
+      </div>
       <div className="team-head0">
         <h1 className="team-head-h1">Secretariat</h1>
       </div>

@@ -12,6 +12,9 @@ const articles = () => {
         <h1>Articles</h1>
       </div>
       <div className="article-main-content">
+        <div className="last-up">
+          <h5>Last Updated : 19 Aug, 2022</h5>
+        </div>
         {Articledata.map((item) => {
           return (
             <div className="article-container" key={item.id}>

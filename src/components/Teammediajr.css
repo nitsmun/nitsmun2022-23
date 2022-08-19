@@ -22,6 +22,7 @@
     overflow: hidden;
     aspect-ratio: 1/1;
     opacity: 0.85;
+    pointer-events: none;
 }
 
 .team-stats-card2{

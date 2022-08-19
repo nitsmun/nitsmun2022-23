@@ -64,6 +64,7 @@
   width: 35em;
   max-width: 100%;
   vertical-align: middle;
+  pointer-events: none;
 }
 .nm22-agendaimg2 {
   padding-left: 0.7em;
@@ -71,6 +72,7 @@
   width: 30em;
   max-width: 100%;
   vertical-align: middle;
+  pointer-events: none;
 }
 .nm22-exemain {
   background-color: var(--color-17-100);
@@ -88,6 +90,7 @@
 .nm22-exmianimg {
   width: 25em;
   max-width: 100%;
+  pointer-events: none;
 }
 .grid1 {
   display: flex;

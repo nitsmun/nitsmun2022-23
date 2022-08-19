@@ -52,6 +52,7 @@
 .img-holder img{
     height: 21.875rem;
     border-radius: 5%;
+    pointer-events: none;
 }
 
 .img-holder{
@@ -59,6 +60,25 @@
     margin: -15px 2.5rem 1.25rem 6.25rem;
     text-align: center;
     min-height: 12.5rem;
+}
+
+.last-up{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top:1vh !important;
+    border-bottom: 1px dotted var(--color-1-100);
+}
+
+@media only screen and (max-width:991px){
+    .last-up{
+        width: 40%;
+    }
+
+    .last-up h5{
+        font-size: 0.6rem;
+    }
 }
 
 .post-date h3{

@@ -127,6 +127,7 @@
   width: 25rem;
   max-width: 25rem;
   padding: 0 1.875rem;
+  pointer-events: none;
 }
 .title01-container {
   text-align: center;
@@ -265,6 +266,7 @@
   width: 350px;
   margin: 10px 10px;
   border-radius: 10px;
+  pointer-events: none;
 }
 .images-junmun21 {
   display: flex;
@@ -511,6 +513,7 @@ padding-right: 1rem;
 
 .partner-img img{
   width: 50%;
+  pointer-events: none;
 }
 
 .jdv-list{
@@ -518,6 +521,7 @@ padding-right: 1rem;
 }
 .jdv-list img{
   width: 15rem;
+  pointer-events: none;
 }
 
 @media only screen and (max-width:660px){

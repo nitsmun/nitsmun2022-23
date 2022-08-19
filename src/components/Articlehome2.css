@@ -49,6 +49,7 @@ body {
   width: 100%;
   max-width: 100%;
   border-radius: 0.625rem 0.625rem 0 0;
+  pointer-events: none;
 }
 
 .team-section-body {

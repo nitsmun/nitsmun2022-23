@@ -21,6 +21,7 @@
     opacity: 0.85;
     padding: 1.25rem;
     overflow: hidden;
+    pointer-events: none;
     aspect-ratio: 1/1;
 }
 

@@ -24,7 +24,7 @@
   height: 28rem;
   width: 28rem;
   max-width: 100%;
-  /* max-height: fit-content; */
+  pointer-events: none;
   aspect-ratio: 1/1;
 }
 

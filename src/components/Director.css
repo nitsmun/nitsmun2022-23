@@ -4,6 +4,7 @@
   height: auto;
   border: 0.1875rem solid white;
   border-radius: 20%;
+  pointer-events: none;
   /* padding-top: 5%; */
 }
 
