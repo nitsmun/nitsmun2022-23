@@ -17,8 +17,8 @@ const team = () => {
     <>
       <div className="secre-pic">
         <img
-          src="./Images/NITSMUN Secretariat final(2).jpg"
-          alt="NITS Junior MUN"
+          src="./Images/NITSMUN Secretariat final.jpg"
+          alt="NITS Secretariat"
         />
       </div>
       <div className="team-head0">

@@ -687,6 +687,14 @@ export const Articleforhome = [
 export const Articledata = [
   {
     id:1,
+    Artimg:"./Images/International day of remembrance.jpeg",
+    Title:"International Day Of Remembrance And Tribute To The Victims Of Terrorism",
+    Alt:"International Day Of Remembrance And Tribute To The Victims Of Terrorism",
+    Date:"Posted on: 21st August, 2022",
+    Content:"Terrorism today has become the systematic weapon of a war that knows no borders or seldom has a face. And despite international condemnation of terrorism, terrorist attacks that spread a wide range of hateful ideologies continue to harm, maim and kill thousands of innocent people each year. In this chaos, the voices of the victims are often left unheard, their rights being forgotten, their needs remaining unattended and their values lost forever. Most of the victims of terrorism are innocent civilians, in the wrong place at the wrong time, targeted by brutal and indiscriminate attacks. The lives of survivors of the attacks and the families of the victims are irreparably damaged. It takes many survivors years, and some never recover from these traumatic memories. For this reason, the United Nations General Assembly established the International Day of Remembrance of and Tribute to the Victims of Terrorism to be commemorated annually on 21 August since 2017, in order to fully honour and support the victims and survivors of terrorism and to promote and protect the full enjoyment of their human rights and fundamental freedoms. We cannot have a war on terrorism when war itself is terrorism. This year, NITSMUN urges everyone to remember and honour the victims of terrorism and celebrate this day as an opportunity to promote peaceful coexistence between different cultures and civilizations.",
+  },
+  {
+    id:2,
     Artimg:"./Images/World Humanitarian Day.webp",
     Title:"World Humanitarian Day",
     Alt:"World Humanitarian Day",
@@ -694,7 +702,7 @@ export const Articledata = [
     Content:"Our planet is suffering from multiple crises: Violent conflicts; some years-long, intensifying droughts; extreme weather and epidemics as climate change ; pandemics like  COVID-19. More people than ever before need humanitarian assistance.  There is a saying that goes: It takes a village to raise a child. Similarly, it takes many people to support a person in a humanitarian crisis. With the world reaching the zenith of humanitarian needs, this year’s World Humanitarian Day (WHD) builds on this metaphor of collective endeavor to grow global appreciation of humanitarian work. On 19 August 2003, a bomb attack in Baghdad, Iraq, killed 22 humanitarian aid workers, including the UN Special Representative of the Secretary-General for Iraq. Five years after that terrible mishap, the United Nations General Assembly adopted a resolution designating 19 August as World Humanitarian Day (WHD). Far from any spotlight , some God-like  souls come together to ease suffering and bring optimism.The 2022 WHD campaign pays a heed to the thousands of volunteers and professionals  who deliver urgent health care, shelter, food, protection, water and much more. Each year, WHD brings together countries from across the humanitarian system to stand together, hand-in-hand,  for the survival, well-being and dignity of people affected by crises, and for the safety and security of aid workers.WHD is a campaign organized  by the United Nations Office for the Coordination of Humanitarian Affairs (OCHA). This year NITSMUN takes pride   and the opportunity to raise awareness and show the importance, effectiveness and positive impact of humanitarian work.",
   },
   {
-    id:2,
+    id:3,
     Artimg:"./Images/World Menstrual Hygiene day.jpeg",
     Title:"World Menstrual Hygiene Day",
     Alt:"World Menstrual Hygiene Day",
@@ -702,7 +710,7 @@ export const Articledata = [
     Content:"“Don’t go near the temple”, “Don’t cook or touch anything in the kitchen” and similar others are some common phrases every Indian woman gets to hear during her “that time of the month” when she is often considered “unclean”. Even in 2022, menstruation is considered a taboo, not only in India but in fact all over the world. Still today, menstruation is a period that is a reason for discrimination and exclusion for millions of girls and women. Fun fact, 28th Of May is celebrated as World Menstrual Hygiene Day as each menstrual cycle is of approximately 28 days and 5 days is the average period of menstruation. Fascinating right? This day was initiated by a german-based NGO WASH UNITED under UNICEF in 2014 to break social stigmas, educate women, provide moral support, and develop more hygienic facilities in developing countries. Every year, UNICEF conducts campaigns, donates sanitary products, and intends to innovate, create awareness, and find solutions to the daily challenges faced by menstruators. MHD’s theme this year is “To create a world where no women or girl is held back because they menstruate, by 2030” and it's all about breaking stigmas on menstruation all over the world. It aims to make that 15-year-old girl more confident about who she is, to make that 30-year-old working mother feel unashamed to share her feelings, to stop those people who think menstrual onset is a time to get her married, to stop those widening eyes when they hear “that” word, to make the word menstruation a normal rather than a secretive shame. Today, NITSMUN stands holding hands with all the menstruators in the world, recalling that chapter which we studied back in eighth grade as an explanation of a normal phenomenon and wishes them a Happy World’s Menstrual Hygiene Day!",
   },
   {
-    id: 3,
+    id: 4,
     Artimg: "./Images/International day for Biological diversity.jpg",
     Title: "International Day For Biological Diversity",
     Alt: "International Day For Biological Diversity",
@@ -710,7 +718,7 @@ export const Articledata = [
     Content: "With the aim of increasing awareness and understanding for biodiversity issues, 22nd May is proclaimed as “The International Day for Biodiversity Diversity (IDB)” by the United Nations. Initially 29th December was the date attached with IDB, but in December 2000, the UN General Assembly adopted 22 May as IDB, to commemorate the adoption of the text of the Convention on 22 May 1992 by the Nairobi Final Act of the Conference for the Adoption of the Agreed Text of the Convention on Biological Diversity. IDB has an unique theme for each year and likewise the theme for the year 2022 is “BUILDING A SHARED FUTURE FOR ALL LIFE”. This year's theme is decided after taking into consideration the aim of highlighting the importance of biodiversity for many sustainable development issues. When we think about the lifestyle we are leading, the significance of this day comes into light as well. It is BIODIVERSITY that not only provides a home for many of the world's species, but also serves as a source of food, water, and other resources that we rely on to survive. Hence, understanding the value of biodiversity and acknowledging the problems associated with it is the need of the hour. Thus, this day is of utmost importance as well. To sum up, on this International Biodiversity Day, NITSMUN urges everyone to celebrate the biodiversity our Mother Nature embraces and work each day for giving all species their right to thrive on this planet.",
   },
   {
-    id: 4,
+    id: 5,
     Artimg: "./Images/World day for cultural diversity.jpg",
     Title: "World Day For Cultural Diversity",
     Alt: "World day for cultural diversity",
@@ -719,7 +727,7 @@ export const Articledata = [
       "In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges. Keeping these things in mind, the United Nations General Assembly declared this international holiday in 2002 following UNESCO's adoption of the Universal Declaration on Cultural Diversity in 2001 under UN Resolution 57/249. They recognise the need to “enhance the potential of culture as a means of achieving prosperity, sustainable development and global peaceful coexistence.” Since then, this day has been celebrated all over the world to spread awareness about the need to bridge cultures for peace, stability and development. An interesting statistic to put this into perspective - over three fourths of world conflicts is due to lack of cultural harmony. The pandemic also proved the value and importance of the cultural and creative sector in generating social cohesion, educational resources and personal well-being in times of crisis. Cultural diversity contributes to both economic and personal development through exchange of ideas, intellectual values, emotions and morals, which makes it an indispensable part of sustainable development. Therefore, NITSMUN calls for the people of this world to come together and spread the essence of cultural diversity and hence, indirectly work towards making this world a better place to live in.",
   },
   {
-    id: 5,
+    id: 6,
     Artimg: "./Images/World telecommunication and information society day may 17.jpg",
     Title: "World Telecommunication And Information Society Day",
     Alt: "World telecommunication and information society day",
@@ -728,7 +736,7 @@ export const Articledata = [
       "Internet. A vast space just like the universe has changed the era of humanity. And look you’re using it right now. This generation can’t even be imagined without the internet. Starting from the era of telegrams, telephones, and televisions to a small rectangle-shaped device that contains the whole world, we’ve come a long way. Since 1969, 17 may is marked as the day of the singing of the first International Telegraph Convention(ITC) and the creation of the International Telecommunication Union(ITU). The General Assembly adopted a resolution (A/RES/60/252) in March 2006 stipulating that World Information Society Day (WISTD) shall be celebrated every year on 17 May. On this day, the world is brought together with new innovations and ideas to enhance communication around the globe. Various programs and meetings are arranged to discuss the ongoing issues and develop more connections and eradicate the digital divide, inequality between the countries. And this union aims towards highlighting and working on major issues like these to bring people together. The past three years have brought many challenges including the need of accelerating digital transformation and retrieve information globally. The covid-19 pandemic taught us how to stay close to our loved ones even when they are far away. Every year, the day is celebrated under a particular theme, and this year it is - Digital Technologies For Older Persons And Healthy Ageing. This year’s theme emphasizes the use of information technologies and their importance to stay healthy, connected, and independent on a physical, emotional, and financial level. Today, NITSMUN recognizes this initiative taken by the United Nations and celebrates the internet and this feeling of being blessed by the technology around us as a whole and as a way of living.",
   },
   {
-    id:6,
+    id:7,
     Artimg:"./Images/Time Of Rememberance And Reconciliation.jpeg",
     Title:"Time Of Rememberance And Reconciliation",
     Alt:"Time Of Rememberance And Reconciliation",
@@ -736,7 +744,7 @@ export const Articledata = [
     Content:"The Second World War started when Nazi Germany under Adolf Hitler decided to attack Poland, in 1939. It has been the worst conflict in human history killing at least 40 to 50 million people. The Second World War resulted in the death of 5.8 million people from Poland, which was 20% of Poland's pre-war population. Homes destroyed, industries uprooted, cities deserted, the Second World War brought a wave of destruction which eventually ended with the surrender of Imperial Japan after nuclear attacks on Hiroshima and Nagasaki. On 8th May 1945, Nazi Germany officially surrendered unconditionally to the allied forces. Therefore, to commemorate all the victims of the Second World War, the UN General Assembly, by resolution 64/257, invited all member states to observe 8th and 9th May as a day to pay tribute to all the lives lost during the Second World War. With the ongoing tensions in the world, it becomes more important for us to understand what destruction a massive conflict like this can bring to humanity. Therefore, NITSMUN today takes this chance to remember all the lives lost during the Second World War and promote the UN motto 'Peace, dignity and equality on a healthy planet'."
   },
   {
-    id: 7,
+    id: 8,
     Artimg: "./Images/World press freedom day may 3.jpg",
     Title: "World Press Freedom Day",
     Alt: "World press freedom day",
@@ -744,7 +752,7 @@ export const Articledata = [
     Content: "World Press Freedom Day was declared by the UN General Assembly in December 1993, following the recommendation of the UNESCO General Conference. Since then, May 3, the anniversary of the Declaration of Windhoek has been celebrated worldwide as World Press Freedom Day. May 3 acts as a reminder to governments of the need to respect their commitment to press freedom and is also a day of reflection among media professionals about issues of press freedom and professional ethics. This year on 2-5 May 2022, UNESCO and the Republic of Uruguay will host the annual World Press Freedom Day Global Conference in a hybrid format in Punta Del Este, Uruguay. Under the theme “Journalism under Digital Siege”, the digital era’s impact on freedom of expression, the safety of journalists, access to information and privacy will be discussed. Journalists and media workers are increasingly facing physical and verbal abuse, threats and intimidation, lawsuits and imprisonment to silence them. Online sexual harassment of female journalists has increased exponentially. Anti-media rhetoric, repeatedly used by some politicians and government leaders, undermines freedom of speech and puts individual journalists at risk. This year NITSMUN takes this chance and opportunity to raise awareness of the fact that for humanity’s well-being, accurate information is a public good and to fully honour the courage of journalists to inform the public, we must ensure that their rights are respected, protected and met.",
   },
   {
-    id:8,
+    id:9,
     Artimg:"./Images/World Day For Safety And Health At Work.jpeg",
     Title:"World Day For Safety And Health At Work",
     Alt:"World Day For Safety And Health At Work",
@@ -752,7 +760,7 @@ export const Articledata = [
     Content:"As a part of the Global Strategy on Occupational Safety and Health, the International Labour Organization (ILO) began to observe World Day For Safety and Health at Work on 28 April in order to stress the prevention of accidents and diseases at work. The theme for this year is 'Act together to build a positive safety and health culture'. With the advent of new technologies and production processes, workers are more prone to emerging occupational risks. As per the UN, during the COVID-19 pandemic, a strong OSH (Occupational Safety and Health) system was seen, which included meaningful participation of governments, employers, workers and all relevant stakeholders which proved crucial in protecting work environments. We need to focus on building a positive OSH culture which can be achieved through inclusion and open communication between all relevant parties. As we continue to live through a global health crisis and ongoing OSH risks in the world of work, we must continue to work towards building a strong safety and health culture at all levels.",
   },
   {
-    id:9,
+    id:10,
     Artimg:"./Images/International day of Multilateralism and diplomacy for peace april 24.jpg",
     Title:"International Day Of Multilateralism And Diplomacy",
     Alt:"International day of Multilateralism and diplomacy",
@@ -760,7 +768,7 @@ export const Articledata = [
     Content:"Following the dreads of the Second World War, the United Nations came into existence. Gradually the world alongside the UN understood the importance of diplomacy for peace and truce. In the “General debate of September, 2018”, World Leaders united and declared “International Day of Multilateralism and Diplomacy for Peace” to be marked each year on 24th April. Multilateralism has its own essence. It embraces the philosophy of acceptance and international cooperation. It is also an essential commodity for the 2030 agenda for Sustainable Development. We are in a dreadful period where revolts occur capriciously. The dreads of Afghanistan, Israel-Palestine, Russia-Ukraine show us the essential need of truce through talks. The increasing vigour in nuclear and destructive weapons should also be monitored and controlled by the member states. NITSMUN alongside all the solicitous organisations urge the council of states to implement the promises signed on paper. As they say, one piece of paper is sharper than a sword. And one action of accord is powerful than an army!",
   },
   {
-    id:10,
+    id:11,
     Artimg:"./Images/International mother earth day.jpg",
     Title:"International Mother Earth Day",
     Alt:"International mother earth day",
@@ -768,7 +776,7 @@ export const Articledata = [
     Content:"The original roots of designating a day for Mother earth goes back to the 1970s when environmental protection was not yet a priority of the national political agendas. The UN Conference on the Human Environment 1972 in Stockholm marked the beginning of global awareness of the interdependence among people, other living species and our planet, as well as the establishment of World Environment Day on 5 June and the UN Environment Programme. Heat waves, cyclones and floods during the dry season- are some of the SOS calls we have come across but have failed to meet the expectation at an institutional level. The past world leaders were reluctant enough to not take any coordinated and well-executed action despite having plans of sustainability against man’s never-ending demand of extracting natural resources. Now, we are running out of time, and climate change is triggering an irreversible chain reaction causing extreme weather events across the globe. Moreover, the average global temperatures are expected to rise by at least 1.5 degrees which could further be increased if timely actions are not put in place. Despite our advancements in technological and educational fields, we have been quite incapable of catering to Mother Earth which has provided us with all her natural resources. The NITSMUN fraternity requests you all to stop being ignorant and become vocal advocates of sustainable development, by spreading awareness about the same and by becoming the change you seek in society. TOGETHER WE CAN, TOGETHER WE WILL!",
   },
   {
-    id:11,
+    id:12,
     Artimg:"./Images/World Health Day.webp",
     Title: "World Health Day",
     Alt:"World Health Day",

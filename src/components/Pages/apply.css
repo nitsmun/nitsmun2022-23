@@ -7,6 +7,7 @@
 .img-apply img{
     margin: 14vh 0 5vh 0vh;
     width: 18rem;
+    pointer-events: none;
 }
 
 .apply-container a{
