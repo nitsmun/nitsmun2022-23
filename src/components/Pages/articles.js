@@ -13,7 +13,7 @@ const articles = () => {
       </div>
       <div className="article-main-content">
         <div className="last-up">
-          <h5>Last Updated : 21<sup>st</sup> Aug, 2022</h5>
+          <h5>Last Updated : 23<sup>rd</sup> Aug, 2022</h5>
         </div>
         {Articledata.map((item) => {
           return (
