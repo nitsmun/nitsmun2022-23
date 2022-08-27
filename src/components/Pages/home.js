@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./home.css";
 import Director from "../Director";
 import Slider from "../Slider/Slider";
@@ -7,9 +7,22 @@ import Secretary from "../Secretary";
 import Timer from "../Timer";
 import Hometop from "../Hometop";
 import ArticleHome2 from "../ArticleHome2";
+import Loading from "../Loading";
 
-const home = () => {
+const Home = () => {
   TabTitle("NITS MUN");
+  const [isFetching, setIsFetching] = useState(true);
+
+  useEffect(() => {
+    setTimeout(function () {
+      setIsFetching(false);
+    }, 400);
+  }, []);
+
+  if (isFetching) {
+    return <Loading />;
+  }
+
   return (
     <>
       <div>
@@ -31,4 +44,4 @@ const home = () => {
     </>
   );
 };
-export default home;
+export default Home;

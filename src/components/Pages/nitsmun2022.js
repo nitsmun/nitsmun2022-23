@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./nitsmun2022.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline from "../Underline";
-import {carouselData} from '../Dataset';
+import { carouselData } from "../Dataset";
 import "./home.css";
-const nitsmun2022 = () => {
+import Loading from "../Loading";
+const Nitsmun2022 = () => {
   TabTitle("NITSMUN 2022 | NITSMUN");
+  const [isFetching, setIsFetching] = useState(true);
 
+  useEffect(() => {
+    setTimeout(function () {
+      setIsFetching(false);
+    }, 200);
+  }, []);
+
+  if (isFetching) {
+    return <Loading />;
+  }
   return (
     <div className="nitsmun22-main">
-      
       <div className="nm22-head">
         <h1>NITSMUN 2022</h1>
         <Underline />
@@ -121,32 +131,26 @@ const nitsmun2022 = () => {
         <h1>Glimpses From Past Conferences</h1>
       </div>
 
-      
-
-
       <div className="slider-m">
-            <div className="slide-track-m">
+        <div className="slide-track-m">
+          {carouselData.map((item) => {
+            return (
+              <div className="slide2-m" key={item.id}>
+                <img src={item.mockimage1} alt={item.mockalt1} />
+              </div>
+            );
+          })}
 
-            {carouselData.map((item) => {
-              return(
-                <div className="slide2-m" key={item.id}>
-                  <img src={item.mockimage1} alt={item.mockalt1} />
-                </div>
-              )
-            })}
-
-
-            {carouselData.map((item) => {
-              return(
-                <div className="slide2-m" key={item.id}>
-                  <img src={item.mockimage1} alt={item.mockalt1} />
-                </div>
-              )
-            })}
-
-            </div>
+          {carouselData.map((item) => {
+            return (
+              <div className="slide2-m" key={item.id}>
+                <img src={item.mockimage1} alt={item.mockalt1} />
+              </div>
+            );
+          })}
         </div>
+      </div>
     </div>
   );
 };
-export default nitsmun2022;
+export default Nitsmun2022;

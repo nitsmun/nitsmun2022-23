@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./articles.css";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { TabTitle } from "../Utils/Genfn";
 import { Articledata } from "../Dataset";
 import Underline3 from "../Underline/Underline3";
-const articles = () => {
+import Loading from "../Loading";
+const Articles = () => {
   TabTitle("Articles | NITS MUN");
+  const [isFetching, setIsFetching] = useState(true);
+
+  useEffect(() => {
+    setTimeout(function () {
+      setIsFetching(false);
+    }, 200);
+  }, []);
+
+  if (isFetching) {
+    return <Loading />;
+  }
   return (
     <>
       <div className="articles-heading-cont">
@@ -65,4 +77,4 @@ const articles = () => {
     </>
   );
 };
-export default articles;
+export default Articles;

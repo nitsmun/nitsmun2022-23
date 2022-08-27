@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./team.css";
 import { Secretariat } from "./Dataset";
 import Teamjr from "./Teamjr";
@@ -11,8 +11,22 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import Underline2 from "./Underline2";
 import { TabTitle } from "./Utils/Genfn";
-const team = () => {
+import Loading from "./Loading";
+
+const Team = () => {
   TabTitle("NITSMUN Team | NITS MUN");
+  const [isFetching, setIsFetching] = useState(true);
+
+  useEffect(() => {
+    setTimeout(function () {
+      setIsFetching(false);
+    }, 200);
+  }, []);
+
+  if (isFetching) {
+    return <Loading />;
+  }
+
   return (
     <>
       <div className="secre-pic">
@@ -73,4 +87,4 @@ const team = () => {
     </>
   );
 };
-export default team;
+export default Team;

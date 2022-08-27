@@ -1,0 +1,66 @@
+.dotdotload{
+    padding-top: 40vh;
+    height: 100vh;
+    background-color:var(  --color-1-100);
+  }
+  
+  .loading-8{
+    text-align: center;
+    width: 100%;
+  }
+  
+  .load-main{
+    display: inline-block;
+    margin-right: 15px;
+    color: #ff8b57;
+  }
+  
+  .loading-8 span{
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ffd957;
+    animation-name: dots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .loading-8 span:nth-child(2){
+    background-color: #57ffa0;
+    animation-delay: 0.4s;
+  }
+  
+  .loading-8 span:nth-child(3){
+    background-color: #ff8b57;
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes dots {
+    50%{
+      opacity: 0;
+      transform: scale(0.7) translateY(10px);
+    }
+  }
+  
+
+.load-name{
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-style: italic;
+  color: transparent;
+  background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  animation: animate 2s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  margin-bottom: 1vh;
+}
+
+@media only screen and (max-width:660px){
+  .load-name{
+    font-size: 0.8rem;
+  }
+}
