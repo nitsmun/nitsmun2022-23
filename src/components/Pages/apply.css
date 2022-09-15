@@ -22,7 +22,7 @@
     border-radius: 1.875rem;
     font-size:1.1875rem;
     font-variant: small-caps;
-    transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
 }
 
 .apply-container a:hover{
