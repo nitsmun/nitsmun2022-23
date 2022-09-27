@@ -1,19 +1,21 @@
 import React from "react";
 import "./Director.css";
+import Underline from "./Underline";
 
 const Director = () => {
   return (
     <div>
-      <div className="glimpses-section">
-        <div className="glimpses">
-          <h1>Message From The Director</h1>
-        </div>
+      <div className="msg-secretary dir-2">
+        <h2 className="sec-head1">Message From The Director</h2>
+        <Underline />
+        <br />
+        <br />
       </div>
 
       <div className="sec-main1">
         <div className="sec-padding1"></div>
         <div className="dir-imgcon">
-          <div>
+          <div className="dir-imge">
             <img
               src="./Images/Director.jpg"
               alt="Prof. SIVAJI BANDYOPADHYAY"
@@ -31,7 +33,6 @@ const Director = () => {
               fontSize: "1.1rem",
               lineHeight: "1.6",
               fontWeight: "600",
-              
             }}
           >
             <br />

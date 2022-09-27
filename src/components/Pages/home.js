@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import Director from "../Director";
-import Slider from "../Slider/Slider";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
-import Timer from "../Timer";
 import Hometop from "../Hometop";
 import ArticleHome2 from "../ArticleHome2";
 import Loading from "../Loading";
+import ImageSliderComponent from "../ImageSliderComponent";
+import Underline from "../Underline";
 
 const Home = () => {
   TabTitle("NITS MUN");
@@ -15,7 +15,7 @@ const Home = () => {
 
   useEffect(() => {
     setTimeout(function () {
-      setIsFetching(false);
+      setIsFetching(false);       //setting up "fetching data loader"
     }, 400);
   }, []);
 
@@ -27,18 +27,14 @@ const Home = () => {
     <>
       <div>
         <Hometop />
-        <Timer />
       </div>
-      <br />
-      <br />
       <Director />
       <Secretary />
-      <div className="glimpses-section">
-        <div className="glimpses">
-          <h1>Glimpses From Past Conferences</h1>
-        </div>
-        <Slider />
+      <Underline />
+      <div className="photo-title">
+        <h1>Photo Gallery</h1>
       </div>
+      <ImageSliderComponent />
       <ArticleHome2 />
       <br />
     </>

@@ -109,7 +109,7 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 1.25rem;
-    transition: transform 0.4s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.4s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    transition: transform 0.4s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.4s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 }
 
 .notfound-tohome:hover{

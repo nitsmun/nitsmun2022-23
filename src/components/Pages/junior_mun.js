@@ -3,15 +3,15 @@ import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
 import { Junmun } from "../Dataset";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Faqs from "../Faq";
-import MockMun from "./mock_mun";
-import Sponsor from "../Sponsor";
+// import MockMun from "./mock_mun";
+// import Sponsor from "../Sponsor";
 import Executive from "../Executive";
 import Loading from "../Loading";
 
 const Juniormun = () => {
-  const [active, setActive] = useState("Executive Board");
+  // const [active, setActive] = useState("Executive Board");
   TabTitle("NITS Junior MUN | NITSMUN");
   const [isFetching, setIsFetching] = useState(true);
 
@@ -34,7 +34,7 @@ const Juniormun = () => {
       </div>
       <div className="event-title">
         <strong>
-          <h1>NITS JUNIOR MUN</h1>
+          <h1>NITS JUNIOR MUN 2022</h1>
         </strong>
       </div>
       <div className="event-details">
@@ -46,11 +46,15 @@ const Juniormun = () => {
         bring together students from elementary to college levels and provide a
         platform to discuss global issues through a formal procedure.
         <br /> <br />
-        After successfully conducting NITS Junior MUN exclusively for school
-        students last year and with its great success , NITSMUN is proud to
-        announce the second edition of NITS Junior MUN exclusively for school
-        students from 6th August to 7th August 2022.
+        NITS Junior MUN 2022 was held on the 6 and 7 August 2022. It ran in a
+        hybrid mode this time with a grand opening ceremony that took place
+        offline. There were three commitees this time which took place in online
+        mode. Even if it was held online, the pomp and enthusiasm shown by the
+        delegates of the various commitees were praise-worthy. And we hope to
+        witness this energy and enthusiasm in the coming years as well.
       </div>
+      {/* 
+
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
@@ -66,8 +70,8 @@ const Juniormun = () => {
             <button className="hometop-link1btn">Register Now</button>
           </Link>
         </div>
-      </div>
-      <MockMun />
+      </div> */}
+      {/* <MockMun /> */}
       <div className="commitees-heading">
         <h1>Committees</h1>
       </div>
@@ -92,8 +96,7 @@ const Juniormun = () => {
           );
         })}
       </div>
-
-      <div className="btn-junior">
+      {/* <div className="btn-junior">
         <button
           className="active btn"
           onClick={() => setActive("Executive Board")}
@@ -105,27 +108,49 @@ const Juniormun = () => {
         </button>
       </div>
       {active === "Executive Board" && <Executive />}
-      {active === "Partners" && <Sponsor />}
-
+      {active === "Partners" && <Sponsor />} */}
+      <Executive />
       <Faqs />
       <div className="junmun2021">
-        <h1>Reminiscence Of Junior Mun 2021</h1>
+        <h1>Reminiscence Of Junior Mun 2022</h1>
       </div>{" "}
       <Underline2 />
       <br />
       <div className="container-junmun2021">
         <div className="images-junmun21">
-          <img src="./Images/jmun_ss1.jpg" alt="Junior MUN 2021" />
-          <img src="./Images/jmun_ss2.jpg" alt="Junior MUN 2021" />
+        <img
+            src="./Images/juniormun2022/DSC_0689-compressed.jpg"
+            alt="Junior MUN 2022"
+          />
+          <img
+            src="./Images/juniormun2022/DSC_0648-compressed.jpg"
+            alt="Junior MUN 2022"
+          />
+         
         </div>
         <div className="images-junmun21">
-          <img src="./Images/jmun_ss3.jpg" alt="Junior MUN 2021" />
-          <img src="./Images/jmun_ss4.jpg" alt="Junior MUN 2021" />
-          <img src="./Images/jmun_ss5.jpg" alt="Junior MUN 2021" />
+          <img
+            src="./Images/juniormun2022/DIP_8467-compressed.jpg"
+            alt="Junior MUN 2022"
+          />
+          <img
+            src="./Images/juniormun2022/DIP_8541-compressed.jpg"
+            alt="Junior MUN 2022"
+          />
+          <img
+            src="./Images/juniormun2022/DSC_0672-compressed.jpg"
+            alt="Junior MUN 2021"
+          />
         </div>
         <div className="images-junmun21">
-          <img src="./Images/jmun_ss6.jpg" alt="Junior MUN 2021" />
-          <img src="./Images/jmun_ss7.jpg" alt="Junior MUN 2021" />
+          <img
+            src="./Images/juniormun2022/DIP_8466-min.jpg"
+            alt="Junior MUN 2022"
+          />
+          <img
+            src="./Images/juniormun2022/DSC_0675-compressed.jpg"
+            alt="Junior MUN 2022"
+          />
         </div>
       </div>
     </>

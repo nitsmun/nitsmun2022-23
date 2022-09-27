@@ -2,8 +2,8 @@
 .dir-img {
   width: 18em;
   height: auto;
-  border: 0.1875rem solid white;
-  border-radius: 20%;
+  /* border: 0.1875rem solid white; */
+  border-radius: 10%;
   pointer-events: none;
   /* padding-top: 5%; */
 }
@@ -18,7 +18,7 @@
 .sec-main1 {
   display: flex;
   background-color: rgba(250, 247, 241, 0.438);
-  padding-top: 3em;
+  padding-top: 0em;
   padding-bottom: 3em;
   box-shadow: 0.1875rem brown;
 }
@@ -104,3 +104,17 @@
   .dir-img {width: 15rem;
     height: auto;
 }}
+
+.dir-2{
+  background-color: white !important;
+}
+
+.dir-imge{
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width:990px){
+  .dir-imge{
+    margin-top: 0 !important;
+  }
+}

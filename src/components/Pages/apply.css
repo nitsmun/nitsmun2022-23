@@ -10,7 +10,7 @@
     pointer-events: none;
 }
 
-.apply-container a{
+/* .apply-container a{
     margin-top: 3vh;
     padding: 0.9375rem 1.25rem;
     width: 70%;
@@ -42,7 +42,7 @@
           {
               box-shadow: 1px 1px 1px 1px #e2564f;
               transform: translateY(2px);
-          } 
+          }  */
 
 
 @media only screen and (max-width: 1000px){
@@ -56,13 +56,13 @@
         height: 75vh;
     }
 
-    .apply-container a{
+    /* .apply-container a{
         width: 90%;
         font-size: 0.875rem;
         padding-top: 0.625rem;
         padding-bottom: 0.625rem;
         margin-top: 2vh !important;
-    }
+    } */
 }
 
 
@@ -72,9 +72,9 @@
                 padding-top: 2.5rem;
             }
 
-            .apply-container a{
+            /* .apply-container a{
                 font-size: 0.875rem;
-            }
+            } */
 }
 
 
@@ -89,10 +89,10 @@
         padding-top: 0.625rem;
     }
 
-    .apply-container a{
+    /* .apply-container a{
         font-size: 1.125rem;
         margin-top: 4vh !important;
-    }
+    } */
 }
 
 
@@ -104,10 +104,106 @@
         margin-bottom: 0;
     }
 
-    .apply-container a{
+    /* .apply-container a{
         width: 90%;
         font-size: 0.625rem;
         padding-top: 0.625rem;
         padding-bottom: 0.625rem;
+    } */
+}
+
+.application-btn{
+    display: block;
+    cursor: pointer;
+    width: 70%;
+    margin: 1.5rem auto;
+    background-color: var(--color-4-100);
+    color: var(--color-5-100);
+    font-weight: 900;
+    line-height: 1.6;
+    border-radius: 1.875rem;
+    font-size:1.1875rem;
+    font-variant: small-caps;
+    transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
+    padding: 1rem 0;
+}
+
+.application-btn:hover{
+    transform: scale(1.02);
+    color: black;
+    font-weight: 900;
+    background-color: var(--color-6-100);
+}
+
+.application-btn:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.25rem #e2564f;
+    transition: 0.5s;
+}
+
+.application-btn:active{
+    box-shadow: 1px 1px 1px 1px #e2564f;
+              transform: translateY(2px);
+}
+
+.apply-display{
+    background-color: var(--color-1-100);
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.msg-apply{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: transparent;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 4.5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    font-weight: 900;
+}
+
+@media only screen and (max-width:1000px){
+    .application-btn{
+        width: 90%;
+        font-size: 0.875rem;
+       
+    }
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1025px){
+    .application-btn{
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .msg-apply{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
+    .application-btn{
+        font-size: 1.125rem;
+        /* margin-top: 4vh !important; */
+        margin: 2.5rem auto !important;
+    }
+
+    .apply-display{
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .application-btn{
+        width: 90%;
+        font-size: 0.625rem;
+    }
+
+    .msg-apply{
+        font-size: 2rem;
     }
 }

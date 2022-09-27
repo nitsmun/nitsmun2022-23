@@ -341,9 +341,35 @@
     font-weight: 700;
 }
 
+.btnreadmore{
+    margin-right: 6.875rem;
+   padding: 0 auto;
+}
 
+@media only screen and (min-device-width:1001px) and (max-device-width:1420px){
+    .btnreadmore{
+        padding-right: 2.5rem;
+    }
+}
 
+@media only screen and (max-width: 1000px){
+    .btnreadmore{
+        margin: 0;
+        padding-left: 1.17265625rem;
+        padding-right: 1.17265625rem;
+        padding-top: 0.625rem;
+    }
+}
 
+@media only screen and (max-width:320px){
+    .btnreadmore{
+        padding-left: 1.17265625rem;
+        padding-right: 1.17265625rem;
+    }
+}
 
-
-
+@media only screen and (max-width:1001px){
+    .btnreadmore{
+        margin-bottom: 5vh;
+    }
+}

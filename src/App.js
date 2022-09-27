@@ -14,6 +14,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import Scrolling from "./components/Scrolling";
 import apply from "./components/Pages/apply";
+import ArticleDetail from "./components/Pages/ArticleDetail";
+import ApplyDetail from "./components/Pages/ApplyDetail";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/nitsmun2022" component={nitsmun2022} />
             <Route path="/team" component={team} />
             <Route path="/articles" component={articles} />
+            <Route path="/article/:id"> <ArticleDetail/> </Route>
+            <Route path="/application/:id"> <ApplyDetail/> </Route>
             <Route path="/apply" component={apply} />
             <Route path="*">
               {" "}
