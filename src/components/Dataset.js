@@ -1057,11 +1057,13 @@ export const apply = [
     id: "junior_mun",
     msg:"See you in 2023!",
     btnname:"Junior Mun 2023",
+    Title:"Application ✏️ | Junior MUN"
   },
   {
     id:"annual-conference",
     msg:"See you in 2023!",
     btnname:"Annual Conference 2023",
+    Title:"Application ✏️ | Annual Conference"
   },
 ];
 

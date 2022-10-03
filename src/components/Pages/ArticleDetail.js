@@ -1,16 +1,18 @@
 import React from "react";
+import Helmet from "react-helmet";
 import { useParams, Link } from "react-router-dom";
 import { Articledata } from "../Dataset";
 import "./Articledata.css";
-import { TabTitle } from "../Utils/Genfn";
 
 const ArticleDetail = () => {
-  TabTitle("UN Day Article | NITS MUN");
   const { id } = useParams();
   return (
     <>
-      {Articledata.filter((item) => item.id === id).map((item) => (   
+      {Articledata.filter((item) => item.id === id).map((item) => (
         <>
+          <Helmet>
+            <title>{item.Title}</title>
+          </Helmet>
           <h1 className="article-detail-title">{item.Title}</h1>
           <div className="content-details" key={item.id}>
             <div className="hold-2">

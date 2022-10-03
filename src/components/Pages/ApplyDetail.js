@@ -1,10 +1,9 @@
 import React from "react";
 import { apply } from "../Dataset";
-import { TabTitle } from "../Utils/Genfn";
 import { useParams, Link } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const ApplyDetail = () => {
-  TabTitle("Applications | NITS MUN");
   const { id } = useParams();
 
   return (
@@ -13,6 +12,9 @@ const ApplyDetail = () => {
         .filter((item) => item.id === id)
         .map((item) => (
           <>
+            <Helmet>
+              <title>{item.Title}</title>
+            </Helmet>
             <div className="apply-container">
               <div className="img-apply">
                 <center>
