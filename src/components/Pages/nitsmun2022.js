@@ -12,7 +12,7 @@ const Nitsmun2022 = () => {
   useEffect(() => {
     setTimeout(function () {
       setIsFetching(false);
-    }, 200);
+    }, 100);
   }, []);
 
   if (isFetching) {

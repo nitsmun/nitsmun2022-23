@@ -45,14 +45,22 @@
     width: 50%;
     margin: 0 auto;
     color: var(--color-1-100);
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-variant: small-caps;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    /* background-color: var(--color-17-100); */
 }
 
 @media only screen and (max-width:660px){
-    .content-details, .hold-2{
+    .content-details{
+        width: 90%;
+        font-size: .95rem;
+        border-radius: 3vh;
+    }
+
+    .hold-2{
         width: 90%;
     }
 
@@ -60,10 +68,6 @@
         font-size: 1.5rem;
         width: 90%;
         padding-top: 12vh;
-    }
-
-    .content-details{
-        border-radius: 3vh;
     }
 
     /* .hold-2 img{

@@ -16,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(function () {
       setIsFetching(false);       //setting up "fetching data loader"
-    }, 400);
+    }, 150);
   }, []);
 
   if (isFetching) {

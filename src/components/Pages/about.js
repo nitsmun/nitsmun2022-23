@@ -7,15 +7,15 @@ const About = () => {
   TabTitle("About | NITS MUN");
   const [isFetching, setIsFetching] = useState(true);
 
-  useEffect(() => {
-    setTimeout(function () {
-      setIsFetching(false);
-    }, 200);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(function () {
+  //     setIsFetching(false);
+  //   }, 200);
+  // }, []);
 
-  if (isFetching) {
-    return <Loading />;
-  }
+  // if (isFetching) {
+  //   return <Loading />;
+  // }
   return (
     <div className="about-main">
       <div className="about-header">
