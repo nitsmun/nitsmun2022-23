@@ -41,6 +41,7 @@
     font-variant: small-caps;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Poppins', sans-serif;
+    /* text-transform: uppercase; */
     font-weight: 900;
 }
 
@@ -85,8 +86,7 @@
 .post-date h3{
     font-style: italic;
     font-weight: 900;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.18rem;
     color: var(--color-1-100);
 }
@@ -101,7 +101,7 @@
     font-size: 1.1rem;
     color: #222226;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     padding: 1.875rem;
     padding-top: 0.8rem !important;
     margin-right: 6.875rem;
