@@ -9,6 +9,7 @@ import Faqs from "../Faq";
 // import Sponsor from "../Sponsor";
 import Executive from "../Executive";
 import Loading from "../Loading";
+import SLides from "../../Threedcarausel";
 
 const Juniormun = () => {
   // const [active, setActive] = useState("Executive Board");
@@ -152,6 +153,7 @@ const Juniormun = () => {
             alt="Junior MUN 2022"
           />
         </div>
+        <SLides/>
       </div>
     </>
   );
