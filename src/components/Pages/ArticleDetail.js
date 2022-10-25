@@ -23,7 +23,7 @@ const ArticleDetail = () => {
             {item.Content}
           </div>
           <br />
-          <Link to="/articles">
+          <Link to="/segments">
             <button className="read-more-btn">Go Back</button>
           </Link>
           <br />

@@ -1067,3 +1067,66 @@ export const apply = [
   },
 ];
 
+export const mainbybharat = [
+  {
+    id:"ww2",
+    img:"./Images/bybharat/ep1_1.jpg",
+    image:"../Images/bybharat/ep1_1.jpg",
+    image1:"../Images/bybharat/ep1_2.jpg",
+    image2:"../Images/bybharat/ep1_3.jpg",
+    image3:"../Images/bybharat/ep1_4.jpg",
+    image4:"../Images/bybharat/ep1_5.jpg",
+    image5:<><img src="../Images/bybharat/ep1_6.jpg" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 1 BY BHARAT Powered by NITSMUN",
+    title:"Episode 1 | BY BHARAT || NITSMUN",
+    top:"Non-Aligned Movement",
+  },
+  {
+    id:"un_74th-session",
+    img:"./Images/bybharat/e2_1.webp",
+    image:"../Images/bybharat/e2_1.webp",
+    image1:"../Images/bybharat/e2_2.webp",
+    image2:"../Images/bybharat/e2_3.webp",
+    image3:"../Images/bybharat/e2_4.webp",
+    image4:"../Images/bybharat/e2_5.webp",
+    image5:<><img src="../Images/bybharat/e2_6.webp" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 2 BY BHARAT Powered by NITSMUN",
+    title:"Episode 2 | BY BHARAT || NITSMUN",
+    top:"74th Session of UN General Assembly"
+  },
+  {
+    id:"vaccine-maitri",
+    img:"./Images/bybharat/e3_1.webp",
+    image:"../Images/bybharat/e3_1.webp",
+    image1:"../Images/bybharat/e3_2.webp",
+    image2:"../Images/bybharat/e3_3.webp",
+    image3:"../Images/bybharat/e3_4.webp",
+    image4:"../Images/bybharat/e3_5.webp",
+    alt:"Episode 3 BY BHARAT Powered by NITSMUN",
+    title:"Episode 3 | BY BHARAT || NITSMUN",
+    top:"Vaccine Maitri",
+  },
+];
+
+export const Quirky = [
+  {
+    id:"ir_vs_fr",
+    img:"./Images/quirky combats/e1_1.webp",
+    title0:"Episode 1 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 1 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e1_1.webp",
+    image1:"../Images/quirky combats/e1_2.webp",
+    image2:"../Images/quirky combats/e1_3.webp",
+    top:"Iran Vs France"
+  },
+  {
+    id:"my_vs_kw",
+    img:"./Images/quirky combats/e2_1.webp",
+    title0:"Episode 2 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 2 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e2_1.webp",
+    image1:"../Images/quirky combats/e2_2.webp",
+    image2:"../Images/quirky combats/e2_3.webp",
+    top:"Myanmar vs Kuwait",
+  },
+];

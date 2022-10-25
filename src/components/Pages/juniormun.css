@@ -130,6 +130,7 @@
   object-fit: contain;
   pointer-events: none;
   border-radius: 0.625rem 0.625rem 0 0;
+  box-shadow: 0 0 0.9375rem;
 }
 
 .title01-container {
@@ -187,9 +188,11 @@
 .images-junmun21 img {
   width: 350px;
   margin: 10px 10px;
-  border-radius: 10px;
+  box-shadow: 0 0 0.9375rem;
+  border-radius: 0.625rem;
   pointer-events: none;
 }
+
 .images-junmun21 {
   display: flex;
   justify-content: center;
@@ -275,8 +278,9 @@
   text-align: center;
   margin: 0 auto;
   margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
   background-color: var(--color-12-100);
-  width: 50%;
+  width: 60%;
   border-radius: 7px;
   box-shadow: 0.1rem 0px 0.2rem 0.2rem grey;
   display: flex;
@@ -310,13 +314,13 @@ padding-right: 1rem;
 
 @media only screen and (max-width:660px){
   .btn-junior{
-    width: 85%;
+    width: 90%;
     padding: 0.8rem 0;
 }
 
 .btn-junior button{
   margin: 0 0.1rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .active .btn:hover{

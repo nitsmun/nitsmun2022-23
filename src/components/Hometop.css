@@ -47,13 +47,14 @@
   font-size: 1.25rem;
   background-color: var(--color-4-100);
   color: white;
+  transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
 }
 
 .hometop-link1btn:hover{
   color: var(--color-1-100);
     font-weight: 900;
     background-color: var(--color-6-100);
-
+    transform: scale(1.02);
 }
 
 .hometop-link1btn:active
