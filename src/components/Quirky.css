@@ -19,8 +19,25 @@
     display: inline-block;
 }
 
+.p-more{
+    margin: 5vh 0;
+    font-size: 1.5rem;
+    color: transparent;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 4.5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
 @media only screen and (max-width:660px){
     .quirkytdetail-top h1{
         font-size: 1.3rem;
+    }
+
+    .p-more{
+        font-size: 1rem;
     }
 }

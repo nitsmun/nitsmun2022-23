@@ -19,6 +19,7 @@ const ByBharat = () => {
                     )
                 })}
             </div>
+            <p className='p-more'>Stay tuned for more episodes!</p>
         </div>
     )
 }

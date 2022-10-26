@@ -589,17 +589,17 @@ export const Secretariatprjr = [
       "https://nitsmun.in/www.linkedin.com/in/priyanshu-jayant-2916ab22b",
     fb: "https://www.facebook.com/profile.php?id=100076001475322",
   },
-  {
-    id: 7,
-    cName: "team-sec",
-    imgsrc: "./Images/Mayukh Bhattacharya.jpg",
-    alt: "Mayukh Bhattacharya",
-    name: "Mayukh Bhattacharya",
-    post: "Public Relations & Outreach Team",
-    mail: "mailto:mayukh21_ug@mech.nits.ac.in",
-    linkedin: "https://www.linkedin.com/in/mayukh-bhattacharya-950a33229",
-    fb: "https://www.facebook.com/profile.php?id=100076353540131",
-  },
+  // {
+  //   id: 7,
+  //   cName: "team-sec",
+  //   imgsrc: "./Images/Mayukh Bhattacharya.jpg",
+  //   alt: "Mayukh Bhattacharya",
+  //   name: "Mayukh Bhattacharya",
+  //   post: "Public Relations & Outreach Team",
+  //   mail: "mailto:mayukh21_ug@mech.nits.ac.in",
+  //   linkedin: "https://www.linkedin.com/in/mayukh-bhattacharya-950a33229",
+  //   fb: "https://www.facebook.com/profile.php?id=100076353540131",
+  // },
 ];
 export const Secretariatwebjr = [
   {
