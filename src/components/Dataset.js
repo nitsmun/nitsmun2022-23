@@ -1129,6 +1129,16 @@ export const Quirky = [
     image2:"../Images/quirky combats/e2_3.webp",
     top:"Myanmar vs Kuwait",
   },
+  {
+    id:"pk_vs_zw",
+    img:"./Images/quirky combats/e3_1.jpg",
+    title0:"Episode 3 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 3 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e3_1.jpg",
+    image1:"../Images/quirky combats/e3_2.jpg",
+    image2:"../Images/quirky combats/e3_3.jpg",
+    top:"Pakistan vs Zimbabwe",
+  },
 ];
 
 export const diplomaticdips = [
