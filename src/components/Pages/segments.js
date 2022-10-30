@@ -4,6 +4,7 @@ import { TabTitle } from "../Utils/Genfn";
 import ByBharat from "../ByBharat";
 import QuirkyCombats from "../QuirkyCombats";
 import Articles0 from "../Articles0";
+import DiplomaticDips from "../DiplomaticDips";
 const Segments = () => {
   TabTitle("Segments | NITS MUN");
   const [active, setActive] = useState("Articles");
@@ -29,10 +30,14 @@ const Segments = () => {
         >
           Quirky Combats
         </button>
+        <button className="active btn" onClick={() => setActive("Diplomatic Dips")}>
+          Diplomatic Dips
+        </button>
       </div>
       {active === "Articles" && <Articles0 />}
       {active === "By Bharat" && <ByBharat />}
       {active === "Quirky Combats" && <QuirkyCombats />}
+      {active === "Diplomatic Dips" && <DiplomaticDips />}
       </div>
     </>
   );

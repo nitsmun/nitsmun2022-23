@@ -1130,3 +1130,31 @@ export const Quirky = [
     top:"Myanmar vs Kuwait",
   },
 ];
+
+export const diplomaticdips = [
+  {
+    id:1,
+    title:"Episode 1",
+    src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
+  },
+  {
+    id:2,
+    title:"Episode 2",
+    src:"https://www.instagram.com/p/Ci2vNkyu_Ql/embed/",
+  },
+  {
+    id:3,
+    title:"Episode 3",
+    src:"https://www.instagram.com/p/CjIk9EUrBY4/embed/",
+  },
+  {
+    id:4,
+    title:"Episode 4",
+    src:"https://www.instagram.com/p/CjavJDZrMfe/embed/",
+  },
+  {
+    id:5,
+    title:"Episode 5",
+    src:"https://www.instagram.com/p/CkQ2OnBP2g8/embed/",
+  },
+];

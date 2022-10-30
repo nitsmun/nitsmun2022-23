@@ -125,6 +125,10 @@
     width: 30%;
 }
 
+.agenda:hover{
+  transform: translateY(-2px);
+}
+
 .agenda img {
   width: 90%;
   object-fit: contain;
@@ -312,15 +316,21 @@ padding-left: 1rem;
 padding-right: 1rem;
 }
 
-@media only screen and (max-width:660px){
+@media only screen and (max-width:1200px) and (min-width:661px){
   .btn-junior{
     width: 90%;
+  }
+}
+
+@media only screen and (max-width:660px){
+  .btn-junior{
+    width: 95%;
     padding: 0.8rem 0;
 }
 
 .btn-junior button{
   margin: 0 0.1rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .active .btn:hover{

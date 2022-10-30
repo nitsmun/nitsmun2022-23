@@ -45,7 +45,8 @@ const Articles0 = () => {
           );
         })}
       </div>
-      <div className="art-art-title">
+      <p className='p-more'>Stay tuned for more articles!</p>
+      {/* <div className="art-art-title">
         <h1 className="apply-art-h1">
           Check Out{" "}
           <a
@@ -57,7 +58,7 @@ const Articles0 = () => {
           </a>{" "}
           For All Our Articles!
         </h1>
-      </div>
+      </div> */}
     </>
   )
 }

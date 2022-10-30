@@ -6,7 +6,7 @@ const ByBharat = () => {
 
     return (
         <div className='bybharat-top'>
-            <h1>BY BHARAT</h1>
+            <h1>By Bharat</h1>
             <div className="main-bybharat">
                 {mainbybharat.map((item) => {
                     return (
