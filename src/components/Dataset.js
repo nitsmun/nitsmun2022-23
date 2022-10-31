@@ -1069,17 +1069,16 @@ export const apply = [
 
 export const mainbybharat = [
   {
-    id:"ww2",
-    img:"./Images/bybharat/ep1_1.jpg",
-    image:"../Images/bybharat/ep1_1.jpg",
-    image1:"../Images/bybharat/ep1_2.jpg",
-    image2:"../Images/bybharat/ep1_3.jpg",
-    image3:"../Images/bybharat/ep1_4.jpg",
-    image4:"../Images/bybharat/ep1_5.jpg",
-    image5:<><img src="../Images/bybharat/ep1_6.jpg" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
-    alt:"Episode 1 BY BHARAT Powered by NITSMUN",
-    title:"Episode 1 | BY BHARAT || NITSMUN",
-    top:"Non-Aligned Movement",
+    id:"vaccine-maitri",
+    img:"./Images/bybharat/e3_1.webp",
+    image:"../Images/bybharat/e3_1.webp",
+    image1:"../Images/bybharat/e3_2.webp",
+    image2:"../Images/bybharat/e3_3.webp",
+    image3:"../Images/bybharat/e3_4.webp",
+    image4:"../Images/bybharat/e3_5.webp",
+    alt:"Episode 3 BY BHARAT Powered by NITSMUN",
+    title:"Episode 3 | BY BHARAT || NITSMUN",
+    top:"Vaccine Maitri",
   },
   {
     id:"un_74th-session",
@@ -1095,29 +1094,30 @@ export const mainbybharat = [
     top:"74th Session of UN General Assembly"
   },
   {
-    id:"vaccine-maitri",
-    img:"./Images/bybharat/e3_1.webp",
-    image:"../Images/bybharat/e3_1.webp",
-    image1:"../Images/bybharat/e3_2.webp",
-    image2:"../Images/bybharat/e3_3.webp",
-    image3:"../Images/bybharat/e3_4.webp",
-    image4:"../Images/bybharat/e3_5.webp",
-    alt:"Episode 3 BY BHARAT Powered by NITSMUN",
-    title:"Episode 3 | BY BHARAT || NITSMUN",
-    top:"Vaccine Maitri",
+    id:"ww2",
+    img:"./Images/bybharat/ep1_1.jpg",
+    image:"../Images/bybharat/ep1_1.jpg",
+    image1:"../Images/bybharat/ep1_2.jpg",
+    image2:"../Images/bybharat/ep1_3.jpg",
+    image3:"../Images/bybharat/ep1_4.jpg",
+    image4:"../Images/bybharat/ep1_5.jpg",
+    image5:<><img src="../Images/bybharat/ep1_6.jpg" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 1 BY BHARAT Powered by NITSMUN",
+    title:"Episode 1 | BY BHARAT || NITSMUN",
+    top:"Non-Aligned Movement",
   },
 ];
 
 export const Quirky = [
   {
-    id:"ir_vs_fr",
-    img:"./Images/quirky combats/e1_1.webp",
-    title0:"Episode 1 | QUIRKY COMBATS || NITSMUN",
-    alt:"Episode 1 QUIRKY COMBATS Powered by NITSMUN",
-    image:"../Images/quirky combats/e1_1.webp",
-    image1:"../Images/quirky combats/e1_2.webp",
-    image2:"../Images/quirky combats/e1_3.webp",
-    top:"Iran Vs France"
+    id:"pk_vs_zw",
+    img:"./Images/quirky combats/e3_1.jpg",
+    title0:"Episode 3 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 3 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e3_1.jpg",
+    image1:"../Images/quirky combats/e3_2.jpg",
+    image2:"../Images/quirky combats/e3_3.jpg",
+    top:"Pakistan vs Zimbabwe",
   },
   {
     id:"my_vs_kw",
@@ -1130,27 +1130,27 @@ export const Quirky = [
     top:"Myanmar vs Kuwait",
   },
   {
-    id:"pk_vs_zw",
-    img:"./Images/quirky combats/e3_1.jpg",
-    title0:"Episode 3 | QUIRKY COMBATS || NITSMUN",
-    alt:"Episode 3 QUIRKY COMBATS Powered by NITSMUN",
-    image:"../Images/quirky combats/e3_1.jpg",
-    image1:"../Images/quirky combats/e3_2.jpg",
-    image2:"../Images/quirky combats/e3_3.jpg",
-    top:"Pakistan vs Zimbabwe",
+    id:"ir_vs_fr",
+    img:"./Images/quirky combats/e1_1.webp",
+    title0:"Episode 1 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 1 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e1_1.webp",
+    image1:"../Images/quirky combats/e1_2.webp",
+    image2:"../Images/quirky combats/e1_3.webp",
+    top:"Iran Vs France"
   },
 ];
 
 export const diplomaticdips = [
   {
     id:1,
-    title:"Episode 1",
-    src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
+    title:"Episode 5",
+    src:"https://www.instagram.com/p/CkQ2OnBP2g8/embed/",
   },
   {
     id:2,
-    title:"Episode 2",
-    src:"https://www.instagram.com/p/Ci2vNkyu_Ql/embed/",
+    title:"Episode 4",
+    src:"https://www.instagram.com/p/CjavJDZrMfe/embed/",
   },
   {
     id:3,
@@ -1159,12 +1159,12 @@ export const diplomaticdips = [
   },
   {
     id:4,
-    title:"Episode 4",
-    src:"https://www.instagram.com/p/CjavJDZrMfe/embed/",
+    title:"Episode 2",
+    src:"https://www.instagram.com/p/Ci2vNkyu_Ql/embed/",
   },
   {
     id:5,
-    title:"Episode 5",
-    src:"https://www.instagram.com/p/CkQ2OnBP2g8/embed/",
+    title:"Episode 1",
+    src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
   },
 ];
