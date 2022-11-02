@@ -13,7 +13,9 @@ const ByBharat = () => {
                         <>
                             <div key={item.id} className="main-indi">
                                 <img src={item.img} alt="" />
-                                <Link to={`/bybharat/${item.id}`}><p className="p-by">Read more</p></Link>
+                                <div className="link-btn-btm">
+                                    <Link to={`/bybharat/${item.id}`}><p className='p-by'>Read more</p></Link>
+                                </div>
                             </div>
                         </>
                     )

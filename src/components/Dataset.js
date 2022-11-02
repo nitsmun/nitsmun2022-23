@@ -1069,6 +1069,18 @@ export const apply = [
 
 export const mainbybharat = [
   {
+    id:"decolonization",
+    img:"./Images/bybharat/e4_1.webp",
+    image:"../Images/bybharat/e4_1.webp",
+    image1:"../Images/bybharat/e4_2.webp",
+    image2:"../Images/bybharat/e4_3.webp",
+    image3:"../Images/bybharat/e4_4.webp",
+    image4:"../Images/bybharat/e4_5.webp",
+    alt:"Episode 4 BY BHARAT Powered by NITSMUN",
+    title:"Episode 4 | BY BHARAT || NITSMUN",
+    top:"Decolonization",
+  },
+  {
     id:"vaccine-maitri",
     img:"./Images/bybharat/e3_1.webp",
     image:"../Images/bybharat/e3_1.webp",

@@ -28,12 +28,14 @@
   display: flex;
   justify-content: space-around;
   margin-top: 7vh;
+  flex-wrap: wrap;
 }
 
 .main-indi{
   width: 33%;
   display: flex;
   flex-direction: column;
+  margin-top: 5vh;
 }
 
 .main-indi img{
