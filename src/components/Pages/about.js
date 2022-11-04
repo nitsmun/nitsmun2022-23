@@ -1,21 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./about.css";
 import Underline from "../Underline";
 import { TabTitle } from "../Utils/Genfn";
-import Loading from "../Loading";
+
 const About = () => {
   TabTitle("About | NITS MUN");
-  const [isFetching, setIsFetching] = useState(true);
+  
 
-  // useEffect(() => {
-  //   setTimeout(function () {
-  //     setIsFetching(false);
-  //   }, 200);
-  // }, []);
-
-  // if (isFetching) {
-  //   return <Loading />;
-  // }
+ 
   return (
     <div className="about-main">
       <div className="about-header">
