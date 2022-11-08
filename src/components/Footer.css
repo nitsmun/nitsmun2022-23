@@ -25,7 +25,10 @@
 .address ul{
     padding-bottom: 0.4em;
     color: white;
-    font-size: 1rem
+    font-size: 1.1rem;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
     
 }
 .phonenum ul{
@@ -41,6 +44,12 @@
 .footer-below2{
     display: flex;
     align-items: center;
+}
+
+.footer-below2 a{
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }
 /* .footer-anchor{
     /* padding: 1em; */
@@ -174,9 +183,10 @@
 }
 
 
-/* {
-    
-}.footer-heading */
+.foot-logo-name{
+    width: 60%;
+    object-fit: contain;
+}
 
 @media only screen and (max-width : 676px){
     .footer-below{

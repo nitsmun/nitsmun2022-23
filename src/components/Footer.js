@@ -69,7 +69,13 @@ const Footer = () => {
       <div className="footer-below">
         <div className="footer-heading-ph">
           <h1 style={{ color: "white" }}>
-            <a href="/">NITSMUN</a>
+            <a href="/">
+              <img
+                className="foot-logo-name"
+                src="./Images/logo-name-nitsmun.svg"
+                alt="logo-name-nitsmun"
+              />
+            </a>
           </h1>
         </div>
         <div className="footer-pic">
