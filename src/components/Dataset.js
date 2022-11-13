@@ -1122,6 +1122,16 @@ export const mainbybharat = [
 
 export const Quirky = [
   {
+    id:"sr_vs_so",
+    img:"./Images/quirky combats/e4_1.jpg",
+    title0:"Episode 4 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 4 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e4_1.jpg",
+    image1:"../Images/quirky combats/e4_2.jpg",
+    image2:"../Images/quirky combats/e4_3.jpg",
+    top:"Srilanka vs Somalia",
+  },
+  {
     id:"pk_vs_zw",
     img:"./Images/quirky combats/e3_1.jpg",
     title0:"Episode 3 | QUIRKY COMBATS || NITSMUN",
@@ -1156,31 +1166,36 @@ export const Quirky = [
 export const diplomaticdips = [
   {
     id:1,
+    title:"Episode 7",
+    src:"https://www.instagram.com/p/Ck08bbxMZ0y/embed/"
+  },
+  {
+    id:2,
     title:"Episode 6",
     src:"https://www.instagram.com/p/Ckk_28rswyH/embed/",
   },
   {
-    id:2,
+    id:3,
     title:"Episode 5",
     src:"https://www.instagram.com/p/CkQ2OnBP2g8/embed/",
   },
   {
-    id:3,
+    id:4,
     title:"Episode 4",
     src:"https://www.instagram.com/p/CjavJDZrMfe/embed/",
   },
   {
-    id:4,
+    id:5,
     title:"Episode 3",
     src:"https://www.instagram.com/p/CjIk9EUrBY4/embed/",
   },
   {
-    id:5,
+    id:6,
     title:"Episode 2",
     src:"https://www.instagram.com/p/Ci2vNkyu_Ql/embed/",
   },
   {
-    id:6,
+    id:7,
     title:"Episode 1",
     src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
   },
