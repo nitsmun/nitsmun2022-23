@@ -88,12 +88,18 @@
   }
   
   .hometop-reg{
-      font-size: 0.5em;
+      font-size: 1.4rem;
+  }
+
+  .hometop-reg ul{
+    letter-spacing: 0.1px !important;
   }
 
   .hometop-link1btn{
       font-size: 0.4em;
-      padding: 0.3125rem 0.625rem;
+      width: 60%;
+      padding: 0.5125rem 0.625rem;
+      letter-spacing: 0.1px;
   }
 
   .hometop-apply{

@@ -29,7 +29,7 @@
   color: var(--color-1-100);
   font-weight: 600;
   font-variant: small-caps;
-  font-size: 5.5vh;
+  font-size: 2.4rem;
   font-family: 'Lato', sans-serif;
 }
 
@@ -72,7 +72,7 @@
   }
 
   .event-title h1 {
-    font-size: 1.407rem;
+    font-size: 1.741rem;
     font-weight: 900;
   }
 }
@@ -101,7 +101,6 @@
   color: var(--color-1-100);
   margin-top: 10vh; /* previously 5vh*/
   font-variant: small-caps;
-  font-size: 1.8rem;
   letter-spacing: 1px;
   /* font-family: 'Poppins', sans-serif; */
 }
@@ -109,6 +108,7 @@
 .commitees-heading h1{
   font-family: 'Lato', sans-serif;
   font-weight: 600 !important;
+  font-size: 2.4rem;
 }
 
 .junmun-agendas {
@@ -192,19 +192,22 @@
   color: var(--color-1-100);
   font-variant: small-caps;
   font-weight: bolder;
-  font-size: 1.1rem;
 }
 
 .junmun2021 h1{
   font-family: 'Lato', sans-serif;
+  font-size: 2rem;
 }
 
 .faq-section h1{
   font-family: 'Lato', sans-serif;
   font-variant: small-caps;
   font-weight: 600 !important;
-  font-size: 3.75rem;
+  font-size: 2.7rem;
+  color: var(--color-1-100);
 }
+
+
 .images-junmun21 img {
   width: 350px;
   margin: 10px 10px;
@@ -224,8 +227,8 @@
     margin: 10px auto;
     width: 90%;
   }
-  .junmun2021 {
-    font-size: 0.8em;
+  .junmun2021 h1{
+    font-size: 1.341rem;
   }
 }
 
@@ -237,13 +240,14 @@
   color: white;
 }
 
-.faq-section h1{
-  color: var(--color-1-100);
-}
+
 @media only screen and (max-width:991px){
   .faq-section{
-      font-size: 1.2rem;
       padding: 1.6rem 0 1rem 0;
+  }
+
+  .faq-section h1{
+    font-size: 1.741rem !important;
   }
 }
 
@@ -563,7 +567,11 @@ padding-right: 1rem;
 @media only screen and (max-width: 540px) {
   .commitees-heading {
     margin-top: 6vh;
-    font-size: 1.2rem;
+  }
+
+
+  .commitees-heading h1{
+    font-size: 1.741rem;
   }
 
   .title01-container h2 {

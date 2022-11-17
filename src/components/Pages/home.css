@@ -1,7 +1,7 @@
 .glimpses h1{
     color: #f1f1f1;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 
 .glimpses{
@@ -21,7 +21,11 @@
 }
 
 @media screen and (max-width: 700px){
-    .glimpses h1, .photo-title h1{
+    .photo-title h1{
         font-size: 1.5rem;
+    }
+
+    .glimpses h1{
+        font-size: 1.2rem;
     }
 }
