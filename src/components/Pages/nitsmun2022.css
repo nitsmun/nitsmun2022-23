@@ -20,8 +20,12 @@
 }
 .nm22-head h1{
   color: var(--color-1-100) !important;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600 !important;
+  font-variant: small-caps;
 }
+
 .nm22-body1 {
   padding-left: 4em;
   padding-right: 4em;
@@ -106,19 +110,27 @@
 .nm22-exmainhead {
   padding: 1.5em;
   font: bolder;
-  font-size: 1.5em;
   font-variant: small-caps;
   color: var(--color-1-100) !important;
 }
+
+.nm22-exmainhead h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 2.4rem;
+}
+
+.glimpses h1{
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 600 !important;
+}
+
 @media (max-width: 479px) {
   .nm22-agendaimg2 {
     width: 35em;
   }
 }
 @media (max-width:410px){
-  .nm22-exmainhead{
-    font-size: 0.85rem;
-  }
+ 
   .nm22-head h1{
     font-size: 1.7rem;
   }
@@ -161,6 +173,10 @@
   .nm22-exemain {
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  .nm22-exmainhead h1{
+    font-size: 1.7rem;
   }
 }
 

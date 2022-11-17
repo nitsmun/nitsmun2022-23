@@ -1069,6 +1069,19 @@ export const apply = [
 
 export const mainbybharat = [
   {
+    id:"sr-economic-crisis",
+    img:"./Images/bybharat/e5_1.webp",
+    image:"../Images/bybharat/e5_1.webp",
+    image1:"../Images/bybharat/e5_2.webp",
+    image2:"../Images/bybharat/e5_3.webp",
+    image3:"../Images/bybharat/e5_4.webp",
+    image4:"../Images/bybharat/e5_5.webp",
+    image5:<><img src="../Images/bybharat/e5_6.webp" alt="Episode 5 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 5 BY BHARAT Powered by NITSMUN",
+    title:"Episode 5 | BY BHARAT || NITSMUN",
+    top:"Srilanka Economic Crisis",
+  },
+  {
     id:"decolonization",
     img:"./Images/bybharat/e4_1.webp",
     image:"../Images/bybharat/e4_1.webp",

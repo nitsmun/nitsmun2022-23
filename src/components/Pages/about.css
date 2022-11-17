@@ -10,9 +10,11 @@
 }
 
 .about-headertxt{
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 2.4rem;
+    font-weight: 600;
      color: var(--color-1-100);
+     font-family: 'Lato', sans-serif;
+     font-variant: small-caps;
 }
 
 .about-content1{
@@ -38,9 +40,10 @@
 }
 
 .about-headertxt2 h1 {
-    font-size: 2.7em;
+    font-size: 2.4em;
     color: var(--color-1-100);
     font-variant: small-caps;
+    font-family: 'Lato', sans-serif;
 }
 
 .about-content2 {

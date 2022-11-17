@@ -14,15 +14,15 @@ const Hometop = () => {
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
             New{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>
+            <span style={{ color: "rgb(45, 210, 255)" }}>
               Segments
-            </strong>{" "}
+            </span>{" "}
             are out!
           </ul>
         </div>
         <div className="hometop-link1">
           <Link to={"/segments"}>
-            <button className="hometop-link1btn">Check Them Now :)</button>
+            <button className="hometop-link1btn">Check Them Now!</button>
           </Link>
         </div>
       </div>

@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="about-main">
       <div className="about-header">
-        <ul className="about-headertxt">ABOUT US</ul>
+        <ul className="about-headertxt">About Us</ul>
       </div>
       <Underline/>
       <div className="about-content1">
