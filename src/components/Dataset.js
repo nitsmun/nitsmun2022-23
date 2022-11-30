@@ -418,17 +418,17 @@ export const Secretariatmediajr = [
     fb: "https://www.facebook.com/profile.php?id=100076495782914",
     mail: "mailto:amrita7734kashyap@gmail.com",
   },
-  // {
-  //   id: 6,
-  //   cName: "team-sec",
-  //   imgsrc: "./Images/Rishi Raj Kumar Shah.jpg",
-  //   alt: "Rishi Raj Kumar Shah",
-  //   name: "Rishi Raj Kumar Shah",
-  //   post: "Media & Design Team",
-  //   linkedin: "https://www.linkedin.com/in/rishi-shah-331676242",
-  //   fb: "https://www.facebook.com/profile.php?id=100075861352875",
-  //   mail:"mailto:raghavkumar8846@gmail.com",
-  // },
+  {
+    id: 6,
+    cName: "team-sec",
+    imgsrc: "./Images/rishavnegi.jpg",
+    alt: "Rishav Singh Negi",
+    name: "Rishav Singh Negi",
+    post: "Media & Design Team",
+    linkedin: "https://www.linkedin.com/in/rishav-negi-03a62b17a",
+    fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
+    mail:"mailto:rishavnegi007@gmail.com",
+  },
 ];
 export const Secretariatresearchjr = [
   {
