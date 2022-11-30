@@ -589,17 +589,17 @@ export const Secretariatprjr = [
       "https://nitsmun.in/www.linkedin.com/in/priyanshu-jayant-2916ab22b",
     fb: "https://www.facebook.com/profile.php?id=100076001475322",
   },
-  {
-    id: 7,
-    cName: "team-sec",
-    imgsrc: "./Images/Mayukh Bhattacharya.jpg",
-    alt: "Mayukh Bhattacharya",
-    name: "Mayukh Bhattacharya",
-    post: "Public Relations & Outreach Team",
-    mail: "mailto:mayukh21_ug@mech.nits.ac.in",
-    linkedin: "https://www.linkedin.com/in/mayukh-bhattacharya-950a33229",
-    fb: "https://www.facebook.com/profile.php?id=100076353540131",
-  },
+  // {
+  //   id: 7,
+  //   cName: "team-sec",
+  //   imgsrc: "./Images/Mayukh Bhattacharya.jpg",
+  //   alt: "Mayukh Bhattacharya",
+  //   name: "Mayukh Bhattacharya",
+  //   post: "Public Relations & Outreach Team",
+  //   mail: "mailto:mayukh21_ug@mech.nits.ac.in",
+  //   linkedin: "https://www.linkedin.com/in/mayukh-bhattacharya-950a33229",
+  //   fb: "https://www.facebook.com/profile.php?id=100076353540131",
+  // },
 ];
 export const Secretariatwebjr = [
   {
@@ -1067,3 +1067,149 @@ export const apply = [
   },
 ];
 
+export const mainbybharat = [
+  {
+    id:"sr-economic-crisis",
+    img:"./Images/bybharat/e5_1.webp",
+    image:"../Images/bybharat/e5_1.webp",
+    image1:"../Images/bybharat/e5_2.webp",
+    image2:"../Images/bybharat/e5_3.webp",
+    image3:"../Images/bybharat/e5_4.webp",
+    image4:"../Images/bybharat/e5_5.webp",
+    image5:<><img src="../Images/bybharat/e5_6.webp" alt="Episode 5 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 5 BY BHARAT Powered by NITSMUN",
+    title:"Episode 5 | BY BHARAT || NITSMUN",
+    top:"Srilanka Economic Crisis",
+  },
+  {
+    id:"decolonization",
+    img:"./Images/bybharat/e4_1.webp",
+    image:"../Images/bybharat/e4_1.webp",
+    image1:"../Images/bybharat/e4_2.webp",
+    image2:"../Images/bybharat/e4_3.webp",
+    image3:"../Images/bybharat/e4_4.webp",
+    image4:"../Images/bybharat/e4_5.webp",
+    alt:"Episode 4 BY BHARAT Powered by NITSMUN",
+    title:"Episode 4 | BY BHARAT || NITSMUN",
+    top:"Decolonization",
+  },
+  {
+    id:"vaccine-maitri",
+    img:"./Images/bybharat/e3_1.webp",
+    image:"../Images/bybharat/e3_1.webp",
+    image1:"../Images/bybharat/e3_2.webp",
+    image2:"../Images/bybharat/e3_3.webp",
+    image3:"../Images/bybharat/e3_4.webp",
+    image4:"../Images/bybharat/e3_5.webp",
+    alt:"Episode 3 BY BHARAT Powered by NITSMUN",
+    title:"Episode 3 | BY BHARAT || NITSMUN",
+    top:"Vaccine Maitri",
+  },
+  {
+    id:"un_74th-session",
+    img:"./Images/bybharat/e2_1.webp",
+    image:"../Images/bybharat/e2_1.webp",
+    image1:"../Images/bybharat/e2_2.webp",
+    image2:"../Images/bybharat/e2_3.webp",
+    image3:"../Images/bybharat/e2_4.webp",
+    image4:"../Images/bybharat/e2_5.webp",
+    image5:<><img src="../Images/bybharat/e2_6.webp" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 2 BY BHARAT Powered by NITSMUN",
+    title:"Episode 2 | BY BHARAT || NITSMUN",
+    top:"74th Session of UN General Assembly"
+  },
+  {
+    id:"ww2",
+    img:"./Images/bybharat/ep1_1.jpg",
+    image:"../Images/bybharat/ep1_1.jpg",
+    image1:"../Images/bybharat/ep1_2.jpg",
+    image2:"../Images/bybharat/ep1_3.jpg",
+    image3:"../Images/bybharat/ep1_4.jpg",
+    image4:"../Images/bybharat/ep1_5.jpg",
+    image5:<><img src="../Images/bybharat/ep1_6.jpg" alt="Episode 1 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 1 BY BHARAT Powered by NITSMUN",
+    title:"Episode 1 | BY BHARAT || NITSMUN",
+    top:"Non-Aligned Movement",
+  },
+];
+
+export const Quirky = [
+  {
+    id:"sr_vs_so",
+    img:"./Images/quirky combats/e4_1.jpg",
+    title0:"Episode 4 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 4 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e4_1.jpg",
+    image1:"../Images/quirky combats/e4_2.jpg",
+    image2:"../Images/quirky combats/e4_3.jpg",
+    top:"Srilanka vs Somalia",
+  },
+  {
+    id:"pk_vs_zw",
+    img:"./Images/quirky combats/e3_1.jpg",
+    title0:"Episode 3 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 3 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e3_1.jpg",
+    image1:"../Images/quirky combats/e3_2.jpg",
+    image2:"../Images/quirky combats/e3_3.jpg",
+    top:"Pakistan vs Zimbabwe",
+  },
+  {
+    id:"my_vs_kw",
+    img:"./Images/quirky combats/e2_1.webp",
+    title0:"Episode 2 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 2 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e2_1.webp",
+    image1:"../Images/quirky combats/e2_2.webp",
+    image2:"../Images/quirky combats/e2_3.webp",
+    top:"Myanmar vs Kuwait",
+  },
+  {
+    id:"ir_vs_fr",
+    img:"./Images/quirky combats/e1_1.webp",
+    title0:"Episode 1 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 1 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e1_1.webp",
+    image1:"../Images/quirky combats/e1_2.webp",
+    image2:"../Images/quirky combats/e1_3.webp",
+    top:"Iran Vs France"
+  },
+];
+
+export const diplomaticdips = [
+  {
+    id:1,
+    title:"Episode 7",
+    src:"https://www.instagram.com/p/Ck08bbxMZ0y/embed/"
+  },
+  {
+    id:2,
+    title:"Episode 6",
+    src:"https://www.instagram.com/p/Ckk_28rswyH/embed/",
+  },
+  {
+    id:3,
+    title:"Episode 5",
+    src:"https://www.instagram.com/p/CkQ2OnBP2g8/embed/",
+  },
+  {
+    id:4,
+    title:"Episode 4",
+    src:"https://www.instagram.com/p/CjavJDZrMfe/embed/",
+  },
+  {
+    id:5,
+    title:"Episode 3",
+    src:"https://www.instagram.com/p/CjIk9EUrBY4/embed/",
+  },
+  {
+    id:6,
+    title:"Episode 2",
+    src:"https://www.instagram.com/p/Ci2vNkyu_Ql/embed/",
+  },
+  {
+    id:7,
+    title:"Episode 1",
+    src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
+  },
+];

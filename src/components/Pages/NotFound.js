@@ -1,21 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./NotFound.css";
 import { TabTitle } from "../Utils/Genfn";
-import Loading from "../Loading";
+
 const NotFound = () => {
   TabTitle("404 Not Found");
-  const [isFetching, setIsFetching] = useState(true);
-
-  useEffect(() => {
-    setTimeout(function () {
-      setIsFetching(false);
-    }, 200);
-  }, []);
-
-  if (isFetching) {
-    return <Loading />;
-  }
+ 
   return (
     <>
       <div className="not-found">

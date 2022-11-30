@@ -5,7 +5,7 @@ const Loading = () => {
     <>
       <div className="dotdotload">
         <div className="loading-8">
-          <h1 className="load-name">Fetching Data...</h1>
+          <h1 className="load-name">Hang on loading content...</h1>
           <span></span>
           <span></span>
           <span></span>

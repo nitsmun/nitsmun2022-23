@@ -1,16 +1,12 @@
-import React from "react";
-import "./articles.css";
-import { TabTitle } from "../Utils/Genfn";
-import { Articledata } from "../Dataset";
-import Underline3 from "../Underline/Underline3";
-import { Link } from "react-router-dom";
-
-const Articles = () => {
-  TabTitle("Articles | NITS MUN");
-  
+import React from 'react'
+import { Articledata } from './Dataset';
+import Underline3 from './Underline/Underline3';
+import { Link } from 'react-router-dom';
+import './Pages/articles.css'
+const Articles0 = () => {
   return (
     <>
-      <div className="articles-heading-cont">
+    <div className="articles-heading-cont">
         <h1>Articles</h1>
       </div>
       <div className="article-main-content">
@@ -36,10 +32,7 @@ const Articles = () => {
                     <h3>{item.Date}</h3>
                   </div>
 
-                  <div className="article-cont1">
-                    {item.cshort}
-                    
-                  </div>
+                  <div className="article-cont1">{item.cshort}</div>
                   <div className="btnreadmore">
                     <Link to={`/article/${item.id}`}>
                       <button className="read-more-btn">Read More</button>
@@ -52,7 +45,8 @@ const Articles = () => {
           );
         })}
       </div>
-      <div className="art-art-title">
+      <p className='p-more'>Stay tuned for more articles!</p>
+      {/* <div className="art-art-title">
         <h1 className="apply-art-h1">
           Check Out{" "}
           <a
@@ -64,8 +58,9 @@ const Articles = () => {
           </a>{" "}
           For All Our Articles!
         </h1>
-      </div>
+      </div> */}
     </>
-  );
-};
-export default Articles;
+  )
+}
+
+export default Articles0

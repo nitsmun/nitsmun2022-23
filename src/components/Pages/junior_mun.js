@@ -19,7 +19,7 @@ const Juniormun = () => {
   useEffect(() => {
     setTimeout(function () {
       setIsFetching(false);
-    }, 200);
+    }, 100);
   }, []);
 
   if (isFetching) {
@@ -34,9 +34,8 @@ const Juniormun = () => {
         />
       </div>
       <div className="event-title">
-        <strong>
-          <h1>NITS JUNIOR MUN 2022</h1>
-        </strong>
+          {/* <h1>NITS JUNIOR MUN 2022</h1> */}
+          <h1>Nits Junior Mun 2022</h1>
       </div>
       <div className="event-details">
         Model United Nations (MUN) is an educational simulation in which

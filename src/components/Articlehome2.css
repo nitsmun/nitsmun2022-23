@@ -26,13 +26,17 @@ body {
 .apply-home-h1 {
   text-align: center;
   color: var(--color-1-100) !important;
-  font-weight: 900;
+  font-weight: 600 !important;
   font-size: 1.901rem;
   font-variant: small-caps;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .5px;
 }
 
 .apply-home-h1 a {
   color: #1994a5;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -43,6 +47,10 @@ body {
   box-shadow: 0 0 0.9375rem;
   border-radius: 0.625rem;
   height: auto;
+}
+
+.team-section:hover{
+  transform: translateY(-2px);
 }
 
 .team-section img {
@@ -73,8 +81,9 @@ body {
   margin: 0 0 0.5rem;
   padding: 0.3125rem 0;
   font-size: 1.68rem;
-  font-weight: 9000;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Lato', sans-serif;
   font-variant: small-caps;
 }
 

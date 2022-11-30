@@ -19,10 +19,10 @@ const Secretary = () => {
           <p
             className="sec-text"
             style={{
-              textAlign: "justify",
+              textAlign: "left",
               fontSize: "1.1rem",
               lineHeight: "1.6",
-              fontWeight: "600",
+              fontWeight: "900",
             }}
           >
             Dear delegates,

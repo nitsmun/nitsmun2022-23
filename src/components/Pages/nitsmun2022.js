@@ -12,7 +12,7 @@ const Nitsmun2022 = () => {
   useEffect(() => {
     setTimeout(function () {
       setIsFetching(false);
-    }, 200);
+    }, 100);
   }, []);
 
   if (isFetching) {
@@ -21,7 +21,7 @@ const Nitsmun2022 = () => {
   return (
     <div className="nitsmun22-main">
       <div className="nm22-head">
-        <h1>NITSMUN 2022</h1>
+        <h1>Nitsmun 2022</h1>
         <Underline />
       </div>
       <div className="nm22-body1">

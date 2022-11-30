@@ -1,34 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@r1,2r00&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.top-bg-segment{
+    background-image: url(un_bg.jpg);
+    padding-top: 8rem;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(1, 51, 91,0.5);
+}
+
+.top-bg-segment h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.top-bg-segment h2{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 4.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
 .apply-home-h1{
     color: #212529;
     font-weight: 600;
 }
-.articles-heading-cont h1{
-    color: var(--color-5-100);
-    font-size: 1.875rem;
-    font-weight: bolder;
-    font-variant: small-caps;
-}
-.articles-heading-cont{
-    width: 100%;
-    text-align: center;
-    margin-top: 3.125rem;
-    padding: 1.3125rem 0 0.75rem 0;
-    background-color: var( --color-1-100);
-}
-@media screen and (max-width: 700px){
-    .articles-heading-cont h1{
-        font-size: 1.125rem;
-    }
-    .articles-heading-cont{
-        margin-top: 3.125rem;
-        padding-bottom: 0.9375rem;
-    }
+.articles-heading-cont {
+    padding: 3vh 0;
 }
 
-.article-main-content{
-    background-color: var(--color-17-100);
+.articles-heading-cont h1{
+    text-align: center;
+    color: var(--color-1-100);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-bottom: 4px dotted var(--color-1-100);
+    display: inline-block;
+}
+
+@media only screen and (max-width:660px){
+    .articles-heading-cont h1{
+        font-size: 1.5rem;
+    }
 }
 
 .article-flexing{
@@ -39,7 +63,9 @@
     font-size: 2.2rem;
     color: var(--color-1-100);
     font-variant: small-caps;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* text-transform: uppercase; */
     font-weight: 900;
 }
 
@@ -51,7 +77,8 @@
 /* image css */
 .img-holder img{
     height: 21.875rem;
-    border-radius: 5%;
+    box-shadow: 0 0 0.9375rem;
+  border-radius: 0.625rem;
     pointer-events: none;
 }
 
@@ -84,7 +111,7 @@
 .post-date h3{
     font-style: italic;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.18rem;
     color: var(--color-1-100);
 }
@@ -94,12 +121,12 @@
 }
 
 .article-cont1{
-    text-align: justify;
+    text-align: left;
     text-align-last: left;
     font-size: 1.1rem;
     color: #222226;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     padding: 1.875rem;
     padding-top: 0.8rem !important;
     margin-right: 6.875rem;
@@ -237,7 +264,7 @@
 
     .article-cont1{
         margin: 0;
-        font-size: 1.107rem;
+        font-size: .95rem;
         word-spacing: 1px;
         padding-left: 1.17265625rem;
         padding-right: 1.17265625rem;
@@ -371,5 +398,41 @@
 @media only screen and (max-width:1001px){
     .btnreadmore{
         margin-bottom: 5vh;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .top-bg-segment h1{
+        font-size: 2.2rem;
+        left: 4%;
+    }
+
+    .top-bg-segment h2{
+        font-size: 2.5rem;
+        left: 4%;
+        top: 48%;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:661px){
+    .top-bg-segment h1, .top-bg-segment h2{
+        left: 3%;
+        font-size: 4rem;
+    }
+
+    .top-bg-segment h2{
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width:359px) and (min-width:320px){
+    .top-bg-segment h1, .top-bg-segment h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .top-bg-segment h1, .top-bg-segment h2{
+        font-size: 1.5rem;
     }
 }

@@ -5,6 +5,8 @@
   /* border: 0.1875rem solid white; */
   border-radius: 10%;
   pointer-events: none;
+  box-shadow: 0 0 0.9375rem;
+  border-radius: 0.625rem;
   /* padding-top: 5%; */
 }
 

@@ -9,7 +9,7 @@
   background-color: var(--color-1-100);
   transition: 0.25s;
    position: fixed;
-   z-index: 1;
+   z-index: 200;
    box-shadow: 0 0 2vh 0 #360940;
 }
 
