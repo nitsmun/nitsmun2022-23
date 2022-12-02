@@ -11,7 +11,7 @@ import { IconContext } from "react-icons";
 
 const Footer = () => {
   return (
-    <div className="Footer-main">
+    <div className="footer-main">
       <div className="footer-icon">
         <button className="footer-btn-a">
           <a
@@ -112,7 +112,7 @@ const Footer = () => {
             >
               {" "}
               <ul>Model United Nations</ul>
-              <ul>NIT Silchar</ul>
+              <a href="https://www.google.com/maps/place/National+Institute+Of+Technology,+Silchar/@24.7577144,92.7901042,17z/data=!3m1!4b1!4m5!3m4!1s0x374e49dcb63bae9b:0x81efa836714a289b!8m2!3d24.7577144!4d92.7922929"><ul>NIT Silchar</ul></a>
               <ul className="light-address">Silchar, Assam</ul>
             </a>
             {/* <ul>Model United Nations</ul>
