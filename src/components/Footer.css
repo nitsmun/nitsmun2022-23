@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid var(--color-9-100);
+    /* border-bottom: 1px solid var(--color-9-100); */
     /* height: 2.5em; */
     /* padding-top: 3px;
     padding-bottom: px;*/
@@ -227,8 +227,8 @@
         padding-right: 1.5em;
     }
     .shared-class{
-        size: 60;
-        display: none;
+        size: 40;
+        /* display: none; */
     }
     
     
