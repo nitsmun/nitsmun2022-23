@@ -12,7 +12,7 @@ const DiplomaticDips = () => {
                 <>
                 <div className="insta">
                     <h2>{item.title}</h2>
-                    <iframe class="insta-vid" src={item.src} scrolling="yes" />
+                    <iframe class="insta-vid" title=' ' src={item.src} scrolling="yes" />
                 </div>
                 </>
             )

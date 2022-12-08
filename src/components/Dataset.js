@@ -1069,6 +1069,19 @@ export const apply = [
 
 export const mainbybharat = [
   {
+    id:"india-un-peacekeeping",
+    img:"./Images/bybharat/e6_1.jpg",
+    image:"../Images/bybharat/e6_1.jpg",
+    image1:"../Images/bybharat/e6_2.jpg",
+    image2:"../Images/bybharat/e6_3.jpg",
+    image3:"../Images/bybharat/e6_4.jpg",
+    image4:"../Images/bybharat/e6_5.jpg",
+    image5:<><img src="../Images/bybharat/e6_6.jpg" alt="Episode 6 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 6 BY BHARAT Powered by NITSMUN",
+    title:"Episode 6 | BY BHARAT || NITSMUN",
+    top:"India's Contribution to UN Peacekeeping",
+  },
+  {
     id:"sr-economic-crisis",
     img:"./Images/bybharat/e5_1.webp",
     image:"../Images/bybharat/e5_1.webp",
