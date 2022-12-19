@@ -188,7 +188,7 @@ export const Secretariatjr = [
     alt: "Eisha Halder",
     name: "Eisha Halder",
     post: "Deputy Director General",
-    linkedin: "https://nitsmun.in/www.linkedin.com/in/eisha-halder-a42367200",
+    linkedin: "https://www.linkedin.com/in/eisha-halder-a42367200",
     fb: "https://www.facebook.com/eisha.halder.16",
     mail: "mailto:eisha20_ug@cse.nits.ac.in",
     icon0:<> <button className="btn-icon3"><FaFacebookF className="icon-color2" size={25} /></button> </>
@@ -1147,6 +1147,16 @@ export const mainbybharat = [
 ];
 
 export const Quirky = [
+  {
+    id:"arg_vs_fr",
+    img:"./Images/quirky combats/e5_1.jpg",
+    title0:"Episode 5 | QUIRKY COMBATS || NITSMUN",
+    alt:"Episode 5 QUIRKY COMBATS Powered by NITSMUN",
+    image:"../Images/quirky combats/e5_1.jpg",
+    image1:"../Images/quirky combats/e5_2.jpg",
+    image2:"../Images/quirky combats/e5_3.jpg",
+    top:"Argentina vs France",
+  },
   {
     id:"sr_vs_so",
     img:"./Images/quirky combats/e4_1.jpg",

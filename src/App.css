@@ -26,8 +26,8 @@
 }
 :root {
 
-  --color-1-100: #01335B /*navbar,agenda stroke, all other headings unlined*/;
-  --color-1-080: #35627B /*nav scroll, nav drop down bg*/;
+  --color-1-100: #00334e /*navbar,agenda stroke, all other headings unlined*/;
+  --color-1-080: #1e3d72 /*nav scroll, nav drop down bg*/;
   --color-2-100: #4effbf /*nav hover, register now words when hovered*/;
   --color-3-100: #FFF500 /*nav button onactive*/;
   --color-4-100: #2D7D88 /*register now bg, timer bg, all other headings with rectangular shape bg*/;

@@ -106,7 +106,7 @@ const Faqs = () => {
     <IconContext.Provider value={{ color: "#212529", size: "1.25rem" }}>
       <FaqSection>
         <div className="faq-section">
-          <h1>Faq</h1>
+          <h1>Frequently Asked Questions</h1>
         </div>
 
         <Container>

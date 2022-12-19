@@ -160,7 +160,7 @@ li {
   position: absolute;
   display: none;
   background-color: var(--color-1-080);
-  border: 2px solid lavender;
+  border: 3px solid #f4b26a;
   border-radius: 20px;
   top: 3.125rem;
   width: 14.1875rem;
@@ -254,6 +254,7 @@ li {
   left: 0;
   z-index: 10007;
   background-color: var(--color-1-100);
+  background-color: var(--color-1-080);
     border-bottom: 3px solid linear-gradient(135deg, #06553d 0%, #159d9d 100%);
   right: 0;
   padding-bottom: 1.0625rem;

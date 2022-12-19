@@ -108,6 +108,7 @@ body {
   background-color: var(--color-1-100);
   transition: 0.3s ease-out;
   color: whitesmoke;
+  border: 0.0825rem solid #a4606c;
 }
 
 .article-home-btn:focus {
