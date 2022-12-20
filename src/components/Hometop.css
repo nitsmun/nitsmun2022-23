@@ -132,3 +132,13 @@
     width: 15rem;
   }
 }
+
+@media only screen and (max-width:660px){
+  .hometop-link1btn{
+    border: 2px solid #161c2f;
+  }
+
+  .hometop-link1btn:hover{
+    border: 2px solid #a4606c;
+  }
+}

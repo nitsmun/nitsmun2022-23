@@ -69,7 +69,7 @@
 .notfound-tohome h1{
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     letter-spacing: .5px;
 }
 
@@ -115,12 +115,13 @@
 .notfound-tohome{
     width: 50%;
     padding: 0.625rem;
-    background-color: var(--color-4-100);
+    background-color: var(--color-1-100);
+    color: white;
     text-align: center;
     display: inline-block;
     border-radius: 1.875rem;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1.25rem;
     border: 3px solid #161c2f;
     transition: transform 0.4s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.4s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
@@ -128,8 +129,8 @@
 
 .notfound-tohome:hover{
     transform: scale(1.02);
-    background-color: rgba(112, 183, 213, 0.386);
-    color: whitesmoke;
+    background-color: var(--color-6-100);
+    color: var(--color-1-100);
     border: 3px solid #a4606c;
 }
 
@@ -157,3 +158,12 @@
             }
         }
 
+@media only screen and (max-width:660px){
+    .notfound-tohome{
+        border: 2px solid #161c2f;
+    }
+
+    .notfound-tohome:hover{
+        border: 2px solid #a4606c;
+    }
+}
