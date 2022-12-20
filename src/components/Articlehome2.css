@@ -95,7 +95,7 @@ body {
 .article-home-btn{
   cursor: pointer;
   margin-top: 0.625rem;
-  border: 0.0625rem solid #212529;
+  border: 0.0825rem solid #212529;
   font-weight: 900;
   line-height: 1.6;
   background-color: transparent;

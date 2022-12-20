@@ -643,45 +643,35 @@ export const Secretariatwebjr = [
 export const Articleforhome = [
   {
     id: 1,
-    img: "./Images/World Menstrual Hygiene day.jpeg",
-    alt2: "World Menstrual Hygiene Day",
-    heading: "World Menstrual Hygiene Day",
+    img: "./Images/International Day Of Democracy.webp",
+    alt2: "International Day Of Democracy",
+    heading: "International Day Of Democracy",
     para: (
       <>
-       “Don’t go near the temple”, “Don’t cook or touch anything in the kitchen” and similar others are some common phrases every Indian woman gets to hear during her “that time of the month” when she is often considered “unclean”. Even in 2022, menstruation is considered a taboo, not only in India but in fact all over the world. Still today, menstruation is a period that is a reason for discrimination and exclusion for millions of girls and women. Fun fact, 28th Of May is celebrated as World Menstrual Hygiene Day as each menstrual cycle is of approximately 28 days and 5 days is the average period of menstruation.
+       The basic framework of a progressive society is based on freedom, equality and dignity. Democracy gives the citizens the right to question the policies made by the government. Therefore to celebrate the importance of democracy, the United Nations General Assembly through consensus adopted the resolution to declare 15th September as International Day of Democracy. The International Day of Democracy helps us acknowledge the importance of functional democracy and provides an opportunity to review the state of democracy worldwide.
       </>
     ),
   },
 
   {
     id: 2,
-    img: "./Images/International day for Biological diversity.jpg",
-    alt2: "International Day For Biological Diversity",
-    heading: "International Day For Biological Diversity",
+    img: "./Images/International Day To Protect Education From Attack.jpg",
+    alt2: "International Day To Protect Education From Attack",
+    heading: "International Day To Protect Education From Attack",
     para: (
       <>
-        With the aim of increasing awareness and understanding for biodiversity
-        issues, 22nd May is proclaimed as "The International Day for
-        Biodiversity Diversity (IDB)" by the United Nations. Initially 29th
-        December was the date attached with IDB, but in December 2000, the UN
-        General Assembly adopted 22 May as IDB, to commemorate the adoption of
-        the text of the Convention on 22 May 1992 by the Nairobi Final Act of
-        the Conference for the Adoption of the Agreed Text of the Convention on
-        Biological Diversity.
+       To say Education is important is an understatement. Education is a weapon to improve one’s life. It is probably the most important tool to change one’s life. Education for a child is undeniably the most important aspect to begin his/her life. But today, this very asset of theirs is threatened by two small words with a dangerous meaning:- “CONFLICT” and “WAR”. The vicious nature of conflicts today is affecting the futures of entire generations of children.
       </>
     ),
   },
 
   {
     id: 3,
-    img: "./Images/World day for cultural diversity.jpg",
-    alt2: "World Day For Cultural Diversity",
-    heading: "World Day For Cultural Diversity",
-    date: "21st May",
-    para: "In today's world of power hungry countries going to war with each other, the message of World Day for Cultural Diversity for Dialogue and Development is more important than ever - the essential role of intercultural dialogue to achieve world peace and sustainable development. This is especially important in this present age of globalisation with interconnected global economies and cultural exchanges. UN recognise the need to enhance the potential of culture as a means of achieving prosperity, sustainable development and global peaceful coexistence.",
+    img: "./Images/International day for the rememberance of the slave trade and its abolition.jpeg",
+    alt2: "International Day For The Rememberance Of The Slave Trade And Its Abolition",
+    heading: "International Day For The Rememberance Of The Slave Trade And Its Abolition",
+    para: <>The International Day for the Remembrance of the Slave Trade and its Abolition is observed on 23 August every year. The UN adopted this day in remembrance of the victims of slavery all around the world. The date is significant because the uprising that would be crucial in eradicating the transatlantic slave trade began on the night of August 22 to 23, 1791, in Saint Domingue (modern-day Haiti).</>,
   },
-
-
 ];
 
 export const Articledata = [

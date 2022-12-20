@@ -46,6 +46,7 @@
   transition: 0.3s ease-out;
   font-size: 1.25rem;
   background-color: var(--color-4-100);
+  background-color: var( --color-1-080);
   font-family: 'Poppins', sans-serif;
   letter-spacing: .7px;
   color: white;
