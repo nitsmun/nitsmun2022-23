@@ -178,7 +178,7 @@ const Navbarmenu = () => {
                     to={`/apply`}
                   >
                     {" "}
-                    Apply Now!{" "}
+                    <p className="nav-apply">Apply Now!</p>{" "}
                   </NavLink>{" "}
                 </li>
               </ul>
