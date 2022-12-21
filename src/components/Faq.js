@@ -25,8 +25,8 @@ const Container = styled.div`
 
 const Faqmain = styled.div`
   /* background: #3ca06a; */
-  background-color: var(--color-14-100);
-  color: black;
+  background-color: var(--color-1-080);
+  color: whitesmoke;
   font-weight: bolder;
   display: flex;
   justify-content: space-between;
@@ -39,8 +39,8 @@ const Faqmain = styled.div`
   border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
-    background-color: var(--color-14-038);
-    color: var(--color-1-100);
+    background-color: var( --color-4-100);
+    /* color: #212529; */
   }
   h1 {
     padding: 1rem;
@@ -115,7 +115,7 @@ const Faqs = () => {
               <React.Fragment key={index}>
                 <Faqmain onClick={() => toggle(index)}>
                   <h1>{item.question}</h1>
-                  <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                  <span>{clicked === index ? <FiMinus color='white' /> : <FiPlus color='white' />}</span>
                 </Faqmain>
                 {clicked === index ? (
                   <Dropdown>

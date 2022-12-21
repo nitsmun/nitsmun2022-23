@@ -44,7 +44,7 @@ body {
   margin: 0 0;
   background: white;
   width: 30%;
-  box-shadow: 0 0 0.9375rem;
+  box-shadow: 0 0 0.4375rem;
   border-radius: 0.625rem;
   height: auto;
 }
@@ -71,7 +71,7 @@ body {
 .team-section-body p {
   color: #222226;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0 0 1rem;
 }
@@ -80,7 +80,7 @@ body {
   color: var(--color-1-100);
   margin: 0 0 0.5rem;
   padding: 0.3125rem 0;
-  font-size: 1.68rem;
+  font-size: 1.3rem;
   font-weight: 600;
   /* font-family: "Montserrat", sans-serif; */
   font-family: 'Lato', sans-serif;
