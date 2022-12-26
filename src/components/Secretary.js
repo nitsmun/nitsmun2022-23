@@ -80,7 +80,7 @@ const Secretary = () => {
 
         <div className="sec-imge">
           <img
-            src="./Images\shreyashiRoymedhi.jpeg"
+            src="./Images\Shreyashi_Roymedhi_MUN.jpg"
             alt="shreyashi Roymedhi"
             className="sec-img"
           />
