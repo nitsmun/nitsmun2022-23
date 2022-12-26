@@ -152,6 +152,29 @@ li {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var( --color-4-100);
+  
+}
+.nav-apply{
+  color: transparent;
+  background-image: linear-gradient(to left, #212529, #3498db, #9b59b6, #f39c12, white, #161c2f, #1e3d72);
+  -webkit-background-clip: text;
+  animation: animate 4.5s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  font-weight: 900;
+  font-family: 'poppins', sans-serif;
+}
+
+@keyframes animate {
+  0%{
+      background-position: 0 100%;
+  }
+  50%{
+      background-position: 100% 0;
+  }
+  100%{
+      background-position: 0 100%;
+  }
 }
 
 .apply-special:hover{
