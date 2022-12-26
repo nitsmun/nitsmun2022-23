@@ -13,6 +13,7 @@ const FaqSection = styled.div`
   padding-bottom:15vh;
   /* background: #06553d; */
   background-color: var(--color-10-100);
+  user-select: none;
   @media only screen and (max-width:991px){
     padding-bottom: 10vh;
   }
