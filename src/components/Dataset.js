@@ -52,6 +52,7 @@ export const Secretariat = [
     id: 1,
     cName: "team-sec",
     imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
+    imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
     name: "Shreyashi Roymedhi",
     post: "Secretary General",
     alt: "Shreyashi Roymedhi",
@@ -385,19 +386,9 @@ export const Secretariatmediajr = [
     fb: "https://www.facebook.com/profile.php?id=100074174147812",
     mail: "mailto:akshita.hazarika1702@gmail.com",
   },
+
   {
     id: 2,
-    cName: "team-sec",
-    imgsrc: "./Images/masoomSahu.png",
-    alt: "Masoom Sahu",
-    name: "Masoom Sahu",
-    post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/masoom-sahu-09a469230",
-    fb: "https://www.facebook.com/profile.php?id=100065692891679",
-    mail: "mailto:masoomsahu20@gmail.com",
-  },
-  {
-    id: 3,
     cName: "team-sec",
     imgsrc: "./Images/ranjanKapar.jpg",
     alt: "Ranjan Kr Kapar",
@@ -408,7 +399,7 @@ export const Secretariatmediajr = [
     mail: "mailto:ranjan21_ug@mech.nits.ac.in",
   },
   {
-    id: 4,
+    id: 3,
     cName: "team-sec",
     imgsrc: "./Images/Amrita kashyap.jpeg",
     alt: "Amrita Kashyap",
@@ -419,7 +410,7 @@ export const Secretariatmediajr = [
     mail: "mailto:amrita7734kashyap@gmail.com",
   },
   {
-    id: 5,
+    id: 4,
     cName: "team-sec",
     imgsrc: "./Images/rishavnegi.jpg",
     alt: "Rishav Singh Negi",
@@ -429,17 +420,6 @@ export const Secretariatmediajr = [
     fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
     mail:"mailto:rishavnegi007@gmail.com",
   },
-  {
-    id: 6,
-    cName: "team-sec",
-    imgsrc: "",
-    alt: "Khush Agarwal",
-    name: "Khush Agarwal",
-    post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
-    fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
-    mail:"mailto:khush21_ug@ei.nits.ac.in",
-  }
 ];
 
 export const Secretariatresearchjr = [
@@ -468,7 +448,7 @@ export const Secretariatresearchjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/Aditi Archita Khataniar.jpg",
+    imgsrc: "./Images/aditi_MUN.jpg",
     alt: "Aditi Archita Khataniar",
     name: "Aditi Archita Khataniar",
     post: "Research and Development Team",
@@ -520,17 +500,7 @@ export const Secretariatresearchjr = [
     fb: "https://www.facebook.com/bhargavi.nath",
     mail: "mailto:bhargavinath.24@gmail.com",
   },
-  // {
-  //   id: 8,
-  //   cName: "team-sec",
-  //   imgsrc: "./Images/Trilasha Mazumder1.jpeg",
-  //   alt: "Trilasha Mazumder",
-  //   name: "Trilasha Mazumder",
-  //   post: "Research and Development Team",
-  //   linkedin: "https://www.linkedin.com/in/trilasha-mazumder-51b234224",
-  //   fb: "https://www.facebook.com/profile.php?id=100076379690326",
-  //   mail: "mailto:trilasha21_ug@cse.nits.ac.in",
-  // },
+
 ];
 export const Secretariatprjr = [
   {
@@ -586,7 +556,7 @@ export const Secretariatprjr = [
     post: "Public Relations & Outreach Team",
     mail: "mailto:postmail.rohit@gmail.com",
     linkedin:
-      "https://nitsmun.in/www.linkedin.com/in/rohit-choudhary-74501522a",
+      "www.linkedin.com/in/rohit-choudhary-74501522a",
     fb: "https://www.facebook.com/profile.php?id=100076216899401",
   },
   {
@@ -598,32 +568,46 @@ export const Secretariatprjr = [
     post: "Public Relations & Outreach Team",
     mail: "mailto:priyanshujayant3121@gmail.com",
     linkedin:
-      "https://nitsmun.in/www.linkedin.com/in/priyanshu-jayant-2916ab22b",
+      "www.linkedin.com/in/priyanshu-jayant-2916ab22b",
     fb: "https://www.facebook.com/profile.php?id=100076001475322",
   },
   {
     id: 7,
     cName: "team-sec",
-    imgsrc: "./Images/Ilhan Ahmed.jpeg",
+    imgsrc: "./Images/khush_MUN.jpeg",
+    alt: "Khush Agarwal",
+    name: "Khush Agarwal",
+    post: "Public Relations & Outreach Team",
+    mail: "mailto:khush.aggarwal28@gmail.com",
+    linkedin:
+      "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
+    fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
+  },
+  {
+    id: 8,
+    cName: "team-sec",
+    imgsrc: "./Images/Ilhan_MUN.jpeg",
     alt: "Ilhan Ahmed",
     name: "Ilhan Ahmed",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:ilhanahmed078@gmail.com",
+    mail: "mailto:ilhan078@gmail.com",
     linkedin:
       "https://www.linkedin.com/in/ilhan-ahmed-39568b250/",
     fb: "https://www.facebook.com/ilhan.ahmed.756/",
-  }
-  // {
-  //   id: 7,
-  //   cName: "team-sec",
-  //   imgsrc: "./Images/Mayukh Bhattacharya.jpg",
-  //   alt: "Mayukh Bhattacharya",
-  //   name: "Mayukh Bhattacharya",
-  //   post: "Public Relations & Outreach Team",
-  //   mail: "mailto:mayukh21_ug@mech.nits.ac.in",
-  //   linkedin: "https://www.linkedin.com/in/mayukh-bhattacharya-950a33229",
-  //   fb: "https://www.facebook.com/profile.php?id=100076353540131",
-  // },
+    
+  },
+  {
+    id: 9,
+    cName: "team-sec",
+    imgsrc: "./Images/nikunj_mun.jpeg",
+    alt: "Nikunj Beriwal",
+    name: "Nikunj Beriwal",
+    post: "Public Relations & Outreach Team",
+    mail: "mailto:nikunjberiwal1234567@gmail.com",
+    linkedin:"https://www.linkedin.com/mwlite/in/nikunj-beriwal-4a4ab025b",
+    fb: "https://www.facebook.com/profile.php?id=100010135142917",
+  },
+
 ];
 export const Secretariatwebjr = [
   {
