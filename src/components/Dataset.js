@@ -419,7 +419,7 @@ export const Secretariatmediajr = [
     mail: "mailto:amrita7734kashyap@gmail.com",
   },
   {
-    id: 6,
+    id: 5,
     cName: "team-sec",
     imgsrc: "./Images/rishavnegi.jpg",
     alt: "Rishav Singh Negi",
@@ -429,7 +429,19 @@ export const Secretariatmediajr = [
     fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
     mail:"mailto:rishavnegi007@gmail.com",
   },
+  {
+    id: 6,
+    cName: "team-sec",
+    imgsrc: "",
+    alt: "Khush Agarwal",
+    name: "Khush Agarwal",
+    post: "Media & Design Team",
+    linkedin: "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
+    fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
+    mail:"mailto:khush21_ug@ei.nits.ac.in",
+  }
 ];
+
 export const Secretariatresearchjr = [
   {
     id: 1,
@@ -589,6 +601,18 @@ export const Secretariatprjr = [
       "https://nitsmun.in/www.linkedin.com/in/priyanshu-jayant-2916ab22b",
     fb: "https://www.facebook.com/profile.php?id=100076001475322",
   },
+  {
+    id: 7,
+    cName: "team-sec",
+    imgsrc: "./Images/Ilhan Ahmed.jpeg",
+    alt: "Ilhan Ahmed",
+    name: "Ilhan Ahmed",
+    post: "Public Relations & Outreach Team",
+    mail: "mailto:ilhanahmed078@gmail.com",
+    linkedin:
+      "https://www.linkedin.com/in/ilhan-ahmed-39568b250/",
+    fb: "https://www.facebook.com/ilhan.ahmed.756/",
+  }
   // {
   //   id: 7,
   //   cName: "team-sec",
