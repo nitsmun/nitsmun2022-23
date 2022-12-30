@@ -7,7 +7,7 @@ import Articles0 from "../Articles0";
 import DiplomaticDips from "../DiplomaticDips";
 const Segments = () => {
   TabTitle("Segments | NITS MUN");
-  const [active, setActive] = useState("Articles");
+  const [active, setActive] = useState("By Bharat");
 
   return (
     <>
@@ -18,9 +18,6 @@ const Segments = () => {
       </div>
       <div className="top-segment">
         <div className="btn-junior">
-          <button className="active btn" onClick={() => setActive("Articles")}>
-            Articles
-          </button>
           <button className="active btn" onClick={() => setActive("By Bharat")}>
             By Bharat
           </button>
@@ -36,11 +33,14 @@ const Segments = () => {
           >
             Diplomatic Dips
           </button>
+          <button className="active btn" onClick={() => setActive("Articles")}>
+            Articles
+          </button>
         </div>
-        {active === "Articles" && <Articles0 />}
         {active === "By Bharat" && <ByBharat />}
         {active === "Quirky Combats" && <QuirkyCombats />}
         {active === "Diplomatic Dips" && <DiplomaticDips />}
+        {active === "Articles" && <Articles0 />}
       </div>
     </>
   );

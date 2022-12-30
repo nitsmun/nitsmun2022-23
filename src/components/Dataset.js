@@ -51,7 +51,7 @@ export const Secretariat = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/shreyashiRoymedhi.jpeg",
+    imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
     name: "Shreyashi Roymedhi",
     post: "Secretary General",
     alt: "Shreyashi Roymedhi",
@@ -1082,6 +1082,19 @@ export const apply = [
 ];
 
 export const mainbybharat = [
+  {
+    id:"operation-ganga",
+    img:"./Images/bybharat/e7_1.jpg",
+    image:"../Images/bybharat/e7_1.jpg",
+    image1:"../Images/bybharat/e7_2.jpg",
+    image2:"../Images/bybharat/e7_3.jpg",
+    image3:"../Images/bybharat/e7_4.jpg",
+    image4:"../Images/bybharat/e7_5.jpg",
+    image5:<><img src="../Images/bybharat/e7_6.jpg" alt="Episode 7 BY BHARAT Powered by NITSMUN" /></>,
+    alt:"Episode 7 BY BHARAT Powered by NITSMUN",
+    title:"Episode 7 | BY BHARAT || NITSMUN",
+    top:"Operation Ganga",
+  },
   {
     id:"india-un-peacekeeping",
     img:"./Images/bybharat/e6_1.jpg",
