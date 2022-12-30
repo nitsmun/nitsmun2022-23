@@ -597,7 +597,7 @@ export const Secretariatprjr = [
   {
     id: 8,
     cName: "team-sec",
-    imgsrc: "./Images/nikunj_MUN.jpeg",
+    imgsrc: "./Images/nikunj_MU.jpeg",
     alt: "Nikunj Beriwal",
     name: "Nikunj Beriwal",
     post: "Public Relations & Outreach Team",
