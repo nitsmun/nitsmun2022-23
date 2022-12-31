@@ -52,14 +52,14 @@ const Wrapped2022 = () => {
             <div className='jan-content-detail w100'>
                 <h3>
                     <h3 className='month-wrapped'>May</h3>
-                    <h3 className='month-details'>May was a month of political importance.China Continues Its Influential Diplomatic Tours In The South Pacific.Complete Reversal Of Trump’s Withdrawal As Biden Approved Redeployment Of US Troops To Somalia.President Macron named Elizabeth Borne as the new Prime Minister of France ahead of a crucial parliamentary election.</h3>
+                    <h3 className='month-details'>May was a month of political importance. China continues its Influential Diplomatic Tours In The South Pacific. Complete Reversal Of Trump’s Withdrawal as Biden Approved Redeployment Of US Troops To Somalia. President Macron named Elizabeth Borne as the new Prime Minister of France ahead of a crucial parliamentary election.</h3>
                 </h3>
             </div>
 
             <div className='jan-content-detail w100'>
                 <h3>
                     <h3 className='month-wrapped'>June</h3>
-                    <h3 className='month-details'>June was a month of importance as the Kashmir conflict began to spark fire again as an attack in Kulgam  caused over 100 Kashmiri Hindu families to flee Kashmir. Monkeypox outbreak happened in major countries like US,Singapore,Australia,Spain etc.Russia withdrew from the United Nations World Tourism Organization (UNWTO) after having been suspended by that organization due to the country's war in Ukraine.The United States Supreme Court overturned Roe v. Wade and Planned Parenthood v. Casey, ending protection of the right to abortion on the federal level and returning regulation to the states.</h3>
+                    <h3 className='month-details'>June was a month of importance as the Kashmir conflict began to spark fire again as an attack in Kulgam  caused over 100 Kashmiri Hindu families to flee Kashmir. Monkeypox outbreak happened in major countries like US, Singapore, Australia, Spain etc. Russia withdrew from the United Nations World Tourism Organization (UNWTO) after having been suspended by that organization due to the country's war in Ukraine. The United States Supreme Court overturned Roe v. Wade and Planned Parenthood v. Casey, ending protection of the right to abortion on the federal level and returning regulation to the states.</h3>
                 </h3>
             </div>
 
@@ -126,7 +126,7 @@ const Wrapped2022 = () => {
             <div className='jan-content-detail w100'>
                 <h3>
                    
-                    <h3 className='month-details tx-centr'>Happy MUNning! And a very happy new year!</h3>
+                    <h3 className='month-details tx-centr'>Happy MUNning! And a very Happy New Year!</h3>
                 </h3>
             </div>
         </>

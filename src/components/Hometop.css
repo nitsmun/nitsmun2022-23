@@ -89,7 +89,7 @@
 .home-wrapped img{
   position: absolute;
   top: 8%;
-  left: 5%;
+  left: 0%;
   width: 14%;
   object-fit: contain;
 }
@@ -155,6 +155,6 @@
 
   .home-wrapped img{
     width: 30%;
-    left: 3% !important;
+    left: 0% !important;
   }
 }

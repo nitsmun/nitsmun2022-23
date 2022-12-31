@@ -423,19 +423,19 @@ export const Secretariatmediajr = [
 ];
 
 export const Secretariatresearchjr = [
+  // {
+  //   id: 1,
+  //   cName: "team-sec",
+  //   imgsrc: "./Images/vishesh1.jpg",
+  //   alt: "Vishesh",
+  //   name: "Vishesh",
+  //   post: "Research and Development Team",
+  //   mail: "mailto:vishesh21_ug@cse.nits.ac.in",
+  //   linkedin: "https://www.linkedin.com/in/vishesh-vishesh-1860a4229/",
+  //   fb: "https://www.facebook.com/profile.php?id=100075987946323",
+  // },
   {
     id: 1,
-    cName: "team-sec",
-    imgsrc: "./Images/vishesh1.jpg",
-    alt: "Vishesh",
-    name: "Vishesh",
-    post: "Research and Development Team",
-    mail: "mailto:vishesh21_ug@cse.nits.ac.in",
-    linkedin: "https://www.linkedin.com/in/vishesh-vishesh-1860a4229/",
-    fb: "https://www.facebook.com/profile.php?id=100075987946323",
-  },
-  {
-    id: 2,
     cName: "team-sec",
     imgsrc: "./Images/chimronSaikia1.jpg",
     alt: "Chimron Saikia",
@@ -446,7 +446,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:saikiachimron@gmail.com",
   },
   {
-    id: 3,
+    id: 2,
     cName: "team-sec",
     imgsrc: "./Images/aditi_MUN.jpg",
     alt: "Aditi Archita Khataniar",
@@ -457,7 +457,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:aditi.khataniar@gmail.com",
   },
   {
-    id: 4,
+    id: 3,
     cName: "team-sec",
     imgsrc: "./Images/Ronak Jain.jpg",
     alt: "Ronak Jain",
@@ -468,7 +468,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:4195rj@gmail.com",
   },
   {
-    id: 5,
+    id: 4,
     cName: "team-sec",
     imgsrc: "./Images/Suraj Kumar Pampana.jpg",
     alt: "Suraj Kumar Pampana",
@@ -479,7 +479,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:suraj.pampana@gmail.com",
   },
   {
-    id: 6,
+    id: 5,
     cName: "team-sec",
     imgsrc: "./Images/hrishikeshBorah.jpg",
     alt: "Hrishikesh Borah",
@@ -490,7 +490,7 @@ export const Secretariatresearchjr = [
     mail: "mailto:hrishikeshborahofficial@gmail.com",
   },
   {
-    id: 7,
+    id: 6,
     cName: "team-sec",
     imgsrc: "./Images/Bhargabi Nath.jpg",
     alt: "Bhargabi Nath",
