@@ -8,7 +8,17 @@ const Hometop = () => {
         <div className="hometop-img">
           <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
         </div>
+
+       
       </div>
+
+    
+      <div className="home-wrapped">
+      <Link to='/wrapped'>
+            <img src="./Images/wrapped2022/wrapping up 2022 button.png" alt="Wrapped 2022" />
+          </Link>
+        </div>
+
 
       <div className="hometop-apply">
         <div className="hometop-reg">

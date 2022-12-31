@@ -18,7 +18,8 @@ import ArticleDetail from "./components/Pages/ArticleDetail";
 import ApplyDetail from "./components/Pages/ApplyDetail";
 import ByBharatDetail from "./components/ByBharatDetail";
 import QuirkyDetail from "./components/QuirkyDetail";
-
+import Wrapped from "./components/Pages/Wrapped";
+import Wrapped2022 from "./components/Pages/Wrapped2022";
 function App() {
   return (
     <div>
@@ -38,6 +39,8 @@ function App() {
             <Route path="/combat/:id"> <QuirkyDetail/> </Route>
             <Route path="/application/:id"> <ApplyDetail/> </Route>
             <Route path="/apply" component={apply} />
+            <Route path='/wrapped' component={Wrapped}></Route>
+            <Route path='/wrapped2022' component={Wrapped2022}></Route>
             <Route path="*">
               {" "}
               <NotFound />

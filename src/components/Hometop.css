@@ -85,6 +85,16 @@
   letter-spacing: .5px;
 }
 
+
+.home-wrapped img{
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  width: 14%;
+  object-fit: contain;
+}
+
+
 @media screen and (max-width: 565px)  {
   .hometop-img img{
       width: 22em;
@@ -141,5 +151,10 @@
 
   .hometop-link1btn:hover{
     border: 2px solid #a4606c;
+  }
+
+  .home-wrapped img{
+    width: 30%;
+    left: 3% !important;
   }
 }

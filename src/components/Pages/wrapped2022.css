@@ -1,0 +1,203 @@
+.wrapped-top{
+    position: relative;
+    height: 80vh !important;
+    background: url(../../../public/Images/wrapped2022/newspapaer\ retro-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapped-top img{
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    object-fit: contain;
+}
+
+.wraping-2022{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1.3% 0;
+    background-color: var(--color-1-080);
+}
+
+.wraping-2022 h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+.wrapping-content-short{
+    padding: 4% 2%;
+}
+
+.wrapping-content-short h3{
+    font-size: 1.8rem;
+    font-family: 'Caladea', serif;
+    line-height: 1.6;
+}
+
+.read-more-wrapped{
+    text-align: right !important;
+    margin-right: 5% !important;
+}
+
+.jan-content{
+    display: flex;
+    padding: 3%;
+}
+
+.jan-content img{
+    width: 40%;
+    height: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 0.9375rem;
+    border-radius: 0.625rem;
+      pointer-events: none;
+}
+
+.jan-content-detail{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    max-width: 55%;
+    margin-left: 5%;
+}
+
+.month-wrapped{
+    color: var(--color-1-080);
+    font-weight: 900;
+    text-decoration:dotted;
+    font-size: 2rem !important;
+   border-bottom: 4px dotted #f39c12;
+   display: inline-block;
+}
+
+.jan-content-detail h3{
+    font-size: 1.7rem;
+    font-family: 'Caladea', serif;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.month-details{
+    padding-top: 1rem;
+}
+
+.w100{
+    width: 95%;
+    max-width: 95%;
+    margin-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 3%;
+}
+
+.reverse-flex-july{
+    flex-direction: row-reverse;
+    padding-left: 0;
+}
+
+.reverse-content-july{
+    margin-right: 3% !important;
+    padding-left: 0% !important;
+    margin-left: 3% !important;
+    max-width: 57%;
+}
+
+.points-muning{
+    padding: 3% 8%;
+}
+
+.less-spacing-sports{
+    padding-top: .2rem !important;
+}
+
+.points-muning li{
+    list-style-type: disc;
+}
+
+.tx-centr{
+    text-align: center !important;
+    font-size: 2.1rem !important;
+    color: transparent;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 4.5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width:660px){
+    .wrapped-top img{
+        width: 60%;
+    }
+
+    .wraping-2022{
+        font-size: 1rem;
+    }
+
+    .wrapping-content-short h3{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .xs-jan{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .xs-jan-content{
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .jan-content{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .jan-content img{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .jan-content-detail{
+        width: 95%;
+        max-width: 95%;
+        padding-left: 0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .jan-content-detail h3{
+        font-size: 1.3rem;
+    }
+
+    .w100{
+        margin-bottom: 5%;
+        padding-right: 0 !important;
+    }
+
+    .reverse-flex-july{
+        margin-top: 2.5rem;
+    }
+
+    .reverse-content-july{
+        /* width: 97% !important;
+        max-width: 99% !important; */
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .tx-centr{
+        font-size: 1.8rem;
+    }
+}
+
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
