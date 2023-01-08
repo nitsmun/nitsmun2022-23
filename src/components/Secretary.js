@@ -28,47 +28,23 @@ const Secretary = () => {
             Dear delegates,
             <br />
             <br />
-            On behalf of my secretariat, with utmost honour and pride, I welcome
-            you all to the annual NIT Silchar Junior Model United Nations
-            conference to be held on 6th and 7th August, 2022.
+            On behalf of my secretariat, with utmost honour and pride, I welcome you all to the 10th edition of NIT Silchar Model United Nations Annual Conference.
             <br />
             <br />
-            The success of its maiden edition presented us with a challenge to
-            make the second edition even better and bigger. NITS Junior MUN is
-            new venture mainly focused on spreading a culture of healthy and
-            constructive debate among school students and making them aware of
-            world security, economics and politics by acting like delegates from
-            different countries.
+            The success of its maiden edition presented us with a challenge to make the upcoming edition even better and bigger.
             <br />
             <br />
-            Due to the relentless efforts of the team every passing year paired
-            with the enthusiastic participants and stellar executive board
-            members, NITSMUN has been able to carve its own place in the MUN
-            circuit and now stands out as one of the forerunners amongst the NE
-            India MUNs. Through the simulation of the annual conferences and
-            year-round activity for the MUN enthusiasts, NITSMUN continues to
-            uphold its passion and dedication to engage the youth in MUN culture
-            and bring out the best in them.
+            Due to the relentless efforts of the team every passing year paired with the enthusiastic participants and stellar executive board  members, NITSMUN has been able to carve its own place in the MUN circuit and now stands out as one of the forerunners amongst the NE India MUNs. Through the simulation of the annual conferences and year-round activity for the MUN enthusiasts, NITSMUN continues to uphold its passion and dedication to engage the youth in MUN culture and bring out the best in them.
             <br />
             <br />
-            This will be a golden opportunity to expand your knowledge and
-            utilize it in engaging debates and simultaneously build your
-            critical thinking as well as writing skills. You will be able to
-            connect with talented people and learn immensely throughout the
-            process, all from the comfort of your home. To achieve the same you
-            need to do extensive research beforehand and our team has put in
-            every effort to make your research experience smoother and
-            hassle-free by making this background guide as comprehensive as we
-            can. From ROPs to references, the background guide has it all. We
-            look forward to welcoming you and hope you will have an enriching
-            experience!
+            This will be a golden opportunity to expand your knowledge and utilize it in engaging debates and simultaneously build your critical thinking as well as writing skills. You will be able to connect with talented people and learn immensely throughout the process, all from the comfort of your home. To achieve the same you need to do extensive research beforehand and our team has put in every effort to make your research experience smoother and hassle-free by making this background guide as comprehensive as we can. From ROPs to references, the background guide has it all. We look forward to welcoming you and hope you will have an enriching experience!
             <br />
             <br />
             Best Regards,
             <br />
             Shreyashi Roymedhi
             <br />
-            Secretary-General
+            Secretary General
             <br />
             NIT Silchar Model United Nations
           </p>

@@ -1052,16 +1052,16 @@ export const partnerall = [
 
 export const apply = [
   {
-    id: "junior_mun",
-    msg:"See you in 2023!",
-    btnname:"Junior Mun 2023",
-    Title:"Application ✏️ | Junior MUN"
+    id:"annual-conference",
+    msg:"Coming Soon!",
+    btnname:"Annual Conference 2023",
+    Title:"Application ✏️ | Annual Conference 2023"
   },
   {
-    id:"annual-conference",
-    msg:"See you in 2023!",
-    btnname:"Annual Conference 2023",
-    Title:"Application ✏️ | Annual Conference"
+    id: "mock_mun",
+    msg:"Coming Soon!",
+    btnname:"Mock Mun 2023",
+    Title:"Application ✏️ | Mock MUN 2023"
   },
 ];
 
