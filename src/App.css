@@ -12,7 +12,7 @@
   font-family: 'Montserrat','Varela Round','Caveat', cursive, 'Inter', sans-serif;
 }
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track{
   background: var(--color-16-100);
@@ -46,7 +46,7 @@
   --color-14-038: #A1BBC0 /*FAQs question bar when hovered*/;
   --color-15-100: #35627b; /* Team card*/
   --color-17-100: rgba(250, 247, 241, 0.619);
-  --color-16-100: linear-gradient(135deg, #000004 86%, #1E6397 100%) /*scrollbar track*/;
-  --color-16-080: linear-gradient(135deg, #35627B 0%, #CEEDF1 100%); /*scrollbar thumb*/;
-  --color-16-060: linear-gradient(135deg, #CEEDF1 0%, #35627B 100%); /*scrollbar hover*/;
+  --color-16-100: #5a4894; /*scrollbar track*/;
+  --color-16-080: linear-gradient(135deg, #ff7cae 50%, #6f38b4 100%); /*scrollbar thumb*/;
+  --color-16-060: linear-gradient(135deg, #6f38b4 50%, #ff7cae 100%); /*scrollbar hover*/;
 }
