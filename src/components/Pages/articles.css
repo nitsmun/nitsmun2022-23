@@ -271,7 +271,7 @@
         padding-left: 1.17265625rem;
         padding-right: 1.17265625rem;
         padding-top: 0.625rem;
-        font-family: 'Montserrat', sans-serif;
+        /* font-family: 'Montserrat', sans-serif; */
     }
 
     .read-more-btn, .read-less-btn{
