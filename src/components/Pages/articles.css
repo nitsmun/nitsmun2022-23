@@ -112,7 +112,7 @@
 .post-date h3{
     font-style: italic;
     font-weight: 900;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.18rem;
     color: var(--color-1-100);
 }
@@ -124,15 +124,15 @@
 .article-cont1{
     text-align: left;
     text-align-last: left;
-    font-size: 1.1rem;
-    color: #222226;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
     padding: 1.875rem;
     padding-top: 0.8rem !important;
     margin-right: 6.875rem;
     line-height: 1.6;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
 }
 
 /* Button CSS */
@@ -140,11 +140,12 @@
     background-color: var(--color-1-100);
     border-radius: 5px;
     color: white;
-    font-family: Montserrat;
+    font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0.5rem 1.25rem;
     border: 2px solid #161c2f;
+    /* letter-spacing: .1px; */
     text-decoration: none;
     display: inline-block;
     cursor: pointer;

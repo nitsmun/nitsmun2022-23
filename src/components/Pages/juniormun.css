@@ -339,6 +339,7 @@
   font-family: var(--font5);
   font-weight: 900;
   font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .active, .btn:hover {

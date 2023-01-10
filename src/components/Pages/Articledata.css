@@ -6,11 +6,13 @@
     width: 50%;
     margin: 1vh auto 0 auto;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 1.7;
     /* text-align: justify; */
+    font-family: 'Nunito', sans-serif;
     text-align: left;
     border-radius: 5vh;
+    color: black !important;
 }
 
 .hold-2{
