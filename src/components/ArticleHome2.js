@@ -17,7 +17,7 @@ const Articlehome2 = () => {
           >
             @nitsmun
           </a>{" "}
-          For All Our Articles!
+          For All Our Segments!
         </h1>
       </div>
       <div className="tea0">

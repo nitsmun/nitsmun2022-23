@@ -29,7 +29,7 @@
 
 .about-content1 ul{
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: 01.5rem;
     line-height: 1.6;
 }
@@ -54,7 +54,7 @@
 }
 
 .content-para3{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     font-weight: 600;
     padding-left: 5em;
@@ -64,7 +64,7 @@
 
 }
 .content-para4{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     font-weight: 600;
     padding-left: 5em;
@@ -74,6 +74,11 @@
     color: black;
 
 }
+
+.contentpara1, .contentpara2, .content-para3, .content-para4{
+    font-family: 'Nunito', sans-serif;
+}
+
 @media only screen and (max-width : 981px){
     .about-main{
         padding-top: 3.3125rem;

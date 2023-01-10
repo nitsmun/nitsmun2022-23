@@ -20,7 +20,7 @@ const Secretary = () => {
             className="sec-text"
             style={{
               textAlign: "left",
-              fontSize: "1.1rem",
+              fontSize: "1.2rem",
               lineHeight: "1.6",
               fontWeight: "900",
             }}
@@ -56,7 +56,7 @@ const Secretary = () => {
 
         <div className="sec-imge">
           <img
-            src="./Images\Shreyashi_Roymedhi_MUN.jpg"
+            src="./Images/Shreyashi_Roymedhi_MUN.jpg"
             alt="shreyashi Roymedhi"
             className="sec-img"
           />

@@ -28,7 +28,7 @@ const Faqmain = styled.div`
   /* background: #3ca06a; */
   background-color: var(--color-1-080);
   color: whitesmoke;
-  font-weight: bolder;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,12 +40,14 @@ const Faqmain = styled.div`
   border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
-    background-color: var( --color-4-100);
+    /* background-color: var( --color-4-100); */
+    background-color: var( --color-1-100);
     /* color: #212529; */
   }
   h1 {
     padding: 1rem;
     font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
   }
   span {
     margin-right: 1.5rem;
@@ -64,7 +66,8 @@ const Faqmain = styled.div`
 `;
 
 const Dropdown = styled.div`
-  background-color: var(--color-14-100);
+  /* background-color: var(--color-14-100); */
+  background-color: #6c2966;
   color: white;
   width: 100%;
   justify-content: center;
@@ -76,9 +79,9 @@ const Dropdown = styled.div`
   text-align: justify;
   text-align-last: left;
   line-height: 1.4;
-  font-family: Montserrat;
   p {
     font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
   }
   @media only screen and (max-width: 993px) {
     p {

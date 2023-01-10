@@ -34,7 +34,7 @@
   font-weight: 600;
   line-height: 1.6;
   text-align: justify;
-  
+  font-family: 'Nunito', sans-serif;
 }
 .nm22-body1 b {
   font-weight: 800;
@@ -47,7 +47,12 @@
   font-size: 1.4em;
   font-weight: 600;
   color: black;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.6;
+}
+
+.nm22-body2_1{
+  font-family: 'Nunito', sans-serif;
 }
 .nm22-body2 b {
   font-weight: 800;

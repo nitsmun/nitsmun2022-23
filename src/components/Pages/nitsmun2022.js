@@ -38,18 +38,15 @@ const Nitsmun2022 = () => {
         <br />
         <br />
         UNSC (United Nations Security Council), with the agenda{" "}
-        <b>
           “The Occupation of major water ways for strong military presence
-          overseas and it's impact on overseas trade”
-        </b>
-        .
+          overseas and it's impact on overseas trade.”
         <br />
         <br />
         UNEP (United Nations Environment Programme), with the agenda{" "}
-        <b>
+       
           “Eliminating the domestic and international trafficking and illegal
           trade of wildlife
-        </b>
+      
         ”.
         <br />
         <br />
@@ -57,10 +54,10 @@ const Nitsmun2022 = () => {
         unbiased journalists, reporting on the proceedings of each simulation in
         the Conference. They will get a chance to investigate committee debates,
         conduct interviews, edit articles, and cover press conferences.{" "}
-        <b>
+  
           "If you prefer writing over speaking, be a member of the International
           Press and keep a check on the delegates!"
-        </b>
+       
         <br />
         <br />
       </div>
@@ -93,9 +90,9 @@ const Nitsmun2022 = () => {
       <br />
 
       <div className="nm22-body2">
-        <div>
-          The theme for the year is <b>“Nous voyons notre avenir”</b>, French
-          for <b>“We see our future”</b>. The pandemic has made us realise that
+        <div className="nm22-body2_1">
+          The theme for the year is “Nous voyons notre avenir”, French
+          for “We see our future”. The pandemic has made us realise that
           if we don't work together, we won't be able to go ahead. We are our
           future, and until all of humanity comes together, it will be
           impossible to make this planet liveable.

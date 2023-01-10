@@ -11,10 +11,10 @@ const images = [
     original: "./Images/juniormun2022/DIP_8541-compressed.jpg",
     thumbnail: "./Images/juniormun2022/DIP_8541-compressed.jpg",
   },
-  {
-    original: "./Images/juniormun2022/DSC_0648-compressed.jpg",
-    thumbnail: "./Images/juniormun2022/DSC_0648-compressed.jpg",
-  },
+  // {
+  //   original: "./Images/juniormun2022/DSC_0648-compressed.jpg",
+  //   thumbnail: "./Images/juniormun2022/DSC_0648-compressed.jpg",
+  // },
   {
     original: "./Images/juniormun2022/DIP_8466-min.jpg",
     thumbnail: "./Images/juniormun2022/DIP_8466-min.jpg",
@@ -27,10 +27,10 @@ const images = [
     original: "./Images/juniormun2022/DSC_0675-compressed.jpg",
     thumbnail: "./Images/juniormun2022/DSC_0675-compressed.jpg",
   },
-  {
-    original: "./Images/juniormun2022/DIP_8615-min.jpg",
-    thumbnail: "./Images/juniormun2022/DIP_8615-min.jpg",
-  },
+  // {
+  //   original: "./Images/juniormun2022/DIP_8615-min.jpg",
+  //   thumbnail: "./Images/juniormun2022/DIP_8615-min.jpg",
+  // },
   {
     original: "./Images/Carousel1.jpg",
     thumbnail: "./Images/Carousel1.jpg",

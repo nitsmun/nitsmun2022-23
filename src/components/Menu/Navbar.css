@@ -7,6 +7,7 @@
 	margin-right:auto;
 	margin-left:auto;
   background-color: var(--color-1-100);
+  /* background-color: #5a4894; */
   transition: 0.25s;
    position: fixed;
    z-index: 200;
@@ -94,6 +95,7 @@ li {
   display: block;
   color: white;
   margin: 0.625rem 1.1875rem;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   cursor: pointer;
 }
@@ -151,9 +153,10 @@ li {
   border-radius: .325rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: var( --color-4-100);
-  
+  /* background-color: var( --color-4-100); */
+  background-color: #e7b4de;
 }
+
 .nav-apply{
   color: transparent;
   background-image: linear-gradient(to left, #212529, #3498db, #9b59b6, #f39c12, white, #161c2f, #1e3d72);
@@ -178,7 +181,7 @@ li {
 }
 
 .apply-special:hover{
-  background-color: var(--color-14-100);
+  background: linear-gradient(135deg, #2c1964 50%, #6f38b4 100%);
 }
 
 .sub__menus__arrows{
@@ -288,8 +291,7 @@ li {
   position: absolute;
   left: 0;
   z-index: 10007;
-  background-color: var(--color-1-100);
-  background-color: var(--color-1-080);
+  background-color: #6c2966;
     border-bottom: 3px solid linear-gradient(135deg, #06553d 0%, #159d9d 100%);
   right: 0;
   padding-bottom: 1.0625rem;

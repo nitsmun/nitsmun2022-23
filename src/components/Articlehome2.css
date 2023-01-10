@@ -69,9 +69,9 @@ body {
 }
 
 .team-section-body p {
-  color: #222226;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 1rem;
 }
@@ -102,6 +102,7 @@ body {
   text-align: center;
   padding: 0.4375rem 0.9375rem;
   border-radius: 0.3125rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .article-home-btn:hover {
