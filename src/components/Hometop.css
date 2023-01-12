@@ -95,6 +95,11 @@
   object-fit: contain;
 }
 
+@media only screen and (max-width:660px){
+  .hometop-main{
+    transition: height 9999999s;
+  }
+}
 
 @media screen and (max-width: 565px)  {
   .hometop-img img{
