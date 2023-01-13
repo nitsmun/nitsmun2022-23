@@ -217,3 +217,13 @@ body{
         font-size: .5rem;
     }
 }
+
+@media only screen and (max-height:500px){
+    .wrapped-top img{
+        width: 20%;
+    }
+
+    .wrapped-top{
+        height: 100vh !important;
+    }
+}

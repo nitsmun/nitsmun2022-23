@@ -33,6 +33,7 @@
     font-weight: 900;
 }
 
+
 .apply-home-h1{
     color: #212529;
     font-weight: 600;
@@ -127,7 +128,7 @@
     font-size: 1.2rem;
     color: black;
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     padding: 1.875rem;
     padding-top: 0.8rem !important;
     margin-right: 6.875rem;
@@ -436,5 +437,17 @@
 @media only screen and (max-width:320px){
     .top-bg-segment h1, .top-bg-segment h2{
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-height:500px){
+    .top-bg-segment h1{
+        top: 30%;
+        font-size: 3rem;
+    }
+
+    .top-bg-segment h2{
+        top: 45%;
+        font-size: 2.5rem;
     }
 }

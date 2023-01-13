@@ -324,3 +324,16 @@ li {
     display: none;
   }
 }
+
+@media only screen and (max-height:500px){
+  .main-nav ul.menuq2{
+      padding-top: 0;
+  }
+}
+
+@media only screen and (max-height:338px){
+  .main-nav .menu-item a{
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+  }
+}

@@ -28,7 +28,6 @@ const Faqmain = styled.div`
   /* background: #3ca06a; */
   background-color: var(--color-1-080);
   color: whitesmoke;
-  font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +46,7 @@ const Faqmain = styled.div`
   h1 {
     padding: 1rem;
     font-size: 1.2rem;
+    font-weight: 500 !important;
     font-family: 'Nunito', sans-serif;
   }
   span {
@@ -74,7 +74,7 @@ const Dropdown = styled.div`
   align-items: center;
   border-radius: 0.9375rem;
   margin-bottom: 6vh;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.9375rem 1.25rem;
   text-align: justify;
   text-align-last: left;

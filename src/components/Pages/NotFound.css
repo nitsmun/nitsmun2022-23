@@ -124,7 +124,7 @@
     cursor: pointer;
     font-weight: 300;
     font-size: 1.25rem;
-    border: 3px solid #161c2f;
+    border: 2px solid var(--color-6-100);
     transition: transform 0.4s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.4s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 }
 
@@ -132,7 +132,7 @@
     transform: scale(1.02);
     background-color: var(--color-6-100);
     color: var(--color-1-100);
-    border: 3px solid #a4606c;
+    border: 2px solid #a4606c;
 }
 
 .notfound-tohome:focus {
@@ -166,5 +166,26 @@
 
     .notfound-tohome:hover{
         border: 2px solid #a4606c;
+    }
+}
+
+@media only screen and (max-height:611px){
+    .not-found{
+        height: 110vh;
+    }
+}
+
+
+@media only screen and (max-height:500px){
+    .not-found{
+        padding-top: 2.125rem;
+    }
+
+    .no-existence1{
+        font-size: 7rem;
+    }
+
+    .not-found-text h2{
+        padding: 0;
     }
 }

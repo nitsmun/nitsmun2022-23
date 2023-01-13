@@ -24,7 +24,8 @@
     padding: 3em 3em;
     text-align: justify;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 500;
+    /* letter-spacing: .2px; */
 }
 
 .about-content1 ul{
@@ -56,7 +57,7 @@
 .content-para3{
     font-size: 1.2rem;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 5em;
     padding-right: 5em;
     text-align: center;
@@ -66,7 +67,7 @@
 .content-para4{
     font-size: 1.2rem;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 5em;
     padding-right: 5em;
     text-align: justify;

@@ -22,7 +22,7 @@ const Secretary = () => {
               textAlign: "left",
               fontSize: "1.2rem",
               lineHeight: "1.6",
-              fontWeight: "900",
+              fontWeight: "500",
             }}
           >
             Dear delegates,

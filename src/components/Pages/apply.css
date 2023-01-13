@@ -13,9 +13,12 @@
 
 .img-apply img{
     margin: 14vh 0 5vh 0vh;
-    width: 18rem;
+    width: 17%;
+    object-fit: contain;
     pointer-events: none;
 }
+
+
 
 /* .apply-container a{
     margin-top: 3vh;
@@ -126,7 +129,7 @@
     margin: 1.5rem auto;
     background-color: var(--color-4-100);
     background-color: var( --color-1-080);
-    border: 3px solid #161c2f;
+    border: 2px solid var(--color-6-100);
     color: var(--color-5-100);
     font-weight: 600;
     line-height: 1.6;
@@ -142,9 +145,10 @@
 .application-btn:hover{
     transform: scale(1.02);
     color: black;
-    font-weight: 900;
+    /* font-weight: 900; */
     background-color: var(--color-6-100);
-    border: 3px solid #c67382;
+    border: 2px solid #c67382;
+    color: var(--color-1-100);
 }
 
 .application-btn:focus{
@@ -225,5 +229,34 @@
 
     .msg-apply{
         font-size: 2rem;
+    }
+}
+
+@media only screen and (max-height:600px){
+    .apply-container{
+        min-height: 120vh;
+    }
+}
+
+
+@media only screen and (max-height:576px){
+    .img-apply img{
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-height:400px){
+    .apply-container{
+        min-height: 130vh;
+    }
+
+    .application-btn{
+        padding: .5rem 0;
+    }
+}
+
+@media only screen and (max-height:281px){
+    .apply-container{
+        min-height: 140vh;
     }
 }
