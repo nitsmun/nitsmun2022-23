@@ -42,3 +42,15 @@
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-height:500px){
+    .quirkytdetail-top{
+        padding-top: 20vh;
+    }
+}
+
+@media only screen and (max-height:320px){
+    .quirkytdetail-top{
+        padding-top: 25vh;
+    }
+}

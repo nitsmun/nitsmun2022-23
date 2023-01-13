@@ -15,6 +15,7 @@
   width: 100%;
   box-sizing: border-box;
 }
+
 .event-pic img{
   position: absolute;
   top: 55%;
@@ -630,3 +631,15 @@ padding-right: 1rem;
     margin-top: 8vh;
   }
 }
+
+@media only screen and (max-height:500px){
+  .event-pic{
+    height: 60vh;
+  }
+}
+
+/* @media only screen and (max-height:350px){
+  .event-pic{
+    height: 20vh;
+  }
+} */

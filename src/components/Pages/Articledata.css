@@ -78,3 +78,15 @@
         padding-top: 10vh;
     }
 }
+
+@media only screen and (max-height:500px){
+    .article-detail-title{
+        padding-top: 20vh;
+    }
+}
+
+@media only screen and (max-height:320px){
+    .article-detail-title{
+        padding-top: 25vh;
+    }
+}

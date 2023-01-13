@@ -1052,16 +1052,24 @@ export const partnerall = [
 
 export const apply = [
   {
-    id:"annual-conference",
+    id:"annual-conference-2023",
     msg:"Coming Soon!",
     btnname:"Annual Conference 2023",
-    Title:"Application ✏️ | Annual Conference 2023"
+    Title:"Annual Conference 2023 Application ✏️ | Annual Conference 2023"
   },
   {
-    id: "mock_mun",
+    id: "mock_mun_2023",
     msg:"Coming Soon!",
     btnname:"Mock Mun 2023",
-    Title:"Application ✏️ | Mock MUN 2023"
+    Title:"Mock Mun 2023 Application ✏️ | Mock MUN 2023"
+  },
+  {
+    id: "EB_annual conference",
+    msg:"Coming Soon!",
+    // msg:<><a href="https://google.com">google here</a>
+    //       </>,
+    btnname:"Executive Board Application for Annual Conference 2023",
+    Title:"Executive Board Application ✏️ | Annual Conference 2023"
   },
 ];
 

@@ -159,16 +159,6 @@
             }
         }
 
-@media only screen and (max-width:660px){
-    .notfound-tohome{
-        border: 2px solid #161c2f;
-    }
-
-    .notfound-tohome:hover{
-        border: 2px solid #a4606c;
-    }
-}
-
 @media only screen and (max-height:611px){
     .not-found{
         height: 110vh;
@@ -178,7 +168,7 @@
 
 @media only screen and (max-height:500px){
     .not-found{
-        padding-top: 2.125rem;
+        padding-top: 3.125rem;
     }
 
     .no-existence1{
@@ -187,5 +177,21 @@
 
     .not-found-text h2{
         padding: 0;
+    }
+
+    .notfound-tohome{
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+}
+
+@media only screen and (max-height:280px){
+    .no-existence1{
+        font-size: 4rem;
+    }
+
+    .notfound-tohome{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
     }
 }
