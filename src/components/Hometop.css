@@ -149,6 +149,10 @@
     width: 30%;
     left: 0% !important;
   }
+
+  .hometop-main{
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (max-height:616px){

@@ -55,6 +55,10 @@
     .articles-heading-cont h1{
         font-size: 1.5rem;
     }
+
+    .top-bg-segment{
+        background-attachment: scroll;
+    }
 }
 
 .article-flexing{

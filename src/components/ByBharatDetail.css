@@ -56,6 +56,10 @@
     .bybharatdetail-top h1{
         font-size: 1.3rem;
     }
+
+    .bybharatdetail-top{
+        background-attachment: scroll;
+    }
 }
 
 @media only screen and (max-height:500px){

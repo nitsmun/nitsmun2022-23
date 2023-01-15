@@ -111,6 +111,10 @@
     .to-home{
         font-size: 0.875rem;
     }
+
+    .not-found{
+        background-attachment: scroll;
+    }
 }
 
 .notfound-tohome{
