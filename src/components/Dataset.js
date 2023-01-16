@@ -1052,12 +1052,6 @@ export const partnerall = [
 
 export const apply = [
   {
-    id:"annual-conference-2023",
-    msg:"Coming Soon!",
-    btnname:"Annual Conference 2023",
-    Title:"Annual Conference 2023 Application ✏️ | Annual Conference 2023"
-  },
-  {
     id: "mock_mun_2023",
     // msg:"Coming Soon!",
     msg:<>
@@ -1067,9 +1061,15 @@ export const apply = [
     Title:"Mock Mun 2023 Application ✏️ | Mock MUN 2023"
   },
   {
+    id:"annual-conference-2023",
+    msg:"Coming Soon!",
+    btnname:"Annual Conference 2023",
+    Title:"Annual Conference 2023 Application ✏️ | Annual Conference 2023"
+  },
+  {
     id: "EB_annual conference",
     msg:"Coming Soon!",
-    btnname:"Executive Board Application for Annual Conference 2023",
+    btnname:"Executive Board Application For Annual Conference 2023",
     Title:"Executive Board Application ✏️ | Annual Conference 2023"
   },
 ];

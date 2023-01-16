@@ -23,16 +23,16 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            New{" "}
+            Mock Mun 2023{" "}
             <span style={{ color: "rgb(45, 210, 255)" }}>
-              Segments
+              Registration
             </span>{" "}
-            are out!
+            Is Now Open!
           </ul>
         </div>
         <div className="hometop-link1">
-          <Link to={"/segments"}>
-            <button className="hometop-link1btn">Check Them Now!</button>
+          <Link to={"/apply"}>
+            <button className="hometop-link1btn">Register Now!</button>
           </Link>
         </div>
       </div>
