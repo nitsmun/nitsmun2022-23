@@ -181,11 +181,26 @@
     font-weight: 900;
 }
 
+.apply-redirect{
+    color: white;
+    font-size: 2.2vw;
+    font-family: 'Nunito', sans-serif;
+    /* display: flex; */
+    align-items: flex-start;
+}
+
+.apply-redirect:hover{
+    color: var(--color-1-080);
+}
+
 @media only screen and (max-width:1000px){
     .application-btn{
         width: 90%;
         font-size: 0.875rem;
-     
+    }
+
+    .apply-redirect{
+        font-size: 4vw;
     }
 }
 

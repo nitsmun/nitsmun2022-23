@@ -1,6 +1,6 @@
 import { FaFacebookF } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
-// import { FaGithubSquare } from "react-icons/fa";
+// import {ImNewTab} from 'react-icons/im'
 
 export const Slider = [
   {
@@ -1059,15 +1059,16 @@ export const apply = [
   },
   {
     id: "mock_mun_2023",
-    msg:"Coming Soon!",
+    // msg:"Coming Soon!",
+    msg:<>
+    <a href="https://forms.gle/a8etGzpBEfyUiRdEA" className="apply-redirect p-by"  target="_blank">Click Here to Register in Mock MUN 2023.</a>
+    </> ,
     btnname:"Mock Mun 2023",
     Title:"Mock Mun 2023 Application ✏️ | Mock MUN 2023"
   },
   {
     id: "EB_annual conference",
     msg:"Coming Soon!",
-    // msg:<><a href="https://google.com">google here</a>
-    //       </>,
     btnname:"Executive Board Application for Annual Conference 2023",
     Title:"Executive Board Application ✏️ | Annual Conference 2023"
   },
