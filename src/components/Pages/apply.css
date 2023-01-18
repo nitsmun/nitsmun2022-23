@@ -123,10 +123,11 @@
 }
 
 .application-btn{
-    display: block;
+    display: inline-block;
+    /* display: block; */
     cursor: pointer;
     width: 70%;
-    margin: 1.5rem auto;
+    margin: 1.5vh auto;
     background-color: var(--color-4-100);
     background-color: var( --color-1-080);
     border: 2px solid var(--color-6-100);
@@ -183,7 +184,7 @@
 
 .apply-redirect{
     color: white;
-    font-size: 2.2vw;
+    font-size: 2vw;
     font-family: 'Nunito', sans-serif;
     /* display: flex; */
     align-items: flex-start;
@@ -193,6 +194,13 @@
     color: var(--color-1-080);
 }
 
+.newwindow{
+    margin-bottom: .3vw;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+
 @media only screen and (max-width:1000px){
     .application-btn{
         width: 90%;
@@ -201,6 +209,12 @@
 
     .apply-redirect{
         font-size: 4vw;
+    }
+
+    .newwindow{
+        width: 2vw;
+        height: 2vw;
+        margin-bottom: 1vw;
     }
 }
 
@@ -224,11 +238,15 @@
     .application-btn{
         font-size: 1.125rem;
         /* margin-top: 4vh !important; */
-        margin: 2.5rem auto !important;
+        /* margin: 2rem auto !important; */
     }
 
     .apply-display{
         padding-top: 3rem;
+    }
+
+    .img-apply img{
+        width: 25vw;
     }
 }
 

@@ -27,7 +27,7 @@ const Hometop = () => {
             <span style={{ color: "rgb(45, 210, 255)" }}>
               Registration
             </span>{" "}
-            Is Now Open!
+            Is Now Open!<img className="tnew-gif" src="./Images/tnew.gif" alt="" />
           </ul>
         </div>
         <div className="hometop-link1">

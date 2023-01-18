@@ -95,6 +95,11 @@
   object-fit: contain;
 }
 
+@media only screen and (min-width:567px){
+  .tnew-gif{
+    margin-bottom: 0.5vw;
+  }
+}
 @media screen and (max-width: 565px)  {
   .hometop-img img{
       width: 22em;
@@ -173,6 +178,15 @@
   }
 }
 
+@media only screen and (max-width:352px){
+  .hometop-reg{
+    font-size: 6vw;
+  }
+
+  .hometop-apply{
+    padding: 1.5rem .5rem;
+  }
+}
 @media only screen and (max-height:256px){
   .hometop-img img{
     height: 8rem;
