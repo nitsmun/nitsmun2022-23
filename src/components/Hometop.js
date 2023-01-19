@@ -19,13 +19,15 @@ const Hometop = () => {
         </Link>
       </div>
 
+      
+
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
             <span style={{ color: "rgb(45, 210, 255)" }}>Mock Mun 2023</span>{" "}
-            And <span style={{ color: "rgb(45, 210, 255)" }}>Executive Board </span>
-            Registration Is
-            Now Open!
+            And{" "}
+            <span style={{ color: "rgb(45, 210, 255)" }}>Executive Board </span>
+            Registration Is Now Open!
             <img className="tnew-gif" src="./Images/tnew.gif" alt="" />
           </ul>
         </div>
@@ -35,6 +37,14 @@ const Hometop = () => {
           </Link>
         </div>
       </div>
+
+      <div className="annual-2023-poster">
+        <img
+          src="./Images/nitsmun2023 poster.jpg"
+          alt="2023 Annual Conference Promotion"
+        />
+      </div>
+
     </div>
   );
 };

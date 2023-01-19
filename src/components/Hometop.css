@@ -99,9 +99,33 @@
   pointer-events: none;
 }
 
+.annual-2023-poster{
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.annual-2023-poster img{
+  width: 50%;
+  object-fit: contain;
+  box-shadow: 0 0 0.9375rem;
+  pointer-events: none;
+  border-radius: 0.625rem;
+}
+
 @media only screen and (min-width:567px){
   .tnew-gif{
     margin-bottom: 0.5vw;
+  }
+}
+
+@media only screen and (max-width:991px){
+  .annual-2023-poster{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .annual-2023-poster img{
+    width: 70%;
   }
 }
 

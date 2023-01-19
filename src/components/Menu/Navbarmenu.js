@@ -110,13 +110,13 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
-                        to={`/nitsmun2022`}
+                        to={`/mockmun2023`}
                       >
                         {" "}
-                        NITSMUN 2022{" "}
+                        Mock MUN 2023{" "}
                       </NavLink>{" "}
                     </li>
-                    <li>
+                    {/* <li>
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
@@ -124,7 +124,7 @@ const Navbarmenu = () => {
                       >
                         Junior MUN{" "}
                       </NavLink>{" "}
-                    </li>
+                    </li> */}
 
                     {/* <li>
                       <NavLink
