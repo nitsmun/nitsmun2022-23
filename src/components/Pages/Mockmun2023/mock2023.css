@@ -42,6 +42,10 @@
 
 .mock23-txt{
     font-size: 1.3vw !important;
+}
+
+.lcn-mockmun{
+    margin-top: 0 !important;
     margin-bottom: 5vw;
 }
 
@@ -71,6 +75,9 @@
 
     .mock23-txt{
         font-size: 3vw !important;
+    }
+
+    .lcn-mockmun{
         margin-bottom: 9vw;
     }
 }

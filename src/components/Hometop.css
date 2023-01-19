@@ -112,6 +112,11 @@
   border-radius: 0.625rem;
 }
 
+.home-bner{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900 !important;
+}
+
 @media only screen and (min-width:567px){
   .tnew-gif{
     margin-bottom: 0.5vw;
