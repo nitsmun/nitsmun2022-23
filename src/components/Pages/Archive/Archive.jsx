@@ -10,7 +10,7 @@ const Archive = () => {
         <>
             <div className="archive-main">
                 <div className="archive-top">
-                    <h1>Archive Exist to keep things safe but not secret.</h1>
+                    <h1>Archive exist to keep things safe but not secret.</h1>
                 </div>
 
                 <div className="archive-cont">

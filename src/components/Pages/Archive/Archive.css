@@ -100,12 +100,22 @@
 }
 
 @media only screen and (max-width:660px){
-    /* .archive-cont{
+    .archi2-cont h1{
+        font-size: 5vw;
+    }
+    
+    .archi2{
+        padding-bottom: 15vw;
+    }
+
+    .archive-cont{
         flex-direction: column;
     }
+
     .archi1, .archi2{
         width: 100%;
-    } */
+    }
+
     .archive-top h1{
         font-size: 10vw;
     }
@@ -115,7 +125,7 @@
     }
 
     .archi-modi{
-        font-size: 3vw !important;
+        font-size: 4.5vw !important;
         margin-left: 2vw;
         margin-top: 3vw !important;
     }
