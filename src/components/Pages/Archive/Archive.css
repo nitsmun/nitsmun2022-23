@@ -1,0 +1,127 @@
+.archive-top{
+    position: relative;
+    background: url(../../../../public/Images/archive/archivebg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px #1f1834b1;
+}
+
+.archive-top h1{
+    color: white;
+    position: absolute;
+    font-size: 6vw;
+    left: 5%;
+    right: 5%;
+    top: 35%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.archive-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.archi1{
+    width: 57%;
+}
+
+.archi2{
+    width: 43%;
+}
+
+.archi1-1, .archi1-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.archi2{
+    background-color: var( --color-1-080);
+}
+
+.archi2-top{
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.archi2-top h1{
+    color: white;
+    font-size: 5vw;
+    font-family: 'Lato', sans-serif;
+}
+
+.archi2-cont{
+    text-align: center !important;
+    padding-left: 10vw;
+    margin-top: 7vw;
+    display: flex;
+    align-items: baseline;
+}
+
+.archi2-cont0{
+    margin-top: 0;
+}
+
+.archi2-cont h1{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5vw;
+}
+
+.archi-modi{
+    margin-left: 3vw;
+    font-size: 2vw !important;
+    color: white !important;
+}
+
+.archi-modi:hover{
+    color: black !important;
+}
+
+.archi-im-btm{
+    padding-bottom: 0 !important;
+}
+
+@media only screen and (max-width:1225px){
+    .archive-top h1{
+        font-size: 7vw;
+        line-height: 1.6;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .archi2-top h1{
+        font-size: 8vw;
+    }
+}
+
+@media only screen and (max-width:660px){
+    /* .archive-cont{
+        flex-direction: column;
+    }
+    .archi1, .archi2{
+        width: 100%;
+    } */
+    .archive-top h1{
+        font-size: 10vw;
+    }
+
+    .archi2-cont{
+        margin-top: 0vw;
+    }
+
+    .archi-modi{
+        font-size: 3vw !important;
+        margin-left: 2vw;
+        margin-top: 3vw !important;
+    }
+
+   .archi2-cont1{
+    margin-top: 6vw;
+   }
+}
+

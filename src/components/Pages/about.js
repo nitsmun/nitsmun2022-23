@@ -2,18 +2,17 @@ import React from "react";
 import "./about.css";
 import Underline from "../Underline";
 import { TabTitle } from "../Utils/Genfn";
+import { Link } from "react-router-dom";
 
 const About = () => {
   TabTitle("About | NITS MUN");
-  
 
- 
   return (
     <div className="about-main">
       <div className="about-header">
         <ul className="about-headertxt">About Us</ul>
       </div>
-      <Underline/>
+      <Underline />
       <div className="about-content1">
         <ul className="contentpara1">
           NITSMUN was founded in 2014 when a group of like-minded people wanted
@@ -37,7 +36,7 @@ const About = () => {
           polishing the interpersonal, debating, and deliberating skills of the
           participants and mold them into a leader of tomorrow.
         </ul>
-      </div> 
+      </div>
       <div className="about-headertxt2">
         <h1>Our Vision</h1>
       </div>
@@ -66,6 +65,18 @@ const About = () => {
           discourses upon a certain agenda and tries to find fixes and solutions
           to the problems.
         </ul>
+      </div>
+
+      <div className="history-past">
+        <h1>Looking for previous year NITSMUN Agendas and committees?</h1>
+      </div>
+
+      <div className="link-btn-btm">
+        <Link to="/archive">
+          <p className="p-by mock23-txt archi">
+            Click here to go to Archive Page!
+          </p>
+        </Link>
       </div>
     </div>
   );

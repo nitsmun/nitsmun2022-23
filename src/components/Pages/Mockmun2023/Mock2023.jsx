@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './mock2023.css'
 import { Link } from 'react-router-dom'
 const Mock2023 = () => {
+    useEffect(() => {
+        document.title = 'Mock MUN 2023 | NITSMUN';
+    }, []);
     return (
         <>
             <div className="mock23-main">

@@ -80,6 +80,22 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.history-past{
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.history-past h1{
+    font-size: 1.7vw;
+    font-family: 'Nunito', sans-serif;
+    color: var(--color-1-080);
+}
+
+.archi{
+    margin-bottom: 3vw;
+}
+
 @media only screen and (max-width : 981px){
     .about-main{
         padding-top: 3.3125rem;
@@ -91,6 +107,10 @@
     .content-para3,.content-para4{
         padding-left: 2.4em;
         padding-right: 2.4em;
+    }
+
+    .history-past h1{
+        font-size: 3vw;
     }
 }
 @media only screen and (max-width : 650px){
@@ -110,5 +130,13 @@
     }
     .about-headertxt{
         font-size: 1.741rem;
+    }
+
+    .history-past h1{
+        font-size: 4vw;
+    }
+
+    .archi{
+        margin-bottom: 5vw;
     }
 }
