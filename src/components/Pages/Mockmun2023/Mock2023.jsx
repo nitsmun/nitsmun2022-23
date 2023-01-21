@@ -22,7 +22,7 @@ const Mock2023 = () => {
 
                 <div className="mock23-content">
                     <div className="mock23-title">
-                        <h1>MOCK MUN 2023</h1>
+                        <h1>Mock MUN 2023</h1>
                     </div>
 
                     <div className="mock23-desc">

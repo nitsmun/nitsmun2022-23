@@ -3,6 +3,7 @@
     width: 100%;
     background-color: var(--color-1-100);
     background: url(../../../src/components/un_bg.jpg);
+    /* background: url(../../../public/Images/Nitsmun\ fb\ \ cover\ page.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

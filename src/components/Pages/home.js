@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-// import Director from "../Director";
+import Director from "../Director";
 import { TabTitle } from "../Utils/Genfn";
 import Secretary from "../Secretary";
 import Hometop from "../Hometop";
@@ -28,7 +28,7 @@ const Home = () => {
       <div>
         <Hometop />
       </div>
-      {/* <Director /> */}
+      <Director />
       <Secretary />
       <Underline />
       <div className="photo-title">
