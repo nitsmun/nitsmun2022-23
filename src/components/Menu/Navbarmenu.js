@@ -102,7 +102,7 @@ const Navbarmenu = () => {
                   {" "}
                   <Link to="#">
                     {" "}
-                    Events <FiChevronDown />{" "}
+                    Events <FiChevronDown  className="nav-upsidedown"/>{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
                     <li>
