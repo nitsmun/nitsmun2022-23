@@ -116,7 +116,7 @@
     cursor: pointer;
 }
 
-.icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e{
+.icon-color-a,.icon-color-b,.icon-color-c,.icon-color-d,.icon-color-e, .icon-color-f{
     padding-top: 0.125rem;
     color: black;
     /* color: white; */
@@ -149,6 +149,12 @@
     color: rgb(255, 0, 0);
     transition: all 0.3s ease 0s;
 }
+
+.footer-btn-d:hover .icon-color-f{
+    color: #41df5d ;
+    transition: all 0.3s ease 0s;
+}
+
 .footer-btn-d:hover{
     background-color: 	#ffffff;
     transition: all 0.3s ease 0s;

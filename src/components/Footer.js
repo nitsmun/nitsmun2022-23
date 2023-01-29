@@ -8,7 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { GoLocation } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 import { IconContext } from "react-icons";
-
+import {SiLinktree} from 'react-icons/si'
 const Footer = () => {
   return (
     <div className="footer-main">
@@ -56,11 +56,25 @@ const Footer = () => {
             <FaYoutube className="icon-color-d" size={26} />
           </a>
         </button>
+
+        <button className="footer-btn-d">
+          {" "}
+          <a
+            className="footer-anchor"
+            href="https://linktr.ee/nitsmun"
+            rel="noreferrer"
+            target="_#blank"
+          >
+            <SiLinktree className="icon-color-f" size={26} />
+ 
+          </a>
+        </button>
+
         {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
 
         <button className="footer-btn-e">
           {" "}
-          <a className="footer-anchor" href="mailto:team.nitsmun@gmail.com">
+          <a className="footer-anchor" href="mailto:nitsmun@nits.ac.in">
             <HiOutlineMail className="icon-color-e" size={27} />
           </a>
         </button>

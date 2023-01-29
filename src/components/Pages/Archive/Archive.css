@@ -56,8 +56,8 @@
 
 .archi2-cont{
     text-align: center !important;
-    padding-left: 10vw;
-    margin-top: 7vw;
+    padding-left: 12vw;
+    margin-top: 3.2vw;
     display: flex;
     align-items: baseline;
 }
@@ -86,26 +86,20 @@
     padding-bottom: 0 !important;
 }
 
+.alter-arch{
+    margin-top: 1.8vw;
+    padding-left: 8vw;
+}
+
+.archive-new-win-custom{
+    width: .9vw !important;
+    margin-bottom: .5vw;
+}
+
 @media only screen and (max-width:1225px){
     .archive-top h1{
         font-size: 7vw;
         line-height: 1.6;
-    }
-}
-
-@media only screen and (max-width:991px){
-    .archi2-top h1{
-        font-size: 8vw;
-    }
-}
-
-@media only screen and (max-width:660px){
-    .archi2-cont h1{
-        font-size: 5vw;
-    }
-    
-    .archi2{
-        padding-bottom: 15vw;
     }
 
     .archive-cont{
@@ -116,6 +110,34 @@
         width: 100%;
     }
 
+    .archi2{
+        padding-bottom: 15vw;
+    }
+
+    .archi2-cont{
+        padding-left:35.8vw;
+    }
+
+    .alter-arch{
+        padding-left: 29.5vw;
+    }
+
+    .archi2-top h1{
+        font-size: 8vw;
+    }
+}
+
+@media  only screen and (max-width:1225px) and (min-width:660px){
+    .alter-arch{
+        padding-left: 31.5vw;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .archi2-cont h1{
+        font-size: 5vw;
+    }
+    
     .archive-top h1{
         font-size: 10vw;
     }
@@ -133,5 +155,10 @@
    .archi2-cont1{
     margin-top: 6vw;
    }
+
+   .archive-new-win-custom{
+    width: 1.8vw !important;
+    margin-bottom: 1.3vw;
+}
 }
 
