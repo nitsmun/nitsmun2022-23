@@ -57,6 +57,21 @@
     width: .6vw;
 }
 
+.off-reg-msg{
+    font-family: 'Playfair Display', sans-serif;
+    color: red;
+    font-weight: 900;
+    font-size: 1.3vw;
+    margin-bottom: .7vw;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+    75%, 100% {
+      opacity: 0;
+    }
+}
+
 @media only screen and (max-width:1025px) and (min-width:767px){
     .mock23-main{
         min-height: 100vh;
@@ -98,5 +113,13 @@
 
     .newwinmockbg{
         width: 1.1vw;
+    }
+
+    .off-reg-msg{
+        font-family: 'Playfair Display', sans-serif;
+        color: red;
+        font-weight: 900;
+        font-size: 2.7vw;
+        margin-bottom: 1vw;
     }
 }
