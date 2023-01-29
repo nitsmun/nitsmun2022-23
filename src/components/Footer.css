@@ -202,6 +202,24 @@
     object-fit: contain;
 }
 
+.num-fter{
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright-nitsmun{
+    padding-bottom: 1vw;
+}
+
+.copyright-nitsmun p, .nits--mun{
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: .8vw;
+}
+
+.nits--mun{
+    font-weight: 500;
+}
+
 @media only screen and (max-width : 676px){
     .footer-below{
         padding: 1em;
@@ -238,5 +256,22 @@
         /* display: none; */
     }
     
-    
+    .footer-phone, .footer-location{
+        width: 7vw;
+    }
+
+    .address ul, .num-fter{
+        font-size: 4vw;
+    }
+
+
+    .copyright-nitsmun{
+        padding-bottom: 2vw;
+    }
+
+    .copyright-nitsmun p, .nits--mun{
+        color: white;
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 1.8vw;
+    }
 }

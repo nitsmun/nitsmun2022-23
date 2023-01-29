@@ -146,11 +146,15 @@ const Footer = () => {
           </IconContext.Provider>
           <div className="phonenum">
             <div className="phonenum2">
-              <a href="tel:+919101393607">+919101393607</a>
+              <a href="tel:+919101393607"><p className="num-fter">+919101393607</p></a>
               {/* <a href="tel:+919707091602">9707091602</a> */}
             </div>
           </div>
         </div>
+      </div>
+      
+      <div className="copyright-nitsmun" style={{userSelect:'none'}}>
+        <p>	&copy; 2023 <span className="nits--mun">NITSMUN</span>. All rights reserved.</p>
       </div>
     </div>
   );

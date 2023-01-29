@@ -6,7 +6,7 @@ const Director = () => {
   return (
     <div>
       <div className="msg-secretary dir-2">
-        <h2 className="sec-head1">Message From The Faculty Advisor</h2>
+        <h2 className="sec-head1" style={{userSelect:'none'}}>Message From The Faculty Advisor</h2>
         <Underline />
         <br />
         <br />
@@ -33,6 +33,7 @@ const Director = () => {
               fontSize: "1.2rem",
               lineHeight: "1.6",
               fontWeight: "500",
+              userSelect:'none'
             }}
           >
             <br />

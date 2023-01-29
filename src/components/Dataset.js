@@ -64,7 +64,7 @@ export const Secretariat = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/saiLahariJayareddygari.jpg",
+    imgsrc: "./Images/Sai Lahari-NITSMUN.jpg",
     name: "Sai Lahari Jayareddygari",
     post: "Director General",
     alt: "Sai Lahari Jayareddygari",

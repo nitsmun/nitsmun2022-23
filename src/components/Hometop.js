@@ -13,7 +13,7 @@ const Hometop = () => {
       <div className="home-wrapped">
         <Link to="/wrapped">
           <img
-            src="./Images/wrapped2022/wrapping up 2022 button.png"
+            src="./Images/wrapped2022/wrapping up-min.png"
             alt="Wrapped 2022"
           />
         </Link>

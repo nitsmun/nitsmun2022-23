@@ -89,9 +89,9 @@
 
 .home-wrapped img{
   position: absolute;
-  top: 8%;
-  left: 0%;
-  width: 14%;
+  top: 15%;
+  left: 3.5%;
+  width: 8%;
   object-fit: contain;
 }
 
@@ -185,8 +185,8 @@
 
 @media only screen and (max-width:660px){
   .home-wrapped img{
-    width: 30%;
-    left: 0% !important;
+    width: 20%;
+    top: 10%;
   }
 
   .hometop-main{
@@ -201,7 +201,7 @@
   }
 
   .home-wrapped img{
-    top: 15%;
+    top: 19%;
   }
 }
 
@@ -229,7 +229,8 @@
   }
 
   .home-wrapped img{
-    width: 20%;
+    top: 30%;
+    width: 5%;
   }
 
   .hometop-link1btn{

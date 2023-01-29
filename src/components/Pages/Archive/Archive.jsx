@@ -8,7 +8,7 @@ const Archive = () => {
     }, []);
     return (
         <>
-            <div className="archive-main">
+            <div className="archive-main" style={{userSelect:'none'}}>
                 <div className="archive-top">
                     <h1>Archive exist to keep things safe but not secret.</h1>
                 </div>
