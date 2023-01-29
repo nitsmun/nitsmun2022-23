@@ -88,12 +88,16 @@
 
 .alter-arch{
     margin-top: 1.8vw;
-    padding-left: 8vw;
+    padding-left: 6vw;
 }
 
 .archive-new-win-custom{
-    width: .9vw !important;
+    width: .6vw !important;
     margin-bottom: .5vw;
+}
+
+.arhiuy{
+    margin-top: 6vw;
 }
 
 @media only screen and (max-width:1225px){
@@ -157,7 +161,7 @@
    }
 
    .archive-new-win-custom{
-    width: 1.8vw !important;
+    width: 1.4vw !important;
     margin-bottom: 1.3vw;
 }
 }

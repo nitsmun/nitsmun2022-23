@@ -170,6 +170,16 @@ const Navbarmenu = () => {
                     Segments{" "}
                   </NavLink>{" "}
                 </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/archive`}
+                  >
+                    {" "}
+                    Archive{" "}
+                  </NavLink>{" "}
+                </li>
                 <li className="menu-item">
                   <NavLink
                     onClick={toggleClass}

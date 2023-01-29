@@ -5,6 +5,7 @@ import ByBharat from "../ByBharat";
 import QuirkyCombats from "../QuirkyCombats";
 import Articles0 from "../Articles0";
 import DiplomaticDips from "../DiplomaticDips";
+import {FaChevronDown} from 'react-icons/fa'
 const Segments = () => {
   TabTitle("Segments | NITS MUN");
   const [active, setActive] = useState("By Bharat");
@@ -14,9 +15,9 @@ const Segments = () => {
       <div className="top-bg-segment">
         <h1>Plethora of Content.</h1>
         <h2>Just For You.</h2>
-        
+        <a href="#selectorsegment"> <FaChevronDown color="white" className="chevron-down" size={20} /></a>
       </div>
-      <div className="top-segment">
+      <div className="top-segment" id="selectorsegment">
         <div className="btn-junior">
           <button className="active btn" onClick={() => setActive("By Bharat")}>
             By Bharat

@@ -80,9 +80,9 @@ const Team = () => {
       </div>
       <Underline />
       <Teamjr />
-      <Teammediajr />
       <Teamresearchjr />
       <Teampr />
+      <Teammediajr />
       <Teamweb />
     </>
   );

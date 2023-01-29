@@ -53,16 +53,18 @@ const Archive = () => {
                             <h1>Archive</h1>
                         </div>
 
-                            <div className='archi2-cont archi2-cont1'>
-                                <h1>20</h1>
+                            {/* <div className='archi2-cont archi2-cont1'>
+                                <h1>2022</h1>
                                 <div className="link-btn-btm archi-im-btm">
                                     <Link to="/nitsmun2022"><p className='p-by mock23-txt archi-modi'>NITSMUN</p></Link>
+                                    <Link to="/junior_mun"><p className='p-by mock23-txt archi-modi'>Junior MUN</p></Link>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className='archi2-cont archi2-cont0'>
-                                <h1>22</h1>
-                                <div className="link-btn-btm archi-im-btm">
+                            <div className='archi2-cont archi2-cont1 alter-arch arhiuy'>
+                                <h1>2022</h1>
+                                <div className="link-btn-btm archi-im-btm ">
+                                <Link to="/nitsmun2022"><p className='p-by mock23-txt archi-modi'>NITSMUN</p></Link>
                                     <Link to="/junior_mun"><p className='p-by mock23-txt archi-modi'>Junior MUN</p></Link>
                                 </div>
                             </div>
