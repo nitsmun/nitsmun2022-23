@@ -49,9 +49,20 @@
     margin-bottom: 5vw;
 }
 
+.newwinmockbg{
+    width: .8vw;
+}
+
 @media only screen and (max-width:1025px) and (min-width:767px){
     .mock23-main{
         min-height: 100vh;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:661px){
+    .newwinmockbg{
+        margin-bottom: 0 !important;
+        width: .7vw;
     }
 }
 
@@ -79,5 +90,9 @@
 
     .lcn-mockmun{
         margin-bottom: 9vw;
+    }
+
+    .newwinmockbg{
+        width: 1.6vw;
     }
 }
