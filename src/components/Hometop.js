@@ -24,8 +24,8 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Mock Mun 2023</span>{" "}
-            And{" "}
+            {/* <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Mock Mun 2023</span>{" "} */}
+            {/* And{" "} */}
             <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Executive Board </span>
             Registration Is Now Open!
             <img className="tnew-gif" src="./Images/tnew.gif" alt="" />
