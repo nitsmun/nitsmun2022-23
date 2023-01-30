@@ -1,13 +1,37 @@
 import React from "react";
 import "./Hometop.css";
 import { Link } from "react-router-dom";
+import Typed from "react-typed";
+import 'react-typed/dist/animatedCursor.css';
 const Hometop = () => {
   return (
-    <div>
+    <div style={{ userSelect: "none" }}>
       <div className="hometop-main">
+        <a href="https://incand.in" target="_#blank" rel="norefferer">
+          <div className="incand-logo">
+            <img src="./Images/homeTop/incand-logo-MUN.svg" alt="" />
+          </div>
+        </a>
+
+        <div className="incand-ad">
+          <h1>Presents</h1>
+        </div>
         <div className="hometop-img">
           <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
         </div>
+      </div>
+
+      <div className="dte-nitsmun2k23">
+        {/* <h1>17 . 18 . 19 Feb 2023</h1> */}
+        <Typed
+          className="typewriter-hero" style={{ userSelect: 'none' }}
+          strings={[
+            "17 . 18 . 19 February 2023",
+          ]}
+          typeSpeed={80}
+          loop={false}
+          showCursor={false}
+        />
       </div>
 
       <div className="home-wrapped">
@@ -18,8 +42,6 @@ const Hometop = () => {
           />
         </Link>
       </div>
-
-      
 
       {/* <div className="hometop-apply">
         <div className="hometop-reg">
@@ -44,7 +66,6 @@ const Hometop = () => {
           alt="2023 Annual Conference Promotion"
         />
       </div>
-
     </div>
   );
 };

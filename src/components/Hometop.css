@@ -17,16 +17,63 @@
   opacity: 1;
 }
 
+.incand-logo{
+  width: 12vw;
+  height: 7vw;
+  position: absolute;
+  top: 10%;
+  left:  50%;
+  transform: translate(-50%,-8%);
+  user-select: none;
+}
+
+.incand-logo img{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.incand-ad{
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -26%);
+  user-select: none;
+}
+
+.incand-ad h1{
+  font-size: 1.4vw;
+  color: white;
+  letter-spacing: .2px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+}
+
 .hometop-img img{
   position: absolute;
-  top: 50%;
+  top: 65%;
   left:  50%;
-  transform: translate(-50%,-50%);
-  height: 28rem;
-  width: 28rem;
+  transform: translate(-50%,-65%);
+  height: 28vw;
+  width: 20vw;
   max-width: 100%;
   pointer-events: none;
   aspect-ratio: 1/1;
+}
+
+.dte-nitsmun2k23{
+  position: absolute;
+  top: 95%;
+  left:  50%;
+  transform: translate(-50%,-95%);
+}
+
+.dte-nitsmun2k23 h1, .typewriter-hero{
+  font-size: 1.7vw;
+ font-weight: 900;
+ color: white;
+ letter-spacing: 1px;
+  font-family: 'Lato', sans-serif !important;
 }
 
 .hometop-apply{
@@ -117,6 +164,68 @@
   font-weight: 900 !important;
 }
 
+@media only screen and (max-width:1400px) and (min-width:1026px){
+  .hometop-img img{
+    position: absolute;
+    top: 55%;
+    left:  50%;
+    transform: translate(-50%,-55%);
+  }
+
+  .incand-ad{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -23%);
+  }
+
+  .dte-nitsmun2k23{
+    position: absolute;
+    top: 90%;
+    left:  50%;
+    transform: translate(-50%,-90%);
+  }
+}
+
+@media only screen and (max-width:1025px){
+  .hometop-img img{
+    width: 70vw;
+    height: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .incand-logo{
+    width: 20vw;
+    height: 10vw;
+  }
+
+  .incand-ad{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -23%);
+    user-select: none;
+  }
+
+  .incand-ad h1{
+    font-size: 3vw;
+  }
+
+  .dte-nitsmun2k23{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -82%);
+  }
+
+  .dte-nitsmun2k23 h1, .typewriter-hero{
+    font-size: 3.5vw;
+  }
+}
+
 @media only screen and (min-width:567px){
   .tnew-gif{
     margin-bottom: 0.5vw;
@@ -134,11 +243,7 @@
   }
 }
 
-@media screen and (max-width: 565px)  {
-  .hometop-img img{
-      width: 22em;
-  }
-  
+@media screen and (max-width: 565px)  {  
   .hometop-reg{
       font-size: 1.4rem;
   }
@@ -163,25 +268,6 @@
     padding-bottom: 0.625rem;
   }
 }
-@media screen and (max-width: 410px)  {
-  .hometop-img img{
-      width: 18em;
-  }
-
-  .hometop-reg {
-    padding-bottom: 0.625rem;
-  }
-}
-
-.hometop-reg ul{
-  font-weight: bolder !important;
-}
-
-@media only screen and (max-width:320px){
-  .hometop-img img{
-    width: 15rem;
-  }
-}
 
 @media only screen and (max-width:660px){
   .home-wrapped img{
@@ -192,17 +278,75 @@
   .hometop-main{
     background-attachment: scroll;
   }
+
+  .incand-logo{
+    width: 40vw;
+    height: 17vw;
+  }
+
+  .hometop-img img{
+    position: absolute;
+    top: 45%;
+    left:  50%;
+    transform: translate(-50%,-45%);
+    height: 50vw;
+    width: 40vw;
+    max-width: 100%;
+    pointer-events: none;
+    aspect-ratio: 1/1;
+  }
+
+  .incand-ad{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    user-select: none;
+  }
+  
+  .incand-ad h1{
+    font-size: 3vw;
+    color: white;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .dte-nitsmun2k23{
+    position: absolute;
+    top: 80%;
+    left:  50%;
+    transform: translate(-50%,-80%);
+  }
+  
+  .dte-nitsmun2k23 h1, .typewriter-hero{
+    color: white;
+    font-size: 4.3vw;
+  }
 }
 
-@media only screen and (max-height:616px){
+@media only screen and (max-width:500px){
   .hometop-img img{
-    height: 12rem;
-    width: 12rem;
+    position: absolute;
+    top: 45%;
+    left:  50%;
+    transform: translate(-50%,-45%);
+    height: 66vw;
+    width: 66vw;
   }
 
-  .home-wrapped img{
-    top: 19%;
+  .incand-ad h1{
+    font-size: 4vw;
   }
+}
+
+@media screen and (max-width: 410px)  {
+  .hometop-reg {
+    padding-bottom: 0.625rem;
+  }
+}
+
+.hometop-reg ul{
+  font-weight: bolder !important;
 }
 
 @media only screen and (max-height:400px){
@@ -222,12 +366,52 @@
   }
 }
 
-@media only screen and (max-height:256px){
+@media only screen and (max-height:616px){
   .hometop-img img{
-    height: 8rem;
-    width: 8rem;
+    height: 30vh;
+    width: 40vh;
+    top: 55%;
+    left:  50%;
+    transform: translate(-50%,-55%);
   }
 
+  .incand-logo{
+    width: 20vh;
+    height: 10vh;
+    position: absolute;
+    top: 10%;
+    left:  50%;
+    transform: translate(-50%,-10%);
+    user-select: none;
+    aspect-ratio: 1/1;
+  }
+
+  .dte-nitsmun2k23{
+    position: absolute;
+    top: 88%;
+    left:  50%;
+    transform: translate(-50%,-88%);
+  }
+
+  .dte-nitsmun2k23 h1, .typewriter-hero{
+    color: white;
+    font-size: 3.4vh;
+    /* font-family: 'Nunito', sans-serif; */
+    /* letter-spacing: 2px; */
+  }
+
+  .incand-ad h1{
+    font-size: 2.8vh;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .home-wrapped img{
+    top: 19%;
+  }
+}
+
+@media only screen and (max-height:256px){
   .home-wrapped img{
     top: 30%;
     width: 5%;
