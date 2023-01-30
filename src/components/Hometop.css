@@ -313,9 +313,9 @@
 
   .dte-nitsmun2k23{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left:  50%;
-    transform: translate(-50%,-80%);
+    transform: translate(-50%,-90%);
   }
   
   .dte-nitsmun2k23 h1, .typewriter-hero{
