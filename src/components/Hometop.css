@@ -73,7 +73,7 @@
  font-weight: 900;
  color: white;
  letter-spacing: 1px;
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
 }
 
 .hometop-apply{
@@ -367,12 +367,16 @@
 }
 
 @media only screen and (max-height:616px){
+  .hometop-main{
+    background-attachment: scroll;
+  }
+
   .hometop-img img{
     height: 30vh;
     width: 40vh;
-    top: 55%;
+    top: 50%;
     left:  50%;
-    transform: translate(-50%,-55%);
+    transform: translate(-50%,-50%);
   }
 
   .incand-logo{
@@ -388,9 +392,9 @@
 
   .dte-nitsmun2k23{
     position: absolute;
-    top: 88%;
+    top: 93%;
     left:  50%;
-    transform: translate(-50%,-88%);
+    transform: translate(-50%,-93%);
   }
 
   .dte-nitsmun2k23 h1, .typewriter-hero{
