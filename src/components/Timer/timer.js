@@ -44,7 +44,7 @@ const Timer = () => {
         <Suspense>
             {display.length === 4 && (
                 <div className="timer-limit">
-                    NITSMUN <span style={{ color: "#eb55dc" }} className="timer-top">Annual Conference</span> 2023  starts in{" "}
+                    NITSMUN <span style={{ color: "#eb55dc", fontFamily:'Nunito' }} className="timer-top">Annual Conference</span> 2023  starts in{" "}
                 </div>
             )}
             <div id="timer">
