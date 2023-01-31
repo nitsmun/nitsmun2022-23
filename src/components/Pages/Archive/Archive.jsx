@@ -28,10 +28,10 @@ const Archive = () => {
                         </div>
 
                         <div className="archi1-2">
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/juniormun2022/DIP_8467-compressed.jpg" /></div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/Carousel4.jpg" />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/juniormun2022/DIP_8467-compressed.jpg" alt='' /></div>
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/Carousel4.jpg" alt='' />
                             </div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/Carousel6.jpg" />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="./Images/Carousel6.jpg" alt='' />
                             </div>
                         </div>
 

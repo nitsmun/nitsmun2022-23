@@ -52,7 +52,6 @@ export const Secretariat = [
     id: 1,
     cName: "team-sec",
     imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
-    imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
     name: "Shreyashi Roymedhi",
     post: "Secretary General",
     alt: "Shreyashi Roymedhi",

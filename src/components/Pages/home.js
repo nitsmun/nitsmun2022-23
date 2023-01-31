@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./home.css";
 import Director from "../Director";
 import { TabTitle } from "../Utils/Genfn";
