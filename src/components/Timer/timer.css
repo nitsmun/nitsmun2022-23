@@ -24,6 +24,8 @@ div#timer {
     padding: 5vh 5vh;
   
     background-color: #451a41;
+
+    
   }
   .timer-limit{
     background-color: var(--color-1-100);
@@ -34,6 +36,7 @@ div#timer {
     width: 85%;
     margin: auto;
     color: white;
+    font-family: 'nunito';
 
 
   }
