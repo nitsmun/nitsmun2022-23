@@ -105,6 +105,18 @@ const Navbarmenu = () => {
                     Events <FiChevronDown  className="nav-upsidedown"/>{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
+                  <li>
+                      {" "}
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/nitsmun2023`}
+                      >
+                        {" "}
+                        NITSMUN 2023{" "}
+                      </NavLink>{" "}
+                    </li>
+
                     <li>
                       {" "}
                       <NavLink

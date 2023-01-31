@@ -22,6 +22,7 @@ import Wrapped from "./components/Pages/Wrapped";
 import Wrapped2022 from "./components/Pages/Wrapped2022";
 import Mock2023 from "./components/Pages/Mockmun2023/Mock2023";
 import Archive from "./components/Pages/Archive/Archive";
+import Nitsmun2023 from "./components/Pages/Nitsmun2023/Nitsmun2023";
 function App() {
   return (
     <div>
@@ -35,6 +36,7 @@ function App() {
             {/* <Route path="/mock_mun" component={mock_mun} /> */}
             <Route path="/nitsmun2022" component={nitsmun2022} />
             <Route path="/mockmun2023" component={Mock2023} />
+            <Route path="/nitsmun2023" component={Nitsmun2023} />
             <Route path="/team" component={team} />
             <Route path="/archive" component={Archive} />
             <Route path="/segments" component={segments} />

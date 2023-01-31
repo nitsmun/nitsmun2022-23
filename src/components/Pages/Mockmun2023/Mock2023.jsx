@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './mock2023.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 const Mock2023 = () => {
     useEffect(() => {
         document.title = 'Mock MUN 2023 | NITSMUN';
@@ -61,7 +61,7 @@ const Mock2023 = () => {
 
                 <div className='off-reg-msg'>Mock MUN 2023 Registration has been closed!</div>
                 <div className="link-btn-btm">
-                    <Link to="/apply"><p className='p-by mock23-txt false-off-reg'>Click here to register yourself in Mock MUN 2023!</p></Link>
+                    <p className='p-by mock23-txt false-off-reg' style={{ cursor:'not-allowed'}}>Click here to register yourself in Mock MUN 2023!</p>
                 </div>
 
 
