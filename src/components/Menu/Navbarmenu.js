@@ -102,9 +102,21 @@ const Navbarmenu = () => {
                   {" "}
                   <Link to="#">
                     {" "}
-                    Events <FiChevronDown />{" "}
+                    Events <FiChevronDown  className="nav-upsidedown"/>{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
+                  <li>
+                      {" "}
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/nitsmun2023`}
+                      >
+                        {" "}
+                        NITSMUN 2023{" "}
+                      </NavLink>{" "}
+                    </li>
+
                     <li>
                       {" "}
                       <NavLink
@@ -168,6 +180,16 @@ const Navbarmenu = () => {
                   >
                     {" "}
                     Segments{" "}
+                  </NavLink>{" "}
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/archive`}
+                  >
+                    {" "}
+                    Archive{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item">

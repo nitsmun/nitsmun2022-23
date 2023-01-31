@@ -33,6 +33,29 @@
     font-weight: 900;
 }
 
+.chevron-down{
+    position: absolute;
+    left: 49%;
+    top: 85%;
+}
+
+.chevron-down{
+    animation: uptodown 0.5s alternate ease infinite;
+  }
+  
+.chevron-down:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+  
+@keyframes uptodown {
+    from{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(-5px)
+    }
+}
 
 .apply-home-h1{
     color: #212529;

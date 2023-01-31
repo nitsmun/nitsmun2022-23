@@ -26,6 +26,8 @@
     font-family: 'Lato', sans-serif;
     font-size: 3.5vw;
     font-weight: 600;
+    text-shadow: 1px -1px 3px #3f3434, 
+      2px 2px 4px #ba9e9e; 
 }
 
 .mock23-desc{
@@ -35,7 +37,7 @@
     text-align: left;
 }
 
-.mock23-desc h2{
+.mock23-desc h2, sup{
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
@@ -44,14 +46,45 @@
     font-size: 1.3vw !important;
 }
 
+.false-off-reg{
+    text-decoration: line-through;
+}
+
 .lcn-mockmun{
     margin-top: 0 !important;
     margin-bottom: 5vw;
 }
 
+.newwinmockbg{
+    width: .6vw;
+}
+
+.off-reg-msg{
+    font-family: 'Playfair Display', sans-serif;
+    color: red;
+    font-weight: 900;
+    font-size: 1.3vw;
+    margin-bottom: .7vw;
+    margin-top: .7vw;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+    75%, 100% {
+      opacity: 0;
+    }
+}
+
 @media only screen and (max-width:1025px) and (min-width:767px){
     .mock23-main{
         min-height: 100vh;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:661px){
+    .newwinmockbg{
+        margin-bottom: 0 !important;
+        width: .7vw;
     }
 }
 
@@ -79,5 +112,18 @@
 
     .lcn-mockmun{
         margin-bottom: 9vw;
+    }
+
+    .newwinmockbg{
+        width: 1.1vw;
+    }
+
+    .off-reg-msg{
+        font-family: 'Playfair Display', sans-serif;
+        color: red;
+        font-weight: 900;
+        font-size: 2.7vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
     }
 }

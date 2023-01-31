@@ -6,7 +6,7 @@ const Secretary = () => {
   return (
     <div>
       <div className="msg-secretary">
-        <h2 className="sec-head1">Message From The Secretary-General</h2>
+        <h2 className="sec-head1" style={{userSelect:'none'}}>Message From The Secretary-General</h2>
         <Underline />
         <br />
         <br />
@@ -23,6 +23,7 @@ const Secretary = () => {
               fontSize: "1.2rem",
               lineHeight: "1.6",
               fontWeight: "500",
+              userSelect:'none'
             }}
           >
             Dear delegates,

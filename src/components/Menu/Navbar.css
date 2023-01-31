@@ -208,6 +208,14 @@ li {
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
 
+.nav-upsidedown{
+  transition: all 0.2s ease-in;
+}
+
+.menu-item:hover .nav-upsidedown{
+  transform: rotate(270deg);
+}
+
 @media (max-width:767px) { 
   .header__middle .active {color: var(--color-3-100) !important;}
 }
