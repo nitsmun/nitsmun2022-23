@@ -8,6 +8,7 @@ import ArticleHome2 from "../ArticleHome2";
 import Loading from "../Loading";
 import ImageSliderComponent from "../ImageSliderComponent";
 import Underline from "../Underline";
+import Timer from "../Timer/timer";
 
 const Home = () => {
   TabTitle("NITS MUN");
@@ -28,6 +29,7 @@ const Home = () => {
       <div>
         <Hometop />
       </div>
+      <Timer/>
       <Director />
       <Secretary />
       <Underline />
