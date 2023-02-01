@@ -13,9 +13,119 @@
     z-index: -1;
 }
 
+.bg-pvd{
+    background: url('https://www.linkpicture.com/q/UN-hall.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px #edecc693;
+}
+
+.comt-sn{
+        background-color: white;
+        width: 75%;
+        margin: 0 auto;
+        /* min-height: 100vh; */
+        transform:translateY(-20vh);
+        box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
+}
+
+.comt-ipm h1{
+    font-size: 2.8vw !important;
+    letter-spacing: .5px !important;
+    font-weight: 500 !important;
+    font-variant: small-caps;
+    border-bottom: 2px solid var( --color-1-080);
+}
+
+.ntsmn23-rl-cont{
+    display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.agnd{
+    min-width: 38%;
+    box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
+background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
+    padding: 2vw;
+    margin: 3vw 0;
+    border-radius: .625rem;
+}
+
+.img-nts23{
+    width: 22.5vw;
+    height: 20vw;
+    margin: 0 auto;
+}
+
+.img-nts23 img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-radius: .625rem;
+    /* box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%); */
+    box-shadow: 0 0 0.2375rem;
+}
+
+.comt-txt-imp{
+    width: 22.5vw;
+    margin: 1.5vw auto;
+}
+
+.comt-txt-imp h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.6;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+}
+
 @media only screen and (max-width:660px){
     .top-bner-23{
         height: 70vw;
         padding-top: 2.9rem;
+    }
+
+    .comt-sn{
+        width: 86%;
+    }
+
+    .comt-ipm h1{
+        font-size: 5.3vw !important;
+    }
+
+    /* .ntsmn23-rl-cont{
+        display: flex;
+            flex-direction: column;
+    } */
+
+    .ntsmn23-rl-cont{
+        margin-top: 4vw;
+    }
+
+    .agnd{
+        min-width: 42%;
+        padding: 4vw;
+    }
+
+    .img-nts23{
+        width: 27vw;
+        height: 25vw;
+        margin: 0 auto;
+    }
+
+    .comt-txt-imp{
+        width: 27vw;
+        margin: 3vw auto;
+    }
+
+    .comt-txt-imp h2{
+        
+        font-size: 2vw;
+       
     }
 }
