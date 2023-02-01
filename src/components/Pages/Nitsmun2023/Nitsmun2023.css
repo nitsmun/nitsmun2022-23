@@ -45,6 +45,7 @@
         justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
+        margin: 1vw 0;
 }
 
 .agnd{
@@ -54,6 +55,12 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     padding: 2vw;
     margin: 3vw 0;
     border-radius: .625rem;
+    border: 3px solid var(--color-1-100);
+    padding-bottom: 0;
+}
+
+.agnd:hover{
+    transform: translateY(-3px);
 }
 
 .img-nts23{
@@ -84,6 +91,43 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     text-align: left;
 }
 
+.rgster-nts23 button{
+    color: white;
+    background-color: #842575;
+    font-family: 'Nunito', sans-serif;
+    padding: .5vw 1vw;
+    border-radius: .4vw;
+    font-size: 1vw;
+}
+
+.rd-mr-0 button{
+    color: white;
+    background-color: purple;
+    padding: .5vw .8vw;
+    border-radius: .3vw;
+    font-size: .9vw;
+    border: 1px solid white;
+    font-family: 'Nunito', sans-serif;
+    margin: 1.5vw 0;
+    font-weight: 500;
+    cursor: pointer;
+    visibility: hidden;
+    transition: all 0.15s ease-out;
+}
+
+.agnd:hover .rd-mr-0 button{
+    visibility: visible ;
+}
+
+/* .link-rd-mr-hid{
+    visibility: hidden ;
+    padding-bottom: 0 !important;
+    transition: all 0.15s ease-in-out;
+}
+
+.agnd:hover .link-rd-mr-hid{
+    visibility: visible ;
+} */
 @media only screen and (max-width:660px){
     .top-bner-23{
         height: 70vw;
@@ -95,37 +139,58 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     }
 
     .comt-ipm h1{
-        font-size: 5.3vw !important;
+        font-size: 5.7vw !important;
     }
 
-    /* .ntsmn23-rl-cont{
-        display: flex;
-            flex-direction: column;
-    } */
+    .ntsmn23-rl-cont{
+        flex-direction: column;
+    }
 
     .ntsmn23-rl-cont{
         margin-top: 4vw;
     }
 
     .agnd{
-        min-width: 42%;
+        width: 80%;
         padding: 4vw;
+        margin: 5.5vw auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .img-nts23{
-        width: 27vw;
-        height: 25vw;
+        width: 55vw;
+       height: 52vw;
         margin: 0 auto;
     }
 
+    .img-nts23 img{
+        border-radius: .325rem;
+    }
+
     .comt-txt-imp{
-        width: 27vw;
+        width: 55vw;
         margin: 3vw auto;
     }
 
     .comt-txt-imp h2{
-        
-        font-size: 2vw;
+        font-size: 4.5vw;
        
+    }
+
+    .rgster-nts23 button{
+        margin: 2vw 0;
+        padding: 1.5vw 3vw;
+        border-radius: 1vw;
+        font-size: 2.7vw;
+    }
+
+    .rd-mr-0 button{
+        padding: 1.2vw 1.8vw;
+        border-radius: .9vw;
+        font-size: 2.1vw;
+        visibility: visible;
+        margin: 3vw 0;
+        
     }
 }
