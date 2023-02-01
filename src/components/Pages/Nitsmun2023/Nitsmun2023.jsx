@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Nitsmun2023.css'
-import { Link } from 'react-router-dom';
+
 const Nitsmun2023 = () => {
     useEffect(() => {
         document.title = 'NITSMUN 2023 | NITSMUN';
@@ -32,6 +32,10 @@ const Nitsmun2023 = () => {
 
                     <div className="ntsmn23-rl-cont">
                         <div className="agnd">
+
+                            <div className="commt-nme">
+                                <h1>International Confederation Of Wizards</h1>
+                            </div>
                             <div className="img-nts23">
                                 <img src="https://www.linkpicture.com/q/icow-min.jpg" alt="" />
                             </div>
@@ -47,7 +51,6 @@ const Nitsmun2023 = () => {
                                 </div>
 
 
-
                                 <div className="rd-mr-0">
                                     <button>Read More</button>
                                 </div>
@@ -55,6 +58,9 @@ const Nitsmun2023 = () => {
                         </div>
 
                         <div className="agnd">
+                            <div className="commt-nme">
+                                <h1>International Press Corps (IPC)</h1>
+                            </div>
                             <div className="img-nts23">
                                 <img src="https://www.linkpicture.com/q/ipc-min.jpg" alt="" />
                             </div>
@@ -76,6 +82,9 @@ const Nitsmun2023 = () => {
                         </div>
 
                         <div className="agnd">
+                            <div className="commt-nme">
+                                <h1>North Atlantic Treaty Organzation (NATO)</h1>
+                            </div>
                             <div className="img-nts23">
                                 <img src="https://www.linkpicture.com/q/nato-min.jpg" alt="" />
                             </div>
@@ -97,11 +106,6 @@ const Nitsmun2023 = () => {
 
                     </div>
                 </div>
-
-                {/* 
-                <div className="link-btn-btm">
-                    <p className='p-by mock23-txt' style={{ cursor: 'not-allowed' }}>Click here to register yourself in NITSMUN 2023!</p>
-                </div> */}
             </div>
         </div>
 

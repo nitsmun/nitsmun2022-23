@@ -14,6 +14,7 @@
 }
 
 .bg-pvd{
+margin-top: 4vw;
     background: url('https://www.linkpicture.com/q/UN-hall.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@
 
 .comt-sn{
         background-color: white;
-        width: 75%;
+        width: 85%;
         margin: 0 auto;
         /* min-height: 100vh; */
         transform:translateY(-20vh);
@@ -52,7 +53,7 @@
     min-width: 38%;
     box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
 background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
-    padding: 2vw;
+    padding: 1.5vw;
     margin: 3vw 0;
     border-radius: .625rem;
     border: 3px solid var(--color-1-100);
@@ -63,9 +64,22 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     transform: translateY(-3px);
 }
 
+.commt-nme{
+    width: 28vw;
+    margin-bottom: 1.5vw;
+}
+
+.commt-nme h1{
+    color: var( --color-1-100);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    font-variant: small-caps;
+}
+
 .img-nts23{
-    width: 22.5vw;
-    height: 20vw;
+    width: 28vw;
+    height: 27vw;
     margin: 0 auto;
 }
 
@@ -79,7 +93,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 }
 
 .comt-txt-imp{
-    width: 22.5vw;
+    width: 28vw;
     margin: 1.5vw auto;
 }
 
@@ -129,13 +143,17 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     visibility: visible ;
 } */
 @media only screen and (max-width:660px){
+    .bg-pvd{
+        margin-top: 8vw;
+        }
+        
     .top-bner-23{
         height: 70vw;
         padding-top: 2.9rem;
     }
 
     .comt-sn{
-        width: 86%;
+        width: 95%;
     }
 
     .comt-ipm h1{
@@ -151,7 +169,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     }
 
     .agnd{
-        width: 80%;
+        width: 92%;
         padding: 4vw;
         margin: 5.5vw auto;
         margin-left: auto;
@@ -159,9 +177,18 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     }
 
     .img-nts23{
-        width: 55vw;
-       height: 52vw;
+        width: 80vw;
+       height: 72vw;
         margin: 0 auto;
+    }
+
+    .commt-nme{
+        width: 80vw;
+        margin-bottom: 4vw;
+    }
+
+    .commt-nme h1{
+        font-size: 5vw;
     }
 
     .img-nts23 img{
@@ -169,7 +196,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     }
 
     .comt-txt-imp{
-        width: 55vw;
+        width: 80vw;
         margin: 3vw auto;
     }
 
