@@ -1253,3 +1253,27 @@ export const diplomaticdips = [
     src:"https://www.instagram.com/p/CikhetEr0yN/embed/",
   },
 ];
+
+export const Nitsmun2k23 = [
+  {
+    id:1,
+    title:"International Confederation Of Wizards",
+    img:"https://www.linkpicture.com/q/icow-min.jpg",
+    alt:"Committees NITSMUN 2023",
+    content:<>Presenting to you, our first committee and also the one we are particularly the most thrilled for and for which we wish you would be equally excited, The<span style={{ fontWeight: '900', fontFamily: "Nunito" }}> International Confederation of Wizards</span>!</>
+  },
+  {
+    id:2,
+    title:"International Press Corps (IPC)",
+    img:"https://www.linkpicture.com/q/ipc-min.jpg",
+    alt:"Committees NITSMUN 2023",
+    content:<>Our second committee is for all the journalism enthusiasts out there, The <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>International Press Corps</span>.</>
+  },
+  {
+    id:3,
+    title:"North Atlantic Treaty Organization (NATO)",
+    img:"https://www.linkpicture.com/q/nato-min.jpg",
+    alt:"Committees NITSMUN 2023",
+    content:<>Presenting to you our third Committee:  <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>North Atlantic Treaty Organization</span> (NATO): The <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NATO</span> having been established in 1949 has since been serving its task of protecting the states of Europe, facilitate cooperation among states and secure peace in the continent.</>
+  },
+]

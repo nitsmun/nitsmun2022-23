@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Nitsmun2023.css'
-
+import { Nitsmun2k23 } from '../../Dataset'
 const Nitsmun2023 = () => {
     useEffect(() => {
         document.title = 'NITSMUN 2023 | NITSMUN';
@@ -31,78 +31,43 @@ const Nitsmun2023 = () => {
                     </div>
 
                     <div className="ntsmn23-rl-cont">
-                        <div className="agnd">
 
-                            <div className="commt-nme">
-                                <h1>International Confederation Of Wizards</h1>
-                            </div>
-                            <div className="img-nts23">
-                                <img src="https://www.linkpicture.com/q/icow-min.jpg" alt="" />
-                            </div>
-                            <div className="comt-txt-imp">
-                                <h2>Presenting to you, our first committee and also the one we are particularly the most thrilled for and for which we wish you would be equally excited, <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>The International Confederation of Wizards</span>!</h2>
-                            </div>
+                        {Nitsmun2k23.map((item) => {
+                            return (
+                                <>
+                                    <div className="agnd">
 
-                            <div className="rgster-nts23-rd-mr">
-                                <div className="rgster-nts23">
-                                    {/* <Link to="#">       <button style={{ cursor: "pointer" }}>Register Now!</button></Link> */}
+                                        <div className="commt-nme">
+                                            <h1>{item.title}</h1>
+                                        </div>
+                                        <div className="img-nts23">
+                                            <img src={item.img} alt={item.alt} />
+                                        </div>
+                                        <div className="comt-txt-imp">
+                                            <h2>{item.content}</h2>
+                                        </div>
 
-                                    <button style={{ cursor: 'not-allowed' }}>Register Now!</button>
-                                </div>
+                                        <div className="rgster-nts23-rd-mr">
+                                            <div className="rgster-nts23">
+                                                {/* <Link to="#">       <button style={{ cursor: "pointer" }}>Register Now!</button></Link> */}
+
+                                                <button style={{ cursor: 'not-allowed' }}>Register Now!</button>
+                                            </div>
 
 
-                                <div className="rd-mr-0">
-                                    <button>Read More</button>
-                                </div>
-                            </div>
-                        </div>
+                                            <div className="rd-mr-0">
+                                                <button>Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </>
+                            )
+                        })}
 
-                        <div className="agnd">
-                            <div className="commt-nme">
-                                <h1>International Press Corps (IPC)</h1>
-                            </div>
-                            <div className="img-nts23">
-                                <img src="https://www.linkpicture.com/q/ipc-min.jpg" alt="" />
-                            </div>
-                            <div className="comt-txt-imp">
-                                <h2>Our second committee is for all the journalism enthusiasts out there, the <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>International Press Corps</span>.</h2>
-                            </div>
 
-                            <div className="rgster-nts23-rd-mr">
-                                <div className="rgster-nts23">
-                                    {/* <Link to="#">       <button style={{ cursor: "pointer" }}>Register Now!</button></Link> */}
 
-                                    <button style={{ cursor: 'not-allowed' }}>Register Now!</button>
-                                </div>
 
-                                <div className="rd-mr-0">
-                                    <button>Read More</button>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className="agnd">
-                            <div className="commt-nme">
-                                <h1>North Atlantic Treaty Organzation (NATO)</h1>
-                            </div>
-                            <div className="img-nts23">
-                                <img src="https://www.linkpicture.com/q/nato-min.jpg" alt="" />
-                            </div>
-                            <div className="comt-txt-imp">
-                                <h2>Presenting to you our third Committee:  <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>North Atlantic Treaty Organzation</span> (NATO): The <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NATO</span> having been established in 1949 has since been serving its task of protecting the states of Europe, facilitate cooperation among states and secure peace in the continent.</h2>
-                            </div>
-
-                            <div className="rgster-nts23-rd-mr">
-                                <div className="rgster-nts23">
-                                    {/* <Link to="#">       <button style={{ cursor:'not-allowed' }}>Register Now!</button></Link> */}
-
-                                    <button style={{ cursor: 'not-allowed' }}>Register Now!</button>
-                                </div>
-                                <div className="rd-mr-0">
-                                    <button>Read More</button>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>

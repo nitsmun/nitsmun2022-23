@@ -55,7 +55,7 @@ margin-top: 4vw;
 background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     padding: 1.5vw;
     margin: 3vw 0;
-    border-radius: .625rem;
+    border-radius: 1.5rem;
     border: 3px solid var(--color-1-100);
     padding-bottom: 0;
 }
@@ -146,7 +146,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     .bg-pvd{
         margin-top: 8vw;
         }
-        
+
     .top-bner-23{
         height: 70vw;
         padding-top: 2.9rem;
@@ -207,15 +207,15 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 
     .rgster-nts23 button{
         margin: 2vw 0;
-        padding: 1.5vw 3vw;
+        padding: 1.8vw 4.2vw;
         border-radius: 1vw;
         font-size: 2.7vw;
     }
 
     .rd-mr-0 button{
-        padding: 1.2vw 1.8vw;
-        border-radius: .9vw;
-        font-size: 2.1vw;
+        padding: 1.35vw 4vw;
+        border-radius: 1.5vw;
+        font-size: 2.3vw;
         visibility: visible;
         margin: 3vw 0;
         
