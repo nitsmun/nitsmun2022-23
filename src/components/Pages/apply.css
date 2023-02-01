@@ -210,6 +210,10 @@
 
     .apply-redirect{
         font-size: 4vw;
+        width: 90%;
+        border-radius: 5vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
     }
 
     .newwindow{
