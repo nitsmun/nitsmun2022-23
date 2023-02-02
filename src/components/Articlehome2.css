@@ -124,10 +124,164 @@ body {
             transform: translateY(2px);
         } 
 
+
+.hme-art{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hme1, .hme2{
+  width: 50%;
+  /* background-color: white; */
+
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+ border-radius: .625rem;
+}
+
+.hme2{
+  margin-left: 5%;
+}
+
+.hme1::-webkit-scrollbar {
+  display: none;
+}
+
+.hme2::-webkit-scrollbar {
+  display: none;
+}
+
+.bhrt-indi{
+ min-width: 100%;
+ background: transparent;
+ display: flex;
+ /* box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%); */
+ flex-direction: column;
+}
+
+
+.bhrt-indi img{
+  width: 100%;
+  box-shadow: 0 0 0.4375rem;
+  border-radius: 0.625rem;
+  pointer-events: none;
+}
+
+.hme2{
+  width: 50%;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 5% 5%;
+}
+
+.prev,
+.next {
+  background: #ffffff;
+  border: 1px solid #9a9494;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.prev {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.next {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: var(--color-1-080);
+  color: #fff;
+}
+
+.prev:hover .arrow,
+.next:hover .arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow {
+  border: solid #505050;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.ct-art{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+}
+
 @media only screen and (max-width: 991px) {
   .tea0 {
     flex-wrap: wrap;
   }
+
+  .hme-art{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hme1, .hme2{
+    width: 95%;
+    margin: 4vw auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+   border-radius: .625rem;
+  }
+
+  .prev,
+.next {
+  background: #ffffff;
+  border: 1px solid #9a9494;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-indi-hme{
+  width: 3.3vw;
+}
+
+.vbghjk{
+  margin-top: 2.5vw !important;
+}
+
+.ct-art{
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
+}
 
   .team-section {
     width: 45%;
