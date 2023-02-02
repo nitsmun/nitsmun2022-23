@@ -234,6 +234,9 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
    margin-top: 3.6vw;
   }
 
+.hjko{
+    justify-content: center;
+}
 
 @media only screen and (max-width:660px){
     .bg-pvd{

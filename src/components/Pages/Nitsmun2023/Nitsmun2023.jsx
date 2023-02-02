@@ -42,7 +42,7 @@ const Nitsmun2023 = () => {
                         
                     </div> */}
                     
-                    <h1> Rise: The Future Seeks Defence.</h1>
+                    <h1> Rise: The Future Seeks Defense.</h1>
                     {/* <div className="quote">
                         <img style={{ pointerEvents: 'none' }} src="./Images/nitsmun2k23/Quote.svg" alt="" />
                     </div> */}
@@ -161,15 +161,15 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
 
-                                        <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div>
+                                        {/* <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div> */}
 
-                                        <div className="btn-rd-mr">
+                                        <div className="btn-rd-mr hjko">
                                             <div className="rgster-nts23">
                                                 <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
                                             </div>
 
                                             <div className="rgster-nts23">
-                                                <button style={{ cursor: 'not-allowed' }}>Background guide</button>
+                                                {/* <button style={{ cursor: 'not-allowed' }}>Background guide</button> */}
                                             </div>
                                         </div>
                                     </div>
