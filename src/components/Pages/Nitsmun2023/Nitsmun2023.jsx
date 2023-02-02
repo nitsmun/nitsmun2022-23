@@ -3,6 +3,7 @@ import './Nitsmun2023.css'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Link } from 'react-router-dom';
+
 const Nitsmun2023 = () => {
     useEffect(() => {
         document.title = 'NITSMUN 2023 | NITSMUN';
@@ -34,6 +35,20 @@ const Nitsmun2023 = () => {
                 <div className="mock23-title">
                     <h1>NITSMUN  2023</h1>
                 </div>
+
+                <div className="theme-nitsmun23">
+                {/* <div className="quote quote-rotate">
+                        <img style={{ pointerEvents: 'none' }} src="./Images/nitsmun2k23/Quote.svg" alt="" />
+                        
+                    </div> */}
+                    
+                    <h1> Rise: The Future Seeks Defence.</h1>
+                    {/* <div className="quote">
+                        <img style={{ pointerEvents: 'none' }} src="./Images/nitsmun2k23/Quote.svg" alt="" />
+                    </div> */}
+                   
+                </div>
+
 
                 <div className="mock23-desc">
                     <h2>Do you like to think critically and imagine yourself in the shoes of world leaders? Do you feel that you can form strong blogs and tilt the final decision in your interest? Do you have enough knowledge about the world that embraces wizards and magic? If yes, <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>NITSMUN, 2023</span> is surely for you!<br /><br />After two continuous years of online conferences, this time <span style={{ fontWeight: "900", fontFamily: "nunito" }}>NITSMUN</span> is all set to organise its annual conference offline, under the NITSMUN module of     <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>Incandescence, 2023</span>. With the theme of <span style={{ fontStyle: 'italic', fontFamily: 'nunito', fontWeight: '900', color: "#794894" }}>"breaking free"</span>, Incandescence, this year, comes in with the promise of being one of its kind. This cultural fest of <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>NIT, Silchar</span> has always witnessed numerous talents from all over the country. Being one of the best cultural fests of the Northeast, this time too Incandescence promises to keep up to its legacy and "break free" from the normal, you have always seen.<br /><br />Going with the promise made by Incandescence, NITSMUN too has made it a point to make its annual conference different from the past years. The conference will be held from <span style={{ fontFamily: 'nunito', fontWeight: '900' }}>17<sup style={{ fontWeight: "900" }}>th</sup> February 2023</span> to <span style={{ fontFamily: 'nunito', fontWeight: '900' }}>19<sup style={{ fontWeight: "900" }}>th</sup> February 2023</span>.</h2>
@@ -111,10 +126,10 @@ const Nitsmun2023 = () => {
 
                         {/* IPc starts */}
                         <div className="agnd">
-                            <div className="commt-nme">
+                            <div className="commt-nme hjipo">
                                 <h1>International Press Corps (IPC)</h1>
                             </div>
-                            <div className="img-nts23">
+                            <div className="img-nts23 bnjh">
                                 <img src="https://www.linkpicture.com/q/ipc-min.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">

@@ -186,10 +186,84 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     text-align: center;
     margin-bottom: 2vw;
 }
+
+.theme-nitsmun23{
+    display: flex;
+    margin: 2.5vw auto 1vw auto;
+   justify-content: center;
+}
+
+@font-face {
+    font-family: MilleniaFont;
+    src: url(Millenia_Personal_Use.ttf);
+}
+
+.theme-nitsmun23 h1{
+    padding-top: .8vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: MilleniaFont;
+    font-size: 2vw;
+    letter-spacing: 3.5px;
+    color: #5a479f;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.bnjh{
+    margin-top: 2.7vw;
+}
+
+.hjipo{
+    padding-top: 1.5vw !important;
+}
+
+.quote {
+    width: 1.5vw;
+    user-select: none;
+    
+  }
+  
+  .quote img{
+    width: 100%;
+    
+  }
+  
+  .quote-rotate {
+    transform: rotate(270deg);
+   margin-top: 3.6vw;
+  }
+
+
 @media only screen and (max-width:660px){
     .bg-pvd{
         margin-top: 8vw;
         }
+
+        .bnjh{
+            margin-top: 0;
+        }
+
+        .theme-nitsmun23{
+            margin: 5vw auto 1.6vw auto;
+        }
+
+        .theme-nitsmun23 h1{
+            padding-top: 4vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            font-family: 'Millenia', cursive, 'Nunito';
+            font-size: 4vw;
+            letter-spacing: 2.5px;
+        }
+
+        .quote{
+            width: 3vw !important;
+          }
+
+          .quote-rotate{
+            margin-top: 8.5vw;
+          }
 
     .top-bner-23{
         height: 70vw;
