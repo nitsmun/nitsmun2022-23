@@ -189,7 +189,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 
 .theme-nitsmun23{
     display: flex;
-    margin: 2.5vw auto 1vw auto;
+    margin: 0 auto;
    justify-content: center;
 }
 
@@ -199,15 +199,26 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 }
 
 .theme-nitsmun23 h1{
-    padding-top: .8vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
     font-family: MilleniaFont;
     font-size: 2vw;
     letter-spacing: 3.5px;
     color: #5a479f;
     line-height: 1.6;
     font-weight: 700;
+}
+
+.theme-nitsmun23 h1::before{
+    content: open-quote;
+    font-size: 6vw;
+    font-weight: 300;
+    /* letter-spacing: 50px; */
+}
+
+.theme-nitsmun23 h1::after{
+    content: close-quote;
+    font-size: 6vw;
+    /* letter-spacing: 5px; */
+    font-weight: 300;
 }
 
 .bnjh{
@@ -248,30 +259,24 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
         }
 
         .theme-nitsmun23{
-            margin: 5vw auto 1.6vw auto;
+            margin: 1vw auto 1.6vw auto;
         }
 
         .theme-nitsmun23 h1{
-            padding-top: 4vw;
-            padding-left: 2vw;
-            padding-right: 2vw;
             font-family: 'Millenia', cursive, 'Nunito';
             font-size: 4vw;
             letter-spacing: 2.5px;
         }
 
-        .quote{
-            width: 3vw !important;
-          }
-
-          .quote-rotate{
-            margin-top: 8.5vw;
-          }
-
     .top-bner-23{
         height: 70vw;
         padding-top: 2.9rem;
     }
+
+    .theme-nitsmun23 h1::before, .theme-nitsmun23 h1::after{
+        font-size: 13vw;
+    }
+    
 
     .comt-sn{
         width: 95%;
