@@ -264,9 +264,9 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 
         .theme-nitsmun23 h1{
             font-family: 'Millenia', cursive, 'Nunito';
-            font-size: 4vw;
-            letter-spacing: 2.5px;
             font-weight: 900 !important;
+            font-size: 6vw;
+            letter-spacing: 0px;
         }
 
     .top-bner-23{
