@@ -31,6 +31,7 @@ margin-top: 4vw;
         /* min-height: 100vh; */
         transform:translateY(-20vh);
         box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
+        padding-bottom: 2vw;
 }
 
 .comt-ipm h1{
@@ -112,11 +113,23 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     padding: 0.7vw 3vw;
     border-radius: 1vw;
     font-size: 1.25vw;
+    transition: all 0.25s ease-in-out;
+}
+
+.rgster-nts23 button:hover{
+    background-color: #BB67AE;
+    border: 1px solid white;
+}
+
+.rgster-nts23 button:active{
+    outline: none;
+    box-shadow: 0 0 0 5px #D9086C;
+    transition: 0.4s;
 }
 
 .rd-mr-0 button{
     color: white;
-    background-color: purple;
+    background-color: #842575;
     padding: .6vw 1vw;
     border-radius: .3vw;
     font-size: .9vw;
@@ -127,6 +140,17 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     cursor: pointer;
     visibility: hidden;
     transition: all 0.15s ease-out;
+}
+
+.rd-mr-0 button:hover{
+    background-color: #BB67AE;
+    border: 1px solid white;
+}
+
+.rd-mr-0 button:active{
+    outline: none;
+    box-shadow: 0 0 0 5px #D9086C;
+    transition: 0.4s;
 }
 
 .agnd:hover .rd-mr-0 button{
@@ -288,6 +312,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 
     .comt-sn{
         width: 95%;
+        padding-bottom: 3.5vw;
     }
 
     .comt-ipm h1{

@@ -3,6 +3,7 @@ import './Nitsmun2023.css'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Link } from 'react-router-dom';
+// import Faqs from '../../Faq';
 
 const Nitsmun2023 = () => {
     useEffect(() => {
@@ -37,16 +38,16 @@ const Nitsmun2023 = () => {
                 </div>
 
                 <div className="theme-nitsmun23">
-                {/* <div className="quote quote-rotate">
+                    {/* <div className="quote quote-rotate">
                         <img style={{ pointerEvents: 'none' }} src="./Images/nitsmun2k23/Quote.svg" alt="" />
                         
                     </div> */}
-                    
+
                     <h1> Rise: The Future Seeks Defense.</h1>
                     {/* <div className="quote">
                         <img style={{ pointerEvents: 'none' }} src="./Images/nitsmun2k23/Quote.svg" alt="" />
                     </div> */}
-                   
+
                 </div>
 
 
@@ -239,6 +240,10 @@ const Nitsmun2023 = () => {
 
 
                     </div>
+
+                    <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div>
+
+                    {/* <Faqs /> */}
                 </div>
             </div>
 
