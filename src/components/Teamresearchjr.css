@@ -23,7 +23,7 @@
      padding: 1.25rem;
      overflow: hidden;
      aspect-ratio: 1/1;
-     pointer-events: none;
+     /* pointer-events: none; */
  }
 
  .team-stats-card3{
