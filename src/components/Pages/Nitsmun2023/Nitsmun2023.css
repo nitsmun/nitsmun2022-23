@@ -273,9 +273,53 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     justify-content: center;
 }
 
+.memory-nits22{
+    width: 90vw;
+    height: 40vw;
+    margin: 2vw auto;
+    border-radius: .625rem;
+}
+
+.memory-nits22 img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-radius: .625rem;
+    box-shadow: 0 0 0.5375rem;
+}
+
+.bnhjh{
+    padding-top: 0 !important
+}
+
+.uioips{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.hjhdfkw{
+    transform:translateY(-3vw);
+}
+
 @media only screen and (max-width:660px){
+    .hjhdfkw{
+        transform:translateY(-20vw);
+    }
+
     .bg-pvd{
         margin-top: 8vw;
+        }
+
+        .memory-nits22{
+            height: 50vw;
+            margin: 4vw auto;
+        }
+
+        .uioips{
+            font-size:3vw;
+            margin-bottom: 5vw;
         }
 
         .bnjh{

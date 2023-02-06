@@ -4,6 +4,9 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Link } from 'react-router-dom';
 import Faq23 from './Faq23';
+import { nitsmun2k22 } from '../../Dataset';
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+
 
 const Nitsmun2023 = () => {
     useEffect(() => {
@@ -23,7 +26,17 @@ const Nitsmun2023 = () => {
     const onOpenModalnato = () => setOpennato(true);
     const onCloseModalnato = () => setOpennato(false);
 
+    const [index, setIndex] = useState(0);
 
+    function handleNextClick() {
+        setIndex(index + 1);
+    }
+
+    function handlePrevClick() {
+        setIndex(index - 1);
+    }
+
+    let nitsmun22img = nitsmun2k22[index];
     return (
         <div style={{ userSelect: 'none' }}>
             <div className="nits23-top">
@@ -244,6 +257,33 @@ const Nitsmun2023 = () => {
                     <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div>
 
                     <Faq23 />
+                </div>
+
+
+                <div className="hjhdfkw">
+                    <div className="faq-section bnhjh">
+                        <h1>Reminiscence Of Nitsmun 2022</h1>
+                    </div>
+
+                    <div className="memory-nits22">
+                        <img
+                            src={nitsmun22img.img}
+                            alt={nitsmun22img.alt}
+                        />
+                    </div>
+
+                    <h2 className='uioips'>
+                        ({index + 1} of {nitsmun2k22.length})
+                    </h2>
+
+                    <div className="btns btnn-hme1">
+                        <button className="prev btn-testimonial" onClick={handlePrevClick}>
+                            <AiOutlineArrowLeft className="btn-indi-hme" />
+                        </button>
+                        <button className="next btn-testimonial" onClick={handleNextClick}>
+                            <AiOutlineArrowRight className="btn-indi-hme" />
+                        </button>
+                    </div>
                 </div>
             </div>
 

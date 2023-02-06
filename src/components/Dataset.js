@@ -1315,3 +1315,36 @@ export const Faq23Data = [
     answer:"The Dress Code for NITSMUN 2023 is western formals."
   }
 ];
+
+export const nitsmun2k22 = [
+  {
+    id:1,
+    img:"./Images/nitsmun'22/Screenshot (122).png",
+    alt:"NITSMUN 2022"
+  },
+  {
+    id:2,
+    img:"./Images/nitsmun'22/Screenshot (127).png",
+    alt:"NITSMUN 2022"
+  },
+  {
+    id:3,
+    img:"./Images/nitsmun'22/Screenshot (138).png",
+    alt:"NITSMUN 2022"
+  },
+  {
+    id:4,
+    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 13_13_03.png",
+    alt:"NITSMUN 2022"
+  },
+  {
+    id:5,
+    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 15_49_40.png",
+    alt:"NITSMUN 2022"
+  },
+  {
+    id:6,
+    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 15_51_50.png",
+    alt:"NITSMUN 2022"
+  },
+];

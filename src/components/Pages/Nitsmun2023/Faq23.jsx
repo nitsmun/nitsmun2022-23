@@ -10,13 +10,13 @@ const FaqSection = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom:15vh;
+  padding-bottom:1vw;
   /* background: #06553d; */
   background-color: var(--color-10-100);
   user-select: none;
-  @media only screen and (max-width:991px){
+  /* @media only screen and (max-width:991px){
     padding-bottom: 10vh;
-  }
+  } */
 `;
 
 const Container = styled.div`
