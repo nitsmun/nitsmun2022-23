@@ -1280,3 +1280,38 @@ export const Nitsmun2k23 = [
     content:<>Presenting to you our third Committee:  <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>North Atlantic Treaty Organization</span> (NATO): The <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NATO</span> having been established in 1949 has since been serving its task of protecting the states of Europe, facilitate cooperation among states and secure peace in the continent.</>
   },
 ]
+
+export const Faq23Data = [
+  {
+    question: 'What is NITSMUN?',
+    answer: 'NITSMUN is a club, in NIT Silchar, which from its inception has been trying to develop a culture of MUNs in the campus.',
+  },
+  {
+    question:"What is Model United Nations?",
+    answer:"Model United Nations (also Model UN or MUN) is an academic simulation of the United Nations that aims to educate and encourage participants to discuss about major issues concerning the world, topics in international relations, diplomacy and the United Nations agenda."
+  },
+  {
+    question: 'When does NITSMUN organises conferences?',
+    answer: "Our annual conference is conducted along with Incandescence, the annual cultural fest of NIT Silchar and we also conduct a Junior MUN conference for school going teenagers.",
+  },
+  {
+    question: 'What is coming up next?',
+    answer: "The annual conference of NITSMUN is going to be held on 17 Feb to 19 Feb.",
+  },
+  {
+    question:"Are outside NITS people allowed in the annual conference?",
+    answer:"Eligible students can register for the upcoming conference with a nominal fee.",
+  },
+  {
+    question:"Who can register in NITSMUN 2023?",
+    answer:" Individual participation from Engineering Students, MBA Students, & Undergraduate are allowed.",
+  },
+  {
+    question:"Will the conference held online or offline?",
+    answer:"After two years of online conferences, NITSMUN is all set to hold its offline conference under Incandescence'23.",
+  },
+  {
+    question:"What is the Dress code for NITSMUN 2023?",
+    answer:"The Dress Code for NITSMUN 2023 is western formals."
+  }
+];

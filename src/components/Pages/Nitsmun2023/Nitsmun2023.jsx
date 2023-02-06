@@ -3,7 +3,7 @@ import './Nitsmun2023.css'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Link } from 'react-router-dom';
-// import Faqs from '../../Faq';
+import Faq23 from './Faq23';
 
 const Nitsmun2023 = () => {
     useEffect(() => {
@@ -243,7 +243,7 @@ const Nitsmun2023 = () => {
 
                     <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div>
 
-                    {/* <Faqs /> */}
+                    <Faq23 />
                 </div>
             </div>
 
