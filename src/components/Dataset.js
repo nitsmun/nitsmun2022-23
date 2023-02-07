@@ -1319,32 +1319,32 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id:1,
-    img:"./Images/nitsmun'22/Screenshot (122).png",
+    img:"https://www.linkpicture.com/q/Screenshot-122-min2.png",
     alt:"NITSMUN 2022"
   },
   {
     id:2,
-    img:"./Images/nitsmun'22/Screenshot (127).png",
+    img:"https://www.linkpicture.com/q/Screenshot-127-min00.png",
     alt:"NITSMUN 2022"
   },
   {
     id:3,
-    img:"./Images/nitsmun'22/Screenshot (138).png",
+    img:"https://www.linkpicture.com/q/Screenshot-138-min000.png",
     alt:"NITSMUN 2022"
   },
   {
     id:4,
-    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 13_13_03.png",
+    img:"https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-13_13_03-min0000.png",
     alt:"NITSMUN 2022"
   },
   {
     id:5,
-    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 15_49_40.png",
+    img:"https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000.png",
     alt:"NITSMUN 2022"
   },
   {
     id:6,
-    img:"./Images/nitsmun'22/Zoom Meeting - UNEP 12-03-2022 15_51_50.png",
+    img:"https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-15_51_50-min000000000.png",
     alt:"NITSMUN 2022"
   },
 ];
