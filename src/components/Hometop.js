@@ -7,7 +7,7 @@ const Hometop = () => {
   return (
     <div style={{ userSelect: "none" }}>
       <div className="hometop-main">
-        <a href="https://incand.in" target="_#blank" rel="norefferer">
+        <a href="https://incand.in" target="_blank" rel="norefferer">
           <div className="incand-logo">
             <img src="./Images/homeTop/incand-logo-MUN.svg" alt="" />
           </div>
