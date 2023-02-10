@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
@@ -8,23 +8,23 @@ import Faqs from "../Faq";
 // import MockMun from "./mock_mun";
 // import Sponsor from "../Sponsor";
 import Executive from "../Executive";
-import Loading from "../Loading";
+// import Loading from "../Loading";
 // import SLides from "../../Threedcarausel";
 
 const Juniormun = () => {
   // const [active, setActive] = useState("Executive Board");
   TabTitle("NITS Junior MUN | NITSMUN");
-  const [isFetching, setIsFetching] = useState(true);
+  // const [isFetching, setIsFetching] = useState(true);
 
-  useEffect(() => {
-    setTimeout(function () {
-      setIsFetching(false);
-    }, 100);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(function () {
+  //     setIsFetching(false);
+  //   }, 100);
+  // }, []);
 
-  if (isFetching) {
-    return <Loading />;
-  }
+  // if (isFetching) {
+  //   return <Loading />;
+  // }
   return (
     <>
       <div className="event-pic">

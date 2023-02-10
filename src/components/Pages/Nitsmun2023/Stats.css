@@ -1,6 +1,76 @@
 .stats-m{
-    background-color: red;
-    min-height: 50vh;
+   padding: 4vw 0;
     width: 85%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-chld{
+    width: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #d0a95e;
+}
+
+.jhdsu____odis{
+    color: #d0a95e;
+    /* color: var( --color-3-100); */
+    color: var(--color-1-080);
+    font-size: 2vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 1vw;
+}
+
+.hsgw_os{
+    color: #d0a95e;
+    color: var(--color-1-080);
+    font-size: 1.2vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+    margin-top: .8vw;
+}
+
+.vvbhj{
+    font-size: 1.7vw;
+}
+
+.jhui__po{
+    color: #d0a95e;
+    color: var(--color-1-080);
+    font-size: 7vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+}
+
+@media only screen and (max-width:660px){
+    .stats-m{
+        width: 100%;
+        padding: 8vw 0;
+        flex-wrap: wrap;
+    }
+
+    .stat-chld{
+        width: 50%;
+        margin: 4vw 0;
+    }
+
+   
+
+    .jhui__po{
+        font-size: 11vw;
+    }
+
+    .hsgw_os{
+        font-size: 3vw;
+        margin-top: 4vw;
+    }
+
+    .vvbhj{
+        font-size: 4.5vw;
+        margin-bottom: 2vw;
+    }
 }
