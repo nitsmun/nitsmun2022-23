@@ -322,6 +322,17 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     width: 15vw;
 }
 
+.rules-ipc-jout__lksdws{
+    padding: 0 2vw;
+}
+
+.rules-ipc-jout__lksdws li{
+    font-family: 'Nunito', sans-serif;
+    list-style-type: disc !important;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
 @media only screen and (max-width:660px){
 
     .jkio__lop{
@@ -476,5 +487,13 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 
     .cntr-rd-mr-mg{
         margin-bottom: 4vw;
+    }
+
+    .rules-ipc-jout__lksdws{
+        padding: 0 5vw;
+        margin-bottom: 4vw;
+    }
+    .rules-ipc-jout__lksdws li{
+        font-size: 3.4vw;
     }
 }

@@ -291,7 +291,19 @@ const Nitsmun2023 = () => {
                                         </div>
                                         <div className="rd-mr-cont jkio__lop" >
                                             <h2>
-                                            Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!<br/><br/>As a photo journalist, you'll play an integral role in capturing and documenting the most important moments, speeches, and discussions of the conference. Your photos will serve as a visual representation of the conference, helping to spread awareness and promote the event long after it's over.<br/><br/>This is a fantastic opportunity to showcase your skills, network with other photographers and delegates, and contribute to a meaningful cause. If you're passionate about photography and interested in the world of diplomacy and international relations, this is the perfect role for you!
+                                            <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span> is back with another very interesting announcement. We have collaborated with the official photography club of NITS, <span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span> and added a new segment to the IPC committee!<br/><br/>
+                                            Yes, you guessed it right. We are adding in Photojournalism for the very first time. So, photographers, take out your camera, set the right lens and click the best moments! Our conference is all set to get captured by you!
+                                            <br/><br/>
+                                           
+                                            As a photo journalist, you'll play an integral role in capturing and documenting the most important moments, speeches, and discussions of the conference. Your photos will serve as a visual representation of the conference, helping to spread awareness and promote the event long after it's over.<br/><br/>This is a fantastic opportunity to showcase your skills, network with other photographers and delegates, and contribute to a meaningful cause. If you're passionate about photography and interested in the world of diplomacy and international relations, this is the perfect role for you!<br/><br/>
+                                            <span  style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline" }}>RULES:</span><br/>
+
+                                            <ul className='rules-ipc-jout__lksdws'>
+                                                <li>You can use any camera or even your mobile camera. But, we won't provide you with one, if you come without it.</li><br/>
+                                                <li>
+                                                This is just an addition so it is not open to people who have already registered for the other committees (or even for IPC committee).
+                                                </li>
+                                            </ul>
                                             </h2>
                                         </div>
                                         <div className="btn-rd-mr hjko">

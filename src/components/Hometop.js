@@ -2,7 +2,7 @@ import React from "react";
 import "./Hometop.css";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
-import 'react-typed/dist/animatedCursor.css';
+import "react-typed/dist/animatedCursor.css";
 const Hometop = () => {
   return (
     <div style={{ userSelect: "none" }}>
@@ -24,10 +24,9 @@ const Hometop = () => {
       <div className="dte-nitsmun2k23">
         {/* <h1>17 . 18 . 19 Feb 2023</h1> */}
         <Typed
-          className="typewriter-hero" style={{ userSelect: 'none' }}
-          strings={[
-            "17 . 18 . 19 February 2023",
-          ]}
+          className="typewriter-hero"
+          style={{ userSelect: "none" }}
+          strings={["17 . 18 . 19 February 2023"]}
           typeSpeed={80}
           loop={false}
           showCursor={false}
@@ -46,7 +45,12 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Nitsmun Annual Conference 2023</span>{" "}
+            <h2 className="ipc-jour-prom">
+              Photographs let you live the best memories over and over again
+            </h2>
+            <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">
+              Photo Journalism - International Press Corps (IPC)
+            </span>{" "}
             {/* And{" "}
             <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Executive Board </span> */}
             Registration Is Now Open!

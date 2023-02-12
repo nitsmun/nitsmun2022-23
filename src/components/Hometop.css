@@ -178,6 +178,27 @@ color: white;
   font-weight: 900 !important;
 }
 
+.ipc-jour-prom{
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-variant: normal;
+  font-weight: 500;
+  margin-bottom: 1.5vw;
+}
+
+.ipc-jour-prom::before{
+  content: open-quote;
+  font-family:"Nunito", sans-serif;
+  font-size: 2vw;
+}
+
+.ipc-jour-prom::after{
+  content: close-quote;
+  font-family:"Nunito", sans-serif;
+  font-size: 2vw;
+}
+
 @media only screen and (max-width:1400px) and (min-width:1026px){
   .hometop-img img{
     position: absolute;
@@ -289,6 +310,23 @@ color: white;
 }
 
 @media only screen and (max-width:660px){
+  .ipc-jour-prom{
+    font-size: 3.4vw;
+    margin-bottom: 5vw;
+  }
+
+  .ipc-jour-prom::before{
+    content: open-quote;
+    font-family:"Nunito", sans-serif;
+    font-size: 4vw;
+  }
+  
+  .ipc-jour-prom::after{
+    content: close-quote;
+    font-family:"Nunito", sans-serif;
+    font-size: 4vw;
+  }
+
   .home-wrapped img{
     width: 20%;
     top: 10%;
