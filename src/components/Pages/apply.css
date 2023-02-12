@@ -1,5 +1,5 @@
 .apply-container{
-    min-height: 100vh;
+    min-height: 115vh;
     width: 100%;
     background-color: var(--color-1-100);
     background: url(../../../src/components/un_bg.jpg);
@@ -112,7 +112,7 @@
     .img-apply img{
         width: 9.375rem;
         margin-top: 10vh;
-        margin-bottom: 0;
+        margin-bottom: 10vw;
     }
 
     /* .apply-container a{
@@ -274,7 +274,7 @@
     }
 
     .apply-container{
-        min-height: 150vh;
+        min-height: 170vh;
     }
 }
 
@@ -289,17 +289,29 @@
     }
 
     .apply-container{
-        min-height: 150vh;
+        min-height: 160vh;
     }
 }
 
-@media only screen and (max-height:400px){
+@media only screen and (max-height:460px){
     .apply-container{
-        min-height: 150vh;
+        min-height: 180vh;
     }
 
     .application-btn{
         padding: .4rem 0;
+    }
+}
+
+@media only screen and (max-height:350px){
+    .apply-container{
+        min-height: 190vh;
+    }
+}
+
+@media only screen and (max-height:320px){
+    .apply-container{
+        min-height: 220vh;
     }
 }
 
@@ -309,6 +321,6 @@
     }
 
     .apply-container{
-        min-height: 160vh;
+        min-height: 250vh;
     }
 }

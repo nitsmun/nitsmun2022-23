@@ -24,6 +24,10 @@ const Nitsmun2023 = () => {
     const onOpenModalipc = () => setOpenipc(true);
     const onCloseModalipc = () => setOpenipc(false);
 
+    const [openipcj, setOpenipcj] = useState(false);
+    const onOpenModalipcj = () => setOpenipcj(true);
+    const onCloseModalipcj = () => setOpenipcj(false);
+
     const [opennato, setOpennato] = useState(false);
     const onOpenModalnato = () => setOpennato(true);
     const onCloseModalnato = () => setOpennato(false);
@@ -66,7 +70,8 @@ const Nitsmun2023 = () => {
                 </div>
                 <div className="mun-sponsor">
                     <span className="powered-by">POWERED BY</span>
-                    <a href="https://unstop.com/"><img className='powered-by-img' src="https://www.linkpicture.com/q/unstop-logo.png" alt="UNSTOP" /></a>
+                    <a href="https://unstop.com/" target="_blank"
+                        rel="norefferer"><img className='powered-by-img' src="https://www.linkpicture.com/q/unstop-logo.png" alt="UNSTOP" /></a>
                 </div>
 
 
@@ -142,8 +147,6 @@ const Nitsmun2023 = () => {
                             </div>
                         </div>
                         {/* Icow ends */}
-
-
 
                         {/* IPc starts */}
                         <div className="agnd">
@@ -257,12 +260,55 @@ const Nitsmun2023 = () => {
                         </div>
                         {/* nato ends */}
 
+                        {/* ipc journalism starts */}
+                        <div className="agnd">
+                            <div className="commt-nme hjipo">
+                                <h1>Photo Journalism (IPC)</h1>
+                            </div>
+                            <div className="img-nts23 bnjh">
+                                <img src="https://www.linkpicture.com/q/ipc-journalism-min.jpg" alt="" />
+                            </div>
+                            <div className="comt-txt-imp">
+                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
+                            </div>
 
+                            <div className="rgster-nts23-rd-mr">
+                                <div className="rgster-nts23">
+                                    <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                </div>
 
+                                <div className="rd-mr-0">
+                                    <button onClick={onOpenModalipcj}>Read More</button>
+                                </div>
+
+                                <Modal open={openipcj} onClose={onCloseModalipcj} center>
+                                    <div className="icow-mdl" style={{ userSelect: "none" }}>
+                                        <div className="title-hld">
+                                            <h1>Photo Journalism (IPC)</h1>
+                                        </div>
+                                        <div className="img-nts23 img-re-mr">
+                                            <img src="https://www.linkpicture.com/q/ipc-journalism-min.jpg" alt="" />
+                                        </div>
+                                        <div className="rd-mr-cont jkio__lop" >
+                                            <h2>
+                                            Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!<br/><br/>As a photo journalist, you'll play an integral role in capturing and documenting the most important moments, speeches, and discussions of the conference. Your photos will serve as a visual representation of the conference, helping to spread awareness and promote the event long after it's over.<br/><br/>This is a fantastic opportunity to showcase your skills, network with other photographers and delegates, and contribute to a meaningful cause. If you're passionate about photography and interested in the world of diplomacy and international relations, this is the perfect role for you!
+                                            </h2>
+                                        </div>
+                                        <div className="btn-rd-mr hjko">
+                                            <div className="rgster-nts23">
+                                                <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Modal>
+                            </div>
+                        </div>
+
+                        {/* ipc journalism ends */}
                     </div>
 
                     <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div>
-{/* <EB23 /> */}
+                    {/* <EB23 /> */}
                     <Faq23 />
                 </div>
 

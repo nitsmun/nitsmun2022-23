@@ -302,6 +302,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 .hjhdfkw{
     transform:translateY(-3vw);
 }
+
 .mun-sponsor{
     margin: auto;
     display: flex;
@@ -309,16 +310,24 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     justify-content: center;
     align-items: center;
 }
+
 .powered-by{
-    font-family: "nunito";
+    font-family: "Nunito", sans-serif;
     font-weight: 800;
     color: rgb(96, 95, 95);
     font-size: 1.3vw;
 }
+
 .powered-by-img{
     width: 15vw;
 }
+
 @media only screen and (max-width:660px){
+
+    .jkio__lop{
+        margin-top: 7vw;
+    }
+
     .hjhdfkw{
         transform:translateY(-20vw);
     }
