@@ -216,6 +216,17 @@ li {
   transform: rotate(270deg);
 }
 
+@media only screen and (max-width:1300px) and (min-width:991px){
+  .menu-item a{
+    font-size: 1.45vw;
+    margin: .625rem .9rem;
+  }
+
+  .img-left0{
+    display: none;
+  }
+}
+
 @media (max-width:767px) { 
   .header__middle .active {color: var(--color-3-100) !important;}
 }
