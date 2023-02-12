@@ -64,6 +64,10 @@ const Nitsmun2023 = () => {
                     </div> */}
 
                 </div>
+                <div className="mun-sponsor">
+                    <span className="powered-by">POWERED BY</span>
+                    <a href="https://unstop.com/"><img className='powered-by-img' src="https://www.linkpicture.com/q/unstop-logo.png" alt="UNSTOP" /></a>
+                </div>
 
 
                 <div className="mock23-desc">

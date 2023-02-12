@@ -302,12 +302,32 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
 .hjhdfkw{
     transform:translateY(-3vw);
 }
-
+.mun-sponsor{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.powered-by{
+    font-family: "nunito";
+    font-weight: 800;
+    color: rgb(96, 95, 95);
+    font-size: 1.3vw;
+}
+.powered-by-img{
+    width: 15vw;
+}
 @media only screen and (max-width:660px){
     .hjhdfkw{
         transform:translateY(-20vw);
     }
-
+    .powered-by-img{
+        width: 25vw;
+    }
+    .powered-by{
+        font-size: 2vw;
+    }
     .bg-pvd{
         margin-top: 8vw;
         }
