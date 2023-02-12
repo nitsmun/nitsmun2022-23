@@ -269,7 +269,7 @@ const Nitsmun2023 = () => {
                                 <img src="https://www.linkpicture.com/q/ipc-journalism-min.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
-                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
+                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
                             </div>
 
                             <div className="rgster-nts23-rd-mr">
@@ -291,7 +291,7 @@ const Nitsmun2023 = () => {
                                         </div>
                                         <div className="rd-mr-cont jkio__lop" >
                                             <h2>
-                                            <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span> is back with another very interesting announcement. We have collaborated with the official photography club of NITS, <span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>Obietivvo</span> and added a new segment to the IPC committee!<br/><br/>
+                                            <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span> is back with another very interesting announcement. We have collaborated with the official photography club of NITS, <span style={{ fontWeight: '900', fontFamily: "Nunito", color:"black"}}>Obiettivo</span> and added a new segment to the IPC committee!<br/><br/>
                                             Yes, you guessed it right. We are adding in Photojournalism for the very first time. So, photographers, take out your camera, set the right lens and click the best moments! Our conference is all set to get captured by you!
                                             <br/><br/>
                                            
