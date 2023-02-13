@@ -1360,50 +1360,19 @@ export const nitsmun2k22 = [
 export const ebb23 = [
   {
     id:1,
-    post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
+    post:"** ICOW Chairperson **",
+    img:"https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329128167_1187440208829782_2056570050075388608_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=YAlurdHirToAX8RYbra&tn=9wXbjHHK_LxUDQsH&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBzsSixYzNZe8NfXtQzOhUXXUIjJoPpz9IFpCsVr-pTxQ&oe=63EFA09F",
     about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
+    Being a guy of many hats, <span style={{fontWeight:"900", fontFamily:"Nunito"}}>Sriyansh Mohanty</span> has never shied away from entering any challenge. He is highly regarded for his effectiveness in model UN conferences and deeply understands Indian politics. He is a pool of motivation and a firm believer in the contingency leadership theory. He is pursuing his master's degree in political science at the Central University of Haryana. Sriyansh is well-recognised for his argumentative and fact-based MUN articles and his keen interest in photography. 
     </>
   },
   {
     id:2,
-    post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
+    post:"** NATO Chairperson **",
+    img:"https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329113351_1568100323671866_3220537785323553912_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=UTs0yGNz8hkAX8nd_jc&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCUHcX29i9FO74fYkCszkCx35IupnHS78Eif0CUTB4r1g&oe=63EEE405",
     about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
-    </>
-  },
-  {
-    id:3,
-    post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
-    about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
-    </>
-  },
-  {
-    id:4,
-    post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
-    about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
-    </>
-  },
-  {
-    id:5,
-    post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
-    about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
-    </>
-  },
-  {
-    id:6,
-     post:"** UNHCR Chairperson **",
-    img:"https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2uFwWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p544oU19ZDj17PkXWSbePSj1X7K+bUu2hvDxm||ZZmlbkyLXUcYnOn98EoV26pNWwSDv5PHL||lo79UvOa0LGFq8zKXItscywlapZ63W6173pQu9u+EhF+0ptV||JzlE+2UyMEgvsNzX5DkFUbLPPM1LpqBjG+Zc2YE65ezRlC27TG4tejl4PjWFioHKvtY8lzH9VgF+||mWqGogZImY||kXSZljcQk8oti4f||Y8A4n||c||jqPWT24CYGduvklDmpPpujnOf0+N7ll892fE75eAa9A8k4zdBLbOcZ666G+SI7LdFuwBCDwACKGGA2D9JtGdL+V7wpFkJvVIhmem8VWxToClzkYnVWF1pSzSOL19adPNkPqdqy7GrhCJ5gg+zZroXpB+kAZ4tPqD6jlocHibU5kcbTGB.jpeg",
-    about:<>
-    Eshan, the Vice President of External Affairs for VIT Vellore's Model United Nations Society might come across as a formidable delegate, but he is one of the most empathetic, and approachable people you’ll meet. An advocate for climate change action, Eshan has had the distinct fortune of interacting with several regional and foreign dignitaries, including Mr. Narendra Modi, and Mr. Vladimir Putin. An avid reader, Eshan's love for the law, polity, and statecraft can only be rivalled by the rich world of reading and literature. Eshan's extensive knowledge of global, & national politics allows him to engage in stimulating discussions on any socio-political issue under the sun. Presenting before you, the very charismatic @i_am_percyj as the Chairperson for the committee of UNHCR. Glad to have you with us! 
+   Nineteen-year-old <span style={{fontWeight:"900", fontFamily:"Nunito"}}>Ankita Sarmah Bordoloi</span> is pursuing Honours in English from Cotton University and is a zealous person when it comes to achieving her goals. She has been an active participant in various MUNs and demonstrates immense excellence and remarkable enthusiasm in making an impact. She has also successfully bagged awards in each of these conferences, earning a prestigious place for herself in the circuit.
+   <br/><br/>
     </>
   },
 ]

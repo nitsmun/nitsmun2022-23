@@ -7,7 +7,7 @@ import Faq23 from './Faq23';
 import { nitsmun2k22 } from '../../Dataset';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import AboutBetn from './AboutBetn';
-// import EB23 from './EB23';
+import EB23 from './EB23';
 
 
 const Nitsmun2023 = () => {
@@ -185,7 +185,7 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
 
-                                        {/* <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div> */}
+                                        <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div>
 
                                         <div className="btn-rd-mr">
                                             <div className="rgster-nts23">
@@ -319,8 +319,8 @@ const Nitsmun2023 = () => {
                         {/* ipc journalism ends */}
                     </div>
 
-                    <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div>
-                    {/* <EB23 /> */}
+                    {/* <div className='off-reg-msg'>UPD: NITSMUN 2023 Executive Board will be released soon!</div> */}
+                    <EB23 />
                     <Faq23 />
                 </div>
 
