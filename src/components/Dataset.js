@@ -1371,8 +1371,16 @@ export const ebb23 = [
     post:"** NATO Chairperson **",
     img:"https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329113351_1568100323671866_3220537785323553912_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=UTs0yGNz8hkAX8nd_jc&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCUHcX29i9FO74fYkCszkCx35IupnHS78Eif0CUTB4r1g&oe=63EEE405",
     about:<>
-   Nineteen-year-old <span style={{fontWeight:"900", fontFamily:"Nunito"}}>Ankita Sarmah Bordoloi</span> is pursuing Honours in English from Cotton University and is a zealous person when it comes to achieving her goals. She has been an active participant in various MUNs and demonstrates immense excellence and remarkable enthusiasm in making an impact. She has also successfully bagged awards in each of these conferences, earning a prestigious place for herself in the circuit.
-   <br/><br/>
+   Nineteen-year-old <span style={{fontWeight:"900", fontFamily:"Nunito"}}>Ankita Sarmah Bordoloi</span> is pursuing Honours in English from Cotton University and is a zealous person when it comes to achieving her goals. She has been an active participant in various MUNs and demonstrates immense excellence and remarkable enthusiasm in making an impact. She has also successfully bagged awards in each of these conferences, earning a prestigious place for herself in the circuit. "Success doesn't come to one, unless one goes to it", It's something that Ankita firmly believes. She is a strong leader but is also jovial to the core and seeks to aid others.  
+
     </>
   },
+  {
+    id:3,
+    post:"** IPC Chairperson **",
+    img:"https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330359849_1038331760890277_8128874409094746240_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=cU1pyZ4UHy8AX-EfKmT&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAAn3D-ipEAWDXhTWMvY58i7uVt4EG8ZPudIZynhYBPBg&oe=63EEABEB",
+    about:<>
+    With a special inclination towards the IPC committee from the very starting, <span style={{fontWeight:"900", fontFamily:"Nunito"}}>Aditi Archita Khataniar</span> has always chosen IPC over any other committee. Writing has always been her go-to destination and hence, IPC too remains her comfort committee till now. Talking about her life, she comes from the state of Assam and is now pursuing B-tech in Computer Science and Engineering at NIT, Silchar. Her hobbies include writing and reading. Her works have been featured in many pages. Writing gives her inner peace, to be very precise.
+    </>
+  }
 ]
