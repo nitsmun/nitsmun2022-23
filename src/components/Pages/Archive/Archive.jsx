@@ -20,7 +20,7 @@ const Archive = () => {
                                 <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330982569_744256323690016_7870665356271497817_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=r0uGLMbbTJsAX9E1o_B&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfARX5j6NkgzPG_EbLSJniWEIadLGtaVs-VWJuJ3iaYGOg&oe=63F00D94" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
                             </div>
                             <div style={{ width: '50%' }}>
-                                <img src="./Images/juniormun2022/DSC_0689-compressed.jpg" className='archi1-2-img' alt="" style={{
+                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330810114_1486772055402221_8540965953596324983_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=d4SDpyN6HaUAX90F9CA&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDzidku_UlH5U-eLjqcBBa20UfEnM3RM29SWPujGzagBA&oe=63EECE13" className='archi1-2-img' alt="" style={{
                                     width: '100%', objectFit
                                         : 'contain', height: '100%', pointerEvents: 'none'
                                 }} />

@@ -2261,32 +2261,32 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id: 1,
-    img: "https://www.linkpicture.com/q/Screenshot-122-min2.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330802983_1705049746581048_7682172051951783453_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=zngIwKHAwN0AX8v2OHX&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCPEDJrhYTjY7Yw5_tie62GflTnecVCXK_6cK6645QT7Q&oe=63EF7F2D",
     alt: "NITSMUN 2022",
   },
   {
     id: 2,
-    img: "https://www.linkpicture.com/q/Screenshot-127-min00.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330987627_733600964997691_5402974493168395686_n.jpg?stp=dst-jpg_p180x540&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=H-aD3H3MEjQAX9baknz&_nc_oc=AQmKGj9HxVt1uk_cvSa6E7ngvBApg5ExbTbBihju9Xdrtm1P__Dz6cRNPGhZYhvdzro&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBRQLXIF-LlWhAGED5_qMaQ49I1SVMuSgV1w7qBEM5KlQ&oe=63F01D4D",
     alt: "NITSMUN 2022",
   },
   {
     id: 3,
-    img: "https://www.linkpicture.com/q/Screenshot-138-min000.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331000879_936456224013436_5338280222870882044_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=iTpdAHmy1rYAX_V9h6q&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDo-B4CeL5KVPJPQ0QD5ibMAgG2c1KhNcIylcMAyAW6Rw&oe=63EFEAB9",
     alt: "NITSMUN 2022",
   },
   {
     id: 4,
-    img: "https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-13_13_03-min0000.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330914341_762324721890702_7352255628350190550_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=lAsoH6g8dWsAX-6gcR4&_nc_oc=AQmYAi6Ik0H1gLT23BCT9R4WO6in0QaFPoujk5KRFCHw2hEKXFWbT6VYbHlDAnVMjc0&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCLIo_Ro_D6nFCAbkquZ-iOV9wZP-NcRBKMGqVUkrteEg&oe=63EFA7E6",
     alt: "NITSMUN 2022",
   },
   {
     id: 5,
-    img: "https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330928123_1134055597291216_4434858134843377615_n.jpg?stp=dst-jpg_p180x540&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=EWSh0AAUc4kAX9j6Wor&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBrNvlceXfNvpcV0YbpW9tzVfFk9xF8rhTiI6RkcPyO1Q&oe=63EEBF6D",
     alt: "NITSMUN 2022",
   },
   {
     id: 6,
-    img: "https://www.linkpicture.com/q/Zoom-Meeting-UNEP-12-03-2022-15_51_50-min000000000.png",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330123622_1258857281654852_6420257772004656386_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=M-y-KJb9_QcAX_Nan53&_nc_oc=AQnvmpnX0KzyiSxLou_lRB95vV2q0HTTKSzDDUlrcAK0lYwpmLERlV5CShUkEXwd9eQ&tn=gfOfm7OWKssWH2sG&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAhyawObrw_hwNGva62nnil_Wv6bLkgwWmaoUhdkWZPRg&oe=63EF1C8F",
     alt: "NITSMUN 2022",
   },
 ];
