@@ -19,7 +19,7 @@ const AboutBetn = () => {
         <>
             <div className="middle-n-23">
                 <div className="chld-nml" onClick={onOpenModalmun} style={{ cursor: 'pointer' }}>
-                    <img src="./Images/nitsmun-logo.svg" alt="" />
+                    <img src="https://svgshare.com/i/qDd.svg" alt="" />
                 </div>
 
                 <Modal open={openmun} onClose={onCloseModalmun} center>
@@ -30,7 +30,7 @@ const AboutBetn = () => {
                 </Modal>
 
                 <div className="chld-nml" onClick={onOpenModalicnd} style={{ cursor: 'pointer' }}>
-                    <img src="./Images/homeTop/incand-logo-MUN.svg" alt="" />
+                    <img src="https://svgshare.com/i/qFT.svg" alt="" />
                 </div>
 
                 <Modal open={openicnd} onClose={onCloseModalicnd} center>

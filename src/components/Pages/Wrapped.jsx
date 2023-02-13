@@ -9,7 +9,7 @@ const Wrapped = () => {
     
     <>
       <div className="wrapped-top">
-        <img src="./Images/wrapped2022/nitsmun blue logo.png" alt="nitsmun blue logo" />
+        <img src="https://www.linkpicture.com/q/nitsmun-blue-logo-min.png" alt="nitsmun blue logo" />
         {/* <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330903493_851943615877828_5069266823863244602_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=lEc9fXAzEo8AX8Rg1do&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBBmtQRIpUJCEhHJbDH64EU4kiXWGoDm2xALh3EZYfopw&oe=63EF4F67" alt="nitsmun blue logo" /> */}
       </div>
 

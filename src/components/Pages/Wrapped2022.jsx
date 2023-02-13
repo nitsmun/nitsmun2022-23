@@ -7,7 +7,7 @@ const Wrapped2022 = () => {
     return (
         <>
             <div className="wrapped-top">
-                <img src="./Images/wrapped2022/nitsmun blue logo.png" alt="nitsmun blue logo" />
+                <img src="https://www.linkpicture.com/q/nitsmun-blue-logo-min.png" alt="nitsmun blue logo" />
             </div>
 
             <div className="wraping-2022">

@@ -13,7 +13,7 @@ const Apply = () => {
       <div className="apply-container">
         <div className="img-apply">
           <center>
-            <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
+            <img src="https://svgshare.com/i/qDd.svg" alt="NITSMUN" />
           </center>
         </div>
 
