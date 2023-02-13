@@ -130,7 +130,7 @@ const Juniormun = () => {
         </div>
         <div className="images-junmun21">
           <img
-            src="./Images/juniormun2022/DIP_8467-compressed.jpg"
+            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330987207_947896313237848_1824721231056822532_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=OCT6EqR9Mh0AX-F9cMD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCIsceOfddgTbBKJ84AojwlNtF5H_l2Ih-E662dpyTdsw&oe=63F02FD4"
             alt="Junior MUN 2022"
           />
           <img
@@ -138,11 +138,11 @@ const Juniormun = () => {
             alt="Junior MUN 2022"
           />
           <img
-            src="./Images/juniormun2022/DSC_0672-compressed.jpg"
+            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330799341_557186629697571_6008962597625901705_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=dC_EpZIL_ToAX-h5KvN&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCvzqtzuDx0Tz71wVwnmjA9snxql3L04B6aYUSu2qROIQ&oe=63EEE680"
             alt="Junior MUN 2021"
           />
         </div>
-        <div className="images-junmun21">
+        {/* <div className="images-junmun21">
           <img
             src="./Images/juniormun2022/DIP_8466-min.jpg"
             alt="Junior MUN 2022"
@@ -151,7 +151,7 @@ const Juniormun = () => {
             src="./Images/juniormun2022/DSC_0675-compressed.jpg"
             alt="Junior MUN 2022"
           />
-        </div>
+        </div> */}
         {/* <SLides/> */}
       </div>
     </>

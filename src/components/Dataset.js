@@ -87,7 +87,7 @@ export const Secretariat = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/Shreyashi_Roymedhi_MUN.jpg",
+    imgsrc: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331079153_1149071432464986_376040286119838244_n.jpg?stp=dst-jpg_p552x414&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=TZd4LxCp7AgAX_6zxON&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCu0qcO7OfNeMS_svL1_1Al3dM2Exmc74d7WdSfSnoPkA&oe=63EE9D47",
     name: "Shreyashi Roymedhi",
     post: "Secretary General",
     alt: "Shreyashi Roymedhi",
@@ -1771,37 +1771,37 @@ export const mockData = [
 export const carouselData = [
   {
     id: 1,
-    mockimage1: "./Images/Carousel1.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330949841_590313792570989_1214184799898533664_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=RDnzabW3_K0AX_JQc7G&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBfiHovsNLbqKH4MxzaaPcLfPZO-FwSFOIreyE_fAIMww&oe=63EF3311",
     mockalt1: "Carousel",
   },
   {
     id: 2,
-    mockimage1: "./Images/Carousel2.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330982569_744256323690016_7870665356271497817_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=r0uGLMbbTJsAX9E1o_B&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfARX5j6NkgzPG_EbLSJniWEIadLGtaVs-VWJuJ3iaYGOg&oe=63F00D94",
     mockalt1: "Carousel",
   },
   {
     id: 3,
-    mockimage1: "./Images/Carousel3.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330976524_2515665108589679_6915779678271823815_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=xY80rQOSih0AX_ISWDw&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAXlvOMY5-hAyDG_2Gj7q5c-YV8kx_WTvnCQ8aStEevCA&oe=63F01952",
     mockalt1: "Carousel",
   },
   {
     id: 4,
-    mockimage1: "./Images/Carousel4.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330989389_1504593383363616_9060359337669408675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Yype15cqI4wAX_m3Frg&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfATJvWqGYQsnUT30vTRRzB5wVqyHM6u8IOHcuuF1BjY7A&oe=63EF9F45",
     mockalt1: "Carousel",
   },
   {
     id: 5,
-    mockimage1: "./Images/Carousel5.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330955878_6279526268758610_1204897958125280877_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=73F0MDLOr18AX-cg8U6&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDmXRlfuVc53B-1felO_TjfvznPmI891ShYGHSy35IEVg&oe=63EE80DC",
     mockalt1: "Carousel",
   },
   {
     id: 6,
-    mockimage1: "./Images/Carousel6.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330990573_727799338907915_1269189032963646080_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ykQ_99AB92kAX_sDyuq&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCcIQYNRO9t-YqeaFVB9GWn7IGIpLrIiAuV7FapFJNaBQ&oe=63EE5F6B",
     mockalt1: "Carousel",
   },
   {
     id: 7,
-    mockimage1: "./Images/Carousel7.jpg",
+    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330783871_950456856336269_2291632173842180090_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=PxTobkjI1bkAX_6FG3L&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBwLSsdRhHrWy_6hFKv2BYC2vJoFDxAkZ-jB-tFWrCohw&oe=63EF7BD7",
     mockalt1: "Carousel",
   },
 ];
@@ -1886,39 +1886,6 @@ export const partnerall = [
 
 export const apply = [
   {
-    id: "annual-conference-2023",
-    // msg:"Coming Soon!",
-    msg: (
-      <>
-        <a
-          href="https://unstop.com/o/0ZBVFdt?lb=YUKB612"
-          className="apply-redirect p-by"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Click here to Register in NITSMUN Annual Conference 2023.
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="newwindow"
-          >
-            <path
-              d="M20.5001 2H15.5001C15.3675 2 15.2403 2.05268 15.1465 2.14645C15.0528 2.24021 15.0001 2.36739 15.0001 2.5V3.5C15.0001 3.63261 15.0528 3.75979 15.1465 3.85355C15.2403 3.94732 15.3675 4 15.5001 4H18.5901L7.6501 14.94C7.60323 14.9865 7.56604 15.0418 7.54065 15.1027C7.51527 15.1636 7.5022 15.229 7.5022 15.295C7.5022 15.361 7.51527 15.4264 7.54065 15.4873C7.56604 15.5482 7.60323 15.6035 7.6501 15.65L8.3501 16.35C8.39658 16.3969 8.45188 16.4341 8.51281 16.4594C8.57374 16.4848 8.63909 16.4979 8.7051 16.4979C8.7711 16.4979 8.83646 16.4848 8.89738 16.4594C8.95831 16.4341 9.01362 16.3969 9.0601 16.35L20.0001 5.41V8.5C20.0001 8.63261 20.0528 8.75979 20.1465 8.85355C20.2403 8.94732 20.3675 9 20.5001 9H21.5001C21.6327 9 21.7599 8.94732 21.8537 8.85355C21.9474 8.75979 22.0001 8.63261 22.0001 8.5V3.5C22.0001 3.10218 21.8421 2.72064 21.5608 2.43934C21.2795 2.15804 20.8979 2 20.5001 2V2Z"
-              fill="currentColor"
-            ></path>
-            <path
-              d="M21.5 13H20.5C20.3674 13 20.2402 13.0527 20.1464 13.1464C20.0527 13.2402 20 13.3674 20 13.5V20H4V4H10.5C10.6326 4 10.7598 3.94732 10.8536 3.85355C10.9473 3.75979 11 3.63261 11 3.5V2.5C11 2.36739 10.9473 2.24021 10.8536 2.14645C10.7598 2.05268 10.6326 2 10.5 2H3.5C3.10218 2 2.72064 2.15804 2.43934 2.43934C2.15804 2.72064 2 3.10218 2 3.5V20.5C2 20.8978 2.15804 21.2794 2.43934 21.5607C2.72064 21.842 3.10218 22 3.5 22H20.5C20.8978 22 21.2794 21.842 21.5607 21.5607C21.842 21.2794 22 20.8978 22 20.5V13.5C22 13.3674 21.9473 13.2402 21.8536 13.1464C21.7598 13.0527 21.6326 13 21.5 13Z"
-              fill="currentColor"
-            ></path>
-          </svg>
-        </a>
-      </>
-    ),
-    btnname: "Annual Conference 2023",
-    Title: "Annual Conference 2023 Application ✏️ | Annual Conference 2023",
-  },
-  {
     id: "photojournalism-ipc",
     msg: (
       <>
@@ -1954,6 +1921,13 @@ export const apply = [
       " Photo Journalism - International Press Corps (IPC) Registration✏️ | Annual Conference 2023",
   },
   {
+    id: "annual-conference-2023",
+    // msg:"Coming Soon!",
+    msg: "Registration Closed!",
+    btnname: "Annual Conference 2023",
+    Title: "Annual Conference 2023 Application ✏️ | Annual Conference 2023",
+  },
+  {
     id: "EB_annual conference",
     msg: "Application Closed!",
     btnname: "Executive Board Application For Annual Conference 2023",
@@ -1971,16 +1945,16 @@ export const apply = [
 export const mainbybharat = [
   {
     id: "operation-ganga",
-    img: "./Images/bybharat/e7_1.jpg",
-    image: "../Images/bybharat/e7_1.jpg",
-    image1: "../Images/bybharat/e7_2.jpg",
-    image2: "../Images/bybharat/e7_3.jpg",
-    image3: "../Images/bybharat/e7_4.jpg",
-    image4: "../Images/bybharat/e7_5.jpg",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322687172_1248256806087613_7743691605802179804_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BedLeKBf5WMAX_FXa67&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfApRO9jvJUg4YgWD30y8HnFAIIkVqDZSz57dJD0t8H7OQ&oe=63EF1320",
+    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322687172_1248256806087613_7743691605802179804_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BedLeKBf5WMAX_FXa67&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfApRO9jvJUg4YgWD30y8HnFAIIkVqDZSz57dJD0t8H7OQ&oe=63EF1320",
+    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322332602_1255872474963524_5321604304607992407_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=h2L8dx8jpmAAX_UBR2E&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDTjqJZCOieueuXuJfYF743_Uk_OFRKzk8dJv8D-2atig&oe=63EF1CCE",
+    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322633409_1779590992440559_4718711189640053873_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Pm9ROF_iXvkAX8xxQXP&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCSb3_r-vIGjyPMX_MXDKYRNp379Q9Mw4N_ow6wq8_oSQ&oe=63EF6D86",
+    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/321947980_599031305561855_3700818193831827876_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=uBdGbsHlWckAX9DWh1n&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBojtFT0xNiO2l7oaSXW5rhP2z68wq4GR8IMiOnO2-ADA&oe=63EEE9D3",
+    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322838990_906299703870510_5697010146612876975_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KvJ_odv0LfMAX83evhO&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfArvNHLWddV5nLUUXCJnED5FEvXTNQpUfVNKyjSBNHLWQ&oe=63EE9920",
     image5: (
       <>
         <img
-          src="../Images/bybharat/e7_6.jpg"
+          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322526790_955159868787372_6007371335435211947_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ZEfdANfyvecAX-Y6wOn&_nc_oc=AQkox_e0e9tnIoRbDMEtDFw-ZHm-vUEzw8U6u4uY0uRfF_YSGToc4d3n4TLpzLuFGWU&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAQbGoh5H_3qA-YqzKzGMaBCttb4BBqUQPU_2ASzr6ilQ&oe=63EE8B0C"
           alt="Episode 7 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -2098,12 +2072,12 @@ export const mainbybharat = [
 export const Quirky = [
   {
     id: "arg_vs_fr",
-    img: "./Images/quirky combats/e5_1.jpg",
+    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320889701_687948209454743_7811522530338940715_n.jpg?stp=dst-jpg_p600x600&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lbvyG_FL-VgAX8s_Scg&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDgeFiwhnb85vrxmj9Sw3KPVQdlCMK6e3AJ94eg4yIIYg&oe=63EED87B",
     title0: "Episode 5 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 5 QUIRKY COMBATS Powered by NITSMUN",
-    image: "../Images/quirky combats/e5_1.jpg",
-    image1: "../Images/quirky combats/e5_2.jpg",
-    image2: "../Images/quirky combats/e5_3.jpg",
+    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320889701_687948209454743_7811522530338940715_n.jpg?stp=dst-jpg_p600x600&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lbvyG_FL-VgAX8s_Scg&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDgeFiwhnb85vrxmj9Sw3KPVQdlCMK6e3AJ94eg4yIIYg&oe=63EED87B",
+    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320708292_518394510228337_8319084469389876072_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SJu3pU-MeIcAX_45oid&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAP2iuU39AXdQJyBhRycdjLO85KntOFIxyemFRy1_jo0A&oe=63EED3B7",
+    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320754630_873440947126117_364657942473173256_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=B2bFejXUWEoAX-7g8np&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAmILEtcH_yQF2avOUPVpDSOyJagHe8mz916HdePRw5DQ&oe=63EE7307",
     top: "Argentina vs France",
   },
   {
@@ -2324,10 +2298,22 @@ export const ebb23 = [
     img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329128167_1187440208829782_2056570050075388608_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=YAlurdHirToAX8RYbra&tn=9wXbjHHK_LxUDQsH&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBzsSixYzNZe8NfXtQzOhUXXUIjJoPpz9IFpCsVr-pTxQ&oe=63EFA09F",
     about: (
       <>
-        Being a guy of many hats,{" "}
-        <span style={{ fontWeight: "900", fontFamily: "Nunito" }}>
-          Sriyansh Mohanty
-        </span>{" "}
+        Being a guy of many hats, <a
+          href="https://www.instagram.com/sriyansh.mohanty/"
+          target="_#blank"
+          rel="norefferer"
+        >
+          <span
+            style={{
+              fontWeight: "900",
+              fontFamily: "Nunito",
+              color: "black",
+              textDecoration: "underline",
+            }}
+          >
+           Sriyansh Mohanty
+          </span>
+        </a>{" "}
         has never shied away from entering any challenge. He is highly regarded
         for his effectiveness in model UN conferences and deeply understands
         Indian politics. He is a pool of motivation and a firm believer in the

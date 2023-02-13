@@ -19,7 +19,7 @@ const Wrapped2022 = () => {
             </div>
 
             <div className="jan-content xs-jan">
-                <img src="./Images/wrapped2022/wrapped-1-2022.jpeg" alt="Wrapped Jan to June 2022 | NITSMUN" />
+                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/321901207_927345055307085_2589558611212269791_n.jpg?stp=dst-jpg_p600x600&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=afk0cxDmjgkAX9x1Opb&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCpiyCINLoLKykDK59pjwdEj2hVC5y1i1jzn7_AaP6Hjw&oe=63EE6041" alt="Wrapped Jan to June 2022 | NITSMUN" />
                 <div className='jan-content-detail xs-jan-content'>
                     <h3>
                         <h3 className='month-wrapped'>January</h3>
@@ -64,7 +64,7 @@ const Wrapped2022 = () => {
             </div>
 
             <div className="jan-content reverse-flex-july">
-                <img src="./Images/wrapped2022/wrapped-2-2022.jpeg" alt="Wrapped Jan to June 2022 | NITSMUN" />
+                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322108371_2492787074212429_8666833714873261506_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=BeaOxUaC5ZwAX9dxVaU&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDrwTpdJu6q0H5qjMleNDeBK-p42MfdQPYi7kOR3vAbJA&oe=63EFB5C0" alt="Wrapped Jan to June 2022 | NITSMUN" />
                 <div className='jan-content-detail reverse-content-july'>
                     <h3>
                         <h3 className='month-wrapped'>July</h3>

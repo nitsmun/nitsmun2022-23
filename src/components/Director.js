@@ -17,7 +17,7 @@ const Director = () => {
         <div className="dir-imgcon">
           <div className="dir-imge">
             <img
-              src="./Images/wasim arif.jpg"
+              src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330956865_853335065733840_7097034676603377733_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=XAp5Z0yBP0QAX9DibhD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfB9hfVwRAl-5YTmHwUOmlwNLA1EHiGDeY7ADUhG-ogNBg&oe=63EF3BE6"
               alt="Dr. Wasim Arif"
               className="dir-img"
             />
