@@ -51,7 +51,7 @@ const Navbarmenu = () => {
               />
               <img
                 className="img-left"
-                src="./Images/logo-name-nitsmun.svg"
+                src="https://svgshare.com/i/qGy.svg"
                 alt="Nitsmun-logo"
               />
             </NavLink>

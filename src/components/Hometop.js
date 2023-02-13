@@ -9,7 +9,8 @@ const Hometop = () => {
       <div className="hometop-main">
         <a href="https://incand.in" target="_blank" rel="norefferer">
           <div className="incand-logo">
-            <img src="./Images/homeTop/incand-logo-MUN.svg" alt="" />
+            <img src="https://svgshare.com/i/qFT.svg" alt="" />
+            {/* <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330789814_1330772101100144_692698332556843342_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=vJtf5_90OGQAX8t219t&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDGjdu7ihYCrtLgNIg-fdFOeZ_a-08QRlNRvIw1O7Yb3A&oe=63EF5D80" alt="" /> */}
           </div>
         </a>
 
@@ -17,7 +18,7 @@ const Hometop = () => {
           <h1>Presents</h1>
         </div>
         <div className="hometop-img">
-          <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
+          <img src="https://svgshare.com/i/qDd.svg" alt="NITSMUN" />
         </div>
       </div>
 
