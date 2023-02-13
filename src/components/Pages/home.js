@@ -10,6 +10,7 @@ import ImageSliderComponent from "../ImageSliderComponent";
 import Underline from "../Underline";
 import Timer from "../Timer/timer";
 import Stats from "./Nitsmun2023/Stats";
+import Homesponsor from "./Nitsmun2023/Homesponsor";
 
 const Home = () => {
   TabTitle("NITS MUN");
@@ -40,6 +41,7 @@ const Home = () => {
       </div>
       <ImageSliderComponent />
       <ArticleHome2 />
+      <Homesponsor />
       <br />
     </>
   );
