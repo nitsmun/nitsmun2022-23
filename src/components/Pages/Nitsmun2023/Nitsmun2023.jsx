@@ -79,7 +79,7 @@ const Nitsmun2023 = () => {
                 <div className="mock23-desc">
                     <h2>Do you like to think critically and imagine yourself in the shoes of world leaders? Do you feel that you can form strong blogs and tilt the final decision in your interest? Do you have enough knowledge about the world that embraces wizards and magic? If yes, <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>NITSMUN, 2023</span> is surely for you!<br /><br />After two continuous years of online conferences, this time <span style={{ fontWeight: "900", fontFamily: "nunito" }}>NITSMUN</span> is all set to organise its annual conference offline, under the NITSMUN module of     <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>Incandescence, 2023</span>. With the theme of <span style={{ fontStyle: 'italic', fontFamily: 'nunito', fontWeight: '900', color: "#794894" }}>"breaking free"</span>, Incandescence, this year, comes in with the promise of being one of its kind. This cultural fest of <span style={{ fontFamily: "Nunito", fontStyle: "italic" }}>NIT, Silchar</span> has always witnessed numerous talents from all over the country. Being one of the best cultural fests of the Northeast, this time too Incandescence promises to keep up to its legacy and "break free" from the normal, you have always seen.<br /><br />Going with the promise made by Incandescence, NITSMUN too has made it a point to make its annual conference different from the past years. The conference will be held from <span style={{ fontFamily: 'nunito', fontWeight: '900' }}>17<sup style={{ fontWeight: "900" }}>th</sup> February 2023</span> to <span style={{ fontFamily: 'nunito', fontWeight: '900' }}>19<sup style={{ fontWeight: "900" }}>th</sup> February 2023</span>.</h2>
                 </div>
-
+                <div className='off-reg-msg'>UPD:NITSMUN 2023 Registration has been closed!</div>
                 <AboutBetn />
                 {/* <div className='off-reg-msg'>UPD: NITSMUN 2023 registration form will be released soon!</div> */}
 
@@ -88,6 +88,7 @@ const Nitsmun2023 = () => {
                     <div className="mock23-title comt-ipm">
                         <h1>Committees</h1>
                     </div>
+
 
                     <div className="ntsmn23-rl-cont">
 
@@ -106,7 +107,9 @@ const Nitsmun2023 = () => {
                             <div className="rgster-nts23-rd-mr">
                                 <div className="rgster-nts23">
 
-                                    <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                    <div className="rgster-nts23">
+                                        <button style={{ cursor: "not-allowed" }}>Register Now!</button>
+                                    </div>
                                     {/* <button style={{ cursor: 'not-allowed' }}>Register Now!</button> */}
                                 </div>
                                 <div className="rd-mr-0">
@@ -132,15 +135,16 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
 
-                                        <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div>
+                                        {/* <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div> */}
 
                                         <div className="btn-rd-mr">
                                             <div className="rgster-nts23">
-                                                <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                                <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
                                             <div className="rgster-nts23">
-                                                <button style={{ cursor: 'not-allowed' }}>Background guide</button>
+                                                <a href="https://drive.google.com/file/d/18ZB25fhOAep4f5NpVYXCjxQUk20tz-XM/view" target="_blank"
+                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -163,7 +167,7 @@ const Nitsmun2023 = () => {
 
                             <div className="rgster-nts23-rd-mr">
                                 <div className="rgster-nts23">
-                                    <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                    <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                 </div>
 
                                 <div className="rd-mr-0">
@@ -186,15 +190,16 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
 
-                                        <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div>
+                                        {/* <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div> */}
 
                                         <div className="btn-rd-mr">
                                             <div className="rgster-nts23">
-                                                <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                                <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
                                             <div className="rgster-nts23">
-                                                <button style={{ cursor: 'not-allowed' }}>Background guide</button>
+                                                <a href="https://drive.google.com/file/d/18YiEVr6Fi_dNojic6PI5xCVlCqM_FZUI/view" target="_blank"
+                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -218,7 +223,7 @@ const Nitsmun2023 = () => {
 
                             <div className="rgster-nts23-rd-mr">
                                 <div className="rgster-nts23">
-                                    <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                    <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                 </div>
                                 <div className="rd-mr-0">
                                     <button onClick={onOpenModalnato}>Read More</button>
@@ -244,15 +249,16 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
 
-                                        <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div>
+                                        {/* <div className='off-reg-msg cntr-rd-mr-mg'>UPD:Background guide will be released soon!</div> */}
 
                                         <div className="btn-rd-mr">
                                             <div className="rgster-nts23">
-                                                <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                                <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
                                             <div className="rgster-nts23">
-                                                <button style={{ cursor: 'not-allowed' }}>Background guide</button>
+                                                <a href="https://drive.google.com/file/d/18ZrzKC_muswMzHVKcPgl2-5bkEPU0_pi/view" target="_blank"
+                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -270,7 +276,7 @@ const Nitsmun2023 = () => {
                                 <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330227125_670235491522051_2562815507401589953_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=TmTvwGpMcs0AX8Jk8t7&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfACYYBb16-UB_XLr63KN1v8qzyuDE_GX8mnNwyTij47-A&oe=63EF2AE0" alt="" />
                             </div>
                             <div className="comt-txt-imp">
-                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline", color:"black"}}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
+                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration: "underline", color: "black" }}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
                             </div>
 
                             <div className="rgster-nts23-rd-mr">
@@ -292,19 +298,19 @@ const Nitsmun2023 = () => {
                                         </div>
                                         <div className="rd-mr-cont jkio__lop" >
                                             <h2>
-                                            <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span> is back with another very interesting announcement. We have collaborated with the official photography club of NITS, <span style={{ fontWeight: '900', fontFamily: "Nunito", color:"black"}}>Obiettivo</span> and added a new segment to the IPC committee!<br/><br/>
-                                            Yes, you guessed it right. We are adding in Photojournalism for the very first time. So, photographers, take out your camera, set the right lens and click the best moments! Our conference is all set to get captured by you!
-                                            <br/><br/>
-                                           
-                                            As a photo journalist, you'll play an integral role in capturing and documenting the most important moments, speeches, and discussions of the conference. Your photos will serve as a visual representation of the conference, helping to spread awareness and promote the event long after it's over.<br/><br/>This is a fantastic opportunity to showcase your skills, network with other photographers and delegates, and contribute to a meaningful cause. If you're passionate about photography and interested in the world of diplomacy and international relations, this is the perfect role for you!<br/><br/>
-                                            <span  style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration:"underline" }}>RULES:</span><br/>
+                                                <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span> is back with another very interesting announcement. We have collaborated with the official photography club of NITS, <span style={{ fontWeight: '900', fontFamily: "Nunito", color: "black" }}>Obiettivo</span> and added a new segment to the IPC committee!<br /><br />
+                                                Yes, you guessed it right. We are adding in Photojournalism for the very first time. So, photographers, take out your camera, set the right lens and click the best moments! Our conference is all set to get captured by you!
+                                                <br /><br />
 
-                                            <ul className='rules-ipc-jout__lksdws'>
-                                                <li>You can use any camera or even your mobile camera. But, we won't provide you with one, if you come without it.</li><br/>
-                                                <li>
-                                                This is just an addition so it is not open to people who have already registered for the other committees (or even for IPC committee).
-                                                </li>
-                                            </ul>
+                                                As a photo journalist, you'll play an integral role in capturing and documenting the most important moments, speeches, and discussions of the conference. Your photos will serve as a visual representation of the conference, helping to spread awareness and promote the event long after it's over.<br /><br />This is a fantastic opportunity to showcase your skills, network with other photographers and delegates, and contribute to a meaningful cause. If you're passionate about photography and interested in the world of diplomacy and international relations, this is the perfect role for you!<br /><br />
+                                                <span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration: "underline" }}>RULES:</span><br />
+
+                                                <ul className='rules-ipc-jout__lksdws'>
+                                                    <li>You can use any camera or even your mobile camera. But, we won't provide you with one, if you come without it.</li><br />
+                                                    <li>
+                                                        This is just an addition so it is not open to people who have already registered for the other committees (or even for IPC committee).
+                                                    </li>
+                                                </ul>
                                             </h2>
                                         </div>
                                         <div className="btn-rd-mr hjko">
