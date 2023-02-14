@@ -86,7 +86,7 @@ const Footer = () => {
             <a href="/">
               <img
                 className="foot-logo-name"
-                src="https://svgshare.com/i/qGy.svg"
+                src="./Images/logo-name-nitsmun.svg"
                 alt="logo-name-nitsmun"
               />
             </a>
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
         <div className="footer-pic">
           <a href="/" className="footer-heading" style={{ color: "white" }}>
-            <img src="https://svgshare.com/i/qDd.svg" alt="" />
+            <img src="./Images/nitsmun-logo.svg" alt="" />
           </a>
 
           {/* <h1 className="footer-heading" style={{color : 'white'}}>
