@@ -19,7 +19,7 @@ const AboutBetn = () => {
         <>
             <div className="middle-n-23">
                 <div className="chld-nml" onClick={onOpenModalmun} style={{ cursor: 'pointer' }}>
-                    <img src="./Images/nitsmun-logo.svg" alt="" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg" alt="" />
                 </div>
 
                 <Modal open={openmun} onClose={onCloseModalmun} center>
@@ -30,7 +30,7 @@ const AboutBetn = () => {
                 </Modal>
 
                 <div className="chld-nml" onClick={onOpenModalicnd} style={{ cursor: 'pointer' }}>
-                    <img src="./Images/incand.svg" alt="" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474673/events/nitsmun/incand_aq33rz.svg" alt="" />
                 </div>
 
                 <Modal open={openicnd} onClose={onCloseModalicnd} center>
@@ -41,7 +41,7 @@ const AboutBetn = () => {
                 </Modal>
 
                 <div className="chld-nml hjkilt" onClick={onOpenModalsecg} style={{ cursor: 'pointer' }}>
-                    <img src="./Images/nitsmun2k23/eml-removebg-preview.png" alt="" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475172/events/nitsmun/eml-removebg-preview_mmhogs.png" alt="" />
                 </div>
                 <Modal open={opensecg} onClose={onCloseModalsecg} center>
                     <div className="nhu__ghsd">

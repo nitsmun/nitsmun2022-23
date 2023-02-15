@@ -86,15 +86,15 @@ const Footer = () => {
             <a href="/">
               <img
                 className="foot-logo-name"
-                src="./Images/logo-name-nitsmun.svg"
-                alt="logo-name-nitsmun"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475320/events/nitsmun/logo-name-nitsmun_knlrie.svg"
+                // alt="logo-name-nitsmun"
               />
             </a>
           </h1>
         </div>
         <div className="footer-pic">
           <a href="/" className="footer-heading" style={{ color: "white" }}>
-            <img src="./Images/nitsmun-logo.svg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg" alt="" />
           </a>
 
           {/* <h1 className="footer-heading" style={{color : 'white'}}>

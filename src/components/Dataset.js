@@ -106,7 +106,7 @@ export const Secretariat = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/Sai Lahari-NITSMUN.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477105/events/nitsmun/team/Sai_Lahari-NITSMUN_fkmjw6.jpg",
     name: "Sai Lahari Jayareddygari",
     post: "Director General",
     alt: "Sai Lahari Jayareddygari",
@@ -125,7 +125,7 @@ export const Secretariat = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/mehulDewangan.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476491/events/nitsmun/team/mehulDewangan_htinf7.jpg",
     name: "Mehul Dewangan",
     alt: "Mehul Dewangan",
     post: "Director General",
@@ -144,7 +144,7 @@ export const Secretariat = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/mondeepPrakash.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476526/events/nitsmun/team/mondeepPrakash_sx17hs.jpg",
     alt: "Mondeep Prakash",
     name: "Mondeep Prakash",
     post: "General Secretary",
@@ -163,7 +163,7 @@ export const Secretariat = [
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "./Images/niharJyotiBasisth.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476632/events/nitsmun/team/niharJyotiBasisth_ozfw79.jpg",
     alt: "Nihar Jyoti Basisth",
     name: "Nihar Jyoti Basisth",
     post: "Director Media & Design",
@@ -181,7 +181,7 @@ export const Secretariat = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/sohanPaul.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477359/events/nitsmun/team/sohanPaul_btmib0.jpg",
     alt: "Sohan Paul",
     name: "Sohan Paul",
     post: "Director Media & Design",
@@ -200,7 +200,7 @@ export const Secretariat = [
   {
     id: 7,
     cName: "team-sec",
-    imgsrc: "./Images/sanchayitaPurkayastha.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477148/events/nitsmun/team/sanchayitaPurkayastha_fqzk1l.jpg",
     alt: "Sanchayita Purkayastha",
     name: "Sanchayita Purkayastha",
     post: "Director Public Relations and Outreach",
@@ -219,7 +219,7 @@ export const Secretariat = [
   {
     id: 8,
     cName: "team-sec",
-    imgsrc: "./Images/rahulChourasia.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476828/events/nitsmun/team/rahulChourasia_unm4v6.jpg",
     alt: "Rahul Chourasia",
     name: "Rahul Chourasia",
     post: "Director Liaison & Delegate Affairs",
@@ -238,7 +238,7 @@ export const Secretariat = [
   {
     id: 9,
     cName: "team-sec",
-    imgsrc: "./Images/adityaKotari.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475790/events/nitsmun/team/adityaKotari_dwuraq.jpg",
     alt: "Aditya Kotari",
     name: "Aditya Kotari",
     post: "Director Technical Operations",
@@ -257,7 +257,7 @@ export const Secretariat = [
   {
     id: 10,
     cName: "team-sec",
-    imgsrc: "./Images/tasneemKoushar.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477528/events/nitsmun/team/tasneemKoushar_vpikvc.jpg",
     alt: "Tasneem Koushar",
     name: "Tasneem Koushar",
     post: "Director Technical Operations",
@@ -276,7 +276,7 @@ export const Secretariat = [
   {
     id: 11,
     cName: "team-sec",
-    imgsrc: "./Images/sunilKumar.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477425/events/nitsmun/team/sunilKumar_id3lry.jpg",
     alt: "Sunil Kumar Mulkala",
     name: "Sunil Kumar Mulkala",
     post: "Director Logistics",
@@ -297,7 +297,7 @@ export const Secretariatjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/eishaHalder.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476257/events/nitsmun/team/eishaHalder_dkjwgf.jpg",
     alt: "Eisha Halder",
     name: "Eisha Halder",
     post: "Deputy Director General",
@@ -316,7 +316,7 @@ export const Secretariatjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/marufPadaya.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476439/events/nitsmun/team/marufPadaya_faj39h.jpg",
     alt: "Maruf Padaya",
     name: "Maruf Padaya",
     post: "Deputy Director General",
@@ -335,7 +335,7 @@ export const Secretariatjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/pranjalKumarSingh.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476735/events/nitsmun/team/pranjalKumarSingh_adqmoi.jpg",
     alt: "Pranjal Kumar Singh",
     name: "Pranjal Kumar Singh",
     post: "Deputy Director General",
@@ -354,7 +354,7 @@ export const Secretariatjr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/ritupornaDas.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476978/events/nitsmun/team/ritupornaDas_gsfhsy.jpg",
     alt: "Rituporna Das",
     name: "Rituporna Das",
     post: "Deputy Director General",
@@ -373,7 +373,7 @@ export const Secretariatjr = [
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "./Images/reetomRanaDutta.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476898/events/nitsmun/team/reetomRanaDutta_jjb837.jpg",
     alt: "Reetom Rana Dutta",
     name: "Reetom Rana Dutta",
     post: "Deputy Director Media & Design",
@@ -392,7 +392,7 @@ export const Secretariatjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/Saurav Chanda.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477186/events/nitsmun/team/Saurav_Chanda_ygve27.jpg",
     alt: "Saurav Chanda",
     name: "Saurav Chanda",
     post: "Deputy Director Media & Design",
@@ -411,7 +411,7 @@ export const Secretariatjr = [
   {
     id: 7,
     cName: "team-sec",
-    imgsrc: "./Images/mrigangaJyotiChutia.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476562/events/nitsmun/team/mrigangaJyotiChutia_hnssct.jpg",
     alt: "Mriganga Jyoti Chutia",
     name: "Mriganga Jyoti Chutia",
     post: "Deputy Director Media & Design",
@@ -430,7 +430,7 @@ export const Secretariatjr = [
   {
     id: 8,
     cName: "team-sec",
-    imgsrc: "./Images/bishalKarmakar.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476048/events/nitsmun/team/bishalKarmakar_pywxdf.jpg",
     alt: "Bishal Karmakar",
     name: "Bishal Karmakar",
     post: "Deputy Director Public Relations & Outreach",
@@ -449,7 +449,7 @@ export const Secretariatjr = [
   {
     id: 9,
     cName: "team-sec",
-    imgsrc: "./Images/somadritaHalder.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477390/events/nitsmun/team/somadritaHalder_mz5jbp.jpg",
     alt: "Somadrita Halder",
     name: "Somadrita Halder",
     post: "Deputy Director Public Relations & Outreach",
@@ -468,7 +468,7 @@ export const Secretariatjr = [
   {
     id: 10,
     cName: "team-sec",
-    imgsrc: "./Images/dhirazitHazarika.png",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476192/events/nitsmun/team/dhirazitHazarika_pzucs3.png",
     alt: "Dhirazit Hazarika",
     name: "Dhirazit Hazarika",
     post: "Deputy Director Liaison & Delegate Affairs",
@@ -487,7 +487,7 @@ export const Secretariatjr = [
   {
     id: 11,
     cName: "team-sec",
-    imgsrc: "./Images/tanmayTripathy.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477495/events/nitsmun/team/tanmayTripathy_t73soe.jpg",
     alt: "Tanmay Tripathy",
     name: "Tanmay Tripathy",
     post: "Deputy Director Liaison & Delegate Affairs",
@@ -506,7 +506,7 @@ export const Secretariatjr = [
   {
     id: 12,
     cName: "team-sec",
-    imgsrc: "./Images/sauravPal.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477220/events/nitsmun/team/sauravPal_luh8rf.jpg",
     alt: "Saurav Pal",
     name: "Saurav Pal",
     post: "Deputy Director Technical Operations",
@@ -525,7 +525,7 @@ export const Secretariatjr = [
   {
     id: 13,
     cName: "team-sec",
-    imgsrc: "./Images/bijuBorah.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476015/events/nitsmun/team/bijuBorah_fyjn1q.jpg",
     alt: "Biju Borah",
     name: "Biju Borah",
     post: "Deputy Director Technical Operations",
@@ -544,7 +544,7 @@ export const Secretariatjr = [
   {
     id: 14,
     cName: "team-sec",
-    imgsrc: "./Images/devendarSainadhGorla.JPG",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476156/events/nitsmun/team/devendarSainadhGorla_cqauua.jpg",
     alt: "Devendar Sainadh Gorla",
     name: "Devendar Sainadh Gorla",
     post: "Deputy Director Logistics",
@@ -563,7 +563,7 @@ export const Secretariatjr = [
   {
     id: 15,
     cName: "team-sec",
-    imgsrc: "./Images/sauravSuman.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477253/events/nitsmun/team/sauravSuman_hpn56k.jpg",
     alt: "Saurav Suman",
     name: "Saurav Suman",
     post: "Deputy Director Logistics",
@@ -595,7 +595,7 @@ export const Secretariatmediajr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/akshita hazarika.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475868/events/nitsmun/team/akshita_hazarika_fqnwky.jpg",
     alt: "Akshita Hazarika",
     name: "Akshita Hazarika",
     post: "Media & Design Team",
@@ -607,7 +607,7 @@ export const Secretariatmediajr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/ranjanKapar.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476862/events/nitsmun/team/ranjanKapar_j4hqgc.jpg",
     alt: "Ranjan Kr Kapar",
     name: "Ranjan Kr Kapar",
     post: "Media & Design Team",
@@ -618,7 +618,7 @@ export const Secretariatmediajr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/Amrita kashyap.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475904/events/nitsmun/team/Amrita_kashyap_nmvsdf.jpg",
     alt: "Amrita Kashyap",
     name: "Amrita Kashyap",
     post: "Media & Design Team",
@@ -629,7 +629,7 @@ export const Secretariatmediajr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/rishavnegi.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476938/events/nitsmun/team/rishavnegi_n2aajx.jpg",
     alt: "Rishav Singh Negi",
     name: "Rishav Singh Negi",
     post: "Media & Design Team",
@@ -654,7 +654,7 @@ export const Secretariatresearchjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/chimronSaikia1.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476118/events/nitsmun/team/chimronSaikia1_empiw6.jpg",
     alt: "Chimron Saikia",
     name: "Chimron Saikia",
     post: "Research and Development Team",
@@ -665,7 +665,7 @@ export const Secretariatresearchjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/aditi_MUN.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475732/events/nitsmun/aditi_MUN_o2zaxx.jpg",
     alt: "Aditi Archita Khataniar",
     name: "Aditi Archita Khataniar",
     post: "Research and Development Team",
@@ -676,7 +676,7 @@ export const Secretariatresearchjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/Ronak Jain.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477071/events/nitsmun/team/Ronak_Jain_etgqal.jpg",
     alt: "Ronak Jain",
     name: "Ronak Jain",
     post: "Research and Development Team",
@@ -687,7 +687,7 @@ export const Secretariatresearchjr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/Suraj Kumar Pampana.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477462/events/nitsmun/team/Suraj_Kumar_Pampana_e3kaio.jpg",
     alt: "Suraj Kumar Pampana",
     name: "Suraj Kumar Pampana",
     post: "Research and Development Team",
@@ -698,7 +698,7 @@ export const Secretariatresearchjr = [
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "./Images/hrishikeshBorah.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476289/events/nitsmun/team/hrishikeshBorah_oblsog.jpg",
     alt: "Hrishikesh Borah",
     name: "Hrishikesh Borah",
     post: "Research and Development Team",
@@ -709,7 +709,7 @@ export const Secretariatresearchjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/Bhargabi Nath.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475981/events/nitsmun/team/Bhargabi_Nath_yepwww.jpg",
     alt: "Bhargabi Nath",
     name: "Bhargabi Nath",
     post: "Research and Development Team",
@@ -722,7 +722,7 @@ export const Secretariatprjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/Nihal singh2.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476597/events/nitsmun/team/Nihal_singh2_ic3hsb.jpg",
     alt: "Nihal Singh",
     name: "Nihal singh",
     post: "Public Relations & Outreach Team",
@@ -733,7 +733,7 @@ export const Secretariatprjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/Sayan Kangsa Banik.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477287/events/nitsmun/team/Sayan_Kangsa_Banik_vexjd7.jpg",
     alt: "Sayan Kangsa Banik",
     name: "Sayan Kangsa Banik",
     post: "Public Relations & Outreach Team",
@@ -744,7 +744,7 @@ export const Secretariatprjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/sayantanDas.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477322/events/nitsmun/team/sayantanDas_xiusrh.jpg",
     alt: "Sayantan Das",
     name: "Sayantan Das",
     post: "Public Relations & Outreach Team",
@@ -755,7 +755,7 @@ export const Secretariatprjr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "./Images/Chayan.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476080/events/nitsmun/team/Chayan_tya1ek.jpg",
     alt: "Chayan Gulgulia",
     name: "Chayan Gulgulia",
     post: "Public Relations & Outreach Team",
@@ -766,7 +766,7 @@ export const Secretariatprjr = [
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "./Images/rohit1.png",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477032/events/nitsmun/team/rohit1_eh4kdf.png",
     alt: "Rohit Choudhary",
     name: "Rohit Choudhary",
     post: "Public Relations & Outreach Team",
@@ -777,7 +777,7 @@ export const Secretariatprjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "./Images/priyanshuJayant.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476783/events/nitsmun/team/priyanshuJayant_u5cxiv.jpg",
     alt: "Priyanshu Jayant",
     name: "Priyanshu Jayant",
     post: "Public Relations & Outreach Team",
@@ -788,7 +788,7 @@ export const Secretariatprjr = [
   {
     id: 7,
     cName: "team-sec",
-    imgsrc: "./Images/khush_MUN.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476399/events/nitsmun/team/khush_MUN_w0cszx.jpg",
     alt: "Khush Agarwal",
     name: "Khush Agarwal",
     post: "Public Relations & Outreach Team",
@@ -799,7 +799,7 @@ export const Secretariatprjr = [
   {
     id: 8,
     cName: "team-sec",
-    imgsrc: "./Images/Ilhan_MUN.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476324/events/nitsmun/team/Ilhan_MUN_wfrs31.jpg",
     alt: "Ilhan Ahmed",
     name: "Ilhan Ahmed",
     post: "Public Relations & Outreach Team",
@@ -810,7 +810,7 @@ export const Secretariatprjr = [
   {
     id: 9,
     cName: "team-sec",
-    imgsrc: "./Images/nikunj_mun.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476678/events/nitsmun/team/nikunj_mun_jp8rlr.jpg",
     alt: "Nikunj Beriwal",
     name: "Nikunj Beriwal",
     post: "Public Relations & Outreach Team",
@@ -823,7 +823,7 @@ export const Secretariatwebjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "./Images/Ankit3.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477584/events/nitsmun/team/Ankit3_stpz8d.jpg",
     alt: "Ankit Upadhaya",
     name: "Ankit Upadhaya",
     post: "Web Development Team",
@@ -841,7 +841,7 @@ export const Secretariatwebjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "./Images/adityaRanjan.jpeg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475826/events/nitsmun/team/adityaRanjan_yetaiw.jpg",
     alt: "Aditya Ranjan",
     name: "Aditya Ranjan",
     post: "Web Development Team",
@@ -860,7 +860,7 @@ export const Secretariatwebjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "./Images/dorothy2.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476226/events/nitsmun/team/dorothy2_zk4myd.jpg",
     alt: "Dorothy Phukon",
     name: "Dorothy Phukon",
     post: "Web Development Team",

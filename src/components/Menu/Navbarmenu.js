@@ -46,12 +46,12 @@ const Navbarmenu = () => {
             <NavLink exact activeClassName="is-active" to="/">
               <img
                 className="img-left0"
-                src="./Images/nitsmun.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475391/events/nitsmun/nitsmun_fjkrzp.png"
                 alt="Nitsmun-logo"
               />
               <img
                 className="img-left"
-                src="./Images/logo-name-nitsmun.svg"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475320/events/nitsmun/logo-name-nitsmun_knlrie.svg"
                 alt="Nitsmun-logo"
               />
             </NavLink>

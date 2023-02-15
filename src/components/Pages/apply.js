@@ -13,7 +13,7 @@ const Apply = () => {
       <div className="apply-container">
         <div className="img-apply">
           <center>
-            <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg" alt="NITSMUN" />
           </center>
         </div>
 

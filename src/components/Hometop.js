@@ -9,7 +9,8 @@ const Hometop = () => {
       <div className="hometop-main">
         <a href="https://incand.in" target="_blank" rel="norefferer">
           <div className="incand-logo">
-            <img src="./Images/incand.svg" alt="" />
+            {/* <img src="./Images/incand.svg" alt="" /> */}
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474673/events/nitsmun/incand_aq33rz.svg" alt="" />
             {/* <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330789814_1330772101100144_692698332556843342_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=vJtf5_90OGQAX8t219t&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDGjdu7ihYCrtLgNIg-fdFOeZ_a-08QRlNRvIw1O7Yb3A&oe=63EF5D80" alt="" /> */}
           </div>
         </a>
@@ -18,7 +19,7 @@ const Hometop = () => {
           <h1>Presents</h1>
         </div>
         <div className="hometop-img">
-          <img src="./Images/nitsmun-logo.svg" alt="NITSMUN" />
+          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg" alt="NITSMUN" />
         </div>
       </div>
 
@@ -37,7 +38,7 @@ const Hometop = () => {
       <div className="home-wrapped">
         <Link to="/wrapped">
           <img
-            src="./Images/wrapped2022/wrapping up-min.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475459/events/nitsmun/wrapping_up-min_jmr9sg.png"
             alt="Wrapped 2022"
           />
         </Link>
