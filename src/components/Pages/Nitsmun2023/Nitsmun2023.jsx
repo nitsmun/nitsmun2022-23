@@ -280,9 +280,9 @@ const Nitsmun2023 = () => {
                             </div>
 
                             <div className="rgster-nts23-rd-mr">
-                                <div className="rgster-nts23">
-                                    <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
-                                </div>
+                            <div className="rgster-nts23">
+                                                <button style={{ cursor: "not-allowed" }}>Register Now!</button>
+                                            </div>
 
                                 <div className="rd-mr-0">
                                     <button onClick={onOpenModalipcj}>Read More</button>
@@ -314,8 +314,8 @@ const Nitsmun2023 = () => {
                                             </h2>
                                         </div>
                                         <div className="btn-rd-mr hjko">
-                                            <div className="rgster-nts23">
-                                                <Link to="/apply"><button style={{ cursor: "pointer" }}>Register Now!</button></Link>
+                                        <div className="rgster-nts23">
+                                                <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
                                         </div>
                                     </div>

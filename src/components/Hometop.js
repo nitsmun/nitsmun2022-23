@@ -46,21 +46,21 @@ const Hometop = () => {
       <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
-            <h2 className="ipc-jour-prom">
+            {/* <h2 className="ipc-jour-prom">
               Photographs let you live the best memories over and over again
-            </h2>
+            </h2> */}
             <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">
-              Photo Journalism - International Press Corps (IPC)
+              Nitsmun 2023 Background Guide
             </span>{" "}
             {/* And{" "}
             <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Executive Board </span> */}
-            Registration Is Now Open!
+            Has Been Released!
             <img className="tnew-gif" src="./Images/tnew.gif" alt="" />
           </ul>
         </div>
         <div className="hometop-link1">
-          <Link to={"/apply"}>
-            <button className="hometop-link1btn">Register Now!</button>
+          <Link to={"/nitsmun2023"}>
+            <button className="hometop-link1btn">Check Now!</button>
           </Link>
         </div>
       </div>
