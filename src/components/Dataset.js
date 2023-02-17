@@ -1771,37 +1771,37 @@ export const mockData = [
 export const carouselData = [
   {
     id: 1,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676608928/nitsmun/Carousel1_qehbvi.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608928/nitsmun/Carousel1_qehbvi.jpg",
     mockalt1: "Carousel1",
   },
   {
     id: 2,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609083/nitsmun/Carousel2_kzhips.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609083/nitsmun/Carousel2_kzhips.jpg",
     mockalt1: "Carousel2",
   },
   {
     id: 3,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609120/nitsmun/Carousel3_dbzhad.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609120/nitsmun/Carousel3_dbzhad.jpg",
     mockalt1: "Carousel3",
   },
   {
     id: 4,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609169/nitsmun/Carousel4_afpbs9.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609169/nitsmun/Carousel4_afpbs9.jpg",
     mockalt1: "Carousel4",
   },
   {
     id: 5,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609310/nitsmun/Carousel5_lyifbs.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609310/nitsmun/Carousel5_lyifbs.jpg",
     mockalt1: "Carousel5",
   },
   {
     id: 6,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609410/nitsmun/Carousel6_nslfwv.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609410/nitsmun/Carousel6_nslfwv.jpg",
     mockalt1: "Carousel6",
   },
   {
     id: 7,
-    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609452/nitsmun/Carousel7_hpy50l.jpg",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg",
     mockalt1: "Carousel7",
   },
 ];

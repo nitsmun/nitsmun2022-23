@@ -119,36 +119,36 @@ const Juniormun = () => {
       <div className="container-junmun2021">
         <div className="images-junmun21">
         <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612934/nitsmun/DSC_0689-compressed_v6cyij.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612934/nitsmun/DSC_0689-compressed_v6cyij.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612978/nitsmun/DSC_0648-compressed_dnkbug.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612978/nitsmun/DSC_0648-compressed_dnkbug.jpg"
             alt="Junior MUN 2022"
           />
          
         </div>
         <div className="images-junmun21">
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613015/nitsmun/DIP_8467-compressed_mkur8x.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676613015/nitsmun/DIP_8467-compressed_mkur8x.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613047/nitsmun/DIP_8541-compressed_pvktco.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676613047/nitsmun/DIP_8541-compressed_pvktco.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613080/nitsmun/DSC_0672-compressed_xggbie.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676613080/nitsmun/DSC_0672-compressed_xggbie.jpg"
             alt="Junior MUN 2021"
           />
         </div>
         <div className="images-junmun21">
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613115/nitsmun/DIP_8466-min_ggszy5.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676613115/nitsmun/DIP_8466-min_ggszy5.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613148/nitsmun/DSC_0675-compressed_dubrs7.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676613148/nitsmun/DSC_0675-compressed_dubrs7.jpg"
             alt="Junior MUN 2022"
           />
         </div>

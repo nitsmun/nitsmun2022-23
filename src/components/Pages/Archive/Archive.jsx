@@ -17,10 +17,10 @@ const Archive = () => {
                     <div className="archi1">
                         <div className="archi1-1">
                             <div style={{ width: '50%' }}>
-                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609083/nitsmun/Carousel2_kzhips.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609083/nitsmun/Carousel2_kzhips.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
                             </div>
                             <div style={{ width: '50%' }}>
-                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612530/nitsmun/DSC_0689-compressed_hoaie0.jpg" className='archi1-2-img' alt="" style={{
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612530/nitsmun/DSC_0689-compressed_hoaie0.jpg" className='archi1-2-img' alt="" style={{
                                     width: '100%', objectFit
                                         : 'contain', height: '100%', pointerEvents: 'none'
                                 }} />
@@ -28,19 +28,19 @@ const Archive = () => {
                         </div>
 
                         <div className="archi1-2">
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612585/nitsmun/DIP_8467-compressed_n19vv4.jpg" alt='' /></div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609169/nitsmun/Carousel4_afpbs9.jpg" alt='' />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612585/nitsmun/DIP_8467-compressed_n19vv4.jpg" alt='' /></div>
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609169/nitsmun/Carousel4_afpbs9.jpg" alt='' />
                             </div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609410/nitsmun/Carousel6_nslfwv.jpg" alt='' />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609410/nitsmun/Carousel6_nslfwv.jpg" alt='' />
                             </div>
                         </div>
 
                         <div className="archi1-1">
                             <div style={{ width: '50%' }}>
-                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609452/nitsmun/Carousel7_hpy50l.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
                             </div>
                             <div style={{ width: '50%' }}>
-                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612734/nitsmun/DSC_0672-compressed_fzzz1h.jpg" className='archi1-2-img' alt="" style={{
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612734/nitsmun/DSC_0672-compressed_fzzz1h.jpg" className='archi1-2-img' alt="" style={{
                                     width: '100%', objectFit
                                         : 'contain', height: '100%', pointerEvents: 'none'
                                 }} />
