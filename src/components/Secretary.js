@@ -57,7 +57,7 @@ const Secretary = () => {
 
         <div className="sec-imge">
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331079153_1149071432464986_376040286119838244_n.jpg?stp=dst-jpg_p552x414&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=TZd4LxCp7AgAX_6zxON&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCu0qcO7OfNeMS_svL1_1Al3dM2Exmc74d7WdSfSnoPkA&oe=63EE9D47"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608035/nitsmun/shreyashi_jt8qid.jpg"
             alt="shreyashi Roymedhi"
             className="sec-img"
           />

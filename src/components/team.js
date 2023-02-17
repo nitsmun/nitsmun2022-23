@@ -31,7 +31,7 @@ const Team = () => {
     <>
       <div className="secre-pic">
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330815748_902749757439595_2309249886487204672_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=XltEZ9K5cnQAX_LYGRE&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAFxvwech8YGJKKp8cfRRXNpyAgg5J-x0qz2EYVjYtlyQ&oe=63EE7AE7"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676607917/nitsmun/team_top_lnrjpn.jpg"
           alt="NITS Secretariat"
         />
       </div>

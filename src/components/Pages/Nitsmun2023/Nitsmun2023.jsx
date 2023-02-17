@@ -159,7 +159,7 @@ const Nitsmun2023 = () => {
                                 <h1>International Press Corps (IPC)</h1>
                             </div>
                             <div className="img-nts23 bnjh">
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/326060592_653497346531039_1997414504262335960_n.jpg?stp=dst-jpg_p526x296&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=Ou-aMB5RNpkAX-uUg1T&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBUHOZWFr-aGSnYXUADEurKZuqD7dB_xt6qoMq-mHgfGQ&oe=63EE4815" alt="" />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676610576/nitsmun/326060592_653497346531039_1997414504262335960_n.jpg_ziqnmm.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
                                 <h2>Our second committee is for all the journalism enthusiasts out there, the <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>International Press Corps</span>.</h2>
@@ -181,7 +181,7 @@ const Nitsmun2023 = () => {
                                         </div>
 
                                         <div className="img-nts23 img-re-mr">
-                                            <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/326060592_653497346531039_1997414504262335960_n.jpg?stp=dst-jpg_p526x296&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=Ou-aMB5RNpkAX-uUg1T&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBUHOZWFr-aGSnYXUADEurKZuqD7dB_xt6qoMq-mHgfGQ&oe=63EE4815" alt="" />
+                                            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676610576/nitsmun/326060592_653497346531039_1997414504262335960_n.jpg_ziqnmm.jpg" alt="" />
                                         </div>
 
                                         <div className="rd-mr-cont">

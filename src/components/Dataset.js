@@ -87,7 +87,7 @@ export const Secretariat = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331079153_1149071432464986_376040286119838244_n.jpg?stp=dst-jpg_p552x414&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=TZd4LxCp7AgAX_6zxON&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCu0qcO7OfNeMS_svL1_1Al3dM2Exmc74d7WdSfSnoPkA&oe=63EE9D47",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608035/nitsmun/shreyashi_jt8qid.jpg",
     name: "Shreyashi Roymedhi",
     post: "Secretary General",
     alt: "Shreyashi Roymedhi",
@@ -1918,16 +1918,16 @@ export const apply = [
 export const mainbybharat = [
   {
     id: "operation-ganga",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322687172_1248256806087613_7743691605802179804_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BedLeKBf5WMAX_FXa67&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfApRO9jvJUg4YgWD30y8HnFAIIkVqDZSz57dJD0t8H7OQ&oe=63EF1320",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322687172_1248256806087613_7743691605802179804_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BedLeKBf5WMAX_FXa67&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfApRO9jvJUg4YgWD30y8HnFAIIkVqDZSz57dJD0t8H7OQ&oe=63EF1320",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322332602_1255872474963524_5321604304607992407_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=h2L8dx8jpmAAX_UBR2E&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDTjqJZCOieueuXuJfYF743_Uk_OFRKzk8dJv8D-2atig&oe=63EF1CCE",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322633409_1779590992440559_4718711189640053873_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Pm9ROF_iXvkAX8xxQXP&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCSb3_r-vIGjyPMX_MXDKYRNp379Q9Mw4N_ow6wq8_oSQ&oe=63EF6D86",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/321947980_599031305561855_3700818193831827876_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=uBdGbsHlWckAX9DWh1n&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBojtFT0xNiO2l7oaSXW5rhP2z68wq4GR8IMiOnO2-ADA&oe=63EEE9D3",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322838990_906299703870510_5697010146612876975_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KvJ_odv0LfMAX83evhO&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfArvNHLWddV5nLUUXCJnED5FEvXTNQpUfVNKyjSBNHLWQ&oe=63EE9920",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609698/nitsmun/e7_1_awufx7.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609698/nitsmun/e7_1_awufx7.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609784/nitsmun/e7_2_osstm8.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609961/nitsmun/e7_3_ndpt35.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609890/nitsmun/e7_4_ririeo.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610000/nitsmun/e7_5_gcrpac.jpg",
     image5: (
       <>
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/322526790_955159868787372_6007371335435211947_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ZEfdANfyvecAX-Y6wOn&_nc_oc=AQkox_e0e9tnIoRbDMEtDFw-ZHm-vUEzw8U6u4uY0uRfF_YSGToc4d3n4TLpzLuFGWU&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAQbGoh5H_3qA-YqzKzGMaBCttb4BBqUQPU_2ASzr6ilQ&oe=63EE8B0C"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676610058/nitsmun/e7_6_lcqij0.jpg"
           alt="Episode 7 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -2045,12 +2045,12 @@ export const mainbybharat = [
 export const Quirky = [
   {
     id: "arg_vs_fr",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320889701_687948209454743_7811522530338940715_n.jpg?stp=dst-jpg_p600x600&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lbvyG_FL-VgAX8s_Scg&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDgeFiwhnb85vrxmj9Sw3KPVQdlCMK6e3AJ94eg4yIIYg&oe=63EED87B",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610113/nitsmun/e5_1_k2rckt.jpg",
     title0: "Episode 5 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 5 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320889701_687948209454743_7811522530338940715_n.jpg?stp=dst-jpg_p600x600&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lbvyG_FL-VgAX8s_Scg&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDgeFiwhnb85vrxmj9Sw3KPVQdlCMK6e3AJ94eg4yIIYg&oe=63EED87B",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320708292_518394510228337_8319084469389876072_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SJu3pU-MeIcAX_45oid&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAP2iuU39AXdQJyBhRycdjLO85KntOFIxyemFRy1_jo0A&oe=63EED3B7",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/320754630_873440947126117_364657942473173256_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=B2bFejXUWEoAX-7g8np&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAmILEtcH_yQF2avOUPVpDSOyJagHe8mz916HdePRw5DQ&oe=63EE7307",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610113/nitsmun/e5_1_k2rckt.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610187/nitsmun/e5_2_lxxzpg.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610243/nitsmun/e5_3_ltqndt.jpg",
     top: "Argentina vs France",
   },
   {
@@ -2268,7 +2268,7 @@ export const ebb23 = [
   {
     id: 1,
     post: "** ICOW Chairperson **",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329128167_1187440208829782_2056570050075388608_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=YAlurdHirToAX8RYbra&tn=9wXbjHHK_LxUDQsH&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBzsSixYzNZe8NfXtQzOhUXXUIjJoPpz9IFpCsVr-pTxQ&oe=63EFA09F",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610525/nitsmun/329128167_1187440208829782_2056570050075388608_n.jpg_mnkvnf.jpg",
     about: (
       <>
         Being a guy of many hats, <a
@@ -2300,7 +2300,7 @@ export const ebb23 = [
   {
     id: 2,
     post: "** NATO Chairperson **",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/329113351_1568100323671866_3220537785323553912_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=UTs0yGNz8hkAX8nd_jc&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCUHcX29i9FO74fYkCszkCx35IupnHS78Eif0CUTB4r1g&oe=63EEE405",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610484/nitsmun/329113351_1568100323671866_3220537785323553912_n.jpg_llwddo.jpg",
     about: (
       <>
         Nineteen-year-old{" "}
@@ -2334,7 +2334,7 @@ export const ebb23 = [
   {
     id: 3,
     post: "** IPC Chairperson **",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330359849_1038331760890277_8128874409094746240_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=cU1pyZ4UHy8AX-EfKmT&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAAn3D-ipEAWDXhTWMvY58i7uVt4EG8ZPudIZynhYBPBg&oe=63EEABEB",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610421/nitsmun/330359849_1038331760890277_8128874409094746240_n.jpg_ay5veu.jpg",
     about: (
       <>
         With a special inclination towards the IPC committee from the very

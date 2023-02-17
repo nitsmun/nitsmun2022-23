@@ -68,7 +68,7 @@ const Hometop = () => {
 
       <div className="annual-2023-poster">
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/325767124_6231249770240462_3359318043356229049_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=OVrKzFpGia8AX9kfhQA&tn=4LMS0JUT-q81qyRv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCTBs87JIotpAjWCdIlmKLTYptBUcY2y5k-QuNaXvYKZA&oe=63EED60B"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676608482/nitsmun/nitsmun2023_20poster_cpszgc.jpg"
           alt="2023 Annual Conference Promotion"
         />
       </div>
