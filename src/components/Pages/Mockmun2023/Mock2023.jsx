@@ -10,13 +10,13 @@ const Mock2023 = () => {
             <div className="mock23-main" style={{ userSelect: 'none' }}>
                 <div className="mock23-posters">
                     <div className="mock-post">
-                        <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330760589_917470432614994_1292889195746701531_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=ub20pVLUXCEAX_TOKqV&_nc_oc=AQkTB_uPDj-zc56QjIlU4lbxYiXMr2_cI993PaH26bLgOHLrhjjj6Uu6xcbMldnKPjY&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBAd7PG-W74q-CYiJ309TaiBVnWcapgimei-NODsXluOA&oe=63EE8519" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611983/nitsmun/mock23-1_aps3gc.jpg" alt="Mock MUN 2023" />
                     </div>
                     <div className="mock-post">
-                        <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330608620_648267813724039_4061765038025650992_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=MM2x-fyd83gAX_jld-r&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAL0uQuR1AFDZDk9HYw_JEHzQe3LsIZ7ae3EBLbvBEs4A&oe=63EE990B" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612036/nitsmun/mock23-2_fgfki7.jpg" alt="Mock MUN 2023" />
                     </div>
                     <div className="mock-post">
-                        <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330853354_626782965924736_5800945278065063062_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZOu5EWevgV4AX9vSspv&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfC3kliMVI_O7sAlpOTfdZs6EcT7-u9aGbkxvLtyf2EHhg&oe=63EEA0B8" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612069/nitsmun/mock23-3_bytfso.jpg" alt="Mock MUN 2023" />
                     </div>
                 </div>
 
@@ -33,25 +33,25 @@ const Mock2023 = () => {
                 <div className="container-junmun2021">
                     <div className="images-junmun21">
                         <img
-                            src='https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331025583_1350444679052554_4292042663298565180_n.jpg?stp=dst-jpg_p180x540&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=mZxQiMSBs7YAX-tmRWX&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfA39ePIq1M20UjsiQVY-kqhVOIwBJAa917XR5ETY3c_Dg&oe=63EF035C'
+                            src='https://res.cloudinary.com/dp92qug2f/image/upload/v1676612121/nitsmun/IMG_2899-min_sbbsoz.jpg'
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src='https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330992709_944974063159442_7514472530112313039_n.jpg?stp=dst-jpg_p180x540&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=rBwXs5zkyTMAX-umOk3&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAV40jkqzSx2ocWpeRzRxwMJlXy5Sgk1bQli8LNZH4nBQ&oe=63EF10D0'
+                            src='https://res.cloudinary.com/dp92qug2f/image/upload/v1676612158/nitsmun/IMG_2926-min_jsaedp.jpg'
                             alt="Mock MUN 2023"
                         />
                     </div>
                     <div className="images-junmun21">
                         <img
-                            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331029499_2049356948603768_5060705345706591146_n.jpg?stp=dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=kntIGeYGsy0AX_MZ6DY&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCFg_8O26tRWP-dNS8M0P8cTHZHGVB01keggsNTPO1PnQ&oe=63EFD163"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612192/nitsmun/IMG_2918-min_ty3sbc.jpg"
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331027485_725333935639734_2489901293770433509_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=7I8Xq-uyWdcAX9v63Ga&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBctjjSvExoS1ekvvn5Ivv3-7y2Pjp47hJrqTDT5UOewQ&oe=63EF4355"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612235/nitsmun/IMG_2935-min_v7ngbz.jpg"
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330814158_966625781167121_6404774674820802481_n.jpg?stp=dst-jpg_p180x540&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=gc0ScMWqByAAX_IfTTm&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBq2u02K_ZGEiV4GlUDY2TmFc0knVQmgYfqEswBaJgsvg&oe=63EEC2CD"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612304/nitsmun/IMG_2996-min_gvlsgw.jpg"
                             alt="Mock MUN 2023"
                         />
                     </div>

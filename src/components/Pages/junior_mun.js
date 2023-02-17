@@ -119,36 +119,36 @@ const Juniormun = () => {
       <div className="container-junmun2021">
         <div className="images-junmun21">
         <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330810114_1486772055402221_8540965953596324983_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=d4SDpyN6HaUAX90F9CA&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDzidku_UlH5U-eLjqcBBa20UfEnM3RM29SWPujGzagBA&oe=63EECE13"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612934/nitsmun/DSC_0689-compressed_v6cyij.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330980861_1112766672730982_248332356185036132_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=HoCM4VW-xTUAX-2IKT3&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD5rhV40HFPUAtG2mZJ0sRL_Q5EHRg8nj0jTrULvXvkzA&oe=63F05CCB"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612978/nitsmun/DSC_0648-compressed_dnkbug.jpg"
             alt="Junior MUN 2022"
           />
          
         </div>
         <div className="images-junmun21">
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330987207_947896313237848_1824721231056822532_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=OCT6EqR9Mh0AX-F9cMD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCIsceOfddgTbBKJ84AojwlNtF5H_l2Ih-E662dpyTdsw&oe=63F02FD4"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613015/nitsmun/DIP_8467-compressed_mkur8x.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331022290_584201316947425_7114451133635938644_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=BMoXQs6atPMAX8NDnom&tn=gfOfm7OWKssWH2sG&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDMwIyrvCUDUwXQDAq5nRs9kxqbwl2CFY9cMYgRG2hQbQ&oe=63F03474"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613047/nitsmun/DIP_8541-compressed_pvktco.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330799341_557186629697571_6008962597625901705_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=dC_EpZIL_ToAX-h5KvN&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCvzqtzuDx0Tz71wVwnmjA9snxql3L04B6aYUSu2qROIQ&oe=63EEE680"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613080/nitsmun/DSC_0672-compressed_xggbie.jpg"
             alt="Junior MUN 2021"
           />
         </div>
         <div className="images-junmun21">
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331060272_1150973535617149_1880270747191740589_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=O2IRps0vQGEAX-DKRK4&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDxqwtC_-pQ9ZW_6kNwRRlvFJdM-_Q9SntibElMsnHX6Q&oe=63EEEB54"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613115/nitsmun/DIP_8466-min_ggszy5.jpg"
             alt="Junior MUN 2022"
           />
           <img
-            src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331051158_721577999627983_163192483052903116_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=4aO7u1RQGUUAX-g-hf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAUOyAiVohHmcKlkL3iJK8irYzy5QEg8qVFs99uBrnBFg&oe=63F02CB3"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676613148/nitsmun/DSC_0675-compressed_dubrs7.jpg"
             alt="Junior MUN 2022"
           />
         </div>

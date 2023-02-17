@@ -17,10 +17,10 @@ const Archive = () => {
                     <div className="archi1">
                         <div className="archi1-1">
                             <div style={{ width: '50%' }}>
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330982569_744256323690016_7870665356271497817_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=r0uGLMbbTJsAX9E1o_B&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfARX5j6NkgzPG_EbLSJniWEIadLGtaVs-VWJuJ3iaYGOg&oe=63F00D94" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609083/nitsmun/Carousel2_kzhips.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
                             </div>
                             <div style={{ width: '50%' }}>
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330810114_1486772055402221_8540965953596324983_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=d4SDpyN6HaUAX90F9CA&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDzidku_UlH5U-eLjqcBBa20UfEnM3RM29SWPujGzagBA&oe=63EECE13" className='archi1-2-img' alt="" style={{
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612530/nitsmun/DSC_0689-compressed_hoaie0.jpg" className='archi1-2-img' alt="" style={{
                                     width: '100%', objectFit
                                         : 'contain', height: '100%', pointerEvents: 'none'
                                 }} />
@@ -28,19 +28,19 @@ const Archive = () => {
                         </div>
 
                         <div className="archi1-2">
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330987207_947896313237848_1824721231056822532_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=OCT6EqR9Mh0AX-F9cMD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCIsceOfddgTbBKJ84AojwlNtF5H_l2Ih-E662dpyTdsw&oe=63F02FD4" alt='' /></div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330989389_1504593383363616_9060359337669408675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Yype15cqI4wAX_m3Frg&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfATJvWqGYQsnUT30vTRRzB5wVqyHM6u8IOHcuuF1BjY7A&oe=63EF9F45" alt='' />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612585/nitsmun/DIP_8467-compressed_n19vv4.jpg" alt='' /></div>
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609169/nitsmun/Carousel4_afpbs9.jpg" alt='' />
                             </div>
-                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330990573_727799338907915_1269189032963646080_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ykQ_99AB92kAX_sDyuq&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCcIQYNRO9t-YqeaFVB9GWn7IGIpLrIiAuV7FapFJNaBQ&oe=63EE5F6B" alt='' />
+                            <div style={{ width: '33.3%' }}><img style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609410/nitsmun/Carousel6_nslfwv.jpg" alt='' />
                             </div>
                         </div>
 
                         <div className="archi1-1">
                             <div style={{ width: '50%' }}>
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330783871_950456856336269_2291632173842180090_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=PxTobkjI1bkAX_6FG3L&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBwLSsdRhHrWy_6hFKv2BYC2vJoFDxAkZ-jB-tFWrCohw&oe=63EF7BD7" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676609452/nitsmun/Carousel7_hpy50l.jpg" className='archi1-1-img' alt="" style={{ width: '100%', objectFit: 'contain', height: '100%', pointerEvents: 'none' }} />
                             </div>
                             <div style={{ width: '50%' }}>
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330799341_557186629697571_6008962597625901705_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=dC_EpZIL_ToAX-h5KvN&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCvzqtzuDx0Tz71wVwnmjA9snxql3L04B6aYUSu2qROIQ&oe=63EEE680" className='archi1-2-img' alt="" style={{
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612734/nitsmun/DSC_0672-compressed_fzzz1h.jpg" className='archi1-2-img' alt="" style={{
                                     width: '100%', objectFit
                                         : 'contain', height: '100%', pointerEvents: 'none'
                                 }} />

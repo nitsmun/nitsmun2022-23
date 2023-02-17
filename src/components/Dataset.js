@@ -1771,38 +1771,38 @@ export const mockData = [
 export const carouselData = [
   {
     id: 1,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330949841_590313792570989_1214184799898533664_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=RDnzabW3_K0AX_JQc7G&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBfiHovsNLbqKH4MxzaaPcLfPZO-FwSFOIreyE_fAIMww&oe=63EF3311",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676608928/nitsmun/Carousel1_qehbvi.jpg",
+    mockalt1: "Carousel1",
   },
   {
     id: 2,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330982569_744256323690016_7870665356271497817_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=r0uGLMbbTJsAX9E1o_B&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfARX5j6NkgzPG_EbLSJniWEIadLGtaVs-VWJuJ3iaYGOg&oe=63F00D94",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609083/nitsmun/Carousel2_kzhips.jpg",
+    mockalt1: "Carousel2",
   },
   {
     id: 3,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330976524_2515665108589679_6915779678271823815_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=xY80rQOSih0AX_ISWDw&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAXlvOMY5-hAyDG_2Gj7q5c-YV8kx_WTvnCQ8aStEevCA&oe=63F01952",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609120/nitsmun/Carousel3_dbzhad.jpg",
+    mockalt1: "Carousel3",
   },
   {
     id: 4,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330989389_1504593383363616_9060359337669408675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Yype15cqI4wAX_m3Frg&tn=QK620zMwvRNJHCbs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfATJvWqGYQsnUT30vTRRzB5wVqyHM6u8IOHcuuF1BjY7A&oe=63EF9F45",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609169/nitsmun/Carousel4_afpbs9.jpg",
+    mockalt1: "Carousel4",
   },
   {
     id: 5,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330955878_6279526268758610_1204897958125280877_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=73F0MDLOr18AX-cg8U6&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDmXRlfuVc53B-1felO_TjfvznPmI891ShYGHSy35IEVg&oe=63EE80DC",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609310/nitsmun/Carousel5_lyifbs.jpg",
+    mockalt1: "Carousel5",
   },
   {
     id: 6,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330990573_727799338907915_1269189032963646080_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ykQ_99AB92kAX_sDyuq&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCcIQYNRO9t-YqeaFVB9GWn7IGIpLrIiAuV7FapFJNaBQ&oe=63EE5F6B",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609410/nitsmun/Carousel6_nslfwv.jpg",
+    mockalt1: "Carousel6",
   },
   {
     id: 7,
-    mockimage1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330783871_950456856336269_2291632173842180090_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=PxTobkjI1bkAX_6FG3L&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBwLSsdRhHrWy_6hFKv2BYC2vJoFDxAkZ-jB-tFWrCohw&oe=63EF7BD7",
-    mockalt1: "Carousel",
+    mockimage1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609452/nitsmun/Carousel7_hpy50l.jpg",
+    mockalt1: "Carousel7",
   },
 ];
 
@@ -2234,32 +2234,32 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id: 1,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330802983_1705049746581048_7682172051951783453_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=zngIwKHAwN0AX8v2OHX&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCPEDJrhYTjY7Yw5_tie62GflTnecVCXK_6cK6645QT7Q&oe=63EF7F2D",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 2,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330987627_733600964997691_5402974493168395686_n.jpg?stp=dst-jpg_p180x540&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=H-aD3H3MEjQAX9baknz&_nc_oc=AQmKGj9HxVt1uk_cvSa6E7ngvBApg5ExbTbBihju9Xdrtm1P__Dz6cRNPGhZYhvdzro&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBRQLXIF-LlWhAGED5_qMaQ49I1SVMuSgV1w7qBEM5KlQ&oe=63F01D4D",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 3,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/331000879_936456224013436_5338280222870882044_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=iTpdAHmy1rYAX_V9h6q&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDo-B4CeL5KVPJPQ0QD5ibMAgG2c1KhNcIylcMAyAW6Rw&oe=63EFEAB9",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 4,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330914341_762324721890702_7352255628350190550_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=lAsoH6g8dWsAX-6gcR4&_nc_oc=AQmYAi6Ik0H1gLT23BCT9R4WO6in0QaFPoujk5KRFCHw2hEKXFWbT6VYbHlDAnVMjc0&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCLIo_Ro_D6nFCAbkquZ-iOV9wZP-NcRBKMGqVUkrteEg&oe=63EFA7E6",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 5,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330928123_1134055597291216_4434858134843377615_n.jpg?stp=dst-jpg_p180x540&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=EWSh0AAUc4kAX9j6Wor&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBrNvlceXfNvpcV0YbpW9tzVfFk9xF8rhTiI6RkcPyO1Q&oe=63EEBF6D",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
     alt: "NITSMUN 2022",
   },
   {
     id: 6,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330123622_1258857281654852_6420257772004656386_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=M-y-KJb9_QcAX_Nan53&_nc_oc=AQnvmpnX0KzyiSxLou_lRB95vV2q0HTTKSzDDUlrcAK0lYwpmLERlV5CShUkEXwd9eQ&tn=gfOfm7OWKssWH2sG&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAhyawObrw_hwNGva62nnil_Wv6bLkgwWmaoUhdkWZPRg&oe=63EF1C8F",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
     alt: "NITSMUN 2022",
   },
 ];

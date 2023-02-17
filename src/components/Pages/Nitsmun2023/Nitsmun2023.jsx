@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Nitsmun2023.css'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Faq23 from './Faq23';
 import { nitsmun2k22 } from '../../Dataset';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -48,7 +48,7 @@ const Nitsmun2023 = () => {
             <div className="nits23-top">
                 <div className="top-bner-23">
                     {/* <img src="https://www.linkpicture.com/q/Nitsmun-2k23-min.png" alt="" /> */}
-                    <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/327014221_886926239104920_209419933538184844_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=0tN-vITpXJoAX_1Xko3&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfB7wexc-ULVq7SfmUftbXcshs0MXArPo4teLH-kqbxipw&oe=63EFD46B" alt="" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612344/nitsmun/327014221_886926239104920_209419933538184844_n.jpg_wnn34j.jpg" alt="" />
                 </div>
             </div>
 
@@ -98,7 +98,7 @@ const Nitsmun2023 = () => {
                                 <h1>International Confederation Of Wizards</h1>
                             </div>
                             <div className="img-nts23">
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/325593928_577113957601468_5270111719971228489_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=DMMfKP3j-vIAX_Z93NB&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBo3ep-QH5PZ00akHJ-Ojx-o4fqetFoBefMcG9NEr1MfQ&oe=63EFE614" alt="" />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611408/nitsmun/325593928_577113957601468_5270111719971228489_n.jpg_bugqsl.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
                                 <h2>Presenting to you, our first committee and also the one we are particularly the most thrilled for and for which we wish you would be equally excited, <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>The International Confederation of Wizards</span>!</h2>
@@ -122,7 +122,7 @@ const Nitsmun2023 = () => {
                                         </div>
 
                                         <div className="img-nts23 img-re-mr">
-                                            <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/325593928_577113957601468_5270111719971228489_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=DMMfKP3j-vIAX_Z93NB&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBo3ep-QH5PZ00akHJ-Ojx-o4fqetFoBefMcG9NEr1MfQ&oe=63EFE614" alt="" />
+                                            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611408/nitsmun/325593928_577113957601468_5270111719971228489_n.jpg_bugqsl.jpg" alt="" />
                                         </div>
 
                                         <div className="rd-mr-agnd">
@@ -215,7 +215,7 @@ const Nitsmun2023 = () => {
                                 <h1>North Atlantic Treaty Organization (NATO)</h1>
                             </div>
                             <div className="img-nts23">
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/325858680_1342582229853653_6680372960171511750_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=PeXTPs-lHHcAX8QSZiD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBD4NqoLfpq0EihRZIjxRBgjonbshMJU75JI2SnSYO9KA&oe=63EF392B" alt="" />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611482/nitsmun/325858680_1342582229853653_6680372960171511750_n.jpg_huhcfa.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
                                 <h2>Presenting to you our third Committee:  <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>North Atlantic Treaty Organization</span> (NATO): The <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NATO</span> having been established in 1949 has since been serving its task of protecting the states of Europe, facilitate cooperation among states and secure peace in the continent.</h2>
@@ -236,7 +236,7 @@ const Nitsmun2023 = () => {
                                         </div>
 
                                         <div className="img-nts23 img-re-mr">
-                                            <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/325858680_1342582229853653_6680372960171511750_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=PeXTPs-lHHcAX8QSZiD&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBD4NqoLfpq0EihRZIjxRBgjonbshMJU75JI2SnSYO9KA&oe=63EF392B" alt="" />
+                                            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611482/nitsmun/325858680_1342582229853653_6680372960171511750_n.jpg_huhcfa.jpg" alt="" />
                                         </div>
 
                                         <div className="rd-mr-agnd">
@@ -273,7 +273,7 @@ const Nitsmun2023 = () => {
                                 <h1>Photo Journalism (IPC)</h1>
                             </div>
                             <div className="img-nts23 bnjh">
-                                <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330227125_670235491522051_2562815507401589953_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=TmTvwGpMcs0AX8Jk8t7&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfACYYBb16-UB_XLr63KN1v8qzyuDE_GX8mnNwyTij47-A&oe=63EF2AE0" alt="" />
+                                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611569/nitsmun/330227125_670235491522051_2562815507401589953_n.jpg_hsh5fz.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
                                 <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration: "underline", color: "black" }}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
@@ -294,7 +294,7 @@ const Nitsmun2023 = () => {
                                             <h1>Photo Journalism (IPC)</h1>
                                         </div>
                                         <div className="img-nts23 img-re-mr">
-                                            <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330227125_670235491522051_2562815507401589953_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=TmTvwGpMcs0AX8Jk8t7&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfACYYBb16-UB_XLr63KN1v8qzyuDE_GX8mnNwyTij47-A&oe=63EF2AE0" alt="" />
+                                            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611569/nitsmun/330227125_670235491522051_2562815507401589953_n.jpg_hsh5fz.jpg" alt="" />
                                         </div>
                                         <div className="rd-mr-cont jkio__lop" >
                                             <h2>
