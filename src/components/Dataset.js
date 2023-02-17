@@ -1918,16 +1918,16 @@ export const apply = [
 export const mainbybharat = [
   {
     id: "operation-ganga",
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609698/nitsmun/e7_1_awufx7.jpg",
-    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609698/nitsmun/e7_1_awufx7.jpg",
-    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609784/nitsmun/e7_2_osstm8.jpg",
-    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609961/nitsmun/e7_3_ndpt35.jpg",
-    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676609890/nitsmun/e7_4_ririeo.jpg",
-    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610000/nitsmun/e7_5_gcrpac.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609698/nitsmun/e7_1_awufx7.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609698/nitsmun/e7_1_awufx7.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609784/nitsmun/e7_2_osstm8.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609961/nitsmun/e7_3_ndpt35.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609890/nitsmun/e7_4_ririeo.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676610000/nitsmun/e7_5_gcrpac.jpg",
     image5: (
       <>
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676610058/nitsmun/e7_6_lcqij0.jpg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676610058/nitsmun/e7_6_lcqij0.jpg"
           alt="Episode 7 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -1938,16 +1938,16 @@ export const mainbybharat = [
   },
   {
     id: "india-un-peacekeeping",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318775340_481591307407975_2487364988521266891_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=f81VHByMfhIAX8F4wYr&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfANiL48GRaDSlqkmCtcRG2wwZ67pSLD2lg_Ll5uB55QJA&oe=63EFA644",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318775340_481591307407975_2487364988521266891_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=f81VHByMfhIAX8F4wYr&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfANiL48GRaDSlqkmCtcRG2wwZ67pSLD2lg_Ll5uB55QJA&oe=63EFA644",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318739316_481591357407970_6410677533949691984_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tsCuwHCVyqUAX_x7xHF&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAPDzRGI0BGp9YC4VzZAvAu0Vpdd_PjGLcgxSNmFjU0pw&oe=63EFE672",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318713138_481591484074624_9211157319614847916_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=g5_sRwVgeOMAX_V0zoH&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDD-BPdMpeNok-WOwBSo4jyLsChzZgy---SU_F4b4FHEw&oe=63EFCABB",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318817190_481591507407955_8048272939488680834_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EZt-1CGVCE8AX_HWQK1&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAkZ_r3hZ3HC4zpf7cV9AtFvafPyFoOzfQzb1ZuNqg4pQ&oe=63EF38AF",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/318830151_481591560741283_2039020570835968312_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=niVicVFUXMcAX9X6CDu&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCGYULEF9RWEiR2uRv-ba4Y1Fs4LXtfxUJRw5jBcsYetw&oe=63EF6BF3",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676641148/nitsmun/quirky/e6_1_az9vpo.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676641148/nitsmun/quirky/e6_1_az9vpo.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641200/nitsmun/quirky/e6_2_oayey4.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641229/nitsmun/quirky/e6_3_hznxk8.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641259/nitsmun/quirky/e6_4_rfbhaz.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641293/nitsmun/quirky/e6_5_bqupjs.jpg",
     image5: (
       <>
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/319002037_481591600741279_872106948933634557_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wpkSqy6RwUIAX_dreXX&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfABcX3n1XyNPHoi9KOWUcSk75sOaD9N13DjiyoHWx1cwQ&oe=63EFF5CE"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641322/nitsmun/quirky/e6_6_c3pchr.jpg"
           alt="Episode 6 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -1958,16 +1958,16 @@ export const mainbybharat = [
   },
   {
     id: "sr-economic-crisis",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315854568_466819455551827_1959337785899017405_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=y8HuYNqYRokAX9ijBQ9&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAt_i3NPZItJmueq6kUGn0qvptFrfWa_MH4CW9AwArPtQ&oe=63F03226",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315854568_466819455551827_1959337785899017405_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=y8HuYNqYRokAX9ijBQ9&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAt_i3NPZItJmueq6kUGn0qvptFrfWa_MH4CW9AwArPtQ&oe=63F03226",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315900363_466819878885118_7729674729433740390_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vUi1ksf8JsIAX8aOPnT&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD_n-ckA-SFe5VWEOOsDb69K5LQ-YZYrsvRFc9CGLhVRA&oe=63EFFEDC",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/316006684_466819952218444_5675349957760483853_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jq6e1VQx6twAX-PicUd&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfB_cMef8SgxTYunP23npe9FWPrWJvwY4uqa8uJCwjIRvQ&oe=63EFC6A8",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315861686_466820065551766_2418954455323164143_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=QaDIkMxeVK4AX9MXWuf&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCBrcDhcTdn5ZL3U9Cz2F5ZSXtKEYoZuwS93w-pYnE49A&oe=63F083C2",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315936401_466820142218425_7974153263006236842_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xxsHaFiDipQAX8rhvgx&_nc_oc=AQmTaa1L-rq4IdcLTEcRH91LDlNBrlPLwLfI_u8goy3yAGBPI3qkJ7t28GchKP3_n1A&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAjP3nZ7U4MkHoLcHDmSFfSM9ZJeK1B-D8-Xj4ZyU71Fw&oe=63F0D636",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640935/nitsmun/quirky/e5_1_xjigir.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640935/nitsmun/quirky/e5_1_xjigir.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640981/nitsmun/quirky/e5_2_kdvtto.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641012/nitsmun/quirky/e5_3_lwffqa.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641044/nitsmun/quirky/e5_4_dbrgyp.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641070/nitsmun/quirky/e5_5_sfs8ou.jpg",
     image5: (
       <>
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315905096_466820168885089_2319474517090746361_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=CWEpsDmaLPwAX_bpJnY&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAiAlOPjAqm_Ces1Ok7TS8HmsPmg6G9RyfGJURWsB2sGQ&oe=63F071E7"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676641096/nitsmun/quirky/e5_6_fxuecw.jpg"
           alt="Episode 5 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -1978,41 +1978,41 @@ export const mainbybharat = [
   },
   {
     id: "decolonization",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/314350692_457350339832072_8854413177585931937_n.jpg?stp=dst-jpg_p600x600&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=fNeTM693rkEAX8p2MDm&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCiIa0rvhiG-w13Oltu_WWYk1j0p-j6kOYmLz96iU3PyQ&oe=63EFAC83",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/314350692_457350339832072_8854413177585931937_n.jpg?stp=dst-jpg_p600x600&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=fNeTM693rkEAX8p2MDm&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCiIa0rvhiG-w13Oltu_WWYk1j0p-j6kOYmLz96iU3PyQ&oe=63EFAC83",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/314039924_457350386498734_4153712573948203820_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-CMpc-FPoPEAX8Dj7fO&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDu6Dj584EAez-Hk8nou4M1l4mKVhuCBrJ2FaLUTjeGTg&oe=63EFF1C5",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/313879387_457350253165414_2679016813729670064_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=2x-J4WxCZDsAX_JxXJf&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDM3J8k1CI9zj7es5CI-SBuM5Xpmy7x30rySGIu2m4bNg&oe=63EF986D",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/314027799_457350406498732_4705765790612083683_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=c1X0riFx5i8AX__Yj61&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD1ldbKzJFmNDaOxgeK6CFqXOpeG4BLRRJadTqKL8fXIw&oe=63F08ACA",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/314360457_457350296498743_1899566275000004495_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JuwrdYX6uYkAX-kuWqF&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDf7XI_cnf4sr5lP7kWpMEUANotdNNcQ-cqtpwX8F0FTA&oe=63EFC107",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640691/nitsmun/quirky/e4_1_mgm4jh.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640691/nitsmun/quirky/e4_1_mgm4jh.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640729/nitsmun/quirky/e4_2_z3zfmq.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640770/nitsmun/quirky/e4_3_bsl8dw.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640799/nitsmun/quirky/e4_4_uimfee.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640825/nitsmun/quirky/e4_5_tj8ag2.jpg",
     alt: "Episode 4 BY BHARAT Powered by NITSMUN",
     title: "Episode 4 | BY BHARAT || NITSMUN",
     top: "Decolonization",
   },
   {
     id: "vaccine-maitri",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312356907_447005307533242_7944428670727128472_n.jpg?stp=dst-jpg_p600x600&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qxno_cnxGgoAX-7abp3&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCnKirUIIz9fQL2VXgVh2vgO-Jrq-sHGT_BdVBKPPJGpA&oe=63F105DA",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312356907_447005307533242_7944428670727128472_n.jpg?stp=dst-jpg_p600x600&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qxno_cnxGgoAX-7abp3&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCnKirUIIz9fQL2VXgVh2vgO-Jrq-sHGT_BdVBKPPJGpA&oe=63F105DA",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312383578_447005377533235_6833815566337534541_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Tk20EiQ-RsMAX_YzN7b&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBSfsFsNXuGhylOnJNbBLxn5PETW5UawRVfU9VXgTTCnQ&oe=63EF7C69",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312354696_447005507533222_6278097403326765389_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4UWhGvMl7m8AX_TAwEs&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfASRfe40fLqfM-a7JAn497-L_LkNEbw19fLp0pdFTBRkw&oe=63F01173",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312323286_447005574199882_9059962407598169584_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=k3p_gmmeMfIAX9UXm5l&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD7ITqSnv2UeH_tjphRsKqHLTCA87rXLry7er0anOKHUQ&oe=63F0EF9A",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/312303049_447005620866544_4169241525165309439_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=cB8MLzP1MEAAX98bxcN&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBPbnyfuUJcBQSm_mb0JMnZCsuAnMup9V7GABAMRtM_cQ&oe=63F091A9",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640492/nitsmun/quirky/e3_1_bsajhr.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640492/nitsmun/quirky/e3_1_bsajhr.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640521/nitsmun/quirky/e3_2_ybshqa.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640553/nitsmun/quirky/e3_3_vd6atj.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640583/nitsmun/quirky/e3_4_euk6nz.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640623/nitsmun/quirky/e3_5_spt7ii.jpg",
     alt: "Episode 3 BY BHARAT Powered by NITSMUN",
     title: "Episode 3 | BY BHARAT || NITSMUN",
     top: "Vaccine Maitri",
   },
   {
     id: "un_74th-session",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311639920_441609724739467_8739362371373399154_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KL4CVfuFK7oAX_0U3Lj&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDIBSc9kxcIhdwUzqjFwFhiht9JY1_VQ4Zc60SzBFAfwg&oe=63EF6B4A",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311639920_441609724739467_8739362371373399154_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KL4CVfuFK7oAX_0U3Lj&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDIBSc9kxcIhdwUzqjFwFhiht9JY1_VQ4Zc60SzBFAfwg&oe=63EF6B4A",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311597537_441609911406115_2806072285395647578_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FVYfpwtESA0AX8iTre5&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDanzw3qhzvX8fDIciqSWC6IpQQ6uy-yJvgUwg_xOzzTQ&oe=63EF829D",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311624024_441609941406112_5430206497508221863_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-PFvRZyD13gAX9-ymQM&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCFA1OI_wE-RApDKLo-1UKTugz_bPAmBAL_XIXt88ER4w&oe=63F10D6A",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311607078_441609984739441_2357982024408258522_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IY6WrHX4x78AX-yfxb_&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCEsrzdXQftw2svxIPH63qIE031vZLgKrVeDV1neD6Qkw&oe=63F09CC1",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311583954_441610024739437_6267275833788784259_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xJ3JSHCLTKMAX_xtxNf&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAAQnWVARZoBzLafhHXSB3oGHRZm5DsFV4oM1oCxj3KXQ&oe=63F0C663",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640215/nitsmun/quirky/e2_1_vjdbqe.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676640215/nitsmun/quirky/e2_1_vjdbqe.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640245/nitsmun/quirky/e2_2_dkgtzq.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640311/nitsmun/quirky/e2_3_qqorlw.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640330/nitsmun/quirky/e2_4_qufrnp.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640353/nitsmun/quirky/e2_5_bazteq.jpg",
     image5: (
       <>
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311672977_441610071406099_4178108531445934513_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=XwyAsjOWgDkAX9cWVzq&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAEaND4S15Ump51NLiulVqGAS-CChUHVtCLDqapjw9tiQ&oe=63F02BCE"
-          alt="Episode 1 BY BHARAT Powered by NITSMUN"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640376/nitsmun/quirky/e2_6_ixudw3.jpg"
+          alt="Episode 2 BY BHARAT Powered by NITSMUN"
         />
       </>
     ),
@@ -2022,16 +2022,16 @@ export const mainbybharat = [
   },
   {
     id: "ww2",
-    img:"https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/310931273_435927595307680_2383751383459261429_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KZAkUqOPWvsAX-QLYF0&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAbMVXPcCcqTaWRT8MqMfsPiKNZ117wsDtWpyeI3eJx_g&oe=63EF8DD7",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/310931273_435927595307680_2383751383459261429_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KZAkUqOPWvsAX-QLYF0&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAbMVXPcCcqTaWRT8MqMfsPiKNZ117wsDtWpyeI3eJx_g&oe=63EF8DD7",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311040795_435927651974341_4744940073053921713_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3zhMluyQdz0AX-kiB7h&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDlaNWSrWPDBEEybrsAsmq7bqOMVwjQN9IkKh4N294HeA&oe=63F0BDA7",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311066712_435928125307627_4366197838522751927_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=pNWwWBnw3AgAX-EP74j&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfB3t3RZRVFNGqe7H3ucLWOX7Zx6T7u_kCAKqfxHcyyK-g&oe=63F04A40",
-    image3: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311153351_435928165307623_7158524489846443885_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EMEdN1pHHOEAX8Hn7UC&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBZZoK9c0k2Q6Cu7Bw4nKO3cxdpNp2wLWec3Eliz1Gh0w&oe=63EFB731",
-    image4: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/310920624_435928195307620_8036541898460486613_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=yVmI64xhrAsAX_ZcUje&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCAeDIa6wogrH_A-kLUOlUJBp1S9vEAEJDVy8CLhkncSQ&oe=63F076DC",
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639923/nitsmun/quirky/ep1_1_mkv6xh.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639923/nitsmun/quirky/ep1_1_mkv6xh.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640024/nitsmun/quirky/ep1_2_z7sxct.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640059/nitsmun/quirky/ep1_3_v2pp3u.jpg",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640098/nitsmun/quirky/ep1_4_wmyije.jpg",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640130/nitsmun/quirky/ep1_5_cmrswg.jpg",
     image5: (
       <>
         <img
-          src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311043589_435928325307607_6140095094211263445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=oJmnjlNEzAAAX_4IvlI&tn=K2xzJM2pbkXMlPf2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBikSbuYUHqjJnth3eC7kc9_d8FhdciQK0BPIVbHXd6wQ&oe=63F064F0"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640155/nitsmun/quirky/ep1_6_jnmxsy.jpg"
           alt="Episode 1 BY BHARAT Powered by NITSMUN"
         />
       </>
@@ -2045,52 +2045,52 @@ export const mainbybharat = [
 export const Quirky = [
   {
     id: "arg_vs_fr",
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610113/nitsmun/e5_1_k2rckt.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676610113/nitsmun/e5_1_k2rckt.jpg",
     title0: "Episode 5 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 5 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610113/nitsmun/e5_1_k2rckt.jpg",
-    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610187/nitsmun/e5_2_lxxzpg.jpg",
-    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676610243/nitsmun/e5_3_ltqndt.jpg",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676610113/nitsmun/e5_1_k2rckt.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676610187/nitsmun/e5_2_lxxzpg.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676610243/nitsmun/e5_3_ltqndt.jpg",
     top: "Argentina vs France",
   },
   {
     id: "sr_vs_so",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315607504_464725172427922_8384934179529222709_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aRNz7RdCtKoAX8TATMI&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDxlVkb8qzYFrUGE-KryFpkMURyfLMXjUT1Daz03kvGew&oe=63F08E0A",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639498/nitsmun/quirky/e4_1_t0pzjz.jpg",
     title0: "Episode 4 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 4 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315607504_464725172427922_8384934179529222709_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aRNz7RdCtKoAX8TATMI&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDxlVkb8qzYFrUGE-KryFpkMURyfLMXjUT1Daz03kvGew&oe=63F08E0A",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315657633_464725239094582_7187977684209031359_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=nAfINvUzsn8AX9yiUBT&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCI0cp0pZmcM_xAFDyVxlf8WbgnyIwG0mBTs8wnOR883w&oe=63EFD885",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/315573801_464725449094561_3003697610494246672_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EOeW7v7IpIUAX_SxVV_&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAGkVeLxeiD-s-dFId0bHn1zipFsTJ9WkbiZbBgxOr5uw&oe=63F044A7",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639498/nitsmun/quirky/e4_1_t0pzjz.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639536/nitsmun/quirky/e4_2_xxpp7e.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639563/nitsmun/quirky/e4_3_ashjnr.jpg",
     top: "Srilanka vs Somalia",
   },
   {
     id: "pk_vs_zw",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330999403_584246990226057_707455819886169008_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=tUBJJ-jXD6wAX9E4b-I&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAtj9YNrLRPTI4Y8LdHSy--SBDp6Y4ZAJ-bROhy2s_3AQ&oe=63F036AF",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639376/nitsmun/quirky/e3_1_nwaqm0.jpg",
     title0: "Episode 3 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 3 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330999403_584246990226057_707455819886169008_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=tUBJJ-jXD6wAX9E4b-I&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAtj9YNrLRPTI4Y8LdHSy--SBDp6Y4ZAJ-bROhy2s_3AQ&oe=63F036AF",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330983276_515806227372515_8730975021058037957_n.jpg?stp=dst-jpg_p526x296&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=WCAH-uJHFLIAX-z6NkI&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfC-6Nw-6zcUzuJ_4eWICeKhsmczcxwDWxFKV_uIWXRRFQ&oe=63F0ACD6",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330810795_760237895454663_3843285885051935593_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=UU3p9yRkcvMAX8CK_ZZ&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAjrRQ7tVcNw53hUnaRR0qdjT4ccTjnEIT1F4CL_ubfyQ&oe=63F0022E",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639376/nitsmun/quirky/e3_1_nwaqm0.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639417/nitsmun/quirky/e3_2_aabszl.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639459/nitsmun/quirky/e3_3_z6zral.jpg",
     top: "Pakistan vs Zimbabwe",
   },
   {
     id: "my_vs_kw",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311583826_444805624419877_2372172235111598004_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=J2tzU_4VeBsAX-cstND&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD5N-RjkNZZoOgCG1zVLoTPNZ_BqenxaEavZOBaBLCcWg&oe=63F08075",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639259/nitsmun/quirky/e2_1_fh3okt.jpg",
     title0: "Episode 2 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 2 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311583826_444805624419877_2372172235111598004_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=J2tzU_4VeBsAX-cstND&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfD5N-RjkNZZoOgCG1zVLoTPNZ_BqenxaEavZOBaBLCcWg&oe=63F08075",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330804581_1560425991102458_6544280847535319830_n.jpg?stp=dst-jpg_p526x296&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=TklGDrZYImgAX9Av-TF&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfB22pj5TJNC4e-vanhO3ukD2kjUZfdH-Y1sMw57bwbo7Q&oe=63F1007A",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330759297_973686080279746_2007671095953328631_n.jpg?stp=dst-jpg_p526x296&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=e3-_45cUB7gAX-43gg1&_nc_oc=AQljWbMJ-nDXt6_m31rQ_3HNh5ejyH5oATteNwlgdYiECfTJwvCt_F9eF0SwMkF-UVA&tn=mrAXbUlqPkVjgNZl&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCFcpJOgnwvqQYofKT7Z2NGBA1llGcsJegN5SGX0QPw7A&oe=63EF68A0",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639259/nitsmun/quirky/e2_1_fh3okt.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639307/nitsmun/quirky/e2_2_znjthi.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639339/nitsmun/quirky/e2_3_g13abk.jpg",
     top: "Myanmar vs Kuwait",
   },
   {
     id: "ir_vs_fr",
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311455797_439332251633881_8746323037331116515_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X24BJ-rtuo0AX-8XX_2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCnbZZFn6h9f_sPKImY-SZ77R0oTqeq-Y5RGGOpdSeWoQ&oe=63F01F3C",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639106/nitsmun/quirky/e1_1_oerurv.jpg",
     title0: "Episode 1 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 1 QUIRKY COMBATS Powered by NITSMUN",
-    image: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311455797_439332251633881_8746323037331116515_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X24BJ-rtuo0AX-8XX_2&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCnbZZFn6h9f_sPKImY-SZ77R0oTqeq-Y5RGGOpdSeWoQ&oe=63F01F3C",
-    image1: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311290557_439332284967211_2234392229180043255_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JtAIlNuH_9QAX8cClHG&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDudT3nYUgcTTuRb7rP5Hy1RIUWb0CcXN4CtSXiiFbwnA&oe=63F05B8E",
-    image2: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/311410688_439332331633873_7518754014122023961_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=XRMBvv_j2ewAX9VNzOy&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDgH5QBTYFsymJGSdROFH8SWjGUrozf3bz8j1l6Um3MFg&oe=63EFBABD",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639106/nitsmun/quirky/e1_1_oerurv.jpg",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639196/nitsmun/quirky/e1_2_a5igqd.jpg",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1676639215/nitsmun/quirky/e1_3_gfvlv6.jpg",
     top: "Iran Vs France",
   },
 ];
@@ -2234,32 +2234,32 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
     alt: "NITSMUN 2022",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
     alt: "NITSMUN 2022",
   },
 ];

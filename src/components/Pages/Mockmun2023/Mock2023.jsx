@@ -10,13 +10,13 @@ const Mock2023 = () => {
             <div className="mock23-main" style={{ userSelect: 'none' }}>
                 <div className="mock23-posters">
                     <div className="mock-post">
-                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676611983/nitsmun/mock23-1_aps3gc.jpg" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676611983/nitsmun/mock23-1_aps3gc.jpg" alt="Mock MUN 2023" />
                     </div>
                     <div className="mock-post">
-                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612036/nitsmun/mock23-2_fgfki7.jpg" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612036/nitsmun/mock23-2_fgfki7.jpg" alt="Mock MUN 2023" />
                     </div>
                     <div className="mock-post">
-                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612069/nitsmun/mock23-3_bytfso.jpg" alt="Mock MUN 2023" />
+                        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612069/nitsmun/mock23-3_bytfso.jpg" alt="Mock MUN 2023" />
                     </div>
                 </div>
 
@@ -33,25 +33,25 @@ const Mock2023 = () => {
                 <div className="container-junmun2021">
                     <div className="images-junmun21">
                         <img
-                            src='https://res.cloudinary.com/dp92qug2f/image/upload/v1676612121/nitsmun/IMG_2899-min_sbbsoz.jpg'
+                            src='https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612121/nitsmun/IMG_2899-min_sbbsoz.jpg'
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src='https://res.cloudinary.com/dp92qug2f/image/upload/v1676612158/nitsmun/IMG_2926-min_jsaedp.jpg'
+                            src='https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612158/nitsmun/IMG_2926-min_jsaedp.jpg'
                             alt="Mock MUN 2023"
                         />
                     </div>
                     <div className="images-junmun21">
                         <img
-                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612192/nitsmun/IMG_2918-min_ty3sbc.jpg"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612192/nitsmun/IMG_2918-min_ty3sbc.jpg"
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612235/nitsmun/IMG_2935-min_v7ngbz.jpg"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612235/nitsmun/IMG_2935-min_v7ngbz.jpg"
                             alt="Mock MUN 2023"
                         />
                         <img
-                            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676612304/nitsmun/IMG_2996-min_gvlsgw.jpg"
+                            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612304/nitsmun/IMG_2996-min_gvlsgw.jpg"
                             alt="Mock MUN 2023"
                         />
                     </div>

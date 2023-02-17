@@ -68,7 +68,7 @@ const Hometop = () => {
 
       <div className="annual-2023-poster">
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676608482/nitsmun/nitsmun2023_20poster_cpszgc.jpg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608482/nitsmun/nitsmun2023_20poster_cpszgc.jpg"
           alt="2023 Annual Conference Promotion"
         />
       </div>
