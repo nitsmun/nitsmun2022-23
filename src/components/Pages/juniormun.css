@@ -225,7 +225,7 @@
   margin: 10px 10px;
   box-shadow: 0 0 0.4375rem;
   border-radius: 0.625rem;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .images-junmun21 {

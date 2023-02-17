@@ -20,7 +20,7 @@ export const Junmun = [
   {
     id: 1,
     Title01: "United Nations High Commissioner For Refugees",
-    imgjunmun: "./Images/Agenda1.jpeg",
+    imgjunmun: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676658881/nitsmun/Agenda1_mktkem.jpg",
     agenda0: "Agenda:",
     linkbg1: (
       <>
@@ -53,7 +53,7 @@ export const Junmun = [
         </a>
       </>
     ),
-    imgjunmun: "./Images/Agenda2.jpeg",
+    imgjunmun: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676658943/nitsmun/Agenda2_xwbc58.jpg",
     Agendapara:
       "Accentuating the problems caused due to rapid globalization and its influence on the environment.",
   },
@@ -73,7 +73,7 @@ export const Junmun = [
         </a>
       </>
     ),
-    imgjunmun: "./Images/Agenda3.jpeg",
+    imgjunmun: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676658977/nitsmun/Agenda3_opsvbh.jpg",
     Agendapara:
       "Highlighting the problems related to weaponized nuclear technology in the 21st Century.",
   },
@@ -938,8 +938,8 @@ export const Articleforhome = [
 export const Articledata = [
   {
     id: "day-of-democracy",
-    Artimg: "./Images/International Day Of Democracy.webp",
-    Artimg2: "../Images/International Day Of Democracy.webp",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660846/nitsmun/International_20Day_20Of_20Democracy_ucd4ed.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660846/nitsmun/International_20Day_20Of_20Democracy_ucd4ed.jpg",
     Title: "International Day Of Democracy",
     Alt: "International Day Of Democracy",
     Date: "Posted on: 15th September, 2022",
@@ -977,8 +977,8 @@ export const Articledata = [
   },
   {
     id: "protect-education-from-attack",
-    Artimg: "./Images/International Day To Protect Education From Attack.jpg",
-    Artimg2: "../Images/International Day To Protect Education From Attack.jpg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660918/nitsmun/International_20Day_20To_20Protect_20Education_20From_20Attack_ztwzmv.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660918/nitsmun/International_20Day_20To_20Protect_20Education_20From_20Attack_ztwzmv.jpg",
     Title: "International Day To Protect Education From Attack",
     Alt: "International Day To Protect Education From Attack",
     Date: "Posted on: 9th September, 2022",
@@ -1030,9 +1030,9 @@ export const Articledata = [
   {
     id: "rememberance-of-the-slave-trade-and-its-abolition",
     Artimg:
-      "./Images/International day for the rememberance of the slave trade and its abolition.jpeg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660994/nitsmun/International_20day_20for_20the_20rememberance_20of_20the_20slave_20trade_20and_20its_20abolition_tyzupr.jpg",
     Artimg2:
-      "../Images/International day for the rememberance of the slave trade and its abolition.jpeg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660994/nitsmun/International_20day_20for_20the_20rememberance_20of_20the_20slave_20trade_20and_20its_20abolition_tyzupr.jpg",
     Title:
       "International Day For The Rememberance Of The Slave Trade And Its Abolition",
     Alt: "International Day For The Rememberance Of The Slave Trade And Its Abolition",
@@ -1070,8 +1070,8 @@ export const Articledata = [
   },
   {
     id: "international-day-of-remembrance",
-    Artimg: "./Images/International day of remembrance.jpeg",
-    Artimg2: "../Images/International day of remembrance.jpeg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661071/nitsmun/International_20day_20of_20remembrance_sshcjb.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661071/nitsmun/International_20day_20of_20remembrance_sshcjb.jpg",
     Title:
       "International Day Of Remembrance And Tribute To The Victims Of Terrorism",
     Alt: "International Day Of Remembrance And Tribute To The Victims Of Terrorism",
@@ -1121,8 +1121,8 @@ export const Articledata = [
   },
   {
     id: "humanitarian-day",
-    Artimg: "./Images/World Humanitarian Day.webp",
-    Artimg2: "../Images/World Humanitarian Day.webp",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661144/nitsmun/World_20Humanitarian_20Day_rbngty.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661144/nitsmun/World_20Humanitarian_20Day_rbngty.jpg",
     Title: "World Humanitarian Day",
     Alt: "World Humanitarian Day",
     Date: "Posted on: 19th August, 2022",
@@ -1174,8 +1174,8 @@ export const Articledata = [
   },
   {
     id: "menstrual-hygiene",
-    Artimg: "./Images/World Menstrual Hygiene day.jpeg",
-    Artimg2: "../Images/World Menstrual Hygiene day.jpeg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661198/nitsmun/World_20Menstrual_20Hygiene_20day_tdhjai.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661198/nitsmun/World_20Menstrual_20Hygiene_20day_tdhjai.jpg",
     Title: "World Menstrual Hygiene Day",
     Alt: "World Menstrual Hygiene Day",
     Date: "Posted on: 28th May, 2022",
@@ -1231,8 +1231,8 @@ export const Articledata = [
   },
   {
     id: "biological-diversity",
-    Artimg: "./Images/International day for Biological diversity.jpg",
-    Artimg2: "../Images/International day for Biological diversity.jpg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661249/nitsmun/International_20day_20for_20Biological_20diversity_zkjqif.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661249/nitsmun/International_20day_20for_20Biological_20diversity_zkjqif.jpg",
     Title: "International Day For Biological Diversity",
     Alt: "International Day For Biological Diversity",
     Date: "Posted on: 22nd May, 2022",
@@ -1282,8 +1282,8 @@ export const Articledata = [
   },
   {
     id: "cultural-diversity",
-    Artimg: "./Images/World day for cultural diversity.jpg",
-    Artimg2: "../Images/World day for cultural diversity.jpg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661303/nitsmun/World_20day_20for_20cultural_20diversity_okhzct.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661303/nitsmun/World_20day_20for_20cultural_20diversity_okhzct.jpg",
     Title: "World Day For Cultural Diversity",
     Alt: "World day for cultural diversity",
     Date: "Posted on: 21st May, 2022",
@@ -1337,9 +1337,9 @@ export const Articledata = [
   {
     id: "telecommunication-and-information-society",
     Artimg:
-      "./Images/World telecommunication and information society day may 17.jpg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661362/nitsmun/World_20telecommunication_20and_20information_20society_20day_20may_2017_v2wda7.jpg",
     Artimg2:
-      "../Images/World telecommunication and information society day may 17.jpg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661362/nitsmun/World_20telecommunication_20and_20information_20society_20day_20may_2017_v2wda7.jpg",
     Title: "World Telecommunication And Information Society Day",
     Alt: "World telecommunication and information society day",
     Date: "Posted on: 17th May 2022",
@@ -1395,8 +1395,8 @@ export const Articledata = [
   },
   {
     id: "rememberance-and-reconciliation",
-    Artimg: "./Images/Time Of Rememberance And Reconciliation.jpeg",
-    Artimg2: "../Images/Time Of Rememberance And Reconciliation.jpeg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661418/nitsmun/Time_20Of_20Rememberance_20And_20Reconciliation_n2cxhs.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661418/nitsmun/Time_20Of_20Rememberance_20And_20Reconciliation_n2cxhs.jpg",
     Title: "Time Of Rememberance And Reconciliation",
     Alt: "Time Of Rememberance And Reconciliation",
     Date: "Posted on: 8th May 2022",
@@ -1441,8 +1441,8 @@ export const Articledata = [
   },
   {
     id: "press-freedom-day",
-    Artimg: "./Images/World press freedom day may 3.jpg",
-    Artimg2: "../Images/World press freedom day may 3.jpg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661490/nitsmun/World_20press_20freedom_20day_20may_203_mxsnlc.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661490/nitsmun/World_20press_20freedom_20day_20may_203_mxsnlc.jpg",
     Title: "World Press Freedom Day",
     Alt: "World press freedom day",
     Date: "Posted on: 3rd May 2022",
@@ -1488,8 +1488,8 @@ export const Articledata = [
   },
   {
     id: "safety-and-health-at-work",
-    Artimg: "./Images/World Day For Safety And Health At Work.jpeg",
-    Artimg2: "../Images/World Day For Safety And Health At Work.jpeg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661532/nitsmun/World_20Day_20For_20Safety_20And_20Health_20At_20Work_hk7vvo.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661532/nitsmun/World_20Day_20For_20Safety_20And_20Health_20At_20Work_hk7vvo.jpg",
     Title: "World Day For Safety And Health At Work",
     Alt: "World Day For Safety And Health At Work",
     Date: "Posted on: 28th April 2022",
@@ -1530,9 +1530,9 @@ export const Articledata = [
   {
     id: "multilateralism-and-diplomacy-for-peace",
     Artimg:
-      "./Images/International day of Multilateralism and diplomacy for peace april 24.jpg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661587/nitsmun/International_20day_20of_20Multilateralism_20and_20diplomacy_20for_20peace_20april_2024_ofzm8p.jpg",
     Artimg2:
-      "../Images/International day of Multilateralism and diplomacy for peace april 24.jpg",
+      "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661587/nitsmun/International_20day_20of_20Multilateralism_20and_20diplomacy_20for_20peace_20april_2024_ofzm8p.jpg",
     Title: "International Day Of Multilateralism And Diplomacy",
     Alt: "International day of Multilateralism and diplomacy",
     Date: "Posted on: 24th April 2022",
@@ -1574,8 +1574,8 @@ export const Articledata = [
   },
   {
     id: "mother-earth-day",
-    Artimg: "./Images/International mother earth day.jpg",
-    Artimg2: "../Images/International mother earth day.jpg",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661645/nitsmun/International_20mother_20earth_20day_hqctgn.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661645/nitsmun/International_20mother_20earth_20day_hqctgn.jpg",
     Title: "International Mother Earth Day",
     Alt: "International mother earth day",
     Date: "Posted on: 22nd April 2022",
@@ -1633,8 +1633,8 @@ export const Articledata = [
   },
   {
     id: "health-day",
-    Artimg: "./Images/World Health Day.webp",
-    Artimg2: "../Images/World Health Day.webp",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661690/nitsmun/World_20Health_20Day_z4kj4q.jpg",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676661690/nitsmun/World_20Health_20Day_z4kj4q.jpg",
     Title: "World Health Day",
     Alt: "World Health Day",
     Date: "Posted on: 7th April 2022",
@@ -1809,62 +1809,62 @@ export const carouselData = [
 export const allexecutive = [
   {
     id: 1,
-    img: "./Images/Eshan Bajaj.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659163/nitsmun/Eshan_20Bajaj_ix1kjf.jpg",
     alt: "Eshan Bajaj",
   },
   {
     id: 2,
-    img: "./Images/Kashish Gumber.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659210/nitsmun/Kashish_20Gumber_rcqtdz.jpg",
     alt: "Kashish Gumber",
   },
   {
     id: 3,
-    img: "./Images/Rupaz Bhadra.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659242/nitsmun/Rupaz_20Bhadra_bydtbg.jpg",
     alt: "Rupaz Bhadra",
   },
   {
     id: 4,
-    img: "./Images/Vidhi Singh.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659274/nitsmun/Vidhi_20Singh_hfbyjx.jpg",
     alt: "Vidhi Singh",
   },
   {
     id: 5,
-    img: "./Images/UNHCR Executive board.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659321/nitsmun/UNHCR_20Executive_20board_ph2ogf.jpg",
     alt: "UNHCR Executive Board",
   },
   {
     id: 6,
-    img: "./Images/UNEP Executive Board.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659352/nitsmun/UNEP_20Executive_20Board_sk239z.jpg",
     alt: "UNEP Executive Board",
   },
   {
     id: 7,
-    img: "./Images/UNSC Executive Board.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659396/nitsmun/UNSC_20Executive_20Board_ygqjs1.jpg",
     alt: "UNSC Executive Board",
   },
   {
     id: 8,
-    img: "./Images/IPC Executive Board.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659422/nitsmun/IPC_20Executive_20Board_gc5tte.jpg",
     alt: "IPC Executive Board",
   },
   {
     id: 9,
-    img: "./Images/Dheeraj narayan.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659510/nitsmun/Dheeraj_20narayan_nignse.jpg",
     alt: "Dheeraj Narayan",
   },
   {
     id: 10,
-    img: "./Images/Ankit Kumar.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659553/nitsmun/Ankit_20Kumar_z6dlfr.jpg",
     alt: "Ankit Kumar",
   },
   {
     id: 11,
-    img: "./Images/Abhinav Borgohain.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659584/nitsmun/Abhinav_20Borgohain_gk2lek.jpg",
     alt: "Abhinav Borgohain",
   },
   {
     id: 12,
-    img: "./Images/Devam Nath.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676659616/nitsmun/Devam_20Nath_d0xdju.jpg",
     alt: "Devam Nath",
   },
 ];
@@ -1872,13 +1872,13 @@ export const allexecutive = [
 export const partnerall = [
   {
     id: 1,
-    img: "./Images/Learn while travelling.png",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660043/nitsmun/Learn_while_travelling_youctg.png",
     alt: "Learn while travelling",
     about: "Learning While Travelling",
   },
   {
     id: 2,
-    img: "./Images/Anterprerna.png",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660072/nitsmun/Anterprerna_y7dnfz.png",
     alt: "Anterprerna",
     about: "AnterPrerna",
   },
@@ -2234,32 +2234,32 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
     alt: "NITSMUN 2022",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
     alt: "NITSMUN 2022",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
     alt: "NITSMUN 2022",
   },
 ];

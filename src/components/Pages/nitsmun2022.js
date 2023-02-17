@@ -66,14 +66,14 @@ const Nitsmun2022 = () => {
         <div className="nm22-agendaimgcon1">
           {" "}
           <img
-            src="./Images/UNSCbg12022.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676659808/nitsmun/UNSCbg12022_f4ypvj.jpg"
             alt="NITSMUN 2022"
             className="nm22-agendaimg1"
           />
         </div>
         <div className="nm22-agendaimgcon1">
           <img
-            src="./Images/UNEPbg12022.jpg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676659885/nitsmun/UNEPbg12022_mtbsh1.jpg"
             alt="NITSMUN 2022"
             className="nm22-agendaimg1"
           />
@@ -81,7 +81,7 @@ const Nitsmun2022 = () => {
       </div>
       <div className="nm222-agendaimgcon2">
         <img
-          src="./Images/international_press.jpg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676659914/nitsmun/international_press_g3mmcl.jpg"
           alt="NITSMUN 2022"
           className="nm22-agendaimg2"
         />
@@ -108,19 +108,19 @@ const Nitsmun2022 = () => {
 
         <div className="nm22-grid">
           <div className="grid1">
-            <img src="./Images/nm22j1.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j2.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j3.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660320/nitsmun/nm22j1_uiyopd.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660367/nitsmun/nm22j2_zutidr.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660469/nitsmun/nm22j3_q3wwcm.jpg" alt="" className="nm22-exmianimg" />
           </div>
           <div className="grid1">
-            <img src="./Images/nm22j4.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j5.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j6.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660450/nitsmun/nm22j4_es5d5h.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660507/nitsmun/nm22j5_kg3aqw.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660548/nitsmun/nm22j6_gge8ut.jpg" alt="" className="nm22-exmianimg" />
           </div>
           <div className="grid1">
-            <img src="./Images/nm22j7.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j8.jpg" alt="" className="nm22-exmianimg" />
-            <img src="./Images/nm22j9.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660583/nitsmun/nm22j7_qgmqdn.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660611/nitsmun/nm22j8_qyzprx.jpg" alt="" className="nm22-exmianimg" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660655/nitsmun/nm22j9_amnqgv.jpg" alt="" className="nm22-exmianimg" />
           </div>
         </div>
       </div>

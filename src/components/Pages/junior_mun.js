@@ -29,7 +29,7 @@ const Juniormun = () => {
     <>
       <div className="event-pic">
         <img
-          src="./Images/NITS Junior MUN official poster.png"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_400,f_auto,fl_lossy/v1676658768/nitsmun/NITS_20Junior_20MUN_20official_20poster_mju9g6.png"
           alt="NITS Junior MUN"
         />
       </div>
