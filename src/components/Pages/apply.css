@@ -197,8 +197,8 @@
 
 .newwindow{
     margin-bottom: .3vw;
-    width: 1.2vw;
-    height: 1.2vw;
+    width: .7vw;
+    height: .7vw;
 }
 
 
@@ -217,9 +217,9 @@
     }
 
     .newwindow{
-        width: 2vw;
-        height: 2vw;
-        margin-bottom: 1vw;
+        width: 1.5vw;
+        height: 1.5vw;
+       
     }
 }
 
@@ -236,6 +236,12 @@
 
     .apply-container{
         background-attachment: scroll;
+    }
+
+    .newwindow{
+        width: 1.5vw;
+        height: 1.5vw;
+        margin-bottom: 1vw;
     }
 }
 

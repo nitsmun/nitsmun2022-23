@@ -8,7 +8,7 @@ import ArticleHome2 from "../ArticleHome2";
 // import Loading from "../Loading";
 import ImageSliderComponent from "../ImageSliderComponent";
 import Underline from "../Underline";
-import Timer from "../Timer/timer";
+// import Timer from "../Timer/timer";
 import Stats from "./Nitsmun2023/Stats";
 import Homesponsor from "./Nitsmun2023/Homesponsor";
 
@@ -31,7 +31,7 @@ const Home = () => {
       <div>
         <Hometop />
       </div>
-      <Timer/>
+      {/* <Timer/> */}
       <Stats />
       <Director />
       <Secretary />
