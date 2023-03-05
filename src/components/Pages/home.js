@@ -11,6 +11,7 @@ import Underline from "../Underline";
 // import Timer from "../Timer/timer";
 import Stats from "./Nitsmun2023/Stats";
 import Homesponsor from "./Nitsmun2023/Homesponsor";
+import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
   TabTitle("NITS MUN");
@@ -40,6 +41,7 @@ const Home = () => {
         <h1>Photo Gallery</h1>
       </div>
       <ImageSliderComponent />
+      <Reviews />
       <ArticleHome2 />
       <Homesponsor />
       <br />

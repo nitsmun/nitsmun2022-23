@@ -24,6 +24,13 @@
 ::-webkit-scrollbar-thumb:hover{
   background-image: var(--color-16-060);
 }
+
+.swiper-slide-prev,
+.swiper-slide-next {
+ opacity: 0.75;
+  transition: 1s ease-in-out;
+}
+
 :root {
 
   /* --color-1-100: #00334e navbar,agenda stroke, all other headings unlined; */

@@ -72,7 +72,7 @@ const Nitsmun2023 = () => {
                 <div className="mun-sponsor">
                     <span className="powered-by">POWERED BY</span>
                     <a href="https://unstop.com/" target="_blank"
-                        rel="norefferer"><img className='powered-by-img' src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_200,f_auto,fl_lossy/v1676638169/nitsmun/330946815_1890746444600697_4110355400677577548_n.jpg_hpsyar.jpg" alt="UNSTOP" /></a>
+                        rel="norefferer noreferrer"><img className='powered-by-img' src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_200,f_auto,fl_lossy/v1676638169/nitsmun/330946815_1890746444600697_4110355400677577548_n.jpg_hpsyar.jpg" alt="UNSTOP" /></a>
                 </div>
 
 
@@ -142,7 +142,7 @@ const Nitsmun2023 = () => {
                                                 <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
-                                            <div className="rgster-nts23">
+                                            <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18ZB25fhOAep4f5NpVYXCjxQUk20tz-XM/view" target="_blank"
                                                     rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
@@ -197,7 +197,7 @@ const Nitsmun2023 = () => {
                                                 <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
-                                            <div className="rgster-nts23">
+                                            <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18YiEVr6Fi_dNojic6PI5xCVlCqM_FZUI/view" target="_blank"
                                                     rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
@@ -256,7 +256,7 @@ const Nitsmun2023 = () => {
                                                 <button style={{ cursor: "not-allowed" }}>Register Now!</button>
                                             </div>
 
-                                            <div className="rgster-nts23">
+                                            <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18ZrzKC_muswMzHVKcPgl2-5bkEPU0_pi/view" target="_blank"
                                                     rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>

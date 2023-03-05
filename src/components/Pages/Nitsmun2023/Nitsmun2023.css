@@ -114,6 +114,11 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     border-radius: 1vw;
     font-size: 1.25vw;
     transition: all 0.25s ease-in-out;
+    text-decoration: line-through;
+}
+
+.notext-through button{
+    text-decoration: none !important;
 }
 
 .rgster-nts23 button:hover{
