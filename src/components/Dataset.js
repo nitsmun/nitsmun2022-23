@@ -937,6 +937,25 @@ export const Articleforhome = [
 
 export const Articledata = [
   {
+id:"International Women's Day",
+Title: "International Women's Day",
+Alt: "International Women's Day",
+Date: "Posted on: 8th March, 2023",
+date0: "March 8, 2023",
+Artimg:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
+Artimg2:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
+cshort: (
+  <>
+   On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.
+  </>
+),
+Content: (
+  <>
+   "She was a Phantom of delight<br/>When first she gleamed upon my sight;<br/>A lovely Apparition sent<br/>To be a moment’s ornament;<br/><br/>–William Wordsworth<br/><br/>On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.<br/><br/>This is a global day celebrating the historical, cultural, and political achievements of women. The day was also observed in support of taking action against gender inequality around the world. We all know the world couldn’t run without women (we mean, just listen to Beyoncé).<br/><br/>So let us all take a moment to appreciate every woman in our life and thank them for their selfless love and support and remind them how lucky you are to have them in your life.
+  </>
+),
+  },
+  {
     id: "day-of-democracy",
     Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660846/nitsmun/International_20Day_20Of_20Democracy_ucd4ed.jpg",
     Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660846/nitsmun/International_20Day_20Of_20Democracy_ucd4ed.jpg",
@@ -1917,6 +1936,26 @@ export const apply = [
 
 export const mainbybharat = [
   {
+id:"operation dost",
+alt: "Episode 8 BY BHARAT Powered by NITSMUN",
+    title: "Episode 8 | BY BHARAT || NITSMUN",
+    top: "Operation Dost",
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
+    image:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
+    image1:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284476/nitsmun/byBharat/Slide_2_ah8sd3.webp",
+    image2:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284487/nitsmun/byBharat/Slide_3_xiuydl.webp",
+    image3:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284493/nitsmun/byBharat/Slide_4_gbbmbq.webp",
+    image4:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284506/nitsmun/byBharat/Slide_5_eaniho.webp",
+    image5: (
+      <>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284515/nitsmun/byBharat/Slide_6_pefzoj.webp"
+          alt=""
+        />
+      </>
+    ),
+  },
+  {
     id: "operation-ganga",
     img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609698/nitsmun/e7_1_awufx7.jpg",
     image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676609698/nitsmun/e7_1_awufx7.jpg",
@@ -2043,6 +2082,16 @@ export const mainbybharat = [
 ];
 
 export const Quirky = [
+  {
+    id:"ru vs de",
+    title0: "Episode 6 | QUIRKY COMBATS || NITSMUN",
+    alt: "Episode 6 QUIRKY COMBATS Powered by NITSMUN",
+    top: "Russia vs Germany",
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
+    image:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
+    image1:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283075/nitsmun/quirky/e6_2_mj9wge.webp",
+    image2:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283094/nitsmun/quirky/e6_3_uidsz1.webp"
+  },
   {
     id: "arg_vs_fr",
     img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676610113/nitsmun/e5_1_k2rckt.jpg",

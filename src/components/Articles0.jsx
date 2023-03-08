@@ -12,7 +12,7 @@ const Articles0 = () => {
       <div className="article-main-content">
         <div className="last-up">
           <h5>
-            Last Updated : 15<sup>th</sup> Sep, 2022
+            Last Updated : 8<sup>th</sup> March, 2023
           </h5>
         </div>
 

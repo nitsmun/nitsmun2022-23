@@ -44,7 +44,7 @@ const Articlehome2 = () => {
       <div className="hme-art" style={{ userSelect: "none" }}>
         <div className="hme1" ref={bybharatHolder}>
           <div className="bhrt-indi">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676609698/nitsmun/e7_1_awufx7.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -63,7 +63,7 @@ const Articlehome2 = () => {
           </div>
 
           <div className="bhrt-indi indi-op">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676609784/nitsmun/e7_2_osstm8.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284476/nitsmun/byBharat/Slide_2_ah8sd3.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -80,7 +80,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi indi-op">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676609961/nitsmun/e7_3_ndpt35.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284487/nitsmun/byBharat/Slide_3_xiuydl.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -97,7 +97,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi indi-op">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676609890/nitsmun/e7_4_ririeo.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284493/nitsmun/byBharat/Slide_4_gbbmbq.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -114,7 +114,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi indi-op">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676610000/nitsmun/e7_5_gcrpac.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284506/nitsmun/byBharat/Slide_5_eaniho.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -131,7 +131,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi indi-op">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676610058/nitsmun/e7_6_lcqij0.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678284515/nitsmun/byBharat/Slide_6_pefzoj.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipePrev}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -151,7 +151,7 @@ const Articlehome2 = () => {
 
         <div className="hme2" ref={quirkyHolder}>
           <div className="bhrt-indi">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_300,f_auto,fl_lossy/v1676610113/nitsmun/e5_1_k2rckt.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipebk}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -168,7 +168,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_550,f_auto,fl_lossy/v1676610187/nitsmun/e5_2_lxxzpg.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_900,f_auto,fl_lossy/v1678283075/nitsmun/quirky/e6_2_mj9wge.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipebk}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
@@ -185,7 +185,7 @@ const Articlehome2 = () => {
             </div>
           </div>
           <div className="bhrt-indi">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_500,f_auto,fl_lossy/v1676610243/nitsmun/e5_3_ltqndt.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283094/nitsmun/quirky/e6_3_uidsz1.webp" alt="" />
             <div className="btns btnn-hme1">
               <button className="prev btn-testimonial" onClick={swipebk}>
                 <AiOutlineArrowLeft className="btn-indi-hme" />
