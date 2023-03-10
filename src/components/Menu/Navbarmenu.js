@@ -102,10 +102,10 @@ const Navbarmenu = () => {
                   {" "}
                   <Link to="#">
                     {" "}
-                    Events <FiChevronDown  className="nav-upsidedown"/>{" "}
+                    Events <FiChevronDown className="nav-upsidedown" />{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
-                  <li>
+                    <li>
                       {" "}
                       <NavLink
                         onClick={toggleClass}
@@ -147,7 +147,6 @@ const Navbarmenu = () => {
                         Mock MUNs{" "}
                       </NavLink>{" "}
                     </li> */}
-
                   </ul>
                 </li>
 
@@ -182,16 +181,40 @@ const Navbarmenu = () => {
                     Segments{" "}
                   </NavLink>{" "}
                 </li>
-                <li className="menu-item ">
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/archive`}
-                  >
+
+                <li
+                  onClick={toggleSubmenu}
+                  className="menu-item sub__menus__arrows"
+                >
+                  {" "}
+                  <Link to="#">
                     {" "}
-                    Archive{" "}
-                  </NavLink>{" "}
+                    More <FiChevronDown className="nav-upsidedown" />{" "}
+                  </Link>
+                  <ul className={boxClassSubMenu.join(" ")}>
+                    <li className="menu-item ">
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/inpictures`}
+                      >
+                        {" "}
+                        Photo Gallery{" "}
+                      </NavLink>{" "}
+                    </li>
+                    <li className="menu-item ">
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/archive`}
+                      >
+                        {" "}
+                        Archive{" "}
+                      </NavLink>{" "}
+                    </li>
+                  </ul>
                 </li>
+
                 <li className="menu-item">
                   <NavLink
                     onClick={toggleClass}

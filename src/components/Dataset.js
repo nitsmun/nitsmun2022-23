@@ -2478,3 +2478,110 @@ export const reviewdata = [
     img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678050514/nitsmun/IMG_20230126_174537_-_EE_030_Arihant_Tiwari-min_xtuk8d.webp"
   }
 ]
+
+export const day1photos = [
+  {
+    id:1,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427124/nitsmun/annual%20conference%20photos/day1/day1_1_zzffyf.webp"
+  },
+  {
+    id:2,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427126/nitsmun/annual%20conference%20photos/day1/day1_2_pbtmvr.webp"
+  },
+  {
+    id:3,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427132/nitsmun/annual%20conference%20photos/day1/day1_3_zxedr9.webp"
+  },
+  {
+    id:4,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_4_rldldn.webp"
+  },
+  {
+    id:5,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427153/nitsmun/annual%20conference%20photos/day1/day1_5_rmqymk.webp"
+  },
+  {
+    id:6,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_6_kw4xbt.webp"
+  },
+  {
+    id:7,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427151/nitsmun/annual%20conference%20photos/day1/day1_7_qyq3ai.webp"
+  },
+  {
+    id:8,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_8_qxz39q.webp"
+  },
+  {
+    id:9,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_9_gwgc79.webp"
+  },
+];
+
+export const day2photos = [
+  {
+    id:1,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_1_qy009q.webp"
+  },
+  {
+    id:2,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_2_fvoek2.webp"
+  },{
+    id:3,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_3_qivptq.webp"
+  },{
+    id:4,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_4_ou46hb.webp"
+  },{
+    id:5,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_5_l9q6i2.webp"
+  },{
+    id:6,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_6_zgolus.webp"
+  },{
+    id:7,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_7_zo66sg.webp"
+  },{
+    id:8,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_8_hebief.webp"
+  },
+]
+
+export const day3photos = [
+  {
+    id:1,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_1_cmmezr.webp"
+  },
+  {
+    id:2,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_2_xkbjhh.webp"
+  },
+  {
+    id:3,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_3_naectc.webp"
+  },
+  {
+    id:4,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_4_f0l2gc.webp"
+  },
+  {
+    id:5,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_5_twi5ul.webp"
+  },
+  {
+    id:6,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_6_fk85mq.webp"
+  },
+  {
+    id:7,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_7_uenfq9.webp"
+  },
+  {
+    id:8,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_8_krpyuz.webp"
+  },
+  {
+    id:9,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427613/nitsmun/annual%20conference%20photos/day3/day3_9_kun5us.webp"
+  },
+]
