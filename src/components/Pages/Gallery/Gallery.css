@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 115vh;
     position: relative;
 }
 
@@ -13,9 +13,9 @@
 
 .gallertstrts{
     width: 80%;
-    margin: 0 0 0 auto;
+    margin: 0 auto;
     background-color: #121212;
-    margin-top: -10vh;
+    margin-top: -15vh;
     position: relative;
     z-index: 2;
     color: white;
@@ -24,6 +24,8 @@
 
 .gleryhead{
     width: 70%;
+    padding-top: 2.5vw;
+    margin: 0 auto;
 }
 
 .gallertstrts h1{
