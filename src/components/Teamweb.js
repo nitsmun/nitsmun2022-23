@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Teamweb.css";
 import { Secretariatwebjr } from "./Dataset";
 import { HiOutlineMail } from "react-icons/hi";
@@ -8,6 +8,35 @@ import { FaLinkedinIn } from "react-icons/fa";
 // import { ImGithub } from "react-icons/im";
 import Underline2 from "./Underline2";
 const Teamweb = () => {
+  const config = {
+    rootMargin: "0px 0px 0px 0px",
+    threshold: 0.2,
+  };
+  const [loaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    let observer = new window.IntersectionObserver(function (entries, self) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadImages(entry.target);
+          self.unobserve(entry.target);
+        }
+      });
+    }, config);
+    const imgs = document.querySelectorAll("[data-src]");
+    imgs.forEach((img) => {
+      observer.observe(img);
+    });
+    return () => {
+      imgs.forEach((img) => {
+        observer.unobserve(img);
+      });
+    };
+  }, []);
+
+  const loadImages = (image) => {
+    image.src = image.dataset.src;
+  };
   return (
     <>
       <div className="team-head5">
@@ -19,7 +48,13 @@ const Teamweb = () => {
             <div key={item.id} className="team-stats5">
               <div>
                 <center>
-                  <img className="team-img5" src={item.imgsrc} alt="" />
+                  <img
+                    className={`${loaded ? "loaded" : "loading"} team-img5`}
+                    onLoad={() => setIsLoaded(true)}
+                    src={""}
+                    data-src={item.imgsrc}
+                    alt=""
+                  />
                 </center>
               </div>
 

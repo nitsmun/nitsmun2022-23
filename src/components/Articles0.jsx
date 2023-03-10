@@ -1,12 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Articledata } from './Dataset';
 import Underline3 from './Underline/Underline3';
 import { Link } from 'react-router-dom';
 import './Pages/articles.css'
 const Articles0 = () => {
+  const config = {
+    rootMargin: "0px 0px 0px 0px",
+    threshold: 0.2,
+};
+const [loaded, setIsLoaded] = useState(false);
+
+useEffect(() => {
+    let observer = new window.IntersectionObserver(function (entries, self) {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                loadImages(entry.target);
+                self.unobserve(entry.target);
+            }
+        });
+    }, config);
+    const imgs = document.querySelectorAll("[data-src]");
+    imgs.forEach((img) => {
+        observer.observe(img);
+    });
+    return () => {
+        imgs.forEach((img) => {
+            observer.unobserve(img);
+        });
+    };
+}, []);
+
+const loadImages = (image) => {
+    image.src = image.dataset.src;
+};
   return (
     <>
-    <div className="articles-heading-cont">
+      <div className="articles-heading-cont">
         <h1>Articles</h1>
       </div>
       <div className="article-main-content">
@@ -25,7 +54,10 @@ const Articles0 = () => {
 
               <div className="article-flexing">
                 <div className="img-holder">
-                  <img src={item.Artimg} alt={item.Alt} />
+                  <img src={""} data-src={item.Artimg} alt={item.Alt}
+                    className={loaded ? "loaded" : "loading"}
+                    onLoad={() => setIsLoaded(true)}
+                  />
                 </div>
                 <div className="content-holder">
                   <div className="post-date">

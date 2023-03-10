@@ -16,6 +16,32 @@ import Loading from "./Loading";
 const Team = () => {
   TabTitle("NITSMUN Team | NITS MUN");
   const [isFetching, setIsFetching] = useState(true);
+  const [loaded, setIsLoaded] = useState(false);
+
+  const config = {
+    rootMargin: "0px 0px 0px 0px",
+    threshold: 0.2,
+  };
+
+  useEffect(() => {
+    let observer = new window.IntersectionObserver(function (entries, self) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadImages(entry.target);
+          self.unobserve(entry.target);
+        }
+      });
+    }, config);
+    const imgs = document.querySelectorAll("[data-src]");
+    imgs.forEach((img) => {
+      observer.observe(img);
+    });
+    return () => {
+      imgs.forEach((img) => {
+        observer.unobserve(img);
+      });
+    };
+  }, []);
 
   useEffect(() => {
     setTimeout(function () {
@@ -26,6 +52,10 @@ const Team = () => {
   if (isFetching) {
     return <Loading />;
   }
+
+  const loadImages = (image) => {
+    image.src = image.dataset.src;
+  };
 
   return (
     <>
@@ -45,8 +75,10 @@ const Team = () => {
               <div>
                 <center>
                   <img
-                    className="team-img"
-                    src={item.imgsrc}
+                    src={""}
+                    data-src={item.imgsrc}
+                    className={`${loaded ? "loaded" : "loading"} team-img`}
+                    onLoad={() => setIsLoaded(true)}
                     alt=""
                     onContextMenu="return flase;"
                   />
