@@ -2585,3 +2585,54 @@ export const day3photos = [
     img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427613/nitsmun/annual%20conference%20photos/day3/day3_9_kun5us.webp"
   },
 ]
+
+export const ThumbsCarousel = [
+  {
+    id:1,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608574/nitsmun/DIP_8467-compressed_judxet.jpg"
+  },
+  {
+    id:2,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608631/nitsmun/DIP_8541-compressed_p8vwws.jpg"
+  },
+  {
+    id:3,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608686/nitsmun/DIP_8466-min_uo9cb4.jpg"
+  },
+  {
+    id:4,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608741/nitsmun/DSC_0672-compressed_ykaeke.jpg"
+  },
+  {
+    id:5,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608838/nitsmun/DSC_0675-compressed_rgbn1x.jpg"
+  },
+  {
+    id:6,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608928/nitsmun/Carousel1_qehbvi.jpg"
+  },
+  {
+    id:7,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609083/nitsmun/Carousel2_kzhips.jpg"
+  },
+  {
+    id:8,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609120/nitsmun/Carousel3_dbzhad.jpg"
+  },
+  {
+    id:9,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609169/nitsmun/Carousel4_afpbs9.jpg"
+  },
+  {
+    id:10,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609310/nitsmun/Carousel5_lyifbs.jpg"
+  },
+  {
+    id:11,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609410/nitsmun/Carousel6_nslfwv.jpg"
+  },
+  {
+    id:12,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg"
+  }
+]

@@ -57,7 +57,7 @@ const Reviews = () => {
             slidesPerView="auto"
             loop
             coverflowEffect={{
-              rotate: 0,
+              rotate: 50,
               stretch: 0,
               depth: 500,
               modifier: 1,
