@@ -187,5 +187,9 @@
       padding-left: 0%;
       padding-right: 0%;
     }
+
+    #btndivholder {
+      color: var(--color-1-100) !important;
+    }
 }}
   

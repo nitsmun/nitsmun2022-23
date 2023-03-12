@@ -87,7 +87,7 @@ const Footer = () => {
               <img
                 className="foot-logo-name"
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475320/events/nitsmun/logo-name-nitsmun_knlrie.svg"
-                // alt="logo-name-nitsmun"
+                alt="nitsmun"
               />
             </a>
           </h1>
