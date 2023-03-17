@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Scrolldown from '../../ScollDown/Scrolldown';
 import Day1 from './Day1';
 import Day2 from './Day2';
 import Day3 from './Day3';
@@ -12,8 +13,12 @@ const Gallery = () => {
     return (
         <>
             <div className="gallery-main">
-                <div className="gallerytop"></div>
-                <div className="gallertstrts">
+                <div className="gallerytop">
+                    <div className="sdowncont">
+                        <a href="#picmain"><Scrolldown /></a>
+                    </div>
+                </div>
+                <div className="gallertstrts" id='picmain'>
                     <div className="gleryhead">
                         <h1>Annual Conference' 23 - in pictures</h1>
                     </div>

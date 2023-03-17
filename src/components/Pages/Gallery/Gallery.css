@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .gallerytop{
     background: url('https://res.cloudinary.com/dp92qug2f/image/upload/v1678428904/nitsmun/annual%20conference%20photos/day1/IMG_5270_qypxk2.webp');
     background-position: center;
@@ -5,6 +9,13 @@
     background-size: cover;
     height: 115vh;
     position: relative;
+    background-attachment: fixed;
+}
+
+.sdowncont{
+    position: absolute;
+    top: 70%;
+    left: 5%;
 }
 
 .gallery-main{
