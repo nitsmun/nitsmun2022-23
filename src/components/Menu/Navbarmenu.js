@@ -32,11 +32,24 @@ const Navbarmenu = () => {
   const toggleSubmenu = () => {
     setMenuSubMenu(isMenuSubMenu === false ? true : false);
   };
+
+  const [isMenuSubMenuMore, setMenuSubMenuMore] = useState(false);
+  const toggleSubmenuMore = () => {
+    setMenuSubMenuMore(isMenuSubMenuMore === false ? true : false);
+  };
+
   let boxClassSubMenu = ["sub__menus"];
   if (isMenuSubMenu) {
     boxClassSubMenu.push("sub__menus__Active");
   } else {
     boxClassSubMenu.push("");
+  }
+
+  let boxClassSubMenuMore = ["sub__menus"];
+  if (isMenuSubMenuMore) {
+    boxClassSubMenuMore.push("sub__menus__Active");
+  } else {
+    boxClassSubMenuMore.push("");
   }
   return (
     <header className="header__middle">
@@ -183,15 +196,16 @@ const Navbarmenu = () => {
                 </li>
 
                 <li
-                  onClick={toggleSubmenu}
+                  onClick={toggleSubmenuMore}
                   className="menu-item sub__menus__arrows"
+                  id="menu-more-item"
                 >
                   {" "}
                   <Link to="#">
                     {" "}
-                    More <FiChevronDown className="nav-upsidedown" />{" "}
+                    More <FiChevronDown className="nav-upsidedown2" />{" "}
                   </Link>
-                  <ul className={boxClassSubMenu.join(" ")}>
+                  <ul className={boxClassSubMenuMore.join(" ")}>
                     <li className="menu-item ">
                       <NavLink
                         onClick={toggleClass}

@@ -216,6 +216,14 @@ li {
   transform: rotate(270deg);
 }
 
+.nav-upsidedown2{
+  transition: all 0.2s ease-in;
+}
+
+#menu-more-item:hover .nav-upsidedown2{
+  transform: rotate(-180deg) !important;
+}
+
 @media only screen and (max-width:1300px) and (min-width:991px){
   .menu-item a{
     font-size: 1.45vw;
