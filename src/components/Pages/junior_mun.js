@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./juniormun.css";
 import { TabTitle } from "../Utils/Genfn";
 import Underline2 from "../Underline";
@@ -10,10 +10,24 @@ import Faqs from "../Faq";
 import Executive from "../Executive";
 // import Loading from "../Loading";
 // import SLides from "../../Threedcarausel";
+import { jrmunallphotos } from "../Dataset";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Juniormun = () => {
   // const [active, setActive] = useState("Executive Board");
   TabTitle("NITS Junior MUN | NITSMUN");
+
+  const [indexjr, setIndexjr] = useState(0);
+
+  function handleNextClickjrmun() {
+    setIndexjr(indexjr + 1);
+  }
+
+  function handlePrevClickjrmun() {
+    setIndexjr(indexjr - 1);
+  }
+
+  let jrmunallphotosimg = jrmunallphotos[indexjr];
   // const [isFetching, setIsFetching] = useState(true);
 
   // useEffect(() => {
@@ -34,8 +48,8 @@ const Juniormun = () => {
         />
       </div>
       <div className="event-title">
-          {/* <h1>NITS JUNIOR MUN 2022</h1> */}
-          <h1>Nits Junior Mun 2022</h1>
+        {/* <h1>NITS JUNIOR MUN 2022</h1> */}
+        <h1>Nits Junior Mun 2022</h1>
       </div>
       <div className="event-details">
         Model United Nations (MUN) is an educational simulation in which
@@ -118,7 +132,7 @@ const Juniormun = () => {
       <br />
       <div className="container-junmun2021">
         <div className="images-junmun21">
-        <img
+          <img
             src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612934/nitsmun/DSC_0689-compressed_v6cyij.jpg"
             alt="Junior MUN 2022"
           />
@@ -126,7 +140,6 @@ const Juniormun = () => {
             src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676612978/nitsmun/DSC_0648-compressed_dnkbug.jpg"
             alt="Junior MUN 2022"
           />
-         
         </div>
         <div className="images-junmun21">
           <img
@@ -152,7 +165,35 @@ const Juniormun = () => {
             alt="Junior MUN 2022"
           />
         </div>
-        {/* <SLides/> */}
+      </div>
+      <div className="junmun2021" id="junmunallphto__opil">
+        <h1>Reminiscence Of Junior Mun 2021</h1>
+      </div>{" "}
+      <Underline2 />
+      <br />
+      <div className="hjhdfkw" id="jrmunallphotos">
+        <div className="memory-nits22">
+          <img src={jrmunallphotosimg.img} alt={jrmunallphotosimg.alt} />
+        </div>
+
+        <h2 className="uioips">
+          ({indexjr + 1} of {jrmunallphotos.length})
+        </h2>
+
+        <div className="btns btnn-hme1">
+          <button
+            className="prev btn-testimonial"
+            onClick={handlePrevClickjrmun}
+          >
+            <AiOutlineArrowLeft className="btn-indi-hme" />
+          </button>
+          <button
+            className="next btn-testimonial"
+            onClick={handleNextClickjrmun}
+          >
+            <AiOutlineArrowRight className="btn-indi-hme" />
+          </button>
+        </div>
       </div>
     </>
   );

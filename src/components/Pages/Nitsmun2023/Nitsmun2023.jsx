@@ -144,7 +144,7 @@ const Nitsmun2023 = () => {
 
                                             <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18ZB25fhOAep4f5NpVYXCjxQUk20tz-XM/view" target="_blank"
-                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
+                                                    rel="norefferer noreferrer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@ const Nitsmun2023 = () => {
 
                                             <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18YiEVr6Fi_dNojic6PI5xCVlCqM_FZUI/view" target="_blank"
-                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
+                                                    rel="norefferer noreferrer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -258,7 +258,7 @@ const Nitsmun2023 = () => {
 
                                             <div className="rgster-nts23 notext-through">
                                                 <a href="https://drive.google.com/file/d/18ZrzKC_muswMzHVKcPgl2-5bkEPU0_pi/view" target="_blank"
-                                                    rel="norefferer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
+                                                    rel="norefferer noreferrer"> <button style={{ cursor: 'pointer' }}>Background guide</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -276,7 +276,7 @@ const Nitsmun2023 = () => {
                                 <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_400,f_auto,fl_lossy/v1676611569/nitsmun/330227125_670235491522051_2562815507401589953_n.jpg_hsh5fz.jpg" alt="" />
                             </div>
                             <div className="comt-txt-imp">
-                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration: "underline", color: "black" }}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
+                                <h2>Calling all shutterbugs! <span style={{ fontWeight: '900', fontFamily: "Nunito" }}>NITSMUN</span>, joining hands with <a href="https://www.instagram.com/obiettivo_official/" target="_blank" rel="norefferer noreferrer"><span style={{ fontWeight: '900', fontFamily: "Nunito", textDecoration: "underline", color: "black" }}>OBIETTIVO</span></a> is on the lookout of photographers to join us at the upcoming Annual Conference and capture the essence of the event through your lenses!</h2>
                             </div>
 
                             <div className="rgster-nts23-rd-mr">

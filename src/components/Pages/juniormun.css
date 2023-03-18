@@ -234,6 +234,15 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+#jrmunallphotos{
+  margin-top: 5vw;
+}
+
+#junmunallphto__opil{
+  margin-top: 7vw;
+}
+
 @media screen and (max-width: 600px) {
   .images-junmun21 img {
     margin: 10px auto;
@@ -379,6 +388,11 @@ padding-right: 1rem;
 .active .btn:hover{
   padding-left: 0.1rem;
   padding-right: 0.1rem;
+}
+
+#jrmunallphotos{
+  margin-top: 0;
+  transform:translateY(0vw) !important;
 }
 }
 
@@ -630,6 +644,10 @@ padding-right: 1rem;
 
   .juv{
     margin-top: 8vh;
+  }
+
+  #junmunallphto__opil{
+    margin-top: 14vw;
   }
 }
 

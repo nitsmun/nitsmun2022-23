@@ -1752,17 +1752,17 @@ export const FaqData = [
 export const mockData = [
   {
     id: 1,
-    mockimage: "./Images/Mock mun 2.jpeg",
+    mockimage: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679133843/nitsmun/mock%40juniormun2022/Mock_mun_2_mhiuby.webp",
     mockalt: "Mock MUN",
   },
   {
     id: 2,
-    mockimage: "./Images/Mock mun 1.jpeg",
+    mockimage: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679133843/nitsmun/mock%40juniormun2022/Mock_mun_1_bxcpsd.webp",
     mockalt: "Mock MUN",
   },
   {
     id: 3,
-    mockimage: "./Images/Mock mun 3.jpeg",
+    mockimage: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679133845/nitsmun/mock%40juniormun2022/Mock_mun_3_mqcf5n.webp",
     mockalt: "Mock MUN",
   },
   {
@@ -2283,35 +2283,66 @@ export const Faq23Data = [
 export const nitsmun2k22 = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611652/nitsmun/330802983_1705049746581048_7682172051951783453_n.jpg_vg5xaw.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130346/nitsmun/annual%20conference%20photos/nitsmun2022/2022_1_oz0nxt.webp",
     alt: "NITSMUN 2022",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611690/nitsmun/330987627_733600964997691_5402974493168395686_n.jpg_cgwpdx.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130341/nitsmun/annual%20conference%20photos/nitsmun2022/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu_etkqku.webp",
     alt: "NITSMUN 2022",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611730/nitsmun/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130335/nitsmun/annual%20conference%20photos/nitsmun2022/331000879_936456224013436_5338280222870882044_n.jpg_pu1sj3_soadgq.webp",
     alt: "NITSMUN 2022",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611760/nitsmun/330914341_762324721890702_7352255628350190550_n.jpg_azxavp.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130329/nitsmun/annual%20conference%20photos/nitsmun2022/330914341_762324721890702_7352255628350190550_n.jpg_azxavp_feecsw.webp",
     alt: "NITSMUN 2022",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611870/nitsmun/Zoom-Meeting-UNEP-12-03-2022-15_49_40-min00000_gyyydu.png",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130327/nitsmun/annual%20conference%20photos/nitsmun2022/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk_mpgkhm.webp",
     alt: "NITSMUN 2022",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676611795/nitsmun/330123622_1258857281654852_6420257772004656386_n.jpg_elpbtk.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679130326/nitsmun/annual%20conference%20photos/nitsmun2022/2022_2_euc3u5.webp",
     alt: "NITSMUN 2022",
   },
 ];
+
+export const jrmunallphotos = [
+  {
+    id:1,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132650/nitsmun/juniormun2021/jmun_ss1_ksrumw.webp",
+  },
+  {
+    id:2,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132652/nitsmun/juniormun2021/jmun_ss2_izcmqr.webp",
+  },
+  {
+    id:3,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132655/nitsmun/juniormun2021/jmun_ss3_jrhoc0.webp",
+  },
+  {
+    id:4,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132658/nitsmun/juniormun2021/jmun_ss4_i6ph8q.webp",
+  },
+  {
+    id:5,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132662/nitsmun/juniormun2021/jmun_ss5_wp21km.webp",
+  },
+  {
+    id:6,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132667/nitsmun/juniormun2021/jmun_ss6_ka2xo6.webp",
+  },
+  {
+    id:7,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132672/nitsmun/juniormun2021/jmun_ss7_gcuxwq.webp",
+  },
+]
 
 export const ebb23 = [
   {
@@ -2634,5 +2665,21 @@ export const ThumbsCarousel = [
   {
     id:12,
     img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg"
+  },
+  {
+    id:13,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679133535/nitsmun/annualConf_epxn83.webp"
+  },
+  {
+    id:14,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134108/nitsmun/28_d8qs31_bqbwgy_f24iet.webp",
+  },
+  {
+    id:15,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134113/nitsmun/30_pmgjbz_l5vmk6_bof19a.webp"
+  },
+  {
+    id:16,
+    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134390/nitsmun/IMG_0088_afo0lj_mvboda_wvjnwu.webp"
   }
 ]
