@@ -190,7 +190,7 @@ const Articlehome2 = () => {
           </div>
           <div className="bhrt-indi">
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_900,f_auto,fl_lossy/v1678283075/nitsmun/quirky/e6_2_mj9wge.webp"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1679136611/nitsmun/e6_2_mj9wge_ervl2j.webp"
               alt=""
             />
             <div className="btns btnn-hme1">
@@ -210,7 +210,7 @@ const Articlehome2 = () => {
           </div>
           <div className="bhrt-indi">
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283094/nitsmun/quirky/e6_3_uidsz1.webp"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1679136484/nitsmun/e6_3_uidsz1_oz4bp6.webp"
               alt=""
             />
             <div className="btns btnn-hme1">

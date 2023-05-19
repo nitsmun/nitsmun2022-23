@@ -158,6 +158,8 @@ color: white;
 
 .tnew-gif{
   pointer-events: none;
+  height: auto;
+  width: auto;
 }
 
 .annual-2023-poster{

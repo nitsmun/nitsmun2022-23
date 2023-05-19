@@ -1936,6 +1936,66 @@ export const apply = [
 
 export const mainbybharat = [
   {
+    id:"International solar alliance",
+    alt: "Episode 11 BY BHARAT Powered by NITSMUN",
+        title: "Episode 11 | BY BHARAT || NITSMUN",
+        top: "International Solar Alliance",
+        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
+        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
+        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_2_nr3ywo.webp",
+        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_3_pmyfg4.webp",
+        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_4_rsovap.webp",
+        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_5_cq6cyi.webp",
+        image5: (
+          <>
+            <img
+              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_6_kb2o92.webp"
+              alt=""
+            />
+          </>
+        ),
+      },
+  {
+    id:"India in space",
+    alt: "Episode 10 BY BHARAT Powered by NITSMUN",
+        title: "Episode 10 | BY BHARAT || NITSMUN",
+        top: "India in Space",
+        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
+        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
+        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_2_dk5owc.webp",
+        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_3_dh1kyi.webp",
+        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_4_izdxeh.webp",
+        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_5_zvfk0v.webp",
+        image5: (
+          <>
+            <img
+              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_6_nqd3re.webp"
+              alt=""
+            />
+          </>
+        ),
+      },
+  {
+    id:"Act east policy",
+    alt: "Episode 9 BY BHARAT Powered by NITSMUN",
+        title: "Episode 9 | BY BHARAT || NITSMUN",
+        top: "Act East Policy",
+        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
+        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
+        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_2_ftuacx.webp",
+        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_3_z9inmf.webp",
+        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504496/NITSMUN%202022-23%20website/by%20bharat/e9/e9_4_dlkoht.webp",
+        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_5_emdvr4.webp",
+        image5: (
+          <>
+            <img
+              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_6_oqr4i7.webp"
+              alt=""
+            />
+          </>
+        ),
+      },
+  {
 id:"operation dost",
 alt: "Episode 8 BY BHARAT Powered by NITSMUN",
     title: "Episode 8 | BY BHARAT || NITSMUN",
@@ -2082,6 +2142,26 @@ alt: "Episode 8 BY BHARAT Powered by NITSMUN",
 ];
 
 export const Quirky = [
+  {
+    id:"cr vs jp",
+    title0: "Episode 8 | QUIRKY COMBATS || NITSMUN",
+    alt: "Episode 8 QUIRKY COMBATS Powered by NITSMUN",
+    top: "Costa Rica vs Japan",
+    img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
+    image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
+    image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_2_kkwi5j.webp",
+    image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_3_ofojxi.webp"
+  },
+  {
+    id:"uk vs sa",
+    title0: "Episode 7 | QUIRKY COMBATS || NITSMUN",
+    alt: "Episode 7 QUIRKY COMBATS Powered by NITSMUN",
+    top: "United Kingdom vs Saudi Arabia",
+    img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
+    image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
+    image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_2_hbgbsd.webp",
+    image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504638/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_3_qj1muh.webp"
+  },
   {
     id:"ru vs de",
     title0: "Episode 6 | QUIRKY COMBATS || NITSMUN",
