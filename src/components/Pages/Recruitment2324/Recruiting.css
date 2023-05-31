@@ -1,5 +1,37 @@
 .recruitingmain{
-    padding-top: 20vw;
+    padding-top: 10vw;
  font-family: "nunito", sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
+}
+
+.plaoiods{
+    display: block;
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    margin: 2vw auto;
+    border: 2px solid grey;
+    padding: .5vw 1vw;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+
+.djdkjsiur{
+    display: block;
+    background-color: var( --color-1-100);
+    font-family: 'Lato', sans-serif;
+    padding: .65vw 2.5vw;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sasjkwe{
+    display: flex;
+    flex-direction: column;
+}
+
+.sasjkwe label{
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
 }

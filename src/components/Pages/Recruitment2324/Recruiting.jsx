@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import moment from "moment-timezone";
-import { Link } from 'react-router-dom';
 import './Recruiting.css'
 import Ip from './Ip';
 const Recruiting = () => {
     const [name, setName] = useState("");
     const [mobileno, setMobileno] = useState("")
+    const [wpno, setWpno] = useState("")
     const [whynitsmun, setWhynitsmun] = useState("");
+    const [whyrecruit, setWhyrecruit] = useState("")
+    const [experience, setExperience] = useState("")
+    const [achievement, setAchievement] = useState("")
+    const [hobby, setHobby] = useState("")
+    const [content, setContent] = useState("")
     const [branch, setBranch] = useState("");
+    const [team, setTeam] = useState("")
+    const [partinmun, setPartinmun] = useState("")
+    const [yesmun, setYesmun] = useState("")
     const [email, setEmail] = useState("");
     const [scholarId, setScholarId] = useState("");
     const [submitting, setSubmitting] = useState(false);
@@ -23,7 +31,7 @@ const Recruiting = () => {
     const [otpgoing, setOtpgoing] = useState(false)
     const [verifyotp, setVerifyotp] = useState(false)
     const [poster, setPoster] = useState("")
-    const [resume, setResume] = useState("")
+    // const [resume, setResume] = useState("")
 
     useEffect(() => {
         generateCaptchaNumbers();
@@ -44,8 +52,8 @@ const Recruiting = () => {
             whynitsmun !== "" &&
             mobileno !== "" &&
             branch !== "" &&
-            scholarId !== "" && resume !== ""
-            // poster !== ""
+            scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== ""
+
         );
     };
 
@@ -129,7 +137,7 @@ const Recruiting = () => {
         try {
             setEmailVerification(true); // Display "Verifying email" message
             // const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKEMAIL_RAILWAY, {
-            const response = await axios.post("http://localhost:3000/check-email", {
+            const response = await axios.post("http://localhost:3005/check-email", {
                 email: email
             });
             setEmailVerification(false);
@@ -147,7 +155,7 @@ const Recruiting = () => {
         try {
             setScholarIdVerification(true);
             // const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKSCHOLARID_RAILWAY, {
-            const response = await axios.post("http://localhost:3000/check-scholarid", {
+            const response = await axios.post("http://localhost:3005/check-scholarid", {
                 scholarId: scholarId
             });
             setScholarIdVerification(false);
@@ -165,7 +173,7 @@ const Recruiting = () => {
         try {
             setVerifyotp(true)
             // const response = await axios.post(process.env.REACT_APP_VERIFYOTP_RAILWAY, {
-            const response = await axios.post("http://localhost:3000/verify-otp", {
+            const response = await axios.post("http://localhost:3005/verify-otp", {
                 otp,
             });
 
@@ -208,7 +216,7 @@ const Recruiting = () => {
         axios
 
             // .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-            .post('http://localhost:3000/createUser', {
+            .post('http://localhost:3005/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -217,7 +225,7 @@ const Recruiting = () => {
                 scholarId,
                 timestamp,
                 poster,
-                resume
+                wpno, whyrecruit, experience, achievement, hobby, content, team, partinmun, yesmun
             })
             .then((response) => {
                 setName("");
@@ -226,13 +234,22 @@ const Recruiting = () => {
                 setEmail("");
                 setBranch("");
                 setScholarId("");
-                setResume("")
+                // setResume("")
                 setCaptchaAnswer("");
                 generateRandomNumbers()
                 setOtp("")
                 setPoster("")
+                setWpno("")
+                setWhyrecruit("")
+                setExperience("")
+                setAchievement("")
+                setHobby("")
+                setContent("")
+                setTeam("")
+                setPartinmun("")
+                setYesmun("")
                 setSubmitting(false);
-                alert("User created 😍");
+                alert("Form Successfully submitted.");
             });
     };
 
@@ -264,13 +281,13 @@ const Recruiting = () => {
             setOtpgoing(true); // Display "Sending OTP" message
             const response = await axios.post(
                 // process.env.REACT_APP_OTPSEND_RAILWAY,
-                "http://localhost:3000/send-otp",
+                "http://localhost:3005/send-otp",
                 {
                     email,
                 }
             );
             if (response.status === 200) {
-                alert('OTP sent successfully!');
+                alert('OTP sent successfully! Please check your inbox and SPAM folder also.');
                 setOtpSent(true);
             }
         } catch (error) {
@@ -285,75 +302,38 @@ const Recruiting = () => {
         <div className='recruitingmain'>
             <input
                 type="text"
-                placeholder="name..."
+                placeholder="Name*"
+                className='plaoiods'
                 value={name}
                 onChange={(event) => {
                     setName(event.target.value);
                 }}
             />
-            <input
-                type="text"
-                placeholder="your mobile number"
-                value={mobileno}
-                onChange={(event) => {
-                    setMobileno(event.target.value);
-                }}
-            />
-            <input
-                type="text"
-                placeholder="Why do you want to be a part of NITSMUN?"
-                value={whynitsmun}
-                onChange={(event) => {
-                    setWhynitsmun(event.target.value);
-                }}
-            />
 
             <input
-                type="email"
-                placeholder="your institute email"
-                value={email}
-                onChange={(event) => {
-                    setEmail(event.target.value);
-                }}
-            />
-            <div>
-                <input
-                    type="text"
-                    placeholder="Enter OTP"
-                    value={otp}
-                    onChange={(event) => {
-                        setOtp(event.target.value);
-                    }}
-                />
-                <button onClick={sendOTP}>Send OTP to institute email.</button>
-            </div>
-            <input
                 type="text"
-                placeholder="your scholar id"
+                placeholder="Scholar ID*"
                 value={scholarId}
+                className='plaoiods'
                 onChange={(event) => {
                     setScholarId(event.target.value);
                 }}
             />
 
-            <input
-                type="text"
-                placeholder="Your resume"
-                value={resume}
-                onChange={(event) => {
-                    setResume(event.target.value);
-                }}
-            />
-
-            <p>If you're applying for deisgn team then provide links of best 3 posters</p>
-            <input type="text" placeholder='poster links only for candidate applying for design team'
-                value={poster}
-                onChange={(event) => {
-                    setPoster(event.target.value);
-                }}
-            />
-
-            <div>
+Branch*
+            <div className='sasjkwe'>
+                <label >
+                    <input
+                        type="radio"
+                        name="branch"
+                        value="CE"
+                        checked={branch === "CE"}
+                        onChange={(event) => {
+                            setBranch(event.target.value);
+                        }}
+                    />
+                    CE
+                </label>
                 <label>
                     <input
                         type="radio"
@@ -365,18 +345,6 @@ const Recruiting = () => {
                         }}
                     />
                     CSE
-                </label>
-                <label>
-                    <input
-                        type="radio"
-                        name="branch"
-                        value="Civil"
-                        checked={branch === "Civil"}
-                        onChange={(event) => {
-                            setBranch(event.target.value);
-                        }}
-                    />
-                    Civil
                 </label>
                 <label>
                     <input
@@ -427,7 +395,225 @@ const Recruiting = () => {
                     EI
                 </label>
             </div>
-           
+
+            <input
+                type="email"
+                placeholder="Institute email*"
+                value={email}
+                className='plaoiods'
+                onChange={(event) => {
+                    setEmail(event.target.value);
+                }}
+            />
+
+            <button onClick={sendOTP} className='djdkjsiur'>Send OTP to institute email.</button>
+            {otpgoing && <p>Sending otp. It might take 10 seconds so please be patient...</p>}
+            <div>
+                <input
+                    type="text"
+                    placeholder="Enter OTP"
+                    value={otp}
+                    className='plaoiods'
+                    onChange={(event) => {
+                        setOtp(event.target.value);
+                    }}
+                />
+            </div>
+
+            <input
+                type="text"
+                placeholder="Contact number*"
+                value={mobileno}
+                className='plaoiods'
+                onChange={(event) => {
+                    setMobileno(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Whatsapp number*"
+                value={wpno}
+                className='plaoiods'
+                onChange={(event) => {
+                    setWpno(event.target.value);
+                }}
+            />
+
+
+            Team applying for*?
+            <div className='sasjkwe'>
+                <label >
+                    <input
+                        type="radio"
+                        name="team"
+                        value="Research & Development Team"
+                        checked={team === "Research & Development Team"}
+                        onChange={(event) => {
+                            setTeam(event.target.value);
+                        }}
+                    />
+                    Research & Development Team
+                </label>
+
+                <label >
+                    <input
+                        type="radio"
+                        name="team"
+                        value="Public Relations & Outreach Team"
+                        checked={team === "Public Relations & Outreach Team"}
+                        onChange={(event) => {
+                            setTeam(event.target.value);
+                        }}
+                    />
+                    Public Relations & Outreach Team
+                </label>
+
+                <label >
+                    <input
+                        type="radio"
+                        name="team"
+                        value="Media & Design Team"
+                        checked={team === "Media & Design Team"}
+                        onChange={(event) => {
+                            setTeam(event.target.value);
+                        }}
+                    />
+                    Media & Design Team
+                </label>
+
+                <label >
+                    <input
+                        type="radio"
+                        name="team"
+                        value="Technical Team"
+                        checked={team === "Technical Team"}
+                        onChange={(event) => {
+                            setTeam(event.target.value);
+                        }}
+                    />
+                    Technical Team
+                </label>
+            </div>
+
+            <br />
+            Have you ever participated in an MUN conference* ?
+            <div className='sasjkwe'>
+                <label >
+                    <input
+                        type="radio"
+                        name="partinmun"
+                        value="Yes"
+                        checked={partinmun === "Yes"}
+                        onChange={(event) => {
+                            setPartinmun(event.target.value);
+                        }}
+                    />
+                    Yes
+                </label>
+
+                <label >
+                    <input
+                        type="radio"
+                        name="partinmun"
+                        value="No"
+                        checked={partinmun === "No"}
+                        onChange={(event) => {
+                            setPartinmun(event.target.value);
+                        }}
+                    />
+                    No
+                </label>
+            </div>
+
+            <input
+                type="text"
+                placeholder="If yes, which conference and share your experience?"
+                value={yesmun}
+                className='plaoiods'
+                onChange={(event) => {
+                    setYesmun(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Why do you want to be a part of NITSMUN?*"
+                value={whynitsmun}
+                className='plaoiods'
+                onChange={(event) => {
+                    setWhynitsmun(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Why should we recruit you?*"
+                value={whyrecruit}
+                className='plaoiods'
+                onChange={(event) => {
+                    setWhyrecruit(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Mention your experience supporting your desired team (club, fests, events, etc)*"
+                value={experience}
+                className='plaoiods'
+                onChange={(event) => {
+                    setExperience(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Mention your achievements supporting the desired team (if any)"
+                value={achievement}
+                className='plaoiods'
+                onChange={(event) => {
+                    setAchievement(event.target.value);
+                }}
+            />
+
+            <input
+                type="text"
+                placeholder="Mention your hobbies/interests*"
+                value={hobby}
+                className='plaoiods'
+                onChange={(event) => {
+                    setHobby(event.target.value);
+                }}
+            />
+
+            {/* <input
+                type="text"
+                placeholder="Your resume"
+                className='plaoiods'
+                value={resume}
+                onChange={(event) => {
+                    setResume(event.target.value);
+                }}
+            /> */}
+
+            If you're applying for deisgn team then provide links of best 3 posters:
+            <input type="text" placeholder='If you are applying for the design team, upload sample designs (canva or gdrive link)'
+                value={poster}
+                className='plaoiods'
+                onChange={(event) => {
+                    setPoster(event.target.value);
+                }}
+            />
+
+             If you are applying for the Research & Development Team, upload any content written by you:
+            <input type="text" placeholder=' If you are applying for the content team, upload any content written by you (in .pdf or .docx format)'
+                value={content}
+                className='plaoiods'
+                onChange={(event) => {
+                    setContent(event.target.value);
+                }}
+            />
+
             <h2>Prove you're not an robot.</h2>
             <span>{firstNumber} + {secondNumber} = </span>
             <span>   <input
@@ -435,30 +621,31 @@ const Recruiting = () => {
                 required
                 placeholder="Enter the answer"
                 value={captchaAnswer}
+                className='plaoiods'
                 onChange={(event) => {
                     setCaptchaAnswer(event.target.value);
                 }}
             /></span>
 
             <br />
-            <button onClick={createUser}>
+            <button onClick={createUser} className='djdkjsiur'>
                 {submitting ? "Submitting..." : "Submit"}{" "}
             </button>
 
 
-            <Link to="/">Home</Link>
+        
             {emailVerification && <p>Verifying email...</p>}
             {scholarIdVerification && <p>Verifying Scholar Id...</p>}
-            {otpgoing && <p>Sending otp...</p>}
+         
             {verifyotp && <p>Verifying otp...</p>}
 
-            <br/><br/><br/><br/>
+            <br /><br /><br /><br />
             <div className="p2 mnjkl">
-            Current user :{" "}
-            <div className="ipdtls">
-              <Ip />
-            </div>{" "}
-          </div>
+                Current user :{" "}
+                <div className="ipdtls">
+                    <Ip />
+                </div>{" "}
+            </div>
         </div>
     )
 }
