@@ -136,8 +136,8 @@ const Recruiting = () => {
         // Check if the email is unique on the server i.e user already registered or not
         try {
             setEmailVerification(true); // Display "Verifying email" message
-            // const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKEMAIL_RAILWAY, {
-            const response = await axios.post("http://localhost:3005/check-email", {
+            const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKEMAIL_RAILWAY, {
+            // const response = await axios.post("http://localhost:3005/check-email", {
                 email: email
             });
             setEmailVerification(false);
@@ -154,8 +154,8 @@ const Recruiting = () => {
         // check if scholar id is unique i.e user already registered or not
         try {
             setScholarIdVerification(true);
-            // const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKSCHOLARID_RAILWAY, {
-            const response = await axios.post("http://localhost:3005/check-scholarid", {
+            const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKSCHOLARID_RAILWAY, {
+            // const response = await axios.post("http://localhost:3005/check-scholarid", {
                 scholarId: scholarId
             });
             setScholarIdVerification(false);
@@ -172,8 +172,8 @@ const Recruiting = () => {
         //verifying otp if correct or not
         try {
             setVerifyotp(true)
-            // const response = await axios.post(process.env.REACT_APP_VERIFYOTP_RAILWAY, {
-            const response = await axios.post("http://localhost:3005/verify-otp", {
+            const response = await axios.post(process.env.REACT_APP_VERIFYOTP_RAILWAY, {
+            // const response = await axios.post("http://localhost:3005/verify-otp", {
                 otp,
             });
 
@@ -215,8 +215,8 @@ const Recruiting = () => {
         setSubmitting(true);
         axios
 
-            // .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-            .post('http://localhost:3005/createUser', {
+            .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
+            // .post('http://localhost:3005/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -280,8 +280,8 @@ const Recruiting = () => {
         try {
             setOtpgoing(true); // Display "Sending OTP" message
             const response = await axios.post(
-                // process.env.REACT_APP_OTPSEND_RAILWAY,
-                "http://localhost:3005/send-otp",
+                process.env.REACT_APP_OTPSEND_RAILWAY,
+                // "http://localhost:3005/send-otp",
                 {
                     email,
                 }
