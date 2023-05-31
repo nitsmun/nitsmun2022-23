@@ -137,7 +137,7 @@ const Recruiting = () => {
         try {
             setEmailVerification(true); // Display "Verifying email" message
             const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKEMAIL_RAILWAY, {
-            // const response = await axios.post("http://localhost:3005/check-email", {
+                // const response = await axios.post("http://localhost:3005/check-email", {
                 email: email
             });
             setEmailVerification(false);
@@ -155,7 +155,7 @@ const Recruiting = () => {
         try {
             setScholarIdVerification(true);
             const response = await axios.post(process.env.REACT_APP_AXIOSPOST_CHECKSCHOLARID_RAILWAY, {
-            // const response = await axios.post("http://localhost:3005/check-scholarid", {
+                // const response = await axios.post("http://localhost:3005/check-scholarid", {
                 scholarId: scholarId
             });
             setScholarIdVerification(false);
@@ -173,7 +173,7 @@ const Recruiting = () => {
         try {
             setVerifyotp(true)
             const response = await axios.post(process.env.REACT_APP_VERIFYOTP_RAILWAY, {
-            // const response = await axios.post("http://localhost:3005/verify-otp", {
+                // const response = await axios.post("http://localhost:3005/verify-otp", {
                 otp,
             });
 
@@ -216,7 +216,7 @@ const Recruiting = () => {
         axios
 
             .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-            // .post('http://localhost:3005/createUser', {
+                // .post('http://localhost:3005/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -320,7 +320,7 @@ const Recruiting = () => {
                 }}
             />
 
-Branch*
+            Branch*
             <div className='sasjkwe'>
                 <label >
                     <input
@@ -406,7 +406,7 @@ Branch*
                 }}
             />
 
-            <button onClick={sendOTP} className='djdkjsiur'>Send OTP to institute email.</button>
+            <button onClick={sendOTP} className='djdkjsiur'>Send OTP to institute email</button>
             {otpgoing && <p>Sending otp. It might take 10 seconds so please be patient...</p>}
             <div>
                 <input
@@ -526,7 +526,7 @@ Branch*
                 </label>
             </div>
 
-            <input
+            {/* <input
                 type="text"
                 placeholder="If yes, which conference and share your experience?"
                 value={yesmun}
@@ -534,57 +534,52 @@ Branch*
                 onChange={(event) => {
                     setYesmun(event.target.value);
                 }}
-            />
+            /> */}
 
-            <input
-                type="text"
-                placeholder="Why do you want to be a part of NITSMUN?*"
+            <textarea typeof='text' placeholder="If yes, which conference and share your experience?"
+                value={yesmun}
+                className='plaoiods'
+                onChange={(event) => {
+                    setYesmun(event.target.value);
+                }}>
+            </textarea>
+
+            <textarea typeof='text' placeholder="Why do you want to be a part of NITSMUN?*"
                 value={whynitsmun}
                 className='plaoiods'
                 onChange={(event) => {
                     setWhynitsmun(event.target.value);
-                }}
-            />
+                }}></textarea>
 
-            <input
-                type="text"
-                placeholder="Why should we recruit you?*"
+            <textarea typeof='text' placeholder="Why should we recruit you?*"
                 value={whyrecruit}
                 className='plaoiods'
                 onChange={(event) => {
                     setWhyrecruit(event.target.value);
-                }}
-            />
+                }}></textarea>
 
-            <input
-                type="text"
-                placeholder="Mention your experience supporting your desired team (club, fests, events, etc)*"
+            <textarea typeof='text' placeholder="Mention your experience supporting your desired team (club, fests, events, etc)*"
                 value={experience}
                 className='plaoiods'
                 onChange={(event) => {
                     setExperience(event.target.value);
-                }}
-            />
+                }}></textarea>
 
-            <input
-                type="text"
-                placeholder="Mention your achievements supporting the desired team (if any)"
+            <textarea typeof='text' placeholder="Mention your achievements supporting the desired team (if any)"
                 value={achievement}
                 className='plaoiods'
                 onChange={(event) => {
                     setAchievement(event.target.value);
-                }}
-            />
+                }}></textarea>
 
-            <input
-                type="text"
-                placeholder="Mention your hobbies/interests*"
+            <textarea typeof='text' placeholder="Mention your hobbies/interests*"
                 value={hobby}
                 className='plaoiods'
                 onChange={(event) => {
                     setHobby(event.target.value);
-                }}
-            />
+                }}></textarea>
+
+
 
             {/* <input
                 type="text"
@@ -596,23 +591,23 @@ Branch*
                 }}
             /> */}
 
-            If you're applying for deisgn team then provide links of best 3 posters:
-            <input type="text" placeholder='If you are applying for the design team, upload sample designs (canva or gdrive link)'
+            If you're applying for design team then provide links of best 3 posters:
+            <textarea typeof='text' rows="4" placeholder='If you are applying for the design team, upload sample designs (canva or gdrive link)'
                 value={poster}
                 className='plaoiods'
                 onChange={(event) => {
                     setPoster(event.target.value);
-                }}
-            />
+                }}></textarea>
 
-             If you are applying for the Research & Development Team, upload any content written by you:
-            <input type="text" placeholder=' If you are applying for the content team, upload any content written by you (in .pdf or .docx format)'
+
+            If you are applying for the Research & Development Team, provide the content:
+            <textarea placeholder='If you are applying for the content team, provide the content here'
                 value={content}
                 className='plaoiods'
                 onChange={(event) => {
                     setContent(event.target.value);
-                }}
-            />
+                }} rows="5"></textarea>
+
 
             <h2>Prove you're not an robot.</h2>
             <span>{firstNumber} + {secondNumber} = </span>
@@ -633,10 +628,10 @@ Branch*
             </button>
 
 
-        
+
             {emailVerification && <p>Verifying email...</p>}
             {scholarIdVerification && <p>Verifying Scholar Id...</p>}
-         
+
             {verifyotp && <p>Verifying otp...</p>}
 
             <br /><br /><br /><br />
