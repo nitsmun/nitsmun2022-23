@@ -298,235 +298,261 @@ const Recruiting = () => {
         }
     };
     return (
-
-        <div className='recruitingmain'>
-            <input
-                type="text"
-                placeholder="Name*"
-                className='plaoiods'
-                value={name}
-                onChange={(event) => {
-                    setName(event.target.value);
-                }}
-            />
-
-            <input
-                type="text"
-                placeholder="Scholar ID*"
-                value={scholarId}
-                className='plaoiods'
-                onChange={(event) => {
-                    setScholarId(event.target.value);
-                }}
-            />
-
-            Branch*
-            <div className='sasjkwe'>
-                <label >
+        <div className="recruiting-cont">
+            <div className='recruitingmain'>
+                <div className="form-head">
+                    <h2 className='form-header'>NITSMUN RECRUITMENT 2023-24</h2>
+                 </div>
+                <div className="form-top">
                     <input
-                        type="radio"
-                        name="branch"
-                        value="CE"
-                        checked={branch === "CE"}
+                        type="text"
+                        placeholder="Name*"
+                        className='input-a'
+                        value={name}
                         onChange={(event) => {
-                            setBranch(event.target.value);
+                            setName(event.target.value);
                         }}
                     />
-                    CE
-                </label>
-                <label>
+
                     <input
-                        type="radio"
-                        name="branch"
-                        value="CSE"
-                        checked={branch === "CSE"}
+                        type="text"
+                        placeholder="Scholar ID*"
+                        value={scholarId}
+                        className='input-b'
                         onChange={(event) => {
-                            setBranch(event.target.value);
+                            setScholarId(event.target.value);
                         }}
                     />
-                    CSE
-                </label>
-                <label>
+
+
+                </div>
+
+
+
+                <div className='form-branch'>
+                    <h4 className='form-branch-head' style={{color:"white"}}>Branch:</h4>
+                    <label >
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="CE"
+                            checked={branch === "CE"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        CE
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="CSE"
+                            checked={branch === "CSE"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        CSE
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="ME"
+                            checked={branch === "ME"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        ME
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="ECE"
+                            checked={branch === "ECE"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        ECE
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="EE"
+                            checked={branch === "EE"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        EE
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="EI"
+                            checked={branch === "EI"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        EI
+                    </label>
+                </div>
+                <div className="form-email">
+                    <div className="form-email-a">
+                        <input
+                            type="email"
+                            placeholder="Institute email*"
+                            value={email}
+                            className='input-c'
+                            onChange={(event) => {
+                                setEmail(event.target.value);
+                            }}
+                        />
+
+                        <button onClick={sendOTP} className='form-btn-a'>Send OTP to institute email</button>
+                        {otpgoing && <p>Sending otp. It might take 10 seconds so please be patient...</p>}
+
+
+                    </div>
+                    <div className="form-email-b">
                     <input
-                        type="radio"
-                        name="branch"
-                        value="ME"
-                        checked={branch === "ME"}
+                        type="text"
+                        placeholder="Enter OTP"
+                        value={otp}
+                        className='input-d'
                         onChange={(event) => {
-                            setBranch(event.target.value);
+                            setOtp(event.target.value);
                         }}
                     />
-                    ME
-                </label>
-                <label>
+                    </div>
+                    
+                </div>
+                <div className="form-contact">
                     <input
-                        type="radio"
-                        name="branch"
-                        value="ECE"
-                        checked={branch === "ECE"}
+                        type="text"
+                        placeholder="Contact number*"
+                        value={mobileno}
+                        className='input-e'
                         onChange={(event) => {
-                            setBranch(event.target.value);
+                            setMobileno(event.target.value);
                         }}
                     />
-                    ECE
-                </label>
-                <label>
+
                     <input
-                        type="radio"
-                        name="branch"
-                        value="EE"
-                        checked={branch === "EE"}
+                        type="text"
+                        placeholder="Whatsapp number*"
+                        value={wpno}
+                        className='input-f'
                         onChange={(event) => {
-                            setBranch(event.target.value);
+                            setWpno(event.target.value);
                         }}
                     />
-                    EE
-                </label>
-                <label>
-                    <input
-                        type="radio"
-                        name="branch"
-                        value="EI"
-                        checked={branch === "EI"}
-                        onChange={(event) => {
-                            setBranch(event.target.value);
-                        }}
-                    />
-                    EI
-                </label>
-            </div>
 
-            <input
-                type="email"
-                placeholder="Institute email*"
-                value={email}
-                className='plaoiods'
-                onChange={(event) => {
-                    setEmail(event.target.value);
-                }}
-            />
-
-            <button onClick={sendOTP} className='djdkjsiur'>Send OTP to institute email</button>
-            {otpgoing && <p>Sending otp. It might take 10 seconds so please be patient...</p>}
-            <div>
-                <input
-                    type="text"
-                    placeholder="Enter OTP"
-                    value={otp}
-                    className='plaoiods'
-                    onChange={(event) => {
-                        setOtp(event.target.value);
-                    }}
-                />
-            </div>
-
-            <input
-                type="text"
-                placeholder="Contact number*"
-                value={mobileno}
-                className='plaoiods'
-                onChange={(event) => {
-                    setMobileno(event.target.value);
-                }}
-            />
-
-            <input
-                type="text"
-                placeholder="Whatsapp number*"
-                value={wpno}
-                className='plaoiods'
-                onChange={(event) => {
-                    setWpno(event.target.value);
-                }}
-            />
+                </div>
 
 
-            Team applying for*?
-            <div className='sasjkwe'>
-                <label >
-                    <input
-                        type="radio"
-                        name="team"
-                        value="Research & Development Team"
-                        checked={team === "Research & Development Team"}
-                        onChange={(event) => {
-                            setTeam(event.target.value);
-                        }}
-                    />
-                    Research & Development Team
-                </label>
 
-                <label >
-                    <input
-                        type="radio"
-                        name="team"
-                        value="Public Relations & Outreach Team"
-                        checked={team === "Public Relations & Outreach Team"}
-                        onChange={(event) => {
-                            setTeam(event.target.value);
-                        }}
-                    />
-                    Public Relations & Outreach Team
-                </label>
 
-                <label >
-                    <input
-                        type="radio"
-                        name="team"
-                        value="Media & Design Team"
-                        checked={team === "Media & Design Team"}
-                        onChange={(event) => {
-                            setTeam(event.target.value);
-                        }}
-                    />
-                    Media & Design Team
-                </label>
+                
+                <div className='form-team'>
+                    <h4 className='team-head'>Team applying for</h4>
+                    <div className="team-options">
 
-                <label >
-                    <input
-                        type="radio"
-                        name="team"
-                        value="Technical Team"
-                        checked={team === "Technical Team"}
-                        onChange={(event) => {
-                            setTeam(event.target.value);
-                        }}
-                    />
-                    Technical Team
-                </label>
-            </div>
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="team"
+                            value="Research & Development Team"
+                            checked={team === "Research & Development Team"}
+                            onChange={(event) => {
+                                setTeam(event.target.value);
+                            }}
+                        />
+                        Research & Development Team
+                    </label>
 
-            <br />
-            Have you ever participated in an MUN conference* ?
-            <div className='sasjkwe'>
-                <label >
-                    <input
-                        type="radio"
-                        name="partinmun"
-                        value="Yes"
-                        checked={partinmun === "Yes"}
-                        onChange={(event) => {
-                            setPartinmun(event.target.value);
-                        }}
-                    />
-                    Yes
-                </label>
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="team"
+                            value="Public Relations & Outreach Team"
+                            checked={team === "Public Relations & Outreach Team"}
+                            onChange={(event) => {
+                                setTeam(event.target.value);
+                            }}
+                        />
+                        Public Relations & Outreach Team
+                    </label>
 
-                <label >
-                    <input
-                        type="radio"
-                        name="partinmun"
-                        value="No"
-                        checked={partinmun === "No"}
-                        onChange={(event) => {
-                            setPartinmun(event.target.value);
-                        }}
-                    />
-                    No
-                </label>
-            </div>
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="team"
+                            value="Media & Design Team"
+                            checked={team === "Media & Design Team"}
+                            onChange={(event) => {
+                                setTeam(event.target.value);
+                            }}
+                        />
+                        Media & Design Team
+                    </label>
 
-            {/* <input
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="team"
+                            value="Technical Team"
+                            checked={team === "Technical Team"}
+                            onChange={(event) => {
+                                setTeam(event.target.value);
+                            }}
+                        />
+                        Technical Team
+                    </label>
+                    </div>
+                </div>
+
+                <br />
+                <div className="form-team">
+                <h4 className='team-head'>Have you ever participated in an MUN conference* ?</h4>
+
+                <div className='form-options'>
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="partinmun"
+                            value="Yes"
+                            checked={partinmun === "Yes"}
+                            onChange={(event) => {
+                                setPartinmun(event.target.value);
+                            }}
+                        />
+                        Yes
+                    </label>
+
+                    <label className='team-label'>
+                        <input
+                            type="radio"
+                            name="partinmun"
+                            value="No"
+                            checked={partinmun === "No"}
+                            onChange={(event) => {
+                                setPartinmun(event.target.value);
+                            }}
+                        />
+                        No
+                    </label>
+                </div>
+                </div>
+
+                {/* <input
                 type="text"
                 placeholder="If yes, which conference and share your experience?"
                 value={yesmun}
@@ -535,53 +561,72 @@ const Recruiting = () => {
                     setYesmun(event.target.value);
                 }}
             /> */}
+            <div className="form-text-input">
 
-            <textarea typeof='text' placeholder="If yes, which conference and share your experience?"
-                value={yesmun}
-                className='plaoiods'
-                onChange={(event) => {
-                    setYesmun(event.target.value);
-                }}>
-            </textarea>
+                <textarea typeof='text' placeholder="If yes, which conference and share your experience?"
+                    value={yesmun}
+                    className='form-text-a'
+                    onChange={(event) => {
+                        setYesmun(event.target.value);
+                    }}>
+                </textarea>
 
-            <textarea typeof='text' placeholder="Why do you want to be a part of NITSMUN?*"
-                value={whynitsmun}
-                className='plaoiods'
-                onChange={(event) => {
-                    setWhynitsmun(event.target.value);
-                }}></textarea>
+                <textarea typeof='text' placeholder="Why do you want to be a part of NITSMUN?*"
+                    value={whynitsmun}
+                    className='form-text-b'
+                    onChange={(event) => {
+                        setWhynitsmun(event.target.value);
+                    }}></textarea>
 
-            <textarea typeof='text' placeholder="Why should we recruit you?*"
-                value={whyrecruit}
-                className='plaoiods'
-                onChange={(event) => {
-                    setWhyrecruit(event.target.value);
-                }}></textarea>
+                <textarea typeof='text' placeholder="Why should we recruit you?*"
+                    value={whyrecruit}
+                    className='form-text-c'
+                    onChange={(event) => {
+                        setWhyrecruit(event.target.value);
+                    }}></textarea>
 
-            <textarea typeof='text' placeholder="Mention your experience supporting your desired team (club, fests, events, etc)*"
-                value={experience}
-                className='plaoiods'
-                onChange={(event) => {
-                    setExperience(event.target.value);
-                }}></textarea>
+                <textarea typeof='text' placeholder="Mention your experience supporting your desired team (club, fests, events, etc)*"
+                    value={experience}
+                    className='form-text-d'
+                    onChange={(event) => {
+                        setExperience(event.target.value);
+                    }}></textarea>
 
-            <textarea typeof='text' placeholder="Mention your achievements supporting the desired team (if any)"
-                value={achievement}
-                className='plaoiods'
-                onChange={(event) => {
-                    setAchievement(event.target.value);
-                }}></textarea>
+                <textarea typeof='text' placeholder="Mention your achievements supporting the desired team (if any)"
+                    value={achievement}
+                    className='form-text-e'
+                    onChange={(event) => {
+                        setAchievement(event.target.value);
+                    }}></textarea>
 
-            <textarea typeof='text' placeholder="Mention your hobbies/interests*"
-                value={hobby}
-                className='plaoiods'
-                onChange={(event) => {
-                    setHobby(event.target.value);
-                }}></textarea>
+                <textarea typeof='text' placeholder="Mention your hobbies/interests*"
+                    value={hobby}
+                    className='form-text-f'
+                    onChange={(event) => {
+                        setHobby(event.target.value);
+                    }}></textarea>
+
+                
+                <h4 className='team-head'>If you're applying for design team then provide poster links (max : three)</h4>
+                <textarea typeof='text' rows="4" placeholder='Paste Canva Or G-Drive link here'
+                    value={poster}
+                    className='form-text-g'
+                    onChange={(event) => {
+                        setPoster(event.target.value);
+                    }}></textarea>
+
+                <h4 className='team-head'>If you're applying for the Research & Development Team team, provide the content:</h4>
+                <textarea placeholder='Paste content here'
+                    value={content}
+                    className='form-text-f'
+                    onChange={(event) => {
+                        setContent(event.target.value);
+                    }} rows="5"></textarea>
+            </div>
 
 
 
-            {/* <input
+                {/* <input
                 type="text"
                 placeholder="Your resume"
                 className='plaoiods'
@@ -591,55 +636,47 @@ const Recruiting = () => {
                 }}
             /> */}
 
-            If you're applying for design team then provide links of best 3 posters:
-            <textarea typeof='text' rows="4" placeholder='If you are applying for the design team, upload sample designs (canva or gdrive link)'
-                value={poster}
-                className='plaoiods'
-                onChange={(event) => {
-                    setPoster(event.target.value);
-                }}></textarea>
+                <div className="form-end">
 
 
-            If you are applying for the Research & Development Team, provide the content:
-            <textarea placeholder='If you are applying for the content team, provide the content here'
-                value={content}
-                className='plaoiods'
-                onChange={(event) => {
-                    setContent(event.target.value);
-                }} rows="5"></textarea>
+                <h4 className='team-head'>Prove you're not an robot.</h4>
+                <div className='form-value'>
 
+                <span style={{fontWeight:"900",color:'white'}}>{firstNumber} + {secondNumber} = </span>
+                <span>   <input
+                    type="text"
+                    required
 
-            <h2>Prove you're not an robot.</h2>
-            <span>{firstNumber} + {secondNumber} = </span>
-            <span>   <input
-                type="text"
-                required
-                placeholder="Enter the answer"
-                value={captchaAnswer}
-                className='plaoiods'
-                onChange={(event) => {
-                    setCaptchaAnswer(event.target.value);
-                }}
-            /></span>
+                    placeholder="Enter the answer"
+                    value={captchaAnswer}
+                    className='input-g'
+                    onChange={(event) => {
+                        setCaptchaAnswer(event.target.value);
+                    }}
+                /></span>
+                </div>
 
-            <br />
-            <button onClick={createUser} className='djdkjsiur'>
-                {submitting ? "Submitting..." : "Submit"}{" "}
-            </button>
+                <br />
+                <button onClick={createUser} className='form-submit'>
+                    {submitting ? "Submitting..." : "Submit"}{" "}
+                </button>
+                </div>
 
 
 
-            {emailVerification && <p>Verifying email...</p>}
-            {scholarIdVerification && <p>Verifying Scholar Id...</p>}
 
-            {verifyotp && <p>Verifying otp...</p>}
+                {emailVerification && <p>Verifying email...</p>}
+                {scholarIdVerification && <p>Verifying Scholar Id...</p>}
 
-            <br /><br /><br /><br />
-            <div className="p2 mnjkl">
-                Current user :{" "}
-                <div className="ipdtls">
-                    <Ip />
-                </div>{" "}
+                {verifyotp && <p>Verifying otp...</p>}
+
+                <br /><br /><br /><br />
+                <div className="p2 mnjkl">
+                    Current user :{" "}
+                    <div className="ipdtls">
+                        <Ip />
+                    </div>{" "}
+                </div>
             </div>
         </div>
     )
