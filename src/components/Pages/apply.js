@@ -7,7 +7,7 @@ import { apply } from "../Dataset";
 import Recruiting from "./Recruitment2324/Recruiting";
 
 const Apply = () => {
-  TabTitle("Link Tree | NITS MUN");
+  TabTitle("Recruiting | NITS MUN");
 
   return (
     <>
