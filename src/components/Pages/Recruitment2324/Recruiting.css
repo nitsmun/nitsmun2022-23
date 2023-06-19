@@ -44,7 +44,7 @@ textarea:focus{
     padding-bottom: 2rem;
     margin: 2rem auto;
     font-family: "Lato", sans-serif;
-    font-style: italic;
+    font-size: 2vw;
 
 }
 .input-a{
@@ -134,6 +134,7 @@ label{
     align-items: center;
 }
 .form-top{
+    margin-top: 4vw;
     display: flex;
     justify-content: center;
 }
@@ -237,26 +238,58 @@ textarea{
     margin-top: 5rem;
 }
 .form-submit{
-    padding: 1rem ;
+    padding: 1vw 3vw;
     font-weight: 700;
     cursor: pointer;
     background-color: var( --color-1-100);
-    border-radius: 15%;
+    border-radius: 8px;
     color: white;
-
-}
-button:hover{
-    transform: scale(1.05);
+    font-size: 1.5vw;
+    border: 2px solid black;
     transition: ease-in-out 0.3s;
 }
+
+.form-submit:hover{
+    transform: scale(1.05);
+}
+
 .form-value{
     display: flex;
     justify-content: center;
     align-items: center;
     gap:1rem;
 }
+
 .team-head{
+    color: black;
+    font-size: 1.25vw;
+    margin: 1vw 0 ;
+}
+
+#sendotpmsgid{
+    font-size: 1.25vw;
     color: white;
+    font-weight: 600;
+}
+
+#importantinstructionsifcont h2{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: black;
+    margin: 2vw 0;
+    text-decoration: underline;
+}
+
+#importantinstructionsifcont p{
+    font-size: 1.25vw;
+    font-weight: 600;
+    text-align: left;
+    margin: .75vw 0;
+}
+
+.points-list-out-ul{
+    width: 80%;
+    margin: 1vw auto;
 }
 @media(max-width:600px) {
     .recruiting-cont{
@@ -283,7 +316,34 @@ button:hover{
         font-size: 1.1rem;
         padding-bottom: 0;
     }
+
+    #importantinstructionsifcont p{
+        font-size: 2.5vw;
+        margin: 2vw 0;
+    }
+
+    #importantinstructionsifcont h2{
+        font-size: 3vw;
+        margin: 4vw 0;
+    }
+
+    .form-top{
+        margin-top: 8vw;
+    }
+
+    .form-btn-a{
+        padding: 1.5vw ;
+        border-radius: 10px;
+        font-size: 2vw;
+        margin-left: 2vw;
+    }
+
+    .form-submit{
+        padding: 2vw 6vw;
+        font-size: 3vw;
+    }
 }
+
 @media(max-width:450px) {
     .recruiting-cont{
         padding: 1rem;

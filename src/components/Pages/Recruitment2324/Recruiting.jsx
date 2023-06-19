@@ -306,6 +306,19 @@ const Recruiting = () => {
                 <div className="form-head">
                     <h2 className='form-header'>NITSMUN RECRUITMENT 2023-24</h2>
                 </div>
+
+                <div id='importantinstructionsifcont'>
+                    <h2>Important instructions. Please read properly.</h2>
+                    <div className="points-list-out-ul">
+
+                        <p>1) Use only your institute email id for filling the form.</p>
+                        <p>2) Check your Institute email inbox or SPAM folder for the otp.</p>
+                        <p>3) You can only fill this form once so please be attentive while filling the form.</p>
+                        <p>4) Input with placeholder * are mandatory to be filled.</p>
+                        <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Aditya</span></a></p>
+
+                    </div>
+                </div>
                 <div className="form-top">
                     <input
                         type="text"
@@ -354,18 +367,7 @@ const Recruiting = () => {
                         />
                         CSE
                     </label>
-                    <label>
-                        <input
-                            type="radio"
-                            name="branch"
-                            value="ME"
-                            checked={branch === "ME"}
-                            onChange={(event) => {
-                                setBranch(event.target.value);
-                            }}
-                        />
-                        ME
-                    </label>
+
                     <label>
                         <input
                             type="radio"
@@ -378,6 +380,7 @@ const Recruiting = () => {
                         />
                         ECE
                     </label>
+
                     <label>
                         <input
                             type="radio"
@@ -390,6 +393,7 @@ const Recruiting = () => {
                         />
                         EE
                     </label>
+
                     <label>
                         <input
                             type="radio"
@@ -402,6 +406,22 @@ const Recruiting = () => {
                         />
                         EI
                     </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="branch"
+                            value="ME"
+                            checked={branch === "ME"}
+                            onChange={(event) => {
+                                setBranch(event.target.value);
+                            }}
+                        />
+                        ME
+                    </label>
+
+
+
                 </div>
                 <div className="form-email">
                     <div className="form-email-a">
@@ -415,14 +435,14 @@ const Recruiting = () => {
                             }}
                         />
                         <button onClick={sendOTP} disabled={disableotpsend || disableformsbmt} style={{ opacity: disableotpsend || disableformsbmt ? 0.5 : 1, cursor: disableotpsend || disableformsbmt ? "not-allowed" : "pointer" }} className='form-btn-a'>Send OTP to Institute email</button>
-                        {otpgoing && <p>Sending otp. It might take 10 seconds so please be patient...</p>}
+
 
 
                     </div>
                     <div className="form-email-b">
                         <input
                             type="text"
-                            placeholder="Enter OTP"
+                            placeholder="Enter OTP*"
                             value={otp}
                             className='input-d'
                             onChange={(event) => {
@@ -431,7 +451,9 @@ const Recruiting = () => {
                         />
                     </div>
 
+
                 </div>
+                {otpgoing && <p id='sendotpmsgid'>Sending otp...</p>}
                 <div className="form-contact">
                     <input
                         type="text"
@@ -456,11 +478,8 @@ const Recruiting = () => {
                 </div>
 
 
-
-
-
                 <div className='form-team'>
-                    <h4 className='team-head'>Team applying for</h4>
+                    <h4 className='team-head'>Team applying for*</h4>
                     <div className="team-options">
 
                         <label className='team-label'>
@@ -519,7 +538,7 @@ const Recruiting = () => {
 
                 <br />
                 <div className="form-team">
-                    <h4 className='team-head'>Have you ever participated in an MUN conference* ?</h4>
+                    <h4 className='team-head'>Have you ever participated in an MUN conference?*</h4>
 
                     <div className='form-options'>
                         <label className='team-label'>
@@ -550,15 +569,6 @@ const Recruiting = () => {
                     </div>
                 </div>
 
-                {/* <input
-                type="text"
-                placeholder="If yes, which conference and share your experience?"
-                value={yesmun}
-                className='plaoiods'
-                onChange={(event) => {
-                    setYesmun(event.target.value);
-                }}
-            /> */}
                 <div className="form-text-input">
 
                     <textarea typeof='text' placeholder="If yes, which conference and share your experience?"
@@ -613,7 +623,7 @@ const Recruiting = () => {
                             setPoster(event.target.value);
                         }}></textarea>
 
-                    <h4 className='team-head'>If you're applying for the Research & Development Team team, provide the content:</h4>
+                    <h4 className='team-head'>If you're applying for the Research & Development Team, provide the content:</h4>
                     <textarea placeholder='Paste content here'
                         value={content}
                         className='form-text-f'
@@ -623,21 +633,8 @@ const Recruiting = () => {
                 </div>
 
 
-
-                {/* <input
-                type="text"
-                placeholder="Your resume"
-                className='plaoiods'
-                value={resume}
-                onChange={(event) => {
-                    setResume(event.target.value);
-                }}
-            /> */}
-
                 <div className="form-end">
-
-
-                    <h4 className='team-head'>Prove you're not an robot.</h4>
+                    <h4 className='team-head'>Prove you're not an robot*</h4>
                     <div className='form-value'>
 
                         <span style={{ fontWeight: "900", color: 'white' }}>{firstNumber} + {secondNumber} = </span>
@@ -670,13 +667,13 @@ const Recruiting = () => {
 
                 {verifyotp && <p>Verifying otp...</p>}
 
-                <br /><br /><br /><br />
+                {/* <br /><br /><br /><br />
                 <div className="p2 mnjkl">
                     Current user :{" "}
                     <div className="ipdtls">
                         <Ip />
                     </div>{" "}
-                </div>
+                </div> */}
             </div>
         </div>
     )
