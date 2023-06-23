@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import moment from "moment-timezone";
 import './Recruiting.css'
-import Ip from './Ip';
 const Recruiting = () => {
     const [name, setName] = useState("");
     const [mobileno, setMobileno] = useState("")
@@ -315,7 +314,7 @@ const Recruiting = () => {
                         <p>2) Check your Institute email inbox or SPAM folder for the otp.</p>
                         <p>3) You can only fill this form once so please be attentive while filling the form.</p>
                         <p>4) Input with placeholder * are mandatory to be filled.</p>
-                        <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline",color:"white"}}>Aditya</span></a></p>
+                        <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Aditya</span></a></p>
 
                     </div>
                 </div>
@@ -615,7 +614,7 @@ const Recruiting = () => {
                         }}></textarea>
 
 
-                    <h4 className='team-head'>If you're applying for design team then provide poster links (max : three)</h4>
+                    <h4 className='team-head'>If you're applying for <span id='rddesign'>Design Team</span>  then provide poster links (max : three)</h4>
                     <textarea typeof='text' rows="4" placeholder='Paste Canva Or G-Drive link here'
                         value={poster}
                         className='form-text-g'
@@ -623,7 +622,7 @@ const Recruiting = () => {
                             setPoster(event.target.value);
                         }}></textarea>
 
-                    <h4 className='team-head'>If you're applying for the Research & Development Team, provide the content:</h4>
+                    <h4 className='team-head'>If you're applying for the <span id='rddesign' style={{fontWeight:"900"}}>Research & Development Team</span>, provide the content:</h4>
                     <textarea placeholder='Paste content here'
                         value={content}
                         className='form-text-f'
@@ -650,30 +649,17 @@ const Recruiting = () => {
                             }}
                         /></span>
                     </div>
-
                     <br />
-
-
                     <button onClick={createUser} disabled={disableotpsend || disableformsbmt} style={{ opacity: disableotpsend || disableformsbmt ? 0.5 : 1, cursor: disableotpsend || disableformsbmt ? "not-allowed" : "pointer" }} className='form-submit'>
                         {submitting ? "Submitting..." : "Submit"}{" "}
                     </button>
                 </div>
 
+                {emailVerification && <p id='msgverifyingimpot'>Verifying email...</p>}
+                {scholarIdVerification && <p id='msgverifyingimpot'>Verifying Scholar Id...</p>}
+                {verifyotp && <p id='msgverifyingimpot'>Verifying otp...</p>}
 
-
-
-                {emailVerification && <p>Verifying email...</p>}
-                {scholarIdVerification && <p>Verifying Scholar Id...</p>}
-
-                {verifyotp && <p>Verifying otp...</p>}
-
-                {/* <br /><br /><br /><br />
-                <div className="p2 mnjkl">
-                    Current user :{" "}
-                    <div className="ipdtls">
-                        <Ip />
-                    </div>{" "}
-                </div> */}
+             
             </div>
         </div>
     )
