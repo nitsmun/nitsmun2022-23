@@ -33,6 +33,12 @@ const Recruiting = () => {
     const [disableotpsend, Setdisableotpsend] = useState(false)
     const [disableformsbmt, setDisableformsbmt] = useState(false)
     // const [resume, setResume] = useState("")
+    const [hideteam, setHideteam] = useState(false)
+    const [hideTechnical, setHideTechnical] = useState(true)
+    const [posterLink, setPosterLink] = useState(false)
+    const [Contentwriting, setContentwriting] = useState(false)
+    const [ifyesmun, setIfyesmun] = useState(false)
+
 
     useEffect(() => {
         generateCaptchaNumbers();
@@ -47,15 +53,64 @@ const Recruiting = () => {
 
     //checking if all required fiels are filled
     const isFormValid = () => {
-        return (
-            name !== "" &&
-            email !== "" &&
-            whynitsmun !== "" &&
-            mobileno !== "" &&
-            branch !== "" &&
-            scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== ""
-
-        );
+        if (partinmun === "Yes" && team === "Research & Development Team") {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== "" && yesmun !== "" && content !== ""
+            );
+        }
+        else if (partinmun === "Yes" && team === "Media & Design Team") {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== "" && yesmun !== "" && poster !== ""
+            );
+        }
+        else if (team === "Media & Design Team") {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== "" && poster !== ""
+            );
+        } else if (team === "Research & Development Team") {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== "" && content !== ""
+            );
+        } else if (partinmun === "Yes") {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== "" && yesmun !== ""
+            );
+        }
+        else {
+            return (
+                name !== "" &&
+                email !== "" &&
+                whynitsmun !== "" &&
+                mobileno !== "" &&
+                branch !== "" &&
+                scholarId !== "" && wpno !== "" && whyrecruit !== "" && experience !== "" && hobby !== "" && team !== "" && partinmun !== ""
+            );
+        }
     };
 
     const generateRandomNumbers = () => {
@@ -208,12 +263,12 @@ const Recruiting = () => {
         }
 
         // Check if the email matches the allowed domains i.e only institute emails are accepted
-           const emailRegex = /^.+22@(cse|civil|mech|ece|ee|ei)\.nits\.ac\.in$/;
+        const emailRegex = /^.+22@(cse|civil|mech|ece|ee|ei)\.nits\.ac\.in$/;
 
-           if (!emailRegex.test(email)) {
-               alert("Only first year's INSTITUTE email id are accepted.");
-               return;
-           }
+        if (!emailRegex.test(email)) {
+            alert("Only first year's INSTITUTE email id are accepted.");
+            return;
+        }
 
         //retrieve time in ist
         const timestamp = moment().tz("Asia/Kolkata").format();
@@ -222,7 +277,7 @@ const Recruiting = () => {
         axios
 
             .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-                // .post('http://localhost:3005/createUser', {
+                // .post('http://localhost:9898/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -299,6 +354,36 @@ const Recruiting = () => {
             Setdisableotpsend(false)
         }
     };
+
+    const handleTeamVisible = () => {
+        setHideteam(true)
+        setHideTechnical(false)
+    }
+
+    useEffect(() => {
+        if (team === "Media & Design Team") {
+            setPosterLink(true)
+        } else {
+            setPosterLink(false)
+        }
+    }, [team])
+
+    useEffect(() => {
+        if (team === "Research & Development Team") {
+            setContentwriting(true)
+        } else {
+            setContentwriting(false)
+        }
+    }, [team])
+
+    useEffect(() => {
+        if (partinmun === "Yes") {
+            setIfyesmun(true)
+        } else {
+            setIfyesmun(false)
+        }
+    }, [partinmun])
+
     return (
         <div className="recruiting-cont">
             <div className='recruitingmain'>
@@ -314,8 +399,8 @@ const Recruiting = () => {
                         <p>2) Check your Institute email inbox or SPAM folder for the otp.</p>
                         <p>3) You can only fill this form once so please be attentive while filling the form.</p>
                         <p>4) Input with placeholder * are mandatory to be filled.</p>
-                        <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{textDecoration:"Underline", fontFamily:"Nunito",color:"white"}}>Aditya</span></a></p>
-
+                        <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Aditya</span></a></p>
+                        <p>4)Last date to fill the form is 19th July 2023 EOD.</p>
                     </div>
                 </div>
                 <div className="form-top">
@@ -520,18 +605,51 @@ const Recruiting = () => {
                             Media & Design Team
                         </label>
 
-                        <label className='team-label'>
-                            <input
-                                type="radio"
-                                name="team"
-                                value="Technical Team"
-                                checked={team === "Technical Team"}
-                                onChange={(event) => {
-                                    setTeam(event.target.value);
-                                }}
-                            />
+                        {hideTechnical && <label className='team-label' onClick={handleTeamVisible} >
+                            <input type="radio" />
                             Technical Team
-                        </label>
+                        </label>}
+
+
+                        {hideteam && <div>
+                            <label className='team-label' id='somedistancebruh'>
+                                <input
+                                    type="radio"
+                                    name="team"
+                                    value="Web Development"
+                                    checked={team === "Web Development"}
+                                    onChange={(event) => {
+                                        setTeam(event.target.value);
+                                    }}
+                                />
+                                Web Development
+                            </label>
+                            <label className='team-label' id='somedistancebruh'>
+                                <input
+                                    type="radio"
+                                    name="team"
+                                    value="UI/UX"
+                                    checked={team === "UI/UX"}
+                                    onChange={(event) => {
+                                        setTeam(event.target.value);
+                                    }}
+                                />
+                                UI/UX
+                            </label>
+                            <label className='team-label' id='somedistancebruh'>
+                                <input
+                                    type="radio"
+                                    name="team"
+                                    value="Flutter"
+                                    checked={team === "Flutter"}
+                                    onChange={(event) => {
+                                        setTeam(event.target.value);
+                                    }}
+                                />
+                                Flutter
+                            </label>
+                        </div>}
+
                     </div>
                 </div>
 
@@ -569,14 +687,14 @@ const Recruiting = () => {
                 </div>
 
                 <div className="form-text-input">
-
-                    <textarea typeof='text' placeholder="If yes, which conference and share your experience?"
+                    {ifyesmun && <><textarea typeof='text' placeholder="If yes, which conference and share your experience?*"
                         value={yesmun}
                         className='form-text-a'
                         onChange={(event) => {
                             setYesmun(event.target.value);
                         }}>
-                    </textarea>
+                    </textarea></>}
+
 
                     <textarea typeof='text' placeholder="Why do you want to be a part of NITSMUN?*"
                         value={whynitsmun}
@@ -613,22 +731,22 @@ const Recruiting = () => {
                             setHobby(event.target.value);
                         }}></textarea>
 
+                    {posterLink && <><h4 className='team-head'>If you're applying for <span id='rddesign'>Design Team</span>  then provide poster links (max : three)*</h4>
+                        <textarea typeof='text' rows="4" placeholder='Paste Canva Or G-Drive link here'
+                            value={poster}
+                            className='form-text-g'
+                            onChange={(event) => {
+                                setPoster(event.target.value);
+                            }}></textarea></>}
 
-                    <h4 className='team-head'>If you're applying for <span id='rddesign'>Design Team</span>  then provide poster links (max : three)</h4>
-                    <textarea typeof='text' rows="4" placeholder='Paste Canva Or G-Drive link here'
-                        value={poster}
-                        className='form-text-g'
-                        onChange={(event) => {
-                            setPoster(event.target.value);
-                        }}></textarea>
+                    {Contentwriting && <><h4 className='team-head'>If you're applying for the <span id='rddesign' style={{ fontWeight: "900" }}>Research & Development Team</span>, provide the content:*</h4>
+                        <textarea placeholder='Paste content here'
+                            value={content}
+                            className='form-text-f'
+                            onChange={(event) => {
+                                setContent(event.target.value);
+                            }} rows="5"></textarea></>}
 
-                    <h4 className='team-head'>If you're applying for the <span id='rddesign' style={{fontWeight:"900"}}>Research & Development Team</span>, provide the content:</h4>
-                    <textarea placeholder='Paste content here'
-                        value={content}
-                        className='form-text-f'
-                        onChange={(event) => {
-                            setContent(event.target.value);
-                        }} rows="5"></textarea>
                 </div>
 
 
@@ -659,7 +777,7 @@ const Recruiting = () => {
                 {scholarIdVerification && <p id='msgverifyingimpot'>Verifying Scholar Id...</p>}
                 {verifyotp && <p id='msgverifyingimpot'>Verifying otp...</p>}
 
-             
+
             </div>
         </div>
     )

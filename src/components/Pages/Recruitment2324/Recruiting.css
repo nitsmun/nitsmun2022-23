@@ -316,6 +316,11 @@ textarea{
     font-family: 'Nunito',sans-serif;
     font-weight: 600;
 }
+
+#somedistancebruh{
+    margin: 1vw 0;
+}
+
 @media(max-width:600px) {
     .recruiting-cont{
         padding: 2rem;
@@ -399,5 +404,9 @@ textarea{
     #msgverifyingimpot{
         font-size:3vw;
         margin: 4vw auto;
+    }
+
+    #somedistancebruh{
+        margin: 2vw 0;
     }
 }

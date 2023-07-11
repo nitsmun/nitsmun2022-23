@@ -31,8 +31,16 @@ const Resultsrecruitment = () => {
         setSelectedTeam("Media & Design Team")
     }
 
-    const handleTechnicalTeam = () => {
-        setSelectedTeam("Technical Team")
+    const handleUIUXTeam = () => {
+        setSelectedTeam("UI/UX")
+    }
+
+    const handleFlutterTeam = () => {
+        setSelectedTeam("Flutter")
+    }
+
+    const handleWebDTeam = () => {
+        setSelectedTeam("Web Development")
     }
 
     const filteredResults = selectedTeam === "" ? results : results.filter(result => result.team && result.team.includes(selectedTeam));
@@ -139,7 +147,9 @@ const Resultsrecruitment = () => {
 
                                 <button onClick={handleDesignTeam} style={{ color: selectedTeam === 'Media & Design Team' ? 'red' : 'initial' }}>Design Team</button>
 
-                                <button onClick={handleTechnicalTeam} style={{ color: selectedTeam === 'Technical Team' ? 'red' : 'initial' }}>Technical Team</button>
+                                <button onClick={handleWebDTeam} style={{ color: selectedTeam === 'Web Development' ? 'red' : 'initial' }}>Web Development</button>
+                                <button onClick={handleUIUXTeam} style={{ color: selectedTeam === 'UI/UX' ? 'red' : 'initial' }}>UI/UX</button>
+                                <button onClick={handleFlutterTeam} style={{ color: selectedTeam === 'Flutter' ? 'red' : 'initial' }}>Flutter</button>
 
                             </div>
 
