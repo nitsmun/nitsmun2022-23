@@ -146,7 +146,7 @@ const Footer = () => {
           </IconContext.Provider>
           <div className="phonenum">
             <div className="phonenum2">
-              <a href="tel:+919101393607"><p className="num-fter">+919101393607</p></a>
+              <a href="tel:+917096597864"><p className="num-fter">+917096597864</p></a>
               {/* <a href="tel:+919707091602">9707091602</a> */}
             </div>
           </div>
