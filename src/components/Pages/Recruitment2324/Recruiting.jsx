@@ -400,7 +400,11 @@ const Recruiting = () => {
                         <p>3) You can only fill this form once so please be attentive while filling the form.</p>
                         <p>4) Input with placeholder * are mandatory to be filled.</p>
                         <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Aditya</span></a></p>
-                        <p>4)Last date to fill the form is 19th July 2023 EOD.</p>
+                        <p>6) Last date to fill the form is 19th July 2023 EOD.</p>
+
+                        <p id='nfoponmobile'>7) Information regarding teams can be found <a href="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/edit?usp=drivesdk" target='_blank' rel="noreferrer"><span id='spanforareason'>here.</span></a></p>
+                        <iframe title='Teams Information (NITSMUN 2023-24' id='embedflyerad' src="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/preview"
+                        ></iframe>
                     </div>
                 </div>
                 <div className="form-top">

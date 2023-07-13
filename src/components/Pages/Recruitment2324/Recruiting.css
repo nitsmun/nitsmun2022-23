@@ -305,6 +305,14 @@ textarea{
     font-weight: 500 !important;
 }
 
+#spanforareason{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500 !important;
+    color: black;
+    border-bottom: 1.5px solid black;
+    margin-bottom: -10px;
+}
+
 #msgverifyingimpot{
     font-size: 1.5vw;
     color: white;
@@ -319,6 +327,15 @@ textarea{
 
 #somedistancebruh{
     margin: 1vw 0;
+}
+
+#embedflyerad{
+    width: 80%;
+    display: block;
+    margin: 2vw auto;
+    height: 50vh;
+    border-radius: 6.65px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 @media(max-width:600px) {
@@ -372,6 +389,10 @@ textarea{
         padding: 2vw 6vw;
         font-size: 3vw;
     }
+
+    #embedflyerad{
+        display: none;
+    }
 }
 
 @media(max-width:450px) {
@@ -408,5 +429,11 @@ textarea{
 
     #somedistancebruh{
         margin: 2vw 0;
+    }
+}
+
+@media (min-width:600px){
+    #nfoponmobile{
+        display: none;
     }
 }
