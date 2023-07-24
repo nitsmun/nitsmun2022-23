@@ -276,8 +276,8 @@ const Recruiting = () => {
         setDisableformsbmt(true)
         axios
 
-            .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-                // .post('http://localhost:9898/createUser', {
+            // .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
+                .post('http://localhost:9898/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -403,7 +403,7 @@ const Recruiting = () => {
                         <p>6) Last date to fill the form is 19th July 2023 EOD.</p>
 
                         <p id='nfoponmobile'>7) Information regarding teams can be found <a href="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/edit?usp=drivesdk" target='_blank' rel="noreferrer"><span id='spanforareason'>here.</span></a></p>
-                        <iframe title='Teams Information (NITSMUN 2023-24' id='embedflyerad' src="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/preview"
+                        <iframe title='Teams Information (NITSMUN 2023-24' id='embedflyerad' src="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/edit"
                         ></iframe>
                     </div>
                 </div>

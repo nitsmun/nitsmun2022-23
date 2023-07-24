@@ -1905,6 +1905,13 @@ export const partnerall = [
 
 export const apply = [
   {
+    id: "Recruitment Of Batch 2026",
+    // msg:"Coming Soon!",
+    msg: "Registration Closed!",
+    btnname: "Recruitment Of Batch 2026",
+    Title: "Recruitment Of Batch 2026 ✏️ |  NITSMUN",
+  },
+  {
     id: "photojournalism-ipc",
     msg: "Registration Closed!",
     btnname:
@@ -1925,13 +1932,7 @@ export const apply = [
     btnname: "Executive Board Application For Annual Conference 2023",
     Title: "Executive Board Application ✏️ | Annual Conference 2023",
   },
-  {
-    id: "mock_mun_2023",
-    // msg:"Coming Soon!",
-    msg: "Registration Closed!",
-    btnname: "Mock Mun 2023",
-    Title: "Mock Mun 2023 Application ✏️ | Mock MUN 2023",
-  },
+  
 ];
 
 export const mainbybharat = [

@@ -24,7 +24,7 @@ import Mock2023 from "./components/Pages/Mockmun2023/Mock2023";
 import Archive from "./components/Pages/Archive/Archive";
 import Nitsmun2023 from "./components/Pages/Nitsmun2023/Nitsmun2023";
 import Gallery from "./components/Pages/Gallery/Gallery";
-import Recruiting from "./components/Pages/Recruitment2324/Recruiting";
+// import Recruiting from "./components/Pages/Recruitment2324/Recruiting";
 import Resultsrecruitment from "./components/Pages/Recruitment2324/Resultsrecruitment";
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
             <Route path="/apply" component={apply} />
             <Route path='/wrapped' component={Wrapped}></Route>
             <Route path='/wrapped2022' component={Wrapped2022}></Route>
-            <Route path='/recruiting' component={Recruiting}></Route>
+            {/* <Route path='/recruiting' component={Recruiting}></Route> */}
             <Route path='/results' component={Resultsrecruitment}></Route>
             <Route path="*">
               {" "}
