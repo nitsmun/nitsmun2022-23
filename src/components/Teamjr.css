@@ -18,6 +18,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 1.25rem 3.125rem 1.875rem 3.125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-stats1 {
