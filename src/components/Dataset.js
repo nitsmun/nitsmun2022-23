@@ -90,7 +90,7 @@ export const Secretariat = [
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476439/events/nitsmun/team/marufPadaya_faj39h.jpg",
     alt: "Maruf Padaya",
     name: "Maruf Padaya",
-    post: "Sacretary General",
+    post: "Secretary General",
     linkedin: "https://www.linkedin.com/in/maruf-padaya-a865151bb",
     fb: "https://www.facebook.com/maruf.padaya",
     mail: "mailto:marufpadaya786@gmail.com",
