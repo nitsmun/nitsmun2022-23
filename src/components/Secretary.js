@@ -6,7 +6,7 @@ const Secretary = () => {
   return (
     <div>
       <div className="msg-secretary">
-        <h2 className="sec-head1" style={{userSelect:'none'}}>Message From The Secretary-General</h2>
+        <h2 className="sec-head1" style={{ userSelect: 'none' }}>Message From The Secretary-General</h2>
         <Underline />
         <br />
         <br />
@@ -23,31 +23,23 @@ const Secretary = () => {
               fontSize: "1.2rem",
               lineHeight: "1.6",
               fontWeight: "500",
-              userSelect:'none'
+              userSelect: 'none',
+              overflow: 'wrap'
             }}
           >
-            Dear delegates,
-            <br />
-            <br />
-            On behalf of my secretariat, with utmost honour and pride, I welcome you all to the 10th edition of NIT Silchar Model United Nations Annual Conference.
-            <br />
-            <br />
-            The success of its maiden edition presented us with a challenge to make the upcoming edition even better and bigger.
-            <br />
-            <br />
-            Due to the relentless efforts of the team every passing year paired with the enthusiastic participants and stellar executive board  members, NITSMUN has been able to carve its own place in the MUN circuit and now stands out as one of the forerunners amongst the NE India MUNs. Through the simulation of the annual conferences and year-round activity for the MUN enthusiasts, NITSMUN continues to uphold its passion and dedication to engage the youth in MUN culture and bring out the best in them.
-            <br />
-            <br />
-            This will be a golden opportunity to expand your knowledge and utilize it in engaging debates and simultaneously build your critical thinking as well as writing skills. You will be able to connect with talented people and learn immensely throughout the process, all from the comfort of your home. To achieve the same you need to do extensive research beforehand and our team has put in every effort to make your research experience smoother and hassle-free by making this background guide as comprehensive as we can. From ROPs to references, the background guide has it all. We look forward to welcoming you and hope you will have an enriching experience!
-            <br />
-            <br />
-            Best Regards,
-            <br />
-            Shreyashi Roymedhi
-            <br />
-            Secretary General
-            <br />
-            NIT Silchar Model United Nations
+
+            It is of utmost pride and honour to be the Secretary General of this esteemed Secretariat for this year and more prestigious to host you as our keen readers.
+
+            NITSMUN, since its inception in 2014 has always believed in striving for peace with ink and voice. With great support from our concerned members, we have hosted numerous conferences, multiple events and workshops, hosting 1000+ delegates and a family of 10k+ members on our Social Media handles.
+
+            This upcoming year, we are very keen to host numerous events and workshops to boost and strengthen the voice of our flying delegates who are ready to roar on the matters of global concern, and more importantly solve for forthcoming generations. Notable episodes include the first inaugural Youth Parliament in November (2023), the 11th edition of of our flagship Annual Conference in February (2024), and a dedicated ‘diplomacy’ week comprising of various events such as debates, extempore, quiz, G20-simulation and many more to comprehend geopolitical matters and develop the instinct to solve them with dialogues.
+
+            On behalf of my Secretariat, I welcome you all on this journey of youthful explorations, solving critical concerns, and more importantly voicing your zeal for peace. Ending my envelope with a notion: it takes billions of pounds to stock the weapons, millions of lives to victimise in wars, thousands of soldiers to fight a battle, but only one pen to hunch the harmony!
+            <br /><br /><br />
+            Thank you for reading!<br />
+            Maruf Padaya <br />
+            Secretary General, <br />
+            NITSMUN(2023-24)<br />
           </p>
         </div>
 
@@ -57,11 +49,11 @@ const Secretary = () => {
 
         <div className="sec-imge">
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608035/nitsmun/shreyashi_jt8qid.jpg"
-            alt="shreyashi Roymedhi"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476439/events/nitsmun/team/marufPadaya_faj39h.jpg"
+            alt="Maruf Padaya"
             className="sec-img"
           />
-          <h2 className="sec-nme">Shreyashi Roymedhi</h2>
+          <h2 className="sec-nme">Maruf Padaya</h2>
         </div>
 
         <div className="sec-padding3"></div>
