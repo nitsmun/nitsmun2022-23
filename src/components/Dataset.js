@@ -324,6 +324,14 @@ export const Secretariatjr = [
     linkedin: "https://in.linkedin.com/in/aditi-archita-khataniar-2189a3226",
     fb: "https://www.facebook.com/mumpyyyyyyy",
     mail: "mailto:aditi.khataniar@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 2,
@@ -335,6 +343,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/ronak4195/",
     fb: "https://www.facebook.com/ronak4195",
     mail: "mailto:4195rj@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 3,
@@ -346,6 +362,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/rishav-negi-03a62b17a",
     fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
     mail: "mailto:rishavnegi007@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 4,
@@ -357,6 +381,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/amrita-kashyap-a33069230",
     fb: "https://www.facebook.com/profile.php?id=100076495782914",
     mail: "mailto:amrita7734kashyap@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 5,
@@ -368,6 +400,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/ranjan-kr-kapar-643157229",
     fb: "https://www.facebook.com/ranjan.kapar.9",
     mail: "mailto:ranjan21_ug@mech.nits.ac.in",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 6,
@@ -379,6 +419,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/akshita-hazarika-ab7512226",
     fb: "https://www.facebook.com/profile.php?id=100074174147812",
     mail: "mailto:akshita.hazarika1702@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 7,
@@ -390,6 +438,14 @@ export const Secretariatjr = [
     mail: "mailto:chayanjn24@gmail.com",
     linkedin: "https://www.linkedin.com/in/chayan-gulgulia/",
     fb: "https://www.facebook.com/karya.jain.3",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 8,
@@ -401,6 +457,14 @@ export const Secretariatjr = [
     mail: "mailto:postmail.rohit@gmail.com",
     linkedin: "www.linkedin.com/in/rohit-choudhary-74501522a",
     fb: "https://www.facebook.com/profile.php?id=100076216899401",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 9,
@@ -412,6 +476,14 @@ export const Secretariatjr = [
     mail: "mailto:khush.aggarwal28@gmail.com",
     linkedin: "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
     fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 10,
@@ -423,6 +495,14 @@ export const Secretariatjr = [
     mail: "mailto:sayantan21_ug@ei.nits.ac.in",
     linkedin: "https://www.linkedin.com/in/sayantan-das-0310951ba",
     fb: "https://www.facebook.com/sayantan.das.12764874",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 11,
@@ -434,6 +514,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
     fb: "https://www.facebook.com/bhargavi.nath",
     mail: "mailto:bhargavinath.24@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 12,
@@ -445,6 +533,14 @@ export const Secretariatjr = [
     linkedin: "https://www.linkedin.com/in/surajkumart1542960s",
     fb: "https://www.facebook.com/Suraj28.11.03",
     mail: "mailto:suraj.pampana@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
   },
   {
     id: 13,
@@ -467,7 +563,7 @@ export const Secretariatjr = [
   {
     id: 14,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475826/events/nitsmun/team/adityaRanjan_yetaiw.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/v1681359339/perosnal/edited_aditya_ranjan_lyx5ns.webp",
     alt: "Aditya Ranjan",
     name: "Aditya Ranjan",
     post: "Deputy Director Technical Operations",
