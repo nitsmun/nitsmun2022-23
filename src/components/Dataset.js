@@ -87,13 +87,13 @@ export const Secretariat = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676608035/nitsmun/shreyashi_jt8qid.jpg",
-    name: "Shreyashi Roymedhi",
-    post: "Secretary General",
-    alt: "Shreyashi Roymedhi",
-    linkedin: "https://www.linkedin.com/in/shreyashi-roymedhi-5046451a0",
-    fb: "https://www.facebook.com/profile.php?id=100009709412767",
-    mail: "mailto:shreyashi_ug@mech.nits.ac.in",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476439/events/nitsmun/team/marufPadaya_faj39h.jpg",
+    alt: "Maruf Padaya",
+    name: "Maruf Padaya",
+    post: "Sacretary General",
+    linkedin: "https://www.linkedin.com/in/maruf-padaya-a865151bb",
+    fb: "https://www.facebook.com/maruf.padaya",
+    mail: "mailto:marufpadaya786@gmail.com",
     icon0: (
       <>
         {" "}
@@ -105,224 +105,14 @@ export const Secretariat = [
   },
   {
     id: 2,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477105/events/nitsmun/team/Sai_Lahari-NITSMUN_fkmjw6.jpg",
-    name: "Sai Lahari Jayareddygari",
-    post: "Director General",
-    alt: "Sai Lahari Jayareddygari",
-    linkedin: "https://www.linkedin.com/in/sai-lahari-jayareddygari-57681a196",
-    fb: "https://www.facebook.com/profile.php?id=100006209748653",
-    mail: "mailto:sailahari410@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 3,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476491/events/nitsmun/team/mehulDewangan_htinf7.jpg",
-    name: "Mehul Dewangan",
-    alt: "Mehul Dewangan",
-    post: "Director General",
-    linkedin: "https://www.linkedin.com/in/mehul-dewangan-6bb73a1a0",
-    fb: "https://www.facebook.com/mehul.dewangan.1",
-    mail: "mailto:mehul_ug@cse.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 4,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476526/events/nitsmun/team/mondeepPrakash_sx17hs.jpg",
-    alt: "Mondeep Prakash",
-    name: "Mondeep Prakash",
-    post: "General Secretary",
-    linkedin: "https://www.linkedin.com/in/mondeepprakash/",
-    fb: "https://www.facebook.com/mondeep.prakash/",
-    mail: "mailto:mondeepprakash_ug@cse.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 5,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476632/events/nitsmun/team/niharJyotiBasisth_ozfw79.jpg",
-    alt: "Nihar Jyoti Basisth",
-    name: "Nihar Jyoti Basisth",
-    post: "Director Media & Design",
-    linkedin: "https://www.linkedin.com/in/nihar-jyoti-basisth-121b2319b/",
-    fb: "https://www.facebook.com/nihar.basisth.7",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 6,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477359/events/nitsmun/team/sohanPaul_btmib0.jpg",
-    alt: "Sohan Paul",
-    name: "Sohan Paul",
-    post: "Director Media & Design",
-    linkedin: "http://www.linkedin.com/in/sohan-paul",
-    fb: "https://www.facebook.com/paulsohan2",
-    mail: "mailto:sohan_ug@mech.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 7,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477148/events/nitsmun/team/sanchayitaPurkayastha_fqzk1l.jpg",
-    alt: "Sanchayita Purkayastha",
-    name: "Sanchayita Purkayastha",
-    post: "Director Public Relations and Outreach",
-    linkedin: "https://www.linkedin.com/in/sanchayita-purkayastha-68b62b1a0/",
-    fb: "https://www.facebook.com/sanchayita.purkayastha",
-    mail: "mailto:sanchayita_ug@cse.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 8,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476828/events/nitsmun/team/rahulChourasia_unm4v6.jpg",
-    alt: "Rahul Chourasia",
-    name: "Rahul Chourasia",
-    post: "Director Liaison & Delegate Affairs",
-    linkedin: "https://www.facebook.com/profile.php?id=100008137332638",
-    fb: "https://www.facebook.com/profile.php?id=100008137332638",
-    mail: "mailto:rahulchourasia_ug@civil.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 9,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475790/events/nitsmun/team/adityaKotari_dwuraq.jpg",
-    alt: "Aditya Kotari",
-    name: "Aditya Kotari",
-    post: "Director Technical Operations",
-    linkedin: "https://www.linkedin.com/in/aditya-kotari-499933195/",
-    mail: "mailto:aditya.kotari@gmail.com",
-    fb: "https://github.com/AdityaKotari",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon4">
-          <ImGithub className="icon-color3" size={26} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 10,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477528/events/nitsmun/team/tasneemKoushar_vpikvc.jpg",
-    alt: "Tasneem Koushar",
-    name: "Tasneem Koushar",
-    post: "Director Technical Operations",
-    fb: "https://github.com/tasneemkoushar",
-    linkedin: "https://www.linkedin.com/in/tasneemkoushar/",
-    mail: "mailto:imatasneemkoushar@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon4">
-          <ImGithub className="icon-color3" size={26} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 11,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477425/events/nitsmun/team/sunilKumar_id3lry.jpg",
-    alt: "Sunil Kumar Mulkala",
-    name: "Sunil Kumar Mulkala",
-    post: "Director Logistics",
-    linkedin: "https://www.linkedin.com/in/sunil-kumar-mulkala-036360196",
-    fb: "https://www.facebook.com/profile.php?id=100006872709714",
-    mail: "mailto:sunil.mulkala143@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-];
-export const Secretariatjr = [
-  {
-    id: 1,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476257/events/nitsmun/team/eishaHalder_dkjwgf.jpg",
     alt: "Eisha Halder",
     name: "Eisha Halder",
-    post: "Deputy Director General",
+    post: "Director General",
     linkedin: "https://www.linkedin.com/in/eisha-halder-a42367200",
     fb: "https://www.facebook.com/eisha.halder.16",
     mail: "mailto:eisha20_ug@cse.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 2,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476439/events/nitsmun/team/marufPadaya_faj39h.jpg",
-    alt: "Maruf Padaya",
-    name: "Maruf Padaya",
-    post: "Deputy Director General",
-    linkedin: "https://www.linkedin.com/in/maruf-padaya-a865151bb",
-    fb: "https://www.facebook.com/maruf.padaya",
-    mail: "mailto:marufpadaya786@gmail.com",
     icon0: (
       <>
         {" "}
@@ -338,7 +128,7 @@ export const Secretariatjr = [
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476735/events/nitsmun/team/pranjalKumarSingh_adqmoi.jpg",
     alt: "Pranjal Kumar Singh",
     name: "Pranjal Kumar Singh",
-    post: "Deputy Director General",
+    post: "Director General",
     linkedin: "https://www.linkedin.com/in/pranjal-singh-b17037201",
     fb: "https://www.facebook.com/profile.php?id=100005172197980",
     mail: "mailto:pranjal7802@gmail.com",
@@ -354,13 +144,13 @@ export const Secretariatjr = [
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476978/events/nitsmun/team/ritupornaDas_gsfhsy.jpg",
-    alt: "Rituporna Das",
-    name: "Rituporna Das",
-    post: "Deputy Director General",
-    linkedin: "https://www.linkedin.com/in/rituporna-das-a8a71720b",
-    fb: "https://www.facebook.com/profile.php?id=100057949881243",
-    mail: "mailto:dasrituporna555@gmail.com",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476192/events/nitsmun/team/dhirazitHazarika_pzucs3.png",
+    alt: "Dhirazit Hazarika",
+    name: "Dhirazit Hazarika",
+    post: "General Secretary",
+    linkedin: "https://www.linkedin.com/",
+    fb: "https://www.facebook.com/dhirazit.hazarika",
+    mail: "mailto:dhirazit20_ug@mech.nits.ac.in",
     icon0: (
       <>
         {" "}
@@ -376,7 +166,7 @@ export const Secretariatjr = [
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476898/events/nitsmun/team/reetomRanaDutta_jjb837.jpg",
     alt: "Reetom Rana Dutta",
     name: "Reetom Rana Dutta",
-    post: "Deputy Director Media & Design",
+    post: "Director Media & Design",
     linkedin: "https://www.linkedin.com/in/reetom-rana-dutta-34156220a",
     fb: "https://www.facebook.com/reetom.ranadutta",
     mail: "mailto:reetom20_ug@ee.nits.ac.in",
@@ -392,105 +182,10 @@ export const Secretariatjr = [
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477186/events/nitsmun/team/Saurav_Chanda_ygve27.jpg",
-    alt: "Saurav Chanda",
-    name: "Saurav Chanda",
-    post: "Deputy Director Media & Design",
-    linkedin: "https://www.linkedin.com/in/saurav-chanda-139356222",
-    fb: "https://www.facebook.com/stuarttat120",
-    mail: "mailto:chandasaurav120@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 7,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476562/events/nitsmun/team/mrigangaJyotiChutia_hnssct.jpg",
-    alt: "Mriganga Jyoti Chutia",
-    name: "Mriganga Jyoti Chutia",
-    post: "Deputy Director Media & Design",
-    linkedin: "https://www.linkedin.com/in/mriganga-jyoti-chutia-475b53202",
-    fb: "https://www.facebook.com/mriganga.jyotichutia",
-    mail: "mailto:mrigangajyoti25092001@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 8,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476048/events/nitsmun/team/bishalKarmakar_pywxdf.jpg",
-    alt: "Bishal Karmakar",
-    name: "Bishal Karmakar",
-    post: "Deputy Director Public Relations & Outreach",
-    linkedin: "https://www.linkedin.com/in/bishal-karmakar-26942a20b/",
-    fb: "https://www.facebook.com/profile.php?id=100011434842985",
-    mail: "mailto:bishalkarmakar123456@gmail.com",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 9,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477390/events/nitsmun/team/somadritaHalder_mz5jbp.jpg",
-    alt: "Somadrita Halder",
-    name: "Somadrita Halder",
-    post: "Deputy Director Public Relations & Outreach",
-    linkedin: "https://www.linkedin.com/mwlite/in/somadrita-halder-46156220a",
-    fb: "https://m.facebook.com/somadrita.halder?ref=bookmarks",
-    mail: "mailto:somadrita20_ug@mech.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 10,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476192/events/nitsmun/team/dhirazitHazarika_pzucs3.png",
-    alt: "Dhirazit Hazarika",
-    name: "Dhirazit Hazarika",
-    post: "Deputy Director Liaison & Delegate Affairs",
-    linkedin: "https://www.linkedin.com/",
-    fb: "https://www.facebook.com/dhirazit.hazarika",
-    mail: "mailto:dhirazit20_ug@mech.nits.ac.in",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 11,
-    cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477495/events/nitsmun/team/tanmayTripathy_t73soe.jpg",
     alt: "Tanmay Tripathy",
     name: "Tanmay Tripathy",
-    post: "Deputy Director Liaison & Delegate Affairs",
+    post: "Director Media & Design",
     linkedin: "https://www.linkedin.com/in/tanmay-tripathy/",
     fb: "https://www.facebook.com/profile.php?id=100009726932773",
     mail: "mailto:ttripathy17@gmail.com",
@@ -504,12 +199,69 @@ export const Secretariatjr = [
     ),
   },
   {
-    id: 12,
+    id: 7,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476048/events/nitsmun/team/bishalKarmakar_pywxdf.jpg",
+    alt: "Bishal Karmakar",
+    name: "Bishal Karmakar",
+    post: "Director Public Relations & Outreach",
+    linkedin: "https://www.linkedin.com/in/bishal-karmakar-26942a20b/",
+    fb: "https://www.facebook.com/profile.php?id=100011434842985",
+    mail: "mailto:bishalkarmakar123456@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
+  },
+  {
+    id: 8,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477390/events/nitsmun/team/somadritaHalder_mz5jbp.jpg",
+    alt: "Somadrita Halder",
+    name: "Somadrita Halder",
+    post: "Director Public Relations & Outreach",
+    linkedin: "https://www.linkedin.com/mwlite/in/somadrita-halder-46156220a",
+    fb: "https://m.facebook.com/somadrita.halder?ref=bookmarks",
+    mail: "mailto:somadrita20_ug@mech.nits.ac.in",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
+  },
+  {
+    id: 9,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477253/events/nitsmun/team/sauravSuman_hpn56k.jpg",
+    alt: "Saurav Suman",
+    name: "Saurav Suman",
+    post: "Director Liaison & Delegate Affairs",
+    linkedin: "https://www.linkedin.com/in/saurav-suman-49a78620a",
+    fb: "https://www.facebook.com/saurav.suman.7946281",
+    mail: "mailto:sumanism1102@gmail.com",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon3">
+          <FaFacebookF className="icon-color2" size={25} />
+        </button>{" "}
+      </>
+    ),
+  },
+  {
+    id: 10,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477220/events/nitsmun/team/sauravPal_luh8rf.jpg",
     alt: "Saurav Pal",
     name: "Saurav Pal",
-    post: "Deputy Director Technical Operations",
+    post: "Director Technical Operations",
     linkedin: "https://www.linkedin.com/in/resyfer/",
     fb: "https://github.com/resyfer",
     mail: "mailto:palsaurav.2020@gmail.com",
@@ -523,12 +275,12 @@ export const Secretariatjr = [
     ),
   },
   {
-    id: 13,
+    id: 11,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476015/events/nitsmun/team/bijuBorah_fyjn1q.jpg",
     alt: "Biju Borah",
     name: "Biju Borah",
-    post: "Deputy Director Technical Operations",
+    post: "Director Technical Operations",
     fb: "https://github.com/biju-borah",
     linkedin: "https://www.linkedin.com/in/biju-borah-1bb78620a",
     mail: "mailto:biju20_ug@ee.nits.ac.in",
@@ -542,12 +294,12 @@ export const Secretariatjr = [
     ),
   },
   {
-    id: 14,
+    id: 12,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476156/events/nitsmun/team/devendarSainadhGorla_cqauua.jpg",
     alt: "Devendar Sainadh Gorla",
     name: "Devendar Sainadh Gorla",
-    post: "Deputy Director Logistics",
+    post: "Director Logistics",
     linkedin: "https://www.linkedin.com/in/devendar-sainadh-gorla-9021a91b5",
     fb: "https://www.facebook.com/devendar1729",
     mail: "mailto:devendargorla@gmail.com",
@@ -560,26 +312,256 @@ export const Secretariatjr = [
       </>
     ),
   },
+];
+export const Secretariatjr = [
   {
-    id: 15,
+    id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477253/events/nitsmun/team/sauravSuman_hpn56k.jpg",
-    alt: "Saurav Suman",
-    name: "Saurav Suman",
-    post: "Deputy Director Logistics",
-    linkedin: "https://www.linkedin.com/in/saurav-suman-49a78620a",
-    fb: "https://www.facebook.com/saurav.suman.7946281",
-    mail: "mailto:sumanism1102@gmail.com",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475732/events/nitsmun/aditi_MUN_o2zaxx.jpg",
+    alt: "Aditi Archita Khataniar",
+    name: "Aditi Archita Khataniar",
+    post: "Deputy Director General",
+    linkedin: "https://in.linkedin.com/in/aditi-archita-khataniar-2189a3226",
+    fb: "https://www.facebook.com/mumpyyyyyyy",
+    mail: "mailto:aditi.khataniar@gmail.com",
+  },
+  {
+    id: 2,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477071/events/nitsmun/team/Ronak_Jain_etgqal.jpg",
+    alt: "Ronak Jain",
+    name: "Ronak Jain",
+    post: "Deputy Director General",
+    linkedin: "https://www.linkedin.com/in/ronak4195/",
+    fb: "https://www.facebook.com/ronak4195",
+    mail: "mailto:4195rj@gmail.com",
+  },
+  {
+    id: 3,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476938/events/nitsmun/team/rishavnegi_n2aajx.jpg",
+    alt: "Rishav Singh Negi",
+    name: "Rishav Singh Negi",
+    post: "Deputy Director Media & Design",
+    linkedin: "https://www.linkedin.com/in/rishav-negi-03a62b17a",
+    fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
+    mail: "mailto:rishavnegi007@gmail.com",
+  },
+  {
+    id: 4,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475904/events/nitsmun/team/Amrita_kashyap_nmvsdf.jpg",
+    alt: "Amrita Kashyap",
+    name: "Amrita Kashyap",
+    post: "Deputy Director Media & Design",
+    linkedin: "https://www.linkedin.com/in/amrita-kashyap-a33069230",
+    fb: "https://www.facebook.com/profile.php?id=100076495782914",
+    mail: "mailto:amrita7734kashyap@gmail.com",
+  },
+  {
+    id: 5,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476862/events/nitsmun/team/ranjanKapar_j4hqgc.jpg",
+    alt: "Ranjan Kr Kapar",
+    name: "Ranjan Kr Kapar",
+    post: "Deputy Director Media & Design",
+    linkedin: "https://www.linkedin.com/in/ranjan-kr-kapar-643157229",
+    fb: "https://www.facebook.com/ranjan.kapar.9",
+    mail: "mailto:ranjan21_ug@mech.nits.ac.in",
+  },
+  {
+    id: 6,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475868/events/nitsmun/team/akshita_hazarika_fqnwky.jpg",
+    alt: "Akshita Hazarika",
+    name: "Akshita Hazarika",
+    post: "Deputy Director Media & Design",
+    linkedin: "https://www.linkedin.com/in/akshita-hazarika-ab7512226",
+    fb: "https://www.facebook.com/profile.php?id=100074174147812",
+    mail: "mailto:akshita.hazarika1702@gmail.com",
+  },
+  {
+    id: 7,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476080/events/nitsmun/team/Chayan_tya1ek.jpg",
+    alt: "Chayan Gulgulia",
+    name: "Chayan Gulgulia",
+    post: "Deputy Director Public Relations & Outreach",
+    mail: "mailto:chayanjn24@gmail.com",
+    linkedin: "https://www.linkedin.com/in/chayan-gulgulia/",
+    fb: "https://www.facebook.com/karya.jain.3",
+  },
+  {
+    id: 8,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477032/events/nitsmun/team/rohit1_eh4kdf.png",
+    alt: "Rohit Choudhary",
+    name: "Rohit Choudhary",
+    post: "Deputy Director Public Relations & Outreach",
+    mail: "mailto:postmail.rohit@gmail.com",
+    linkedin: "www.linkedin.com/in/rohit-choudhary-74501522a",
+    fb: "https://www.facebook.com/profile.php?id=100076216899401",
+  },
+  {
+    id: 9,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476399/events/nitsmun/team/khush_MUN_w0cszx.jpg",
+    alt: "Khush Agarwal",
+    name: "Khush Agarwal",
+    post: "Deputy Director Public Relations & Outreach",
+    mail: "mailto:khush.aggarwal28@gmail.com",
+    linkedin: "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
+    fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
+  },
+  {
+    id: 10,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477322/events/nitsmun/team/sayantanDas_xiusrh.jpg",
+    alt: "Sayantan Das",
+    name: "Sayantan Das",
+    post: "Deputy Director Public Relations & Outreach",
+    mail: "mailto:sayantan21_ug@ei.nits.ac.in",
+    linkedin: "https://www.linkedin.com/in/sayantan-das-0310951ba",
+    fb: "https://www.facebook.com/sayantan.das.12764874",
+  },
+  {
+    id: 11,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475981/events/nitsmun/team/Bhargabi_Nath_yepwww.jpg",
+    alt: "Bhargabi Nath",
+    name: "Bhargabi Nath",
+    post: "Deputy Director Liaison & Delegate Affairs",
+    linkedin: "https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
+    fb: "https://www.facebook.com/bhargavi.nath",
+    mail: "mailto:bhargavinath.24@gmail.com",
+  },
+  {
+    id: 12,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477462/events/nitsmun/team/Suraj_Kumar_Pampana_e3kaio.jpg",
+    alt: "Suraj Kumar Pampana",
+    name: "Suraj Kumar Pampana",
+    post: "Deputy Director Liaison & Delegate Affairs",
+    linkedin: "https://www.linkedin.com/in/surajkumart1542960s",
+    fb: "https://www.facebook.com/Suraj28.11.03",
+    mail: "mailto:suraj.pampana@gmail.com",
+  },
+  {
+    id: 13,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477584/events/nitsmun/team/Ankit3_stpz8d.jpg",
+    alt: "Ankit Upadhaya",
+    name: "Ankit Upadhaya",
+    post: "Deputy Director Technical Operations",
+    mail: "mailto:ankitupadhaya07@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ankit-upadhaya07",
+    fb: "https://github.com/ankit07an",
+    icon0: (
+      <>
+        <button className="btn-icon4">
+          <ImGithub className="icon-color3" size={26} />
+        </button>{" "}
+      </>
+    ),
+  },
+  {
+    id: 14,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475826/events/nitsmun/team/adityaRanjan_yetaiw.jpg",
+    alt: "Aditya Ranjan",
+    name: "Aditya Ranjan",
+    post: "Deputy Director Technical Operations",
+    mail: "mailto:hereisadi@pm.me",
+    linkedin: "https://www.linkedin.com/in/aditya-ranjan-77a6a522b/",
+    fb: "https://github.com/hereisadi",
     icon0: (
       <>
         {" "}
-        <button className="btn-icon3">
-          <FaFacebookF className="icon-color2" size={25} />
+        <button className="btn-icon4">
+          <ImGithub className="icon-color3" size={26} />
+        </button>{" "}
+      </>
+    ),
+  },
+  {
+    id: 15,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476226/events/nitsmun/team/dorothy2_zk4myd.jpg",
+    alt: "Dorothy Phukon",
+    name: "Dorothy Phukon",
+    post: "Deputy Director Technical Operations",
+    mail: "mailto:dorothy21_ug@ee.nits.ac.in",
+    linkedin: "https://www.linkedin.com/in/dorothy-phukon-48a066230",
+    fb: "https://github.com/dorothyp12",
+    icon0: (
+      <>
+        {" "}
+        <button className="btn-icon4">
+          <ImGithub className="icon-color3" size={26} />
         </button>{" "}
       </>
     ),
   },
 ];
+// export const Secretariatmediajr = [
+//   // {
+//   //   id: 1,
+//   //   cName: "team-sec",
+//   //   imgsrc: "./Images/Rimlee Ghosh.jpg",
+//   //   alt: "Rimlee Ghosh",
+//   //   name: "Rimlee Ghosh",
+//   //   post: "Media & Design Team",
+//   //   linkedin: "https://www.linkedin.com/in/rimlee-ghosh-678b65237",
+//   //   fb: "https://www.facebook.com/profile.php?id=100075884483252",
+//   //   mail: "mailto:rimlee21_ug@ee.nits.ac.in",
+//   // },
+// {
+//   id: 1,
+//   cName: "team-sec",
+//   imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475868/events/nitsmun/team/akshita_hazarika_fqnwky.jpg",
+//   alt: "Akshita Hazarika",
+//   name: "Akshita Hazarika",
+//   post: "Media & Design Team",
+//   linkedin: "https://www.linkedin.com/in/akshita-hazarika-ab7512226",
+//   fb: "https://www.facebook.com/profile.php?id=100074174147812",
+//   mail: "mailto:akshita.hazarika1702@gmail.com",
+// },
+
+// {
+//   id: 2,
+//   cName: "team-sec",
+//   imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476862/events/nitsmun/team/ranjanKapar_j4hqgc.jpg",
+//   alt: "Ranjan Kr Kapar",
+//   name: "Ranjan Kr Kapar",
+//   post: "Media & Design Team",
+//   linkedin: "https://www.linkedin.com/in/ranjan-kr-kapar-643157229",
+//   fb: "https://www.facebook.com/ranjan.kapar.9",
+//   mail: "mailto:ranjan21_ug@mech.nits.ac.in",
+// },
+// {
+//   id: 3,
+//   cName: "team-sec",
+//   imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475904/events/nitsmun/team/Amrita_kashyap_nmvsdf.jpg",
+//   alt: "Amrita Kashyap",
+//   name: "Amrita Kashyap",
+//   post: "Media & Design Team",
+//   linkedin: "https://www.linkedin.com/in/amrita-kashyap-a33069230",
+//   fb: "https://www.facebook.com/profile.php?id=100076495782914",
+//   mail: "mailto:amrita7734kashyap@gmail.com",
+// },
+// {
+//   id: 4,
+//   cName: "team-sec",
+//   imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476938/events/nitsmun/team/rishavnegi_n2aajx.jpg",
+//   alt: "Rishav Singh Negi",
+//   name: "Rishav Singh Negi",
+//   post: "Media & Design Team",
+//   linkedin: "https://www.linkedin.com/in/rishav-negi-03a62b17a",
+//   fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
+//   mail: "mailto:rishavnegi007@gmail.com",
+// },
+// ];
+
 export const Secretariatmediajr = [
   // {
   //   id: 1,
@@ -595,47 +577,47 @@ export const Secretariatmediajr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475868/events/nitsmun/team/akshita_hazarika_fqnwky.jpg",
-    alt: "Akshita Hazarika",
-    name: "Akshita Hazarika",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931106/nitsmun/ayush_sdvmfc.webp",
+    alt: "Aayush Sharma ",
+    name: "Aayush Sharma ",
     post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/akshita-hazarika-ab7512226",
-    fb: "https://www.facebook.com/profile.php?id=100074174147812",
-    mail: "mailto:akshita.hazarika1702@gmail.com",
+    linkedin: "http://www.linkedin.com/in/aayush1304",
+    fb: "https://www.facebook.com/Aayush.Sharma.fb/",
+    mail: "mailto:aayushsharma1304@gmail.com",
   },
 
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476862/events/nitsmun/team/ranjanKapar_j4hqgc.jpg",
-    alt: "Ranjan Kr Kapar",
-    name: "Ranjan Kr Kapar",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931105/nitsmun/gracie_dsp5vs.webp",
+    alt: "Gracie G Rabha",
+    name: "Gracie G Rabha",
     post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/ranjan-kr-kapar-643157229",
-    fb: "https://www.facebook.com/ranjan.kapar.9",
-    mail: "mailto:ranjan21_ug@mech.nits.ac.in",
+    linkedin: "https://www.linkedin.com/in/gracie-g-rabha-4472621aa",
+    fb: "https://www.facebook.com/profile.php?id=100087872117590&mibextid=ZbWKwL",
+    mail: "mailto:gracieruth2505@gmail.com",
   },
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475904/events/nitsmun/team/Amrita_kashyap_nmvsdf.jpg",
-    alt: "Amrita Kashyap",
-    name: "Amrita Kashyap",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931103/nitsmun/kaustabh_kiwlfm.webp",
+    alt: "Kaustav Dev",
+    name: "Kaustav Dev",
     post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/amrita-kashyap-a33069230",
-    fb: "https://www.facebook.com/profile.php?id=100076495782914",
-    mail: "mailto:amrita7734kashyap@gmail.com",
+    linkedin: "https://www.linkedin.com/in/kaustav-dev-429123248",
+    fb: "https://www.facebook.com/profile.php?id=100087939076312&mibextid=ZbWKwL",
+    mail: "mailto:devkaustav769@gmail.com",
   },
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476938/events/nitsmun/team/rishavnegi_n2aajx.jpg",
-    alt: "Rishav Singh Negi",
-    name: "Rishav Singh Negi",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931107/nitsmun/dhritimaan_ch4o4q.webp",
+    alt: "Dhritimaan Hazarika",
+    name: "Dhritimaan Hazarika",
     post: "Media & Design Team",
-    linkedin: "https://www.linkedin.com/in/rishav-negi-03a62b17a",
-    fb: "https://www.facebook.com/profile.php?id=100087438950717&mibextid=ZbWKwL",
-    mail: "mailto:rishavnegi007@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dhritimaan-hazarika-5131a0259",
+    fb: "https://www.facebook.com/profile.php?id=100087984024219",
+    mail: "mailto:dhritimaan02@gmail.com",
   },
 ];
 
@@ -654,182 +636,149 @@ export const Secretariatresearchjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476118/events/nitsmun/team/chimronSaikia1_empiw6.jpg",
-    alt: "Chimron Saikia",
-    name: "Chimron Saikia",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931106/nitsmun/bhaswar_dx9d8o.webp",
+    alt: "Bhaswar Agnivesh",
+    name: "Bhaswar Agnivesh",
     post: "Research and Development Team",
-    linkedin: "https://www.linkedin.com/in/chimron-saikia-3617ba22b",
-    fb: "https://www.facebook.com/profile.php?id=100075977448045",
-    mail: "mailto:saikiachimron@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bhaswar-agnivesh-b90825293?trk=contact-info",
+    fb: "https://www.facebook.com/profile.php?id=100087858823510&mibextid=ZbWKwL",
+    mail: "mailto:bhaswaragnivesh@gmail.com",
   },
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475732/events/nitsmun/aditi_MUN_o2zaxx.jpg",
-    alt: "Aditi Archita Khataniar",
-    name: "Aditi Archita Khataniar",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931103/nitsmun/paditya_kogiwt.webp",
+    alt: "Pidaparthi Satyasai Aditya",
+    name: "Pidaparthi Satyasai Aditya",
     post: "Research and Development Team",
-    linkedin: "https://in.linkedin.com/in/aditi-archita-khataniar-2189a3226",
-    fb: "https://www.facebook.com/mumpyyyyyyy",
-    mail: "mailto:aditi.khataniar@gmail.com",
+    linkedin: "http://linkedin.com/in/p-sathya-sai-aditya-022b58253",
+    fb: "https://www.facebook.com/profile.php?id=100087007144018",
+    mail: "mailto:psathyasaiaditya@gmail.com",
   },
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477071/events/nitsmun/team/Ronak_Jain_etgqal.jpg",
-    alt: "Ronak Jain",
-    name: "Ronak Jain",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931105/nitsmun/dewang_nk4ilm.webp",
+    alt: "Dewang Bawri",
+    name: "Dewang Bawri",
     post: "Research and Development Team",
-    linkedin: "https://www.linkedin.com/in/ronak4195/",
-    fb: "https://www.facebook.com/ronak4195",
-    mail: "mailto:4195rj@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dewang-bawri-37885724a",
+    fb: "https://m.facebook.com/profile.php/?id=100014583841018&name=STSDirectNavUserDecorator",
+    mail: "mailto:bawridewang210@gmail.com",
   },
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477462/events/nitsmun/team/Suraj_Kumar_Pampana_e3kaio.jpg",
-    alt: "Suraj Kumar Pampana",
-    name: "Suraj Kumar Pampana",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/barbi_alsh1h.webp",
+    alt: "Barbi Chaliha",
+    name: "Barbi Chaliha",
     post: "Research and Development Team",
-    linkedin: "https://www.linkedin.com/in/surajkumart1542960s",
-    fb: "https://www.facebook.com/Suraj28.11.03",
-    mail: "mailto:suraj.pampana@gmail.com",
+    linkedin: "https://www.linkedin.com/in/barbi-chaliha-395972254",
+    fb: "https://m.facebook.com/profile.php/?id=100014583841018&name=STSDirectNavUserDecorator",
+    mail: "mailto:barbic_ug_22@ece.nits.ac.in",
   },
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476289/events/nitsmun/team/hrishikeshBorah_oblsog.jpg",
-    alt: "Hrishikesh Borah",
-    name: "Hrishikesh Borah",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931103/nitsmun/p_harsh_geatf1.webp",
+    alt: "P Shri Harsh",
+    name: "P Shri Harsh",
     post: "Research and Development Team",
-    linkedin: "https://www.linkedin.com/in/hrishikeshborah",
-    fb: "https://www.facebook.com/profile.php?id=100067302155229",
-    mail: "mailto:hrishikeshborahofficial@gmail.com",
+    linkedin: "https://www.linkedin.com/in/pragada-phani-shri-harsh-5b6469258",
+    fb: "https://www.facebook.com/profile.php?id=100088211767635&mibextid=ZbWKwL",
+    mail: "mailto:shriharsh0407@gmail.com",
   },
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475981/events/nitsmun/team/Bhargabi_Nath_yepwww.jpg",
-    alt: "Bhargabi Nath",
-    name: "Bhargabi Nath",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931105/nitsmun/vishnu_priya_m7rmcz.webp",
+    alt: "Vishnu Priya",
+    name: "Vishnu Priya",
     post: "Research and Development Team",
-    linkedin: "https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
-    fb: "https://www.facebook.com/bhargavi.nath",
-    mail: "mailto:bhargavinath.24@gmail.com",
+    linkedin: "https://www.linkedin.com/in/vishnu-priya-243418247",
+    fb: "https://www.facebook.com/profile.php?id=100082966149038&mibextid=ZbWKwL",
+    mail: "mailto:vishnupriyavivek13@gmail.com",
   },
 ];
 export const Secretariatprjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476597/events/nitsmun/team/Nihal_singh2_ic3hsb.jpg",
-    alt: "Nihal Singh",
-    name: "Nihal singh",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931102/nitsmun/mayurakhi_a8xhjj.webp",
+    alt: "Mayurakhi Khaund",
+    name: "Mayurakhi Khaund",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:nihalsingh8348@gmail.com",
-    linkedin: "https://www.linkedin.com/in/nihal-singh-0809b5218",
-    fb: "https://www.facebook.com/profile.php?id=100023071661662",
+    mail: "mailto:mayurakhikhaund7@gmail.com",
+    linkedin: "https://www.linkedin.com/in/mayurakhi-khaund-039981257",
+    fb: "https://www.facebook.com/profile.php?id=100087804338539&mibextid=ZbWKwL",
   },
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477287/events/nitsmun/team/Sayan_Kangsa_Banik_vexjd7.jpg",
-    alt: "Sayan Kangsa Banik",
-    name: "Sayan Kangsa Banik",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/arihant_r5m73m.webp",
+    alt: "Arihant Tiwari",
+    name: "Arihant Tiwari",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:sayanbanik37@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sayan-banik-733b8321b",
-    fb: "https://www.facebook.com/profile.php?id=100075972468077",
+    mail: "mailto:arihanttiwari1@gmail.com",
+    linkedin: "https://www.linkedin.com/in/arihant-tiwari-558b39257",
+    fb: "https://www.facebook.com/profile.php?id=100088291966046&mibextid=ZbWKwL",
   },
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477322/events/nitsmun/team/sayantanDas_xiusrh.jpg",
-    alt: "Sayantan Das",
-    name: "Sayantan Das",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/debaditya_exshot.webp",
+    alt: "Debaditya Bhattacharjee",
+    name: "Debaditya Bhattacharjee",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:sayantan21_ug@ei.nits.ac.in",
-    linkedin: "https://www.linkedin.com/in/sayantan-das-0310951ba",
-    fb: "https://www.facebook.com/sayantan.das.12764874",
+    mail: "mailto:bhattacharjeedebaditya1234@gmail.com",
+    linkedin: "https://www.linkedin.com/in/debaditya-bhattacharjee-ab57a5244",
+    fb: "https://www.facebook.com/profile.php?id=100088157643554",
   },
   {
     id: 4,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476080/events/nitsmun/team/Chayan_tya1ek.jpg",
-    alt: "Chayan Gulgulia",
-    name: "Chayan Gulgulia",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/bishal_paul_biswas_fhcjso.webp",
+    alt: "Bishal Paul Biswas",
+    name: "Bishal Paul Biswas",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:chayanjn24@gmail.com",
-    linkedin: "https://www.linkedin.com/in/chayan-gulgulia/",
-    fb: "https://www.facebook.com/karya.jain.3",
+    mail: "mailto:bishalp.biswas@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bishal-paul-biswas-592341257/",
+    fb: "https://www.facebook.com/profile.php?id=100087658158317",
   },
   {
     id: 5,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477032/events/nitsmun/team/rohit1_eh4kdf.png",
-    alt: "Rohit Choudhary",
-    name: "Rohit Choudhary",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/tripti_ydvxdv.webp",
+    alt: "Tripti Golchha",
+    name: "Tripti Golchha",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:postmail.rohit@gmail.com",
-    linkedin: "www.linkedin.com/in/rohit-choudhary-74501522a",
-    fb: "https://www.facebook.com/profile.php?id=100076216899401",
+    mail: "mailto:triptigold02@gmail.com",
+    linkedin: "https://www.linkedin.com/in/tripti-golchha-b7066818b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BY7ZnB0uUQoG8vO8uq7FbgA%3D%3D",
+    fb: "https://www.facebook.com/tripti.golchha.1/",
   },
   {
     id: 6,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476783/events/nitsmun/team/priyanshuJayant_u5cxiv.jpg",
-    alt: "Priyanshu Jayant",
-    name: "Priyanshu Jayant",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931102/nitsmun/alya_jain_yazhvn.webp",
+    alt: "Aalya Jain",
+    name: "Aalya Jain",
     post: "Public Relations & Outreach Team",
-    mail: "mailto:priyanshujayant3121@gmail.com",
-    linkedin: "www.linkedin.com/in/priyanshu-jayant-2916ab22b",
-    fb: "https://www.facebook.com/profile.php?id=100076001475322",
-  },
-  {
-    id: 7,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476399/events/nitsmun/team/khush_MUN_w0cszx.jpg",
-    alt: "Khush Agarwal",
-    name: "Khush Agarwal",
-    post: "Public Relations & Outreach Team",
-    mail: "mailto:khush.aggarwal28@gmail.com",
-    linkedin: "https://www.linkedin.com/in/khush-aggarwal-ab9837227",
-    fb: "https://www.facebook.com/khush.aggarwal.7?mibextid=ZbWKwL",
-  },
-  {
-    id: 8,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476324/events/nitsmun/team/Ilhan_MUN_wfrs31.jpg",
-    alt: "Ilhan Ahmed",
-    name: "Ilhan Ahmed",
-    post: "Public Relations & Outreach Team",
-    mail: "mailto:ilhan078@gmail.com",
-    linkedin: "https://www.linkedin.com/in/ilhan-ahmed-39568b250/",
-    fb: "https://www.facebook.com/ilhan.ahmed.756/",
-  },
-  {
-    id: 9,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476678/events/nitsmun/team/nikunj_mun_jp8rlr.jpg",
-    alt: "Nikunj Beriwal",
-    name: "Nikunj Beriwal",
-    post: "Public Relations & Outreach Team",
-    mail: "mailto:nikunjberiwal1234567@gmail.com",
-    linkedin: "https://www.linkedin.com/mwlite/in/nikunj-beriwal-4a4ab025b",
-    fb: "https://www.facebook.com/profile.php?id=100010135142917",
-  },
+    mail: "mailto:Aalyaj_ug_22@ee.nits.ac.in",
+    linkedin: "https://www.linkedin.com/in/aalya-jain-ab1658262",
+    fb: "https://www.facebook.com/profile.php?id=100087870020285&mibextid=ZbWKwL",
+  }
 ];
 export const Secretariatwebjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676477584/events/nitsmun/team/Ankit3_stpz8d.jpg",
-    alt: "Ankit Upadhaya",
-    name: "Ankit Upadhaya",
+    imgsrc: "https://res.cloudinary.com/dxdxzcn0q/image/upload/v1694600896/ECS%20Website/barnil_or2isx.jpg",
+    alt: "Barnil Sarma",
+    name: "Barnil Sarma",
     post: "Web Development Team",
-    mail: "mailto:ankitupadhaya07@gmail.com",
+    mail: "mailto:barnilsarma@gmail.com",
     linkedin: "https://www.linkedin.com/in/ankit-upadhaya07",
-    fb: "https://github.com/ankit07an",
+    fb: "https://github.com/barnilsarma",
     icon0: (
       <>
         <button className="btn-icon4">
@@ -841,13 +790,13 @@ export const Secretariatwebjr = [
   {
     id: 2,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475826/events/nitsmun/team/adityaRanjan_yetaiw.jpg",
-    alt: "Aditya Ranjan",
-    name: "Aditya Ranjan",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931102/nitsmun/anuj_q2ilee.webp",
+    alt: "Anuj Kumar",
+    name: "Anuj Kumar",
     post: "Web Development Team",
-    mail: "mailto:hereisadi@pm.me",
-    linkedin: "https://www.linkedin.com/in/aditya-ranjan-77a6a522b/",
-    fb: "https://github.com/hereisadi",
+    mail: "mailto:anuj34246@gmail.com",
+    linkedin: "https://www.facebook.com/profile.php?id=100087733476599&mibextid=9R9pXO",
+    fb: "https://github.com/anuj34246",
     icon0: (
       <>
         {" "}
@@ -860,13 +809,13 @@ export const Secretariatwebjr = [
   {
     id: 3,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676476226/events/nitsmun/team/dorothy2_zk4myd.jpg",
-    alt: "Dorothy Phukon",
-    name: "Dorothy Phukon",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/samarjit_yzad4o.webp",
+    alt: "Samarjit Roy",
+    name: "Samarjit Roy",
     post: "Web Development Team",
-    mail: "mailto:dorothy21_ug@ee.nits.ac.in",
-    linkedin: "https://www.linkedin.com/in/dorothy-phukon-48a066230",
-    fb: "https://github.com/dorothyp12",
+    mail: "mailto:samarjitroy025@gmail.com",
+    linkedin: "https://www.linkedin.com/in/samarjit-roy-368071257/",
+    fb: "https://github.com/Samarjit25",
     icon0: (
       <>
         {" "}
@@ -937,23 +886,23 @@ export const Articleforhome = [
 
 export const Articledata = [
   {
-id:"International Women's Day",
-Title: "International Women's Day",
-Alt: "International Women's Day",
-Date: "Posted on: 8th March, 2023",
-date0: "March 8, 2023",
-Artimg:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
-Artimg2:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
-cshort: (
-  <>
-   On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.
-  </>
-),
-Content: (
-  <>
-   "She was a Phantom of delight<br/>When first she gleamed upon my sight;<br/>A lovely Apparition sent<br/>To be a moment’s ornament;<br/><br/>–William Wordsworth<br/><br/>On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.<br/><br/>This is a global day celebrating the historical, cultural, and political achievements of women. The day was also observed in support of taking action against gender inequality around the world. We all know the world couldn’t run without women (we mean, just listen to Beyoncé).<br/><br/>So let us all take a moment to appreciate every woman in our life and thank them for their selfless love and support and remind them how lucky you are to have them in your life.
-  </>
-),
+    id: "International Women's Day",
+    Title: "International Women's Day",
+    Alt: "International Women's Day",
+    Date: "Posted on: 8th March, 2023",
+    date0: "March 8, 2023",
+    Artimg: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
+    Artimg2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678285240/nitsmun/Articles/1678282101275_owajev.webp",
+    cshort: (
+      <>
+        On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.
+      </>
+    ),
+    Content: (
+      <>
+        "She was a Phantom of delight<br />When first she gleamed upon my sight;<br />A lovely Apparition sent<br />To be a moment’s ornament;<br /><br />–William Wordsworth<br /><br />On March 8, Women’s Day is commemorated to honor women of all ages and races in a world where they can live freely and up to their own terms. Women have always been suppressed by some kind of force that has restricted their choices and freedom. But as times are progressing, women are rising up to their full potential and taking steps to ensure they have the means, choice, and freedom to speak and do whatever they want. Women’s Day celebrates the very essence of women all over the world. This day marks the importance of why women should be treated equally without any bias or prejudice.<br /><br />This is a global day celebrating the historical, cultural, and political achievements of women. The day was also observed in support of taking action against gender inequality around the world. We all know the world couldn’t run without women (we mean, just listen to Beyoncé).<br /><br />So let us all take a moment to appreciate every woman in our life and thank them for their selfless love and support and remind them how lucky you are to have them in your life.
+      </>
+    ),
   },
   {
     id: "day-of-democracy",
@@ -1932,81 +1881,81 @@ export const apply = [
     btnname: "Executive Board Application For Annual Conference 2023",
     Title: "Executive Board Application ✏️ | Annual Conference 2023",
   },
-  
+
 ];
 
 export const mainbybharat = [
   {
-    id:"International solar alliance",
+    id: "International solar alliance",
     alt: "Episode 11 BY BHARAT Powered by NITSMUN",
-        title: "Episode 11 | BY BHARAT || NITSMUN",
-        top: "International Solar Alliance",
-        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
-        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
-        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_2_nr3ywo.webp",
-        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_3_pmyfg4.webp",
-        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_4_rsovap.webp",
-        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_5_cq6cyi.webp",
-        image5: (
-          <>
-            <img
-              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_6_kb2o92.webp"
-              alt=""
-            />
-          </>
-        ),
-      },
+    title: "Episode 11 | BY BHARAT || NITSMUN",
+    top: "International Solar Alliance",
+    img: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
+    image: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_1_eyf7ff.webp",
+    image1: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_2_nr3ywo.webp",
+    image2: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_3_pmyfg4.webp",
+    image3: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505197/NITSMUN%202022-23%20website/by%20bharat/e11/e11_4_rsovap.webp",
+    image4: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_5_cq6cyi.webp",
+    image5: (
+      <>
+        <img
+          src="https://res.cloudinary.com/drwue5loe/image/upload/v1684505196/NITSMUN%202022-23%20website/by%20bharat/e11/e11_6_kb2o92.webp"
+          alt=""
+        />
+      </>
+    ),
+  },
   {
-    id:"India in space",
+    id: "India in space",
     alt: "Episode 10 BY BHARAT Powered by NITSMUN",
-        title: "Episode 10 | BY BHARAT || NITSMUN",
-        top: "India in Space",
-        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
-        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
-        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_2_dk5owc.webp",
-        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_3_dh1kyi.webp",
-        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_4_izdxeh.webp",
-        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_5_zvfk0v.webp",
-        image5: (
-          <>
-            <img
-              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_6_nqd3re.webp"
-              alt=""
-            />
-          </>
-        ),
-      },
+    title: "Episode 10 | BY BHARAT || NITSMUN",
+    top: "India in Space",
+    img: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
+    image: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_1_om4vde.webp",
+    image1: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_2_dk5owc.webp",
+    image2: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_3_dh1kyi.webp",
+    image3: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_4_izdxeh.webp",
+    image4: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_5_zvfk0v.webp",
+    image5: (
+      <>
+        <img
+          src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504801/NITSMUN%202022-23%20website/by%20bharat/e10/e10_6_nqd3re.webp"
+          alt=""
+        />
+      </>
+    ),
+  },
   {
-    id:"Act east policy",
+    id: "Act east policy",
     alt: "Episode 9 BY BHARAT Powered by NITSMUN",
-        title: "Episode 9 | BY BHARAT || NITSMUN",
-        top: "Act East Policy",
-        img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
-        image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
-        image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_2_ftuacx.webp",
-        image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_3_z9inmf.webp",
-        image3:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504496/NITSMUN%202022-23%20website/by%20bharat/e9/e9_4_dlkoht.webp",
-        image4:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_5_emdvr4.webp",
-        image5: (
-          <>
-            <img
-              src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_6_oqr4i7.webp"
-              alt=""
-            />
-          </>
-        ),
-      },
+    title: "Episode 9 | BY BHARAT || NITSMUN",
+    top: "Act East Policy",
+    img: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
+    image: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_1_frb2r6.webp",
+    image1: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_2_ftuacx.webp",
+    image2: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_3_z9inmf.webp",
+    image3: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504496/NITSMUN%202022-23%20website/by%20bharat/e9/e9_4_dlkoht.webp",
+    image4: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_5_emdvr4.webp",
+    image5: (
+      <>
+        <img
+          src="https://res.cloudinary.com/drwue5loe/image/upload/v1684504495/NITSMUN%202022-23%20website/by%20bharat/e9/e9_6_oqr4i7.webp"
+          alt=""
+        />
+      </>
+    ),
+  },
   {
-id:"operation dost",
-alt: "Episode 8 BY BHARAT Powered by NITSMUN",
+    id: "operation dost",
+    alt: "Episode 8 BY BHARAT Powered by NITSMUN",
     title: "Episode 8 | BY BHARAT || NITSMUN",
     top: "Operation Dost",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
-    image:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
-    image1:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284476/nitsmun/byBharat/Slide_2_ah8sd3.webp",
-    image2:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284487/nitsmun/byBharat/Slide_3_xiuydl.webp",
-    image3:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284493/nitsmun/byBharat/Slide_4_gbbmbq.webp",
-    image4:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678284506/nitsmun/byBharat/Slide_5_eaniho.webp",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284463/nitsmun/byBharat/e8_1_vsnebj.webp",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284476/nitsmun/byBharat/Slide_2_ah8sd3.webp",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284487/nitsmun/byBharat/Slide_3_xiuydl.webp",
+    image3: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284493/nitsmun/byBharat/Slide_4_gbbmbq.webp",
+    image4: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678284506/nitsmun/byBharat/Slide_5_eaniho.webp",
     image5: (
       <>
         <img
@@ -2122,7 +2071,7 @@ alt: "Episode 8 BY BHARAT Powered by NITSMUN",
   },
   {
     id: "ww2",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639923/nitsmun/quirky/ep1_1_mkv6xh.jpg",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639923/nitsmun/quirky/ep1_1_mkv6xh.jpg",
     image: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676639923/nitsmun/quirky/ep1_1_mkv6xh.jpg",
     image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640024/nitsmun/quirky/ep1_2_z7sxct.jpg",
     image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676640059/nitsmun/quirky/ep1_3_v2pp3u.jpg",
@@ -2144,34 +2093,34 @@ alt: "Episode 8 BY BHARAT Powered by NITSMUN",
 
 export const Quirky = [
   {
-    id:"cr vs jp",
+    id: "cr vs jp",
     title0: "Episode 8 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 8 QUIRKY COMBATS Powered by NITSMUN",
     top: "Costa Rica vs Japan",
-    img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
-    image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
-    image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_2_kkwi5j.webp",
-    image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_3_ofojxi.webp"
+    img: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
+    image: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_1_icudbg.webp",
+    image1: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_2_kkwi5j.webp",
+    image2: "https://res.cloudinary.com/drwue5loe/image/upload/v1684505024/NITSMUN%202022-23%20website/quirky%20combats/e8/e8_3_ofojxi.webp"
   },
   {
-    id:"uk vs sa",
+    id: "uk vs sa",
     title0: "Episode 7 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 7 QUIRKY COMBATS Powered by NITSMUN",
     top: "United Kingdom vs Saudi Arabia",
-    img:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
-    image:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
-    image1:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_2_hbgbsd.webp",
-    image2:"https://res.cloudinary.com/drwue5loe/image/upload/v1684504638/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_3_qj1muh.webp"
+    img: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
+    image: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_1_tvylqy.webp",
+    image1: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504639/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_2_hbgbsd.webp",
+    image2: "https://res.cloudinary.com/drwue5loe/image/upload/v1684504638/NITSMUN%202022-23%20website/quirky%20combats/e7/e7_3_qj1muh.webp"
   },
   {
-    id:"ru vs de",
+    id: "ru vs de",
     title0: "Episode 6 | QUIRKY COMBATS || NITSMUN",
     alt: "Episode 6 QUIRKY COMBATS Powered by NITSMUN",
     top: "Russia vs Germany",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
-    image:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
-    image1:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283075/nitsmun/quirky/e6_2_mj9wge.webp",
-    image2:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283094/nitsmun/quirky/e6_3_uidsz1.webp"
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
+    image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678282907/nitsmun/quirky/328988127_1302819486992859_2606241095185502322_n.webp_rnpefc.webp",
+    image1: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283075/nitsmun/quirky/e6_2_mj9wge.webp",
+    image2: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_600,f_auto,fl_lossy/v1678283094/nitsmun/quirky/e6_3_uidsz1.webp"
   },
   {
     id: "arg_vs_fr",
@@ -2396,32 +2345,32 @@ export const nitsmun2k22 = [
 
 export const jrmunallphotos = [
   {
-    id:1,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132650/nitsmun/juniormun2021/jmun_ss1_ksrumw.webp",
+    id: 1,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132650/nitsmun/juniormun2021/jmun_ss1_ksrumw.webp",
   },
   {
-    id:2,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132652/nitsmun/juniormun2021/jmun_ss2_izcmqr.webp",
+    id: 2,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132652/nitsmun/juniormun2021/jmun_ss2_izcmqr.webp",
   },
   {
-    id:3,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132655/nitsmun/juniormun2021/jmun_ss3_jrhoc0.webp",
+    id: 3,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132655/nitsmun/juniormun2021/jmun_ss3_jrhoc0.webp",
   },
   {
-    id:4,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132658/nitsmun/juniormun2021/jmun_ss4_i6ph8q.webp",
+    id: 4,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132658/nitsmun/juniormun2021/jmun_ss4_i6ph8q.webp",
   },
   {
-    id:5,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132662/nitsmun/juniormun2021/jmun_ss5_wp21km.webp",
+    id: 5,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132662/nitsmun/juniormun2021/jmun_ss5_wp21km.webp",
   },
   {
-    id:6,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132667/nitsmun/juniormun2021/jmun_ss6_ka2xo6.webp",
+    id: 6,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132667/nitsmun/juniormun2021/jmun_ss6_ka2xo6.webp",
   },
   {
-    id:7,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679132672/nitsmun/juniormun2021/jmun_ss7_gcuxwq.webp",
+    id: 7,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679132672/nitsmun/juniormun2021/jmun_ss7_gcuxwq.webp",
   },
 ]
 
@@ -2445,7 +2394,7 @@ export const ebb23 = [
               textDecoration: "underline",
             }}
           >
-           Sriyansh Mohanty
+            Sriyansh Mohanty
           </span>
         </a>{" "}
         has never shied away from entering any challenge. He is highly regarded
@@ -2513,10 +2462,10 @@ export const ebb23 = [
               textDecoration: "underline",
             }}
           >
-            Aditi Archita Khataniar 
+            Aditi Archita Khataniar
           </span>
         </a>{" "}
-         has always chosen IPC over any other committee. Writing has always been
+        has always chosen IPC over any other committee. Writing has always been
         her go-to destination and hence, IPC too remains her comfort committee
         till now. Talking about her life, she comes from the state of Assam and
         is now pursuing B-tech in Computer Science and Engineering at NIT,
@@ -2530,237 +2479,237 @@ export const ebb23 = [
 
 export const reviewdata = [
   {
-    id:1,
-    name:"Suraj Gupta ",
-    review:"The organisation team was awesome. worth it every penny spent! Special thanks to the chair, NATO. Taught us so many things in such a short span of time. Was a first timer in MUN but i am confident enough to participate more in next MUN. Thank you.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047150/nitsmun/Suraj_gupta_rbpgfl.webp"
+    id: 1,
+    name: "Suraj Gupta ",
+    review: "The organisation team was awesome. worth it every penny spent! Special thanks to the chair, NATO. Taught us so many things in such a short span of time. Was a first timer in MUN but i am confident enough to participate more in next MUN. Thank you.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047150/nitsmun/Suraj_gupta_rbpgfl.webp"
   },
   {
-    id:2,
-    name:"Nikhil Basfor",
-    review:"Learnt a lot throughout the 3 days session. It helped me gain confidence to present my points and it was sure a win or learn game.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047253/nitsmun/IMG_20230219_113737_660_-_CSE_135_NIKHIL_BASFOR_pehrj4.webp",
+    id: 2,
+    name: "Nikhil Basfor",
+    review: "Learnt a lot throughout the 3 days session. It helped me gain confidence to present my points and it was sure a win or learn game.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047253/nitsmun/IMG_20230219_113737_660_-_CSE_135_NIKHIL_BASFOR_pehrj4.webp",
   },
   {
-    id:3,
-    name:"Rishi Dutta",
-    review:"Nothing much for a feedback, everything went absolutely great and i personally had a LOT of fun and I'm looking forward for more conferences.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678051104/nitsmun/IMG_20230220_185136_-_RISHI_DUTTA-min_new_x9udnw.webp",
+    id: 3,
+    name: "Rishi Dutta",
+    review: "Nothing much for a feedback, everything went absolutely great and i personally had a LOT of fun and I'm looking forward for more conferences.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678051104/nitsmun/IMG_20230220_185136_-_RISHI_DUTTA-min_new_x9udnw.webp",
   },
   {
-    id:4,
-    name:"Himanshu Rajput",
-    review:"Thankyou to all to attend such an Amazing session for us. It was a great experience to attend the NITSMUN... I have never attend such a formal debate... I love this so so much ❤️❤️.. Thank u",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678047541/nitsmun/IMG-20230220-WA0026_-_HIMANSHU_RAJPUT-min_xhd5n2.webp",
+    id: 4,
+    name: "Himanshu Rajput",
+    review: "Thankyou to all to attend such an Amazing session for us. It was a great experience to attend the NITSMUN... I have never attend such a formal debate... I love this so so much ❤️❤️.. Thank u",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678047541/nitsmun/IMG-20230220-WA0026_-_HIMANSHU_RAJPUT-min_xhd5n2.webp",
   },
   {
-    id:5,
-    name:"Saurabh Khutela",
-    review:"I really enjoyed the NITSMUN session and as a first timer I got so much things to learn in the upcoming NITSMUN session.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047626/nitsmun/IMG-20230217-WA0025_-_SAURABH_KHUTELA-min_xdeyca.webp"
+    id: 5,
+    name: "Saurabh Khutela",
+    review: "I really enjoyed the NITSMUN session and as a first timer I got so much things to learn in the upcoming NITSMUN session.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678047626/nitsmun/IMG-20230217-WA0025_-_SAURABH_KHUTELA-min_xdeyca.webp"
   },
   {
-    id:6,
-    name:"Shivam Raj",
-    review:"First & the best experience.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050059/nitsmun/IMG_20230218_003211_-_SHIVAM_RAJ-min_sbtxpj.webp",
+    id: 6,
+    name: "Shivam Raj",
+    review: "First & the best experience.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050059/nitsmun/IMG_20230218_003211_-_SHIVAM_RAJ-min_sbtxpj.webp",
   },
   {
-    id:7,
-    name:"Aklesh Choudhury",
-    review:"It went exceptionally well.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678050206/nitsmun/IMG_20230210_152928_959_-_CSE_148_AKLESH_CHOUDHURY_ssjt5p.webp"
+    id: 7,
+    name: "Aklesh Choudhury",
+    review: "It went exceptionally well.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678050206/nitsmun/IMG_20230210_152928_959_-_CSE_148_AKLESH_CHOUDHURY_ssjt5p.webp"
   },
   {
-    id:8,
-    name:"Bhaswar Agnivesh",
-    review:"It was a really great learning experience. I had a lot of fun in the conference and the socials was my favourite. NITSMUN community felt like family.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050317/nitsmun/IMG_20230219_112623_-_BHASWAR_AGNIVESH-min_x9fr6k.webp"
+    id: 8,
+    name: "Bhaswar Agnivesh",
+    review: "It was a really great learning experience. I had a lot of fun in the conference and the socials was my favourite. NITSMUN community felt like family.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050317/nitsmun/IMG_20230219_112623_-_BHASWAR_AGNIVESH-min_x9fr6k.webp"
   },
   {
-    id:9,
-    name:"Abhishek Anand",
-    review:"Just amazing. Feeling great to be part of NITSMUN . Hope to join some more conference in upcoming time.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050397/nitsmun/IMG_20200724_100344_089_-_ABHISHEK_ANAND-min_obc5zf.webp"
+    id: 9,
+    name: "Abhishek Anand",
+    review: "Just amazing. Feeling great to be part of NITSMUN . Hope to join some more conference in upcoming time.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1678050397/nitsmun/IMG_20200724_100344_089_-_ABHISHEK_ANAND-min_obc5zf.webp"
   },
   {
-    id:10,
-    name:"Arihant Tiwari",
-    review:"It was truly the most amazing 3 days, from the chair to the OC everything was great. Also I love how the socials are conducted here, having done 2 MUNs during my school days socials used to be more of a dance party but here we actually get to interact with other delegates and the OC. NITSMUN socials>>>>Any other MUN socials. Also the Newsletter was very professional and well written.",
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678050514/nitsmun/IMG_20230126_174537_-_EE_030_Arihant_Tiwari-min_xtuk8d.webp"
+    id: 10,
+    name: "Arihant Tiwari",
+    review: "It was truly the most amazing 3 days, from the chair to the OC everything was great. Also I love how the socials are conducted here, having done 2 MUNs during my school days socials used to be more of a dance party but here we actually get to interact with other delegates and the OC. NITSMUN socials>>>>Any other MUN socials. Also the Newsletter was very professional and well written.",
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_660,f_auto,fl_lossy/v1678050514/nitsmun/IMG_20230126_174537_-_EE_030_Arihant_Tiwari-min_xtuk8d.webp"
   }
 ]
 
 export const day1photos = [
   {
-    id:1,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427124/nitsmun/annual%20conference%20photos/day1/day1_1_zzffyf.webp"
+    id: 1,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427124/nitsmun/annual%20conference%20photos/day1/day1_1_zzffyf.webp"
   },
   {
-    id:2,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427126/nitsmun/annual%20conference%20photos/day1/day1_2_pbtmvr.webp"
+    id: 2,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427126/nitsmun/annual%20conference%20photos/day1/day1_2_pbtmvr.webp"
   },
   {
-    id:3,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427132/nitsmun/annual%20conference%20photos/day1/day1_3_zxedr9.webp"
+    id: 3,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427132/nitsmun/annual%20conference%20photos/day1/day1_3_zxedr9.webp"
   },
   {
-    id:4,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_4_rldldn.webp"
+    id: 4,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_4_rldldn.webp"
   },
   {
-    id:5,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427153/nitsmun/annual%20conference%20photos/day1/day1_5_rmqymk.webp"
+    id: 5,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427153/nitsmun/annual%20conference%20photos/day1/day1_5_rmqymk.webp"
   },
   {
-    id:6,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_6_kw4xbt.webp"
+    id: 6,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427154/nitsmun/annual%20conference%20photos/day1/day1_6_kw4xbt.webp"
   },
   {
-    id:7,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427151/nitsmun/annual%20conference%20photos/day1/day1_7_qyq3ai.webp"
+    id: 7,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427151/nitsmun/annual%20conference%20photos/day1/day1_7_qyq3ai.webp"
   },
   {
-    id:8,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_8_qxz39q.webp"
+    id: 8,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_8_qxz39q.webp"
   },
   {
-    id:9,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_9_gwgc79.webp"
+    id: 9,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_9_gwgc79.webp"
   },
 ];
 
 export const day2photos = [
   {
-    id:1,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_1_qy009q.webp"
+    id: 1,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_1_qy009q.webp"
   },
   {
-    id:2,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_2_fvoek2.webp"
-  },{
-    id:3,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_3_qivptq.webp"
-  },{
-    id:4,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_4_ou46hb.webp"
-  },{
-    id:5,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_5_l9q6i2.webp"
-  },{
-    id:6,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_6_zgolus.webp"
-  },{
-    id:7,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_7_zo66sg.webp"
-  },{
-    id:8,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_8_hebief.webp"
+    id: 2,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_2_fvoek2.webp"
+  }, {
+    id: 3,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_3_qivptq.webp"
+  }, {
+    id: 4,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427508/nitsmun/annual%20conference%20photos/day2/day2_4_ou46hb.webp"
+  }, {
+    id: 5,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_5_l9q6i2.webp"
+  }, {
+    id: 6,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427509/nitsmun/annual%20conference%20photos/day2/day2_6_zgolus.webp"
+  }, {
+    id: 7,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_7_zo66sg.webp"
+  }, {
+    id: 8,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427510/nitsmun/annual%20conference%20photos/day2/day2_8_hebief.webp"
   },
 ]
 
 export const day3photos = [
   {
-    id:1,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_1_cmmezr.webp"
+    id: 1,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_1_cmmezr.webp"
   },
   {
-    id:2,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_2_xkbjhh.webp"
+    id: 2,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_2_xkbjhh.webp"
   },
   {
-    id:3,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_3_naectc.webp"
+    id: 3,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_3_naectc.webp"
   },
   {
-    id:4,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_4_f0l2gc.webp"
+    id: 4,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_4_f0l2gc.webp"
   },
   {
-    id:5,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_5_twi5ul.webp"
+    id: 5,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_5_twi5ul.webp"
   },
   {
-    id:6,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_6_fk85mq.webp"
+    id: 6,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427611/nitsmun/annual%20conference%20photos/day3/day3_6_fk85mq.webp"
   },
   {
-    id:7,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_7_uenfq9.webp"
+    id: 7,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_7_uenfq9.webp"
   },
   {
-    id:8,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_8_krpyuz.webp"
+    id: 8,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427612/nitsmun/annual%20conference%20photos/day3/day3_8_krpyuz.webp"
   },
   {
-    id:9,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1678427613/nitsmun/annual%20conference%20photos/day3/day3_9_kun5us.webp"
+    id: 9,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1678427613/nitsmun/annual%20conference%20photos/day3/day3_9_kun5us.webp"
   },
 ]
 
 export const ThumbsCarousel = [
   {
-    id:1,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608574/nitsmun/DIP_8467-compressed_judxet.jpg"
+    id: 1,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608574/nitsmun/DIP_8467-compressed_judxet.jpg"
   },
   {
-    id:2,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608631/nitsmun/DIP_8541-compressed_p8vwws.jpg"
+    id: 2,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608631/nitsmun/DIP_8541-compressed_p8vwws.jpg"
   },
   {
-    id:3,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608686/nitsmun/DIP_8466-min_uo9cb4.jpg"
+    id: 3,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608686/nitsmun/DIP_8466-min_uo9cb4.jpg"
   },
   {
-    id:4,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608741/nitsmun/DSC_0672-compressed_ykaeke.jpg"
+    id: 4,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608741/nitsmun/DSC_0672-compressed_ykaeke.jpg"
   },
   {
-    id:5,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608838/nitsmun/DSC_0675-compressed_rgbn1x.jpg"
+    id: 5,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608838/nitsmun/DSC_0675-compressed_rgbn1x.jpg"
   },
   {
-    id:6,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608928/nitsmun/Carousel1_qehbvi.jpg"
+    id: 6,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676608928/nitsmun/Carousel1_qehbvi.jpg"
   },
   {
-    id:7,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609083/nitsmun/Carousel2_kzhips.jpg"
+    id: 7,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609083/nitsmun/Carousel2_kzhips.jpg"
   },
   {
-    id:8,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609120/nitsmun/Carousel3_dbzhad.jpg"
+    id: 8,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609120/nitsmun/Carousel3_dbzhad.jpg"
   },
   {
-    id:9,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609169/nitsmun/Carousel4_afpbs9.jpg"
+    id: 9,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609169/nitsmun/Carousel4_afpbs9.jpg"
   },
   {
-    id:10,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609310/nitsmun/Carousel5_lyifbs.jpg"
+    id: 10,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609310/nitsmun/Carousel5_lyifbs.jpg"
   },
   {
-    id:11,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609410/nitsmun/Carousel6_nslfwv.jpg"
+    id: 11,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609410/nitsmun/Carousel6_nslfwv.jpg"
   },
   {
-    id:12,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg"
+    id: 12,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_700,f_auto,fl_lossy/v1676609452/nitsmun/Carousel7_hpy50l.jpg"
   },
   {
-    id:13,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679133535/nitsmun/annualConf_epxn83.webp"
+    id: 13,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679133535/nitsmun/annualConf_epxn83.webp"
   },
   {
-    id:14,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134108/nitsmun/28_d8qs31_bqbwgy_f24iet.webp",
+    id: 14,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679134108/nitsmun/28_d8qs31_bqbwgy_f24iet.webp",
   },
   {
-    id:15,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134113/nitsmun/30_pmgjbz_l5vmk6_bof19a.webp"
+    id: 15,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679134113/nitsmun/30_pmgjbz_l5vmk6_bof19a.webp"
   },
   {
-    id:16,
-    img:"https://res.cloudinary.com/dp92qug2f/image/upload/v1679134390/nitsmun/IMG_0088_afo0lj_mvboda_wvjnwu.webp"
+    id: 16,
+    img: "https://res.cloudinary.com/dp92qug2f/image/upload/v1679134390/nitsmun/IMG_0088_afo0lj_mvboda_wvjnwu.webp"
   }
 ]
