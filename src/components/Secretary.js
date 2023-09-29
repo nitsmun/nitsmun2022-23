@@ -35,8 +35,11 @@ const Secretary = () => {
             This upcoming year, we are very keen to host numerous events and workshops to boost and strengthen the voice of our flying delegates who are ready to roar on the matters of global concern, and more importantly solve for forthcoming generations. Notable episodes include the first inaugural Youth Parliament in November (2023), the 11th edition of of our flagship Annual Conference in February (2024), and a dedicated ‘diplomacy’ week comprising of various events such as debates, extempore, quiz, G20-simulation and many more to comprehend geopolitical matters and develop the instinct to solve them with dialogues.
 
             On behalf of my Secretariat, I welcome you all on this journey of youthful explorations, solving critical concerns, and more importantly voicing your zeal for peace. Ending my envelope with a notion: it takes billions of pounds to stock the weapons, millions of lives to victimise in wars, thousands of soldiers to fight a battle, but only one pen to hunch the harmony!
-
-
+            <br /><br /><br />
+            Thank you for reading!<br />
+            Maruf Padaya <br />
+            Secretary General, <br />
+            NITSMUN(2023-24)<br />
           </p>
         </div>
 
