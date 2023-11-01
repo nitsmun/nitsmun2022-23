@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.ExecutiveBoard {
+    background-color: #E7B4DE;
+    box-shadow: 0px 0px 1.25rem 0px rgba(0, 0, 0, 0.60);
+    border: 0rem solid transparent;
+    border-radius: 1.25rem;
+    padding: 1rem;
+}
+
+.ExecutiveBoard h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #1D1C41;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-shadow: 0 0.05rem 0.25rem rgba(0, 0, 0, 0.60);
+}
+
+.ExecutiveBoard .body_of_executive_component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 2rem;
+    margin: 3rem auto;
+}
+
+.ExecutiveBoard .card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ExecutiveBoard .card p {
+    background-color: transparent;
+    color: #000000;
+}
+
+.ExecutiveBoard .card img {
+    border: 0px solid transparent;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 1.25rem 0px rgba(0, 0, 0, 0.25);
+}
+
+.ExecutiveBoard .content h2 {
+    font-size: 1.20rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.ExecutiveBoard .content h3 {
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (min-width:700px) {
+    .ExecutiveBoard .body_of_executive_component {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .ExecutiveBoard .card {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width:300px) {
+    .ExecutiveBoard {
+        margin: 0.8rem;
+    }
+}
