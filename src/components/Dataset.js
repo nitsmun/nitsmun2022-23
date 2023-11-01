@@ -795,6 +795,17 @@ export const Secretariatresearchjr = [
     fb: "https://www.facebook.com/profile.php?id=100082966149038&mibextid=ZbWKwL",
     mail: "mailto:vishnupriyavivek13@gmail.com",
   },
+  {
+    id: 7,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/v1698840691/poorna_iddn6u.webp",
+    alt: "POORNA MANI SANKAR PAKKI",
+    name: "Poorna Mani Sankar Pakki",
+    post: "Research and Development Team",
+    linkedin: "https://www.linkedin.com/in/poorna-mani-sankar-584515257/",
+    fb: "https://www.facebook.com/profile.php?id=100083663637015",
+    mail: "mailto:poornamanisankar@gmail.com",
+  },
 ];
 export const Secretariatprjr = [
   {
