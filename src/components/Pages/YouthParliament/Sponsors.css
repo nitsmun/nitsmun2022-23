@@ -1,0 +1,128 @@
+.sponsors_main {
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsors_title {
+  color: #3c1784;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  font-size: 2vw;
+}
+
+.time_img_holder {
+  position: relative;
+  background-color: #ebebee;
+  border-radius: 10px;
+  height: 27vw;
+  width: 27vw;
+  box-shadow: 0px 0px 10px 0px #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw auto 5vw auto;
+  cursor: pointer;
+}
+
+#just___small{
+    height: 22vw;
+  width: 22vw;
+}
+
+
+.time_img_holder img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  object-fit: contain;
+  transition: all 0.25s ease-in-out;
+}
+
+.scale_up {
+  transform: scale(1.12);
+}
+
+.included_content_time {
+  position: absolute;
+  top: 0;
+  padding: 1.5vw;
+  text-align: justify;
+  border-radius: 10px;
+  height: 27vw;
+  font-size: 0.8vw;
+  line-height: 1.6;
+  font-weight: 900;
+  width: 27vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:  0 auto;
+  cursor: pointer;
+  opacity: 0;
+  /* background-color: #e7b4deda; */
+  background: #e7b4deb1;
+  visibility: none;
+  transition: all 0.25s ease-in-out;
+  user-select: none;
+}
+
+#just___small0{
+    height: 22vw;
+  width: 22vw;
+  font-size: 0.7vw;
+}
+
+.included_content_time p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom___pink{
+    color: #83357C;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.become__visible{
+    visibility: visible;
+    /* display: block; */
+    opacity: 1;
+}
+
+.custom___bg{
+    background-color: #e7b4de;
+}
+
+@media (max-width:660px){
+    .time_img_holder {
+        height: 70vw;
+        width: 70vw;
+        margin: 6vw auto 10vw auto;
+      }
+      
+      .included_content_time {
+        padding: 3vw;
+        height: 70vw;
+        width: 70vw;
+        font-size: 2.1vw;
+      }
+
+      #just___small{
+          height: 55vw;
+        width: 55vw;
+      }
+
+      #just___small0{
+        height: 55vw;
+      width: 55vw;
+      font-size: 1.8vw;
+    }
+
+    .sponsors_title {
+        margin-top: 10vw;
+        font-size: 4.5vw;
+      }
+}
