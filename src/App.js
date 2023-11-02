@@ -26,6 +26,8 @@ import Nitsmun2023 from "./components/Pages/Nitsmun2023/Nitsmun2023";
 import Gallery from "./components/Pages/Gallery/Gallery";
 // import Recruiting from "./components/Pages/Recruitment2324/Recruiting";
 import Resultsrecruitment from "./components/Pages/Recruitment2324/Resultsrecruitment";
+import Yp from "./components/Pages/YouthParliament/Yp";
+
 function App() {
   return (
     <div>
@@ -53,6 +55,7 @@ function App() {
             <Route path='/wrapped2022' component={Wrapped2022}></Route>
             {/* <Route path='/recruiting' component={Recruiting}></Route> */}
             <Route path='/results' component={Resultsrecruitment}></Route>
+            <Route path="/youth-parliament" component={Yp} />
             <Route path="*">
               {" "}
               <NotFound />

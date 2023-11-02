@@ -201,7 +201,7 @@ li {
   border: 3px solid #f4b26a;
   border-radius: 20px;
   top: 3.125rem;
-  width: 14.1875rem;
+  width: 15vw;
   left: -17px;
   padding: 0.125rem 0 0 0;
   z-index: 1000;
@@ -344,6 +344,10 @@ li {
 @media only screen and (max-width:660px){
   .apply-special{
     width: 60% !important;
+  }
+
+  .sub__menus{
+    width: 55vw;
   }
 }
 @media only screen and (max-width:320px){
