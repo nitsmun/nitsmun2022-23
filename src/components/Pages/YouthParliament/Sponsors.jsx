@@ -13,7 +13,7 @@ const Sponsors = () => {
  
   return (
     <main className='sponsors_main'>
-      <h1 className='sponsors_title'>Proudly co-sponsored by</h1>
+      <h1 className='sponsors_title'>Proudly Co-sponsored by</h1>
       <div
         className="time_img_holder"
       onClick={handleClick}

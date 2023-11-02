@@ -13,13 +13,13 @@ const Committee = () => {
       <h2 className='bio_yp'>Embracing Diversity and Democracy</h2>
       <p className='main_content_yp'>
 
-        Get ready for a day filled with electrifying debates, passionate discussions, and the chance to make your voice heard at the NITSMUN Youth Parliament 2023! Mark your calendars for <span className='bold_custom'>November 4, 2023</span>, because we're about to dive headfirst into the hot topics of "One Nation, One Election" and "Unrest in Manipur."<br /><br />
+        Get ready for a day filled with electrifying debates, passionate discussions, and the chance to make your voice heard at the NITSMUN Youth Parliament 2023! Mark your calendars for <span className='bold_custom'>November 5, 2023</span>, because we're about to dive headfirst into the hot topics of <span className='bold_custom'>"One Nation, One Election"</span> and <span className='bold_custom'>"Unrest in Manipur"</span>.<br /><br />
 
         Hey there! We know that politics and diplomacy might sound a bit daunting, but we promise, this event will be anything but boring. We're bringing a fresh perspective to the table, and we want you to join the conversation.<br /><br />
 
         Picture this: You, your friends, and some of the brightest young minds, all gathered under one roof to discuss the biggest issues being faced by our nation. Whether you're a seasoned debater or just getting started, there's a place for everyone at NITSMUN Youth Parliament.<br /><br />
 
-        This isn't just another event. It's a chance to be part of the change you want to see in the world. Get ready to have a blast while tackling serious matters.Join us, and let's make politics fun, engaging, and interactive. The event takes place on <span className='bold_custom'>4th November, 2023</span><br /><br /></p>
+        This isn't just another event. It's a chance to be part of the change you want to see in the world. Get ready to have a blast while tackling serious matters.Join us, and let's make politics fun, engaging, and interactive. The event takes place on <span className='bold_custom'>5th November, 2023.</span><br /><br /></p>
 
       {/* COMMITTEE */}
       <main className='committee_yp_info'>
@@ -28,7 +28,7 @@ const Committee = () => {
         <div className='flex_hold_pic_cont'>
           <div className='img_holder_yp_flex'>
             <div className="img_container_parent">
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1698918758/392911150_265156129846621_543687963582173383_n_ne7qq4.jpg" alt="" />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1698947454/WhatsApp_Image_2023-11-02_at_23.17.26_tzsip9.webp" alt="" />
             </div>
           </div>
           <div className='content_holder_yp_flex'>
