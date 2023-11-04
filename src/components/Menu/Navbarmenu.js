@@ -123,6 +123,17 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
+                        to={`/youth-parliament`}
+                      >
+                        {" "}
+                        Youth Parliament{" "}
+                      </NavLink>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
                         to={`/nitsmun2023`}
                       >
                         {" "}

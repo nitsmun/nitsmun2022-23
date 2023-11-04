@@ -894,27 +894,27 @@ export const Secretariatwebjr = [
       </>
     ),
   },
+  // {
+  //   id: 2,
+  //   cName: "team-sec",
+  //   imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931102/nitsmun/anuj_q2ilee.webp",
+  //   alt: "Anuj Kumar",
+  //   name: "Anuj Kumar",
+  //   post: "Web Development Team",
+  //   mail: "mailto:anuj34246@gmail.com",
+  //   linkedin: "https://www.facebook.com/profile.php?id=100087733476599&mibextid=9R9pXO",
+  //   fb: "https://github.com/anuj34246",
+  //   icon0: (
+  //     <>
+  //       {" "}
+  //       <button className="btn-icon4">
+  //         <ImGithub className="icon-color3" size={26} />
+  //       </button>{" "}
+  //     </>
+  //   ),
+  // },
   {
     id: 2,
-    cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931102/nitsmun/anuj_q2ilee.webp",
-    alt: "Anuj Kumar",
-    name: "Anuj Kumar",
-    post: "Web Development Team",
-    mail: "mailto:anuj34246@gmail.com",
-    linkedin: "https://www.facebook.com/profile.php?id=100087733476599&mibextid=9R9pXO",
-    fb: "https://github.com/anuj34246",
-    icon0: (
-      <>
-        {" "}
-        <button className="btn-icon4">
-          <ImGithub className="icon-color3" size={26} />
-        </button>{" "}
-      </>
-    ),
-  },
-  {
-    id: 3,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/samarjit_yzad4o.webp",
     alt: "Samarjit Roy",
