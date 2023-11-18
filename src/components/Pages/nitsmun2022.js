@@ -1,25 +1,18 @@
 /** @format */
 
 import React from "react";
-import "./nitsmun2022.css";
+
 import { TabTitle } from "../Utils/Genfn";
 import Underline from "../Underline";
 import { carouselData } from "../Dataset";
+
+import "./nitsmun2022.css";
+
 import "./home.css";
-// import Loading from "../Loading";
+
 const Nitsmun2022 = () => {
     TabTitle("NITSMUN 2022 | NITSMUN");
-    // const [isFetching, setIsFetching] = useState(true);
 
-    // useEffect(() => {
-    //   setTimeout(function () {
-    //     setIsFetching(false);
-    //   }, 100);
-    // }, []);
-
-    // if (isFetching) {
-    //   return <Loading />;
-    // }
     return (
         <div className="nitsmun22-main">
             <div className="nm22-head">

@@ -1,10 +1,13 @@
 /** @format */
 
 import React from "react";
-import "./Director.css";
+
 import Underline from "./Underline";
 
+import "./Director.css";
+
 const Director = () => {
+
     return (
         <div>
             <div className="msg-secretary dir-2">

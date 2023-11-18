@@ -1,17 +1,13 @@
 /** @format */
 
 import React from "react";
+
 import { allexecutive } from "./Dataset";
 import Underline2 from "./Underline";
-// import Underline from "./Underline2";
 
 const Executive = () => {
     return (
         <>
-            {/* <div className="partner-head">
-        <h1>EXECUTIVE BOARD</h1>
-      </div>
-      <Underline2 /> */}
             <div className="commitees-heading">
                 <h1>Executive Board</h1>
             </div>

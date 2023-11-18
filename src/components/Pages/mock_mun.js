@@ -1,9 +1,10 @@
 /** @format */
 
 import React from "react";
-import "./mockmun.css";
-// import { Link } from "react-router-dom";
+
 import { mockData } from "../Dataset";
+
+import "./mockmun.css";
 
 const MockMun = () => {
     return (

@@ -1,10 +1,9 @@
 /** @format */
 
 import React, { useRef } from "react";
+
 import "./Articlehome2.css";
-// import { Link } from "react-router-dom";
-// import Underline3 from "./Underline/Underline3";
-// import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+
 const Articlehome2 = () => {
     let bybharatHolder = useRef();
 

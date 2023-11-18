@@ -1,9 +1,5 @@
 /** @format */
 
-// import { FaFacebookF } from "react-icons/fa";
-// import { ImGithub } from "react-icons/im";
-// import {ImNewTab} from 'react-icons/im'
-
 export const Slider = [
     {
         image: "https://nitsmun.in/img/Carousel2.jpg",

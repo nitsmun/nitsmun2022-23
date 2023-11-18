@@ -1,10 +1,13 @@
 /** @format */
 
 import React from "react";
-import "./Secretary.css";
+
 import Underline from "./Underline";
 
+import "./Secretary.css";
+
 const Secretary = () => {
+
     return (
         <div>
             <div className="msg-secretary">

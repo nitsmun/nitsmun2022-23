@@ -2,12 +2,15 @@
 
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+import { EffectCube, Pagination, Autoplay } from "swiper";
 import { ThumbsCarousel } from "../Dataset";
+
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import { EffectCube, Pagination, Autoplay } from "swiper";
 import "./CubeCaro.css";
+
 const CubeCaro = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",

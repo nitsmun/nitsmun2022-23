@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { mainbybharat } from "./Dataset";
-import './Bybharat.css';
 import { Link } from "react-router-dom";
+
+import { mainbybharat } from "./Dataset";
+
+import './Bybharat.css';
+
 const ByBharat = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",
@@ -32,6 +35,7 @@ const ByBharat = () => {
     const loadImages = (image) => {
         image.src = image.dataset.src;
     };
+
     return (
         <div className='bybharat-top'>
             <h1>By Bharat</h1>

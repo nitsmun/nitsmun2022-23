@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { FaqData } from './Dataset';
 import styled from 'styled-components';
+
+import { FaqData } from './Dataset';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 

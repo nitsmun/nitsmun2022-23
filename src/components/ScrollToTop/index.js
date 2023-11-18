@@ -1,8 +1,10 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
-import "./index.css";
 import { useWindowScroll } from "react-use";
+
+import "./index.css";
+
 const ScrollToTop = () => {
     const { y: pageYOffset } = useWindowScroll();
     const [visible, setVisibility] = useState(false);

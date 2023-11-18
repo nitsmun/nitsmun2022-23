@@ -1,9 +1,10 @@
 /** @format */
 
 import React from "react";
-// import { Link } from "react-router-dom";
-import "./NotFound.css";
+
 import { TabTitle } from "../Utils/Genfn";
+
+import "./NotFound.css";
 
 const NotFound = () => {
     TabTitle("404 Not Found");
@@ -12,7 +13,6 @@ const NotFound = () => {
         <>
             <div className="not-found">
                 <div className="no-existence">
-                    {/* <h1 className="no-existence1"> 404</h1> */}
                     <img
                         src="https://www.linkpicture.com/q/something-lost-min.png"
                         alt=""

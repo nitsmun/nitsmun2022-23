@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
-import './EB23.css'
+
 import { ebb23 } from '../../Dataset'
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
-// import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
+
+import './EB23.css'
+
 const EB23 = () => {
 
     let testimonHolder = useRef();

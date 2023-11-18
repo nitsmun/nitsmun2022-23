@@ -1,11 +1,14 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import "./Teamresearchjr.css";
+
 import { Secretariatresearchjr } from "./Dataset";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import Underline2 from "./Underline2";
+
+import "./Teamresearchjr.css";
+
 const Teamresearchjr = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",

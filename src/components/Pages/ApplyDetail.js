@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import { apply } from "../Dataset";
 import { useParams } from "react-router-dom";
-// import Helmet from "react-helmet";
+
+import { apply } from "../Dataset";
 
 const ApplyDetail = () => {
     const { id } = useParams();

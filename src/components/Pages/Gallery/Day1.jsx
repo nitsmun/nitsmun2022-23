@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
+
 import { day1photos } from '../../Dataset'
+
 const Day1 = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",
@@ -30,6 +32,7 @@ const Day1 = () => {
     const loadImages = (image) => {
         image.src = image.dataset.src;
     };
+
     return (
         <>
             <div className="day1strts">

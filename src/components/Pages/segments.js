@@ -1,8 +1,11 @@
 /** @format */
 
 import React, { useState } from "react";
-import "./articles.css";
+
 import { TabTitle } from "../Utils/Genfn";
+
+import "./articles.css";
+
 const Segments = () => {
     TabTitle("Segments | NITS MUN");
     const [active, setActive] = useState("By Bharat");

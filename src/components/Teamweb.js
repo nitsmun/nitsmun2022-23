@@ -1,14 +1,14 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import "./Teamweb.css";
+
 import { Secretariatwebjr } from "./Dataset";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-// import {SiGmail} from "react-icons/si"
-// import { FaFacebookF } from "react-icons/fa";
-// import { ImGithub } from "react-icons/im";
 import Underline2 from "./Underline2";
+
+import "./Teamweb.css";
+
 const Teamweb = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",

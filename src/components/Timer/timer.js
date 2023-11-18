@@ -1,7 +1,8 @@
 /** @format */
 
-import "./timer.css";
 import React, { useEffect, useState } from "react";
+
+import "./timer.css";
 
 let timeTo = new Date(2023, 1, 17, 0, 0, 0, 0);
 let timeLimit = Math.floor(timeTo / 1000);

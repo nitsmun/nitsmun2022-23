@@ -1,9 +1,11 @@
 /** @format */
 
 import React from "react";
+
 import { partnerall } from "./Dataset";
 
 const Sponsor = () => {
+
     return (
         <>
             <div className="partner-head">

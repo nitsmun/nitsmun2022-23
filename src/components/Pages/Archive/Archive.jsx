@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react'
-import './Archive.css'
 import { Link } from 'react-router-dom'
+
+import './Archive.css'
 
 const Archive = () => {
     useEffect(() => {
         document.title = 'Archive | NITSMUN';
     }, []);
+
     return (
         <>
             <div className="archive-main" style={{ userSelect: 'none' }}>

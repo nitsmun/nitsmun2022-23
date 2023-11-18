@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Faq23Data } from '../../Dataset';
 import styled from 'styled-components';
+
+import { Faq23Data } from '../../Dataset';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
-
 
 const FaqSection = styled.div`
   display: flex;
@@ -11,12 +11,8 @@ const FaqSection = styled.div`
   align-items: center;
   justify-content: center;
   padding-bottom:1vw;
-  /* background: #06553d; */
   background-color: var(--color-10-100);
   user-select: none;
-  /* @media only screen and (max-width:991px){
-    padding-bottom: 10vh;
-  } */
 `;
 
 const Container = styled.div`
@@ -25,7 +21,6 @@ const Container = styled.div`
 `;
 
 const Faqmain = styled.div`
-  /* background: #3ca06a; */
   background-color: var(--color-1-080);
   color: whitesmoke;
   display: flex;
@@ -39,9 +34,7 @@ const Faqmain = styled.div`
   border-radius: 0.9375rem;
   transition: all 0.2s ease-in;
   &:hover {
-    /* background-color: var( --color-4-100); */
     background-color: var( --color-1-100);
-    /* color: #212529; */
   }
   h1 {
     padding: 1rem;
@@ -66,7 +59,6 @@ const Faqmain = styled.div`
 `;
 
 const Dropdown = styled.div`
-  /* background-color: var(--color-14-100); */
   background-color: #6c2966;
   color: white;
   width: 100%;

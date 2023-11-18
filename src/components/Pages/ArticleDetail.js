@@ -1,9 +1,10 @@
 /** @format */
 
 import React from "react";
-// import Helmet from "react-helmet";
 import { useParams } from "react-router-dom";
+
 import { Articledata } from "../Dataset";
+
 import "./Articledata.css";
 
 const ArticleDetail = () => {

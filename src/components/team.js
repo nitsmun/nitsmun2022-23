@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import "./team.css";
+
 import { Secretariat } from "./Dataset";
 import Teamjr from "./Teamjr";
 import Underline from "./Underline";
@@ -14,6 +14,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Underline2 from "./Underline2";
 import { TabTitle } from "./Utils/Genfn";
 import Loading from "./Loading";
+
+import "./team.css";
 
 const Team = () => {
     TabTitle("NITSMUN Team | NITS MUN");

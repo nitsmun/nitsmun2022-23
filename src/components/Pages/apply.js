@@ -1,11 +1,11 @@
 /** @format */
 
 import React from "react";
-import "./apply.css";
+
 import { TabTitle } from "../Utils/Genfn";
-// import { Link } from "react-router-dom";
 import { apply } from "../Dataset";
-// import Recruiting from "./Recruitment2324/Recruiting";
+
+import "./apply.css";
 
 const Apply = () => {
     TabTitle("Linktree | NITS MUN");

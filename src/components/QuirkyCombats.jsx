@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import './Quirky.css';
-import { Quirky } from './Dataset';
 import { Link } from 'react-router-dom';
+
+import { Quirky } from './Dataset';
+
+import './Quirky.css';
+
 const QuirkyCombats = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",

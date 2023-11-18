@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import './Nitsmun2023.css'
-import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
-// import { Link } from 'react-router-dom';
+
 import Faq23 from './Faq23';
 import { nitsmun2k22 } from '../../Dataset';
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import AboutBetn from './AboutBetn';
 import EB23 from './EB23';
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
+import './Nitsmun2023.css'
+import 'react-responsive-modal/styles.css';
 
 const Nitsmun2023 = () => {
     useEffect(() => {

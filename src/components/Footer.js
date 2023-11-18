@@ -1,17 +1,14 @@
 /** @format */
 
 import React from "react";
-import "./Footer.css";
-// import { FaYoutube } from "react-icons/fa";
-// import { FaFacebookF } from "react-icons/fa";
+
 import { FaLinkedinIn } from "react-icons/fa";
-// import { AiOutlineInstagram } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-// import { GoLocation } from "react-icons/go";
-// import { BsTelephone } from "react-icons/bs";
-// import { IconContext } from "react-icons";
-// import { SiLinktree } from "react-icons/si";
+
+import "./Footer.css";
+
 const Footer = () => {
+
     return (
         <div className="footer-main">
             <div className="footer-icon">

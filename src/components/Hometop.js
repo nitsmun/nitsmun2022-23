@@ -1,11 +1,12 @@
 /** @format */
 
 import React from "react";
+
 import "./Hometop.css";
-// import { Link } from "react-router-dom";
-// import Typed from "react-typed";
 import "react-typed/dist/animatedCursor.css";
+
 const Hometop = () => {
+
     return (
         <div style={{ userSelect: "none" }}>
             <div className="hometop-main">

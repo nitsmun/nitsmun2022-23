@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+
 import './Stats.css'
+
 const Stats = () => {
     const [state, setState] = useState(true);
     const [active, setIsActive] = useState(true);
