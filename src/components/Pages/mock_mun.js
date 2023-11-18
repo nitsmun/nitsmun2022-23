@@ -31,23 +31,7 @@ const MockMun = () => {
                     conference.
                 </p>
                 <br />
-                {/* <p>So, hurry up and get yourself registered on the link given below!</p> */}
             </div>
-
-            {/* <div className="hometop-apply">
-        <div className="hometop-reg">
-          <ul style={{ color: "white" }}>
-            Free Registrations for{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>Mock Mun</strong> is
-            now open!
-          </ul>
-        </div>
-        <div className="hometop-link1">
-          <Link to={"/apply"}>
-            <button className="hometop-link1btn">Register Now</button>
-          </Link>
-        </div>
-      </div> */}
             <br />
 
             <div className="slider">

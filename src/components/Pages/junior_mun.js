@@ -43,7 +43,6 @@ const Juniormun = () => {
                 />
             </div>
             <div className="event-title">
-                {/* <h1>NITS JUNIOR MUN 2022</h1> */}
                 <h1>Nits Junior Mun 2022</h1>
             </div>
             <div className="event-details">
@@ -64,25 +63,6 @@ const Juniormun = () => {
                 were praise-worthy. And we hope to witness this energy and
                 enthusiasm in the coming years as well.
             </div>
-            {/* 
-
-      <div className="hometop-apply">
-        <div className="hometop-reg">
-          <ul style={{ color: "white" }}>
-            Round 2 Registrations for{" "}
-            <strong style={{ color: "rgb(45, 210, 255)" }}>
-              Junior Mun 2022
-            </strong>{" "}
-            is now open!
-          </ul>
-        </div>
-        <div className="hometop-link1">
-          <Link to={"/apply"}>
-            <button className="hometop-link1btn">Register Now</button>
-          </Link>
-        </div>
-      </div> */}
-            {/* <MockMun /> */}
             <div className="commitees-heading">
                 <h1>Committees</h1>
             </div>

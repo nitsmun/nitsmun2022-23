@@ -34,7 +34,6 @@ const Apply = () => {
                     );
                 })}
             </div>
-            {/* <Recruiting /> */}
         </>
     );
 };

@@ -71,8 +71,6 @@ const Footer = () => {
                     </a>
                 </button>
 
-                {/* <a className="footer-anchor" href="https://mail.google.com/mail/u/0/?fs=1&to=team.nitsmun@gmail.com&tf=cm"target='_#blank'><HiOutlineMail className="icon-color" size={20}/></a> */}
-
                 <button className="footer-btn-e">
                     {" "}
                     <a
@@ -107,12 +105,6 @@ const Footer = () => {
                             alt=""
                         />
                     </a>
-
-                    {/* <h1 className="footer-heading" style={{color : 'white'}}>
-                        <Link className="footer-heading" style={{color:'white'}} to="/">
-                            NITSMUN
-                        </Link>
-                    </h1> */}
                 </div>
                 <div className="footer-below1">
                     <IconContext.Provider
@@ -146,9 +138,6 @@ const Footer = () => {
                             </a>
                             <ul className="light-address">Silchar, Assam</ul>
                         </a>
-                        {/* <ul>Model United Nations</ul>
-            <ul>NIT Silchar</ul>
-            <ul className="light-address">Silchar, Assam</ul> */}
                     </div>
                 </div>
                 <div className="footer-below2">
@@ -170,7 +159,6 @@ const Footer = () => {
                             <a href="tel:+917096597864">
                                 <p className="num-fter">+917096597864</p>
                             </a>
-                            {/* <a href="tel:+919707091602">9707091602</a> */}
                         </div>
                     </div>
                 </div>

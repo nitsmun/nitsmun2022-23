@@ -157,25 +157,6 @@ const NavBarMenu = () => {
                                                 Mock MUN 2023{" "}
                                             </NavLink>{" "}
                                         </li>
-                                        {/* <li>
-                      <NavLink
-                        onClick={toggleClass}
-                        activeClassName="is-active"
-                        to={`/junior_mun`}
-                      >
-                        Junior MUN{" "}
-                      </NavLink>{" "}
-                    </li> */}
-
-                                        {/* <li>
-                      <NavLink
-                        onClick={toggleClass}
-                        activeClassName="is-active"
-                        to={`/mock_mun`}
-                      >
-                        Mock MUNs{" "}
-                      </NavLink>{" "}
-                    </li> */}
                                     </ul>
                                 </li>
 

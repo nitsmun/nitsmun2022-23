@@ -31,7 +31,6 @@ function App() {
                         <Route exact path="/" component={home} />
                         <Route path="/about" component={about} />
                         <Route path="/junior_mun" component={junior_mun} />
-                        {/* <Route path="/mock_mun" component={mock_mun} /> */}
                         <Route path="/nitsmun2022" component={nitsmun2022} />
                         <Route path="/mockmun2023" component={Mock2023} />
                         <Route path="/nitsmun2023" component={Nitsmun2023} />
@@ -61,7 +60,6 @@ function App() {
                             path="/wrapped2022"
                             component={Wrapped2022}
                         ></Route>
-                        {/* <Route path='/recruiting' component={Recruiting}></Route> */}
                         <Route
                             path="/results"
                             component={Resultsrecruitment}

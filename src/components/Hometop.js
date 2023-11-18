@@ -16,12 +16,10 @@ const Hometop = () => {
                     rel="norefferer noreferrer"
                 >
                     <div className="incand-logo">
-                        {/* <img src="./Images/incand.svg" alt="" /> */}
                         <img
                             src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474673/events/nitsmun/incand_aq33rz.svg"
                             alt=""
                         />
-                        {/* <img src="https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/330789814_1330772101100144_692698332556843342_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=vJtf5_90OGQAX8t219t&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfDGjdu7ihYCrtLgNIg-fdFOeZ_a-08QRlNRvIw1O7Yb3A&oe=63EF5D80" alt="" /> */}
                     </div>
                 </a>
 
@@ -37,7 +35,6 @@ const Hometop = () => {
             </div>
 
             <div className="dte-nitsmun2k23">
-                {/* <h1>17 . 18 . 19 Feb 2023</h1> */}
                 <Typed
                     className="typewriter-hero"
                     style={{ userSelect: "none" }}
@@ -48,29 +45,15 @@ const Hometop = () => {
                 />
             </div>
 
-            {/* <div className="home-wrapped">
-        <Link to="/wrapped">
-          <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475459/events/nitsmun/wrapping_up-min_jmr9sg.png"
-            alt="Wrapped 2022"
-          />
-        </Link>
-      </div> */}
-
             <div className="hometop-apply">
                 <div className="hometop-reg">
                     <ul style={{ color: "white" }}>
-                        {/* <h2 className="ipc-jour-prom">
-              Photographs let you live the best memories over and over again
-            </h2> */}
                         <span
                             style={{ color: "rgb(45, 210, 255)" }}
                             className="home-bner"
                         >
                             Nitsmun Annual Conference 2023 Newsletter
                         </span>{" "}
-                        {/* And{" "}
-            <span style={{ color: "rgb(45, 210, 255)" }} className="home-bner">Executive Board </span> */}
                         Has Been Released!
                         <img
                             className="tnew-gif"
@@ -80,7 +63,6 @@ const Hometop = () => {
                     </ul>
                 </div>
                 <div className="hometop-link1">
-                    {/* <Link to={"/nitsmun2023"}> */}
                     <a
                         href="https://drive.google.com/file/d/1Bj3cJxBSuOCSrX8Jz33Yyq2Fi6L-nyUJ/view?usp=sharing"
                         target="_blank"
@@ -105,8 +87,6 @@ const Hometop = () => {
                             </svg>
                         </button>
                     </a>
-
-                    {/* </Link> */}
                 </div>
             </div>
 
