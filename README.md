@@ -7,7 +7,7 @@ Welcome to the official website of NITSMUN, a dynamic Model United Nations (MUN)
 
 ## Authors
 
-- [@hereisadi](https://www.github.com/hereisadi)
+- [@nitsmun ](https://www.github.com/nitsmun )
 
 
 ## Installation 
