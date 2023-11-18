@@ -1,6 +1,5 @@
 .reviewstop {
     margin-top: 5vw;
-    /* padding-bottom: 1vw; */
 }
 
 .reviewstop h1 {
@@ -38,7 +37,6 @@
 
 .indicarocard {
     background-color: var(--color-1-100) !important;
-    /* background-color: grey !important; */
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -144,7 +142,6 @@
     .spekrstop h1 {
         font-size: 6.3vw;
     }
-
 
     @media only screen and (max-width: 660px) {
         .spekrstop {

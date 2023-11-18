@@ -6,15 +6,15 @@
     overflow: hidden;
 }
 
-.top-bner-23 img{
+.top-bner-23 img {
     width: 100%;
     height: 100%;
     pointer-events: none;
     z-index: -1;
 }
 
-.bg-pvd{
-margin-top: 4vw;
+.bg-pvd {
+    margin-top: 4vw;
     background: url('https://www.linkpicture.com/q/UN-hall.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -24,36 +24,35 @@ margin-top: 4vw;
     box-shadow: inset 0 0 0 1000px #edecc693;
 }
 
-.comt-sn{
-        background-color: white;
-        width: 85%;
-        margin: 0 auto;
-        /* min-height: 100vh; */
-        transform:translateY(-20vh);
-        box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
-        padding-bottom: 2vw;
+.comt-sn {
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    transform: translateY(-20vh);
+    box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
+    padding-bottom: 2vw;
 }
 
-.comt-ipm h1{
+.comt-ipm h1 {
     font-size: 2.8vw !important;
     letter-spacing: .5px !important;
     font-weight: 500 !important;
     font-variant: small-caps;
-    border-bottom: 2px solid var( --color-1-080);
+    border-bottom: 2px solid var(--color-1-080);
 }
 
-.ntsmn23-rl-cont{
+.ntsmn23-rl-cont {
     display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 1vw 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1vw 0;
 }
 
-.agnd{
+.agnd {
     min-width: 38%;
     box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
-background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
+    background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     padding: 1.5vw;
     margin: 3vw 0;
     border-radius: 1.5rem;
@@ -61,44 +60,43 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     padding-bottom: 0;
 }
 
-.agnd:hover{
+.agnd:hover {
     transform: translateY(-3px);
 }
 
-.commt-nme{
+.commt-nme {
     width: 28vw;
     margin-bottom: 1.5vw;
 }
 
-.commt-nme h1{
-    color: var( --color-1-100);
+.commt-nme h1 {
+    color: var(--color-1-100);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     font-size: 2vw;
     font-variant: small-caps;
 }
 
-.img-nts23{
+.img-nts23 {
     width: 28vw;
     height: 27vw;
     margin: 0 auto;
 }
 
-.img-nts23 img{
+.img-nts23 img {
     width: 100%;
     height: 100%;
     pointer-events: none;
     border-radius: .625rem;
-    /* box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%); */
     box-shadow: 0 0 0.2375rem;
 }
 
-.comt-txt-imp{
+.comt-txt-imp {
     width: 28vw;
     margin: 1.5vw auto;
 }
 
-.comt-txt-imp h2{
+.comt-txt-imp h2 {
     font-weight: 500;
     font-size: 1.2vw;
     line-height: 1.6;
@@ -106,7 +104,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     text-align: left;
 }
 
-.rgster-nts23 button{
+.rgster-nts23 button {
     color: white;
     background-color: #842575;
     font-family: 'Nunito', sans-serif;
@@ -117,22 +115,22 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     text-decoration: line-through;
 }
 
-.notext-through button{
+.notext-through button {
     text-decoration: none !important;
 }
 
-.rgster-nts23 button:hover{
+.rgster-nts23 button:hover {
     background-color: #BB67AE;
     border: 1px solid white;
 }
 
-.rgster-nts23 button:active{
+.rgster-nts23 button:active {
     outline: none;
     box-shadow: 0 0 0 5px #D9086C;
     transition: 0.4s;
 }
 
-.rd-mr-0 button{
+.rd-mr-0 button {
     color: white;
     background-color: #842575;
     padding: .6vw 1vw;
@@ -147,79 +145,79 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     transition: all 0.15s ease-out;
 }
 
-.rd-mr-0 button:hover{
+.rd-mr-0 button:hover {
     background-color: #BB67AE;
     border: 1px solid white;
 }
 
-.rd-mr-0 button:active{
+.rd-mr-0 button:active {
     outline: none;
     box-shadow: 0 0 0 5px #D9086C;
     transition: 0.4s;
 }
 
-.agnd:hover .rd-mr-0 button{
-    visibility: visible ;
+.agnd:hover .rd-mr-0 button {
+    visibility: visible;
 }
 
-.title-hld{
+.title-hld {
     margin: 1.5vw 0;
     text-align: center;
 }
 
-.title-hld h1{
+.title-hld h1 {
     font-family: 'Poppins', sans-serif;
     color: var(--color-1-100);
     font-weight: 900;
     font-size: 2vw;
 }
 
-.img-re-mr{
+.img-re-mr {
     margin-bottom: 3vw;
 }
 
-.rd-mr-agnd{
+.rd-mr-agnd {
     text-align: left;
     margin: 1.5vw 0;
 }
 
-.rd-mr-agnd h2{
+.rd-mr-agnd h2 {
     font-family: 'Nunito', sans-serif;
     color: black;
     font-size: 1.5vw;
 }
 
-.rd-mr-cont{
+.rd-mr-cont {
     text-align: left;
     margin: 1.5vw 0;
     font-weight: 500;
 }
 
-.rd-mr-cont h2{
+.rd-mr-cont h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     line-height: 1.6;
     font-size: 1.4vw;
 }
 
-.btn-rd-mr{
+.btn-rd-mr {
     display: flex;
     justify-content: space-between;
 }
 
-.icow-mdl{
+.icow-mdl {
     padding: 0 1vw 2vw 1vw;
 }
 
-.cntr-rd-mr-mg{
+.cntr-rd-mr-mg {
     text-align: center;
     margin-bottom: 2vw;
 }
 
-.theme-nitsmun23{
+.theme-nitsmun23 {
     display: flex;
     margin: 0 auto;
-   justify-content: center;
+    justify-content: center;
 }
 
 @font-face {
@@ -227,7 +225,7 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     src: url(Millenia_Personal_Use.ttf);
 }
 
-.theme-nitsmun23 h1{
+.theme-nitsmun23 h1 {
     font-family: MilleniaFont;
     font-size: 2vw;
     letter-spacing: 3.5px;
@@ -236,56 +234,54 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     font-weight: 700;
 }
 
-.theme-nitsmun23 h1::before{
+.theme-nitsmun23 h1::before {
     content: open-quote;
     font-size: 6vw;
     font-weight: 300;
-   /* font-family: 'Poppins'; */
 }
 
-.theme-nitsmun23 h1::after{
+.theme-nitsmun23 h1::after {
     content: close-quote;
     font-size: 6vw;
-    /* font-family: 'Poppins'; */
     font-weight: 300;
 }
 
-.bnjh{
+.bnjh {
     margin-top: 2.7vw;
 }
 
-.hjipo{
+.hjipo {
     padding-top: 1.5vw !important;
 }
 
 .quote {
     width: 1.5vw;
     user-select: none;
-    
-  }
-  
-  .quote img{
-    width: 100%;
-    
-  }
-  
-  .quote-rotate {
-    transform: rotate(270deg);
-   margin-top: 3.6vw;
-  }
 
-.hjko{
+}
+
+.quote img {
+    width: 100%;
+
+}
+
+.quote-rotate {
+    transform: rotate(270deg);
+    margin-top: 3.6vw;
+}
+
+.hjko {
     justify-content: center;
 }
 
-.memory-nits22{
+.memory-nits22 {
     width: 90vw;
     height: 40vw;
     margin: 2vw auto;
     border-radius: .625rem;
 }
 
-.memory-nits22 img{
+.memory-nits22 img {
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -293,22 +289,22 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     box-shadow: 0 0 0.5375rem;
 }
 
-.bnhjh{
+.bnhjh {
     padding-top: 0 !important
 }
 
-.uioips{
+.uioips {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     font-size: 1.2vw;
     margin-bottom: 1vw;
 }
 
-.hjhdfkw{
-    transform:translateY(-3vw);
+.hjhdfkw {
+    transform: translateY(-3vw);
 }
 
-.mun-sponsor{
+.mun-sponsor {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -316,107 +312,111 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
     align-items: center;
 }
 
-.powered-by{
+.powered-by {
     font-family: "Nunito", sans-serif;
     font-weight: 800;
     color: rgb(96, 95, 95);
     font-size: 1.3vw;
 }
 
-.powered-by-img{
+.powered-by-img {
     width: 15vw;
 }
 
-.rules-ipc-jout__lksdws{
+.rules-ipc-jout__lksdws {
     padding: 0 2vw;
 }
 
-.rules-ipc-jout__lksdws li{
+.rules-ipc-jout__lksdws li {
     font-family: 'Nunito', sans-serif;
     list-style-type: disc !important;
     font-size: 1.4vw;
     font-weight: 500;
 }
 
-@media only screen and (max-width:660px){
+@media only screen and (max-width:660px) {
 
-    .jkio__lop{
+    .jkio__lop {
         margin-top: 7vw;
     }
 
-    .hjhdfkw{
-        transform:translateY(-20vw);
+    .hjhdfkw {
+        transform: translateY(-20vw);
     }
-    .powered-by-img{
+
+    .powered-by-img {
         width: 25vw;
     }
-    .powered-by{
+
+    .powered-by {
         font-size: 2vw;
     }
-    .bg-pvd{
+
+    .bg-pvd {
         margin-top: 8vw;
-        }
+    }
 
-        .memory-nits22{
-            height: 50vw;
-            margin: 4vw auto;
-        }
+    .memory-nits22 {
+        height: 50vw;
+        margin: 4vw auto;
+    }
 
-        .uioips{
-            font-size:3vw;
-            margin-bottom: 5vw;
-        }
+    .uioips {
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
 
-        .bnjh{
-            margin-top: 0;
-        }
+    .bnjh {
+        margin-top: 0;
+    }
 
-        .theme-nitsmun23{
-            margin: 2vw auto 1.6vw auto;
-        }
+    .theme-nitsmun23 {
+        margin: 2vw auto 1.6vw auto;
+    }
 
-        .theme-nitsmun23 h1{
-            font-family: 'Millenia', cursive, 'Nunito';
-            font-weight: 900 !important;
-            font-size: 6vw;
-            letter-spacing: 0px;
-        }
+    .theme-nitsmun23 h1 {
+        font-family: 'Millenia', cursive, 'Nunito';
+        font-weight: 900 !important;
+        font-size: 6vw;
+        letter-spacing: 0px;
+    }
 
-    .top-bner-23{
+    .top-bner-23 {
         height: 70vw;
         padding-top: 2.9rem;
     }
 
-    .theme-nitsmun23 h1::before, .theme-nitsmun23 h1::after{
-        font-size: 10vw;
-        font-family: 'Nunito';
-        font-family: 900;
-    }
-    
-   .theme-nitsmun23 h1::after{
+    .theme-nitsmun23 h1::before,
+    .theme-nitsmun23 h1::after {
         font-size: 10vw;
         font-family: 'Nunito';
         font-family: 900;
     }
 
-    .comt-sn{
+    .theme-nitsmun23 h1::after {
+        font-size: 10vw;
+        font-family: 'Nunito';
+        font-family: 900;
+    }
+
+    .comt-sn {
         width: 95%;
         padding-bottom: 3.5vw;
     }
 
-    .comt-ipm h1{
+    .comt-ipm h1 {
         font-size: 6.8vw !important;
     }
 
-    .ntsmn23-rl-cont{
+    .ntsmn23-rl-cont {
         flex-direction: column;
     }
 
-    .ntsmn23-rl-cont{
+    .ntsmn23-rl-cont {
         margin-top: 4vw;
     }
 
-    .agnd{
+    .agnd {
         width: 92%;
         padding: 4vw;
         margin: 5.5vw auto;
@@ -424,81 +424,82 @@ background: linear-gradient(90deg, #ecc2f2 100%, #FECFF1 100%);
         margin-right: auto;
     }
 
-    .img-nts23{
+    .img-nts23 {
         width: 78vw;
-       height: 72vw;
+        height: 72vw;
         margin: 0 auto;
     }
 
-    .commt-nme{
+    .commt-nme {
         width: 80vw;
         margin-bottom: 4vw;
     }
 
-    .commt-nme h1{
+    .commt-nme h1 {
         font-size: 5vw;
     }
 
-    .img-nts23 img{
+    .img-nts23 img {
         border-radius: .325rem;
     }
 
-    .comt-txt-imp{
+    .comt-txt-imp {
         width: 80vw;
         margin: 3vw auto;
     }
 
-    .comt-txt-imp h2{
+    .comt-txt-imp h2 {
         font-size: 4.5vw;
-       
+
     }
 
-    .rgster-nts23 button{
+    .rgster-nts23 button {
         margin: 2vw 0;
         padding: 1.8vw 4.9vw;
         border-radius: 1vw;
         font-size: 3.9vw;
     }
 
-    .rd-mr-0 button{
+    .rd-mr-0 button {
         padding: 1.5vw 6vw;
         border-radius: 10vw;
         font-size: 3.3vw;
         visibility: visible;
         margin: 3vw 0;
-        
+
     }
 
-    .title-hld{
+    .title-hld {
         margin: 6vw 0;
     }
 
-    .title-hld h1{
+    .title-hld h1 {
         font-size: 5vw;
     }
 
-    .rd-mr-agnd{
+    .rd-mr-agnd {
         margin: 4.5vw 0;
     }
 
-    .rd-mr-agnd h2{
+    .rd-mr-agnd h2 {
         font-size: 3.5vw;
     }
 
-    .rd-mr-cont h2{
-        
+    .rd-mr-cont h2 {
+
         font-size: 3.4vw;
     }
 
-    .cntr-rd-mr-mg{
+    .cntr-rd-mr-mg {
         margin-bottom: 4vw;
     }
 
-    .rules-ipc-jout__lksdws{
+    .rules-ipc-jout__lksdws {
         padding: 0 5vw;
         margin-bottom: 4vw;
     }
-    .rules-ipc-jout__lksdws li{
+
+    .rules-ipc-jout__lksdws li {
         font-size: 3.4vw;
     }
 }

@@ -60,7 +60,6 @@
     color: var(--color-1-100);
 }
 
-
 .mock-content {
     margin: 2rem 0;
     padding: 0 6rem;
@@ -115,7 +114,6 @@
 }
 
 /*Automatic carousel*/
-
 .slider {
     height: 15.625rem;
     margin: auto;

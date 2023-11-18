@@ -10,7 +10,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* box-shadow: inset 0 0 0 1000px rgba(1, 51, 91, 0.712); */
     box-shadow: inset 0 0 0 1000px #1f1834b7;
     background-attachment: fixed;
 }
@@ -124,7 +123,6 @@
         font-size: 8.125rem;
     }
 
-
     .notfound-tohome {
         width: 70%;
         padding: 0.3125rem;
@@ -190,7 +188,6 @@
     }
 }
 
-
 @media only screen and (max-width:660px) {
     .not-found {
         padding-top: 40vw;
@@ -216,13 +213,6 @@
     }
 }
 
-/* @media only screen and (max-height:611px){
-    .not-found{
-        height: 110vh;
-    }
-} */
-
-
 @media only screen and (max-height:500px) {
     .not-found {
         padding-top: 3.125rem;
@@ -245,21 +235,4 @@
         font-size: 5vh;
         margin-bottom: 7vh;
     }
-
-    /* 
-    .notfound-tohome{
-        padding-top: 0.4rem;
-        padding-bottom: 0.4rem;
-    } */
 }
-
-/* @media only screen and (max-height:280px){
-    .no-existence1{
-        font-size: 4rem;
-    }
-
-    .notfound-tohome{
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;
-    }
-} */

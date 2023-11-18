@@ -1,46 +1,31 @@
 div#timer {
-    /**Position**/
     position: relative;
     top: 0;
     left: 0;
     margin: 0vh auto 2vh auto;
-
-    /**Dimensions**/
     width: 85%;
-
-    /**Border**/
     border-radius: 0 0 0.6vh 0.6vh;
     box-sizing: border-box;
-
-    /**Flex Container**/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
-    /**Content**/
     color: var(--color-8-100);
     padding: 5vh 5vh;
-
     background-color: #451a41;
-
-
 }
 
 .timer-limit {
     background-color: var(--color-1-100);
     border-radius: 0.6vh 0.6vh 0vh 0vh;
     font-size: 1.5rem;
-
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: 85%;
     margin: auto;
     color: white;
     font-family: 'nunito', sans-serif;
     font-weight: 500;
-
-
 }
 
 .timer-top {
@@ -98,13 +83,10 @@ div.coming-soon {
     .timer-limit {
         font-size: 1.2rem;
         width: 95%;
-
-
     }
 
     div#timer div.timer-limit {
         margin-bottom: 3vw;
-
     }
 
     div#timer div.timer-int {

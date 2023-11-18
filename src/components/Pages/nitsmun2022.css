@@ -11,7 +11,6 @@
 }
 
 .nm22-head {
-    /* margin-top: 5rem; */
     margin-bottom: 3rem;
     padding-top: 5.5rem;
     padding-bottom: 0%;
@@ -92,7 +91,6 @@
 
 .nm22-exemain {
     background-color: var(--color-17-100);
-
     max-width: 100%;
     box-sizing: content-box;
     left: 1em;
@@ -114,8 +112,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-left: 1.5em;
-    padding-right: 1.5em; */
 }
 
 .grid1 img {
@@ -157,7 +153,6 @@
     .nm22-exmianimg {
         width: 20em;
     }
-
 
     .nm22-body2,
     .nm22-body1 {
@@ -205,9 +200,6 @@
     }
 }
 
-
-
-
 .slider-m {
     margin: auto;
     width: 90%;
@@ -230,8 +222,6 @@
 .slide-track-m:hover {
     animation-play-state: paused;
 }
-
-
 
 @keyframes scroll1 {
     0% {
@@ -263,8 +253,6 @@
     transform: scale(1.1);
     opacity: 1;
 }
-
-
 
 .slider-m::before,
 .slider-m::after {
@@ -322,7 +310,6 @@
 }
 
 @media only screen and (max-width:320px) {
-
 
     .slide2-m {
         width: 15rem;

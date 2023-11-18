@@ -8,7 +8,6 @@
     margin-right: auto;
     margin-left: auto;
     background-color: var(--color-1-100);
-    /* background-color: #5a4894; */
     transition: 0.25s;
     position: fixed;
     z-index: 200;
@@ -32,7 +31,6 @@
     display: block;
     margin: 0 auto;
     color: #161c2f;
-    /* color: #000000; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,8 +51,6 @@
     max-height: 7.5rem;
     max-width: 100%;
     height: 3.125rem;
-    /* padding-top:45px; */
-    /* previously height: 50px; */
 }
 
 /* on active */
@@ -150,11 +146,9 @@ li {
 }
 
 .apply-special {
-    /* border: 2px solid  #f4b26a; */
     border-radius: .325rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* background-color: var( --color-4-100); */
     background-color: #e7b4de;
 }
 
@@ -258,24 +252,14 @@ li {
 
 .menu-item .sub__menus a {
     padding: 0px 0 0px 0;
-    /* 7px 0 0 0 */
     margin: 0.4375rem 1.6875rem;
 }
 
-/* for hover */
 .menu-item:hover>a {
-    /* color: orangered !important; */
     color: var(--color-2-100) !important;
 }
 
-/* important HOVER  to be changed*/
-
-
-
 .menu-item .sub__menus li:hover a {
-
-    /* to be changed */
-    /* color: #e64540 !important; */
     color: var(--color-2-100) !important;
 }
 
@@ -312,25 +296,15 @@ li {
         background-color: none;
     }
 
-
-
-
-    /* to be changed HOVER */
     .main-nav .menu-item:hover>a {
         color: var(--color-2-100) !important
     }
 
-    /* to be changed */
-
-
-
     .main-nav .menubar__button {
         display: block !important;
         float: right;
-        /* background: linear-gradient(135deg, #e2564f 0%, #360940 100%); */
         color: #fff;
         padding: 0.28125rem 0.4375rem;
-        /* previously it was 6px 7px */
         border-radius: 0.3125rem;
         margin-top: 0.3125rem;
         cursor: pointer;
@@ -342,7 +316,6 @@ li {
         font-size: 35px;
     }
 
-    /* 27px */
     .main-nav ul.menuq2 {
         display: block !important;
         position: absolute;

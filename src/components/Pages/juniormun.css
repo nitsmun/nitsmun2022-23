@@ -105,10 +105,8 @@
     text-align: center;
     color: var(--color-1-100);
     margin-top: 10vh;
-    /* previously 5vh*/
     font-variant: small-caps;
     letter-spacing: 1px;
-    /* font-family: 'Poppins', sans-serif; */
 }
 
 .commitees-heading h1 {
@@ -120,8 +118,6 @@
 .junmun-agendas {
     display: flex;
     margin-top: 6.9vh;
-    /* background-color: var(--color-12-100); */
-    /* background-color: var(--color-1-080); */
     background-color: var(--color-1-100);
     padding: 2.5rem 0;
     padding-top: 1rem !important;
@@ -132,7 +128,6 @@
 }
 
 .agenda {
-    /* background-color: var(--color-13-100); */
     background-color: var(--color-1-080);
     border-radius: 1.5625em;
     margin: 2rem 0rem;
@@ -206,7 +201,6 @@
 .junmun2021 {
     text-align: center;
     padding-top: 0vh;
-    /*4vh */
     color: var(--color-1-100);
     font-variant: small-caps;
     font-weight: bolder;
@@ -225,13 +219,11 @@
     color: var(--color-1-100);
 }
 
-
 .images-junmun21 img {
     width: 350px;
     margin: 10px 10px;
     box-shadow: 0 0 0.4375rem;
     border-radius: 0.625rem;
-    /* pointer-events: none; */
 }
 
 .images-junmun21 {
@@ -261,7 +253,6 @@
 }
 
 .faq-section {
-    /* font-size: 2rem; */
     font-weight: bolder;
     padding: 2rem 0;
     text-align: center;
@@ -275,18 +266,14 @@
     }
 
     .faq-section h1 {
-        /* font-size: 1.741rem !important; */
         font-size: 4vw !important;
     }
 }
 
 .agenda a {
     color: white;
-    /* font-size: 1.2rem; */
     font-size: 0.88rem;
     background-color: var(--color-1-100);
-    /* background-color: #eacda3; */
-    /* width: 40%; */
     text-align: center;
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -424,7 +411,6 @@
     }
 }
 
-
 @media only screen and (max-width:320px) {
     .exe-cont {
         margin-top: 1.5rem;
@@ -437,7 +423,6 @@
     margin: 4%;
     gap: 1%;
 }
-
 
 @media screen and (max-width: 768px) {
     .exe-all {
@@ -489,9 +474,7 @@
 
 .partner-head h1,
 .jdv-head h1 {
-    /* border-bottom: 1px dashed var(--color-1-100); */
     color: var(--color-1-100);
-    /* font-size: 1.66rem; */
     font-weight: 900;
     font-variant: small-caps;
     font-size: 1.8rem;
@@ -581,7 +564,6 @@
     margin-top: 15vh;
 }
 
-
 @media only screen and (min-device-width: 541px) and (max-device-width: 1279px) {
     .junmun-agendas {
         margin-top: 3rem !important;
@@ -620,7 +602,6 @@
     .commitees-heading {
         margin-top: 6vh;
     }
-
 
     .commitees-heading h1 {
         font-size: 1.741rem;
@@ -680,9 +661,3 @@
         height: 60vh;
     }
 }
-
-/* @media only screen and (max-height:350px){
-  .event-pic{
-    height: 20vh;
-  }
-} */

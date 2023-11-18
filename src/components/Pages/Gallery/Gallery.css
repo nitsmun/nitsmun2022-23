@@ -133,7 +133,6 @@
 
     .gallertstrts {
         width: 100%;
-        /* margin: 0 0 0 auto; */
         background-color: #121212;
         margin-top: -10vh;
         position: relative;
@@ -151,7 +150,6 @@
         font-size: 8.5vw;
         padding-left: 1vw;
         padding-right: 1vw;
-        /* color: var(--color-1-100); */
     }
 
     .day1strts {

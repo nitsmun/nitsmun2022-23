@@ -10,8 +10,6 @@
     font-weight: 700;
     font-family: "Inter", sans-serif;
     font-size: 3vw;
-    /* box-shadow: 0px 0px 10px 0px #00000033;
-  box-shadow: 0px 0px 10px 0px #00000033; */
 }
 
 .bio_yp {
@@ -43,13 +41,11 @@
     border: 2px solid #794894;
     box-shadow: 0px 0px 20px 0px #00000099;
     margin-top: 3vw;
-    /* min-height: 50vh; */
     padding: 3vw 2vw 3.5vw 2vw;
 }
 
 .committee_yp_info h1 {
     color: #5a4894;
-    /* box-shadow: 0px 4px 4px 0px #00000040; */
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 2.25vw;
@@ -65,7 +61,6 @@
     width: 40%;
     flex: none;
     order: 1;
-    /* background-color: red; */
 }
 
 .content_holder_yp_flex {
@@ -171,7 +166,6 @@
     .content_holder_yp_flex {
         width: 100%;
         padding-top: 3vw;
-        /* padding-right: 4vw; */
     }
 
     .committee_yp_info h1 {

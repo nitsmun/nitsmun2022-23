@@ -92,7 +92,6 @@
 	transform: rotate(-45deg);
 }
 
-
 @keyframes down {
 	0% {
 		transform: translate(0);

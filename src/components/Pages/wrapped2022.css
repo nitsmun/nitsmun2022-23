@@ -131,7 +131,6 @@
     font-weight: 900;
 }
 
-
 @media only screen and (max-width:660px) {
     .wrapped-top img {
         width: 60%;
@@ -188,8 +187,6 @@
     }
 
     .reverse-content-july {
-        /* width: 97% !important;
-        max-width: 99% !important; */
         margin-top: 2rem;
         margin-bottom: 1.5rem;
     }

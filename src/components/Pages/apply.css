@@ -3,11 +3,9 @@
     width: 100%;
     background-color: var(--color-1-100);
     background: url(https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_800,f_auto,fl_lossy/v1676607681/nitsmun/apply_bg_ty7odj.jpg);
-    /* background: url(../../../public/Images/Nitsmun\ fb\ \ cover\ page.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* box-shadow: inset 0 0 0 1000px rgba(1, 51, 91, 0.712); */
     box-shadow: inset 0 0 0 1000px #1f1834b7;
     background-attachment: fixed;
 }
@@ -19,46 +17,8 @@
     pointer-events: none;
 }
 
-
-
-/* .apply-container a{
-    margin-top: 3vh;
-    padding: 0.9375rem 1.25rem;
-    width: 70%;
-    display: inline-block;
-    background-color: var(--color-4-100);
-    color: var(--color-5-100);
-    font-weight: 900;
-    line-height: 1.6;
-    border-radius: 1.875rem;
-    font-size:1.1875rem;
-    font-variant: small-caps;
-    transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
-}
-
-.apply-container a:hover{
-    transform: scale(1.02);
-    color: black;
-    font-weight: 900;
-    background-color: var(--color-6-100);
-}
-
-.apply-container a:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.25rem #e2564f;
-    transition: 0.5s;
-  }
-
-.apply-container a:active
-          {
-              box-shadow: 1px 1px 1px 1px #e2564f;
-              transform: translateY(2px);
-          }  */
-
-
 @media only screen and (max-width: 1000px) {
     .img-apply img {
-        /* width: 8.75rem; */
         width: 11rem;
         margin-top: 13vh !important;
     }
@@ -66,14 +26,6 @@
     .apply-container {
         height: 75vh;
     }
-
-    /* .apply-container a{
-        width: 90%;
-        font-size: 0.875rem;
-        padding-top: 0.625rem;
-        padding-bottom: 0.625rem;
-        margin-top: 2vh !important;
-    } */
 }
 
 
@@ -82,10 +34,6 @@
         width: 9.375rem;
         padding-top: 2.5rem;
     }
-
-    /* .apply-container a{
-                font-size: 0.875rem;
-            } */
 }
 
 
@@ -99,11 +47,6 @@
         margin: 7vh 0 1vh 0vh;
         padding-top: 0.625rem;
     }
-
-    /* .apply-container a{
-        font-size: 1.125rem;
-        margin-top: 4vh !important;
-    } */
 }
 
 
@@ -114,18 +57,10 @@
         margin-top: 10vh;
         margin-bottom: 10vw;
     }
-
-    /* .apply-container a{
-        width: 90%;
-        font-size: 0.625rem;
-        padding-top: 0.625rem;
-        padding-bottom: 0.625rem;
-    } */
 }
 
 .application-btn {
     display: inline-block;
-    /* display: block; */
     cursor: pointer;
     width: 70%;
     margin: 1.5vh auto;
@@ -147,7 +82,6 @@
 .application-btn:hover {
     transform: scale(1.02);
     color: black;
-    /* font-weight: 900; */
     background-color: var(--color-6-100);
     border: 2px solid #c67382;
     color: var(--color-1-100);
@@ -165,7 +99,6 @@
 }
 
 .apply-display {
-    /* background-color: var(--color-1-100); */
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
@@ -187,7 +120,6 @@
     color: white;
     font-size: 2vw;
     font-family: 'Nunito', sans-serif;
-    /* display: flex; */
     align-items: flex-start;
 }
 
@@ -248,8 +180,6 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
     .application-btn {
         font-size: 1.125rem;
-        /* margin-top: 4vh !important; */
-        /* margin: 2rem auto !important; */
     }
 
     .apply-display {
@@ -283,7 +213,6 @@
         min-height: 170vh;
     }
 }
-
 
 @media only screen and (max-height:576px) {
     .apply-container {

@@ -14,7 +14,6 @@
     font-weight: 700;
     font-family: "Inter", sans-serif;
     font-size: 2.25vw;
-    /* border-bottom: 3px solid #5A4894; */
     text-decoration: underline;
     display: inline-block;
 }
@@ -33,9 +32,6 @@
     border: 1px solid #000000;
     padding: 1.5vw;
     border-radius: 10px;
-    /* position: relative; */
-    /* display: flex;
-    flex-direction: column; */
 }
 
 
@@ -112,8 +108,6 @@
         display: flex;
         flex-direction: column;
         margin-top: 5vw;
-        /* padding-left: 3vw;
-        padding-right: 3vw; */
     }
 
     .child_agenda1 {
@@ -124,7 +118,6 @@
         margin-right: auto;
         padding: 3vw;
     }
-
 
     #agenda2 {
         margin: 8vw auto;
