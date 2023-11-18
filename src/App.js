@@ -1,5 +1,7 @@
+/** @format */
+
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import home from "./components/Pages/home";
 import about from "./components/Pages/about";
@@ -8,16 +10,16 @@ import junior_mun from "./components/Pages/junior_mun";
 import nitsmun2022 from "./components/Pages/nitsmun2022";
 import team from "./components/team";
 import segments from "./components/Pages/segments";
-import NotFound from "./components/Pages/NotFound";
-import Navbarmenu from "./components/Menu/Navbarmenu";
-import ScrollToTop from "./components/ScrollToTop";
-import Footer from "./components/Footer";
-import Scrolling from "./components/Scrolling";
+// import NotFound from "./components/Pages/NotFound";
+// import NavBarMenu from "./components/Menu/NavBarMenu";
+// import ScrollToTop from "./components/ScrollToTop";
+// import Footer from "./components/Footer";
+// import Scrolling from "./components/Scrolling";
 import apply from "./components/Pages/apply";
-import ArticleDetail from "./components/Pages/ArticleDetail";
-import ApplyDetail from "./components/Pages/ApplyDetail";
-import ByBharatDetail from "./components/ByBharatDetail";
-import QuirkyDetail from "./components/QuirkyDetail";
+// import ArticleDetail from "./components/Pages/ArticleDetail";
+// import ApplyDetail from "./components/Pages/ApplyDetail";
+// import ByBharatDetail from "./components/ByBharatDetail";
+// import QuirkyDetail from "./components/QuirkyDetail";
 import Wrapped from "./components/Pages/Wrapped";
 import Wrapped2022 from "./components/Pages/Wrapped2022";
 import Mock2023 from "./components/Pages/Mockmun2023/Mock2023";
@@ -32,7 +34,7 @@ function App() {
   return (
     <div>
       <Router basename="/">
-        <Navbarmenu />
+        <NavBarMenu />
         <Scrolling>
           <Switch>
             <Route exact path="/" component={home} />
@@ -46,15 +48,27 @@ function App() {
             <Route path="/archive" component={Archive} />
             <Route path="/inpictures" component={Gallery} />
             <Route path="/segments" component={segments} />
-            <Route path="/article/:id"> <ArticleDetail/> </Route>
-            <Route path="/bybharat/:id"> <ByBharatDetail/> </Route>
-            <Route path="/combat/:id"> <QuirkyDetail/> </Route>
-            <Route path="/application/:id"> <ApplyDetail/> </Route>
+            <Route path="/article/:id">
+              {" "}
+              <ArticleDetail />{" "}
+            </Route>
+            <Route path="/bybharat/:id">
+              {" "}
+              <ByBharatDetail />{" "}
+            </Route>
+            <Route path="/combat/:id">
+              {" "}
+              <QuirkyDetail />{" "}
+            </Route>
+            <Route path="/application/:id">
+              {" "}
+              <ApplyDetail />{" "}
+            </Route>
             <Route path="/apply" component={apply} />
-            <Route path='/wrapped' component={Wrapped}></Route>
-            <Route path='/wrapped2022' component={Wrapped2022}></Route>
+            <Route path="/wrapped" component={Wrapped}></Route>
+            <Route path="/wrapped2022" component={Wrapped2022}></Route>
             {/* <Route path='/recruiting' component={Recruiting}></Route> */}
-            <Route path='/results' component={Resultsrecruitment}></Route>
+            <Route path="/results" component={Resultsrecruitment}></Route>
             <Route path="/youth-parliament" component={Yp} />
             <Route path="*">
               {" "}
@@ -68,4 +82,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

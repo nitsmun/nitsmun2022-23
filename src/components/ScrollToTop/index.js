@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
 import "./index.css";
 import { useWindowScroll } from "react-use";
@@ -12,9 +14,11 @@ const ScrollToTop = () => {
     }
   }, [pageYOffset]);
   const ScrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   if (!visible) {
     return false;
   }
+
   return (
     <div
       className="scroll-to-top cursor-pointer text-center"
@@ -26,4 +30,5 @@ const ScrollToTop = () => {
     </div>
   );
 };
+
 export default ScrollToTop;

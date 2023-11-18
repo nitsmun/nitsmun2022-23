@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./Teamweb.css";
 import { Secretariatwebjr } from "./Dataset";
@@ -27,6 +29,7 @@ const Teamweb = () => {
     imgs.forEach((img) => {
       observer.observe(img);
     });
+
     return () => {
       imgs.forEach((img) => {
         observer.unobserve(img);
@@ -37,6 +40,7 @@ const Teamweb = () => {
   const loadImages = (image) => {
     image.src = image.dataset.src;
   };
+
   return (
     <>
       <div className="team-head5">
@@ -86,4 +90,5 @@ const Teamweb = () => {
     </>
   );
 };
+
 export default Teamweb;

@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { useEffect } from "react";
 import { useLocation } from "react-router";
@@ -9,4 +11,5 @@ const Scrolling = (props) => {
 
   return <>{props.children}</>;
 };
+
 export default Scrolling;

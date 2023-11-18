@@ -1,8 +1,10 @@
+/** @format */
+
 import React from "react";
 import "./about.css";
 import Underline from "../Underline";
 import { TabTitle } from "../Utils/Genfn";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const About = () => {
   TabTitle("About | NITS MUN");

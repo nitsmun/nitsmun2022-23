@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./nitsmun2022.css";
 import { TabTitle } from "../Utils/Genfn";
@@ -37,27 +39,22 @@ const Nitsmun2022 = () => {
         We will be having three committees this year:
         <br />
         <br />
-        UNSC (United Nations Security Council), with the agenda{" "}
-          “The Occupation of major water ways for strong military presence
-          overseas and it's impact on overseas trade.”
+        UNSC (United Nations Security Council), with the agenda “The Occupation
+        of major water ways for strong military presence overseas and it's
+        impact on overseas trade.”
         <br />
         <br />
         UNEP (United Nations Environment Programme), with the agenda{" "}
-       
-          “Eliminating the domestic and international trafficking and illegal
-          trade of wildlife
-      
-        ”.
+        “Eliminating the domestic and international trafficking and illegal
+        trade of wildlife ”.
         <br />
         <br />
         IPC (International Press Corps) which will allow participants to act as
         unbiased journalists, reporting on the proceedings of each simulation in
         the Conference. They will get a chance to investigate committee debates,
-        conduct interviews, edit articles, and cover press conferences.{" "}
-  
-          "If you prefer writing over speaking, be a member of the International
-          Press and keep a check on the delegates!"
-       
+        conduct interviews, edit articles, and cover press conferences. "If you
+        prefer writing over speaking, be a member of the International Press and
+        keep a check on the delegates!"
         <br />
         <br />
       </div>
@@ -91,11 +88,11 @@ const Nitsmun2022 = () => {
 
       <div className="nm22-body2">
         <div className="nm22-body2_1">
-          The theme for the year is “Nous voyons notre avenir”, French
-          for “We see our future”. The pandemic has made us realise that
-          if we don't work together, we won't be able to go ahead. We are our
-          future, and until all of humanity comes together, it will be
-          impossible to make this planet liveable.
+          The theme for the year is “Nous voyons notre avenir”, French for “We
+          see our future”. The pandemic has made us realise that if we don't
+          work together, we won't be able to go ahead. We are our future, and
+          until all of humanity comes together, it will be impossible to make
+          this planet liveable.
         </div>
         <br />
         <br />
@@ -108,19 +105,55 @@ const Nitsmun2022 = () => {
 
         <div className="nm22-grid">
           <div className="grid1">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660320/nitsmun/nm22j1_uiyopd.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660367/nitsmun/nm22j2_zutidr.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660469/nitsmun/nm22j3_q3wwcm.jpg" alt="" className="nm22-exmianimg" />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660320/nitsmun/nm22j1_uiyopd.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660367/nitsmun/nm22j2_zutidr.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660469/nitsmun/nm22j3_q3wwcm.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
           </div>
           <div className="grid1">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660450/nitsmun/nm22j4_es5d5h.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660507/nitsmun/nm22j5_kg3aqw.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660548/nitsmun/nm22j6_gge8ut.jpg" alt="" className="nm22-exmianimg" />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660450/nitsmun/nm22j4_es5d5h.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660507/nitsmun/nm22j5_kg3aqw.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660548/nitsmun/nm22j6_gge8ut.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
           </div>
           <div className="grid1">
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660583/nitsmun/nm22j7_qgmqdn.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660611/nitsmun/nm22j8_qyzprx.jpg" alt="" className="nm22-exmianimg" />
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660655/nitsmun/nm22j9_amnqgv.jpg" alt="" className="nm22-exmianimg" />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660583/nitsmun/nm22j7_qgmqdn.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660611/nitsmun/nm22j8_qyzprx.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660655/nitsmun/nm22j9_amnqgv.jpg"
+              alt=""
+              className="nm22-exmianimg"
+            />
           </div>
         </div>
       </div>
@@ -150,4 +183,5 @@ const Nitsmun2022 = () => {
     </div>
   );
 };
+
 export default Nitsmun2022;

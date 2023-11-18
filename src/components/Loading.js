@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./Loading.css";
 const Loading = () => {
@@ -16,4 +18,3 @@ const Loading = () => {
 };
 
 export default Loading;
-

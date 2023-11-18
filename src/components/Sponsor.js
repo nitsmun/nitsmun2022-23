@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { partnerall } from "./Dataset";
 
@@ -25,10 +27,13 @@ const Sponsor = () => {
         <h1>MUN PARTNERS</h1>
       </div>
       <div className="jdv-list">
-        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660148/nitsmun/jadavpur_university_nmchdt.png" alt="Jadavpur University" />
-       <div className="jdv-about">
-       <h2>Jadavpur University</h2>
-       </div>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676660148/nitsmun/jadavpur_university_nmchdt.png"
+          alt="Jadavpur University"
+        />
+        <div className="jdv-about">
+          <h2>Jadavpur University</h2>
+        </div>
       </div>
     </>
   );

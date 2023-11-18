@@ -1,11 +1,14 @@
+/** @format */
+
 import React from "react";
-import Helmet from "react-helmet";
-import { useParams, Link } from "react-router-dom";
+// import Helmet from "react-helmet";
+import { useParams } from "react-router-dom";
 import { Articledata } from "../Dataset";
 import "./Articledata.css";
 
 const ArticleDetail = () => {
   const { id } = useParams();
+
   return (
     <>
       {Articledata.filter((item) => item.id === id).map((item) => (

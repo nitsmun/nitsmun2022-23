@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./mockmun.css";
 // import { Link } from "react-router-dom";
@@ -29,7 +31,7 @@ const MockMun = () => {
         <br />
         {/* <p>So, hurry up and get yourself registered on the link given below!</p> */}
       </div>
-     
+
       {/* <div className="hometop-apply">
         <div className="hometop-reg">
           <ul style={{ color: "white" }}>
@@ -68,4 +70,5 @@ const MockMun = () => {
     </>
   );
 };
+
 export default MockMun;

@@ -1,14 +1,16 @@
+/** @format */
+
 import React from "react";
 import "./Footer.css";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+// import { FaYoutube } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiOutlineInstagram } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-import { GoLocation } from "react-icons/go";
-import { BsTelephone } from "react-icons/bs";
-import { IconContext } from "react-icons";
-import {SiLinktree} from 'react-icons/si'
+// import { GoLocation } from "react-icons/go";
+// import { BsTelephone } from "react-icons/bs";
+// import { IconContext } from "react-icons";
+// import { SiLinktree } from "react-icons/si";
 const Footer = () => {
   return (
     <div className="footer-main">
@@ -66,7 +68,6 @@ const Footer = () => {
             target="_#blank"
           >
             <SiLinktree className="icon-color-f" size={26} />
- 
           </a>
         </button>
 
@@ -94,7 +95,10 @@ const Footer = () => {
         </div>
         <div className="footer-pic">
           <a href="/" className="footer-heading" style={{ color: "white" }}>
-            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg" alt="" />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676474853/events/nitsmun/nitsmun-logo_tdkzbf.svg"
+              alt=""
+            />
           </a>
 
           {/* <h1 className="footer-heading" style={{color : 'white'}}>
@@ -126,7 +130,9 @@ const Footer = () => {
             >
               {" "}
               <ul>Model United Nations</ul>
-              <a href="https://www.google.com/maps/place/National+Institute+Of+Technology,+Silchar/@24.7577144,92.7901042,17z/data=!3m1!4b1!4m5!3m4!1s0x374e49dcb63bae9b:0x81efa836714a289b!8m2!3d24.7577144!4d92.7922929"><ul>NIT Silchar</ul></a>
+              <a href="https://www.google.com/maps/place/National+Institute+Of+Technology,+Silchar/@24.7577144,92.7901042,17z/data=!3m1!4b1!4m5!3m4!1s0x374e49dcb63bae9b:0x81efa836714a289b!8m2!3d24.7577144!4d92.7922929">
+                <ul>NIT Silchar</ul>
+              </a>
               <ul className="light-address">Silchar, Assam</ul>
             </a>
             {/* <ul>Model United Nations</ul>
@@ -146,15 +152,21 @@ const Footer = () => {
           </IconContext.Provider>
           <div className="phonenum">
             <div className="phonenum2">
-              <a href="tel:+917096597864"><p className="num-fter">+917096597864</p></a>
+              <a href="tel:+917096597864">
+                <p className="num-fter">+917096597864</p>
+              </a>
               {/* <a href="tel:+919707091602">9707091602</a> */}
             </div>
           </div>
         </div>
       </div>
-      
-      <div className="copyright-nitsmun" style={{userSelect:'none'}}>
-        <p>	&copy; 2023 <span className="nits--mun">NITSMUN</span>. All rights reserved.</p>
+
+      <div className="copyright-nitsmun" style={{ userSelect: "none" }}>
+        <p>
+          {" "}
+          &copy; 2023 <span className="nits--mun">NITSMUN</span>. All rights
+          reserved.
+        </p>
       </div>
     </div>
   );

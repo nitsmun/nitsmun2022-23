@@ -1,10 +1,10 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./Teamresearchjr.css";
 import { Secretariatresearchjr } from "./Dataset";
-
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
 const Teamresearchjr = () => {
   const config = {
@@ -26,6 +26,7 @@ const Teamresearchjr = () => {
     imgs.forEach((img) => {
       observer.observe(img);
     });
+
     return () => {
       imgs.forEach((img) => {
         observer.unobserve(img);
@@ -36,6 +37,7 @@ const Teamresearchjr = () => {
   const loadImages = (image) => {
     image.src = image.dataset.src;
   };
+
   return (
     <>
       <div className="team-head3">
@@ -87,4 +89,5 @@ const Teamresearchjr = () => {
     </>
   );
 };
+
 export default Teamresearchjr;

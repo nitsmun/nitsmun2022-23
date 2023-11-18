@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./Teamjr.css";
 import { Secretariatjr } from "./Dataset";
@@ -24,6 +26,7 @@ const Teamjr = () => {
     imgs.forEach((img) => {
       observer.observe(img);
     });
+
     return () => {
       imgs.forEach((img) => {
         observer.unobserve(img);
@@ -34,6 +37,7 @@ const Teamjr = () => {
   const loadImages = (image) => {
     image.src = image.dataset.src;
   };
+
   return (
     <>
       <div className="team-stats-card1">
@@ -80,4 +84,5 @@ const Teamjr = () => {
     </>
   );
 };
+
 export default Teamjr;

@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./Underline.css";
 const Underline = () => {
@@ -7,4 +9,5 @@ const Underline = () => {
     </>
   );
 };
+
 export default Underline;

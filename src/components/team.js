@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./team.css";
 import { Secretariat } from "./Dataset";
@@ -36,6 +38,7 @@ const Team = () => {
     imgs.forEach((img) => {
       observer.observe(img);
     });
+
     return () => {
       imgs.forEach((img) => {
         observer.unobserve(img);
@@ -119,4 +122,5 @@ const Team = () => {
     </>
   );
 };
+
 export default Team;

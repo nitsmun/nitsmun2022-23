@@ -1,10 +1,13 @@
+/** @format */
+
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
-import { FiChevronDown } from "react-icons/fi";
-import { ImCross } from "react-icons/im";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { NavLink, Link } from "react-router-dom";
+// import { FiChevronDown } from "react-icons/fi";
+// import { ImCross } from "react-icons/im";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
-const Navbarmenu = () => {
+
+const NavBarMenu = () => {
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 93) {
@@ -22,6 +25,7 @@ const Navbarmenu = () => {
     setResponsiveclose(isResponsiveclose === false ? true : false);
   };
   let boxClass = ["main-menu menu-right menuq1"];
+
   if (isMenu) {
     boxClass.push("menuq2");
   } else {
@@ -39,6 +43,7 @@ const Navbarmenu = () => {
   };
 
   let boxClassSubMenu = ["sub__menus"];
+
   if (isMenuSubMenu) {
     boxClassSubMenu.push("sub__menus__Active");
   } else {
@@ -46,11 +51,13 @@ const Navbarmenu = () => {
   }
 
   let boxClassSubMenuMore = ["sub__menus"];
+
   if (isMenuSubMenuMore) {
     boxClassSubMenuMore.push("sub__menus__Active");
   } else {
     boxClassSubMenuMore.push("");
   }
+
   return (
     <header className="header__middle">
       <div className={color ? "container container-bg" : "container"}>
@@ -259,4 +266,5 @@ const Navbarmenu = () => {
     </header>
   );
 };
-export default Navbarmenu;
+
+export default NavBarMenu;

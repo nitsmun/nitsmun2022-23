@@ -1,10 +1,10 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./Teampr.css";
 import { Secretariatprjr } from "./Dataset";
-
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import Underline2 from "./Underline2";
 const Teampr = () => {
   const config = {
@@ -26,6 +26,7 @@ const Teampr = () => {
     imgs.forEach((img) => {
       observer.observe(img);
     });
+
     return () => {
       imgs.forEach((img) => {
         observer.unobserve(img);
@@ -36,6 +37,7 @@ const Teampr = () => {
   const loadImages = (image) => {
     image.src = image.dataset.src;
   };
+
   return (
     <>
       <div className="team-head4">
@@ -87,4 +89,5 @@ const Teampr = () => {
     </>
   );
 };
+
 export default Teampr;

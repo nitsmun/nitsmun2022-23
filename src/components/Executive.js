@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { allexecutive } from "./Dataset";
 import Underline2 from "./Underline";
@@ -13,7 +15,7 @@ const Executive = () => {
       <div className="commitees-heading">
         <h1>Executive Board</h1>
       </div>
-    <Underline2 />
+      <Underline2 />
       <div className="exe-cont">
         <div className="exe-all">
           {allexecutive.map((item) => {

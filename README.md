@@ -24,4 +24,3 @@ Follow the commands below:
 ## Demonstration 
 
 nitsmun.in/
-

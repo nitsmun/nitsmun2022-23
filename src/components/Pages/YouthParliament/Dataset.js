@@ -1,3 +1,5 @@
+/** @format */
+
 export const FaqData = [
   {
     question: "What is NITSMUN?",
@@ -34,7 +36,6 @@ export const FaqData = [
       "The Youth Parliament will be held offline at the National Institute of Technology, Silchar.",
   },
 ];
-
 export const Eb0 = [
   {
     id: 1,
@@ -78,7 +79,7 @@ export const Eb0 = [
     about: (
       <>
         Socrates' words, "The more I know, the more I realize I know nothing" is
-        what has always driven {" "}
+        what has always driven{" "}
         <a
           href="https://www.instagram.com/p/CzLQLFIPj8x/"
           target="_blank"
@@ -96,13 +97,12 @@ export const Eb0 = [
             George's
           </span>
         </a>{" "}
-        belief system. This ingrained convention
-        has always pushed the heights of his curiosity, which has in turn made
-        him win numerous debates and speeches since 2019. Presenting to you Mr
-        George Paul as the Deputy Speaker of the NITSMUN Youth Parliament, 2023.
-        Despite being a littérateur George is again mockingly reckoned as ex-KGB
-        Officer for his dexterous and diplomatic hold over the portfolio of
-        Russian Federation.
+        belief system. This ingrained convention has always pushed the heights
+        of his curiosity, which has in turn made him win numerous debates and
+        speeches since 2019. Presenting to you Mr George Paul as the Deputy
+        Speaker of the NITSMUN Youth Parliament, 2023. Despite being a
+        littérateur George is again mockingly reckoned as ex-KGB Officer for his
+        dexterous and diplomatic hold over the portfolio of Russian Federation.
       </>
     ),
   },
