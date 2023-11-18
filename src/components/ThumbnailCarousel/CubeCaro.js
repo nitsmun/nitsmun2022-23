@@ -1,11 +1,16 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+import { EffectCube, Pagination, Autoplay } from "swiper";
 import { ThumbsCarousel } from "../Dataset";
+
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import { EffectCube, Pagination, Autoplay } from "swiper";
-import './CubeCaro.css'
+import "./CubeCaro.css";
+
 const CubeCaro = () => {
     const config = {
         rootMargin: "0px 0px 0px 0px",
@@ -14,7 +19,10 @@ const CubeCaro = () => {
     const [loaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        let observer = new window.IntersectionObserver(function (entries, self) {
+        let observer = new window.IntersectionObserver(function (
+            entries,
+            self,
+        ) {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     loadImages(entry.target);
@@ -26,6 +34,7 @@ const CubeCaro = () => {
         imgs.forEach((img) => {
             observer.observe(img);
         });
+
         return () => {
             imgs.forEach((img) => {
                 observer.unobserve(img);
@@ -36,6 +45,7 @@ const CubeCaro = () => {
     const loadImages = (image) => {
         image.src = image.dataset.src;
     };
+
     return (
         <>
             <Swiper
@@ -46,31 +56,34 @@ const CubeCaro = () => {
                     slideShadows: false,
                     shadowOffset: 0,
                     shadowScale: 0,
-                  }}
+                }}
                 loop
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
                 }}
                 pagination={true}
-                modules={[ EffectCube,Pagination, Autoplay]}
+                modules={[EffectCube, Pagination, Autoplay]}
                 className="mySwiper"
             >
                 {ThumbsCarousel.map((item) => {
                     return (
                         <SwiperSlide key={item.id}>
                             <div className="imgdiccaro">
-                                <img src={""} data-src={item.img}
+                                <img
+                                    src={""}
+                                    data-src={item.img}
                                     className={loaded ? "loaded" : "loading"}
                                     onLoad={() => setIsLoaded(true)}
-                                    alt="" />
+                                    alt=""
+                                />
                             </div>
                         </SwiperSlide>
-                    )
+                    );
                 })}
             </Swiper>
         </>
-    )
-}
+    );
+};
 
-export default CubeCaro
+export default CubeCaro;

@@ -1,487 +1,484 @@
-.hometop-main{
-  position: relative;
-  margin-top: 1.25rem;
-  padding-top: 5rem;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_800,f_auto,fl_lossy/v1676607614/nitsmun/hometop_smvqm7.jpg");
-  /* box-shadow: inset 0 0 0 1000px rgba(1, 51, 91,0.5); */
-  box-shadow: inset 0 0 0 1000px #1f1834b1;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: rgb(245, 89, 89);
-  padding-bottom: 0;
-  height: 101vh;
-  background-attachment: fixed;
-  opacity: 1;
+.hometop-main {
+    position: relative;
+    margin-top: 1.25rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_800,f_auto,fl_lossy/v1676607614/nitsmun/hometop_smvqm7.jpg");
+    box-shadow: inset 0 0 0 1000px #1f1834b1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(245, 89, 89);
+    padding-bottom: 0;
+    height: 101vh;
+    background-attachment: fixed;
+    opacity: 1;
 }
 
-.incand-logo{
-  width: 12vw;
-  height: 7vw;
-  position: absolute;
-  top: 10%;
-  left:  50%;
-  transform: translate(-50%,-8%);
-  user-select: none;
+.incand-logo {
+    width: 12vw;
+    height: 7vw;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+    user-select: none;
 }
 
-.incand-logo img{
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+.incand-logo img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 
-.incand-ad{
-  position: absolute;
-  top: 26%;
-  left: 50%;
-  transform: translate(-50%, -26%);
-  user-select: none;
+.incand-ad {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -26%);
+    user-select: none;
 }
 
-.incand-ad h1{
-  font-size: 1.4vw;
-  color: white;
-  /* background-color: #a4606c88; */
-  border-radius: .125rem;
-  text-shadow: 10px 10px 25px rgb(81,67,21),
-  -10px 10px 25px rgb(81,67,21),
-  -10px -10px 25px rgb(81,67,21),
-  10px -10px 25px rgb(81,67,21);
-  padding-left: .3vw;
-  padding-right: .3vw;
-  letter-spacing: .2px;
-  font-weight: 400;
-  font-family: 'Nunito', sans-serif;
+.incand-ad h1 {
+    font-size: 1.4vw;
+    color: white;
+    border-radius: .125rem;
+    text-shadow: 10px 10px 25px rgb(81, 67, 21),
+        -10px 10px 25px rgb(81, 67, 21),
+        -10px -10px 25px rgb(81, 67, 21),
+        10px -10px 25px rgb(81, 67, 21);
+    padding-left: .3vw;
+    padding-right: .3vw;
+    letter-spacing: .2px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
 }
 
-.hometop-img img{
-  position: absolute;
-  top: 65%;
-  left:  50%;
-  transform: translate(-50%,-65%);
-  height: 28vw;
-  width: 20vw;
-  max-width: 100%;
-  pointer-events: none;
-  aspect-ratio: 1/1;
+.hometop-img img {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    height: 28vw;
+    width: 20vw;
+    max-width: 100%;
+    pointer-events: none;
+    aspect-ratio: 1/1;
 }
 
-.dte-nitsmun2k23{
-  position: absolute;
-  top: 95%;
-  left:  50%;
-  transform: translate(-50%,-95%);
-  font-family: 'Lato', sans-serif !important;
+.dte-nitsmun2k23 {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    font-family: 'Lato', sans-serif !important;
 }
 
-.dte-nitsmun2k23 h1, .typewriter-hero{
-  font-size: 1.7vw;
- font-weight: 900;
-color: white;
- letter-spacing: 1px;
-  /* background-color: #a4606c88; */
-  border-radius: .125rem;
-  padding-left: .3vw;
-  padding-right: .3vw;
-  text-shadow: -1px -1px 3px #020202, 
-      2px 2px 4px #1b1b1b; 
+.dte-nitsmun2k23 h1,
+.typewriter-hero {
+    font-size: 1.7vw;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: .125rem;
+    padding-left: .3vw;
+    padding-right: .3vw;
+    text-shadow: -1px -1px 3px #020202,
+        2px 2px 4px #1b1b1b;
 }
 
-.hometop-apply{
-  width: 100%;
-  padding: 1em 1em;
-  background-color: var(--color-1-100);
-  font-size: 2em;
+.hometop-apply {
+    width: 100%;
+    padding: 1em 1em;
+    background-color: var(--color-1-100);
+    font-size: 2em;
 }
 
-.hometop-link1btn{
-  width: 50%;
-  padding: 1rem 2rem;
- font-weight:600;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 3.125rem;
-  cursor: pointer;
-  transition: 0.3s ease-out;
-  font-size: 1.25rem;
-  background-color: var(--color-4-100);
-  background-color: var( --color-1-080);
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: .7px;
-  color: white;
-  border: 2px solid var(--color-6-100);
-  transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
+.hometop-link1btn {
+    width: 50%;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    font-size: 1.25rem;
+    background-color: var(--color-4-100);
+    background-color: var(--color-1-080);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .7px;
+    color: white;
+    border: 2px solid var(--color-6-100);
+    transition: transform 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s, background-color 0.25s cubic-bezier(0.27, 0.49, 0.62, 1.47) 0s;
 }
 
-.hometop-link1btn:hover{
-  color: var(--color-1-100);
+.hometop-link1btn:hover {
+    color: var(--color-1-100);
     font-weight: 900;
     background-color: var(--color-6-100);
     transform: scale(1.02);
     border: 2px solid #a4606c;
 }
 
-.hometop-link1btn:active
-          {
-              box-shadow: 1px 1px 1px 1px #e2564f;
-              transform: translateY(2px);
-          } 
+.hometop-link1btn:active {
+    box-shadow: 1px 1px 1px 1px #e2564f;
+    transform: translateY(2px);
+}
 
 .hometop-link1btn:focus {
-            outline: none;
-            box-shadow: 0 0 0 4px #e2564f;
-            transition: 0.5s;
-          }
-
-
-.hometop-reg{
-  font-variant: small-caps;
-  padding-bottom: 1.875rem;
+    outline: none;
+    box-shadow: 0 0 0 4px #e2564f;
+    transition: 0.5s;
 }
 
-.hometop-reg ul{
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: .5px;
+.hometop-reg {
+    font-variant: small-caps;
+    padding-bottom: 1.875rem;
 }
 
-
-.home-wrapped img{
-  position: absolute;
-  top: 15%;
-  left: 3.5%;
-  width: 8%;
-  object-fit: contain;
+.hometop-reg ul {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
 }
 
-.tnew-gif{
-  pointer-events: none;
-  height: auto;
-  width: auto;
-}
-
-.annual-2023-poster{
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
-
-.annual-2023-poster img{
-  width: 50%;
-  object-fit: contain;
-  box-shadow: 0 0 0.9375rem;
-  pointer-events: none;
-  border-radius: 0.625rem;
-}
-
-.home-bner{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900 !important;
-}
-
-.ipc-jour-prom{
-  font-size: 1.5vw;
-  font-style: italic;
-  font-family: 'Poppins', sans-serif;
-  font-variant: normal;
-  font-weight: 500;
-  margin-bottom: 1.5vw;
-}
-
-.ipc-jour-prom::before{
-  content: open-quote;
-  font-family:"Nunito", sans-serif;
-  font-size: 2vw;
-}
-
-.ipc-jour-prom::after{
-  content: close-quote;
-  font-family:"Nunito", sans-serif;
-  font-size: 2vw;
-}
-
-@media only screen and (max-width:1400px) and (min-width:1026px){
-  .hometop-img img{
+.home-wrapped img {
     position: absolute;
-    top: 55%;
-    left:  50%;
-    transform: translate(-50%,-55%);
-  }
-
-  .incand-ad{
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -23%);
-  }
-
-  .dte-nitsmun2k23{
-    position: absolute;
-    top: 90%;
-    left:  50%;
-    transform: translate(-50%,-90%);
-  }
+    top: 15%;
+    left: 3.5%;
+    width: 8%;
+    object-fit: contain;
 }
 
-@media only screen and (max-width:1025px){
-  .hometop-img img{
-    width: 70vw;
-    height: 30vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .incand-logo{
-    width: 20vw;
-    height: 10vw;
-  }
-
-  .incand-ad{
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -23%);
-    user-select: none;
-  }
-
-  .incand-ad h1{
-    font-size: 3vw;
-  }
-
-  .dte-nitsmun2k23{
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%, -82%);
-  }
-
-  .dte-nitsmun2k23 h1, .typewriter-hero{
-    font-size: 3.5vw;
-  }
-}
-
-@media only screen and (min-width:567px){
-  .tnew-gif{
-    margin-bottom: 0.5vw;
-  }
-}
-
-@media only screen and (max-width:991px){
-  .annual-2023-poster{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-  }
-
-  .annual-2023-poster img{
-    width: 70%;
-  }
-
-  .incand-ad h1, .typewriter-hero{
-    padding-left: .5vw;
-  padding-right: .5vw;
-  }
-}
-
-@media screen and (max-width: 565px)  {  
-  .hometop-reg{
-      font-size: 1.4rem;
-  }
-
-  .hometop-reg ul{
-    letter-spacing: 0.1px !important;
-  }
-
-  .hometop-link1btn{
-      font-size: 0.4em;
-      width: 60%;
-      padding: 0.5125rem 0.625rem;
-      letter-spacing: 0.1px;
-  }
-
-  .hometop-apply{
-      padding: 1em 1em;
-      margin-bottom: 0;
-  }
-
-  .hometop-reg {
-    padding-bottom: 0.625rem;
-  }
-}
-
-@media only screen and (max-width:660px){
-  .ipc-jour-prom{
-    font-size: 3.4vw;
-    margin-bottom: 5vw;
-  }
-
-  .ipc-jour-prom::before{
-    content: open-quote;
-    font-family:"Nunito", sans-serif;
-    font-size: 4vw;
-  }
-  
-  .ipc-jour-prom::after{
-    content: close-quote;
-    font-family:"Nunito", sans-serif;
-    font-size: 4vw;
-  }
-
-  .home-wrapped img{
-    width: 20%;
-    top: 10%;
-  }
-
-  .hometop-main{
-    background-attachment: scroll;
-  }
-
-  .incand-logo{
-    width: 40vw;
-    height: 17vw;
-  }
-
-  .hometop-img img{
-    position: absolute;
-    top: 45%;
-    left:  50%;
-    transform: translate(-50%,-45%);
-    height: 50vw;
-    width: 40vw;
-    max-width: 100%;
+.tnew-gif {
     pointer-events: none;
-    aspect-ratio: 1/1;
-  }
-
-  .incand-ad{
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    user-select: none;
-  }
-  
-  .incand-ad h1{
-    font-size: 3vw;
-    color: white;
-    font-weight: 400;
-    font-family: 'Nunito', sans-serif;
-  }
-
-  .dte-nitsmun2k23{
-    position: absolute;
-    top: 90%;
-    left:  50%;
-    transform: translate(-50%,-90%);
-  }
-  
-  .dte-nitsmun2k23 h1, .typewriter-hero{
-    color: white;
-    font-size: 4.3vw;
-  }
+    height: auto;
+    width: auto;
 }
 
-@media only screen and (max-width:500px){
-  .hometop-img img{
-    position: absolute;
-    top: 45%;
-    left:  50%;
-    transform: translate(-50%,-45%);
-    height: 66vw;
-    width: 66vw;
-  }
-
-  .incand-ad h1{
-    font-size: 4vw;
-  }
+.annual-2023-poster {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
-@media screen and (max-width: 410px)  {
-  .hometop-reg {
-    padding-bottom: 0.625rem;
-  }
+.annual-2023-poster img {
+    width: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 0.9375rem;
+    pointer-events: none;
+    border-radius: 0.625rem;
 }
 
-.hometop-reg ul{
-  font-weight: bolder !important;
+.home-bner {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900 !important;
 }
 
-@media only screen and (max-height:400px){
-  .hometop-link1btn{
-    padding-top:.5rem;
-    padding-bottom:.5rem;
-  }
+.ipc-jour-prom {
+    font-size: 1.5vw;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-variant: normal;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
 }
 
-@media only screen and (max-width:352px){
-  .hometop-reg{
-    font-size: 6vw;
-  }
-
-  .hometop-apply{
-    padding: 1.5rem .5rem;
-  }
+.ipc-jour-prom::before {
+    content: open-quote;
+    font-family: "Nunito", sans-serif;
+    font-size: 2vw;
 }
 
-@media only screen and (max-height:616px){
-  .hometop-main{
-    background-attachment: scroll;
-  }
-
-  .hometop-img img{
-    height: 30vh;
-    width: 40vh;
-    top: 50%;
-    left:  50%;
-    transform: translate(-50%,-50%);
-  }
-
-  .incand-logo{
-    width: 20vh;
-    height: 10vh;
-    position: absolute;
-    top: 10%;
-    left:  50%;
-    transform: translate(-50%,-10%);
-    user-select: none;
-    aspect-ratio: 1/1;
-  }
-
-  .dte-nitsmun2k23{
-    position: absolute;
-    top: 93%;
-    left:  50%;
-    transform: translate(-50%,-93%);
-  }
-
-  .dte-nitsmun2k23 h1, .typewriter-hero{
-    color: white;
-    font-size: 3.4vh;
-    /* font-family: 'Nunito', sans-serif; */
-    /* letter-spacing: 2px; */
-  }
-
-  .incand-ad h1{
-    font-size: 2.8vh;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-  }
-
-  .home-wrapped img{
-    top: 19%;
-  }
+.ipc-jour-prom::after {
+    content: close-quote;
+    font-family: "Nunito", sans-serif;
+    font-size: 2vw;
 }
 
-@media only screen and (max-height:256px){
-  .home-wrapped img{
-    top: 30%;
-    width: 5%;
-  }
+@media only screen and (max-width:1400px) and (min-width:1026px) {
+    .hometop-img img {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -55%);
+    }
 
-  .hometop-link1btn{
-    padding-top:.3rem;
-    padding-bottom:.3rem;
-  }
+    .incand-ad {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -23%);
+    }
+
+    .dte-nitsmun2k23 {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+}
+
+@media only screen and (max-width:1025px) {
+    .hometop-img img {
+        width: 70vw;
+        height: 30vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .incand-logo {
+        width: 20vw;
+        height: 10vw;
+    }
+
+    .incand-ad {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -23%);
+        user-select: none;
+    }
+
+    .incand-ad h1 {
+        font-size: 3vw;
+    }
+
+    .dte-nitsmun2k23 {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -82%);
+    }
+
+    .dte-nitsmun2k23 h1,
+    .typewriter-hero {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width:567px) {
+    .tnew-gif {
+        margin-bottom: 0.5vw;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .annual-2023-poster {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .annual-2023-poster img {
+        width: 70%;
+    }
+
+    .incand-ad h1,
+    .typewriter-hero {
+        padding-left: .5vw;
+        padding-right: .5vw;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .hometop-reg {
+        font-size: 1.4rem;
+    }
+
+    .hometop-reg ul {
+        letter-spacing: 0.1px !important;
+    }
+
+    .hometop-link1btn {
+        font-size: 0.4em;
+        width: 60%;
+        padding: 0.5125rem 0.625rem;
+        letter-spacing: 0.1px;
+    }
+
+    .hometop-apply {
+        padding: 1em 1em;
+        margin-bottom: 0;
+    }
+
+    .hometop-reg {
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .ipc-jour-prom {
+        font-size: 3.4vw;
+        margin-bottom: 5vw;
+    }
+
+    .ipc-jour-prom::before {
+        content: open-quote;
+        font-family: "Nunito", sans-serif;
+        font-size: 4vw;
+    }
+
+    .ipc-jour-prom::after {
+        content: close-quote;
+        font-family: "Nunito", sans-serif;
+        font-size: 4vw;
+    }
+
+    .home-wrapped img {
+        width: 20%;
+        top: 10%;
+    }
+
+    .hometop-main {
+        background-attachment: scroll;
+    }
+
+    .incand-logo {
+        width: 40vw;
+        height: 17vw;
+    }
+
+    .hometop-img img {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        height: 50vw;
+        width: 40vw;
+        max-width: 100%;
+        pointer-events: none;
+        aspect-ratio: 1/1;
+    }
+
+    .incand-ad {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        user-select: none;
+    }
+
+    .incand-ad h1 {
+        font-size: 3vw;
+        color: white;
+        font-weight: 400;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .dte-nitsmun2k23 {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+
+    .dte-nitsmun2k23 h1,
+    .typewriter-hero {
+        color: white;
+        font-size: 4.3vw;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .hometop-img img {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        height: 66vw;
+        width: 66vw;
+    }
+
+    .incand-ad h1 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .hometop-reg {
+        padding-bottom: 0.625rem;
+    }
+}
+
+.hometop-reg ul {
+    font-weight: bolder !important;
+}
+
+@media only screen and (max-height:400px) {
+    .hometop-link1btn {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+}
+
+@media only screen and (max-width:352px) {
+    .hometop-reg {
+        font-size: 6vw;
+    }
+
+    .hometop-apply {
+        padding: 1.5rem .5rem;
+    }
+}
+
+@media only screen and (max-height:616px) {
+    .hometop-main {
+        background-attachment: scroll;
+    }
+
+    .hometop-img img {
+        height: 30vh;
+        width: 40vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .incand-logo {
+        width: 20vh;
+        height: 10vh;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        user-select: none;
+        aspect-ratio: 1/1;
+    }
+
+    .dte-nitsmun2k23 {
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translate(-50%, -93%);
+    }
+
+    .dte-nitsmun2k23 h1,
+    .typewriter-hero {
+        color: white;
+        font-size: 3.4vh;
+    }
+
+    .incand-ad h1 {
+        font-size: 2.8vh;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .home-wrapped img {
+        top: 19%;
+    }
+}
+
+@media only screen and (max-height:256px) {
+    .home-wrapped img {
+        top: 30%;
+        width: 5%;
+    }
+
+    .hometop-link1btn {
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+    }
 }

@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+
+import { Modal } from 'react-responsive-modal';
+
 import './AboutBetn.css';
 import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
+
 const AboutBetn = () => {
     const [openmun, setOpenmun] = useState(false);
     const onOpenModalmun = () => setOpenmun(true);

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+
 import './Resultsrecruit.css'
+
 const Resultsrecruitment = () => {
     useEffect(() => {
         document.title = "Recruitment responses || NITSMUN"

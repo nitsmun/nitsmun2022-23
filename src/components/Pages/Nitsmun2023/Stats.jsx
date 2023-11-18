@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+
 import './Stats.css'
+
 const Stats = () => {
     const [state, setState] = useState(true);
     const [active, setIsActive] = useState(true);
@@ -11,8 +13,6 @@ const Stats = () => {
             <div className="stats-m">
                 <div className="stat-chld">
                     <h3 className='hsgw_os vvbhj'>Over</h3>
-                    {/* <CountUp className='jhui__po' start={100} end={1000} duration={1.8}
-                        suffix="+" /> */}
                     <CountUp start={state ? 100 : 1000} end={1000} duration={.7} suffix="+" onEnd={() => setIsActive(false)} >
                         {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>

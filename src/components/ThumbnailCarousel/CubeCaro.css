@@ -1,11 +1,11 @@
-.imgdiccaro{
+.imgdiccaro {
     width: 60%;
-  margin: 5vw auto 0 auto;
+    margin: 5vw auto 0 auto;
     height: 35vw;
     user-select: none;
 }
 
-.imgdiccaro img{
+.imgdiccaro img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -13,20 +13,20 @@
     box-shadow: 0 0 0.9375rem;
 }
 
-@media screen and (max-width:1000){
-    .imgdiccaro{
+@media screen and (max-width:1000) {
+    .imgdiccaro {
         width: 90%;
         height: 70vw;
     }
 }
 
-@media screen and (max-width:660px){
-    .imgdiccaro{
+@media screen and (max-width:660px) {
+    .imgdiccaro {
         width: 90%;
         height: 70vw;
     }
 
-    .imgdiccaro img{
+    .imgdiccaro img {
         border-radius: 2vw;
     }
 }

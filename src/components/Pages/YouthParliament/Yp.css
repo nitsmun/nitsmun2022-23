@@ -1,10 +1,10 @@
-.container_yp{
+.container_yp {
     min-height: 100vh;
     padding-top: 5vw;
 }
 
-@media (max-width:660px){
-    .container_yp{
+@media (max-width:660px) {
+    .container_yp {
         padding-top: 15vw;
     }
 }

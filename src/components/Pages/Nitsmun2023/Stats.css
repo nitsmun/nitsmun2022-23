@@ -1,5 +1,5 @@
 .stats-m{
-   padding: 4vw 0;
+    padding: 4vw 0;
     width: 85%;
     margin: 0 auto;
     display: flex;
@@ -17,7 +17,6 @@
 
 .jhdsu____odis{
     color: #d0a95e;
-    /* color: var( --color-3-100); */
     color: var(--color-1-080);
     font-size: 2vw;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -57,8 +56,6 @@
         width: 50%;
         margin: 4vw 0;
     }
-
-   
 
     .jhui__po{
         font-size: 11vw;

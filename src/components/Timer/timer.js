@@ -1,12 +1,15 @@
-import "./timer.css"
-import React, { useEffect, useState, Suspense } from "react";
+/** @format */
+
+import React, { useEffect, useState } from "react";
+
+import "./timer.css";
+
 let timeTo = new Date(2023, 1, 17, 0, 0, 0, 0);
 let timeLimit = Math.floor(timeTo / 1000);
-const timeIntervals = [60, 60, 24, 100],
-timeIntervalName = ["Days", "Hrs", "Mins", "Secs"];
+const timeIntervals = [60, 60, 24, 100];
+const timeIntervalName = ["Days", "Hrs", "Mins", "Secs"];
 
 function countdown() {
-
     let timerDisplay = [0, 0, 0, 0];
 
     const timeNow = Math.floor(Date.now() / 1000);
@@ -33,7 +36,6 @@ const Timer = () => {
 
             setDisplay(displayList.reverse());
 
-
             if (displayList.length === 1) clearInterval(timerInt);
         }, 1000);
 
@@ -41,14 +43,20 @@ const Timer = () => {
     }, []);
 
     return (
-        <Suspense>
+        <div>
             {display.length === 4 && (
                 <div className="timer-limit">
-                    NITSMUN <span style={{ color: "#eb55dc", fontFamily:'Nunito' }} className="timer-top">Annual Conference</span> 2023  starts in{" "}
+                    NITSMUN{" "}
+                    <span
+                        style={{ color: "#eb55dc", fontFamily: "Nunito" }}
+                        className="timer-top"
+                    >
+                        Annual Conference
+                    </span>{" "}
+                    2023 starts in{" "}
                 </div>
             )}
             <div id="timer">
-
                 {display.length === 4 &&
                     display.map((interval, index) => {
                         return (
@@ -62,7 +70,8 @@ const Timer = () => {
                                     </div>{" "}
                                 </div>
                                 {index < display.length - 1 &&
-                                    ((window.innerWidth < 1000 && index !== 1) ||
+                                    ((window.innerWidth < 1000 &&
+                                        index !== 1) ||
                                         window.innerWidth >= 1000) && (
                                         <div className="timer-int-colon">:</div>
                                     )}
@@ -70,7 +79,7 @@ const Timer = () => {
                         );
                     })}
             </div>
-        </Suspense>
+        </div>
     );
 };
 

@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react'
-import './Archive.css'
 import { Link } from 'react-router-dom'
+
+import './Archive.css'
 
 const Archive = () => {
     useEffect(() => {
         document.title = 'Archive | NITSMUN';
     }, []);
+
     return (
         <>
             <div className="archive-main" style={{ userSelect: 'none' }}>
@@ -60,13 +62,6 @@ const Archive = () => {
                                 />
                             </Link>
                         </div>
-                        {/* <div className='archi2-cont archi2-cont1'>
-                                <h1>2022</h1>
-                                <div className="link-btn-btm archi-im-btm">
-                                    <Link to="/nitsmun2022"><p className='p-by mock23-txt archi-modi'>NITSMUN</p></Link>
-                                    <Link to="/junior_mun"><p className='p-by mock23-txt archi-modi'>Junior MUN</p></Link>
-                                </div>
-                            </div> */}
 
                         <div className='archi2-cont archi2-cont1 alter-arch arhiuy'>
                             <h1>2022</h1>

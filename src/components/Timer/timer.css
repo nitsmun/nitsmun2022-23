@@ -1,155 +1,136 @@
 div#timer {
-    /**Position**/
     position: relative;
     top: 0;
     left: 0;
     margin: 0vh auto 2vh auto;
-  
-    /**Dimensions**/
     width: 85%;
-  
-    /**Border**/
-    border-radius: 0 0 0.6vh 0.6vh ;
+    border-radius: 0 0 0.6vh 0.6vh;
     box-sizing: border-box;
-  
-    /**Flex Container**/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-  
-    /**Content**/
     color: var(--color-8-100);
     padding: 5vh 5vh;
-  
     background-color: #451a41;
+}
 
-    
-  }
-  .timer-limit{
+.timer-limit {
     background-color: var(--color-1-100);
-    border-radius: 0.6vh 0.6vh 0vh 0vh ;
+    border-radius: 0.6vh 0.6vh 0vh 0vh;
     font-size: 1.5rem;
-
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: 85%;
     margin: auto;
     color: white;
     font-family: 'nunito', sans-serif;
     font-weight: 500;
+}
 
-
-  }
-  .timer-top{
+.timer-top {
     font-variant: small-caps;
     font-size: larger;
     font-weight: 600;
-  }
-  div#timer div.timer-limit {
+}
+
+div#timer div.timer-limit {
     width: 100%;
-  
+
     color: white;
     text-align: center;
     margin-bottom: 3vh;
     font-size: 2.9vh;
-  }
-  
-  div#timer div.timer-int {
+}
+
+div#timer div.timer-int {
     padding: 0 5vh;
     color: White;
-  }
-  
-  div.timer-int div.timer-int-value {
+}
+
+div.timer-int div.timer-int-value {
     text-align: center;
     font-size: 6.5vh;
     transition: 0.2s;
     font-weight: bold;
-  }
-  
-  div.timer-int div.timer-int-label {
+}
+
+div.timer-int div.timer-int-label {
     margin: 2vh 0;
-  font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 3vh;
-  }
-  
-  div.timer-int-colon {
+}
+
+div.timer-int-colon {
     font-size: 7vh;
     color: var(--color-6-100);
-  }
-  
-  div.coming-soon {
+}
+
+div.coming-soon {
     margin: 3vh auto;
     font-size: 5vh;
     color: var(--color-6-100);
-  }
-  
-  @media screen and (max-width: 1000px) {
-    div#timer {
-      width: 95%;
-      padding: 3vh 3vh;
-    }
-    .timer-limit{
-    font-size: 1.2rem;
-    width: 95%;
+}
 
-    
+@media screen and (max-width: 1000px) {
+    div#timer {
+        width: 95%;
+        padding: 3vh 3vh;
     }
-  
+
+    .timer-limit {
+        font-size: 1.2rem;
+        width: 95%;
+    }
+
     div#timer div.timer-limit {
-      margin-bottom: 3vw;
-      
+        margin-bottom: 3vw;
     }
-  
+
     div#timer div.timer-int {
-      padding: 0 3vh;
-      margin: 1vh 2vh 0 0;
+        padding: 0 3vh;
+        margin: 1vh 2vh 0 0;
     }
-  
+
     div.timer-int div.timer-int-value {
-      font-size: 8vw;
+        font-size: 8vw;
     }
-  
+
     div.timer-int div.timer-int-label {
-      font-size: 4vw;
+        font-size: 4vw;
     }
-  
+
     div.timer-int-colon {
-      font-size: 7vw;
+        font-size: 7vw;
     }
-  
+
     div.coming-soon {
-      font-size: 6vw;
+        font-size: 6vw;
     }
-  }
-  
-  .timer-heading h2 {
+}
+
+.timer-heading h2 {
     font-size: 5vh;
-  }
-  
-  @media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 700px) {
     .timer-heading h2 {
-      font-size: 2.5vh;
+        font-size: 2.5vh;
     }
-  }
-  
-  .apply-now {
+}
+
+.apply-now {
     margin: 2vh;
     font-size: 3vh;
     color: var(--color-1-100);
     text-align: center;
-  }
-  
-  @media screen and (max-width: 700px) {
-    .timer-limit{
+}
+
+@media screen and (max-width: 700px) {
+    .timer-limit {
         font-size: 1rem;
         width: 95%;
-    
-        
-        }
-  }
-  
-
-  
+    }
+}

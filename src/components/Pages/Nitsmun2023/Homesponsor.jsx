@@ -1,5 +1,7 @@
 import React from 'react'
+
 import './Homesponsor.css'
+
 const Homesponsor = () => {
     return (
         <>

@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
-import './wrapped2022.css'
+
+import './wrapped2022.css';
+
 const Wrapped2022 = () => {
     useEffect(() => {
         document.title = "Wrapped 2022 | NITS MUN";
     }, []);
+
     return (
         <>
             <div className="wrapped-top">

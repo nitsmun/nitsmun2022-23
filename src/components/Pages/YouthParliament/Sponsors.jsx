@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+
 import './Sponsors.css'
+
 const Sponsors = () => {
   const [transform, setTransform] = useState(false)
   const handleClick = () => {

@@ -1,4 +1,4 @@
-#main__ebb{
+#main__ebb {
     width: 85%;
     margin: 2vw auto;
     background-color: #E7B4DE;
@@ -7,25 +7,22 @@
     border-radius: 10px;
 }
 
-#nooverflow__eb{
+#nooverflow__eb {
     overflow: hidden;
     border-radius: 20px;
 }
 
-#nooverflow__eb img{
+#nooverflow__eb img {
     transition: all 0.25s ease-in-out;
-    
 }
 
-#nooverflow__eb img:hover{
+#nooverflow__eb img:hover {
     transform: scale(1.1);
     border-radius: 10px;
 }
 
-
-
-@media (max-width:660px){
-    #main__ebb{
+@media (max-width:660px) {
+    #main__ebb {
         width: 90%;
         margin: 10vw auto;
     }

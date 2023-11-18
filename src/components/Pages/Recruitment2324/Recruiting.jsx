@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import moment from "moment-timezone";
+
 import './Recruiting.css'
+
 const Recruiting = () => {
     const [name, setName] = useState("");
     const [mobileno, setMobileno] = useState("")
@@ -32,7 +34,6 @@ const Recruiting = () => {
     const [poster, setPoster] = useState("")
     const [disableotpsend, Setdisableotpsend] = useState(false)
     const [disableformsbmt, setDisableformsbmt] = useState(false)
-    // const [resume, setResume] = useState("")
     const [hideteam, setHideteam] = useState(false)
     const [hideTechnical, setHideTechnical] = useState(true)
     const [posterLink, setPosterLink] = useState(false)
@@ -275,9 +276,7 @@ const Recruiting = () => {
         setSubmitting(true);
         setDisableformsbmt(true)
         axios
-
-            // .post(process.env.REACT_APP_AXIOSPOST_RAILWAY, {
-                .post('http://localhost:9898/createUser', {
+            .post('http://localhost:9898/createUser', {
                 name,
                 mobileno,
                 whynitsmun,
@@ -295,22 +294,21 @@ const Recruiting = () => {
                 setEmail("");
                 setBranch("");
                 setScholarId("");
-                // setResume("")
                 setCaptchaAnswer("");
-                generateRandomNumbers()
-                setOtp("")
-                setPoster("")
-                setWpno("")
-                setWhyrecruit("")
-                setExperience("")
-                setAchievement("")
-                setHobby("")
-                setContent("")
-                setTeam("")
-                setPartinmun("")
-                setYesmun("")
+                generateRandomNumbers();
+                setOtp("");
+                setPoster("");
+                setWpno("");
+                setWhyrecruit("");
+                setExperience("");
+                setAchievement("");
+                setHobby("");
+                setContent("");
+                setTeam("");
+                setPartinmun("");
+                setYesmun("");
                 setSubmitting(false);
-                setDisableformsbmt(false)
+                setDisableformsbmt(false);
                 alert("Form Successfully submitted.");
             });
     };
@@ -394,14 +392,12 @@ const Recruiting = () => {
                 <div id='importantinstructionsifcont'>
                     <h2>Important instructions. Please read properly.</h2>
                     <div className="points-list-out-ul">
-
                         <p>1) Use only your institute email id for filling the form.</p>
                         <p>2) Check your Institute email inbox or SPAM folder for the otp.</p>
                         <p>3) You can only fill this form once so please be attentive while filling the form.</p>
                         <p>4) Input with placeholder * are mandatory to be filled.</p>
                         <p>5) In case of any issue while filling the form please contact <a href="https://wa.me/+918133072305" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Dorothy</span></a> or <a href="https://wa.me/+918812959563" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Ankit</span></a> or <a href="https://wa.me/+919431875819" target='_blank' rel="noreferrer"><span style={{ textDecoration: "Underline", fontFamily: "Nunito", color: "white" }}>Aditya</span></a></p>
                         <p>6) Last date to fill the form is 19th July 2023 EOD.</p>
-
                         <p id='nfoponmobile'>7) Information regarding teams can be found <a href="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/edit?usp=drivesdk" target='_blank' rel="noreferrer"><span id='spanforareason'>here.</span></a></p>
                         <iframe title='Teams Information (NITSMUN 2023-24' id='embedflyerad' src="https://docs.google.com/document/d/1r_Y4_HLBmnl7z4yT0y8owF43IH1Hlm68rCaBIDsPvmE/edit"
                         ></iframe>

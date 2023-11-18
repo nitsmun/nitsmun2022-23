@@ -1,34 +1,33 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.content-details{
+.content-details {
     width: 50%;
     margin: 1vh auto 0 auto;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.7;
-    /* text-align: justify; */
     font-family: 'Nunito', sans-serif;
     text-align: left;
     border-radius: 5vh;
     color: black !important;
 }
 
-.hold-2{
+.hold-2 {
     width: 50%;
     margin: 5vh auto 3vh auto !important;
 }
 
-.hold-2 img{
+.hold-2 img {
     width: 100%;
     object-fit: contain;
     pointer-events: none;
     box-shadow: 0 0 0.9375rem;
-  border-radius: 0.625rem;
+    border-radius: 0.625rem;
 }
 
-.title-art-details{
+.title-art-details {
     color: #666666;
     font-size: 1.125rem;
     font-weight: 900;
@@ -36,8 +35,7 @@
     margin-bottom: 2vh;
 }
 
-.article-detail-title{
-    /* width: 50%; */
+.article-detail-title {
     display: inline-block;
     border-bottom: 4px dotted var(--color-1-100);
     padding-top: 15vh;
@@ -48,45 +46,41 @@
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    
+
 }
 
-@media only screen and (max-width:660px){
-    .content-details{
+@media only screen and (max-width:660px) {
+    .content-details {
         width: 90%;
         font-size: .95rem;
         border-radius: 3vh;
     }
 
-    .hold-2{
+    .hold-2 {
         width: 90%;
     }
 
-    .article-detail-title{
+    .article-detail-title {
         font-size: 1.5rem;
         width: 90%;
         padding-top: 12vh;
     }
-
-    /* .hold-2 img{
-         box-shadow: -2px -2px 15px 2px var(--color-4-100), 2px 2px 15px 2px var(--color-6-100);
-    } */
 }
 
-@media only screen and (min-width:661px) and (max-width:990px){
-    .article-detail-title{
+@media only screen and (min-width:661px) and (max-width:990px) {
+    .article-detail-title {
         padding-top: 10vh;
     }
 }
 
-@media only screen and (max-height:500px){
-    .article-detail-title{
+@media only screen and (max-height:500px) {
+    .article-detail-title {
         padding-top: 20vh;
     }
 }
 
-@media only screen and (max-height:320px){
-    .article-detail-title{
+@media only screen and (max-height:320px) {
+    .article-detail-title {
         padding-top: 25vh;
     }
 }

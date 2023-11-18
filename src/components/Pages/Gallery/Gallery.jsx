@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react'
+
 import Scrolldown from '../../ScollDown/Scrolldown';
 import Day1 from './Day1';
 import Day2 from './Day2';
 import Day3 from './Day3';
+
 import './Gallery.css'
 const Gallery = () => {
     useEffect(() => {
         document.title = "Photographs | NITSMUN";
     }, []);
 
-    const [gal, setGal] = useState("Day1")
+    const [gal, setGal] = useState("Day1");
+
     return (
         <>
             <div className="gallery-main">

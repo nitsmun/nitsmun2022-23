@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link } from "react-router-dom";
 import Helmet from "react-helmet";
-import { Quirky } from './Dataset';
 
+import { Quirky } from './Dataset';
 
 const QuirkyDetail = () => {
     const { id } = useParams();

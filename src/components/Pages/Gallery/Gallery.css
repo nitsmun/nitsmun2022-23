@@ -1,8 +1,8 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
-.gallerytop{
+.gallerytop {
     background: url('https://res.cloudinary.com/dp92qug2f/image/upload/v1678428904/nitsmun/annual%20conference%20photos/day1/IMG_5270_qypxk2.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -12,17 +12,17 @@
     background-attachment: fixed;
 }
 
-.sdowncont{
+.sdowncont {
     position: absolute;
     top: 70%;
     left: 5%;
 }
 
-.gallery-main{
+.gallery-main {
     background-color: var(--color-1-080);
 }
 
-.gallertstrts{
+.gallertstrts {
     width: 80%;
     margin: 0 auto;
     background-color: #121212;
@@ -33,53 +33,53 @@
     padding: .5vw 1.5vw;
 }
 
-.gleryhead{
+.gleryhead {
     width: 70%;
     padding-top: 2.5vw;
     margin: 0 auto;
 }
 
-.gallertstrts h1{
+.gallertstrts h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 5.5vw;
 }
 
-.selectorgal{
+.selectorgal {
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
 
-.galactive{
-  background-color: var(--color-6-100);
-  border-radius: .2vw;
+.galactive {
+    background-color: var(--color-6-100);
+    border-radius: .2vw;
 }
 
-.galactive .galbtn{
+.galactive .galbtn {
     transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
     color: var(--color-1-100);
 }
 
-.day1strts{
+.day1strts {
     padding: .5vw 1.5vw;
     text-align: left;
     font-size: 1vw;
     line-height: 1.6;
 }
 
-.day1txt h2{
+.day1txt h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
 
-.day1potosstrts{
+.day1potosstrts {
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
     display: flex;
     flex-direction: column;
 }
 
-.indidayphotos{
+.indidayphotos {
     width: 100%;
     flex: none;
     order: 1;
@@ -87,13 +87,13 @@
     margin-bottom: 2.5vw;
 }
 
-.imgindiphotodayhlder{
+.imgindiphotodayhlder {
     width: 80%;
     height: 40vw;
     margin: 0vw auto;
 }
 
-.imgindiphotodayhlder img{
+.imgindiphotodayhlder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -104,25 +104,25 @@
 .loading {
     filter: blur(20px);
     clip-path: inset(0);
-  }
-  
-  .loaded {
+}
+
+.loaded {
     filter: blur(0px);
     transition: filter 0.8s linear;
-  }
+}
 
-  .datepubphotos{
+.datepubphotos {
     margin: 2.5vw 0;
-  }
+}
 
-  .datepubphotos h3{
+.datepubphotos h3 {
     font-size: 1vw;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-@media only screen and (max-width:660px){
-    .gallerytop{
+@media only screen and (max-width:660px) {
+    .gallerytop {
         background: url('https://res.cloudinary.com/dp92qug2f/image/upload/v1678427152/nitsmun/annual%20conference%20photos/day1/day1_9_gwgc79.webp');
         background-position: center;
         background-repeat: no-repeat;
@@ -131,9 +131,8 @@
         position: relative;
     }
 
-    .gallertstrts{
+    .gallertstrts {
         width: 100%;
-        /* margin: 0 0 0 auto; */
         background-color: #121212;
         margin-top: -10vh;
         position: relative;
@@ -142,62 +141,61 @@
         padding: .5vw 1.5vw;
     }
 
-    .gleryhead{
+    .gleryhead {
         width: 100%;
         margin: 10vw 0;
     }
 
-    .gallertstrts h1{
+    .gallertstrts h1 {
         font-size: 8.5vw;
         padding-left: 1vw;
         padding-right: 1vw;
-        /* color: var(--color-1-100); */
     }
 
-    .day1strts{
+    .day1strts {
         padding: .5vw 1.5vw;
         text-align: left;
         font-size: 3vw;
         line-height: 1.6;
     }
 
-    .selectorgal{
+    .selectorgal {
         margin-top: 15vw;
         margin-bottom: 15vw;
     }
 
-    .moredaybtn button{
+    .moredaybtn button {
         font-size: 5vw !important;
     }
 
-    .galactive{
+    .galactive {
         border-radius: 2.5vw;
         padding: 1vw;
-      }
-      
-      .galactive .galbtn{
-          border-radius: 2vw;
-          padding: .5vw 1vw;
-      }
+    }
 
-      .indidayphotos{
+    .galactive .galbtn {
+        border-radius: 2vw;
+        padding: .5vw 1vw;
+    }
+
+    .indidayphotos {
         margin-top: 5vw;
         margin-bottom: 5vw;
     }
 
-      .imgindiphotodayhlder{
+    .imgindiphotodayhlder {
         width: 95%;
         height: auto;
         margin: 0vw auto;
     }
 
-    .datepubphotos{
+    .datepubphotos {
         margin: 5vw 0;
-      }
-    
-      .datepubphotos h3{
+    }
+
+    .datepubphotos h3 {
         font-size: 3vw;
         color: var(--color-1-100);
         font-family: 'Poppins', sans-serif;
-      }
+    }
 }
