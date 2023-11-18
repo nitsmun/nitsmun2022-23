@@ -1,4 +1,4 @@
-.apply-container{
+.apply-container {
     min-height: 115vh;
     width: 100%;
     background-color: var(--color-1-100);
@@ -12,7 +12,7 @@
     background-attachment: fixed;
 }
 
-.img-apply img{
+.img-apply img {
     margin: 14vh 0 5vh 0vh;
     width: 17%;
     object-fit: contain;
@@ -56,14 +56,14 @@
           }  */
 
 
-@media only screen and (max-width: 1000px){
-    .img-apply img{
+@media only screen and (max-width: 1000px) {
+    .img-apply img {
         /* width: 8.75rem; */
         width: 11rem;
         margin-top: 13vh !important;
     }
 
-    .apply-container{
+    .apply-container {
         height: 75vh;
     }
 
@@ -77,24 +77,24 @@
 }
 
 
-@media only screen and (min-device-width: 1001px) and (max-device-width: 1025px){
-            .img-apply img{
-                width: 9.375rem;
-                padding-top: 2.5rem;
-            }
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1025px) {
+    .img-apply img {
+        width: 9.375rem;
+        padding-top: 2.5rem;
+    }
 
-            /* .apply-container a{
+    /* .apply-container a{
                 font-size: 0.875rem;
             } */
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
-    .apply-container{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+    .apply-container {
         height: 95vh;
     }
 
-    .img-apply img{
+    .img-apply img {
         width: 25rem;
         margin: 7vh 0 1vh 0vh;
         padding-top: 0.625rem;
@@ -108,8 +108,8 @@
 
 
 /* For extra small devices */
-@media only screen and (max-width:280px){
-    .img-apply img{
+@media only screen and (max-width:280px) {
+    .img-apply img {
         width: 9.375rem;
         margin-top: 10vh;
         margin-bottom: 10vw;
@@ -123,20 +123,20 @@
     } */
 }
 
-.application-btn{
+.application-btn {
     display: inline-block;
     /* display: block; */
     cursor: pointer;
     width: 70%;
     margin: 1.5vh auto;
     background-color: var(--color-4-100);
-    background-color: var( --color-1-080);
+    background-color: var(--color-1-080);
     border: 2px solid var(--color-6-100);
     color: var(--color-5-100);
     font-weight: 600;
     line-height: 1.6;
     border-radius: 1.875rem;
-    font-size:1.1875rem;
+    font-size: 1.1875rem;
     font-variant: small-caps;
     font-family: 'Poppins', sans-serif;
     letter-spacing: .5px;
@@ -144,7 +144,7 @@
     padding: 1rem 0;
 }
 
-.application-btn:hover{
+.application-btn:hover {
     transform: scale(1.02);
     color: black;
     /* font-weight: 900; */
@@ -153,25 +153,25 @@
     color: var(--color-1-100);
 }
 
-.application-btn:focus{
+.application-btn:focus {
     outline: none;
     box-shadow: 0 0 0 0.25rem #e2564f;
     transition: 0.5s;
 }
 
-.application-btn:active{
+.application-btn:active {
     box-shadow: 1px 1px 1px 1px #e2564f;
-              transform: translateY(2px);
+    transform: translateY(2px);
 }
 
-.apply-display{
+.apply-display {
     /* background-color: var(--color-1-100); */
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
 }
 
-.msg-apply{
+.msg-apply {
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
     color: transparent;
@@ -183,7 +183,7 @@
     font-weight: 900;
 }
 
-.apply-redirect{
+.apply-redirect {
     color: white;
     font-size: 2vw;
     font-family: 'Nunito', sans-serif;
@@ -191,24 +191,24 @@
     align-items: flex-start;
 }
 
-.apply-redirect:hover{
+.apply-redirect:hover {
     color: var(--color-1-080);
 }
 
-.newwindow{
+.newwindow {
     margin-bottom: .3vw;
     width: .7vw;
     height: .7vw;
 }
 
 
-@media only screen and (max-width:1000px){
-    .application-btn{
+@media only screen and (max-width:1000px) {
+    .application-btn {
         width: 90%;
         font-size: 0.875rem;
     }
 
-    .apply-redirect{
+    .apply-redirect {
         font-size: 4vw;
         width: 90%;
         border-radius: 5vw;
@@ -216,117 +216,117 @@
         padding-bottom: 1vw;
     }
 
-    .newwindow{
+    .newwindow {
         width: 1.5vw;
         height: 1.5vw;
-       
+
     }
 }
 
-@media only screen and (min-device-width: 1001px) and (max-device-width: 1025px){
-    .application-btn{
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1025px) {
+    .application-btn {
         font-size: 0.875rem;
     }
 }
 
-@media only screen and (max-width:660px){
-    .msg-apply{
+@media only screen and (max-width:660px) {
+    .msg-apply {
         font-size: 2.5rem;
     }
 
-    .apply-container{
+    .apply-container {
         background-attachment: scroll;
     }
 
-    .newwindow{
+    .newwindow {
         width: 1.5vw;
         height: 1.5vw;
         margin-bottom: 1vw;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
-    .application-btn{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+    .application-btn {
         font-size: 1.125rem;
         /* margin-top: 4vh !important; */
         /* margin: 2rem auto !important; */
     }
 
-    .apply-display{
+    .apply-display {
         padding-top: 3rem;
     }
 
-    .img-apply img{
+    .img-apply img {
         width: 25vw;
     }
 }
 
-@media only screen and (max-width:280px){
-    .application-btn{
+@media only screen and (max-width:280px) {
+    .application-btn {
         width: 90%;
         font-size: 0.625rem;
     }
 
-    .msg-apply{
+    .msg-apply {
         font-size: 2rem;
     }
 }
 
-@media only screen and (max-height:600px){
-    .application-btn{
+@media only screen and (max-height:600px) {
+    .application-btn {
         padding: .8rem 0;
         margin-top: 1.2rem !important;
         margin-bottom: 1.2rem !important;
     }
 
-    .apply-container{
+    .apply-container {
         min-height: 170vh;
     }
 }
 
 
-@media only screen and (max-height:576px){
-    .apply-container{
+@media only screen and (max-height:576px) {
+    .apply-container {
         padding-top: 10vh;
     }
 
-    .img-apply img{
+    .img-apply img {
         width: 10rem;
     }
 
-    .apply-container{
+    .apply-container {
         min-height: 160vh;
     }
 }
 
-@media only screen and (max-height:460px){
-    .apply-container{
+@media only screen and (max-height:460px) {
+    .apply-container {
         min-height: 180vh;
     }
 
-    .application-btn{
+    .application-btn {
         padding: .4rem 0;
     }
 }
 
-@media only screen and (max-height:350px){
-    .apply-container{
+@media only screen and (max-height:350px) {
+    .apply-container {
         min-height: 190vh;
     }
 }
 
-@media only screen and (max-height:320px){
-    .apply-container{
+@media only screen and (max-height:320px) {
+    .apply-container {
         min-height: 220vh;
     }
 }
 
-@media only screen and (max-height:281px){
-    .application-btn{
+@media only screen and (max-height:281px) {
+    .application-btn {
         padding: .3rem 0;
     }
 
-    .apply-container{
+    .apply-container {
         min-height: 250vh;
     }
 }

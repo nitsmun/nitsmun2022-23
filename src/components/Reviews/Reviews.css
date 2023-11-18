@@ -1,10 +1,10 @@
-.reviewstop{
+.reviewstop {
     margin-top: 5vw;
     /* padding-bottom: 1vw; */
 }
 
-.reviewstop h1{
-    color: var( --color-1-100);
+.reviewstop h1 {
+    color: var(--color-1-100);
     font-size: 2.7vw;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
@@ -13,54 +13,54 @@
 .spekrstop {
     text-align: center;
 }
- 
+
 .spekrstop h1 {
-      font-size: 3.3vw;
-      font-family: var(--srijan4-font-2);
-      font-weight: bold;
-      background: var(--srijan4-gradient-7);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
+    font-size: 3.3vw;
+    font-family: var(--srijan4-font-2);
+    font-weight: bold;
+    background: var(--srijan4-gradient-7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-  
-  .strtcpkrsmain {
+
+.strtcpkrsmain {
     margin: 5vw 0;
     position: relative;
-  }
-  
-  #speakershomemain {
+}
+
+#speakershomemain {
     background: rgba(21, 19, 26, 1);
     padding-top: 5vw;
     padding-bottom: 5vw;
-  }
-  
-  .indicarocard {
-    background-color: var( --color-1-100) !important;
+}
+
+.indicarocard {
+    background-color: var(--color-1-100) !important;
     /* background-color: grey !important; */
     display: flex;
     width: 80%;
     margin: 0 auto;
     border-radius: 39px;
     user-select: none;
-  }
-  
-  .imgholder {
+}
+
+.imgholder {
     margin-left: 10%;
     width: 20%;
     margin-top: 8%;
     margin-bottom: 8%;
     height: 25vw;
-      
+
 }
 
 .imgholder img {
-      width: 100%;
-      height: 100%;
-     pointer-events: none;
-     object-fit: cover;
-     border-radius: 1vw;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    border-radius: 1vw;
 }
 
 .spkrdesc {
@@ -69,53 +69,53 @@
     width: 55%;
     display: flex;
     flex-direction: column;
-  }
-  
-  .spkrname {
-  color:#1994a5;
+}
+
+.spkrname {
+    color: #1994a5;
     font-family: "Lato", sans-serif;
     margin-top: 20%;
     margin-bottom: 5%;
     font-size: 2vw;
     font-weight: 600;
-  }
-  
-  .detailsspkr {
+}
+
+.detailsspkr {
     background: rgba(0, 0, 0, 0.66);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: 900;
- font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.7vw;
     text-align: justify;
     margin-bottom: 5%;
     line-height: 1.6;
-  }
-  
-  .nxtarrow {
+}
+
+.nxtarrow {
     font-size: 4.2vw;
-  }
-  
-  .bckarrow {
+}
+
+.bckarrow {
     font-size: 4.2vw;
-  }
-  
-  #prevbtn:hover {
+}
+
+#prevbtn:hover {
     cursor: pointer;
-  }
-  
-  #nextbtn:hover {
+}
+
+#nextbtn:hover {
     cursor: pointer;
-  }
-  
-  #controler {
+}
+
+#controler {
     display: flex;
     justify-content: space-between;
     color: rgba(255, 255, 255, 1);
-  }
-  
-  #btndivholder {
+}
+
+#btndivholder {
     display: flex;
     justify-content: space-between;
     color: rgba(255, 255, 255, 1);
@@ -125,71 +125,73 @@
     position: absolute;
     top: 40%;
     z-index: 1;
-  }
-  
-  #paginationbtnsround {
+}
+
+#paginationbtnsround {
     display: none;
-  }
-  
-  @media only screen and (max-width: 991px) {
-    .reviewstop{
+}
+
+@media only screen and (max-width: 991px) {
+    .reviewstop {
         margin-top: 15vw;
         padding-bottom: 4vw;
     }
-    .reviewstop h1{
+
+    .reviewstop h1 {
         font-size: 6vw;
     }
-    .spekrstop  h1{
+
+    .spekrstop h1 {
         font-size: 6.3vw;
     }
-  
-  
-  @media only screen and (max-width: 660px) {
-    .spekrstop {
-      margin-bottom: 10vw;
-    }
 
-      .spekrstop h1 {
-        font-size: 8.3vw;
-      }
-    
-  
-    .indicarocard {
-      border-radius: 20px;
-      margin-bottom: 5vw;
-    }
-  
-    .nxtarrow {
-      font-size: 8.2vw;
-    }
-  
-    .bckarrow {
-      font-size: 8.2vw;
-    }
-  
-    .spkrname {
-      font-size: 3.5vw;
-      margin-top: 25%;
-    }
-  
-    .detailsspkr {
-      font-size: 2.7vw;
-      font-weight: 400;
-      margin-bottom: 5vw;
-    }
-  
-    .imgholder {
-      margin-top: 10%;
-      margin-bottom: 10%;
-    }
-  
-    #btndivholder {
-      padding-left: 0%;
-      padding-right: 0%;
-    }
 
-    #btndivholder {
-      color: var(--color-1-100) !important;
+    @media only screen and (max-width: 660px) {
+        .spekrstop {
+            margin-bottom: 10vw;
+        }
+
+        .spekrstop h1 {
+            font-size: 8.3vw;
+        }
+
+
+        .indicarocard {
+            border-radius: 20px;
+            margin-bottom: 5vw;
+        }
+
+        .nxtarrow {
+            font-size: 8.2vw;
+        }
+
+        .bckarrow {
+            font-size: 8.2vw;
+        }
+
+        .spkrname {
+            font-size: 3.5vw;
+            margin-top: 25%;
+        }
+
+        .detailsspkr {
+            font-size: 2.7vw;
+            font-weight: 400;
+            margin-bottom: 5vw;
+        }
+
+        .imgholder {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        #btndivholder {
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+
+        #btndivholder {
+            color: var(--color-1-100) !important;
+        }
     }
-}}
-  
+}

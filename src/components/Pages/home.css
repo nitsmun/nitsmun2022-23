@@ -1,10 +1,10 @@
-.glimpses h1{
+.glimpses h1 {
     color: #f1f1f1;
     font-size: 1.7rem;
     font-weight: 600;
 }
 
-.glimpses{
+.glimpses {
     width: 100%;
     text-align: center;
     padding: .625rem;
@@ -12,7 +12,7 @@
     background-color: var(--color-1-080);
 }
 
-.photo-title h1{
+.photo-title h1 {
     font-size: 2.2rem;
     font-weight: 600;
     color: var(--color-1-100);
@@ -20,12 +20,12 @@
     font-family: 'Lato', sans-serif;
 }
 
-@media screen and (max-width: 700px){
-    .photo-title h1{
+@media screen and (max-width: 700px) {
+    .photo-title h1 {
         font-size: 1.5rem;
     }
 
-    .glimpses h1{
+    .glimpses h1 {
         font-size: 1.2rem;
     }
 }

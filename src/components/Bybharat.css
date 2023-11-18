@@ -1,9 +1,9 @@
-.bybharat-top{
+.bybharat-top {
     padding-top: 3vh;
     min-height: 100vh;
 }
 
-.bybharat-top h1{
+.bybharat-top h1 {
     text-align: center;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
@@ -12,71 +12,69 @@
     display: inline-block;
 }
 
-@media only screen and (max-width:660px){
-  .bybharat-top h1{
-      font-size: 1.5rem;
-  }
+@media only screen and (max-width:660px) {
+    .bybharat-top h1 {
+        font-size: 1.5rem;
+    }
 }
 
-.bybharat-top h3{
+.bybharat-top h3 {
     text-align: center;
     color: var(--color-4-100);
     margin-top: 3vh;
 }
 
-.main-bybharat{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 7vh;
-  flex-wrap: wrap;
+.main-bybharat {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+    flex-wrap: wrap;
 }
 
-.main-indi{
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 5vh;
-}
-
-.main-indi img{
-  width: 80%;
-  object-fit: contain;
-  box-shadow: 0 0 0.9375rem;
-  border-radius: 0.625rem;
-  background: white;
-  margin: 0 auto;
-  pointer-events: none;
-}
-
-
-.p-by{
-  font-size: 1rem;
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif;
-  background-color: rgba(187,239,253,0.3);
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-  color: #1a1a1a;
-  margin-top: 3vh;
-  transition: all 0.1s ease-in-out;
-  display: inline-block;
-}
-
-.p-by:hover{
-  border-bottom: 1px solid #1a1a1a;
-  background-color: rgb(187, 239, 253);
-}
-
-
-@media only screen and (max-width:660px){
-  .main-bybharat{
+.main-indi {
+    width: 33%;
+    display: flex;
     flex-direction: column;
-    margin-top: 4vh;
-  }
+    margin-top: 5vh;
+}
 
-  .main-indi{
-    width: 99%;
-    margin: 3vh auto;
-  }
+.main-indi img {
+    width: 80%;
+    object-fit: contain;
+    box-shadow: 0 0 0.9375rem;
+    border-radius: 0.625rem;
+    background: white;
+    margin: 0 auto;
+    pointer-events: none;
+}
 
 
+.p-by {
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(187, 239, 253, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: #1a1a1a;
+    margin-top: 3vh;
+    transition: all 0.1s ease-in-out;
+    display: inline-block;
+}
+
+.p-by:hover {
+    border-bottom: 1px solid #1a1a1a;
+    background-color: rgb(187, 239, 253);
+}
+
+
+@media only screen and (max-width:660px) {
+    .main-bybharat {
+        flex-direction: column;
+        margin-top: 4vh;
+    }
+
+    .main-indi {
+        width: 99%;
+        margin: 3vh auto;
+    }
 }

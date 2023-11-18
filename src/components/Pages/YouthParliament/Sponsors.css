@@ -27,8 +27,8 @@
   cursor: pointer;
 }
 
-#just___small{
-    height: 22vw;
+#just___small {
+  height: 22vw;
   width: 22vw;
 }
 
@@ -60,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:  0 auto;
+  margin: 0 auto;
   cursor: pointer;
   opacity: 0;
   /* background-color: #e7b4deda; */
@@ -70,59 +70,59 @@
   user-select: none;
 }
 
-#just___small0{
-    height: 22vw;
+#just___small0 {
+  height: 22vw;
   width: 22vw;
   font-size: 0.7vw;
 }
 
 .included_content_time p {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-.custom___pink{
-    color: #83357C;
-    font-family: 'Poppins', sans-serif;
+.custom___pink {
+  color: #83357C;
+  font-family: 'Poppins', sans-serif;
 }
 
 
-.become__visible{
-    visibility: visible;
-    /* display: block; */
-    opacity: 1;
+.become__visible {
+  visibility: visible;
+  /* display: block; */
+  opacity: 1;
 }
 
-.custom___bg{
-    background-color: #e7b4de;
+.custom___bg {
+  background-color: #e7b4de;
 }
 
-@media (max-width:660px){
-    .time_img_holder {
-        height: 70vw;
-        width: 70vw;
-        margin: 6vw auto 10vw auto;
-      }
-      
-      .included_content_time {
-        padding: 3vw;
-        height: 70vw;
-        width: 70vw;
-        font-size: 2.1vw;
-      }
+@media (max-width:660px) {
+  .time_img_holder {
+    height: 70vw;
+    width: 70vw;
+    margin: 6vw auto 10vw auto;
+  }
 
-      #just___small{
-          height: 55vw;
-        width: 55vw;
-      }
+  .included_content_time {
+    padding: 3vw;
+    height: 70vw;
+    width: 70vw;
+    font-size: 2.1vw;
+  }
 
-      #just___small0{
-        height: 55vw;
-      width: 55vw;
-      font-size: 1.8vw;
-    }
+  #just___small {
+    height: 55vw;
+    width: 55vw;
+  }
 
-    .sponsors_title {
-        /* margin-top: 10vw; */
-        font-size: 4.5vw;
-      }
+  #just___small0 {
+    height: 55vw;
+    width: 55vw;
+    font-size: 1.8vw;
+  }
+
+  .sponsors_title {
+    /* margin-top: 10vw; */
+    font-size: 4.5vw;
+  }
 }

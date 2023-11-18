@@ -1,4 +1,4 @@
-.scroll-to-top{
+.scroll-to-top {
     position: fixed;
     bottom: 12px;
     right: 2%;
@@ -12,23 +12,24 @@
     cursor: pointer;
 }
 
-.scroll-to-top .icon{
+.scroll-to-top .icon {
     margin-top: 10px;
     animation: scrollTop 0.5s alternate ease infinite;
 }
 
 
 @keyframes scrollTop {
-    from{
+    from {
         transform: translateY(2px);
     }
-    to{
+
+    to {
         transform: translateY(-1px)
     }
 }
 
-@media screen and (max-width:676px){
-    .scroll-to-top{
+@media screen and (max-width:676px) {
+    .scroll-to-top {
         right: 5%;
     }
 }

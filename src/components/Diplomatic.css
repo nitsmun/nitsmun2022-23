@@ -1,4 +1,4 @@
-.diplomatic-insta{
+.diplomatic-insta {
     width: 80%;
     margin: 2vh auto;
     display: flex;
@@ -6,17 +6,17 @@
     flex-wrap: wrap;
 }
 
-.insta{
+.insta {
     width: 39%;
     text-align: center;
     margin: .6rem 0;
 }
 
-.insta:hover{
+.insta:hover {
     transform: translateY(-1px);
 }
 
-.insta h2{
+.insta h2 {
     font-size: 1.4rem;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@
     border-bottom: 3.5px dotted var(--color-1-100);
 }
 
-.insta-vid{
+.insta-vid {
     width: 99%;
     margin: 2vh 0;
     min-height: 75vh;
@@ -35,26 +35,28 @@
     border-radius: 0.625rem;
 }
 
-@media only screen and (max-width:1200px) and (min-width:661px){
-    .insta-vid{
+@media only screen and (max-width:1200px) and (min-width:661px) {
+    .insta-vid {
         min-height: 35vh;
     }
 }
-@media only screen and (max-width:660px){
-    .diplomatic-insta{
+
+@media only screen and (max-width:660px) {
+    .diplomatic-insta {
         width: 100%;
         flex-direction: column;
     }
 
-    .insta{
+    .insta {
         width: 85%;
         margin: .4rem auto;
     }
 
-    .insta h2{
+    .insta h2 {
         font-size: 1.1rem;
     }
-    .insta-vid{
+
+    .insta-vid {
         min-height: 59vh;
         height: auto;
     }

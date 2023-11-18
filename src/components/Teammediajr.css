@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.team-head2{
+
+.team-head2 {
     width: 89%;
     border-bottom: 3px solid var(--color-1-100);
     text-align: center;
@@ -7,14 +8,14 @@
     border-radius: 4px;
 }
 
-.team-head2 h1{
+.team-head2 h1 {
     font-size: 3.125rem;
     font-weight: 600;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
 }
 
-.team-img2{
+.team-img2 {
     width: 10.625rem;
     height: 10.625rem;
     border-radius: 1.875rem;
@@ -25,7 +26,7 @@
     /* pointer-events: none; */
 }
 
-.team-stats-card2{
+.team-stats-card2 {
     display: flex;
     width: 97.5%;
     position: relative;
@@ -37,7 +38,7 @@
     margin-right: auto;
 }
 
-.team-stats2{
+.team-stats2 {
     background: linear-gradient(135deg, #2c1964 50%, #6f38b4 100%);
     margin: 1.25rem;
     border-radius: 1.25rem;
@@ -47,16 +48,16 @@
     position: relative;
 }
 
-.team-stats2:hover{
+.team-stats2:hover {
     transform: scale(1.04);
     box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
 }
 
-.team-stats2:hover .team-img2{
+.team-stats2:hover .team-img2 {
     opacity: 1;
 }
 
-.team-stats2 h1{
+.team-stats2 h1 {
     padding: 1.0625rem 0.625rem;
     text-align: center;
     color: whitesmoke;
@@ -65,52 +66,53 @@
     letter-spacing: 0.5px;
 }
 
-.team-stats2 h2{
+.team-stats2 h2 {
     color: white;
     font-size: 1.0rem;
     text-align: center;
-    padding:0.3125rem 1.25rem 0.9375rem 1.25rem;
+    padding: 0.3125rem 1.25rem 0.9375rem 1.25rem;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 992px){
-    .team-head2{
-        margin:7vh auto 2vh auto;
+@media screen and (max-width: 992px) {
+    .team-head2 {
+        margin: 7vh auto 2vh auto;
         width: 95%;
-        }
-        .team-head2 h1{
-            font-size: 6vw;
-            font-weight: 600;
-        }
+    }
 
-    .team-stats-card2{
+    .team-head2 h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    .team-stats-card2 {
         padding: 1vw 0;
     }
 
-    .team-stats2{
-    width: 43%;
-    margin: 2vw;
-    border-radius: 30px;
-    padding: 2.5vw 2vw;
+    .team-stats2 {
+        width: 43%;
+        margin: 2vw;
+        border-radius: 30px;
+        padding: 2.5vw 2vw;
     }
 
-    .team-img2{
-    height: auto;
-    max-width: 17.5rem;
-    aspect-ratio: 1/1;
-    padding: 0.625rem;
-    overflow: hidden;
+    .team-img2 {
+        height: auto;
+        max-width: 17.5rem;
+        aspect-ratio: 1/1;
+        padding: 0.625rem;
+        overflow: hidden;
     }
 
 
-    .team-stats2 h1{
-    font-size: 3.5vw;
-    padding: 0.625rem 0.625rem;
-    letter-spacing: 0.3px;
+    .team-stats2 h1 {
+        font-size: 3.5vw;
+        padding: 0.625rem 0.625rem;
+        letter-spacing: 0.3px;
     }
-    
-    .team-stats2 h2{
+
+    .team-stats2 h2 {
         font-size: 2.2vw;
         letter-spacing: 0.4px;
         padding: 0.125rem 0.625rem 0.9375rem 0.625rem;
@@ -118,17 +120,17 @@
 }
 
 
-@media only screen and (max-width:320px){
-    .team-img2{
+@media only screen and (max-width:320px) {
+    .team-img2 {
         height: 6.5rem !important;
         width: 6.5rem !important;
     }
- }
+}
 
 
- @media only screen and (max-width:660px){
-    .team-img2{
+@media only screen and (max-width:660px) {
+    .team-img2 {
         height: 7.5rem;
-         width: 7.5rem;
+        width: 7.5rem;
     }
 }

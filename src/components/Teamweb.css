@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.team-head5{
+
+.team-head5 {
     width: 89%;
     border-bottom: 3px solid var(--color-1-100);
     text-align: center;
@@ -7,14 +8,14 @@
     border-radius: 4px;
 }
 
-.team-head5 h1{
+.team-head5 h1 {
     font-size: 50px;
     font-weight: 600;
     color: var(--color-1-100);
     font-family: 'Poppins', sans-serif;
 }
 
-.team-img5{
+.team-img5 {
     width: 10.625rem;
     height: 10.625rem;
     border-radius: 1.875rem;
@@ -25,7 +26,7 @@
     aspect-ratio: 1/1;
 }
 
-.team-stats-card5{
+.team-stats-card5 {
     display: flex;
     width: 97.5%;
     position: relative;
@@ -37,7 +38,7 @@
     margin-right: auto;
 }
 
-.team-stats5{
+.team-stats5 {
     background: linear-gradient(135deg, #2c1964 50%, #6f38b4 100%);
     margin: 1.25rem;
     border-radius: 20px;
@@ -47,16 +48,16 @@
     position: relative;
 }
 
-.team-stats5:hover{
+.team-stats5:hover {
     transform: scale(1.04);
     box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
 }
 
-.team-stats5:hover .team-img5{
+.team-stats5:hover .team-img5 {
     opacity: 1;
 }
 
-.team-stats5 h1{
+.team-stats5 h1 {
     padding: 1.0625rem 0.625rem;
     text-align: center;
     color: whitesmoke;
@@ -65,52 +66,52 @@
     letter-spacing: 0.5px;
 }
 
-.team-stats5 h2{
+.team-stats5 h2 {
     color: white;
     font-size: 1.0rem;
     text-align: center;
-    padding:0.3125rem 1.25rem 0.9375rem 1.25rem;
+    padding: 0.3125rem 1.25rem 0.9375rem 1.25rem;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 992px){
-    .team-head5{
-        margin:7vh auto 2vh auto;
+@media screen and (max-width: 992px) {
+    .team-head5 {
+        margin: 7vh auto 2vh auto;
         width: 95%;
-        }
+    }
 
-        .team-head5 h1{
-            font-size: 6vw;
-            font-weight: 600;
-        }
+    .team-head5 h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
 
-    .team-stats-card5{
+    .team-stats-card5 {
         padding: 1vw 0;
     }
 
-    .team-stats5{
-    width: 43%;
-    margin: 2vw;
-    border-radius: 30px;
-    padding: 2.5vw 2vw;
+    .team-stats5 {
+        width: 43%;
+        margin: 2vw;
+        border-radius: 30px;
+        padding: 2.5vw 2vw;
     }
 
-    .team-img5{
-    height: auto;
-    max-width: 17.5rem;
-    aspect-ratio: 1/1;
-    padding: 0.625rem;
-    overflow: hidden;
+    .team-img5 {
+        height: auto;
+        max-width: 17.5rem;
+        aspect-ratio: 1/1;
+        padding: 0.625rem;
+        overflow: hidden;
     }
 
-    .team-stats5 h1{
-    font-size: 3.5vw;
-    padding: 0.625rem 0.625rem;
-    letter-spacing: 0.3px;
+    .team-stats5 h1 {
+        font-size: 3.5vw;
+        padding: 0.625rem 0.625rem;
+        letter-spacing: 0.3px;
     }
 
-    .team-stats5 h2{
+    .team-stats5 h2 {
         font-size: 2.2vw;
         letter-spacing: 0.4px;
         padding: 0.125rem 0.625rem 0.9375rem 0.625rem;
@@ -119,13 +120,16 @@
 
 
 /* Social media icon css */
-.social-media{
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
+.btn-icon2,
+.btn-icon3,
+.btn-icon1,
+.btn-icon4 {
     display: flex;
     justify-content: center;
     /* background-color: #a2d66271; */
@@ -140,8 +144,12 @@
     height: 2.0625rem;
 }
 
-@media screen and (max-width:676px){
-    .btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
+@media screen and (max-width:676px) {
+
+    .btn-icon2,
+    .btn-icon3,
+    .btn-icon1,
+    .btn-icon4 {
         margin: 0.25rem;
         height: 1.75rem;
         width: 1.75rem;
@@ -149,63 +157,66 @@
 }
 
 
-.btn-icon1:hover{
+.btn-icon1:hover {
     /* background-color: #00695d; */
     background-color: #ffffff;
 }
 
-.btn-icon2:hover{
+.btn-icon2:hover {
     background-color: #0072b1;
 }
 
-.btn-icon3:hover{
-    background-color:#4267B2;
+.btn-icon3:hover {
+    background-color: #4267B2;
 }
 
-.btn-icon4:hover{
+.btn-icon4:hover {
     background-color: #000000;
 }
 
 
-.icon-color, .icon-color1, .icon-color2, .icon-color3 {
+.icon-color,
+.icon-color1,
+.icon-color2,
+.icon-color3 {
     color: var(--color-15-100);
     font-weight: 900;
     padding: 0.125rem !important;
 }
 
 /*Important */
-.btn-icon1:hover .icon-color{
+.btn-icon1:hover .icon-color {
     color: rgb(251, 62, 62);
     font-weight: 900;
     transition: 0.15s ease-in-out;
 }
 
-.btn-icon2:hover .icon-color1{
+.btn-icon2:hover .icon-color1 {
     color: white !important;
     transition: 0.15s ease-in-out;
 }
 
-.btn-icon3:hover .icon-color2{
+.btn-icon3:hover .icon-color2 {
     color: white !important;
     transition: 0.15s ease-in-out;
 }
 
-.btn-icon4:hover .icon-color3{
+.btn-icon4:hover .icon-color3 {
     color: white !important;
     transition: 0.15s ease-in-out;
 }
 
-@media only screen and (max-width:320px){
-    .team-img5{
+@media only screen and (max-width:320px) {
+    .team-img5 {
         height: 6.5rem !important;
         width: 6.5rem !important;
     }
- }
+}
 
 
- @media only screen and (max-width:660px){
-    .team-img5{
+@media only screen and (max-width:660px) {
+    .team-img5 {
         height: 7.5rem;
-         width: 7.5rem;
+        width: 7.5rem;
     }
 }

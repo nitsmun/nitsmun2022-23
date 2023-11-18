@@ -1,123 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
 .dir-img {
-  width: 20vw;
-  height: 20vw;
-  border-radius: 10%;
-  pointer-events: none;
-  box-shadow: 0 0 0.9375rem;
-  border-radius: 0.625rem;
-  object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    pointer-events: none;
+    box-shadow: 0 0 0.9375rem;
+    border-radius: 0.625rem;
+    object-fit: cover;
 }
 
 .msg-secretary {
-  margin-bottom: -50px;
-  padding-top: 2.5rem;
-  background-color: rgb(171, 118, 118);
-  /* width: 90%; */
+    margin-bottom: -50px;
+    padding-top: 2.5rem;
+    background-color: rgb(171, 118, 118);
+    /* width: 90%; */
 }
 
 .sec-main1 {
-  display: flex;
-  background-color: rgba(250, 247, 241, 0.438);
-  padding-top: 0em;
-  padding-bottom: 3em;
-  box-shadow: 0.1875rem brown;
+    display: flex;
+    background-color: rgba(250, 247, 241, 0.438);
+    padding-top: 0em;
+    padding-bottom: 3em;
+    box-shadow: 0.1875rem brown;
 }
+
 .sec-text {
-  text-align: justify;
-  color: #f1f1f1;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: .2px;
-  font-weight: 18.75rem;
+    text-align: justify;
+    color: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: .2px;
+    font-weight: 18.75rem;
 }
+
 .sec-padding1 {
-  padding-left: 5%;
-  /* padding-bottom: 35em; */
+    padding-left: 5%;
+    /* padding-bottom: 35em; */
 }
+
 .sec-padding2 {
-  padding-right: 5%;
+    padding-right: 5%;
 }
+
 .sec-padding3 {
-  padding-left: 5%;
+    padding-left: 5%;
 }
+
 .sec-head1 {
-  text-align: center;
-  color: #161c2f;
-  font-size: 2.5em;
-  font-variant: small-caps;
+    text-align: center;
+    color: #161c2f;
+    font-size: 2.5em;
+    font-variant: small-caps;
 }
 
 .dir-imgcon {
-  /* padding-top: 5%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-@media only screen and (max-width: 1000px) {
-  .sec-main1 {
-    padding-top: 2.5em;
-  }
-  .sec-nme {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .sec-main1 {
+    /* padding-top: 5%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  .sec-nme {
-    display: none;
-  }
-  .sec-head1 {
-    text-align: center;
-    color: #161c2f;
-    font-size: 1.5em;
-    margin-bottom: 1.25rem; /*additional */
-  }
-  
-  .sec-img {
-    margin-bottom: 2.5rem;
-  }
+}
 
-  .dir-img{
-    width: 40vw;
-    height: 35vw;
-  }
+@media only screen and (max-width: 1000px) {
+    .sec-main1 {
+        padding-top: 2.5em;
+    }
+
+    .sec-nme {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sec-main1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .sec-nme {
+        display: none;
+    }
+
+    .sec-head1 {
+        text-align: center;
+        color: #161c2f;
+        font-size: 1.5em;
+        margin-bottom: 1.25rem;
+        /*additional */
+    }
+
+    .sec-img {
+        margin-bottom: 2.5rem;
+    }
+
+    .dir-img {
+        width: 40vw;
+        height: 35vw;
+    }
 }
 
 .sec-nme {
-  font-size: 1.25rem;
-  color: #212529;
-  padding-top: 0.9375rem;
-  font-weight: 700;
-  font-family: "Roboto Mono", monospace;
+    font-size: 1.25rem;
+    color: #212529;
+    padding-top: 0.9375rem;
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
 }
 
-.dir-2{
-  background-color: white !important;
+.dir-2 {
+    background-color: white !important;
 }
 
-.dir-imge{
-  margin-top: 10vh;
+.dir-imge {
+    margin-top: 10vh;
 }
 
-@media only screen and (max-width:990px){
-  .dir-imge{
-    margin-top: 0 !important;
-  }
+@media only screen and (max-width:990px) {
+    .dir-imge {
+        margin-top: 0 !important;
+    }
 }
 
-@media only screen and (max-width:660px){
-  .dir-img{
-    width: 55vw;
-    height: 50vw;
-  }
+@media only screen and (max-width:660px) {
+    .dir-img {
+        width: 55vw;
+        height: 50vw;
+    }
 }

@@ -1,32 +1,32 @@
 .cont_parent0 {
-  padding-top: 2.5vw;
-  width: 85%;
-padding-bottom: 5vw;
-  background-color: #E7B4DE;
-margin: 3vw auto;
-border: 2px solid #794894;
-border-radius: 20px;
-box-shadow: 0px 0px 20px 0px #00000099;
+    padding-top: 2.5vw;
+    width: 85%;
+    padding-bottom: 5vw;
+    background-color: #E7B4DE;
+    margin: 3vw auto;
+    border: 2px solid #794894;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px #00000099;
 }
 
 .cont_parent0 h1 {
-  color: #3c1784;
-  font-weight: 700;
-  font-family: "Inter", sans-serif;
-  font-size: 2.25vw;
-  /* border-bottom: 3px solid #5A4894; */
-  text-decoration: underline;
-  display: inline-block;
+    color: #3c1784;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 2.25vw;
+    /* border-bottom: 3px solid #5A4894; */
+    text-decoration: underline;
+    display: inline-block;
 }
 
-#flex_agendas{
+#flex_agendas {
     display: flex;
     margin-top: 2vw;
     padding-left: 3vw;
     padding-right: 3vw;
 }
 
-.child_agenda1{
+.child_agenda1 {
     width: 44vw;
     background-color: white;
     height: 50vh;
@@ -39,22 +39,22 @@ box-shadow: 0px 0px 20px 0px #00000099;
 }
 
 
-#agenda2{
+#agenda2 {
     margin-left: 5vw;
 }
 
-#img__hoder_agendas{
+#img__hoder_agendas {
     width: 100%;
     position: relative;
     height: 100%;
 }
 
-#content___main{
+#content___main {
     position: absolute;
     top: 0%;
     background-color: #542f85c7;
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
     border: 1px solid #000000;
     padding: 1.5vw;
     border-radius: 10px;
@@ -64,7 +64,7 @@ box-shadow: 0px 0px 20px 0px #00000099;
     color: white;
 }
 
-#content___main__h1{
+#content___main__h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     color: white;
@@ -73,7 +73,7 @@ box-shadow: 0px 0px 20px 0px #00000099;
     margin: 2vw auto;
 }
 
-#content___main__p{
+#content___main__p {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: white;
@@ -82,32 +82,33 @@ box-shadow: 0px 0px 20px 0px #00000099;
     line-height: 1.6;
 }
 
-#img__hoder_agendas img{
+#img__hoder_agendas img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
 }
 
-#img__hoder_agendas:hover #content___main{
+#img__hoder_agendas:hover #content___main {
     visibility: visible;
     opacity: 1;
 }
 
-@media (max-width:660px){
-    .cont_parent0{
+@media (max-width:660px) {
+    .cont_parent0 {
         padding-bottom: 0vw;
         margin-bottom: 10vw;
         width: 90%;
         margin-top: 10vw;
     }
+
     .cont_parent0 h1 {
         margin-top: 4vw;
         margin-bottom: 2vw;
         font-size: 5vw;
-      }
+    }
 
-    #flex_agendas{
+    #flex_agendas {
         display: flex;
         flex-direction: column;
         margin-top: 5vw;
@@ -115,7 +116,7 @@ box-shadow: 0px 0px 20px 0px #00000099;
         padding-right: 3vw; */
     }
 
-    .child_agenda1{
+    .child_agenda1 {
         width: 97%;
         background-color: white;
         min-height: 50vh;
@@ -123,20 +124,19 @@ box-shadow: 0px 0px 20px 0px #00000099;
         margin-right: auto;
         padding: 3vw;
     }
-    
-    
-    #agenda2{
+
+
+    #agenda2 {
         margin: 8vw auto;
     }
 
-    #content___main__h1{
+    #content___main__h1 {
         font-size: 4.25vw;
         text-decoration: none;
         margin: 8vw auto;
     }
-    
-    #content___main__p{
+
+    #content___main__p {
         font-size: 3vw;
-   
     }
 }

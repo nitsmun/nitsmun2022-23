@@ -3,57 +3,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  -webkit-tap-highlight-color: transparent;
-  font-family: 'Montserrat','Varela Round','Caveat', cursive, 'Inter', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Montserrat', 'Varela Round', 'Caveat', cursive, 'Inter', sans-serif;
 }
-::-webkit-scrollbar{
-  width: 7px;
+
+::-webkit-scrollbar {
+    width: 7px;
 }
-::-webkit-scrollbar-track{
-  background: var(--color-16-100);
+
+::-webkit-scrollbar-track {
+    background: var(--color-16-100);
 }
-::-webkit-scrollbar-thumb{
-  background: var(--color-16-080);
-  border-radius: 25px;
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-16-080);
+    border-radius: 25px;
 }
-::-webkit-scrollbar-thumb:hover{
-  background-image: var(--color-16-060);
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: var(--color-16-060);
 }
 
 .swiper-slide-prev,
 .swiper-slide-next {
- opacity: 0.75;
-  transition: 1s ease-in-out;
+    opacity: 0.75;
+    transition: 1s ease-in-out;
 }
 
 :root {
 
-  /* --color-1-100: #00334e navbar,agenda stroke, all other headings unlined; */
-  --color-1-100: #5a4894 /*navbar,agenda stroke, all other headings unlined*/;
-  /* --color-1-080: #1e3d72 nav scroll, nav drop down bg; */
-  --color-1-080: #794894; /*nav scroll, nav drop down bg*/;
-  --color-2-100: #4effbf /*nav hover, register now words when hovered*/;
-  --color-3-100: #FFF500 /*nav button onactive*/;
-  --color-4-100: #2D7D88 /*register now bg, timer bg, all other headings with rectangular shape bg*/;
-  --color-5-100: #ffffff /*words on the timer, register button,all other words on rectangular shape bg, body*/;
-  --color-6-100: #fadbff /*register now hover*/;
-  --color-7-100: #000000 /*date of junior mun only 06-08-2022 and other numbers on timer*/;
-  --color-8-100: #01335B /*lower footer*/;
-  --color-9-100: #2D7D88 /*upper footer, scroll up*/;
-  --color-10-100: #ffffff /*media icons bg footer, FAQs bg*/;
-  --color-11-100: #D8F0F8 /*bg of secretary general*/;
-  --color-12-100: #135D78 /*commitee bg*/;
-  --color-13-100: #1994A5 /*agenda bg*/;
-  --color-14-100: #145E79 /*FAQs question and answer bars*/;
-  --color-14-038: #A1BBC0 /*FAQs question bar when hovered*/;
-  --color-15-100: #35627b; /* Team card*/
-  --color-17-100: rgba(250, 247, 241, 0.619);
-  --color-16-100: #5a4894; /*scrollbar track*/;
-  --color-16-080: linear-gradient(135deg, #ff7cae 50%, #6f38b4 100%); /*scrollbar thumb*/;
-  --color-16-060: linear-gradient(135deg, #6f38b4 50%, #ff7cae 100%); /*scrollbar hover*/;
+    /* --color-1-100: #00334e navbar,agenda stroke, all other headings unlined; */
+    --color-1-100: #5a4894
+        /*navbar,agenda stroke, all other headings unlined*/
+    ;
+    /* --color-1-080: #1e3d72 nav scroll, nav drop down bg; */
+    --color-1-080: #794894;
+    /*nav scroll, nav drop down bg*/
+    ;
+    --color-2-100: #4effbf
+        /*nav hover, register now words when hovered*/
+    ;
+    --color-3-100: #FFF500
+        /*nav button onactive*/
+    ;
+    --color-4-100: #2D7D88
+        /*register now bg, timer bg, all other headings with rectangular shape bg*/
+    ;
+    --color-5-100: #ffffff
+        /*words on the timer, register button,all other words on rectangular shape bg, body*/
+    ;
+    --color-6-100: #fadbff
+        /*register now hover*/
+    ;
+    --color-7-100: #000000
+        /*date of junior mun only 06-08-2022 and other numbers on timer*/
+    ;
+    --color-8-100: #01335B
+        /*lower footer*/
+    ;
+    --color-9-100: #2D7D88
+        /*upper footer, scroll up*/
+    ;
+    --color-10-100: #ffffff
+        /*media icons bg footer, FAQs bg*/
+    ;
+    --color-11-100: #D8F0F8
+        /*bg of secretary general*/
+    ;
+    --color-12-100: #135D78
+        /*commitee bg*/
+    ;
+    --color-13-100: #1994A5
+        /*agenda bg*/
+    ;
+    --color-14-100: #145E79
+        /*FAQs question and answer bars*/
+    ;
+    --color-14-038: #A1BBC0
+        /*FAQs question bar when hovered*/
+    ;
+    --color-15-100: #35627b;
+    /* Team card*/
+    --color-17-100: rgba(250, 247, 241, 0.619);
+    --color-16-100: #5a4894;
+    /*scrollbar track*/
+    ;
+    --color-16-080: linear-gradient(135deg, #ff7cae 50%, #6f38b4 100%);
+    /*scrollbar thumb*/
+    ;
+    --color-16-060: linear-gradient(135deg, #6f38b4 50%, #ff7cae 100%);
+    /*scrollbar hover*/
+    ;
 }
