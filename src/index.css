@@ -7,6 +7,30 @@
 .clearfix{
   clear:both;
 }
+
+.team__img__holder{
+  width: 10.625rem;
+  height: 10.625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 660px){
+  .team__img__holder{
+    width: 8rem !important;
+    height: 8rem !important;
+    overflow: hidden !important;
+    /* margin-bottom: 2vw; */
+  }
+}
+
+/* @media screen and (max-width: 300px){
+  .team__img__holder{
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+} */
+
 a{
   text-decoration:none;
   transition:all 500ms ease;

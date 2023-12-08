@@ -45,7 +45,7 @@ const Teamresearchjr = () => {
         {Secretariatresearchjr.map((item) => {
           return (
             <div key={item.id} className="team-stats3">
-              <div>
+              <div className="team__img__holder">
                 <center>
                   <img
                     className={`${loaded ? "loaded" : "loading"} team-img3`}

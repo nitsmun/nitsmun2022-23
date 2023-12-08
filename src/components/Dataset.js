@@ -317,7 +317,7 @@ export const Secretariatjr = [
   {
     id: 1,
     cName: "team-sec",
-    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676475732/events/nitsmun/aditi_MUN_o2zaxx.jpg",
+    imgsrc: "https://res.cloudinary.com/dp92qug2f/image/upload/v1702060578/aditi_mam_jzxicx.webp",
     alt: "Aditi Archita Khataniar",
     name: "Aditi Archita Khataniar",
     post: "Deputy Director General",
@@ -894,6 +894,24 @@ export const Secretariatwebjr = [
       </>
     ),
   },
+  {
+    id: 2,
+    cName: "team-sec",
+    imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1700683185/nitsmun/bitopan-img_h61um4.webp",
+    alt: "Bitopan Baishya",
+    name: "Bitopan Baishya",
+    post: "Web Development Team",
+    mail: "mailto:bitopanbaishya2@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bitopanbaishya",
+    fb: "https://github.com/BitopanBaishya",
+    icon0: (
+      <>
+        <button className="btn-icon4">
+          <ImGithub className="icon-color3" size={26} />
+        </button>{" "}
+      </>
+    ),
+  },
   // {
   //   id: 2,
   //   cName: "team-sec",
@@ -914,7 +932,7 @@ export const Secretariatwebjr = [
   //   ),
   // },
   {
-    id: 2,
+    id: 3,
     cName: "team-sec",
     imgsrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1695931104/nitsmun/samarjit_yzad4o.webp",
     alt: "Samarjit Roy",

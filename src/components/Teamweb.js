@@ -46,7 +46,7 @@ const Teamweb = () => {
         {Secretariatwebjr.map((item) => {
           return (
             <div key={item.id} className="team-stats5">
-              <div>
+              <div className="team__img__holder">
                 <center>
                   <img
                     className={`${loaded ? "loaded" : "loading"} team-img5`}

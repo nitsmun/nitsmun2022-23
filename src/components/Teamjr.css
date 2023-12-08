@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .team-img1 {
-  width: 10.625rem;
-  height: 10.625rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
   border-radius: 1.875rem;
   opacity: 0.85;
   padding: 1.25rem;

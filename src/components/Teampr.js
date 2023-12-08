@@ -45,7 +45,7 @@ const Teampr = () => {
         {Secretariatprjr.map((item) => {
           return (
             <div key={item.id} className="team-stats4">
-              <div>
+              <div className="team__img__holder">
                 <center>
                   <img
                     className={`${loaded ? "loaded" : "loading"} team-img4`}

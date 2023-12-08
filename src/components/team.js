@@ -72,7 +72,7 @@ const Team = () => {
         {Secretariat.map((item) => {
           return (
             <div key={item.id} className="team-stats">
-              <div>
+              <div className="team__img__holder">
                 <center>
                   <img
                     src={""}

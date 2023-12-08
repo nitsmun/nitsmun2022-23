@@ -15,8 +15,9 @@
 }
 
 .team-img5{
-    width: 10.625rem;
-    height: 10.625rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
     border-radius: 1.875rem;
     opacity: 0.85;
     padding: 1.25rem;

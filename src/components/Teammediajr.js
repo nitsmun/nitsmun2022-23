@@ -45,7 +45,7 @@ const Teammediajr = () => {
         {Secretariatmediajr.map((item) => {
           return (
             <div key={item.id} className="team-stats2">
-              <div>
+              <div className="team__img__holder">
                 <center>
                   <img
                     className={`${loaded ? "loaded" : "loading"} team-img2`}
